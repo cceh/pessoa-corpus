@@ -1,0 +1,9 @@
+
+
+*.gitignore
+*.properties
+*.xpr
+*.xar
+*.*~
+
+build.xml

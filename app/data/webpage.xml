@@ -2373,6 +2373,82 @@
                     </text>
                 </group>
             </text>
+            <text xml:id="versions">
+                <group>
+                    <text xml:lang="en">
+                        <body>
+                            <div>
+                                <head>Versions</head>
+                                <p>The repository of the web application and the corpus repository are versioned 
+                                    separately and archived via Zenodo according to the following scheme: 
+                                    [major version number (Mv)], [minor version number (mv)], [revision number (rv)].</p>
+                                <p>For the web application, this scheme is followed in accordance with the conventions 
+                                    for software versioning: the major version number indicates significant changes to 
+                                    the program, the minor version number indicates functional enhancements to the
+                                    program and the revision number indicates minor changes, in particular bug fixes. 
+                                    For the corpus repository, the major version number indicates a substantial expansion 
+                                    of the corpus content, the minor version number indicates additions of individual texts
+                                    or certain types of data (e.g., additional export formats, register data or coding) 
+                                    and the revision number indicates changes to individual passages in the texts/data 
+                                    or the coding, in particular to correct errors. The version is, thus, defined 
+                                    according to the following model, in which A refers to the web application and 
+                                    C to the corpus: A[Mv].[mv].[rv]-C[Mv].[mv].[rv].</p>
+                                <p>Current version <ref target="https://github.com/cceh/pessoa/releases/tag/A2.0.0">A2.0.0</ref>-<ref target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0">C2.0.0</ref></p>
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="pt">
+                        <body>
+                            <div>
+                                <head>Versões</head>
+                                <p>O repositório do aplicativo Web e o repositório de corpus são versionados 
+                                    separadamente e arquivados via Zenodo de acordo com o seguinte esquema: 
+                                    [número da versão principal (vp)], [número da versão secundária (vs)], 
+                                    [número da revisão (rv)]. </p>
+                                <p>Para o aplicativo da Web, esse esquema é seguido de acordo com as convenções
+                                    de versionamento de software: o número da versão principal indica alterações 
+                                    significativas no programa, o número da versão secundária indica aprimoramentos 
+                                    funcionais no programa e o número da revisão indica alterações menores, 
+                                    especialmente correções de bugs. No caso do repositório de corpus, o número da 
+                                    versão principal indica uma expansão substancial do conteúdo do corpus, o número 
+                                    da versão secundária indica acréscimos de textos individuais ou determinados 
+                                    tipos de dados (por exemplo, formatos de exportação adicionais, dados de registro 
+                                    ou código) e o número da revisão indica alterações em passagens individuais nos 
+                                    textos/dados ou no código, especialmente para corrigir erros. A versão é, portanto, 
+                                    definida de acordo com o seguinte modelo, no qual A se refere ao aplicativo da Web 
+                                    e C ao corpus: A[vp].[vs].[rv]-C[vp].[vs].[rv].</p>
+                                    
+                                <p>Versão atual <ref target="https://github.com/cceh/pessoa/releases/tag/A2.0.0">A2.0.0</ref>-<ref target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0">C2.0.0</ref></p>
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="de">
+                        <body>
+                            <div>
+                                <head>Versionen</head>
+                                <p>Das Repositorium der Webanwendung und das Korpus-Repositorium 
+                                    werden separat versioniert und über Zenodo nach dem folgenden 
+                                    Schema archiviert: [Hauptversionsnummer (Hv)], [Nebenversionsnummer (Nv)], 
+                                    [Revisionsnummer (rv)]. </p>
+                                <p>Für die Webanwendung wird dieses Schema in Übereinstimmung mit den Konventionen 
+                                    für die Softwareversionierung verfolgt: die Hauptversionsnummer kennzeichnet 
+                                    signifikante Änderungen am Programm, die Nebenversionsnummer funktionale 
+                                    Erweiterungen des Programms und die Revisionsnummer kleinere Änderungen, 
+                                    insbesondere Fehlerbehebungen. Für das Korpusrepositorium bedeutet die 
+                                    Hauptversionsnummer eine substantielle inhaltliche Erweiterung des Korpus, 
+                                    die Nebenversionsnummer Hinzufügungen einzelner Texte oder bestimmter 
+                                    Datentypen (z.B. zusätzliche Exportformate, Registerdaten oder Codierungen)
+                                    und die Revisionsnummer Änderungen einzelner Stellen in den Texten/Daten
+                                    oder der Codierung insbesondere zur Fehlerbehebung. Die Version wird also 
+                                    nach folgendem Modell definiert, wobei sich A auf die Webanwendung und C
+                                    auf das Korpus bezieht: A[Hv].[Nv].[rv]-C[Hv].[Nv].[rv]. </p>
+                                    
+                                <p>Aktuelle Version <ref target="https://github.com/cceh/pessoa/releases/tag/A2.0.0">A2.0.0</ref>-<ref target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0">C2.0.0</ref></p>
+                            </div>
+                        </body>
+                    </text>
+                </group>
+            </text>
             <text xml:id="titles">
                 <group>
                     <text xml:lang="de">

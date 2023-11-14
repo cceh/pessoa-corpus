@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Charada de Gaudêncio Nabos (1909)</title>
+            <author>
+               <rs type="name" key="FP">Fernando Pessoa</rs>
+            </author>
+            <respStmt>
+               <resp>Edição</resp>
+               <name>Pedro Sepúlveda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Modelagem de dados, Codificação</resp>
+               <name>Ulrike Henny-Krahmer e </name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcrição, Codificação, Atualização ortográfica</resp>
+               <name>Inês Filipa Rebelo do Carmo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Consultoria</resp>
+               <name>Institut für Dokumentologie und Editorik (IDE)</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e Tradição
+               (IELT)</publisher>
+            <publisher>Cologne Center for eHumanities (CCeH)<!-- Mantém-se? --></publisher>
+            <date>2023</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+            </availability>
+            <idno type="filename">Nabos_Charada_de_Gaudêncio_Nabos_1909.xml</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="genre">
+               <rs type="genre" key="poesia">Poesia</rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Novo Almanaque de Lembranças Luso-Brasileiro para o Ano de
+                     1909</title>
+                  <author>
+                     <rs type="name" key="XX">Gaudêncio Nabos <!-- Confirmar autoria e key --></rs>
+                  </author>
+                  <textLang mainLang="pt"/>
+                  <imprint>
+                     <date when="1908">1908</date>
+                     <pubPlace>Rua Augusta — 44 a 54</pubPlace>
+                     <publisher>Parceria António Maria Pereira</publisher>
+                     <biblScope unit="page">144</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+      <graphic url="pub/Charada_1909_1.jpg"/>
+      <graphic url="pub/Charada_1909_2.jpg"/>
+   </facsimile>
+   <text corresp="XXX" type="orig">
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">NOVO
+                  ALMANACH<lb/>DE<lb/>LEMBRANÇAS<lb/>LUSO-BRAZILEIRO<lb/>PARA O ANNO DE
+                  1909</titlePart>
+            </docTitle>
+            <byline rend="center"><hi rend="italic">Director:</hi><lb/><hi rend="bold">Adriano
+               Xavier Cordeiro</hi><lb/>Bacharel formado em direito</byline>
+            <metamark/>
+            <!-- Ver possibilidades -->
+            <byline rend="center">Adornado de gravuras, enriquecido com muitas<lb/>materias de
+               utilidade publica, e com o retrato e esboço<lb/>biographico do fallecido poeta e
+               dramaturgo<lb/>D. JOÃO DA CAMARA</byline>
+            <metamark rend="line"/>
+            <byline rend="center">50.º ANNO DA COLLECÇÃO</byline>
+            <metamark rend="line"/>
+            <docImprint>
+               <pubPlace>LISBOA</pubPlace>
+               <publisher>PARCERIA ANTONIO MARIA PEREIRA<lb/>LIVRARIA EDITORA</publisher>
+               <pubPlace>RUA AUGUSTA — 44 A 54</pubPlace>
+               <date>1908</date>
+            </docImprint>
+         </titlePage>
+         <div><ab>NOVO ALMANACH<lb/>DE<lb/>LEMBRANÇAS</ab></div><!-- Esta página ainda entra? -->
+         <div><ab><lg><l>Les longs ouvrages me font peur:</l>
+            <l>Loin d'épuiser une matière,</l>
+            <l>On n'en doit prendre que la fleur</l></lg>
+         </ab><signed rend="left">LA FONTAIGNE</signed></div><!-- Acrescentar key -->
+      </front>
+      <body>
+         <head>CHARADA (CARTA)</head>
+         <lg>
+            <l>Senhora:</l>
+            <l rend="left">Eu, André Bento</l>
+            <l>Faria e Sousa Machado,</l>
+            <l>Proprietario abastado,</l>
+            <l>Douto em pratica sciencia,</l>
+            <l>Ando mesmo abananado</l>
+            <l>Por amor de Vosselencia.</l>
+         </lg>
+         <lg>
+            <l>Mas tenho um rival hediondo,</l>
+            <l>Manuel Rodrigues Varella,</l>
+            <l>Homem de flôr na lapéla,</l>
+            <l>Monstrio e animal nunca visto...</l>
+            <l>Que não tenha boa estrella,</l>
+            <l>Nem d'alguem seja bemquisto.</l>
+         </lg>
+         <lg>
+            <l>Eu seu pró o homem tem, — 1</l>
+            <l>Dizem, ar bonito e são;</l>
+            <l>Mas, em minha opinião, — 1</l>
+            <l>Não tem qualidade bella:</l>
+            <l>Não passa d'um toleirão</l>
+            <l>O burro d'este Varella.</l>
+            <l>Mas eu, ó nympha tão linda,</l>
+            <l>Eu ponho tudo que tenho</l>
+            <l>Aos teus pés, e trazer venho as minhas prioridades,</l>
+            <l>Meus predios lá nas cidades</l>
+            <l>Da Europa, minha fortuna —</l>
+            <l>Tudo pr'a ter teu agrado,</l>
+            <l>Tudo para teu contento,</l>
+            <l>Nympha tão bella.</l>
+            <l rend="left">(assignado)</l>
+            <l>O vosso servo André Bento</l>
+            <l>Faria e Sousa Machado.</l>
+         </lg>
+         <signed rend="left"><hi rend="italic">Gaudencio Nabos</hi> (Lisboa).</signed>
+      </body>
+   </text>
+   <text corresp="XXX" type="reg">
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">NOVO
+                  ALMANAQUE<lb/>DE<lb/>LEMBRANÇAS<lb/>LUSO-BRASILEIRO<lb/>PARA O ANO DE
+                  1909</titlePart>
+            </docTitle>
+            <byline rend="center"><hi rend="italic">Diretor:</hi><lb/><hi rend="bold">Adriano
+               Xavier Cordeiro</hi><lb/>Bacharel formado em direito</byline>
+            <metamark/>
+            <byline rend="center">Adornado de gravuras, enriquecido com muitas<lb/>matérias de
+               utilidade pública, e com o retrato e esboço<lb/>biográfico do falecido poeta e
+               dramaturgo<lb/>D. JOÃO DA CÂMARA</byline>
+            <metamark rend="line"/>
+            <byline rend="center">50.º ANO DA COLEÇÃO</byline>
+            <metamark rend="line"/>
+            <docImprint>
+               <pubPlace>LISBOA</pubPlace>
+               <publisher>PARCERIA ANTÓNIO MARIA PEREIRA<lb/>LIVRARIA EDITORA</publisher>
+               <pubPlace>RUA AUGUSTA — 44 A 54</pubPlace>
+               <date>1908</date>
+            </docImprint>
+         </titlePage>
+         <div><ab>NOVO ALMANAQUE<lb/>DE<lb/>LEMBRANÇAS</ab></div><!-- Esta página ainda entra? -->
+         <div><ab><lg><l>Les longs ouvrages me font peur:</l>
+            <l>Loin d'épuiser une matière,</l>
+            <l>On n'en doit prendre que la fleur</l></lg>
+         </ab><signed rend="left">LA FONTAIGNE</signed></div><!-- Acrescentar key -->
+      </front>
+      <body>
+         <head>CHARADA (CARTA)</head>
+         <lg>
+            <l>Senhora:</l>
+            <l rend="left">Eu, André Bento</l>
+            <l>Faria e Sousa Machado,</l>
+            <l>Proprietário abastado,</l>
+            <l>Douto em prática ciência,</l>
+            <l>Ando mesmo abananado</l>
+            <l>Por amor de Vosselência.</l>
+         </lg>
+         <lg>
+            <l>Mas tenho um rival hediondo,</l>
+            <l>Manuel Rodrigues Varella, <!-- Um ou dois LL? --></l>
+            <l>Homem de flor na lapela,</l>
+            <l>Monstrio e animal nunca visto...</l>
+            <l>Que não tenha boa estrela,</l>
+            <l>Nem dalguém seja benquisto.</l>
+         </lg>
+         <lg>
+            <l>Eu seu pró <!-- pro ou pró? --> o homem tem, — 1</l>
+            <l>Dizem, ar bonito e são;</l>
+            <l>Mas, em minha opinião, — 1</l>
+            <l>Não tem qualidade bela:</l>
+            <l>Não passa dum toleirão</l>
+            <l>O burro deste Varella <!-- Um ou dois LL? -->.</l>
+            <l>Mas eu, ó ninfa tão linda,</l>
+            <l>Eu ponho tudo que tenho</l>
+            <l>Aos teus pés, e trazer venho as minhas prioridades,</l>
+            <l>Meus prédios lá nas cidades</l>
+            <l>Da Europa, minha fortuna —</l>
+            <l>Tudo pra ter teu agrado,</l>
+            <l>Tudo para teu contento,</l>
+            <l>Ninfa tão bela.</l>
+            <l rend="left">(assinado)</l>
+            <l>O vosso servo André Bento</l>
+            <l>Faria e Sousa Machado.</l>
+         </lg>
+         <signed rend="left"><hi rend="italic">Gaudêncio Nabos</hi> (Lisboa).</signed>
+      </body>
+   </text>
+</TEI>

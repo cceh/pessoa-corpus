@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Miner's Song</title>
+            <author>
+               <rs type="name" key="XX">Karl P. Effield</rs><!-- Autor e key? -->
+            </author>
+            <respStmt>
+               <resp>Edição</resp>
+               <name>Pedro Sepúlveda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Modelagem de dados, Codificação</resp>
+               <name>Ulrike Henny-Krahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcrição, Codificação, Modernização ortográfica</resp>
+               <name>Inês Filipa Rebelo do Carmo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Consultoria</resp>
+               <name>Institut für Dokumentologie und Editorik (IDE)</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e
+               Tradição (IELT)</publisher>
+            <publisher>Cologne Center for eHumanities (CCeH)</publisher>
+            <date>2017</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+            </availability>
+            <idno type="filename">Pessoa_Miners_Song.xml</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="genre">
+               <rs type="genre" key="poesia">Poesia</rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a">Miner's Song</title>
+                  <author>
+                     <rs type="name" key="XX">Karl P. Effield</rs><!-- Ver key -->
+                  </author>
+                  <textLang mainLang="pt"/>
+               </analytic>
+               <monogr>
+                  <title level="j"><rs type="periodical" key="XX">Natal Mercury</rs></title><!-- Ver key -->
+                  <imprint>
+                     <date when="1903-07-11">11 de julho de 1903</date>
+                  </imprint>
+                  <biblScope unit="page">19</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+      <graphic url="pub/Effield_Miners_Song.jpg"/>
+   </facsimile>
+   <text>
+      <!-- Não temos capa. Fica sem capa? -->
+      <body>
+         <head>THE MINER'S SONG.</head>
+         <lg>
+            <l>We left the grassy paths where oft we used to roam,</l>
+            <l rend="indent-first">We left the mournful lake where oft we used to sail,</l>
+            <l>We left the mother dear in our far away home.</l>
+            <l rend="indent-first">We came out here with hope, we came perhaps to fail.</l>
+            <!--Há estrofes? -->
+            <l>Four in our eyes then shone the unholy lust of gold;</l>
+            <l rend="indent-first">We longed to go back rich, back to our home again,</l>
+            <l>Back to the lone farm-yard, back to the lowing fold,</l>
+            <l rend="indent-first">And back to her we love who waits perhaps in vain.</l>
+            <l>But as we work and work, fades in our eyes the lust,</l>
+            <l rend="indent-first">And now that we succeed we do not laugh, but groan;</l>
+            <l>As we wash in the stream the precious golden dust,</l>
+            <l rend="indent-first">And as our pick strikes free <!-- fire? --> out of the sullen stone.</l>
+            <l>But we will not return as poor as we came here;</l>
+            <l rend="indent-first">We are too proud for that and home we will not go</l>
+            <l>To see those that were friends contemptuously sneer,</l>
+            <l rend="indent-first">And speak to us with mock and with insulting woe.</l>
+            <l>Throw wealth away, my men; be happy if you can,</l>
+            <l rend="indent-first">But to not seek to find your happiness in gold.</l>
+            <l>Ambitious ever was, and shall be, heart of man</l>
+            <l rend="indent-first">Till in the grave he lie as powerless as cold.</l>
+            <l>Oh! had we stay'd at home; for <!-- ? --> our eyes do not greet</l>
+            <l rend="indent-first">The few handfuls of gold we may find now and then,</l>
+            <l>For they are but the mud we tramp under our feet,</l>
+            <l rend="indent-first">When compared to joy, the real wealth of men.</l>
+            <!-- Quebra de estrofe? -->
+            <l>As we direct our steps to that familiar stream,</l>
+            <l rend="indent-first">As the well-known pick-axe with trembling hands we ply,</l>
+            <l>Our hearts are dark as night on which sun will ne'er beam;</l>
+            <l rend="indent-first">We work and work to live, though we ask God to die.</l>
+            <!-- Quebra de estrofe? -->
+            <l>And as our pick-axe meets the sullen rocks near by,</l>
+            <l rend="indent-first">As the river tears past with a terrific roar</l>
+            <l>The distant waterfall seems mournfully to sigh</l>
+            <l rend="indent-first">And echo dull for us seems but to sigh the more.</l>
+            <!-- Quebra de estrofe? -->
+            <l>As with the pick and shovel we turn the heated sod,</l>
+            <l rend="indent-first">As our minds go back to th' old home with a pang,</l>
+            <l>We ask the Being we worship, the great merciful God,</l>
+            <l>The Maori to send with his red boomerang. <!-- Ponto final? --></l>
+            <l rend="center">(O)</l><!-- verificar código -->
+            <l>Next week I shall make an interesting announcement to my readers who are fond of puzzles.</l>
+            <l rend="center">(O)</l><!-- verificar código -->
+            <l rend="indent-first">I hear in the Moon:—</l>
+            <l rend="indent-first">That the municipal year is drawing to a close.</l>
+            <l rend="indent-first">That there is speculation as to candidates for the respective wards.</l>
+            <l rend="indent-first">That preparations are actively proceeding for the Mayor's ball next Friday.</l>
+            <l rend="indent-first">That the children will have a good time.</l>
+            <l rend="indent-first">That there will be many attractive costumes.</l>
+            <l rend="indent-first">That there is much talk at the Point regarding an alleged bit of sharp practice.</l>
+            <l rend="indent-first">That a certain captain has found it out to his cost.</l>
+            <l rend="indent-first">That presentations are a frequent ocurrence on the railway.</l>
+            <l rend="indent-first">That two made this week were well deserved.</l>
+            <l rend="indent-first">That there were certainly no black looks when subscriptions were asked for one of them.</l>
+            <l rend="indent-first">That Australians will be well represented in South Africa if the present rate of immigration continues.</l>
+            <l rend="indent-first">That, though the Ethiopian cannot change his colour, he had spots knocked off him at the Missionary Conference.</l>
+            <l rend="indent-first">That three different heads—King, President, and Pope—<!-- Coloco espaços? -->have absorbed much attention this <!-- ? --> week.</l>
+            <l rend="indent-first">That La Belle France's encouragement of John Bull's overtures will result in happy union of interest.</l>
+            <l rend="indent-first">That "hope told a flattering tale" as to the disappearance of plague.</l>
+            <l rend="indent-first">That it will require a long absence of cases to justify belief in permanent clearance.</l>
+            <l rend="indent-first">That added interest is given to the approaching Natal tennis championships as the result of the play at Mitchell Park last Saturday</l>
+            <l rend="indent-first">That to-night's concert will be well worth attending.</l>
+            <l rend="indent-first">That Geo. Walton's Company expect a crowd to see them "In Gay Paree."</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

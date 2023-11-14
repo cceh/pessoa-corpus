@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hillier did first usurp the realms of rhyme</title>
+            <author>
+               <rs type="name" key="XX"><!-- Que key ponho? -->Charles Robert Anon</rs>
+            </author>
+            <respStmt>
+               <resp>Edição</resp>
+               <name>Pedro Sepúlveda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Modelagem de dados, Codificação</resp>
+               <name>Ulrike Henny-Krahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcrição, Codificação</resp>
+               <name>Inês Filipa Rebelo do Carmo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Consultoria</resp>
+               <name>Institut für Dokumentologie und Editorik (IDE)</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e Tradição
+               (IELT)</publisher>
+            <publisher>Cologne Center for eHumanities (CCeH)</publisher>
+            <date>2023</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+            </availability>
+            <idno type="filename">Anon_Hillier_did_first_usurp.xml</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="genre">
+               <rs type="genre" key="poesia">Poesia</rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <list type="work-index">
+               <item>
+                  <rs type="work" key="WXXX"><!-- Título e key? --></rs>
+               </item>
+            </list>
+            <biblStruct>
+               <analytic>
+                  <title level="a">Hillier did first usurp the realms of rhyme</title>
+                  <author>
+                     <rs type="name" key="XX">Charles Robert Anon</rs><!-- Confirmar nome e key-->
+                  </author>
+                  <textLang mainLang="en"/>
+               </analytic>
+               <monogr>
+                  <title level="j"><rs type="periodical" key="XX">Natal Mercury <!-- Acrescentar key --></rs></title>
+                  <imprint>
+                     <date when="1904-07-15">15 de julho de 1904</date>
+                  </imprint>
+                  <biblScope unit="page">9</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+      <graphic url="Prosa/Charles_Robert_Anon.jpg"/><!-- Verificar -->
+   </facsimile>
+   <text corresp="XXX" type="orig"><!-- Acrescentar key -->
+      <!-- Não temos capa. Fica assim? -->
+      <body><!-- Falta codificar a capa e primeiras páginas mais pb. V. se existe neste caso -->
+         <!-- Transcrevo o texto que está antes? Está assinado por C. H. H., que aparece na primeira linha do Anon. -->
+         <p>Dear Man,—I read with great amusement the opinions of "C. H. H." on Mr. Hillier, and of
+            "Fairplay" on both, and confess to have been delighted by the magnificent crescendo of
+            absurdity. The translation was sensible, but not good; "C. H. H.'s" effort was somewhat
+            witty, but far worse; "Fairplay's" is absolutely senseless. The worth of the three
+            contributions may be summed up in the following little poem, written on the spur of the
+            moment:—</p>
+         <lg>
+            <l>Hillier did first usurp the realms of rhyme</l>
+            <l>To parody the bard of olden time;</l>
+            <l>Haggar then follows, and, in shallow verse,</l>
+            <l>Proves that to ev'ry bad there is a worse;</l>
+            <l>some nameless critic next, in furious strain,</l>
+            <l>Causes the harmless reader cruel pain:</l>
+            <l>While after metre pure he seems to thirst.</l>
+            <l>But shows how ev'ry worse can have a worst.</l>
+         </lg>
+         <signed rend="left"><choice><abbr>C<am>.</am> R<am>.</am></abbr><expan>C<ex>harles</ex> R<ex>obert</ex></expan></choice> ANON.</signed>
+      </body>
+   </text>
+</TEI>

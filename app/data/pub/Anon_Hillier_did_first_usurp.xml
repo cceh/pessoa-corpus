@@ -45,7 +45,7 @@
          <sourceDesc>
             <list type="work-index">
                <item>
-                  <rs type="work" key="WXXX"><!-- Título e key? --></rs>
+                  <rs type="work" key="WXXX">Hillier did first usurp the realms of rhyme</rs>
                </item>
             </list>
             <biblStruct>
@@ -57,7 +57,7 @@
                   <textLang mainLang="en"/>
                </analytic>
                <monogr>
-                  <title level="j"><rs type="periodical" key="XX">Natal Mercury <!-- Acrescentar key --></rs></title>
+                  <title level="j"><rs type="periodical" key="J49">The Natal Mercury</rs></title>
                   <imprint>
                      <date when="1904-07-15">15 de julho de 1904</date>
                   </imprint>
@@ -71,12 +71,10 @@
       </encodingDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic url="Prosa/Charles_Robert_Anon.jpg"/><!-- Verificar -->
+      <graphic url="Prosa/Charles_Robert_Anon.jpg"/>
    </facsimile>
    <text corresp="XXX" type="orig"><!-- Acrescentar key -->
-      <!-- Não temos capa. Fica assim? -->
-      <body><!-- Falta codificar a capa e primeiras páginas mais pb. V. se existe neste caso -->
-         <!-- Transcrevo o texto que está antes? Está assinado por C. H. H., que aparece na primeira linha do Anon. -->
+      <body>
          <p>Dear Man,—I read with great amusement the opinions of "C. H. H." on Mr. Hillier, and of
             "Fairplay" on both, and confess to have been delighted by the magnificent crescendo of
             absurdity. The translation was sensible, but not good; "C. H. H.'s" effort was somewhat

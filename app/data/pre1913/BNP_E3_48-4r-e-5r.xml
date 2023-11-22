@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48-4<hi rend="superscript">r</hi> e 5<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48-4<hi rend="superscript">r</hi> e 5<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -34,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48-4r-e-5r.xml</idno>
          </publicationStmt>
@@ -64,7 +65,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0007_4_t24-C-R0150.jpg"/>
@@ -74,27 +83,35 @@
       <body>
          <div>
             <list>
-               <head><hi rend="underline">Anthologia</hi></head>
+               <head>
+                  <hi rend="underline">Anthologia</hi>
+               </head>
                <item>
                   <rs type="name" key="P65">Shakespeare</rs>: <rs type="title">A Tormenta</rs>.
                </item>
                <item>
                   <rs type="name" key="P165">
                      <choice>
-                        <abbr>S<am>.</am></abbr>
-                        <expan>S<ex>amuel</ex></expan>
+                        <abbr>S<am>.</am>
+                        </abbr>
+                        <expan>S<ex>amuel</ex>
+                        </expan>
                      </choice> Johnson</rs>: 
                      <rs type="title">Carta ao Conde de Chesterfield</rs>.
-               </item>        
+               </item>
                <item>
                   <rs type="name" key="P157">
                      <choice>
-                        <abbr>J<am>.</am></abbr>
-                        <expan>J<ex>ean</ex></expan>
+                        <abbr>J<am>.</am>
+                        </abbr>
+                        <expan>J<ex>ean</ex>
+                        </expan>
                      </choice>
                      <choice>
-                        <abbr>B<am>.</am></abbr>
-                        <expan>B<ex>aptiste</ex></expan>
+                        <abbr>B<am>.</am>
+                        </abbr>
+                        <expan>B<ex>aptiste</ex>
+                        </expan>
                      </choice> Pérès</rs>: <rs type="title">Como Napoleão nunca existiu</rs>.
                </item>
                <item>
@@ -108,7 +125,7 @@
                </item>
                <item>
                   <rs type="name" key="P160">Soares de Passos</rs>: <rs type="title">O Firmamento</rs>.
-               </item>        
+               </item>
                <item>
                   <rs type="name" key="P81">Manuel da Veiga</rs>: 
                   <rs type="title">A “Ode” da “Laura de Anfriso”</rs>.
@@ -123,15 +140,17 @@
                   <rs type="name" key="P162">Wordsworth</rs>: 
                   <rs type="title">Ode sobre as Intimações de
                      <choice>
-                        <abbr>Imor<am>.</am></abbr>
-                        <expan>Imor<ex>talidade</ex></expan>
+                        <abbr>Imor<am>.</am>
+                        </abbr>
+                        <expan>Imor<ex>talidade</ex>
+                        </expan>
                      </choice>
                   </rs>.
                </item>
                <item>
                   <rs type="name" key="P163">Coleridge</rs>:
                   <rs type="title">Trova do Velho (?) Marinheiro</rs>. (?)
-               </item>        
+               </item>
                <item>
                   <rs type="name" key="P24">José Anastacio da Cunha</rs>: <supplied reason="omitted-in-original" resp="UH"/>
                </item>
@@ -146,14 +165,17 @@
                </item>
                <item>
                   <rs type="name" key="P165">Rivarol</rs>: <rs type="title">Ditos</rs>.
-               </item>        
+               </item>
                <item>
                   <rs type="name" key="P166">Sappho</rs>: <rs type="title">Poemas extantes</rs>. 
                   (Juntos ou separados)
                </item>
-               <item><rs type="title">Haikai Japonezes</rs>.</item>
                <item>
-                  <rs type="name" key="P103">Omar Khayyam</rs>: <rs type="work" key="O1-33"><rs type="title">O Rubaiyat</rs></rs>
+                  <rs type="title">Haikai Japonezes</rs>.</item>
+               <item>
+                  <rs type="name" key="P103">Omar Khayyam</rs>: <rs type="work" key="O1-33">
+                     <rs type="title">O Rubaiyat</rs>
+                  </rs>
                </item>
                <item>
                   <rs type="name" key="P184">Keats</rs>: <rs type="title">Ode a um Rouxinol</rs>.

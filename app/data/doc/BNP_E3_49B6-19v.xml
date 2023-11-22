@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 49B<hi rend="superscript">6</hi>-19<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 49B<hi rend="superscript">6</hi>-19<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -35,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_49B6-19v.xml</idno>
          </publicationStmt>
@@ -69,41 +70,73 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-49b-6-1-100_JPG_24-C-R0150/bn-acpc-e-e3-49b-6-1-100_0038_19v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-49b-6-1-100_JPG_24-C-R0150/bn-acpc-e-e3-49b-6-1-100_0038_19v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <table>
                <row xml:id="R1">
-                  <cell><rs type="name" key="P30">Mario de Sá-Carneiro</rs>:</cell>
-                  <cell><supplied resp="PS" reason="omitted-in-original"/></cell>
-                  <cell rend="right"><note>√</note></cell>
+                  <cell>
+                     <rs type="name" key="P30">Mario de Sá-Carneiro</rs>:</cell>
+                  <cell>
+                     <supplied resp="PS" reason="omitted-in-original"/>
+                  </cell>
+                  <cell rend="right">
+                     <note>√</note>
+                  </cell>
                </row>
                <row xml:id="R2">
-                  <cell><rs type="name" key="P89">Coelho Pacheco</rs>:</cell>
-                  <cell><supplied resp="PS" reason="omitted-in-original"/></cell>
-                  <cell rend="right"><note>√</note></cell>
+                  <cell>
+                     <rs type="name" key="P89">Coelho Pacheco</rs>:</cell>
+                  <cell>
+                     <supplied resp="PS" reason="omitted-in-original"/>
+                  </cell>
+                  <cell rend="right">
+                     <note>√</note>
+                  </cell>
                </row>
                <row xml:id="R3">
-                  <cell><rs type="name" key="P59">Albino de Menezes</rs>:</cell>
-                  <cell><supplied resp="PS" reason="omitted-in-original"/></cell>
-                  <cell rend="right"><note><hi rend="circled">√</hi></note></cell>
+                  <cell>
+                     <rs type="name" key="P59">Albino de Menezes</rs>:</cell>
+                  <cell>
+                     <supplied resp="PS" reason="omitted-in-original"/>
+                  </cell>
+                  <cell rend="right">
+                     <note>
+                        <hi rend="circled">√</hi>
+                     </note>
+                  </cell>
                </row>
                <row xml:id="R4">
                   <cell>
                      <choice>
-                        <seg n="1"><rs type="name" key="P56">José de Almada-Negreiros</rs></seg>
-                        <seg><add place="below" n="2"><rs type="name" key="FP" role="author"
-                                 >Fernando Pessoa</rs></add></seg>
+                        <seg n="1">
+                           <rs type="name" key="P56">José de Almada-Negreiros</rs>
+                        </seg>
+                        <seg>
+                           <add place="below" n="2">
+                              <rs type="name" key="FP" role="author">Fernando Pessoa</rs>
+                           </add>
+                        </seg>
                      </choice>: </cell>
-                  <cell><supplied resp="PS" reason="omitted-in-original"/></cell>
-                  <cell rend="right"><note>√</note></cell>
+                  <cell>
+                     <supplied resp="PS" reason="omitted-in-original"/>
+                  </cell>
+                  <cell rend="right">
+                     <note>√</note>
+                  </cell>
                </row>
                <note place="margin-right">
                   <metamark target="range(R1,R7)" rend="curly-bracket" function="grouping">
@@ -111,22 +144,41 @@
                   </metamark>
                </note>
                <row xml:id="R5">
-                  <cell><rs type="name" key="P109">Augusto <choice>
-                           <abbr>F<am>.</am></abbr>
-                           <expan>F<ex>erreira</ex></expan>
+                  <cell>
+                     <rs type="name" key="P109">Augusto <choice>
+                           <abbr>F<am>.</am>
+                           </abbr>
+                           <expan>F<ex>erreira</ex>
+                           </expan>
                         </choice> Gomes</rs>:</cell>
-                  <cell><supplied resp="PS" reason="omitted-in-original"/></cell>
-                  <cell rend="right"><note><hi rend="circled">√</hi></note></cell>
+                  <cell>
+                     <supplied resp="PS" reason="omitted-in-original"/>
+                  </cell>
+                  <cell rend="right">
+                     <note>
+                        <hi rend="circled">√</hi>
+                     </note>
+                  </cell>
                </row>
                <row xml:id="R6">
-                  <cell><rs type="name" key="P108">Silva Tavares</rs></cell>
+                  <cell>
+                     <rs type="name" key="P108">Silva Tavares</rs>
+                  </cell>
                   <cell/>
-                  <cell rend="right"><note><hi rend="circled">√</hi></note></cell>
+                  <cell rend="right">
+                     <note>
+                        <hi rend="circled">√</hi>
+                     </note>
+                  </cell>
                </row>
                <row xml:id="R7">
-                  <cell><rs type="name" key="AdC">Alvaro de Campos</rs></cell>
+                  <cell>
+                     <rs type="name" key="AdC">Alvaro de Campos</rs>
+                  </cell>
                   <cell/>
-                  <cell rend="right"><note>√</note></cell>
+                  <cell rend="right">
+                     <note>√</note>
+                  </cell>
                </row>
             </table>
             <gap reason="selection" unit="line" extent="3"/>

@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_A_Nova_Poesia_Portugueza_Sociologicamente_Considerada.xml</idno>
          </publicationStmt>
@@ -68,10 +68,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/A_Nova_Sociologicamente_101.jpg"/>
@@ -224,7 +232,8 @@
                         romantico, começa depois da queda do <hi rend="italic">ancien régime</hi> e
                         vae terminando á medida que o republicanismo se vae realisando nas almas, de
                         1848 a 1870, approximada- mas incorrectamente. De então para cá, em seguida
-                        ao periodo (de 1871 a 1881 pouco mais ou menos) de lenta conso<pc>-</pc><pb n="104"/>lidação
+                        ao periodo (de 1871 a 1881 pouco mais ou menos) de lenta conso<pc>-</pc>
+                  <pb n="104"/>lidação
                         republicana, vem o terceiro periodo, aquelle a que caracterizam o realismo,
                         o symbolismo e outros anti-romantismos <note n="1">
                      <label>(<hi rend="superscript">1</hi>).</label> Uma analyse impossivel aqui,
@@ -395,8 +404,8 @@
    </text>
    <text type="reg" corresp="#W187">
       <body>
-                  <div>
-                     <pb n="101"/>
+         <div>
+            <pb n="101"/>
             <head>A Nova Poesia Portuguesa Sociologicamente Considerada</head>
             <div>
                <head>I</head>
@@ -533,7 +542,8 @@
                         romântico, começa depois da queda do <hi rend="italic">ancien régime</hi> e
                         vai terminando à medida que o republicanismo se vai realizando nas almas, de
                         1848 a 1870, aproximada- mas incorretamente. De então para cá, em seguida
-                        ao período (de 1871 a 1881 pouco mais ou menos) de lenta conso<pc>-</pc><pb n="104"/>lidação
+                        ao período (de 1871 a 1881 pouco mais ou menos) de lenta conso<pc>-</pc>
+                  <pb n="104"/>lidação
                         republicana, vem o terceiro período, aquele a que caracterizam o realismo,
                         o simbolismo e outros antirromantismos <note n="1">
                      <label>(<hi rend="superscript">1</hi>).</label> Uma análise impossível aqui,

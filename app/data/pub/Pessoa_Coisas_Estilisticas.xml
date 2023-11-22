@@ -32,7 +32,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Coisas_Estilisticas.xml</idno>
          </publicationStmt>
@@ -71,10 +71,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Teatro_Coisas.jpg"/>
@@ -87,8 +95,7 @@
             <p rend="indent-first">Pegue-se num côrno, chame-se-lhe prosa, e ter-se-ha o estilo do
                sr. <rs type="name" key="P465">Manuel de Sousa Pinto</rs>.</p>
             <p rend="indent-first">E, comtudo, é um homem inteligente este critico de alguma arte.
-               Não é, é certo, um homem de talento, por mais que no caso o sr. <rs type="name"
-                  key="P473">João de Barros</rs> tenha um <hi rend="italic">sim</hi> de ida-e-volta.
+               Não é, é certo, um homem de talento, por mais que no caso o sr. <rs type="name" key="P473">João de Barros</rs> tenha um <hi rend="italic">sim</hi> de ida-e-volta.
                Mas não nos leve esta critica de anzol a reagir excessivamente. É um homem
                inteligente o sr. <rs type="name" key="P465">Sousa Pinto</rs>. A especie de
                inteligentes a que pertence é a dos criticos, e o genero de criticos em que entra é o
@@ -101,8 +108,7 @@
                adaptadas a uma especie quasi subliteraria — a cronica.</p>
             <p rend="indent-first">Daqui se conclue que o critico de segunda ordem é um bom critico
                que é um mau critico. Ha três ordens de maus criticos: estes, os de segunda ordem,
-               porque não são de primeira; os sectarios (como <rs type="name" key="P474"
-                  >Brunetière</rs>) porque são sectarios; e os que não são criticos porque não são
+               porque não são de primeira; os sectarios (como <rs type="name" key="P474">Brunetière</rs>) porque são sectarios; e os que não são criticos porque não são
                criticos (como grande numero de poetas e artistas, e mesmo de pensadores por outros
                caminhos). Destas três especies de herejes da apreciação, os ultimos nunca devem cair
                em dar parecer, e os primeiros e segundos devem escrever o velho “conhece-te” em
@@ -130,8 +136,7 @@
                assumpto que pedia o mais simples e diréto dos estilos — <rs type="title">
                   <hi rend="italic">O Gomil dos Noivados</hi>
                </rs> e tudo isto — tudo isto intersticiado, como nestes casos é fatal, de quedas
-               esticantes na banalidade de expressão, na banalidade de noticiario e de <hi
-                  rend="italic">carnet mondain</hi>, no nivel do «gentilissima» e do
+               esticantes na banalidade de expressão, na banalidade de noticiario e de <hi rend="italic">carnet mondain</hi>, no nivel do «gentilissima» e do
                «elegantissima». Recorra-se á citação.</p>
             <p rend="indent-first">
                <hi rend="italic">Por mais que diligenciasse afugenta-la, mais se fortalecia no animo
@@ -146,18 +151,18 @@
                é, creio e lamento, estudioso e trabalhador.</p>
             <p rend="indent-first">Deixe-se disso, <rs type="name" key="P465">Sousa Pinto</rs>.
                Torne á cronica, homem; escreva como deve e pode e deixe os romances aos romancistas.
-               Mande ao diabo os <rs type="name" key="P473">Joões de Barros</rs> e <rs type="name"
-                  key="P475">Joaquins Manso</rs>s e todo o resto da coterie d’entre-porta-e-porta da
+               Mande ao diabo os <rs type="name" key="P473">Joões de Barros</rs> e <rs type="name" key="P475">Joaquins Manso</rs>s e todo o resto da coterie d’entre-porta-e-porta da
                Livraria Ferreira.</p>
             <p rend="indent-first">Isto é amavel e sincero. Não é o <hi rend="italic">Torna-te ás
                   terras que batatas criam</hi> de <rs type="name" key="P191">Castilho</rs>, nem o
-               So back to the Shop, Mr. John! da <rs
-                  type="periodical" key="J88"><hi rend="italic">Quarterly Review</hi></rs> a <rs
-                  type="name" key="P167">Keats</rs>. É a traducção para explicado e extenso do
+               So back to the Shop, Mr. John! da <rs type="periodical" key="J88">
+                  <hi rend="italic">Quarterly Review</hi>
+               </rs> a <rs type="name" key="P167">Keats</rs>. É a traducção para explicado e extenso do
                comentario <hi rend="italic">arre!</hi> que puz a lapis na ultima pagina do seu livro
                entre a palavra FIM e o bemdito desaparecer para sempre do seu estuporadissimo gomil.
                Quem lhe mandou tocar rabecão? O sr. não sabe musica...</p>
-            <signed rend="right"><rs type="name" role="author" key="FP" style="a">Fernando
+            <signed rend="right">
+               <rs type="name" role="author" key="FP" style="a">Fernando
                   Pessôa</rs>.</signed>
          </div>
       </body>
@@ -227,8 +232,7 @@
                Ferreira.</p>
             <p rend="indent-first">Isto é amável e sincero. Não é o <hi rend="italic">Torna-te às
                   terras que batatas criam</hi> de Castilho, nem o So back to the Shop, Mr. John!
-               da! <hi rend="italic">Quarterly Review</hi> a Keats. É a tradução para explicado e extenso do comentário <hi
-                  rend="italic">arre!</hi> que pus a lápis na última página do seu livro entre a
+               da! <hi rend="italic">Quarterly Review</hi> a Keats. É a tradução para explicado e extenso do comentário <hi rend="italic">arre!</hi> que pus a lápis na última página do seu livro entre a
                palavra FIM e o bendito desaparecer para sempre do seu estuporadíssimo gomil. Quem
                lhe mandou tocar rabecão? O sr. não sabe música...</p>
             <signed rend="right">Fernando Pessoa.</signed>

@@ -17,9 +17,9 @@
                <name>Ulrike Henny-Krahmer</name>
             </respStmt>
             <respStmt>
-                 <resp>Codificação, Atualização ortográfica</resp>
-                 <name>Inês Filipa Rebelo do Carmo</name>
-            </respStmt>  
+               <resp>Codificação, Atualização ortográfica</resp>
+               <name>Inês Filipa Rebelo do Carmo</name>
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_A_Nova_Poesia_Portugueza_No_Seu_Aspecto_Psychologico.xml</idno>
          </publicationStmt>
@@ -68,10 +68,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/A_Nova_Psychologico_86.jpg"/>
@@ -100,7 +108,7 @@
             <head>A Nova Poesia Portugueza no seu aspecto Psychologico</head>
             <div>
                <head>I</head>
-                <pb/>
+               <pb/>
                <p rend="indent-first">
                   <hi rend="bold">Qualquér</hi> phenomeno literario –
                         corrente, ou grupo, ou individualidade – é susceptivel de ser considerado
@@ -268,10 +276,10 @@
                         esthetica, nitidamente; com menos nitidez, e aproximadamente, entrevêr a sua
                         metaphysica: e, para que o estudo se não trunque, procurar dizer a côr dos
                         longes vagos da sua sociologia ainda indecisos no horizonte da historia. <pb n="89"/>
-                    </p>
+               </p>
             </div>
             <div>
-                <pb n="90"/>
+               <pb n="90"/>
                <head>III</head>
                <p rend="indent-first">Perscrutemos qual a <hi rend="italic">esthetica</hi> da
                         nova poesia portugueza.</p>
@@ -479,7 +487,8 @@
                         mesmo tempo, a <hi rend="italic">materialização do Espirito</hi>, a sua
                         comunhão humilde no Todo, comunhão que é, já não puramente pantheista, mas,
                         por essa citada espiritualização da Natureza, super-pantheista, dispersão do
-                        ser n’um exterior que não é <hi rend="italic">Natureza</hi>, mas <pb n="94"/><hi rend="italic">Alma</hi>. Decorre de aqui uma terceira cousa. Esta
+                        ser n’um exterior que não é <hi rend="italic">Natureza</hi>, mas <pb n="94"/>
+                  <hi rend="italic">Alma</hi>. Decorre de aqui uma terceira cousa. Esta
                         interpretação das duas almas da sua alma una obriga a nova poesia portugueza
                         a ser puramente e absorvidamente metaphysica: ser outra cousa seria para
                         ella descer. Por isso não tem ella poetas de amôr, ou poetas “sociaes”, ou
@@ -519,7 +528,7 @@
                    portugueza.</p>
             </div>
             <div>
-                <pb n="153"/>
+               <pb n="153"/>
                <head>IV</head>
                <p rend="indent-first">
                   <hi rend="bold">Seguindo</hi> o methodo estabelecido na
@@ -694,7 +703,7 @@
                         Renascença Nova. Constatada a inferioridade do Romantismo á Renascença, não
                         ha outra hypothese a admittir.</p>
                <div>
-                   <pb n="188"/>
+                  <pb n="188"/>
                   <head>VI</head>
                   <p rend="indent-first">
                      <hi rend="bold">Na classificação</hi> dos systemas
@@ -957,7 +966,7 @@
                             isto? Mas o raciocínio assim o quér.</p>
                </div>
                <div>
-                   <pb n="192"/>
+                  <pb n="192"/>
                   <head>VIII</head>
                   <p rend="indent-first">Feito assim o esboço psychologico da nossa actual
                             poesia no que respeita á sua esthetica e á sua metaphysica, resta
@@ -1017,7 +1026,8 @@
                                 artigo. Ninguem perde com isso.</note>
                   </p>
                </div>
-               <signed rend="right"><rs type="name" key="FP" role="author" style="a">Fernando Pessôa</rs>.</signed>
+               <signed rend="right">
+                  <rs type="name" key="FP" role="author" style="a">Fernando Pessôa</rs>.</signed>
             </div>
          </div>
       </body>
@@ -1198,7 +1208,7 @@
                     </p>
             </div>
             <div>
-                <pb n="90"/>
+               <pb n="90"/>
                <head>III</head>
                <p rend="indent-first">Perscrutemos qual a <hi rend="italic">estética</hi> da
                         nova poesia portuguesa.</p>
@@ -1247,7 +1257,7 @@
                                     saudade</hi>.</note>
                   </l>
                </lg>
-                <p>há simplesmente um desdobrar, como em leque, de uma sensação <pb n="91"/>crepuscular, que
+               <p>há simplesmente um desdobrar, como em leque, de uma sensação <pb n="91"/>crepuscular, que
                         cada termo maravilhosamente <hi rend="italic">intensifica</hi>, mas não
                    alarga. ― Finalmente, entendemos por ideação <hi rend="italic">complexa</hi>
                         a que traduz uma impressão ou sensação simples por uma expressão que a
@@ -1393,7 +1403,8 @@
                         mesmo tempo, a <hi rend="italic">materialização do Espírito</hi>, a sua
                         comunhão humilde no Todo, comunhão que é, já não puramente panteísta, mas,
                         por essa citada espiritualização da Natureza, super-panteísta, dispersão do
-                        ser num exterior que não é <hi rend="italic">Natureza</hi>, mas <pb n="94"/><hi rend="italic">Alma</hi>. Decorre de aqui uma terceira coisa. Esta
+                        ser num exterior que não é <hi rend="italic">Natureza</hi>, mas <pb n="94"/>
+                  <hi rend="italic">Alma</hi>. Decorre de aqui uma terceira coisa. Esta
                         interpretação das duas almas da sua alma una obriga a nova poesia portuguesa
                         a ser puramente e absorvidamente metafísica: ser outra coisa seria para
                         ela descer. Por isso não tem ela poetas de amor, ou poetas “sociais”, ou
@@ -1429,7 +1440,7 @@
                         portuguesa.</p>
             </div>
             <div>
-                <pb n="153"/>
+               <pb n="153"/>
                <head>IV</head>
                <p rend="indent-first">
                   <hi rend="bold">Seguindo</hi> o método estabelecido na
@@ -1604,7 +1615,7 @@
                         Renascença Nova. Constatada a inferioridade do Romantismo à Renascença, não
                         há outra hipótese a admitir.</p>
                <div>
-                   <pb n="188"/>
+                  <pb n="188"/>
                   <head>VI</head>
                   <p rend="indent-first">
                      <hi rend="bold">Na classificação</hi> dos sistemas
@@ -1867,7 +1878,7 @@
                             isto? Mas o raciocínio assim o quer.</p>
                </div>
                <div>
-                   <pb n="192"/>
+                  <pb n="192"/>
                   <head>VIII</head>
                   <p rend="indent-first"> Feito assim o esboço psicológico da nossa atual
                             poesia no que respeita à sua estética e à sua metafísica, resta

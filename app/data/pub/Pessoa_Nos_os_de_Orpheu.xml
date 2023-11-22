@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Nos_os_de_Orpheu.xml</idno>
          </publicationStmt>
@@ -66,6 +66,9 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
@@ -77,6 +80,11 @@
             <handNote xml:id="H_FP">Texto redigido por Pessoa.</handNote>
          </handNotes>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Nós_os_de_orpheu.jpg"/>
@@ -93,8 +101,7 @@
             <p rend="indent-first">Procurámos coordenar, <rs type="name" key="P56">Almada</rs> e eu,
                produções inéditas de quantos figuraram literàriamente na revista extinta e
                inextinguível a que ambos pertencemos. Excluídos, por motivo de estreiteza de tempo e
-               largueza de distância, os dois colaboradores brasileiros ― <rs type="name" key="P513"
-                  >Ronald de Carvalho</rs> e <rs type="name" key="P514">Eduardo Guimarães</rs> ―
+               largueza de distância, os dois colaboradores brasileiros ― <rs type="name" key="P513">Ronald de Carvalho</rs> e <rs type="name" key="P514">Eduardo Guimarães</rs> ―
                conseguimos que estivessem presentes todos os outros, com duas excepções, uma delas
                atenuada com o sacrifício do ineditismo.</p>
             <p rend="indent-first">De <rs type="name" key="P80">Ângelo de Lima</rs>, como nada
@@ -103,19 +110,16 @@
                que longos anos viveu e em que morreu. O soneto, se não é inédito, está contudo
                esquecido. Publicando-o, não deixamos de, saüdosamente, fazer lembrar quem, não sendo
                nosso, todavia se tornou nosso.</p>
-            <p rend="indent-first">Nada porém foi possível incluir de <rs type="name" key="P37"
-                  >Côrtes-Rodrigues</rs>, que é directamente de <rs type="periodical" key="J12">
+            <p rend="indent-first">Nada porém foi possível incluir de <rs type="name" key="P37">Côrtes-Rodrigues</rs>, que é directamente de <rs type="periodical" key="J12">
                   <hi rend="italic">Orpheu</hi>
-               </rs>, e os poemas de cuja personalidade inventada, <rs type="name" key="P37"
-                  style="b">Violante de Cysneiros</rs>, são uma maravilha subtil de criação
+               </rs>, e os poemas de cuja personalidade inventada, <rs type="name" key="P37" style="b">Violante de Cysneiros</rs>, são uma maravilha subtil de criação
                dramática. Nêste caso a dificuldade foi, como no dos brasileiros, geográfica: estas
                produções foram coordenadas à pressa, <rs type="name" key="P37">Côrtes-Rodrigues</rs>
                vive nos Açores. Aqui lhe deixamos, num abraço, a expressão da nossa camaradagem de
                sempre; e o perpetrador destas linhas, velho amigo seu, acrescenta a ela o desejo de
                que <rs type="name" key="P37">Côrtes-Rodrigues</rs> se não embrenhe demasiado, como
                de há tempos se vai embrenhando, no catolicismo campestre, pelo qual fàcilmente se
-               aumenta o número de vítimas literárias da pièguice fruste e asiática de <rs
-                  type="name" key="P515">S. Francisco de Assis</rs>, um dos mais venenosos e
+               aumenta o número de vítimas literárias da pièguice fruste e asiática de <rs type="name" key="P515">S. Francisco de Assis</rs>, um dos mais venenosos e
                traiçoeiros inimigos da mentalidade ocidental.</p>
             <p rend="indent-first">Quanto ao mais, nada mais. Cá estamos sempre.</p>
             <p rend="indent-first">
@@ -128,12 +132,12 @@
                <rs type="name" key="FP" role="author" style="b">FERNANDO PESSOA</rs>
             </signed>
             <note>
-               <handShift new="#H_SW"/>Na impossibilidade de darmos colaboração de <rs type="name"
-                  key="P144">José Pacheco</rs> e de <rs type="name" key="P516" style="b">Santa-Rita
-                  Pintor</rs>, aqui deixamos os seus nomes ligados aos de «<rs type="periodical"
-                  key="J12">Orpheu</rs>»</note>
+               <handShift new="#H_SW"/>Na impossibilidade de darmos colaboração de <rs type="name" key="P144">José Pacheco</rs> e de <rs type="name" key="P516" style="b">Santa-Rita
+                  Pintor</rs>, aqui deixamos os seus nomes ligados aos de «<rs type="periodical" key="J12">Orpheu</rs>»</note>
             <signed rend="right">
-               <rs type="periodical" key="J30"><hi rend="italic">SW</hi></rs>
+               <rs type="periodical" key="J30">
+                  <hi rend="italic">SW</hi>
+               </rs>
             </signed>
          </div>
       </body>
@@ -170,9 +174,12 @@
             <p rend="indent-first">
                <hi rend="italic">Orpheu</hi> acabou. <hi rend="italic">Orpheu</hi> continua.</p>
             <signed rend="right">FERNANDO PESSOA</signed>
-            <note><handShift new="#H_SW"/>Na impossibilidade de darmos colaboração de José Pacheco e de
+            <note>
+               <handShift new="#H_SW"/>Na impossibilidade de darmos colaboração de José Pacheco e de
                Santa-Rita Pintor, aqui deixamos os seus nomes ligados aos de «Orpheu»</note>
-               <signed rend="right"><hi rend="italic">SW</hi></signed>
+            <signed rend="right">
+               <hi rend="italic">SW</hi>
+            </signed>
          </div>
       </body>
    </text>

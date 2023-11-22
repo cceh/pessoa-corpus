@@ -32,7 +32,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_A_Quadra_Missal_de_Trovas.xml</idno>
          </publicationStmt>
@@ -58,8 +58,12 @@
                </analytic>
                <monogr>
                   <title level="m">Missal de Trovas</title>
-                  <author><rs type="name" key="P716">António Ferro</rs></author>
-                  <author><rs type="name" key="P717">Augusto Cunha</rs></author>
+                  <author>
+                     <rs type="name" key="P716">António Ferro</rs>
+                  </author>
+                  <author>
+                     <rs type="name" key="P717">Augusto Cunha</rs>
+                  </author>
                   <imprint>
                      <date when="1914">1914</date>
                      <pubPlace>Lisboa</pubPlace>
@@ -69,10 +73,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Pessoa_A_Quadra_Missal_de_Trovas.jpg"/>
@@ -88,7 +100,8 @@
             luzitana e fidelidade ao instinctivo e desatado da alma popular.</p>
          <p rend="indent-first">Elogial-os mais seria elogial-os menos.</p>
          <p>17-IV-1914</p>
-         <signed rend="right"><rs type="name" role="author" key="FP" style="b">Fernando
+         <signed rend="right">
+            <rs type="name" role="author" key="FP" style="b">Fernando
             Pessoa</rs>.</signed>
       </body>
    </text>

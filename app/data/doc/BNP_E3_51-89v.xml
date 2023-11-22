@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 51-89<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 51-89<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_51-89v.xml</idno>
          </publicationStmt>
@@ -55,8 +56,7 @@
                            planeamento editorial de Fernando Pessoa</hi> (2016, 218-219).. No verso
                         encontra-se a lista 51-89r e o poema manuscrito que começa pelo verso «Para
                         ser grande, sê inteiro», datado de 14/2/1933 e atribuído a Ricardo Reis.
-                        Pessoa terá enviado o poema, publicado na revista <hi rend="italic"
-                           >Presença</hi> nesse mesmo mês, a João Gaspar Simões, juntamente com
+                        Pessoa terá enviado o poema, publicado na revista <hi rend="italic">Presença</hi> nesse mesmo mês, a João Gaspar Simões, juntamente com
                         carta de 18/2/1933 (cf. CP, 209). </p>
                   </summary>
                   <msItemStruct>
@@ -78,36 +78,61 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-51-1-106_JPG_24-C-R0150/bn-acpc-e-e3-51-1-106_0184_89v_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-51-1-106_JPG_24-C-R0150/bn-acpc-e-e3-51-1-106_0184_89v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <delSpan rend="overstrike" spanTo="#A1"/>
             <div>
-               <head><hi rend="underline">Major</hi>:</head>
+               <head>
+                  <hi rend="underline">Major</hi>:</head>
                <list>
-                  <item><rs type="title">Terceiro Fausto</rs>.</item>
-                  <item><rs type="title">Theomachia</rs> (or other name). <note place="margin-right">
+                  <item>
+                     <rs type="title">Terceiro Fausto</rs>.</item>
+                  <item>
+                     <rs type="title">Theomachia</rs> (or other name). <note place="margin-right">
                         <p>one every two<lb/>years<lb/>means<lb/>ten<lb/>years.</p>
                      </note>
                   </item>
-                  <item><rs type="name" key="P21" style="b"><rs type="title">D. Sebastião</rs></rs>
+                  <item>
+                     <rs type="name" key="P21" style="b">
+                        <rs type="title">D. Sebastião</rs>
+                     </rs>
                      (or other name).</item>
-                  <item><rs type="title">Prometheus Revinctus</rs>.</item>
-                  <item><rs type="title">The Duke of Parma</rs>.
-                     <metamark rend="line" function="placeholder"/></item>
-                  <item><rs type="work" key="O1-13-2"><rs type="title">Ficções do
-                        Interludio</rs></rs> (como conjuncto).</item>
-                  <item><rs type="title">O Caso Vargas</rs>. (?)</item>
-                  <item><rs type="title">Notas de Idéas</rs>. (?)</item>
-                  <item><rs type="work" key="O1" style="b"><rs type="title">Cancioneiro</rs></rs>.
+                  <item>
+                     <rs type="title">Prometheus Revinctus</rs>.</item>
+                  <item>
+                     <rs type="title">The Duke of Parma</rs>.
+                     <metamark rend="line" function="placeholder"/>
+                  </item>
+                  <item>
+                     <rs type="work" key="O1-13-2">
+                        <rs type="title">Ficções do
+                        Interludio</rs>
+                     </rs> (como conjuncto).</item>
+                  <item>
+                     <rs type="title">O Caso Vargas</rs>. (?)</item>
+                  <item>
+                     <rs type="title">Notas de Idéas</rs>. (?)</item>
+                  <item>
+                     <rs type="work" key="O1" style="b">
+                        <rs type="title">Cancioneiro</rs>
+                     </rs>.
                      (?) (como conjuncto).</item>
-                  <item><rs type="title">Poemas</rs>. (?) (como conjuncto).</item>
+                  <item>
+                     <rs type="title">Poemas</rs>. (?) (como conjuncto).</item>
                </list>
             </div>
             <anchor xml:id="A1" type="delSpanAnchor"/>

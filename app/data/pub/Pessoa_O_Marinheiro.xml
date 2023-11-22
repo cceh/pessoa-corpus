@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_Marinheiro.xml</idno>
          </publicationStmt>
@@ -67,10 +67,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/O_Marinheiro_1.jpg"/>
@@ -311,7 +319,8 @@
                         nós se augmentaram abysmos... Tenho que cançar a idéa de que vos posso ver
                         para poder chegar a ver-vos... Este ar quente é frio por dentro, naquella
                         parte que toca na alma... Eu devia agora sentir mãos impossiveis passarem-me
-                        pelos cabel<pc>-</pc><pb n="31"/>los... As mãos pelos cabellos ―é o gesto com que fallam das
+                        pelos cabel<pc>-</pc>
+                  <pb n="31"/>los... As mãos pelos cabellos ―é o gesto com que fallam das
                         sereias... <stage>
                      <hi rend="italic">(Cruza as mãos sobre os joelhos.
                                 Pausa.)</hi>
@@ -557,7 +566,8 @@
                   <hi rend="bold">Terceira.</hi>
                </speaker>
                <p>― Deixae-a fallar... Não a interrompaes... Ella conhece palavras que as
-                  sereias lhe ensinaram... Adormeço para a poder es<pc>-</pc><pb n="34"/>cutar... Dizei, minha irmã,
+                  sereias lhe ensinaram... Adormeço para a poder es<pc>-</pc>
+                  <pb n="34"/>cutar... Dizei, minha irmã,
                         dizei... Meu coração doe-me de não ter sido vós quando sonhaveis á
                         beira-mar...</p>
             </sp>
@@ -1050,7 +1060,8 @@
             <dateline rend="indent">
                <hi rend="italic">11/12 Outubro, 1913.</hi>
             </dateline>
-            <signed rend="right"><rs type="name" role="author" key="FP" style="a">Fernando Pessôa</rs>.</signed>
+            <signed rend="right">
+               <rs type="name" role="author" key="FP" style="a">Fernando Pessôa</rs>.</signed>
          </div>
       </body>
    </text>
@@ -1279,7 +1290,8 @@
                         nós se aumentaram abismos... Tenho que cansar a ideia de que vos posso ver
                         para poder chegar a ver-vos... Este ar quente é frio por dentro, naquela
                         parte que toca na alma... Eu devia agora sentir mãos impossíveis passarem-me
-                        pelos cabe<pc>-</pc><pb n="31"/>los... As mãos pelos cabelos ― é o gesto com que falam das
+                        pelos cabe<pc>-</pc>
+                  <pb n="31"/>los... As mãos pelos cabelos ― é o gesto com que falam das
                         sereias... <stage>
                      <hi rend="italic">(Cruza as mãos sobre os joelhos.
                                 Pausa.)</hi>
@@ -1524,7 +1536,8 @@
                   <hi rend="bold">Terceira.</hi>
                </speaker>
                <p>― Deixai-a falar... Não a interrompais... Ela conhece palavras que as
-                  sereias lhe ensinaram... Adormeço para a poder es<pc>-</pc><pb n="34"/>cutar... Dizei, minha irmã,
+                  sereias lhe ensinaram... Adormeço para a poder es<pc>-</pc>
+                  <pb n="34"/>cutar... Dizei, minha irmã,
                         dizei... Meu coração dói-me de não ter sido vós quando sonháveis à
                         beira-mar...</p>
             </sp>

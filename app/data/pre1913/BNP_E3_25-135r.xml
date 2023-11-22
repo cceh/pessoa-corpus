@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 25-135<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 25-135<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -34,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_25-135r.xml</idno>
          </publicationStmt>
@@ -64,7 +65,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-25-1-136_JPG_24-C-R0150/bn-acpc-e-e3-25-1-136_0303_135_t24-C-R0150.jpg"/>
@@ -76,24 +85,35 @@
                <item>
                   <rs type="title">Serzedas</rs> — 
                   <choice>
-                     <abbr>arg<hi rend="superscript"><hi rend="underline">t</hi></hi></abbr>
-                     <expan>arg<ex>umen</ex>t<ex>o</ex></expan>
+                     <abbr>arg<hi rend="superscript">
+                           <hi rend="underline">t</hi>
+                        </hi>
+                     </abbr>
+                     <expan>arg<ex>umen</ex>t<ex>o</ex>
+                     </expan>
                   </choice> pensamento = <lb/> realidade
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
-                  <rs type="title"><choice>
-                     <abbr>H<am>.</am></abbr>
-                     <expan>H<ex>istory</ex></expan>
-                  </choice>
+                  <rs type="title">
+                     <choice>
+                        <abbr>H<am>.</am>
+                        </abbr>
+                        <expan>H<ex>istory</ex>
+                        </expan>
+                     </choice>
                   of a 
                   <choice>
-                     <abbr>D<am>.</am></abbr>
-                     <expan>D<ex>ictatorship</ex></expan>
-                  </choice></rs> = argumento <lb/> 
+                        <abbr>D<am>.</am>
+                        </abbr>
+                        <expan>D<ex>ictatorship</ex>
+                        </expan>
+                     </choice>
+                  </rs> = argumento <lb/>
                   <choice>
                      <abbr>s</abbr>
-                     <expan>s<ex>obre</ex></expan>
+                     <expan>s<ex>obre</ex>
+                     </expan>
                   </choice> literatura etc.
                </item>
                <metamark rend="line" function="distinct"/>

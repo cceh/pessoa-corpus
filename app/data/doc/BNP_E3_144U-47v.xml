@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 144U-47<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 144U-47<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -47,7 +48,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144U-47v.xml</idno>
          </publicationStmt>
@@ -59,17 +60,15 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p> Lista manuscrita no caderno 144U (cf. <ref target="http://purl.pt/13896"
-                           >http://purl.pt/13896</ref>), publicada em <hi rend="italic"
-                           >Sensacionismo e outros Ismos</hi> (2009, 568). </p>
+                     <p> Lista manuscrita no caderno 144U (cf. <ref target="http://purl.pt/13896">http://purl.pt/13896</ref>), publicada em <hi rend="italic">Sensacionismo e outros Ismos</hi> (2009, 568). </p>
                   </summary>
                   <msItemStruct>
                      <author>
                         <rs type="name" key="FP">Fernando Pessoa</rs>
                      </author>
                      <note type="genre">
-                        <rs type="genre" key="lista_editorial">Lista editorial</rs><rs type="genre"
-                           key="plano_editorial">Plano editorial</rs>
+                        <rs type="genre" key="lista_editorial">Lista editorial</rs>
+                        <rs type="genre" key="plano_editorial">Plano editorial</rs>
                      </note>
                      <textLang mainLang="pt" otherLangs="en"/>
                   </msItemStruct>
@@ -83,7 +82,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144u_JPG_24-C-R0150/bn-acpc-e-e3_144u_0096_47v_t24-C-R0150.jpg"/>
@@ -91,46 +98,65 @@
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Episodios.</hi></head>
+            <head>
+               <hi rend="underline">Episodios.</hi>
+            </head>
             <table>
                <row>
-                  <cell><ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Episodios"><rs type="title">A Mumia</rs>. — 5 poemas</ref>.</cell>
+                  <cell>
+                     <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Episodios">
+                        <rs type="title">A Mumia</rs>. — 5 poemas</ref>.</cell>
                   <cell/>
                </row>
                <row>
-                  <cell><ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Episodios"><rs type="title">Ficções de Interludio</rs> — 5 poemas</ref>.</cell>
+                  <cell>
+                     <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Episodios">
+                        <rs type="title">Ficções de Interludio</rs> — 5 poemas</ref>.</cell>
                   <cell/>
                </row>
                <row>
-                  <cell><rs type="title">As sete salas <choice>
+                  <cell>
+                     <rs type="title">As sete salas <choice>
                            <abbr>....</abbr>
                            <expan>do palacio abandonado</expan>
-                        </choice></rs> — (7) (9) (8) poemas.</cell>
+                        </choice>
+                     </rs> — (7) (9) (8) poemas.</cell>
                   <cell rend="right">10</cell>
                </row>
                <row>
-                  <cell><ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Chuva-Obliqua"><rs type="title">Chuva Obliqua</rs> — 6 poemas</ref>.</cell>
+                  <cell>
+                     <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Chuva-Obliqua">
+                        <rs type="title">Chuva Obliqua</rs> — 6 poemas</ref>.</cell>
                   <cell rend="right">8</cell>
                </row>
                <row>
-                  <cell><ref target="http://www.pessoadigital.pt/en/pub/Pessoa_A_casa_branca_nau_preta"><rs type="title">A Casa Branca Nau Preta</rs></ref>.</cell>
+                  <cell>
+                     <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_A_casa_branca_nau_preta">
+                        <rs type="title">A Casa Branca Nau Preta</rs>
+                     </ref>.</cell>
                   <cell rend="right">3</cell>
                </row>
                <row>
-                  <cell><ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Passos-da-Cruz"><rs type="title">Passos da Cruz</rs> — 14 sonetos</ref>.</cell>
+                  <cell>
+                     <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Passos-da-Cruz">
+                        <rs type="title">Passos da Cruz</rs> — 14 sonetos</ref>.</cell>
                   <cell rend="right">14</cell>
                </row>
                <row>
-                  <cell><note place="margin-left" type="addition">1.</note><rs type="title">Tedio em
+                  <cell>
+                     <note place="margin-left" type="addition">1.</note>
+                     <rs type="title">Tedio em
                      Festa</rs>— (<ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Impressoes-do-Crepusculo">Paues</ref> + 2 others).</cell>
                   <cell/>
                </row>
                <row>
-                  <cell><rs type="title">Além-Deus</rs> — 5 poemas</cell>
+                  <cell>
+                     <rs type="title">Além-Deus</rs> — 5 poemas</cell>
                   <cell rend="right">5.</cell>
                </row>
                <row>
-                  <cell><rs type="title">Nyria</rs>.</cell>
+                  <cell>
+                     <rs type="title">Nyria</rs>.</cell>
                </row>
             </table>
          </div>

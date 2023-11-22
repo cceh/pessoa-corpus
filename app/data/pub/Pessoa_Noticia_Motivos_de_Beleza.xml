@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Noticia_Motivos_de_Beleza.xml</idno>
          </publicationStmt>
@@ -59,7 +59,9 @@
                   <title level="m">Motivos de Beleza</title>
                   <!-- UH: which one is the title of the whole book in which the preface appears,
                      Motivos de Beleza ? -->
-                  <author><rs type="name" key="P17">António Botto</rs></author>
+                  <author>
+                     <rs type="name" key="P17">António Botto</rs>
+                  </author>
                   <!-- UH: who is the author of the whole book, António Botto?
                   please add rs-element here -->
                   <imprint>
@@ -72,10 +74,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Pessoa_Noticia_Motivos_1.jpg"/>
@@ -88,7 +98,9 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart type="main"><hi rend="italic">NOTICIA</hi></titlePart>
+               <titlePart type="main">
+                  <hi rend="italic">NOTICIA</hi>
+               </titlePart>
             </docTitle>
          </titlePage>
       </front>
@@ -120,7 +132,8 @@
             que ser lido sempre com a attenção posta em o que não está lá escripto. Pode tambem ser
             lido com a attenção posta em o que está lá escripto. De qualquer das formas se é
             leitor.</p>
-         <signed rend="right"><rs type="name" role="author" key="FP" style="b">Fernando
+         <signed rend="right">
+            <rs type="name" role="author" key="FP" style="b">Fernando
             Pessoa</rs>.</signed>
       </body>
    </text>
@@ -128,7 +141,9 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart type="main"><hi rend="italic">NOTÍCIA</hi></titlePart>
+               <titlePart type="main">
+                  <hi rend="italic">NOTÍCIA</hi>
+               </titlePart>
             </docTitle>
          </titlePage>
       </front>

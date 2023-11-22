@@ -13,7 +13,7 @@
             </respStmt>
             <respStmt>
                <resp>Codificação</resp>
-               <name>Isabel Figueiredo-Iken</name>   
+               <name>Isabel Figueiredo-Iken</name>
             </respStmt>
             <respStmt>
                <resp>Codificação</resp>
@@ -38,7 +38,7 @@
                      <note type="genre">
                         <rs type="genre" key="lista_editorial">Lista editorial</rs>
                      </note>
-                     <textLang mainLang="en" otherLangs="pt" />
+                     <textLang mainLang="en" otherLangs="pt"/>
                   </msItemStruct>
                </msContents>
                <history>
@@ -50,100 +50,137 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0253_123_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0253_123_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48b-123">
       <body>
          <table rows="1" cols="2">
-            <row >
-            <cell>“A System of Rational Metaphysics.”	</cell>
-            <cell>Large. C.</cell> </row>
-            </table>
+            <row>
+               <cell>“A System of Rational Metaphysics.”	</cell>
+               <cell>Large. C.</cell>
+            </row>
+         </table>
          <metamark rend="line" function="distinct"/>
          <table rows="1" cols="2">
-            <row >
-            <cell> “On the Triple Nature of Spiritual Activity.”	</cell>
-               <cell><note place="below">B.</note> small. </cell></row>
-            <row >
+            <row>
+               <cell> “On the Triple Nature of Spiritual Activity.”	</cell>
+               <cell>
+                  <note place="below">B.</note> small. </cell>
+            </row>
+            <row>
                <cell>“On the Death-Penalty.”</cell>
-               <cell>small. A </cell> </row>
-            <row >
+               <cell>small. A </cell>
+            </row>
+            <row>
                <cell>“Against the Institution of Marriage.”	 </cell>
-               <cell><note place="below">B.</note> small.</cell> </row></table>
-            
-            <metamark rend="line" function="distinct"/>
-            <table rows="1" cols="3">
-            <row >
+               <cell>
+                  <note place="below">B.</note> small.</cell>
+            </row>
+         </table>
+         <metamark rend="line" function="distinct"/>
+         <table rows="1" cols="3">
+            <row>
                <cell> “The New Utopia.”	</cell>
                <cell>Medium.</cell>
-               <cell> D.</cell> </row>
-            <row >
+               <cell> D.</cell>
+            </row>
+            <row>
                <cell>“Laws of a Perfect Government.”</cell>
-               <cell>Small.</cell> 
-               <cell>D. </cell></row>
-               <row >
-                  <cell>“A System of Ethology.” </cell>
-                  <cell> Large.	</cell> 
-               <cell> D.</cell> </row> </table> 
+               <cell>Small.</cell>
+               <cell>D. </cell>
+            </row>
+            <row>
+               <cell>“A System of Ethology.” </cell>
+               <cell> Large.	</cell>
+               <cell> D.</cell>
+            </row>
+         </table>
          <metamark rend="line" function="distinct"/>
          <table rows="1" cols="3">
-         <row >
-            <cell><rs type="title">“Sub Umbrâ.”</rs> </cell>
-            <cell>Medium.</cell>
-            <cell>B.</cell> </row>
-         <row >
-            <cell>“Ex Umbrâ.” </cell>
-            <cell>Medium.</cell>
-            <cell> B.</cell> </row>
-         <row >
-            <cell>“Drama of Life.”	</cell>
-            <cell>Small.</cell>
-            <cell>C.</cell></row></table> 
+            <row>
+               <cell>
+                  <rs type="title">“Sub Umbrâ.”</rs>
+               </cell>
+               <cell>Medium.</cell>
+               <cell>B.</cell>
+            </row>
+            <row>
+               <cell>“Ex Umbrâ.” </cell>
+               <cell>Medium.</cell>
+               <cell> B.</cell>
+            </row>
+            <row>
+               <cell>“Drama of Life.”	</cell>
+               <cell>Small.</cell>
+               <cell>C.</cell>
+            </row>
+         </table>
          <metamark rend="line" function="distinct"/>
          <table rows="1" cols="3">
-            <row >
+            <row>
                <cell>“Revolta.”</cell>
                <cell> Small.</cell>
-               <cell>A</cell> </row> 
-            <row >
+               <cell>A</cell>
+            </row>
+            <row>
                <cell>“Pamphleto sobre o Governo.”</cell>
                <cell> Small.</cell>
-               <cell>A</cell> </row> </table> 
+               <cell>A</cell>
+            </row>
+         </table>
          <metamark rend="line" function="distinct"/>
          <table rows="1" cols="3">
-            <row >
+            <row>
                <cell>“On Literary Divisions.”</cell>
                <cell>Medium.</cell>
-               <cell>C.</cell> </row> </table> 
+               <cell>C.</cell>
+            </row>
+         </table>
          <metamark rend="line" function="distinct"/>
          <table rows="1" cols="3">
-            <row >
+            <row>
                <cell>“Dictionary of the English Language”.</cell>
                <cell>Medium.</cell>
-               <cell>B.</cell> </row>
-            <row >
-               <cell><del rend="overstrike">“On Free Will.”</del>	</cell>
-               <cell><del rend="overstrike">Medium.</del></cell>
-               <cell></cell></row>
-            <row >
+               <cell>B.</cell>
+            </row>
+            <row>
+               <cell>
+                  <del rend="overstrike">“On Free Will.”</del>
+               </cell>
+               <cell>
+                  <del rend="overstrike">Medium.</del>
+               </cell>
+               <cell/>
+            </row>
+            <row>
                <cell>“Examination of the Philosophy of the Christian Religion.”</cell>
                <cell>Medium.</cell>
-               <cell>A.</cell> </row>
-            <row >
+               <cell>A.</cell>
+            </row>
+            <row>
                <cell>“On Sexual Instruction of the Young”</cell>
                <cell> Small.	</cell>
-               <cell>A.</cell> </row>
-            <row >
-               <cell><del rend="overstrike">“God’s</del> <rs type="title">The Death of God.”</rs>– Poems – </cell>
+               <cell>A.</cell>
+            </row>
+            <row>
+               <cell>
+                  <del rend="overstrike">“God’s</del>
+                  <rs type="title">The Death of God.”</rs>– Poems – </cell>
                <cell> Small.	</cell>
-               <cell>A.</cell> </row>
-         </table> 
-            
+               <cell>A.</cell>
+            </row>
+         </table>
          <div/>
       </body>
    </text>

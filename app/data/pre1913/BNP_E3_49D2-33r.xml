@@ -51,27 +51,39 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-49d-2-1-100_JPG_24-C-R0150/bn-acpc-e-e3-49d-2-1-100_0069_33_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-49d-2-1-100_JPG_24-C-R0150/bn-acpc-e-e3-49d-2-1-100_0069_33_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-49d2-33r">
       <body>
          <gap reason="selection" unit="line" extent="1"/>
-         <delSpan rend="overstrike" spanTo="#a1"></delSpan> <list> 
-            <item > <rs type="title">“The Sea.”</rs>
+         <delSpan rend="overstrike" spanTo="#a1"/>
+         <list>
+            <item>
+               <rs type="title">“The Sea.”</rs>
             </item>
-            <item>Translation (Georghes, <gap reason="illegible" extent="1" unit="character"/> &amp; <gap reason="illegible" extent="1" unit="character"/>)</item>        
+            <item>Translation (Georghes, <gap reason="illegible" extent="1" unit="character"/> &amp; <gap reason="illegible" extent="1" unit="character"/>)</item>
             <item>10 Smaller Pieces.</item>
-            <item>10 Sonnets.</item>    <note rend="big" place="right">  Nonsense</note> 
-            <item>Start<rs type="title"> “Woman in Black”.</rs></item>
+            <item>10 Sonnets.</item>
+            <note rend="big" place="right">  Nonsense</note>
+            <item>Start<rs type="title"> “Woman in Black”.</rs>
+            </item>
             <item>2 Arabian Tales.</item>
             <item>2 Tales.</item>
-            <item>Begin <gap reason="illegible" extent="1" unit="character"/><gap reason="illegible" extent="1" unit="character"/> .</item>
-         </list> <anchor xml:id="a1"></anchor>         
+            <item>Begin <gap reason="illegible" extent="1" unit="character"/>
+               <gap reason="illegible" extent="1" unit="character"/> .</item>
+         </list>
+         <anchor xml:id="a1"/>
          <gap reason="selection" unit="line" extent="7"/>
          <div/>
       </body>

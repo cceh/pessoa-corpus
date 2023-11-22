@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 93-56<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 93-56<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_93-56r.xml</idno>
          </publicationStmt>
@@ -73,63 +74,94 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-93-1-100_JPG_24-C-R0150/bn-acpc-e-e3-93-1-100_0115_56_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-93-1-100_JPG_24-C-R0150/bn-acpc-e-e3-93-1-100_0115_56_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <note><supplied resp="PS" reason="omitted-in-original"/></note>
+            <note>
+               <supplied resp="PS" reason="omitted-in-original"/>
+            </note>
             <metamark rend="line" function="distinct"/>
             <list>
                <item>
                   <label>1.</label>
-                  <rs type="work"><rs type="name" key="P65">Shakespeare</rs>, <rs type="title">“A
-                        Tormenta”</rs></rs>.</item>
+                  <rs type="work">
+                     <rs type="name" key="P65">Shakespeare</rs>, <rs type="title">“A
+                        Tormenta”</rs>
+                  </rs>.</item>
                <item>
                   <label>2.</label>
                   <list>
                      <item xml:id="I1">um ou dois contos</item>
-                     <item xml:id="I2">os <metamark rend="line" place="above"
-                           function="transposition" target="#S1 #S2" n="2"/>
+                     <item xml:id="I2">os <metamark rend="line"
+                                  place="above"
+                                  function="transposition"
+                                  target="#S1 #S2"
+                                  n="2"/>
                         <seg xml:id="S1">poemas</seg>
                         <seg xml:id="S2">bons</seg> de <rs type="name" key="P87">Edgar Poe</rs>.
-                           <note target="range(I1,I3)" place="margin-right" type="addition" n="2">
+                           <note target="range(I1,I3)"
+                              place="margin-right"
+                              type="addition"
+                              n="2">
                            <metamark rend="curly-bracket" function="grouping"/>
                         </note>
                      </item>
                      <item xml:id="I3">
-                        <rs type="name">Synge</rs>—<rs type="title"><choice>
-                              <abbr>Cav<am>.</am></abbr>
-                              <expan>Cav<ex>algada</ex></expan>
-                           </choice> até o mar</rs></item>
-                  </list></item>
+                        <rs type="name">Synge</rs>—<rs type="title">
+                           <choice>
+                              <abbr>Cav<am>.</am>
+                              </abbr>
+                              <expan>Cav<ex>algada</ex>
+                              </expan>
+                           </choice> até o mar</rs>
+                     </item>
+                  </list>
+               </item>
                <item>
                   <label>3.</label>
                   <list>
                      <item xml:id="I4">Sonetos Unicos.</item>
-                     <item xml:id="I5">Contos symbolicos de <rs type="name" key="P271"><choice>
-                              <abbr>H<am>.</am> G<am>.</am></abbr>
-                              <expan>H<ex>erbert</ex> G<ex>eorge</ex></expan>
-                           </choice> Wells</rs>. <note target="range(I4,I6)" place="margin-right"
-                           type="addition" n="2">
+                     <item xml:id="I5">Contos symbolicos de <rs type="name" key="P271">
+                           <choice>
+                              <abbr>H<am>.</am> G<am>.</am>
+                              </abbr>
+                              <expan>H<ex>erbert</ex> G<ex>eorge</ex>
+                              </expan>
+                           </choice> Wells</rs>. <note target="range(I4,I6)"
+                              place="margin-right"
+                              type="addition"
+                              n="2">
                            <metamark rend="curly-bracket" function="grouping"/>
                         </note>
                      </item>
-                     <item xml:id="I6">O <rs type="title">Prometheu Preso</rs>, de <rs type="name"
-                           key="P193">Eschylo</rs>.</item>
-                  </list></item>
+                     <item xml:id="I6">O <rs type="title">Prometheu Preso</rs>, de <rs type="name" key="P193">Eschylo</rs>.</item>
+                  </list>
+               </item>
                <item>
                   <label>4.</label>
-                  <seg type="certainty" cert="low" rend="question-mark" resp="FP"><rs type="work"
-                           ><rs type="name" key="P65">Shakespeare</rs>,<rs type="title">
-                           Macbeth</rs></rs>.</seg></item>
+                  <seg type="certainty" cert="low" rend="question-mark" resp="FP">
+                     <rs type="work">
+                        <rs type="name" key="P65">Shakespeare</rs>,<rs type="title">
+                           Macbeth</rs>
+                     </rs>.</seg>
+               </item>
                <item>
                   <label>5.</label>
-                  <supplied resp="PS" reason="omitted-in-original"/></item>
+                  <supplied resp="PS" reason="omitted-in-original"/>
+               </item>
             </list>
          </div>
       </body>

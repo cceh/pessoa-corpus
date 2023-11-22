@@ -32,10 +32,9 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
-            <idno type="filename"
-               >Pessoa_Prefacio_Antologia.xml</idno>
+            <idno type="filename">Pessoa_Prefacio_Antologia.xml</idno>
          </publicationStmt>
          <notesStmt>
             <note type="genre">
@@ -59,8 +58,12 @@
                </analytic>
                <monogr>
                   <title level="m">Antologia de poemas portugueses modernos</title>
-                  <author><rs type="name" key="FP">Fernando Pessoa</rs></author>
-                  <author><rs type="name" key="P17">António Botto</rs></author>
+                  <author>
+                     <rs type="name" key="FP">Fernando Pessoa</rs>
+                  </author>
+                  <author>
+                     <rs type="name" key="P17">António Botto</rs>
+                  </author>
                   <imprint>
                      <date when="1929">1929</date>
                      <pubPlace>Lisboa</pubPlace>
@@ -70,10 +73,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Pessoa_Antologia_de_poemas_1929_1.jpg"/>
@@ -88,17 +99,22 @@
          <pb/>
          <titlePage>
             <docTitle>
-               <titlePart type="main">ANTHOLOGIA DE POEMAS PORTUGUEZES MODERNOS POR <rs type="name"
-                  key="P17" style="a">ANTONIO BOTTO</rs> E <rs type="name" key="FP">FERNANDO
-                  PESSOA</rs></titlePart>
+               <titlePart type="main">ANTHOLOGIA DE POEMAS PORTUGUEZES MODERNOS POR <rs type="name" key="P17" style="a">ANTONIO BOTTO</rs> E <rs type="name" key="FP">FERNANDO
+                  PESSOA</rs>
+               </titlePart>
             </docTitle>
             <byline rend="center">1929</byline>
          </titlePage>
          <pb/>
          <titlePage>
-            <byline rend="center"><hi rend="underline">Composto e impresso no</hi><lb/><hi
-                  rend="underline">CENTRO TIP. COLONIAL</hi><lb/><hi rend="underline">L. da
-                  Abegoaria, 27 ― Lisboa</hi></byline>
+            <byline rend="center">
+               <hi rend="underline">Composto e impresso no</hi>
+               <lb/>
+               <hi rend="underline">CENTRO TIP. COLONIAL</hi>
+               <lb/>
+               <hi rend="underline">L. da
+                  Abegoaria, 27 ― Lisboa</hi>
+            </byline>
          </titlePage>
          <pb/>
          <titlePage>
@@ -113,7 +129,8 @@
                <l>Uma após uma as ajunctando,</l>
                <l>O spolio das flores colhia</l>
                <l>Com a alegria na alma...</l>
-               <l rend="left"><rs type="name" key="P237">Euripides</rs>, frag. 754</l>
+               <l rend="left">
+                  <rs type="name" key="P237">Euripides</rs>, frag. 754</l>
             </lg>
          </ab>
       </front>
@@ -139,14 +156,10 @@
          <p rend="indent-first">Entre o fim da nossa poesia medieval, que era nossa, e o principio
             da Eschola de Coimbra, em que de novo fomos nossos em verso, a poesia portugueza
             decorreu subdita de influencias extranhas. Portugal poetico, como nação independente,
-            adormeceu com <rs type="name" key="P256">Gil Vicente</rs> e metade de <rs type="name"
-               key="P15" style="b">Camões</rs>, e dispertou só com <rs type="name" key="P18"
-               >Anthero</rs>. O intervallo foi alheio. Em <rs type="name" key="P18">Anthero</rs>,
+            adormeceu com <rs type="name" key="P256">Gil Vicente</rs> e metade de <rs type="name" key="P15" style="b">Camões</rs>, e dispertou só com <rs type="name" key="P18">Anthero</rs>. O intervallo foi alheio. Em <rs type="name" key="P18">Anthero</rs>,
             porém, como em <rs type="name" key="P26">Cesario</rs> e outros poucos do tempo, se ha
             influencias extranhas, ha uso proprio d'essas influencias. Uma cousa é a influencia, que
-            só não soffre quem não vive, outra cousa a subordinação. <rs type="name" key="P18"
-               >Anthero</rs> é discipulo da philosophia allemã, porém a poesia de <rs type="name"
-               key="P18">Anthero</rs> não é discipula de cousa alguma.</p>
+            só não soffre quem não vive, outra cousa a subordinação. <rs type="name" key="P18">Anthero</rs> é discipulo da philosophia allemã, porém a poesia de <rs type="name" key="P18">Anthero</rs> não é discipula de cousa alguma.</p>
          <p rend="indent-first">Assim o ser poeta portuguez moderno, no sentido em que entendemos
             «moderno», coincide ― excepto os nossos primitivos ― com o ser poeta portuguez. A
             felicidade é dos tempos, que não da nossa escolha. Tal é, tal a acceitamos. Escolhemos
@@ -165,9 +178,14 @@
          </titlePage>
          <pb/>
          <titlePage>
-            <byline rend="center"><hi rend="underline">Composto e impresso no</hi><lb/><hi
-                  rend="underline">CENTRO TIP. COLONIAL</hi><lb/><hi rend="underline">L. da
-                  Abegoaria, 27 ― Lisboa</hi></byline>
+            <byline rend="center">
+               <hi rend="underline">Composto e impresso no</hi>
+               <lb/>
+               <hi rend="underline">CENTRO TIP. COLONIAL</hi>
+               <lb/>
+               <hi rend="underline">L. da
+                  Abegoaria, 27 ― Lisboa</hi>
+            </byline>
          </titlePage>
          <pb/>
          <titlePage>

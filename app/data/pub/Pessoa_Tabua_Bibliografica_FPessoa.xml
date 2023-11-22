@@ -16,10 +16,10 @@
                <resp>Modelagem de dados, Codificação</resp>
                <name>Ulrike Henny-Krahmer</name>
             </respStmt>
-             <respStmt>
-                 <resp>Atualização ortográfica</resp>
-                 <name>Inês Filipa Rebelo do Carmo</name>
-             </respStmt>
+            <respStmt>
+               <resp>Atualização ortográfica</resp>
+               <name>Inês Filipa Rebelo do Carmo</name>
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Tabua_Bibliografica_FPessoa.xml</idno>
          </publicationStmt>
@@ -67,10 +67,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Tabua_bibliografica_FP.jpg"/>
@@ -96,7 +104,7 @@
                     a heterónyma é do auctor fóra da sua pessoa, é de uma individualidade completa
                     fabricada por êlle, como o seriam os dizeres de qualquer personagem de qualquer
                     drama seu.</p>
-             <p rend="indent-first">As obras heterónymas de <rs type="name" role="topic" key="FP">Fernando Pessoa</rs> são feitas por, até agora, trez nomes de gente ― <rs type="name" role="topic" key="AC">Alberto Caeiro</rs>, <rs type="name" role="topic" key="RR">Ricardo Reis</rs>, <rs type="name" role="topic" key="AdC">Alvaro de Campos</rs>. Estas individualidades devem ser
+            <p rend="indent-first">As obras heterónymas de <rs type="name" role="topic" key="FP">Fernando Pessoa</rs> são feitas por, até agora, trez nomes de gente ― <rs type="name" role="topic" key="AC">Alberto Caeiro</rs>, <rs type="name" role="topic" key="RR">Ricardo Reis</rs>, <rs type="name" role="topic" key="AdC">Alvaro de Campos</rs>. Estas individualidades devem ser
                     consideradas como distinctas da do auctor dellas. Fórma cada uma uma espécie de
                     drama; e todas ellas juntas formam outro drama. <rs type="name" key="AC">Alberto
                         Caeiro</rs>, que se tem por nascido em 1889 e morto em 1915, escreveu poemas
@@ -146,7 +154,7 @@
                     em o número I do diário de Lisboa <rs type="periodical" key="J10">SOL</rs>
                     (1926), a narração exacta e comovida do que é o <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Um_grande_portugues">Conto
                         do Vigário</ref>.</p>
-             <p rend="indent-first">Quanto a obras heterónymas: as duas odes ― <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ode_Triunfal">ODE
+            <p rend="indent-first">Quanto a obras heterónymas: as duas odes ― <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ode_Triunfal">ODE
                         TRIUMPHAL</ref> e <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ode_Maritima">ODE
                             MARÍTIMA</ref> ―de <rs type="name" role="topic" key="AdC">Alvaro de
                         Campos</rs> in <rs type="periodical" key="J12">ORPHEU 1 e 2</rs> (1915); o
@@ -198,7 +206,7 @@
                     a heterónima é do autor fora da sua pessoa, é de uma individualidade completa
                     fabricada por ele, como o seriam os dizeres de qualquer personagem de qualquer
                     drama seu.</p>
-             <p rend="indent-first">As obras heterónimas de Fernando Pessoa são feitas por, até agora, três nomes de gente ― Alberto Caeiro, Ricardo Reis, Álvaro de Campos. Estas individualidades devem ser
+            <p rend="indent-first">As obras heterónimas de Fernando Pessoa são feitas por, até agora, três nomes de gente ― Alberto Caeiro, Ricardo Reis, Álvaro de Campos. Estas individualidades devem ser
                     consideradas como distintas da do autor delas. Forma cada uma uma espécie de
                     drama; e todas elas juntas formam outro drama. Alberto
                         Caeiro, que se tem por nascido em 1889 e morto em 1915, escreveu poemas
@@ -247,7 +255,7 @@
                     em o número I do diário de Lisboa SOL
                     (1926), a narração exata e comovida do que é o <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Um_grande_portugues">Conto
                         do Vigário</ref>.</p>
-             <p rend="indent-first">Quanto a obras heterónimas: as duas odes ― <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ode_Triunfal">ODE
+            <p rend="indent-first">Quanto a obras heterónimas: as duas odes ― <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ode_Triunfal">ODE
                         TRIUNFAL</ref> e <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ode_Maritima">ODE
                             MARÍTIMA</ref> ― de Álvaro de
                         Campos in ORPHEU 1 e 2 (1915); o

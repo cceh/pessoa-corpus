@@ -40,7 +40,7 @@
                         <rs type="genre" key="lista_editorial">Lista editorial</rs>
                         <rs type="genre" key="nota_editorial">Nota editorial</rs>
                      </note>
-                     <textLang mainLang="pt"  otherLangs="en"/>
+                     <textLang mainLang="pt" otherLangs="en"/>
                   </msItemStruct>
                </msContents>
                <history>
@@ -52,34 +52,58 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0109_55_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0109_55_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48-55r">
       <body>
-         <head><hi rend="underline"> Anthologia Geral.
-         </hi></head>  
+         <head>
+            <hi rend="underline"> Anthologia Geral.
+         </hi>
+         </head>
          <list>
-            
-            <item>Poesia hindú.			</item>  <note rend="framed" place="right">(e persa?)</note>      
-            <item><metamark rend="line" function="ditto"/> chineza</item>
-            <item><metamark rend="line" function="ditto"/>persa.</item>
-            <item> <metamark rend="line" function="ditto"/>japoneza.</item>
-            <item><metamark rend="line" function="ditto"/> hebraica.	</item>	<note place="right">(ou “anthologia <lb></lb> antiga” só ― ?)</note>  
-            <item><metamark rend="line" function="ditto"/> grega.</item>
-            <item><metamark rend="line" function="ditto"/> romana.</item>
-            <item><metamark rend="line" function="ditto"/> arabe.</item>
-            <item><metamark rend="line" function="ditto"/> assyrîa (?).</item>
+            <item>Poesia hindú.			</item>
+            <note rend="framed" place="right">(e persa?)</note>
+            <item>
+               <metamark rend="line" function="ditto"/> chineza</item>
+            <item>
+               <metamark rend="line" function="ditto"/>persa.</item>
+            <item>
+               <metamark rend="line" function="ditto"/>japoneza.</item>
+            <item>
+               <metamark rend="line" function="ditto"/> hebraica.	</item>
+            <note place="right">(ou “anthologia <lb/> antiga” só ― ?)</note>
+            <item>
+               <metamark rend="line" function="ditto"/> grega.</item>
+            <item>
+               <metamark rend="line" function="ditto"/> romana.</item>
+            <item>
+               <metamark rend="line" function="ditto"/> arabe.</item>
+            <item>
+               <metamark rend="line" function="ditto"/> assyrîa (?).</item>
          </list>
-            <metamark rend="short line" function="distinct"/>
-         <metamark rend="symbol" function="marke"/><p> Abrange desde o Rig-Vêda ao <lb></lb>symbolismo moderno.</p>
-         <p> Or in the original languages <choice><abbr>w<am>.</am></abbr><expan>w<ex>ith</ex></expan></choice> trans<pc>-</pc><lb /> lations, all? –<lb></lb> 
-            Or several anthologies of the languages<lb></lb> 
-            (modern)-languages = dead languages<lb></lb>  being translated in all the <lb></lb> others.  </p>  
-         
+         <metamark rend="short line" function="distinct"/>
+         <metamark rend="symbol" function="marke"/>
+         <p> Abrange desde o Rig-Vêda ao <lb/>symbolismo moderno.</p>
+         <p> Or in the original languages <choice>
+               <abbr>w<am>.</am>
+               </abbr>
+               <expan>w<ex>ith</ex>
+               </expan>
+            </choice> trans<pc>-</pc>
+            <lb/> lations, all? –<lb/> 
+            Or several anthologies of the languages<lb/> 
+            (modern)-languages = dead languages<lb/>  being translated in all the <lb/> others.  </p>
          <div/>
       </body>
    </text>

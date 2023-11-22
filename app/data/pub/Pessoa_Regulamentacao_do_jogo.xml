@@ -15,7 +15,7 @@
             <respStmt>
                <resp>Modelagem de dados, Codificação</resp>
                <name>Ulrike Henny-Krahmer</name>
-            </respStmt>            
+            </respStmt>
             <respStmt>
                <resp>Atualização ortográfica</resp>
                <name>Inês Filipa Rebelo do Carmo</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Regulamentacao_do_jogo.xml</idno>
          </publicationStmt>
@@ -69,10 +69,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Regulamentacao_do_jogo.jpg"/>
@@ -118,7 +126,7 @@
                     aceite. Estas considerações, porém, são de simples argumento: ninguem, que
                     considere o jogo igual a um crime, pode pretender que ele se regulamente.</p>
             <milestone rend="asterisk" unit="section"/>
-                 <p rend="indent-first">Passemos á hipótese oposta — a de que o jogo é um simples
+            <p rend="indent-first">Passemos á hipótese oposta — a de que o jogo é um simples
                     passatempo ou distracção. Nessa hipótese, pela qual o jogo é inofensivo, nada ha
                     nele que regulamentar: ha simplesmente que tributar. Nenhum Estado regulamenta o
                     «tennis» ou o «football»; quando muito, cobra uma percentagem sobre as entradas
@@ -138,7 +146,7 @@
                     lugares onde se jogue; e (3) se evite que seja a unica diversão possivel, para
                     que qualquer criatura, que queira divertir-se, não seja como que obrigada a
                     divertir-se dessa maneira.</p>
-                 <p rend="indent-first">Dos espiritos debeis, uns — os jogadores insaciaveis — são,
+            <p rend="indent-first">Dos espiritos debeis, uns — os jogadores insaciaveis — são,
                     como os insaciaveis de outras especies, inatingiveis pela lei; o jogador-nato
                     há-de jogar ainda que a lei estabeleça a pena de morte para quem jogue. Outros
                     debeis — os que por sugestão se convertem em jogadores incorrigiveis — tambem
@@ -151,7 +159,7 @@
                     um processo — de considerar a industria do jogo como uma industria de luxo, e
                     assim estabelecer um capital minimo elevado para as empresas que a pretendam
                     exercer.</p>
-                 <p rend="indent-first">Para o terceiro problema — evitar que o jogo seja o único
+            <p rend="indent-first">Para o terceiro problema — evitar que o jogo seja o único
                     divertimento acessivel — ha dois processos conjuntos a empregar — o obrigar as
                     casas de jogo a terem outras diversões além do proprio jogo; e «o permitir o
                     jogo só nos grandes centros, isto é, nas grandes cidades», ainda que, talvez,
@@ -220,7 +228,7 @@
                     aceite. Estas considerações, porém, são de simples argumento: ninguém, que
                     considere o jogo igual a um crime, pode pretender que ele se regulamente.</p>
             <milestone rend="asterisk" unit="section"/>
-                 <p rend="indent-first">Passemos à hipótese oposta — a de que o jogo é um simples
+            <p rend="indent-first">Passemos à hipótese oposta — a de que o jogo é um simples
                     passatempo ou distração. Nessa hipótese, pela qual o jogo é inofensivo, nada há
                     nele que regulamentar: há simplesmente que tributar. Nenhum Estado regulamenta o
                     «tennis» ou o «football»; quando muito, cobra uma percentagem sobre as entradas
@@ -240,7 +248,7 @@
                     lugares onde se jogue; e (3) se evite que seja a única diversão possível, para
                     que qualquer criatura, que queira divertir-se, não seja como que obrigada a
                     divertir-se dessa maneira.</p>
-                 <p rend="indent-first">Dos espíritos débeis, uns — os jogadores insaciáveis — são,
+            <p rend="indent-first">Dos espíritos débeis, uns — os jogadores insaciáveis — são,
                     como os insaciáveis de outras espécies, inatingíveis pela lei; o jogador-nato
                     há de jogar ainda que a lei estabeleça a pena de morte para quem jogue. Outros
                     débeis — os que por sugestão se convertem em jogadores incorrigíveis — também

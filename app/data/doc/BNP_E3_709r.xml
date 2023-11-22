@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 709<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 709<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -35,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_709r.xml</idno>
          </publicationStmt>
@@ -69,7 +70,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="doc_BNP_E3_709r.jpg"/>
@@ -84,7 +93,8 @@
             <list>
                <item rend="indent-2">
                   <label>1.</label>
-                  <rs type="title">Antinous</rs><lb/> — <hi rend="underline">Lyrics:</hi>
+                  <rs type="title">Antinous</rs>
+                  <lb/> — <hi rend="underline">Lyrics:</hi>
                   <hi rend="underline">Island</hi> type.</item>
                <item rend="indent-2">
                   <label>2.</label>
@@ -92,11 +102,11 @@
                   Kind.</item>
                <item rend="indent-2">
                   <label>3.</label>
-                  <rs type="title">Prayer to a Fair Body</rs>.<lb/> — <hi rend="underline"
-                     >Lyrics:</hi> Religious Type.</item>
+                  <rs type="title">Prayer to a Fair Body</rs>.<lb/> — <hi rend="underline">Lyrics:</hi> Religious Type.</item>
                <item rend="indent-2">
                   <label>4.</label>
-                  <rs type="title">Epithalamium.</rs><lb/> — <hi rend="underline">Sonnets</hi> (30
+                  <rs type="title">Epithalamium.</rs>
+                  <lb/> — <hi rend="underline">Sonnets</hi> (30
                   to 50, 30 better)</item>
                <item rend="indent-2">
                   <label>5.</label>
@@ -110,8 +120,8 @@
                <item>Lamp-Work — Stul.</item>
                <item>Agencies for Songs (AKP).</item>
                <item>Letters for chemical far.</item>
-               <item>Translations: <rs type="name" key="P87">Poe</rs> + Anc. <gap reason="illegible"
-                     unit="word" extent="1"/></item>
+               <item>Translations: <rs type="name" key="P87">Poe</rs> + Anc. <gap reason="illegible" unit="word" extent="1"/>
+               </item>
             </list>
          </div>
       </body>

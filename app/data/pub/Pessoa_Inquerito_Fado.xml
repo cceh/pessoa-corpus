@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Inquerito_Fado.xml</idno>
          </publicationStmt>
@@ -66,6 +66,9 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
@@ -77,6 +80,11 @@
             <handNote xml:id="H_FP">Texto redigido por Pessoa.</handNote>
          </handNotes>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Inquerito_Fado_10.jpg"/>
@@ -116,7 +124,9 @@
             <p rend="indent-first">No fado os Deuses regressam legitimos e longinquos. É êsse o
                     segundo sentido da figura de El-Rei <rs type="name" key="P21" style="b">D.
                         Sebastião</rs>.</p>
-            <signed rend="right"><rs type="name" role="author" key="FP" style="b">Fernando Pessoa</rs></signed>
+            <signed rend="right">
+               <rs type="name" role="author" key="FP" style="b">Fernando Pessoa</rs>
+            </signed>
          </div>
       </body>
    </text>

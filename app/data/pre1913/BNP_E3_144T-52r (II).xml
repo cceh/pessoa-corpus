@@ -51,34 +51,66 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144t_JPG_24-C-R0150/bn-acpc-e-e3_144t_0109_52r_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-144t-52r">
       <body>
-         <note><gap reason="selection" unit="lines" extent="2"/> </note><note place="right"><gap reason="selection" unit="characters" extent="3"/> </note>
-         <metamark xml:id="T1" rend=" a down arrow" place=" left"></metamark><head><hi rend="underline"> Ultimus Joculatorum.
-         </hi></head>  
-         <list> 
-            <item xml:id="T2"><rs type="title">a Kind of Sartor
-            </rs></item>
-            <item xml:id="T3"><rs type="title">Resartus — Instead of<lb></lb> 
-               <hi rend="underline"> Book of Friar Maurice</hi></rs></item> 
-            <note xml:id="T4" place="left">or<lb></lb>  anothergood title </note> 
-            
+         <note>
+            <gap reason="selection" unit="lines" extent="2"/>
+         </note>
+         <note place="right">
+            <gap reason="selection" unit="characters" extent="3"/>
+         </note>
+         <metamark xml:id="T1" rend=" a down arrow" place=" left"/>
+         <head>
+            <hi rend="underline"> Ultimus Joculatorum.
+         </hi>
+         </head>
+         <list>
+            <item xml:id="T2">
+               <rs type="title">a Kind of Sartor
+            </rs>
+            </item>
+            <item xml:id="T3">
+               <rs type="title">Resartus — Instead of<lb/>
+                  <hi rend="underline"> Book of Friar Maurice</hi>
+               </rs>
+            </item>
+            <note xml:id="T4" place="left">or<lb/>  anothergood title </note>
          </list>
-         <note rend="arrow" target="range(T1,T4)" place="left" type="indicate"></note>
-         
-            <metamark rend="shortline" place="center" function="distinct"/>  
-         <list> 
-            <item><rs type="title">The Nothingness Club.</rs></item>         
-            <item><rs type="title">The Zero Club.</rs></item>
-           
+         <note rend="arrow" target="range(T1,T4)" place="left" type="indicate"/>
+         <metamark rend="shortline" place="center" function="distinct"/>
+         <list>
+            <item>
+               <rs type="title">The Nothingness Club.</rs>
+            </item>
+            <item>
+               <rs type="title">The Zero Club.</rs>
+            </item>
          </list>
-         <metamark rend="shortline" place="center" function="distinct"/>    
-         <note><del rend="overstrike"><choice><abbr>Dr<am>.</am></abbr></choice><choice><abbr> E<am>.</am></abbr></choice>. </del></note>
+         <metamark rend="shortline" place="center" function="distinct"/>
+         <note>
+            <del rend="overstrike">
+               <choice>
+                  <abbr>Dr<am>.</am>
+                  </abbr>
+               </choice>
+               <choice>
+                  <abbr> E<am>.</am>
+                  </abbr>
+               </choice>. </del>
+         </note>
          <div/>
       </body>
    </text>

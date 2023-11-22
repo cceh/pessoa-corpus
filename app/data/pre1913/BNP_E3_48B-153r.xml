@@ -38,8 +38,10 @@
                         <resp>Codificação</resp>
                         <name>Sviatoslav Drach</name>
                      </respStmt>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="en"/>
                   </msItemStruct>
                </msContents>
@@ -53,32 +55,45 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0313_153_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48b-153r">
       <body>
-         <head><hi rend="underline">Faber: </hi></head>  
-         <list> 
+         <head>
+            <hi rend="underline">Faber: </hi>
+         </head>
+         <list>
             <item> Detective Stories.</item>
-            <item>Satirical and Humourous Essays.</item>        
+            <item>Satirical and Humourous Essays.</item>
             <item>Satiric Poetry.</item>
             <item>Critical Essays.</item>
             <item>Classical Editions.</item>
             <item>Classical Essays -</item>
             <item>Historical Essays.</item>
-            </list> 
-         <list> 
-            <head><hi rend="underline">Anon:  </hi></head> 
-            
-            <item>Poetry.</item>
-            <item>	Critical Essays. (<rs type="name">Carlyle,</rs><rs type="name">Byron,</rs><rs type="name"> Shelley,</rs><rs type="name">Camões</rs>).</item>
-            <item>	Stories of Imagination.</item>
-            
          </list>
-            <div/>
+         <list>
+            <head>
+               <hi rend="underline">Anon:  </hi>
+            </head>
+            <item>Poetry.</item>
+            <item>	Critical Essays. (<rs type="name">Carlyle,</rs>
+               <rs type="name">Byron,</rs>
+               <rs type="name"> Shelley,</rs>
+               <rs type="name">Camões</rs>).</item>
+            <item>	Stories of Imagination.</item>
+         </list>
+         <div/>
       </body>
    </text>
 </TEI>

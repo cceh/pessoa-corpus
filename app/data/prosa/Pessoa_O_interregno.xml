@@ -27,7 +27,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_interregno.xml</idno>
          </publicationStmt>
@@ -42,7 +42,7 @@
                   <rs type="work" key="W313">O interregno</rs>
                </item>
             </list>
-            <biblStruct> 
+            <biblStruct>
                <monogr>
                   <!--MJ: Revisar esta proposta de <biblStruct> pensar num possível publication type Pamphlet-->
                   <title>O O interregno</title>
@@ -59,54 +59,59 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Prosa/O_interregno_1.jpg"/>
-       <graphic url="Prosa/O_interregno_2.jpg"/>
-       <graphic url="Prosa/O_interregno_3.jpg"/>
-       <graphic url="Prosa/O_interregno_4.jpg"/>
-       <graphic url="Prosa/O_interregno_5.jpg"/>
-       <graphic url="Prosa/O_interregno_6.jpg"/>
-       <graphic url="Prosa/O_interregno_7.jpg"/>
-       <graphic url="Prosa/O_interregno_8.jpg"/>
-       <graphic url="Prosa/O_interregno_9.jpg"/>
-       <graphic url="Prosa/O_interregno_10.jpg"/>
-       <graphic url="Prosa/O_interregno_11.jpg"/>
-       <graphic url="Prosa/O_interregno_12.jpg"/>
-       <graphic url="Prosa/O_interregno_13.jpg"/>
-       <graphic url="Prosa/O_interregno_14.jpg"/>
-       <graphic url="Prosa/O_interregno_15.jpg"/>
-       <graphic url="Prosa/O_interregno_16.jpg"/>
-       <graphic url="Prosa/O_interregno_17.jpg"/>
-       <graphic url="Prosa/O_interregno_18.jpg"/>
-       <graphic url="Prosa/O_interregno_19.jpg"/>
-       <graphic url="Prosa/O_interregno_20.jpg"/>
-       <graphic url="Prosa/O_interregno_21.jpg"/>
-       <graphic url="Prosa/O_interregno_22.jpg"/>
-       <graphic url="Prosa/O_interregno_23.jpg"/>
-       <graphic url="Prosa/O_interregno_24.jpg"/>
-       <graphic url="Prosa/O_interregno_25.jpg"/>
-       <graphic url="Prosa/O_interregno_26.jpg"/>
-       <graphic url="Prosa/O_interregno_27.jpg"/>
-       <graphic url="Prosa/O_interregno_28.jpg"/>
-       <graphic url="Prosa/O_interregno_29.jpg"/>
+      <graphic url="Prosa/O_interregno_2.jpg"/>
+      <graphic url="Prosa/O_interregno_3.jpg"/>
+      <graphic url="Prosa/O_interregno_4.jpg"/>
+      <graphic url="Prosa/O_interregno_5.jpg"/>
+      <graphic url="Prosa/O_interregno_6.jpg"/>
+      <graphic url="Prosa/O_interregno_7.jpg"/>
+      <graphic url="Prosa/O_interregno_8.jpg"/>
+      <graphic url="Prosa/O_interregno_9.jpg"/>
+      <graphic url="Prosa/O_interregno_10.jpg"/>
+      <graphic url="Prosa/O_interregno_11.jpg"/>
+      <graphic url="Prosa/O_interregno_12.jpg"/>
+      <graphic url="Prosa/O_interregno_13.jpg"/>
+      <graphic url="Prosa/O_interregno_14.jpg"/>
+      <graphic url="Prosa/O_interregno_15.jpg"/>
+      <graphic url="Prosa/O_interregno_16.jpg"/>
+      <graphic url="Prosa/O_interregno_17.jpg"/>
+      <graphic url="Prosa/O_interregno_18.jpg"/>
+      <graphic url="Prosa/O_interregno_19.jpg"/>
+      <graphic url="Prosa/O_interregno_20.jpg"/>
+      <graphic url="Prosa/O_interregno_21.jpg"/>
+      <graphic url="Prosa/O_interregno_22.jpg"/>
+      <graphic url="Prosa/O_interregno_23.jpg"/>
+      <graphic url="Prosa/O_interregno_24.jpg"/>
+      <graphic url="Prosa/O_interregno_25.jpg"/>
+      <graphic url="Prosa/O_interregno_26.jpg"/>
+      <graphic url="Prosa/O_interregno_27.jpg"/>
+      <graphic url="Prosa/O_interregno_28.jpg"/>
+      <graphic url="Prosa/O_interregno_29.jpg"/>
    </facsimile>
    <text type="orig" corresp="#W313">
       <body>
          <div>
             <head>O INTERREGNO</head>
             <head>DEFEZA E JUSTIFICAÇÃO DA DICTADURA MILITAR EM PORTUGAL</head>
-
             <head>1928 NUCLEO DE ACÇÃO NACIONAL 25, Calçada de Carriche LISBOA</head>
             <div>
                <head>I</head>
-
                <head>PRIMEIRO AVISO</head>
-
                <p rend="indent-first">O NUCLEO DE ACÇÃO NACIONAL, que em varias horas necessarias
                   tem intervindo — suavemente, como é seu modo; obscuramente, como é seu mistér — na
                   vida da Nação, pediu-nos, que todavia a elle não pertencemos, que escrevessemos,
@@ -159,9 +164,7 @@
             </div>
             <div>
                <head>II</head>
-
                <head>Primeira Justificação da Dictadura Militar</head>
-
                <p rend="indent-first">METADE do Paiz é monarchica, metade do Paiz é republicana. São
                   estes os factos. Não fallamos do Paiz dividindo-o em Norte e Sul, ou em qualquer
                   outra divisão de terras. Não fallamos do Paiz dividindo-o em classes cultas e
@@ -228,9 +231,7 @@
             </div>
             <div>
                <head>III</head>
-
                <head>Segunda Justificação da Dictadura Militar</head>
-
                <p rend="indent-first">ALEM de não ter vida institucional legitima, não pode
                   Portugal, tambem, ter vida constitucional alguma. A palavra «constituição» pode
                   receber dois sentidos: (1) simples fórma constituida de governo, seja esse governo
@@ -282,8 +283,10 @@
                   constitucionalismo, formula de equilibrio espontaneo, provinda de antigas
                   tradições nacionaes em que o fermento de todas as doctrinas antimonarchicas
                   diversamente se infiltrara. O principal theorista do systema, tal qual finalmente
-                  veio a parecer, foi <rs type="name" key="P684">Locke</rs>, em seu <rs type="title"
-                        ><hi rend="italic">Ensaio sobre o Governo Civil.</hi></rs></p>
+                  veio a parecer, foi <rs type="name" key="P684">Locke</rs>, em seu <rs type="title">
+                     <hi rend="italic">Ensaio sobre o Governo Civil.</hi>
+                  </rs>
+               </p>
                <p rend="indent-first">Ora o mesmo simplismo do espirito humano, que o leva a
                   confundir o particular e o geral na theoria, o conduz a os não distinguir na
                   práctica. Assim, sem considerar se a solução politica ingleza não seria
@@ -386,8 +389,6 @@
                   sua confiança. O facto formidavel é que a mais alta auctoridade do nosso Imperio
                   immenso e unico se encontra alternadamente nas mãos de dois grupos de homens
                   vehementes, intolerantes e desequilibrados.»</p>
-
-
                <p rend="indent-first">Estas palavras teem já quinze anos, porém valem hoje como
                   então; nada, salvo o augmento do Partido Laborista, existe de novo na situação que
                   ellas descrevem, e esse augmento não pesa senão em converter em «trez» a palavra
@@ -479,9 +480,7 @@
             </div>
             <div>
                <head>IV</head>
-
                <head>Terceira Justificação Da Dictadura Militar</head>
-
                <p rend="indent-first">ALEM de Portugal presente não poder ter vida institucional,
                   nem tambem vida constitucional, não pode elle, ainda, ter vida de opinião publica.
                   Assim lhe falta tambem o que é, não só o fundamento interno de todo governo, mas,
@@ -538,8 +537,7 @@
                   preoccupado, mais que quaesquer outros, a sciencia psychologica moderna; assentou
                   ella já na certeza de que o campo do que chamou subconsciente é vastamente maior
                   que o da razão, e que o homem, verdadeiramente definido, é um animal irracional.
-                  Só por orgulho ou preconceito se pode não ver que a intelligencia é — como <rs
-                     type="name" key="P685">Huxley</rs> abusivamente suppunha que a simples
+                  Só por orgulho ou preconceito se pode não ver que a intelligencia é — como <rs type="name" key="P685">Huxley</rs> abusivamente suppunha que a simples
                   consciencia era — o que chamou um epiphenomeno. Isto é, a intelligencia não faz
                   mais que espelhar, esclarecendo-os para nós e, pela palavra, para outrem, os
                   instinctos obscuros, as solicitações intuitivas, do nosso temperamento.</p>
@@ -609,8 +607,6 @@
                   só os tolos não teem — no receio de infringir leis que desconhecemos, e que, como
                   as não conhecemos, não sabemos se não operarão por vias apparentemente absurdas. A
                   tradição é uma superstição.</p>
-
-
                <p rend="indent-first">É a opinião de habito que mantém e defende as sociedades;
                   equivale á força que, no organismo physico, resiste á desintegração. A opinião de
                   habito obra sempre d'este modo restrictivo; umas vezes é útil porque entrava a
@@ -619,7 +615,6 @@
                   opinião de habito não existiriam nações progressivas; nem, até, existiriam nações,
                   pois se não teria progredido até a fundação d'ellas. A mais antiga tradição de
                   qualquer paiz é ele não existir.</p>
-
                <p rend="indent-first">Na intuição — que, em contrario do simples instincto, vê, como
                   a intelligencia, o futuro, que não só o passado — se funda aquella opinião com que
                   se promove o progresso das sociedades, mas, se a do habito a não equilibrar,
@@ -650,10 +645,10 @@
                   haja equilibrio, que ser oppostas. Um paiz unanime numa opinião de habito não
                   seria paiz — seria gado. Um paiz concorde numa opinião de intuição não seria paiz
                   — seria sombras. O progresso consiste numa media entre o que a opinião de habito
-                  deseja e o que a opinião de intuição sonha. Figurou <rs type="name" key="P15"
-                     >Camões</rs>, nos <rs type="title"><hi rend="italic">Lusiadas</hi></rs>, em o
-                     <rs type="name" key="P686">Velho do Restello</rs> a opinião de habito, em o <rs
-                     type="name" key="P610">Gama</rs> a opinião de intuição. Mas o Imperio Portuguez
+                  deseja e o que a opinião de intuição sonha. Figurou <rs type="name" key="P15">Camões</rs>, nos <rs type="title">
+                     <hi rend="italic">Lusiadas</hi>
+                  </rs>, em o
+                     <rs type="name" key="P686">Velho do Restello</rs> a opinião de habito, em o <rs type="name" key="P610">Gama</rs> a opinião de intuição. Mas o Imperio Portuguez
                   nem foi a ausencia de imperio que o primeiro desejara, nem a plenitude de imperio
                   que o segundo sonharia. Porisso, por mal ou por bem, o Imperio Portuguez pôde
                   ser.</p>
@@ -752,7 +747,6 @@
             </div>
             <div>
                <head>SEGUNDO AVISO</head>
-
                <p rend="indent-first">CHEGADOS a este poncto os que leram este opusculo,
                   parecer-lhes-ha que, para justificar a Dictadura Militar, não havia mistér que o
                   fizessemos com mais que um só dos fundamentos expostos, nem que, em todos elles,
@@ -815,12 +809,9 @@
                   um opusculo como este. D'isto nos orgulhamos.</p>
                <p rend="indent-first">É este o Primeiro Signal, vindo, como foi promettido, na Hora
                   que se promettera.</p>
-
                <dateline>Lisboa, Janeiro de 1928.</dateline>
             </div>
          </div>
       </body>
    </text>
 </TEI>
-
-

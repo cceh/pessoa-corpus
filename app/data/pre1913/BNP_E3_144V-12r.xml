@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 144V-12<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 144V-12<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -30,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144V-12r.xml</idno>
          </publicationStmt>
@@ -48,7 +49,7 @@
                      <note type="genre">
                         <rs type="genre" key="lista_editorial">Lista editorial</rs>
                      </note>
-                     <textLang mainLang="pt"  otherLangs="en"/>
+                     <textLang mainLang="pt" otherLangs="en"/>
                   </msItemStruct>
                </msContents>
                <history>
@@ -60,7 +61,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144v_JPG_24-C-R0150/bn-acpc-e-e3_144v_0023_12r_t24-C-R0150.jpg"/>
@@ -71,10 +80,10 @@
             <head>
                <hi rend="underline">English Section</hi> —<lb/>
                <hi rend="underline">English Works:</hi>
-            </head>  
+            </head>
             <list>
                <item>
-                  <label>1.</label> 
+                  <label>1.</label>
                   <rs type="name" key="P119">Ford</rs>’s Dramatic Works:
                   <supplied resp="PS" reason="omitted-in-original"/>
                </item>
@@ -82,26 +91,42 @@
                   <label>2.</label>
                   <rs type="name" key="P120">Webster</rs>’s Dramatic Works: 
                   <supplied resp="PS" reason="omitted-in-original"/>
-               </item>        
+               </item>
                <item>
                   <label>3.</label>
                   <rs type="name" key="P118">Ben Jonson</rs>: 
                   <rs type="title">Masques</rs>: 
                   <supplied resp="PS" reason="omitted-in-original"/>
                </item>
-            </list>  
+            </list>
             <ab rend="diagonal">
-               <del rend="overstrike" n="2"><rs type="name" key="P118">Ben Jonson</rs>’s</del><lb/>
-               <rs type="title">O Mysterio de <rs type="name" key="P65">William Shakespeare</rs></rs><lb/>
-               <rs type="name" key="P65">Shake-Speare</rs><lb/>
-               <del rend="overstrike" n="2"><rs type="name" key="P65">William Shake-Speare</rs></del><lb/>
-               <rs type="name" key="P65">W William</rs><lb/>
-               <rs type="name" key="P65">W</rs><lb/>
-               <del rend="overstrike" n="2"><rs type="name" key="P65">W</rs></del><lb/>
+               <del rend="overstrike" n="2">
+                  <rs type="name" key="P118">Ben Jonson</rs>’s</del>
+               <lb/>
+               <rs type="title">O Mysterio de <rs type="name" key="P65">William Shakespeare</rs>
+               </rs>
+               <lb/>
+               <rs type="name" key="P65">Shake-Speare</rs>
+               <lb/>
+               <del rend="overstrike" n="2">
+                  <rs type="name" key="P65">William Shake-Speare</rs>
+               </del>
+               <lb/>
+               <rs type="name" key="P65">W William</rs>
+               <lb/>
+               <rs type="name" key="P65">W</rs>
+               <lb/>
+               <del rend="overstrike" n="2">
+                  <rs type="name" key="P65">W</rs>
+               </del>
+               <lb/>
                <rs type="name" key="P65">W.illiam</rs>
             </ab>
             <ab rend="center">
-               <del rend="overstrike" n="2"><rs type="name" key="P65">S</rs></del><lb/>
+               <del rend="overstrike" n="2">
+                  <rs type="name" key="P65">S</rs>
+               </del>
+               <lb/>
                <rs type="name" key="P65">Sh</rs>
             </ab>
          </div>

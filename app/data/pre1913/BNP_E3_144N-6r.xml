@@ -55,27 +55,48 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144n_JPG_24-C-R0150/bn-acpc-e-e3_144n_0013_6r_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-144n-6r">
       <body>
-         <note><gap reason="selection" unit="lines" extent="5"/> </note>
+         <note>
+            <gap reason="selection" unit="lines" extent="5"/>
+         </note>
          <metamark rend="line" function="distinct"/>
-         
-         <head><hi rend="underline"><del rend="overstrike">WORK DONE</del> ESSAYS:</hi></head>  
-         <list> 
-            <item><label>1.</label><rs type="title">On the Odes of Keats</rs>.  <hi rend="underline"> Keats.</hi></item>
-            <item><label>2.</label><rs type="title">On the Sonnets of Keats</rs>.</item>        
-            <item><label>3.</label><rs type="title">On the Character of Keats</rs>.</item>
-            <item><label>4.</label><rs type="title">On the Character of Byron</rs>.</item>
-            <item><label>5.</label><rs type="title">On the Works of <rs type="name">Edgar Allan Poe</rs>.</rs>.</item>
-            
+         <head>
+            <hi rend="underline">
+               <del rend="overstrike">WORK DONE</del> ESSAYS:</hi>
+         </head>
+         <list>
+            <item>
+               <label>1.</label>
+               <rs type="title">On the Odes of Keats</rs>.  <hi rend="underline"> Keats.</hi>
+            </item>
+            <item>
+               <label>2.</label>
+               <rs type="title">On the Sonnets of Keats</rs>.</item>
+            <item>
+               <label>3.</label>
+               <rs type="title">On the Character of Keats</rs>.</item>
+            <item>
+               <label>4.</label>
+               <rs type="title">On the Character of Byron</rs>.</item>
+            <item>
+               <label>5.</label>
+               <rs type="title">On the Works of <rs type="name">Edgar Allan Poe</rs>.</rs>.</item>
          </list>
-         <metamark rend="line" function="distinct"/> 
-     
+         <metamark rend="line" function="distinct"/>
          <div/>
       </body>
    </text>

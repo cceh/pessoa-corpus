@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 87-79<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 87-79<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -35,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_87-79r.xml</idno>
          </publicationStmt>
@@ -68,22 +69,32 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-87-1-103_JPG_24-C-R0150/bn-acpc-e-e3-87-1-103_0171_79_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-87-1-103_JPG_24-C-R0150/bn-acpc-e-e3-87-1-103_0171_79_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Organização de <rs type="place">“<rs type="periodical"
-                        key="J54">Portugal</rs>”</rs>.</hi></head>
+            <head>
+               <hi rend="underline">Organização de <rs type="place">“<rs type="periodical" key="J54">Portugal</rs>”</rs>.</hi>
+            </head>
             <list>
                <item>Artigo de fundo — theoria.</item>
                <item>
                   <choice>
-                     <abbr><metamark rend="line" function="ditto"/></abbr>
+                     <abbr>
+                        <metamark rend="line" function="ditto"/>
+                     </abbr>
                      <expan>Artigo de fundo</expan>
                   </choice> — practica.</item>
                <item>Artigo litterario ou outro.</item>
@@ -94,14 +105,17 @@
                </item>
                <item>Secções especiaes: Sport.</item>
                <item>Texto completo de “Octavio” (<choice>
-                     <abbr>eng<am>.</am></abbr>
-                     <expan>eng<ex>lish</ex></expan>
+                     <abbr>eng<am>.</am>
+                     </abbr>
+                     <expan>eng<ex>lish</ex>
+                     </expan>
                   </choice>) </item>
                <item rend="indent-2">Theatros: Como para effeitos europeus, não existe theatro em
                      <rs type="place">Portugal</rs>,<lb/> não <choice>
                      <seg n="1">existem ahi secções</seg>
-                     <seg n="2"><add place="above">haveria <gap reason="illegible" extent="1"
-                              unit="character"/>secções Theatro</add></seg>
+                     <seg n="2">
+                        <add place="above">haveria <gap reason="illegible" extent="1" unit="character"/>secções Theatro</add>
+                     </seg>
                   </choice> neste semanário.</item>
                <item>Bull-fights (?)</item>
             </list>

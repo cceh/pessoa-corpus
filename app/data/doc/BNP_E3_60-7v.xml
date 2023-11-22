@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 60-7<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 60-7<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_60-7v.xml</idno>
          </publicationStmt>
@@ -74,11 +75,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-60-1-55_JPG_24-C-R0150/bn-acpc-e-e3-60-1-55_0022_7v_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-60-1-55_JPG_24-C-R0150/bn-acpc-e-e3-60-1-55_0022_7v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -86,16 +94,22 @@
             <gap reason="selection" unit="line" extent="13"/>
             <metamark rend="line" function="distinct"/>
             <list>
-               <item><rs type="title">Tempest</rs>.</item>
-               <item><rs type="title">Jekyll <choice>
+               <item>
+                  <rs type="title">Tempest</rs>.</item>
+               <item>
+                  <rs type="title">Jekyll <choice>
                         <abbr>&amp;</abbr>
                         <expan>and</expan>
                      </choice> Hyde</rs>.</item>
-               <item rend="indent-2"><rs type="title">Cancioneiro</rs> –<gap reason="illegible"
-                     extent="2" unit="word"/>. <seg type="anchor">(50 Songs) <add place="below">or
-                           <seg type="certainty" cert="low" rend="question-mark right" resp="FP"
-                           >100</seg></add>
-                  </seg></item>
+               <item rend="indent-2">
+                  <rs type="title">Cancioneiro</rs> –<gap reason="illegible" extent="2" unit="word"/>. <seg type="anchor">(50 Songs) <add place="below">or
+                           <seg type="certainty"
+                             cert="low"
+                             rend="question-mark right"
+                             resp="FP">100</seg>
+                     </add>
+                  </seg>
+               </item>
             </list>
          </div>
       </body>

@@ -38,8 +38,10 @@
                         <resp>Codificação</resp>
                         <name>Sviatoslav Drach</name>
                      </respStmt>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="pt" otherLangs="en fr"/>
                   </msItemStruct>
                </msContents>
@@ -53,29 +55,44 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0291_142_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48b-142">
       <body>
-         <head><hi rend="underline">Essays and Shorter Works.</hi></head>  
-         
+         <head>
+            <hi rend="underline">Essays and Shorter Works.</hi>
+         </head>
          <list>
             <item>“The Categories.”</item>
-            <item>“Timidity and the Timid.”</item>        
-            <item><rs type="name">“Percy Bysshe Shelley</rs> – character &amp; work.”</item>
-            <item><rs type="name">“Edgar Allan Poe</rs> – character and work.”</item>
-            <item><rs type="name">“Jean-Jacques Rousseau.”</rs></item>
+            <item>“Timidity and the Timid.”</item>
+            <item>
+               <rs type="name">“Percy Bysshe Shelley</rs> – character &amp; work.”</item>
+            <item>
+               <rs type="name">“Edgar Allan Poe</rs> – character and work.”</item>
+            <item>
+               <rs type="name">“Jean-Jacques Rousseau.”</rs>
+            </item>
             <item>“Free-Will.”</item>
             <item>“Genius – character of geniuses.”</item>
-            <item>“The Trisection of the Angle.”</item>        
+            <item>“The Trisection of the Angle.”</item>
             <item>“The Followers of Poe.”</item>
             <item>“Character.”</item>
-            <item><rs type="name">“Jacob Dermot.”</rs></item>
+            <item>
+               <rs type="name">“Jacob Dermot.”</rs>
+            </item>
             <item>“Czarkresco.”</item>
-            <item>“The Wandering Jew.”</item>        
+            <item>“The Wandering Jew.”</item>
             <item>“The Voice of the Immense.”</item>
             <item>“Mandinke.”</item>
             <item>“The Case of the Science Master.”</item>
@@ -84,7 +101,9 @@
             <item>“The Egoist.”</item>
             <item>“Don Juan Conejo.”</item>
             <item>“Essay on Poetry.” (Humo <del rend="overstrike">n</del>rous).</item>
-            <item><rs type="name">“Karl Kiesky.”</rs></item>
+            <item>
+               <rs type="name">“Karl Kiesky.”</rs>
+            </item>
             <item>“On Modern Nomenclature”</item>
             <item>“On Initials.”</item>
             <item> “The Door.”</item>
@@ -94,7 +113,7 @@
             <item>“The Misanthrope.” (sourced, perverse).</item>
             <item>“Tennemann.” (Short cut impossible in 2 streets. Hate of natural laws.)</item>
             <item>“Magical Metathesis.”</item>
-         </list>  
+         </list>
          <div/>
       </body>
    </text>

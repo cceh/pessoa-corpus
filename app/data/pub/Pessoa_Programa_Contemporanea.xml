@@ -31,23 +31,16 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Programa_Contemporanea.xml</idno>
          </publicationStmt>
          <notesStmt>
             <note type="summary" resp="#JU">A atribuição do texto a Pessoa foi sugerida primeiro por
                Jerónimo Pizarro, com algumas ressalvas, em <hi rend="italic">Sensacionismo e outros
-                  ismos</hi> (<ref
-                  target="http://www.pessoadigital.pt/pt/bibliography/Works_of_Fernando_Pessoa#bibl_SOI"
-                  >SOI, p. 276</ref>) e confirmada por Richard Zenith no artigo ʺPessoa ʼInéditoʼ,
-               1915ʺ (<ref
-                  target="http://www.pessoadigital.pt/pt/bibliography/About_the_work_of_Fernando_Pessoa#Zenith_2011"
-                  >Zenith, 2011</ref>); posteriormente foi incluído em <hi rend="italic">Proses I:
-                  1912-1922</hi> (<ref
-                  target="http://www.pessoadigital.pt/pt/bibliography/About_the_work_of_Fernando_Pessoa#bible_PRI"
-                  >PRI, 2013</ref>). A atribuição baseia-se na leitura da lista de projetos <ref
-                  target="http://www.pessoadigital.pt/pt/doc/BNP_E3_144X-48v"> BNP
+                  ismos</hi> (<ref target="http://www.pessoadigital.pt/pt/bibliography/Works_of_Fernando_Pessoa#bibl_SOI">SOI, p. 276</ref>) e confirmada por Richard Zenith no artigo ʺPessoa ʼInéditoʼ,
+               1915ʺ (<ref target="http://www.pessoadigital.pt/pt/bibliography/About_the_work_of_Fernando_Pessoa#Zenith_2011">Zenith, 2011</ref>); posteriormente foi incluído em <hi rend="italic">Proses I:
+                  1912-1922</hi> (<ref target="http://www.pessoadigital.pt/pt/bibliography/About_the_work_of_Fernando_Pessoa#bible_PRI">PRI, 2013</ref>). A atribuição baseia-se na leitura da lista de projetos <ref target="http://www.pessoadigital.pt/pt/doc/BNP_E3_144X-48v"> BNP
                144X-48v</ref>.</note>
             <note type="genre">
                <rs type="genre" key="prosa">Prosa</rs>
@@ -79,10 +72,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Programa_Contemporanea_1.jpg"/>
@@ -114,10 +115,8 @@
                <hi rend="bold">D</hi>e ahi o não terem os nossos artistas nem publico nem ao menos
                critica. O publico e a critica para as cousas de cultura, não os cria o mero numero
                de gente culta num paiz, mas a facilidade com que, reunindo-se, conjugando-se ou
-               pensando expontaneamente em commum, formam, não gente culta, mas propriamente <hi
-                  rend="italic">um meio culto</hi>.</p>
-            <p rend="indent-first">Essa grande deficiencia do nosso meio, vem emfim <rs
-                  type="periodical" key="J11">
+               pensando expontaneamente em commum, formam, não gente culta, mas propriamente <hi rend="italic">um meio culto</hi>.</p>
+            <p rend="indent-first">Essa grande deficiencia do nosso meio, vem emfim <rs type="periodical" key="J11">
                   <hi rend="italic">CONTEMPORANEA</hi>
                </rs> suppri-la. Foi nosso objectivo organisar uma revista que fosse rigorosamente o
                ponto de reunião de quantos interesses cultos entre nós existam. Este passo será o
@@ -138,7 +137,8 @@
             <p rend="indent-first">O que queremos realizar, realiza-lo-hemos á plena altura do nosso
                proposito, e de tal maneira que, desde a apresentação typographica até á medulla
                intellectual e artistica, <rs type="periodical" key="J11">
-                  <hi rend="italic">CON<pc>-</pc><pb/>TEMPORANEA</hi>
+                  <hi rend="italic">CON<pc>-</pc>
+                     <pb/>TEMPORANEA</hi>
                </rs> supporte triumphantemente a comparação com <hi rend="italic">as melhores</hi>
                revistas congéneres dos mais difficeis meios do Extrangeiro. Não se trata de as
                seguir, mas de as egualar.</p>
@@ -194,10 +194,8 @@
                <hi rend="bold">D</hi>aí o não terem os nossos artistas nem público nem ao menos
                crítica. O público e a crítica para as coisas de cultura, não os cria o mero número
                de gente culta num país, mas a facilidade com que, reunindo-se, conjugando-se ou
-               pensando espontaneamente em comum, formam, não gente culta, mas propriamente <hi
-                  rend="italic">um meio culto</hi>.</p>
-            <p rend="indent-first">Essa grande deficiência do nosso meio, vem enfim <hi
-                  rend="italic">CONTEMPORÂNEA</hi> supri-la. Foi nosso objetivo organizar uma
+               pensando espontaneamente em comum, formam, não gente culta, mas propriamente <hi rend="italic">um meio culto</hi>.</p>
+            <p rend="indent-first">Essa grande deficiência do nosso meio, vem enfim <hi rend="italic">CONTEMPORÂNEA</hi> supri-la. Foi nosso objetivo organizar uma
                revista que fosse rigorosamente o ponto de reunião de quantos interesses cultos entre
                nós existam. Este passo será o primeiro para a criação entre nós de um meio culto.
                Ninguém pode negar a importância do nosso intuito, o apropósito da nossa iniciativa e
@@ -215,7 +213,8 @@
                aristocratizados.</p>
             <p rend="indent-first">O que queremos realizar, realizá-lo-emos à plena altura do nosso
                propósito, e de tal maneira que, desde a apresentação tipográfica até à medula
-               intelectual e artística, <hi rend="italic">CON<pc>-</pc><pb/>TEMPORÂNEA</hi> suporte triunfantemente
+               intelectual e artística, <hi rend="italic">CON<pc>-</pc>
+                  <pb/>TEMPORÂNEA</hi> suporte triunfantemente
                a comparação com <hi rend="italic">as melhores</hi> revistas congéneres dos mais
                difíceis meios do Estrangeiro. Não se trata de as seguir, mas de as igualar.</p>
             <p rend="indent-first">Entenda-se bem. Não se pretende <hi rend="italic">tentar</hi> uma

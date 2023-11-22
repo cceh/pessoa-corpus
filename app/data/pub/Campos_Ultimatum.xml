@@ -19,7 +19,7 @@
             <respStmt>
                <resp>Codificação, Atualização ortográfica</resp>
                <name>Inês Filipa Rebelo do Carmo</name>
-            </respStmt>     
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Campos_Ultimatum.xml</idno>
          </publicationStmt>
@@ -70,10 +70,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Ultimatum_PF_1.jpg"/>
@@ -153,7 +161,7 @@
             <milestone rend="space" unit="section"/>
             <p rend="indent-first">Fallencia geral de tudo por causa de todos!</p>
             <p rend="indent-first">Fallencia geral de todos por causa de tudo!</p>
-                 <p rend="indent-first">Fallencia dos povos e dos destinos — fallencia total!</p>
+            <p rend="indent-first">Fallencia dos povos e dos destinos — fallencia total!</p>
             <p rend="indent-first">Desfile das nações para o meu Desprezo!</p>
             <p rend="indent-first">Tu, ambição italiana, cão de collo chamado <rs type="name" key="P148">Cesar</rs>!</p>
             <p rend="indent-first">Tu, “esforço francez”, gallo depennado com a pelle pintada de
@@ -230,7 +238,7 @@
                     Desprezo!</p>
             <p rend="indent-first">Passae vós, ambiciosos do luxo quotidiano, anseios de
                     costureiras dos dois sexos, vós cujo typo é o plebeu <rs type="name" key="P535">Annunzio</rs>, aristocrata de tanga de ouro!</p>
-                 <p rend="indent-first">Passae vós, que sois auctores de correntes sociaes, de correntes litterarias, de correntes artisticas, verso
+            <p rend="indent-first">Passae vós, que sois auctores de correntes sociaes, de correntes litterarias, de correntes artisticas, verso
                     da medalha da impotencia de crear!</p>
             <p rend="indent-first">Passae, frouxos que tendes a necessidade de serdes os istas
                     de qualquer ismo!</p>
@@ -397,7 +405,7 @@
                         progressão geometrica; a propria sensibilidade apenas em progressão
                         arithmetica.</hi>
             </p>
-                 <p rend="indent-first">Comprehende-se a importancia d’esta lei. A sensibilidade —
+            <p rend="indent-first">Comprehende-se a importancia d’esta lei. A sensibilidade —
                          tomada aqui no mais amplo dos seus sentidos possiveis — é a fonte de toda a
                     creação civilizada. Mas essa creação só pode dar-se completamente quando essa
                     sensibilidade esteja adaptada ao meio em que funcciona; na proporção da
@@ -454,7 +462,7 @@
                     cirurgica, embora envolva uma mutilação.</p>
             <p rend="indent-first">O que é que é preciso eliminar do psychismo
                     contemporaneo?</p>
-                 <p rend="indent-first">Evidentemente que é aquillo que seja a <hi rend="italic">acquisição fixa</hi> mais recente no espirito — isto é, aquella acquisição
+            <p rend="indent-first">Evidentemente que é aquillo que seja a <hi rend="italic">acquisição fixa</hi> mais recente no espirito — isto é, aquella acquisição
                     geral do espirito humano civilizado que seja anterior ao estabelecimento da
                     nossa civilização, mas recentemente anterior; e isto por trez razões: <hi rend="italic">(a)</hi> porque, por ser a mais recente das fixações
                     psychicas, é a menos difficil de eliminar; <hi rend="italic">(b)</hi> porque,
@@ -480,7 +488,7 @@
                     preconceitos, dogmas, ou attitudes, que o christianismo fez que se infiltrassem
                     na propria substancia da psyque humana.</p>
             <p rend="indent-first">Explicação concreta:</p>
-                 <p rend="indent-first">1. — <hi rend="bold">Abolição do dogma da personalidade</hi>
+            <p rend="indent-first">1. — <hi rend="bold">Abolição do dogma da personalidade</hi>
                          — isto é, de que temos uma Personalidade “separada” das dos outros. É uma ficção
                     theologica. A personalidade de cada um de nós é composta (como o sabe a
                     psychologia moderna, sobretudo desde a maior attenção dada á sociologia) do
@@ -654,7 +662,8 @@
             <p rend="indent-first">Proclamo isto bem alto e bem no auge, na barra do Tejo, de
                     costas pra a Europa, braços erguidos, fitando o Atlantico e saudando
                     abstractamente o Infinito.</p>
-                 <signed rend="right"><rs type="name" key="AdC" role="author" style="a">Alvaro de Campos</rs>.</signed>
+            <signed rend="right">
+               <rs type="name" key="AdC" role="author" style="a">Alvaro de Campos</rs>.</signed>
          </div>
       </body>
    </text>
@@ -806,7 +815,7 @@
                     Desprezo!</p>
             <p rend="indent-first">Passai vós, ambiciosos do luxo quotidiano, anseios de
                     costureiras dos dois sexos, vós cujo tipo é o plebeu Annunzio, aristocrata de tanga de ouro!</p>
-                 <p rend="indent-first">Passai vós, que sois autores de correntes sociais, de correntes literárias, de correntes artísticas, verso
+            <p rend="indent-first">Passai vós, que sois autores de correntes sociais, de correntes literárias, de correntes artísticas, verso
                     da medalha da impotência de criar!</p>
             <p rend="indent-first">Passai, frouxos que tendes a necessidade de serdes os istas
                     de qualquer ismo!</p>
@@ -1230,7 +1239,7 @@
             <p rend="indent-first">Proclamo isto bem alto e bem no auge, na barra do Tejo, de
                     costas pra a Europa, braços erguidos, fitando o Atlântico e saudando
                     abstratamente o Infinito.</p>
-                 <signed rend="right">Álvaro de Campos.</signed>
+            <signed rend="right">Álvaro de Campos.</signed>
          </div>
       </body>
    </text>

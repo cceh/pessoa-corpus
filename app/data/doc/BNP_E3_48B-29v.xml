@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48B-29<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 48B-29<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48B-29v.xml</idno>
          </publicationStmt>
@@ -78,26 +79,41 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0059_29v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0059_29v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <gap reason="selection" unit="line" extent="1"/>
-            <head><hi rend="underline">Anthologia:</hi></head>
-            <head type="sub"><hi rend="underline"><choice>
-                     <abbr>Vol<am>.</am></abbr>
-                     <expan>Vol<ex>ume</ex></expan>
-                  </choice> 1°:</hi></head>
+            <head>
+               <hi rend="underline">Anthologia:</hi>
+            </head>
+            <head type="sub">
+               <hi rend="underline">
+                  <choice>
+                     <abbr>Vol<am>.</am>
+                     </abbr>
+                     <expan>Vol<ex>ume</ex>
+                     </expan>
+                  </choice> 1°:</hi>
+            </head>
             <list>
-               <item><rs type="name" key="P65">Shakespeare</rs> - <rs type="title">A
+               <item>
+                  <rs type="name" key="P65">Shakespeare</rs> - <rs type="title">A
                   Tormenta</rs>.</item>
-               <item><rs type="name" key="P104">O. Henry</rs> - (um conto).</item>
+               <item>
+                  <rs type="name" key="P104">O. Henry</rs> - (um conto).</item>
                <item>(<rs type="name" key="P105">Conan Doyle</rs> - <rs type="title">O Valle do
                      Terror</rs>.)</item>
             </list>

@@ -38,8 +38,10 @@
                         <resp>Codificação</resp>
                         <name>Sviatoslav Drach</name>
                      </respStmt>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="pt" otherLangs="en"/>
                   </msItemStruct>
                </msContents>
@@ -53,46 +55,80 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0119_58_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48h-58">
       <body>
-         <head><hi rend="underline">
-            <del rend="overstike">Estudos </del>Politica e Sociologia</hi></head>  
-         <list> 
-            <item><label>1.</label>	A Oligarchia das Bestas. (e a orientação de politica interna e externa da 
-               <choice><abbr>Rep<am>.</am></abbr><expan>Rep<ex>ublica</ex></expan></choice>
-               <choice><abbr>Port<am>.</am></abbr><expan>Port<ex>ugueza</ex></expan></choice>.)
-            </item>
-            <item><label>2.</label>Fim de Outomno. (e a missão da <choice><abbr>Rep<am>.</am></abbr><expan>Rep<ex>ublica</ex></expan></choice> 
-            <choice><abbr>Port<am>.</am></abbr><expan>Port<ex>ugueza</ex></expan></choice>, ante a civilização contemporanea.)</item>        
-            <metamark rend="line" function="distinct"/>
-         </list>
-            
+         <head>
+            <hi rend="underline">
+               <del rend="overstike">Estudos </del>Politica e Sociologia</hi>
+         </head>
          <list>
-            <item><label>1.</label> O triumpho do radicalismo inglez.</item>
-            <item><label>2.</label>A questão irlandeza.</item>
-            <item><label>3.</label> A nevrose do Kayser.</item>
+            <item>
+               <label>1.</label>	A Oligarchia das Bestas. (e a orientação de politica interna e externa da 
+               <choice>
+                  <abbr>Rep<am>.</am>
+                  </abbr>
+                  <expan>Rep<ex>ublica</ex>
+                  </expan>
+               </choice>
+               <choice>
+                  <abbr>Port<am>.</am>
+                  </abbr>
+                  <expan>Port<ex>ugueza</ex>
+                  </expan>
+               </choice>.)
+            </item>
+            <item>
+               <label>2.</label>Fim de Outomno. (e a missão da <choice>
+                  <abbr>Rep<am>.</am>
+                  </abbr>
+                  <expan>Rep<ex>ublica</ex>
+                  </expan>
+               </choice>
+               <choice>
+                  <abbr>Port<am>.</am>
+                  </abbr>
+                  <expan>Port<ex>ugueza</ex>
+                  </expan>
+               </choice>, ante a civilização contemporanea.)</item>
             <metamark rend="line" function="distinct"/>
          </list>
-            <list> 
-               <item><label>4.</label>The Decline and Fall of the Portuguese Monarchy.</item>
-               <item><label>5.</label>Sonnets written in Hope, and others.</item>
-            </list>
-         <list> 
-            <head><hi rend="underline">A Feira dos Sophismas.</hi></head>  
-            
-            <item><label>1.</label>Na Casa de Saúde de Cascaes.</item>
-            <item><label>2.</label>Uma Tarde Clerical.</item>
-         
-            </list>
-         
-         
-         
-         
+         <list>
+            <item>
+               <label>1.</label> O triumpho do radicalismo inglez.</item>
+            <item>
+               <label>2.</label>A questão irlandeza.</item>
+            <item>
+               <label>3.</label> A nevrose do Kayser.</item>
+            <metamark rend="line" function="distinct"/>
+         </list>
+         <list>
+            <item>
+               <label>4.</label>The Decline and Fall of the Portuguese Monarchy.</item>
+            <item>
+               <label>5.</label>Sonnets written in Hope, and others.</item>
+         </list>
+         <list>
+            <head>
+               <hi rend="underline">A Feira dos Sophismas.</hi>
+            </head>
+            <item>
+               <label>1.</label>Na Casa de Saúde de Cascaes.</item>
+            <item>
+               <label>2.</label>Uma Tarde Clerical.</item>
+         </list>
          <div/>
       </body>
    </text>

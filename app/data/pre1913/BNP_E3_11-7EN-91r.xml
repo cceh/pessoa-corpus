@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 11<hi rend="superscript">7</hi>EN-91<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 11<hi rend="superscript">7</hi>EN-91<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -34,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_11-7EN-91r.xml</idno>
          </publicationStmt>
@@ -64,7 +65,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-11-7-en-1-100_JPG_24-C-R0150/bn-acpc-e-e3-11-7-en-1-100_0183_91_t24-C-R0150.jpg"/>
@@ -72,12 +81,19 @@
    <text>
       <body>
          <div>
-            <ab rend="right"><del rend="overstrike" n="2"><hi rend="underline">Artigos</hi></del></ab>
+            <ab rend="right">
+               <del rend="overstrike" n="2">
+                  <hi rend="underline">Artigos</hi>
+               </del>
+            </ab>
             <delSpan rend="overstrike" spanTo="#A1" n="2"/>
-            <ab>Artigos para passar a pam<pc>-</pc><lb/>phleto: —</ab>
+            <ab>Artigos para passar a pam<pc>-</pc>
+               <lb/>phleto: —</ab>
             <list>
                <item>
-                  “<rs type="title">O <hi rend="underline">Trust</hi></rs> <supplied resp="PS" reason="omitted-in-original"/>”
+                  “<rs type="title">O <hi rend="underline">Trust</hi>
+                  </rs>
+                  <supplied resp="PS" reason="omitted-in-original"/>”
                </item>
                <item>
                   “<rs type="title">Comparando...</rs>”
@@ -85,10 +101,12 @@
             </list>
             <anchor xml:id="A1"/>
             <ab>
-               <hi rend="underline"><rs type="place">Portugal</rs>:</hi> (Esboço Epico).<lb/>
-               <del rend="overstrike" n="2">en</del> O estrangeiro <seg rend="right">O escarro</seg><lb/>
+               <hi rend="underline">
+                  <rs type="place">Portugal</rs>:</hi> (Esboço Epico).<lb/>
+               <del rend="overstrike" n="2">en</del> O estrangeiro <seg rend="right">O escarro</seg>
+               <lb/>
                que era o seu sêr
-            </ab>       
+            </ab>
          </div>
       </body>
    </text>

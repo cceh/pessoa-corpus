@@ -1,10 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 13A-21<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 13A-21<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -30,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_13A-21v.xml</idno>
          </publicationStmt>
@@ -60,26 +61,47 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-13a-1-79_JPG_24-C-R0150/bn-acpc-e-e3-13a-1-79_0046_21v_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-13a-1-79_JPG_24-C-R0150/bn-acpc-e-e3-13a-1-79_0046_21v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
-        <div>
-         <head><hi rend="underline">Larger Works.</hi></head>
-         <list>
-           <item><rs type="title">“On Literature.”</rs></item>
-           <item><rs type="title">”Essays in Metaphysics.”</rs></item>
-           <item><rs type="title">“Sub Umbrâ.”</rs></item>
-           <item><rs type="title">“The Old Castle, and Other Poems.”</rs></item>
-           <item><rs type="title">“The Drama of Life.”</rs></item>
-           <item><rs type="title">“New Utopia.”</rs></item>
-          </list>
-           <gap reason="selection" unit="line" extent="10"/>
-        </div>
+         <div>
+            <head>
+               <hi rend="underline">Larger Works.</hi>
+            </head>
+            <list>
+               <item>
+                  <rs type="title">“On Literature.”</rs>
+               </item>
+               <item>
+                  <rs type="title">”Essays in Metaphysics.”</rs>
+               </item>
+               <item>
+                  <rs type="title">“Sub Umbrâ.”</rs>
+               </item>
+               <item>
+                  <rs type="title">“The Old Castle, and Other Poems.”</rs>
+               </item>
+               <item>
+                  <rs type="title">“The Drama of Life.”</rs>
+               </item>
+               <item>
+                  <rs type="title">“New Utopia.”</rs>
+               </item>
+            </list>
+            <gap reason="selection" unit="line" extent="10"/>
+         </div>
       </body>
    </text>
 </TEI>

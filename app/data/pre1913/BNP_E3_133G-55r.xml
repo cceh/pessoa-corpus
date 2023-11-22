@@ -51,24 +51,79 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-133g-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133g-1-100_0109_55_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-133g-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133g-1-100_0109_55_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-133g-55r">
       <body>
-         <head>Obras de <supplied resp="PS" reason="omitted-in-original"></supplied></head>
-       	
-          
+         <head>Obras de <supplied resp="PS" reason="omitted-in-original"/>
+         </head>
          <list>
-            <item><hi rend="underline"> Acção </hi></item>  	<item><note place="center"><hi rend="underline"> Arte </hi></note></item> 	<item><note place="center"><hi rend="underline">Philosophia </hi></note></item> 
-            <item><rs type="title"><choice><abbr>O<am>.</am></abbr><expan>O<ex>ligarchia</ex></expan></choice> das <choice><abbr>B<am>.</am></abbr><expan>B<ex>estas</ex></expan></choice></rs></item>     <item><note place="center"><rs type="title">Agua <choice><abbr>Stag<am>.</am></abbr><expan>Stag<ex>nada</ex></expan></choice>	</rs></note></item>  <item><note place="right"><supplied resp="PS" reason="omitted-in-original"></supplied></note></item> 
-        
-         <item><choice><abbr>Rad<am>.</am></abbr></choice><choice><abbr>Ing<am>.</am></abbr></choice></item>       
-         </list> 
+            <item>
+               <hi rend="underline"> Acção </hi>
+            </item>
+            <item>
+               <note place="center">
+                  <hi rend="underline"> Arte </hi>
+               </note>
+            </item>
+            <item>
+               <note place="center">
+                  <hi rend="underline">Philosophia </hi>
+               </note>
+            </item>
+            <item>
+               <rs type="title">
+                  <choice>
+                     <abbr>O<am>.</am>
+                     </abbr>
+                     <expan>O<ex>ligarchia</ex>
+                     </expan>
+                  </choice> das <choice>
+                     <abbr>B<am>.</am>
+                     </abbr>
+                     <expan>B<ex>estas</ex>
+                     </expan>
+                  </choice>
+               </rs>
+            </item>
+            <item>
+               <note place="center">
+                  <rs type="title">Agua <choice>
+                        <abbr>Stag<am>.</am>
+                        </abbr>
+                        <expan>Stag<ex>nada</ex>
+                        </expan>
+                     </choice>
+                  </rs>
+               </note>
+            </item>
+            <item>
+               <note place="right">
+                  <supplied resp="PS" reason="omitted-in-original"/>
+               </note>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Rad<am>.</am>
+                  </abbr>
+               </choice>
+               <choice>
+                  <abbr>Ing<am>.</am>
+                  </abbr>
+               </choice>
+            </item>
+         </list>
          <div/>
       </body>
    </text>

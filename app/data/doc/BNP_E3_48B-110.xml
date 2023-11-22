@@ -39,7 +39,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48B-110.xml</idno>
          </publicationStmt>
@@ -73,14 +73,19 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0226_110_t24-C-R0150.jpg"/>
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0227_110v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0226_110_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0227_110v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -88,25 +93,38 @@
             <list>
                <item>
                   <label>1.</label>
-                  <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_O_Banqueiro_Anarchista"><rs type="title"><choice>
-                        <abbr>Banq<am>.</am></abbr>
-                        <expan>Banq<ex>ueiro</ex></expan>
-                     </choice>
-                     <choice>
-                        <abbr>Anarch<am>.</am></abbr>
-                        <expan>Anarch<ex>ista</ex></expan>
-                     </choice></rs></ref></item>
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_O_Banqueiro_Anarchista">
+                     <rs type="title">
+                        <choice>
+                           <abbr>Banq<am>.</am>
+                           </abbr>
+                           <expan>Banq<ex>ueiro</ex>
+                           </expan>
+                        </choice>
+                        <choice>
+                           <abbr>Anarch<am>.</am>
+                           </abbr>
+                           <expan>Anarch<ex>ista</ex>
+                           </expan>
+                        </choice>
+                     </rs>
+                  </ref>
+               </item>
                <item>
                   <label>2.</label>
                   <rs type="title">Sodoma Divinizada</rs>.</item>
                <item>
                   <label>3.</label>
-                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum"><rs type="title">Ultimatum</rs></ref>. <metamark rend="line"/>
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
+                     <rs type="title">Ultimatum</rs>
+                  </ref>. <metamark rend="line"/>
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
                   <label>4.</label>
-                  <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Antonio_Botto_e_o_ideal"><rs type="title">Ideal Esthetico</rs></ref>.</item>
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Antonio_Botto_e_o_ideal">
+                     <rs type="title">Ideal Esthetico</rs>
+                  </ref>.</item>
                <item>
                   <label>5.</label>
                   <rs type="title">Bandarra</rs>.</item>
@@ -117,40 +135,63 @@
                <item>
                   <label>7.</label>
                   <supplied resp="PS" reason="omitted-in-original"/>
-                  <note place="margin-right"><hi rend="framed">Cadernos para dar<lb/>que
-                        sentir.</hi></note>
+                  <note place="margin-right">
+                     <hi rend="framed">Cadernos para dar<lb/>que
+                        sentir.</hi>
+                  </note>
                </item>
                <item>
                   <label>8.</label>
-                  <supplied resp="PS" reason="omitted-in-original"/></item>
+                  <supplied resp="PS" reason="omitted-in-original"/>
+               </item>
             </list>
             <metamark rend="line" function="distinct"/>
             <div>
                <list>
-                  <item><rs type="name" key="P107">Mario Saa</rs>.</item>
-                  <item><rs type="name" key="P56">Almada</rs>.</item>
-                  <item><note place="margin-left">3 –</note>
+                  <item>
+                     <rs type="name" key="P107">Mario Saa</rs>.</item>
+                  <item>
+                     <rs type="name" key="P56">Almada</rs>.</item>
+                  <item>
+                     <note place="margin-left">3 –</note>
                      <rs type="name" key="P122">Henrique Rosa</rs>.</item>
-                  <item><rs type="name" key="P63">
+                  <item>
+                     <rs type="name" key="P63">
                         <choice>
-                           <abbr>Man<am>.</am></abbr>
-                           <expan>Man<ex>uel</ex></expan>
-                        </choice> <choice>
-                           <abbr>Ant<am>.</am></abbr>
-                           <expan>Ant<ex>onio</ex></expan>
-                        </choice> de Almeida.</rs></item>
-                  <item><rs type="name" key="P298">João Camoesas</rs>.</item>
-                  <item><rs type="name" key="P11"><choice>
-                           <abbr>F<am>.</am></abbr>
-                           <expan>F<ex>rancisco</ex></expan>
+                           <abbr>Man<am>.</am>
+                           </abbr>
+                           <expan>Man<ex>uel</ex>
+                           </expan>
                         </choice>
                         <choice>
-                           <abbr>F<am>.</am></abbr>
-                           <expan>F<ex>ernandes</ex></expan>
+                           <abbr>Ant<am>.</am>
+                           </abbr>
+                           <expan>Ant<ex>onio</ex>
+                           </expan>
+                        </choice> de Almeida.</rs>
+                  </item>
+                  <item>
+                     <rs type="name" key="P298">João Camoesas</rs>.</item>
+                  <item>
+                     <rs type="name" key="P11">
+                        <choice>
+                           <abbr>F<am>.</am>
+                           </abbr>
+                           <expan>F<ex>rancisco</ex>
+                           </expan>
+                        </choice>
+                        <choice>
+                           <abbr>F<am>.</am>
+                           </abbr>
+                           <expan>F<ex>ernandes</ex>
+                           </expan>
                         </choice> Lopes</rs>.</item>
-                  <item><rs type="name" key="P299">
-                        <abbr>J<am>.</am></abbr>
-                        <abbr>L<am>.</am></abbr> Supico</rs>.</item>
+                  <item>
+                     <rs type="name" key="P299">
+                        <abbr>J<am>.</am>
+                        </abbr>
+                        <abbr>L<am>.</am>
+                        </abbr> Supico</rs>.</item>
                </list>
                <metamark rend="line" function="distinct"/>
                <note place="center">Cogitanda</note>
@@ -167,14 +208,22 @@
                      <cell rend="right">25.00</cell>
                   </row>
                   <row>
-                     <cell><choice>
-                           <abbr>Imp<am>.</am></abbr>
-                           <expan>Imp<ex>ressão</ex></expan>
-                        </choice></cell>
-                     <cell rend="right"><hi rend="underline">75.00</hi></cell>
+                     <cell>
+                        <choice>
+                           <abbr>Imp<am>.</am>
+                           </abbr>
+                           <expan>Imp<ex>ressão</ex>
+                           </expan>
+                        </choice>
+                     </cell>
+                     <cell rend="right">
+                        <hi rend="underline">75.00</hi>
+                     </cell>
                   </row>
                   <row>
-                     <cell cols="2" rend="right"><hi rend="underline">200.00</hi></cell>
+                     <cell cols="2" rend="right">
+                        <hi rend="underline">200.00</hi>
+                     </cell>
                   </row>
                   <row>
                      <cell cols="2" rend="right">350.00</cell>
@@ -185,15 +234,22 @@
                <list>
                   <item>
                      <choice>
-                        <abbr>Trad<am>.</am></abbr>
-                        <expan>Trad<ex>ucção</ex></expan>
+                        <abbr>Trad<am>.</am>
+                        </abbr>
+                        <expan>Trad<ex>ucção</ex>
+                        </expan>
                      </choice> de <rs type="name" key="P65">Shakespeare</rs>. </item>
                   <item>
                      <choice>
-                        <abbr><metamark function="ditto" rend="line"/></abbr>
-                        <expan><choice>
-                              <abbr>Trad<am>.</am></abbr>
-                              <expan>Trad<ex>ucção</ex></expan>
+                        <abbr>
+                           <metamark function="ditto" rend="line"/>
+                        </abbr>
+                        <expan>
+                           <choice>
+                              <abbr>Trad<am>.</am>
+                              </abbr>
+                              <expan>Trad<ex>ucção</ex>
+                              </expan>
                            </choice> de</expan>
                      </choice>
                      <rs type="name" key="P87">Edgar Poe</rs>. </item>

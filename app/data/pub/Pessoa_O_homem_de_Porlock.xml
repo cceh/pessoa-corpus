@@ -19,7 +19,7 @@
             <respStmt>
                <resp>Atualização ortográfica</resp>
                <name>Inês Filipa Rebelo do Carmo</name>
-            </respStmt> 
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_homem_de_Porlock.xml</idno>
          </publicationStmt>
@@ -65,10 +65,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Prosa/O_Homem_de_Porlock.jpg"/>
@@ -84,21 +92,19 @@
                mais extraordinarios da litteratura ingleza — a maior, salvo a grega, de todas as
                litteraturas. E o extraordinario da contextura consubstancia-se com o extraordinario
                da origem.</p>
-            <p rend="indent-first">Foi esse poema composto ― narra <rs type="name" key="P163"
-                  >Coleridge</rs> ― em sonho. Morava occasionalmente em uma herdade solitaria, entre
+            <p rend="indent-first">Foi esse poema composto ― narra <rs type="name" key="P163">Coleridge</rs> ― em sonho. Morava occasionalmente em uma herdade solitaria, entre
                as aldeias de Porlock e Linton. Um dia, em virtude de um anodyno que tomara,
                adormeceu; dormiu trez horas, durante as quaes, diz, compoz o poema surgindo em seu
                espirito, parallelamente e sem esforço, as imagens e as expressões verbaes que a
                ellas correspondiam.</p>
             <p rend="indent-first">Disperto, dispunha-se a escrever o que compuzera; tinha escripto
-               já trinta linhas, quando lhe foi annunciada a visita de «um homem de Porlock». <rs
-                  type="name" key="P163">Coleridge</rs> sentiu-se obrigado a attendel-o. Com elle se
+               já trinta linhas, quando lhe foi annunciada a visita de «um homem de Porlock». <rs type="name" key="P163">Coleridge</rs> sentiu-se obrigado a attendel-o. Com elle se
                demorou cerca de uma hora. Ao retomar porém a transcripção do que compuzera em sonho,
                verificou que se esquecera de quanto lhe faltava escrever; não lhe ficara lembrado
                senão o final do poema ― vinte e quatro linhas mais.</p>
             <p rend="indent-first">E assim temos esse <rs type="title">
                   <hi rend="bold">Kubla Kahn</hi>
-            </rs> como fragmento ou fragmentos; — o principio e o fim de qualquer coisa
+               </rs> como fragmento ou fragmentos; — o principio e o fim de qualquer coisa
                espantosa, de outro mundo, figurada em termos de mysterio que a imaginação não pode
                humanamente representar-se, e da qual ignoramos, com horror, qual poderia ter sido o
                enredo. <rs type="name" key="P87" style="b">Edgar Poë</rs>, (discipulo, soubesse-o ou
@@ -110,15 +116,13 @@
                </rs> tudo é outro, tudo é Além; e o que se não sabe o que é, decorre em um Oriente
                impossivel, mas que o poeta positivamente viu.</p>
             <milestone rend="asterisks" unit="section"/>
-            <p rend="indent-first">Não se sabe ― não o disse <rs type="name" key="P163"
-                  >Coleridge</rs> ― quem foi aquelle «Homem de Porlock», que tantos, como eu, terão
+            <p rend="indent-first">Não se sabe ― não o disse <rs type="name" key="P163">Coleridge</rs> ― quem foi aquelle «Homem de Porlock», que tantos, como eu, terão
                amaldiçoado. Seria por uma coincidencia chaotica que surgiu esse interruptor
                incognito, a estorvar uma comunicação entre o abysmo e a vida? Nasceu a coincidencia
                apparente de qualquer occulta presença real, das que parecem conscientemente entravar
                a revelação dos Mysterios, ainda quando intuitiva e licita, ou a transcripção dos
                sonhos, quando nelles durma qualquer fórma de tal revelação?</p>
-            <p rend="indent-first">Seja como fôr, creio que o caso de <rs type="name" key="P163"
-               >Coleridge</rs> representa — numa forma excessiva, destinada a formar uma
+            <p rend="indent-first">Seja como fôr, creio que o caso de <rs type="name" key="P163">Coleridge</rs> representa — numa forma excessiva, destinada a formar uma
                allegoria vivida, ― o que com todos nós se passa, quando neste mundo tentamos, por
                meio da sensibilidade com que se faz arte, communicar, falsos pontifices, com o Outro
                Mundo de nós mesmos.</p>
@@ -130,8 +134,7 @@
                pessoa externa que cada um de nós tem em si, mais real na vida do que nós proprios: —
                a somma viva do que apprendemos, do que julgamos que somos, e do que desejamos
                ser.</p>
-            <p rend="indent-first">Esse visitante, — perennemente incognito porque <hi rend="italic"
-               >sendo nós</hi>, não é «alguém»; esse interruptor — perennemente anonymo porque,
+            <p rend="indent-first">Esse visitante, — perennemente incognito porque <hi rend="italic">sendo nós</hi>, não é «alguém»; esse interruptor — perennemente anonymo porque,
                <hi rend="italic">sendo vivo</hi>, é «impessoal» — todos nós o temos que receber,
                por fraqueza nossa, entre o começo e o termo de um poema, inteiramente composto, que
                não nos damos licença que fique escripto. E o que de todos nós, artistas grandes ou
@@ -142,8 +145,7 @@
                quem não existe, não queremos melindrar «o estranho» — <hi rend="italic">que é
                   nós</hi>. E assim, do que poderia ter sido, fica só o que é; — do poema, ou dos
                   <hi rend="italic">opera omnia</hi>, só o princípio e o fim de qualquer coisa
-               perdida —  <hi rend="italic">disjecta membra</hi> que, como disse <rs type="name"
-                  key="P493">Carlyle</rs>, é o que fica de qualquer poeta, ou de qualquer homem.</p>
+               perdida —  <hi rend="italic">disjecta membra</hi> que, como disse <rs type="name" key="P493">Carlyle</rs>, é o que fica de qualquer poeta, ou de qualquer homem.</p>
             <signed rend="right">
                <rs type="name" key="FP" role="author" style="b">Fernando Pessoa</rs>
             </signed>
@@ -176,8 +178,7 @@
                e da qual ignoramos, com horror, qual poderia ter sido o enredo. Edgar
                Poe, (discípulo, soubesse-o ou não, de Coleridge), nunca, em verso ou prosa, atingiu
                o Outro Mundo dessa maneira nativa ou com essa sinistra plenitude. No que há de Poe,
-               com toda a sua frieza, alguma coisa resta de nosso ainda que negativamente; no <hi
-                  rend="bold">Kubla Kahn</hi> tudo é outro, tudo é Além; e o que se não sabe o que
+               com toda a sua frieza, alguma coisa resta de nosso ainda que negativamente; no <hi rend="bold">Kubla Kahn</hi> tudo é outro, tudo é Além; e o que se não sabe o que
                é, decorre em um Oriente impossível, mas que o poeta positivamente viu.</p>
             <milestone rend="asterisks" unit="section"/>
             <p rend="indent-first">Não se sabe ― não o disse Coleridge ― quem foi aquele «Homem de
@@ -199,8 +200,7 @@
                pessoa externa que cada um de nós tem em si, mais real na vida do que nós próprios: —
                a soma viva do que aprendemos, do que julgamos que somos, e do que desejamos
                ser.</p>
-            <p rend="indent-first">Esse visitante, — perenemente incógnito porque <hi rend="italic"
-               >sendo nós</hi>, não é «alguém»; esse interruptor — perenemente anónimo porque,
+            <p rend="indent-first">Esse visitante, — perenemente incógnito porque <hi rend="italic">sendo nós</hi>, não é «alguém»; esse interruptor — perenemente anónimo porque,
                <hi rend="italic">sendo vivo</hi>, é «impessoal» — todos nós o temos que receber,
                por fraqueza nossa, entre o começo e o termo de um poema, inteiramente composto, que
                não nos damos licença que fique escrito. E o que de todos nós, artistas grandes ou

@@ -39,7 +39,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_738r-e-730.xml</idno>
          </publicationStmt>
@@ -72,7 +72,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="doc_BNP_E3_738r.jpg"/>
@@ -83,30 +91,41 @@
       <body>
          <div>
             <div>
-               <head><hi rend="underline">Agencia</hi></head>
+               <head>
+                  <hi rend="underline">Agencia</hi>
+               </head>
                <list>
                   <item>Informações de cambios e vapores chegados etc.</item>
                   <item rend="indent-2">
                      <choice>
-                        <abbr><metamark rend="quotes" function="ditto"/></abbr>
+                        <abbr>
+                           <metamark rend="quotes" function="ditto"/>
+                        </abbr>
                         <expan>Informações</expan>
                      </choice> de passageiros e entradas<lb/> em hoteis. </item>
                   <item rend="indent-2">
                      <choice>
-                        <abbr><metamark rend="quotes" function="ditto"/></abbr>
+                        <abbr>
+                           <metamark rend="quotes" function="ditto"/>
+                        </abbr>
                         <expan>Informações</expan>
                      </choice> viagens, horarios, navios,<lb/>
                      <choice>
-                        <abbr>v<am>.</am></abbr>
-                        <expan>v<ex>eiculos</ex></expan>
+                        <abbr>v<am>.</am>
+                        </abbr>
+                        <expan>v<ex>eiculos</ex>
+                        </expan>
                      </choice> circulatorios, etc.</item>
                   <item>Listas de exportadores e importadores</item>
                   <item rend="indent-2">Informação semanal sobre <lb/>commercio e industria
                         <supplied resp="PS" reason="omitted-in-original"/>
                   </item>
-                  <item><choice>
-                        <abbr>Inf<am>.</am></abbr>
-                        <expan>Inf<ex>ormação</ex></expan>
+                  <item>
+                     <choice>
+                        <abbr>Inf<am>.</am>
+                        </abbr>
+                        <expan>Inf<ex>ormação</ex>
+                        </expan>
                      </choice> estatistica.</item>
                   <item>Informações commerciaes.</item>
                </list>
@@ -120,19 +139,19 @@
                   <item>Montagem e seguimento de escriptos.</item>
                   <item rend="indent-2">
                      <gap reason="illegible" unit="word" extent="1"/> litterarios, heraldicos e
-                        genea<pc>-</pc><lb/>logias.</item>
-                  <item rend="indent-2">Redacção correcta de cartas, <gap reason="illegible"
-                        unit="word" extent="1"/>,<lb/> catalogos.</item>
+                        genea<pc>-</pc>
+                     <lb/>logias.</item>
+                  <item rend="indent-2">Redacção correcta de cartas, <gap reason="illegible" unit="word" extent="1"/>,<lb/> catalogos.</item>
                   <item>Revisão de provas typographicas.</item>
                   <item>Cortes de jornaes.</item>
                   <item>Informações litterarias geraes.</item>
                   <item rend="indent-2">Manufactura de corrigir pautas,<lb/> cifras para
                      correspondencia <choice>
                         <abbr>scient</abbr>
-                        <expan>scient<ex>ifica</ex></expan>
+                        <expan>scient<ex>ifica</ex>
+                        </expan>
                      </choice>.</item>
-                  <item rend="indent-2">Trabalhos á machina, <gap reason="illegible" unit="word"
-                        extent="1"/>
+                  <item rend="indent-2">Trabalhos á machina, <gap reason="illegible" unit="word" extent="1"/>
                      <lb/>no telegrapho.</item>
                   <item rend="indent-2">Annuncios em todos os jornaes de <lb/>
                      <rs type="place">Portugal</rs> e do estrangeiro.</item>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144V-19r.xml</idno>
          </publicationStmt>
@@ -61,23 +61,36 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144v_JPG_24-C-R0150/bn-acpc-e-e3_144v_0037_19r_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
-        <div>
-         <list>
-           <item><rs type="title">A Question (to a port said)</rs>.</item>
-           <item>“<rs type="title">Many on evil</rs>”</item>
-           <item><rs type="title">The World</rs>.</item>
-           <item><rs type="title">The Gianters (?)</rs>.</item>
-           <item><rs type="title">Documents of Mental Decadence</rs>:
-              <supplied resp="PS" reason="omitted-in-original"/></item>
-         </list>
-        </div>
+         <div>
+            <list>
+               <item>
+                  <rs type="title">A Question (to a port said)</rs>.</item>
+               <item>“<rs type="title">Many on evil</rs>”</item>
+               <item>
+                  <rs type="title">The World</rs>.</item>
+               <item>
+                  <rs type="title">The Gianters (?)</rs>.</item>
+               <item>
+                  <rs type="title">Documents of Mental Decadence</rs>:
+              <supplied resp="PS" reason="omitted-in-original"/>
+               </item>
+            </list>
+         </div>
       </body>
    </text>
 </TEI>

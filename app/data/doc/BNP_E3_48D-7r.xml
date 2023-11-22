@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48D-7<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48D-7<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48D-7r.xml</idno>
          </publicationStmt>
@@ -62,8 +63,10 @@
                      <author>
                         <rs type="name" key="FP">Fernando Pessoa</rs>
                      </author>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="pt" otherLangs="en"/>
                   </msItemStruct>
                </msContents>
@@ -76,39 +79,60 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48d-1-76_JPG_24-C-R0150/bn-acpc-e-e3-48d-1-76_0015_7_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48d-1-76_JPG_24-C-R0150/bn-acpc-e-e3-48d-1-76_0015_7_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline"><rs type="title">Manifestos sensacionistas</rs></hi></head>
+            <head>
+               <hi rend="underline">
+                  <rs type="title">Manifestos sensacionistas</rs>
+               </hi>
+            </head>
             <list>
                <item>
                   <label>1.</label>
-                  <hi rend="underline"><rs type="title">Ultimatum</rs></hi> — timbre alado em
+                  <hi rend="underline">
+                     <rs type="title">Ultimatum</rs>
+                  </hi> — timbre alado em
                   Auréola: insultos.</item>
                <item>
                   <label>2.</label>
                   <rs type="title">Vimos crear a <choice>
-                        <abbr>lit<am>.</am></abbr>
-                        <expan>lit<ex>eratura</ex></expan>
+                        <abbr>lit<am>.</am>
+                        </abbr>
+                        <expan>lit<ex>eratura</ex>
+                        </expan>
                      </choice> portugueza. (manifesto <choice>
                         <seg n="1">raciocinado</seg>
-                        <seg n="2"><add place="below">sociologico</add></seg>
+                        <seg n="2">
+                           <add place="below">sociologico</add>
+                        </seg>
                      </choice>)</rs>.</item>
                <item>
                   <label>3.</label>
                   <rs type="title">O Sensacionismo. (manifesto à <choice>
-                        <abbr>O<am>.</am></abbr>
-                        <expan>O<ex>scar</ex></expan>
+                        <abbr>O<am>.</am>
+                        </abbr>
+                        <expan>O<ex>scar</ex>
+                        </expan>
                      </choice>
                      <choice>
-                        <abbr>W<am>.</am></abbr>
-                        <expan>W<ex>ilde</ex></expan>
+                        <abbr>W<am>.</am>
+                        </abbr>
+                        <expan>W<ex>ilde</ex>
+                        </expan>
                      </choice>)</rs>.</item>
                <item>
                   <label>4.</label>
@@ -119,26 +143,40 @@
             </list>
             <metamark rend="line" function="distinct"/>
             <list>
-               <head><rs type="title"><hi rend="underline"><subst>
+               <head>
+                  <rs type="title">
+                     <hi rend="underline">
+                        <subst>
                            <del rend="overstrike">Poemas</del>
                            <add place="above">Collaboração em</add>
-                        </subst> inglez<del rend="overstrike">es</del></hi></rs>:</head>
+                        </subst> inglez<del rend="overstrike">es</del>
+                     </hi>
+                  </rs>:</head>
                <item>
                   <label>1.</label>
-                  <rs type="title">Antinous</rs></item>
+                  <rs type="title">Antinous</rs>
+               </item>
                <item>
                   <label>2.</label>
-                  <seg type="certainty" cert="low" rend="question-mark right" resp="FP"><rs
-                        type="title">Divineness</rs></seg></item>
+                  <seg type="certainty"
+                       cert="low"
+                       rend="question-mark right"
+                       resp="FP">
+                     <rs type="title">Divineness</rs>
+                  </seg>
+               </item>
                <item>
                   <label>3.</label>
                   <rs type="title">Prothalamium</rs>.</item>
                <item>
-                  <label>4.</label><rs type="title">Sensationist Poems</rs>.</item>
+                  <label>4.</label>
+                  <rs type="title">Sensationist Poems</rs>.</item>
                <item>
-                  <label>5.</label><rs type="title">Sensationism</rs>.</item>
+                  <label>5.</label>
+                  <rs type="title">Sensationism</rs>.</item>
                <item>
-                  <label>6.</label><rs type="title">Sensationist Sketches</rs>.</item>
+                  <label>6.</label>
+                  <rs type="title">Sensationist Sketches</rs>.</item>
                <metamark rend="line" function="end"/>
             </list>
          </div>

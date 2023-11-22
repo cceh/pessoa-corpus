@@ -43,7 +43,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48A-48.xml</idno>
          </publicationStmt>
@@ -78,30 +78,41 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48a-1-66_JPG_24-C-R0150/bn-acpc-e-e3-48a-1-66_0096_48_t24-C-R0150.jpg"/>
-      <graphic
-         url="bn-acpc-e-e3-48a-1-66_JPG_24-C-R0150/bn-acpc-e-e3-48a-1-66_0097_48v_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48a-1-66_JPG_24-C-R0150/bn-acpc-e-e3-48a-1-66_0096_48_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48a-1-66_JPG_24-C-R0150/bn-acpc-e-e3-48a-1-66_0097_48v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Contos Intellectuaes</hi>.</head>
-            <ab rend="right"><hi rend="underline">e outros</hi></ab>
+            <head>
+               <hi rend="underline">Contos Intellectuaes</hi>.</head>
+            <ab rend="right">
+               <hi rend="underline">e outros</hi>
+            </ab>
             <list>
                <item>
                   <label>1.</label>
-                  <rs type="title">A perda do hiate <hi rend="underline">Nada</hi></rs>. </item>
+                  <rs type="title">A perda do hiate <hi rend="underline">Nada</hi>
+                  </rs>. </item>
                <item>
                   <label>2.</label>
                   <rs type="title">O desapparecimento do professor Serzedas</rs>. </item>
                <item>
                   <label>3.</label>
                   <rs type="title">A morte do <choice>
-                        <abbr>dr<am>.</am></abbr>
+                        <abbr>dr<am>.</am>
+                        </abbr>
                         <expan>d<ex>outo</ex>r</expan>
                      </choice> Cerdeira</rs>. </item>
                <item>
@@ -125,19 +136,23 @@
                <item>
                   <label>10.</label>
                   <rs type="title">Elogio historico de <choice>
-                        <abbr>D<am>.</am></abbr>
-                        <expan>D<ex>om</ex></expan>
+                        <abbr>D<am>.</am>
+                        </abbr>
+                        <expan>D<ex>om</ex>
+                        </expan>
                      </choice> Miguel Roupinho</rs>. </item>
                <item>
                   <label>11.</label>
-                  <rs type="title">Notas de conversas com <rs type="name">Carlos Malva</rs></rs>. </item>
+                  <rs type="title">Notas de conversas com <rs type="name">Carlos Malva</rs>
+                  </rs>. </item>
                <item>
                   <label>12.</label>
                   <rs type="title">A Tortura pela escuridão</rs>. </item>
                <item>
                   <label>13.</label>
                   <rs type="title">A experiencia do <choice>
-                        <abbr>dr<am>.</am></abbr>
+                        <abbr>dr<am>.</am>
+                        </abbr>
                         <expan>d<ex>outo</ex>r</expan>
                      </choice> Lacroix</rs>. </item>
                <item>
@@ -157,20 +172,20 @@
                   <rs type="title">“Contos intellectuaes”</rs> (um ou mais volumes) </item>
                <item>
                   <label>2</label>
-                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP"><rs
-                        type="title">“Contos fantasticos”</rs></seg> – <supplied resp="PS"
-                     reason="omitted-in-original"/>
+                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP">
+                     <rs type="title">“Contos fantasticos”</rs>
+                  </seg> – <supplied resp="PS" reason="omitted-in-original"/>
                </item>
                <item>
                   <label>3</label>
-                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP"><rs
-                        type="title">“Miscellanea metaphysica.”</rs></seg> – <supplied resp="PS"
-                     reason="omitted-in-original"/>
+                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP">
+                     <rs type="title">“Miscellanea metaphysica.”</rs>
+                  </seg> – <supplied resp="PS" reason="omitted-in-original"/>
                </item>
                <item>
                   <label>4</label>
-                  <rs type="title">Cartas de <rs type="name">Pero Botelho</rs></rs> – <supplied
-                     resp="PS" reason="omitted-in-original"/>
+                  <rs type="title">Cartas de <rs type="name">Pero Botelho</rs>
+                  </rs> – <supplied resp="PS" reason="omitted-in-original"/>
                </item>
                <item>
                   <label>5</label>
@@ -195,8 +210,8 @@
                   <rs type="title">Origens do christianismo</rs>. </item>
                <item>
                   <label>12.</label>
-                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP"><rs
-                        type="title">As leis da vida</rs>.</seg>
+                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP">
+                     <rs type="title">As leis da vida</rs>.</seg>
                   <metamark target="#A1" function="assignment" rend="arrow-down" n="2"/>
                </item>
                <item>
@@ -209,19 +224,27 @@
                <item>
                   <label>15.</label>
                   <rs type="title">Tratado de Sociologia</rs>. <add place="after" n="2">(<choice>
-                     <abbr>c<am>.</am></abbr>
-                     <expan>c<ex>om</ex></expan>
-                  </choice>
-                  <choice>
-                     <abbr>introd<am>.</am></abbr>
-                     <expan>introd<ex>ucção</ex></expan>
-                  </choice> psychologica)</add> </item>
+                        <abbr>c<am>.</am>
+                        </abbr>
+                        <expan>c<ex>om</ex>
+                        </expan>
+                     </choice>
+                     <choice>
+                        <abbr>introd<am>.</am>
+                        </abbr>
+                        <expan>introd<ex>ucção</ex>
+                        </expan>
+                     </choice> psychologica)</add>
+               </item>
                <item>
                   <label>16.</label>
                   <rs type="title">A actividade intellectual</rs>. <add place="after" n="2">(<choice>
-                     <abbr>introd<am>.</am></abbr>
-                     <expan>introd<ex>ucção</ex></expan>
-                  </choice> psychologica)</add> </item>
+                        <abbr>introd<am>.</am>
+                        </abbr>
+                        <expan>introd<ex>ucção</ex>
+                        </expan>
+                     </choice> psychologica)</add>
+               </item>
                <item>
                   <label>17.</label>
                   <supplied resp="PS" reason="omitted-in-original"/>
@@ -234,7 +257,8 @@
                   <rs type="title">Fausto</rs>. </item>
                <item>
                   <rs type="title">
-                     <rs type="name">Frei Gil</rs> de <rs type="place">Santarem</rs></rs>. </item>
+                     <rs type="name">Frei Gil</rs> de <rs type="place">Santarem</rs>
+                  </rs>. </item>
                <item>
                   <rs type="name">Paracelso</rs>. </item>
             </list>
@@ -242,11 +266,12 @@
             <metamark rend="line" function="distinct"/>
             <list>
                <item>
-                  <rs type="title">A crise <del rend="overstrike">politica</del> em <rs type="place"
-                        >Inglaterra</rs></rs>
+                  <rs type="title">A crise <del rend="overstrike">politica</del> em <rs type="place">Inglaterra</rs>
+                  </rs>
                </item>
                <item>
-                  <rs type="title">A <rs type="place">Irlanda</rs></rs>
+                  <rs type="title">A <rs type="place">Irlanda</rs>
+                  </rs>
                </item>
             </list>
             <metamark rend="line" function="end"/>

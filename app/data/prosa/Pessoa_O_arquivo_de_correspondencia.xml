@@ -27,7 +27,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_arquivo_de_correspondencia.xml</idno>
          </publicationStmt>
@@ -38,50 +38,60 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-                <item><rs type="work" key="W307">O arquivo de correspondência</rs></item>
+               <item>
+                  <rs type="work" key="W307">O arquivo de correspondência</rs>
+               </item>
             </list>
             <biblStruct>
                <analytic>
-                   <title level="a">O arquivo de correspondência</title>
+                  <title level="a">O arquivo de correspondência</title>
                   <author>
                      <rs type="name" key="FP">Fernando Pessoa</rs>
                   </author>
                   <textLang mainLang="pt" otherLangs="en"/>
                </analytic>
                <monogr>
-                   <title level="j"><rs type="periodical" key="J101">Revista de Comércio e Contabilidade</rs></title>
+                  <title level="j">
+                     <rs type="periodical" key="J101">Revista de Comércio e Contabilidade</rs>
+                  </title>
                   <imprint>
                      <date when="1926-04-25">25 de abril de 1926</date>
                   </imprint>
-                   <biblScope unit="issue">5</biblScope>
+                  <biblScope unit="issue">5</biblScope>
                   <biblScope unit="pages">146-151</biblScope>
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Prosa/O_arquivo_de_correspondencia_1"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_2"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_3"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_4"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_5"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_6"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_7"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_8"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_9"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_10"/>
-       <graphic url="Prosa/O_arquivo_de_correspondencia_11"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_2"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_3"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_4"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_5"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_6"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_7"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_8"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_9"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_10"/>
+      <graphic url="Prosa/O_arquivo_de_correspondencia_11"/>
    </facsimile>
    <text type="orig" corresp="#W307">
       <body>
          <div>
             <head>O ARQUIVO DE CORRESPONDENCIA</head>
-
-
             <p rend="indent-first">A ORGANISAÇÃO dos arquivos, e principalmente do arquivo de
                correspondencia entrada e saída ― que é o principal ― é um dos pontos mais
                importantes da organisação interna de qualquer escritorio, seja industrial ou
@@ -92,7 +102,8 @@
                arquivos materialmente diferentes para a correspondencia entrada e saída: quere dizer
                apenas que a correspondencia entrada e a correspondencia saída são dois aspectos a
                tratar separadamente, ainda que as cartas de uma e as copias das cartas da outra se
-               reunam sob as capas da mesma pasta ou do mesmo <hi rend="italic">dossier.</hi></p>
+               reunam sob as capas da mesma pasta ou do mesmo <hi rend="italic">dossier.</hi>
+            </p>
             <p rend="indent-first">Passamos a indicar os processos mais eficientes de arquivar e
                coordenar a correspondencia entrada, a correspondencia saída, e a referencia a ambas.
                Muito contribui para a facilidade de trabalho de um escritorio o ter uma boa
@@ -238,8 +249,9 @@
                resposta.</p>
          </div>
          <div>
-            <head><hi rend="italic">(CONCLUSÃO)</hi></head>
-
+            <head>
+               <hi rend="italic">(CONCLUSÃO)</hi>
+            </head>
             <p rend="indent-first">A CORRESPONDENCIA saída aparece no arquivo por meio da copia ou
                copias que déla se tiram. O primeiro problema que deparamos é pois o do processo de
                tirar essas copias.</p>
@@ -277,8 +289,7 @@
                correspondencia saída seria numerada do mesmo modo que a entrada, e estes numeros
                serviriam para a entre-referencia de um livro para outro: na coluna do livro da
                entrada que se destina á indicação de quando se respondeu inserir-se-hia o numero da
-               carta de resposta; na coluna do livro da saída que se destina á indicação de a <hi
-                  rend="italic">quê</hi> se respondeu se inseriria o numero da carta respondida,
+               carta de resposta; na coluna do livro da saída que se destina á indicação de a <hi rend="italic">quê</hi> se respondeu se inseriria o numero da carta respondida,
                podendo ainda acrescentar-se, para elucidação inteira, tambem o numero da carta que
                veio em resposta depois. É evidente que este sistema de entre-referencias se pode
                empregar tambem entre o copiador e o livro de registro da correspondencia
@@ -364,8 +375,7 @@
                caso, mas em todo o caso de classificação alfabetica de designações compostas de
                varios nomes: qual é o nome que determina preferivelmente a classificação? Por
                exemplo: a firma <hi rend="italic">A. J. Silva &amp; Costa, Lda.</hi> deve classificar-se
-               em <hi rend="italic">A. J.</hi>, em <hi rend="italic">Silva</hi>, ou em <hi
-                  rend="italic">Costa</hi>? Não ha criterio logicamente preferivel; adopte cada qual
+               em <hi rend="italic">A. J.</hi>, em <hi rend="italic">Silva</hi>, ou em <hi rend="italic">Costa</hi>? Não ha criterio logicamente preferivel; adopte cada qual
                o que preferir. O essencial, porêm, é que, adoptado um, se adopte sempre êsse; e o
                risco de êrro será reduzido se o arquivo, por firmas, de cartas tiver o seu
                complemento (como deve ter, e pelas razões abaixo expostas) num arquivo de fichas ou
@@ -420,5 +430,3 @@
       </body>
    </text>
 </TEI>
-
-

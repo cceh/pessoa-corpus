@@ -14,51 +14,89 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2023</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pancrácio_Charadas.xml</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Information about the source</p>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <!-- Quatro ficheiros diferentes? Como faço o header? Codifico capas antes de cada uma? -->
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <text corresp="XXX" type="orig">
       <body>
-         <!-- Falta acertar como fica a forma final deste ficheiro --><div><!-- 27 de agosto de 1902 -->
+         <!-- Falta acertar como fica a forma final deste ficheiro -->
+         <div><!-- 27 de agosto de 1902 -->
             <head rend="bold">Enigma saltitante</head>
-            <lg><l>Bem, bom.</l></lg>
-            <signed rend="left">DR. PANCRACIO</signed></div>
+            <lg>
+               <l>Bem, bom.</l>
+            </lg>
+            <signed rend="left">DR. PANCRACIO</signed>
+         </div>
          <!-- 24 de setembro de 1902 -->
-         <div><head rend="bold">Charada em phrase</head>
-            <lg><l>Aqui a serra é marisco. — 1-2</l></lg>
-            <signed rend="left">DR. PANCRACIO</signed></div>
+         <div>
+            <head rend="bold">Charada em phrase</head>
+            <lg>
+               <l>Aqui a serra é marisco. — 1-2</l>
+            </lg>
+            <signed rend="left">DR. PANCRACIO</signed>
+         </div>
          <div><!-- 5 de outubro de 1902 -->
             <head rend="bold">Phraseado</head>
-            <lg><l>1-3 aquelle 2-1 que alli vae como tem uma — inchada.</l></lg>
-            <signed rend="left">DR. PANCRACIO</signed></div>
+            <lg>
+               <l>1-3 aquelle 2-1 que alli vae como tem uma — inchada.</l>
+            </lg>
+            <signed rend="left">DR. PANCRACIO</signed>
+         </div>
          <div><!-- 26 de novembro de 1902 -->
             <head rend="bold">Charada electrica</head>
-            <lg><l>Em Portugal tem muitas arvores —2</l></lg>
-            <signed rend="left">DR. PANCRACIO</signed></div></body>
+            <lg>
+               <l>Em Portugal tem muitas arvores —2</l>
+            </lg>
+            <signed rend="left">DR. PANCRACIO</signed>
+         </div>
+      </body>
    </text>
    <text corresp="XXX" type="reg">
-      <body><div><!-- 27 de agosto de 1902 -->
-         <head rend="bold">Enigma saltitante</head>
-         <lg><l>Bem, bom.</l></lg>
-         <signed rend="left">DR. PANCRÁCIO</signed></div>
+      <body>
+         <div><!-- 27 de agosto de 1902 -->
+            <head rend="bold">Enigma saltitante</head>
+            <lg>
+               <l>Bem, bom.</l>
+            </lg>
+            <signed rend="left">DR. PANCRÁCIO</signed>
+         </div>
          <!-- 24 de setembro de 1902 -->
-         <div><head rend="bold">Charada em frase</head>
-            <lg><l>Aqui a serra é marisco. — 1-2</l></lg>
-            <signed rend="left">DR. PANCRÁCIO</signed></div>
+         <div>
+            <head rend="bold">Charada em frase</head>
+            <lg>
+               <l>Aqui a serra é marisco. — 1-2</l>
+            </lg>
+            <signed rend="left">DR. PANCRÁCIO</signed>
+         </div>
          <div><!-- 5 de outubro de 1902 -->
             <head rend="bold">Fraseado</head>
-            <lg><l>1-3 aquelle 2-1 que ali vai como tem uma — inchada.</l></lg>
-            <signed rend="left">DR. PANCRÁCIO</signed></div>
+            <lg>
+               <l>1-3 aquelle 2-1 que ali vai como tem uma — inchada.</l>
+            </lg>
+            <signed rend="left">DR. PANCRÁCIO</signed>
+         </div>
          <div><!-- 26 de novembro de 1902 -->
             <head rend="bold">Charada elétrica</head>
-            <lg><l>Em Portugal tem muitas árvores —2</l></lg>
-            <signed rend="left">DR. PANCRÁCIO</signed></div></body>
+            <lg>
+               <l>Em Portugal tem muitas árvores —2</l>
+            </lg>
+            <signed rend="left">DR. PANCRÁCIO</signed>
+         </div>
+      </body>
    </text>
 </TEI>

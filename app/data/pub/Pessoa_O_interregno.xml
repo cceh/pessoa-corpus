@@ -35,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_interregno.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Prosa/Pessoa_O_Interregno_1.jpg"/>
@@ -119,33 +127,63 @@
          </titlePage>
          <div>
             <head>DO MESMO AUCTOR:</head>
-            <p><hi rend="underline"><hi rend="italic">EM PORTUGUEZ:</hi></hi></p>
+            <p>
+               <hi rend="underline">
+                  <hi rend="italic">EM PORTUGUEZ:</hi>
+               </hi>
+            </p>
             <list>
-               <item rend="indent-2"><ref
-                     target="http://www.pessoadigital.pt/en/pub/Pessoa_O_Marinheiro"><rs
-                     type="work" key="W198"><rs type="title" key="T238">O MARINHEIRO</rs></rs></ref>,
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_O_Marinheiro">
+                     <rs type="work" key="W198">
+                        <rs type="title" key="T238">O MARINHEIRO</rs>
+                     </rs>
+                  </ref>,
                   Drama statico em um quadro (In <rs type="periodical" key="J12">Orpheu</rs> 1),
                   1915.</item>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_O_banqueiro_anarchista"><rs type="work" key="W229"><rs type="title" key="T269">O
-                        BANQUEIRO ANARCHISTA</rs></rs></ref> (in <rs type="periodical" key="J11"
-                     >Contemporanea</rs> 1), 1922.</item>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_Mar_Portuguez"><rs type="work" key="W211"><rs type="title" key="T251">MAR
-                        PORTUGUEZ</rs></rs></ref> (in <rs type="periodical" key="J11">Contemporanea</rs>
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_O_banqueiro_anarchista">
+                     <rs type="work" key="W229">
+                        <rs type="title" key="T269">O
+                        BANQUEIRO ANARCHISTA</rs>
+                     </rs>
+                  </ref> (in <rs type="periodical" key="J11">Contemporanea</rs> 1), 1922.</item>
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Mar_Portuguez">
+                     <rs type="work" key="W211">
+                        <rs type="title" key="T251">MAR
+                        PORTUGUEZ</rs>
+                     </rs>
+                  </ref> (in <rs type="periodical" key="J11">Contemporanea</rs>
                   4), 1922.</item>
             </list>
-            <p><hi rend="underline"><hi rend="italic">EM INGLEZ:</hi></hi></p>
+            <p>
+               <hi rend="underline">
+                  <hi rend="italic">EM INGLEZ:</hi>
+               </hi>
+            </p>
             <list>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_35_Sonnets"><rs type="work" key="W324"><rs type="title" key="T362">35
-                        SONNETS</rs></rs></ref>, 1918.</item>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_English_Poems_I_II"><rs type="work" key="W361"><rs type="title" key="T398">ENGLISH
-                        POEMS, I-II</rs></rs></ref>, 1922.</item>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_English_Poems_III"><rs type="work" key="W362"><rs type="title" key="T399">ENGLISH
-                        POEMS, III</rs></rs></ref>, 1922.</item>
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_35_Sonnets">
+                     <rs type="work" key="W324">
+                        <rs type="title" key="T362">35
+                        SONNETS</rs>
+                     </rs>
+                  </ref>, 1918.</item>
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_English_Poems_I_II">
+                     <rs type="work" key="W361">
+                        <rs type="title" key="T398">ENGLISH
+                        POEMS, I-II</rs>
+                     </rs>
+                  </ref>, 1922.</item>
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_English_Poems_III">
+                     <rs type="work" key="W362">
+                        <rs type="title" key="T399">ENGLISH
+                        POEMS, III</rs>
+                     </rs>
+                  </ref>, 1922.</item>
             </list>
          </div>
       </front>
@@ -174,8 +212,8 @@
                formará a quinta parte d'esse livro.</p>
             <p rend="indent-first">Este opusculo tracta exclusivamente da defeza e justificação da
                Dictadura Militar em Portugal, e do que, em conformidade com essa defeza, chamamos as
-               Doctrinas do Interregno. As razões, que nelle se presentam, nem se ap<pc>-</pc><pb
-                  n="6"/>plicam às dictaduras em geral, nem são transferiveis para qualquer outra
+               Doctrinas do Interregno. As razões, que nelle se presentam, nem se ap<pc>-</pc>
+               <pb n="6"/>plicam às dictaduras em geral, nem são transferiveis para qualquer outra
                dictadura , senão na proporção em que incidentalmente o sejam. Tampouco se inclue
                nelle, explicita ou implicitamente, qualquer defeza dos actos particulares da
                Dictadura Militar presente. Nem, se amanhã essa Dictadura Militar cahir, cahirão com
@@ -226,7 +264,8 @@
                razão.</p>
             <p rend="indent-first">Esta condição politica do Paiz tem parallelo em um phenomeno que,
                como procede da mesma causa, que é o estado mental portuguez, pode servir de symbolo
-               d'essa con<pc>-</pc><pb n="8"/>dição politica. Somos o paiz das duas orthographias.
+               d'essa con<pc>-</pc>
+               <pb n="8"/>dição politica. Somos o paiz das duas orthographias.
                Da gente que entre nós sabe escrever, parte escreve em orthographia latina, a outra
                parte na orthographia do Governo Provisorio. A maioria, porém, não sabe ler nem
                escrever. Assim as lettras são a sombra dos factos, e lemos mais na leitura do que
@@ -254,7 +293,8 @@
                seja adequado, e atravez do qual se exprima. Por exemplo: um imperialismo como o
                inglez, de dominio e expansão ethnica, está necessariamente ligado, intrinseca e
                extrinsecamente, á idéa monarchica. Outros ideaes nacionaes, nem altos como aquelle,
-                  <pc>-</pc><pb n="9"/>nem sequer seus similhantes, podem tambem exprimir-se na idéa
+                  <pc>-</pc>
+               <pb n="9"/>nem sequer seus similhantes, podem tambem exprimir-se na idéa
                monarchica. Ideaes de typo diverso, e entre si tambem diversos, projectam-se
                naturalmente, e por diversas razões, na formula republicana. Só a ausencia de um
                ideal nacional, pela acção negativa da mesma causa, se exprime na divisão da nação,
@@ -323,8 +363,10 @@
                constitucionalismo, formula de equilibrio espontaneo, provinda de antigas tradições
                nacionaes em que o fermento de todas as doctrinas antimonarchicas diversamente se
                infiltrara. O principal theorista do systema, tal qual finalmente veio a parecer, foi
-                  <rs type="name" key="P684">Locke</rs>, em seu <rs type="title"><hi rend="italic"
-                     >Ensaio sobre o Governo Civil.</hi></rs></p>
+                  <rs type="name" key="P684">Locke</rs>, em seu <rs type="title">
+                  <hi rend="italic">Ensaio sobre o Governo Civil.</hi>
+               </rs>
+            </p>
             <p rend="indent-first">Ora o mesmo simplismo do espirito humano, que o leva a confundir
                o particular e o geral na theoria, o conduz a os não distinguir na práctica. Assim,
                sem considerar se a solução politica ingleza não seria particularmente ingleza, e
@@ -348,8 +390,8 @@
                elles suffocada, nasceu em Europa, e alastrou a todo o mundo civilizado, a
                superstição constitucional. Consiste ella em crer que a formula constitucional
                ingleza é <hi rend="italic">universal</hi>, sendo pois applicavel a qualquer povo
-                  civili<pc>-</pc><pb n="13"/>zado, em quaesquer circumstancias; e que é <hi
-                  rend="italic">perfeita</hi>, dando que seja a verdadeira formula de traduzir para
+                  civili<pc>-</pc>
+               <pb n="13"/>zado, em quaesquer circumstancias; e que é <hi rend="italic">perfeita</hi>, dando que seja a verdadeira formula de traduzir para
                uma norma politica aquillo a que se chama a opinião publica.</p>
             <p rend="indent-first">Ambas as theses são demonstravelmente erroneas. A primeira a
                todos o deve parecer, ainda que por simples intuição. É evidente, ou deveria sel-o,
@@ -373,11 +415,10 @@
                inglez realmente representa a projecção politica da opinião publica.</p>
             <p rend="indent-first">Essa crença, vae desmentil-a por nós, e melhor que o fariamos
                nós, um inglez moderno, homem culto e experimentado, politico por hereditariedade e
-               por vocação. Diz assim <rs type="name" key="P665">Lord Hugh Cecil</rs>, filho do <rs
-                  type="name" key="P666">Marquez de Salisbury</rs>, a pag. 235 e seguintes do seu
+               por vocação. Diz assim <rs type="name" key="P665">Lord Hugh Cecil</rs>, filho do <rs type="name" key="P666">Marquez de Salisbury</rs>, a pag. 235 e seguintes do seu
                livro intitulado <rs type="title">«Conservantismo»</rs>:</p>
-            <p rend="indent-first">«Torna-se altamente interessante e importante inqui<pc>-</pc><pb
-                  n="14"/>rir onde está o centro do poder que domina, em ultima analyse, a Casa dos
+            <p rend="indent-first">«Torna-se altamente interessante e importante inqui<pc>-</pc>
+               <pb n="14"/>rir onde está o centro do poder que domina, em ultima analyse, a Casa dos
                Communs e a auctoridade illimitada que, pela Constituição, essa Casa exerce. É
                interessante e importante, porém não é muito facil. Pode dizer-se que o poder está no
                Gabinete, isto é, nos quinze ou vinte homens predominantes do partido em maioria. Mas
@@ -403,7 +444,8 @@
                povo. Mas, de facto, o povo nem tem a voz dominante na escolha da Casa dos Communs,
                nem dominio real sobre ella, uma vez escolhida. O Povo tem, na práctica, só a
                liberdade de escolher entre os candidatos partidarios que são submettidos á sua
-                  es<pc>-</pc><pb n="15"/>colha. São os partidarios ardentes — a Guarda Pretoriana —
+                  es<pc>-</pc>
+               <pb n="15"/>colha. São os partidarios ardentes — a Guarda Pretoriana —
                quem escolhe os candidatos; os eleitores teem sómente que determinar se querem ser
                representados pelo nomeado dos Pretorianos Conservadores, ou pelo nomeado dos
                Pretorianos Liberaes, ou, em casos mais raros, podem escolher um candidato, não menos
@@ -456,8 +498,7 @@
                se chama um aperfeiçoamento?</p>
             <p rend="indent-first">Nos paizes onde, como em Inglaterra, existe um ideal nacional, e,
                em certo grau, uma opinião publica espontanea — aquella opinião publica natural,
-               organica, não-eleitora, de que acima fallámos —, os maleficios essenciaes do <pb
-                  n="17"/>constitucionalismo são diminuidos. São, porém, diminuidos por elementos
+               organica, não-eleitora, de que acima fallámos —, os maleficios essenciaes do <pb n="17"/>constitucionalismo são diminuidos. São, porém, diminuidos por elementos
                externos, e não internos, a elle. A pressão de um ideal nacional, se é forte e
                constante, faz-se sentir no proprio Parlamento, nos proprios partidos, pois estes
                existem adentro da nação; a pressão de uma opinião publica espontanea, se é forte, do
@@ -642,8 +683,7 @@
                superstição.</p>
             <p rend="indent-first">É a opinião de habito que mantém e defende as sociedades;
                equivale á força que, no organismo physico, resiste á desintegração. A opinião de
-               habito obra sempre d'este modo restrictivo; umas vezes é útil porque entrava <pb
-                  n="24"/>a decadencia, outras é nociva, porque entrava o progresso. Sem a opinião
+               habito obra sempre d'este modo restrictivo; umas vezes é útil porque entrava <pb n="24"/>a decadencia, outras é nociva, porque entrava o progresso. Sem a opinião
                de habito não existiriam nações; uma nação, aliás, não é senão um habito. Mas só com
                a opinião de habito não existiriam nações progressivas; nem, até, existiriam nações,
                pois se não teria progredido até a fundação d'ellas. A mais antiga tradição de
@@ -669,7 +709,8 @@
                intensidade practicamente egual; que se opponham, que se combatam, porém que nenhuma
                d'ellas sobreleve á outra. A vida é a unica batalha em que a victoria consiste em não
                haver nenhuma. É isso o equilibrio; e a vida é uma media entre a força que a não quer
-               deixar viver e a força que a quer ma<pc>-</pc><pb n="25"/>tar — a diagonal de um
+               deixar viver e a força que a quer ma<pc>-</pc>
+               <pb n="25"/>tar — a diagonal de um
                parallelogrammo de forças, differente das duas e por ellas composta. Se assim é na
                vida individual, assim será na vida social, que é tambem vida. Consiste a vida social
                no equilibrio de duas forças oppostas, que já vimos quaes eram. Teem as duas forças
@@ -677,8 +718,9 @@
                Um paiz unanime numa opinião de habito não seria paiz — seria gado. Um paiz concorde
                numa opinião de intuição não seria paiz — seria sombras. O progresso consiste numa
                media entre o que a opinião de habito deseja e o que a opinião de intuição sonha.
-               Figurou <rs type="name" key="P15">Camões</rs>, nos <rs type="title"><hi rend="italic"
-                     >Lusiadas</hi></rs>, em o <rs type="name" key="P686">Velho do Restello</rs> a
+               Figurou <rs type="name" key="P15">Camões</rs>, nos <rs type="title">
+                  <hi rend="italic">Lusiadas</hi>
+               </rs>, em o <rs type="name" key="P686">Velho do Restello</rs> a
                opinião de habito, em o <rs type="name" key="P610">Gama</rs> a opinião de intuição.
                Mas o Imperio Portuguez nem foi a ausencia de imperio que o primeiro desejara, nem a
                plenitude de imperio que o segundo sonharia. Porisso, por mal ou por bem, o Imperio
@@ -726,7 +768,8 @@
                communidade do conceito de nação que está a base para a lucta proficua, porque para o
                intimo equilibrio, entre as forças sociaes oppostas. No caso notavel do inicio dos
                nossos Descobrimentos, a opinião de habito se oppunha á novidade d'elles, a de
-               intuição a promovia; po<pc>-</pc><pb n="27"/>rém uma e outra não pensavam fóra do
+               intuição a promovia; po<pc>-</pc>
+               <pb n="27"/>rém uma e outra não pensavam fóra do
                ideal de grandeza patria, ou seja, no fundo, do ideal de imperio. Assim pôde o
                Imperio Portuguez, quando, por mal ou por bem, veio a ser, ser informado por toda a
                alma de Portugal.</p>
@@ -794,8 +837,7 @@
                demonstração. Se amanhã a Dictadura Militar cahir, não cahirá com ella a justificação
                d'ella. O ser necessaria uma coisa não implica nem que exista, nem que, existindo,
                subsista; implica tam somente que é necessaria.</p>
-            <p rend="indent-first">Em segundo logar, o fim principal d'este opusculo <pb n="30"
-               />está, não nelle, que é só introductorio, mas nas trez partes seguintes do livro de
+            <p rend="indent-first">Em segundo logar, o fim principal d'este opusculo <pb n="30"/>está, não nelle, que é só introductorio, mas nas trez partes seguintes do livro de
                que elle é a primeira. Porém, como elle é introductorio, nelle se deviam esboçar, não
                só as materias por cuja divisão ellas são trez, mas, mais particularmente, as bases
                d'essas materias. Da segunda secção d'este emergirá a segunda parte do livro, da
@@ -822,7 +864,8 @@
                parte. Nem dissemos na secção segunda como se extrahia um regimen do ideal nacional,
                nem a que ideaes convinha este ou aquelle regimen; tampouco dissemos, na secção
                quarta, qual a maneira de fazer entrar numa constituição politica, ou
-                  syste<pc>-</pc><pb n="31"/>ma de governo, a opinião publica de uma sociedade: tudo
+                  syste<pc>-</pc>
+               <pb n="31"/>ma de governo, a opinião publica de uma sociedade: tudo
                isto fará parte, não da segunda ou da quarta, mas da terceira parte do livro. Como é
                ella que tracta do Estado, nella se projectam as conclusões politicas corollarias da
                segunda, que tracta da Nação, e da quarta, que tracta da Sociedade; pois no Estado,
@@ -858,30 +901,38 @@
          </titlePage>
          <div>
             <head>DO MESMO AUTOR:</head>
-            <p><hi rend="underline"><hi rend="italic">EM PORTUGUÊS:</hi></hi></p>
+            <p>
+               <hi rend="underline">
+                  <hi rend="italic">EM PORTUGUÊS:</hi>
+               </hi>
+            </p>
             <list>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_O_Marinheiro">O MARINHEIRO</ref>,
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_O_Marinheiro">O MARINHEIRO</ref>,
                   Drama estático em um quadro (In Orpheu 1),
                   1915.</item>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_O_banqueiro_anarchista">O
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_O_banqueiro_anarchista">O
                      BANQUEIRO ANARQUISTA</ref> (in Contemporânea 1), 1922.</item>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_Mar_Portuguez">MAR
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Mar_Portuguez">MAR
                      PORTUGUÊS</ref> (in Contemporânea
                   4), 1922.</item>
             </list>
-            <p><hi rend="underline"><hi rend="italic">EM INGLÊS:</hi></hi></p>
+            <p>
+               <hi rend="underline">
+                  <hi rend="italic">EM INGLÊS:</hi>
+               </hi>
+            </p>
             <list>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_35_Sonnets">35
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_35_Sonnets">35
                      SONNETS</ref>, 1918.</item>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_English_Poems_I_II">ENGLISH
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_English_Poems_I_II">ENGLISH
                      POEMS, I-II</ref>, 1922.</item>
-               <item rend="indent-2"><ref
-                  target="http://www.pessoadigital.pt/en/pub/Pessoa_English_Poems_III">ENGLISH
+               <item rend="indent-2">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_English_Poems_III">ENGLISH
                      POEMS, III</ref>, 1922.</item>
             </list>
          </div>
@@ -911,8 +962,8 @@
                quinta parte desse livro.</p>
             <p rend="indent-first">Este opúsculo trata exclusivamente da defesa e justificação da
                Ditadura Militar em Portugal, e do que, em conformidade com essa defesa, chamamos as
-               Doutrinas do Interregno. As razões, que nele se presentam, nem se a<pc>-</pc><pb
-                  n="6"/>plicam às ditaduras em geral, nem são transferíveis para qualquer outra
+               Doutrinas do Interregno. As razões, que nele se presentam, nem se a<pc>-</pc>
+               <pb n="6"/>plicam às ditaduras em geral, nem são transferíveis para qualquer outra
                ditadura , senão na proporção em que incidentalmente o sejam. Tão-pouco se inclui
                nele, explícita ou implicitamente, qualquer defesa dos atos particulares da Ditadura
                Militar presente. Nem, se amanhã essa Ditadura Militar cair, cairão com ela estes
@@ -963,7 +1014,8 @@
                razão.</p>
             <p rend="indent-first">Esta condição política do País tem paralelo em um fenómeno que,
                como procede da mesma causa, que é o estado mental português, pode servir de símbolo
-               dessa con<pc>-</pc><pb n="8"/>dição política. Somos o país das duas ortografias. Da
+               dessa con<pc>-</pc>
+               <pb n="8"/>dição política. Somos o país das duas ortografias. Da
                gente que entre nós sabe escrever, parte escreve em ortografia latina, a outra parte
                na ortografia do Governo Provisório. A maioria, porém, não sabe ler nem escrever.
                Assim as letras são a sombra dos factos, e lemos mais na leitura do que
@@ -1059,8 +1111,8 @@
                de pesados anos <pb n="12"/>de perturbações, o chamado constitucionalismo, fórmula de
                equilíbrio espontâneo, provinda de antigas tradições nacionais em que o fermento de
                todas as doutrinas antimonárquicas diversamente se infiltrara. O principal teorista
-               do sistema, tal qual finalmente veio a parecer, foi Locke, em seu <hi rend="italic"
-                  >Ensaio sobre o Governo Civil.</hi></p>
+               do sistema, tal qual finalmente veio a parecer, foi Locke, em seu <hi rend="italic">Ensaio sobre o Governo Civil.</hi>
+            </p>
             <p rend="indent-first">Ora o mesmo simplismo do espírito humano, que o leva a confundir
                o particular e o geral na teoria, o conduz a os não distinguir na prática. Assim, sem
                considerar se a solução política inglesa não seria particularmente inglesa, e
@@ -1082,10 +1134,9 @@
                mesmo sentido, a qualquer outra.</p>
             <p rend="indent-first">Assim, de uma intuição central justa, embrulhada em erros e por
                eles sufocada, nasceu em Europa, e alastrou a todo o mundo civilizado, a superstição
-               constitucional. Consiste ela em crer que a fórmula constitucional inglesa é <hi
-                  rend="italic">universal</hi>, sendo pois aplicável a qualquer povo
-                  civili<pc>-</pc><pb n="13"/>zado, em quaisquer circunstâncias; e que é <hi
-                  rend="italic">perfeita</hi>, dando que seja a verdadeira fórmula de traduzir para
+               constitucional. Consiste ela em crer que a fórmula constitucional inglesa é <hi rend="italic">universal</hi>, sendo pois aplicável a qualquer povo
+                  civili<pc>-</pc>
+               <pb n="13"/>zado, em quaisquer circunstâncias; e que é <hi rend="italic">perfeita</hi>, dando que seja a verdadeira fórmula de traduzir para
                uma norma política aquilo a que se chama a opinião pública.</p>
             <p rend="indent-first">Ambas as teses são demonstravelmente erróneas. A primeira a todos
                o deve parecer, ainda que por simples intuição. É evidente, ou deveria sê-lo, que o
@@ -1111,8 +1162,8 @@
                nós, um inglês moderno, homem culto e experimentado, político por hereditariedade e
                por vocação. Diz assim Lord Hugh Cecil, filho do Marquês de Salisbury, a pág. 235 e
                seguintes do seu livro intitulado «Conservantismo»:</p>
-            <p rend="indent-first">«Torna-se altamente interessante e importante inqui<pc>-</pc><pb
-                  n="14"/>rir onde está o centro do poder que domina, em última análise, a Casa dos
+            <p rend="indent-first">«Torna-se altamente interessante e importante inqui<pc>-</pc>
+               <pb n="14"/>rir onde está o centro do poder que domina, em última análise, a Casa dos
                Comuns e a autoridade ilimitada que, pela Constituição, essa Casa exerce. É
                interessante e importante, porém não é muito fácil. Pode dizer-se que o poder está no
                Gabinete, isto é, nos quinze ou vinte homens predominantes do partido em maioria. Mas
@@ -1137,8 +1188,8 @@
                que é a realidade. A aparência é que a Casa dos Comuns representa o povo. Mas, de
                facto, o povo nem tem a voz dominante na escolha da Casa dos Comuns, nem domínio real
                sobre ela, uma vez escolhida. O Povo tem, na prática, só a liberdade de escolher
-               entre os candidatos partidários que são submetidos à sua es<pc>-</pc><pb n="15"
-               />colha. São os partidários ardentes — a Guarda Pretoriana — quem escolhe os
+               entre os candidatos partidários que são submetidos à sua es<pc>-</pc>
+               <pb n="15"/>colha. São os partidários ardentes — a Guarda Pretoriana — quem escolhe os
                candidatos; os eleitores têm somente que determinar se querem ser representados pelo
                nomeado dos Pretorianos Conservadores, ou pelo nomeado dos Pretorianos Liberais, ou,
                em casos mais raros, podem escolher um candidato, não menos disciplinado, nomeado
@@ -1190,8 +1241,7 @@
                se chama um aperfeiçoamento?</p>
             <p rend="indent-first">Nos países onde, como em Inglaterra, existe um ideal nacional, e,
                em certo grau, uma opinião pública espontânea — aquela opinião pública natural,
-               orgânica, não-eleitora, de que acima falámos —, os malefícios essenciais do <pb
-                  n="17"/>constitucionalismo são diminuídos. São, porém, diminuídos por elementos
+               orgânica, não-eleitora, de que acima falámos —, os malefícios essenciais do <pb n="17"/>constitucionalismo são diminuídos. São, porém, diminuídos por elementos
                externos, e não internos, a ele. A pressão de um ideal nacional, se é forte e
                constante, faz-se sentir no próprio Parlamento, nos próprios partidos, pois estes
                existem adentro da nação; a pressão de uma opinião pública espontânea, se é forte, do
@@ -1372,8 +1422,7 @@
                superstição.</p>
             <p rend="indent-first">É a opinião de hábito que mantém e defende as sociedades;
                equivale à força que, no organismo físico, resiste à desintegração. A opinião de
-               hábito obra sempre deste modo restritivo; umas vezes é útil porque entrava <pb n="24"
-               />a decadência, outras é nociva, porque entrava o progresso. Sem a opinião de hábito
+               hábito obra sempre deste modo restritivo; umas vezes é útil porque entrava <pb n="24"/>a decadência, outras é nociva, porque entrava o progresso. Sem a opinião de hábito
                não existiriam nações; uma nação, aliás, não é senão um hábito. Mas só com a opinião
                de hábito não existiriam nações progressivas; nem, até, existiriam nações, pois se
                não teria progredido até a fundação delas. A mais antiga tradição de qualquer país é
@@ -1399,15 +1448,15 @@
                oponham, que se combatam, porém que nenhuma delas sobreleve à outra. A vida é a única
                batalha em que a vitória consiste em não haver nenhuma. É isso o equilíbrio; e a vida
                é uma média entre a força que a não quer deixar viver e a força que a quer
-                  ma<pc>-</pc><pb n="25"/>tar — a diagonal de um paralelogramo de forças, diferente
+                  ma<pc>-</pc>
+               <pb n="25"/>tar — a diagonal de um paralelogramo de forças, diferente
                das duas e por elas composta. Se assim é na vida individual, assim será na vida
                social, que é também vida. Consiste a vida social no equilíbrio de duas forças
                opostas, que já vimos quais eram. Têm as duas forças que existir, para que haja
                equilíbrio, e, embora haja equilíbrio, que ser opostas. Um país unânime numa opinião
                de hábito não seria país — seria gado. Um país concorde numa opinião de intuição não
                seria país — seria sombras. O progresso consiste numa média entre o que a opinião de
-               hábito deseja e o que a opinião de intuição sonha. Figurou Camões, nos <hi
-                  rend="italic">Lusíadas</hi>, em o Velho do Restelo a opinião de hábito, em o Gama
+               hábito deseja e o que a opinião de intuição sonha. Figurou Camões, nos <hi rend="italic">Lusíadas</hi>, em o Velho do Restelo a opinião de hábito, em o Gama
                a opinião de intuição. Mas o Império Português nem foi a ausência de império que o
                primeiro desejara, nem a plenitude de império que o segundo sonharia. Por isso, por
                mal ou por bem, o Império Português pôde ser.</p>
@@ -1453,7 +1502,8 @@
                comunidade do conceito de nação que está a base para a luta profícua, porque para o
                íntimo equilíbrio, entre as forças sociais opostas. No caso notável do início dos
                nossos Descobrimentos, a opinião de hábito se opunha à novidade deles, a de intuição
-               a promovia; po<pc>-</pc><pb n="27"/>rém uma e outra não pensavam fora do ideal de
+               a promovia; po<pc>-</pc>
+               <pb n="27"/>rém uma e outra não pensavam fora do ideal de
                grandeza pátria, ou seja, no fundo, do ideal de império. Assim pôde o Império
                Português, quando, por mal ou por bem, veio a ser, ser informado por toda a alma de
                Portugal.</p>
@@ -1522,8 +1572,7 @@
                demonstração. Se amanhã a Ditadura Militar cair, não cairá com ela a justificação
                dela. O ser necessária uma coisa não implica nem que exista, nem que, existindo,
                subsista; implica tão somente que é necessária.</p>
-            <p rend="indent-first">Em segundo lugar, o fim principal deste opúsculo <pb n="30"
-               />está, não nele, que é só introdutório, mas nas três partes seguintes do livro de
+            <p rend="indent-first">Em segundo lugar, o fim principal deste opúsculo <pb n="30"/>está, não nele, que é só introdutório, mas nas três partes seguintes do livro de
                que ele é a primeira. Porém, como ele é introdutório, nele se deviam esboçar, não só
                as matérias por cuja divisão elas são três, mas, mais particularmente, as bases
                dessas matérias. Da segunda secção deste emergirá a segunda parte do livro, da
@@ -1548,7 +1597,8 @@
                necessárias à sua existência; da Sociedade Portuguesa tratará essa quarta parte. Nem
                dissemos na secção segunda como se extraía um regímen do ideal nacional, nem a que
                ideais convinha este ou aquele regímen; tão-pouco dissemos, na secção quarta, qual a
-               maneira de fazer entrar numa constituição política, ou siste<pc>-</pc><pb n="31"/>ma
+               maneira de fazer entrar numa constituição política, ou siste<pc>-</pc>
+               <pb n="31"/>ma
                de governo, a opinião pública de uma sociedade: tudo isto fará parte, não da segunda
                ou da quarta, mas da terceira parte do livro. Como é ela que trata do Estado, nela se
                projetam as conclusões políticas corolárias da segunda, que trata da Nação, e da

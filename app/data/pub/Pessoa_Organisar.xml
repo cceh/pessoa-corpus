@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Organisar.xml</idno>
          </publicationStmt>
@@ -89,10 +89,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Organisar_1.jpg"/>
@@ -115,8 +123,7 @@
                casual, um pouco dispersa, que tiveram o comercio e a industria no seculo
                passado.</p>
             <p rend="indent-first">Interessa portanto saber o que é organisar. Referimo-nos a
-               organisar no sentido completo e abstracto: o que é organisar <hi rend="italic"
-                  >qualquer coisa</hi>, e não especialmente um comercio ou uma industria, uma
+               organisar no sentido completo e abstracto: o que é organisar <hi rend="italic">qualquer coisa</hi>, e não especialmente um comercio ou uma industria, uma
                fabrica ou um escritorio? Sabido, e sabido bem, o que organisar significa em geral,
                saber-se-ha implicitamente o que é organisar determinada coisa em especial, bastando
                que se apliquem os principios gerais a este ou áquele caso particular.</p>
@@ -199,8 +206,7 @@
                   determinado orgão, assim o chefe de organisação delega determinada função em
                   determinado chefe de elemento. Ora delegar uma função é entrega-la a outrem,
                   tornando-se quem a entrega, por assim dizer, voluntariamente incompetente para o
-                  seu exercicio. E é este o segredo de toda a organisação eficaz: <hi rend="italic"
-                     >ha hierarquia de cargos, não ha hierarquia de funções</hi>.</p>
+                  seu exercicio. E é este o segredo de toda a organisação eficaz: <hi rend="italic">ha hierarquia de cargos, não ha hierarquia de funções</hi>.</p>
             </div>
             <div>
                <head>
@@ -287,8 +293,7 @@
                reação, que presentemente se revela em toda a parte, contra a feição um pouco casual,
                um pouco dispersa, que tiveram o comércio e a indústria no século passado.</p>
             <p rend="indent-first">Interessa portanto saber o que é organizar. Referimo-nos a
-               organizar no sentido completo e abstrato: o que é organizar <hi rend="italic"
-                  >qualquer coisa</hi>, e não especialmente um comércio ou uma indústria, uma
+               organizar no sentido completo e abstrato: o que é organizar <hi rend="italic">qualquer coisa</hi>, e não especialmente um comércio ou uma indústria, uma
                fábrica ou um escritório? Sabido, e sabido bem, o que organizar significa em geral,
                saber-se-á implicitamente o que é organizar determinada coisa em especial, bastando
                que se apliquem os princípios gerais a este ou àquele caso particular.</p>
@@ -371,8 +376,7 @@
                   determinado órgão, assim o chefe de organização delega determinada função em
                   determinado chefe de elemento. Ora delegar uma função é entregá-la a outrem,
                   tornando-se quem a entrega, por assim dizer, voluntariamente incompetente para o
-                  seu exercício. E é este o segredo de toda a organização eficaz: <hi rend="italic"
-                     >há hierarquia de cargos, não há hierarquia de funções</hi>.</p>
+                  seu exercício. E é este o segredo de toda a organização eficaz: <hi rend="italic">há hierarquia de cargos, não há hierarquia de funções</hi>.</p>
             </div>
             <div>
                <head>

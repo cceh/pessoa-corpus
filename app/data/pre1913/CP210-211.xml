@@ -55,7 +55,15 @@
                <p> Lista manuscrita. </p>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Espolio Manuela Nogueira (MN)/avulsos (210).jpg"/>
@@ -63,46 +71,66 @@
    </facsimile>
    <text xml:id="bnp-e-sem-cota-mn-210-211">
       <body>
-
          <p> Editions of the type of<lb/> “Inés de las Sierras” 16 to 32 pages, 50 to 100<lb/> set
             in variable type. <note rend="square" place="right">
-               <gap reason="illegible" extent="1" unit="character"/> with a more pages<gap
-                  reason="illegible" extent="2" unit="character"/> .</note>
+               <gap reason="illegible" extent="1" unit="character"/> with a more pages<gap reason="illegible" extent="2" unit="character"/> .</note>
          </p>
          <metamark rend="line" function="distinct"/>
          <list>
-            <item><rs type="title">“Os Lusiadas.” </rs>
+            <item>
+               <rs type="title">“Os Lusiadas.” </rs>
             </item>
-            <item><rs type="work"><rs type="name" role="author">Antonio Ferreira</rs>: <rs
-                     type="text">“Obras.”</rs></rs></item>
-            <item><rs type="work"><rs type="name" role="author"
-                           ><abbr>J<am>.</am></abbr><abbr>B<am>.</am></abbr> Bury</rs>:<rs
-                     type="text"> “Historia da Liberdade <lb/> do Pensamento”</rs></rs></item>
-            <item>(<abbr>W<am>.</am></abbr><abbr>W<am>.</am></abbr> Jacobs.)</item>
+            <item>
+               <rs type="work">
+                  <rs type="name" role="author">Antonio Ferreira</rs>: <rs type="text">“Obras.”</rs>
+               </rs>
+            </item>
+            <item>
+               <rs type="work">
+                  <rs type="name" role="author">
+                     <abbr>J<am>.</am>
+                     </abbr>
+                     <abbr>B<am>.</am>
+                     </abbr> Bury</rs>:<rs type="text"> “Historia da Liberdade <lb/> do Pensamento”</rs>
+               </rs>
+            </item>
+            <item>(<abbr>W<am>.</am>
+               </abbr>
+               <abbr>W<am>.</am>
+               </abbr> Jacobs.)</item>
             <item>(Welles).</item>
-            <item><rs type="work"><rs type="name" role="author">Jacintho Freire</rs>:<rs
-                     type="text"> “Vida de D. João de <lb/> Castro.”</rs></rs></item>
-            <item><rs type="title">Marilia de Dirceu.</rs></item>
-            <item><rs type="title">Phenix Renascida</rs></item>
-            <item><rs type="work"><rs type="name" role="author">Soares dos Passos</rs> — <rs
-                     type="text"><choice>
-                        <abbr>P<am>.</am></abbr>
-                        <expan>P<ex>oemas</ex></expan>
-                     </choice> Completos. </rs></rs>(?)</item>
-            <item><rs type="title">Quadras populares</rs></item>
-            <item><rs type="title">Cancioneiros.</rs></item>
+            <item>
+               <rs type="work">
+                  <rs type="name" role="author">Jacintho Freire</rs>:<rs type="text"> “Vida de D. João de <lb/> Castro.”</rs>
+               </rs>
+            </item>
+            <item>
+               <rs type="title">Marilia de Dirceu.</rs>
+            </item>
+            <item>
+               <rs type="title">Phenix Renascida</rs>
+            </item>
+            <item>
+               <rs type="work">
+                  <rs type="name" role="author">Soares dos Passos</rs> — <rs type="text">
+                     <choice>
+                        <abbr>P<am>.</am>
+                        </abbr>
+                        <expan>P<ex>oemas</ex>
+                        </expan>
+                     </choice> Completos. </rs>
+               </rs>(?)</item>
+            <item>
+               <rs type="title">Quadras populares</rs>
+            </item>
+            <item>
+               <rs type="title">Cancioneiros.</rs>
+            </item>
          </list>
-
          <p> or the same<lb/> type of edition <lb/> but in brief longitudes<lb/> this Shape</p>
-
-
          <metamark rend="quadrat" function="distinct"/>
-
-
          <p> des<gap reason="illegible" extent="1" unit="character"/>typ</p>
          <metamark rend="arrow" place="to quadrat above"/>
-
-
          <div/>
       </body>
    </text>

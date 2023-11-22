@@ -34,7 +34,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_15-4-65.xml</idno>
          </publicationStmt>
@@ -65,7 +65,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-15-4-1-100_JPG_24-C-R0150/bn-acpc-e-e3-15-4-1-100_0135_65_t24-C-R0150.jpg"/>
@@ -78,9 +86,12 @@
             <metamark rend="line" function="distinct"/>
             <div>
                <div rend="left">
-                  <head><rs type="title">Tratado de sociologia</rs>.</head>
+                  <head>
+                     <rs type="title">Tratado de sociologia</rs>.</head>
                   <list>
-                     <head><hi rend="underline">Theoria da moral.</hi></head>
+                     <head>
+                        <hi rend="underline">Theoria da moral.</hi>
+                     </head>
                      <item>
                         <label>(1)</label>
                         <hi rend="underline">Sociologia</hi>. (Sociedade)
@@ -104,7 +115,9 @@
                <metamark rend="vertical-line" function="distinct"/>
                <div rend="right">
                   <ab>
-                     <del rend="overstrike" n="2">Vida <lb/> <hi rend="underline">individual</hi></del> —
+                     <del rend="overstrike" n="2">Vida <lb/>
+                        <hi rend="underline">individual</hi>
+                     </del> —
                      <seg rend="right">(<list>
                            <item>arte</item>
                            <item>sciencia</item>
@@ -114,13 +127,19 @@
                   <metamark rend="line" function="distinct"/>
                   <ab>
                      <subst>
-                        <del n="1"><gap reason="illegible" unit="word" extent="1"/></del>
-                        <add n="2" place="above"><hi rend="underline">Esthetica</hi></add>
+                        <del n="1">
+                           <gap reason="illegible" unit="word" extent="1"/>
+                        </del>
+                        <add n="2" place="above">
+                           <hi rend="underline">Esthetica</hi>
+                        </add>
                      </subst>
                      estudo do <lb/>
                      <choice>
-                        <abbr>ind<am>.</am></abbr>
-                        <expan>ind<ex>ividuo</ex></expan>
+                        <abbr>ind<am>.</am>
+                        </abbr>
+                        <expan>ind<ex>ividuo</ex>
+                        </expan>
                      </choice>
                      como membro <lb/> de uma sociedade.
                   </ab>
@@ -138,37 +157,57 @@
                   <item>
                      <label>(2)</label>
                      <choice>
-                        <abbr><metamark rend="line" function="ditto"/></abbr>
-                        <expan><hi rend="underline">natureza</hi></expan>
+                        <abbr>
+                           <metamark rend="line" function="ditto"/>
+                        </abbr>
+                        <expan>
+                           <hi rend="underline">natureza</hi>
+                        </expan>
                      </choice>
                      <choice>
-                        <abbr><metamark rend="quotes" function="ditto"/></abbr>
+                        <abbr>
+                           <metamark rend="quotes" function="ditto"/>
+                        </abbr>
                         <expan>individual</expan>
                      </choice>;
                      <choice>
-                        <abbr><metamark rend="quotes" function="ditto"/></abbr>
+                        <abbr>
+                           <metamark rend="quotes" function="ditto"/>
+                        </abbr>
                         <expan>fins</expan>
                      </choice>
                       sociaes;
                      <choice>
-                        <abbr><metamark rend="quotes" function="ditto"/></abbr>
-                        <expan>resultados <hi rend="underline">sociaes</hi></expan>
+                        <abbr>
+                           <metamark rend="quotes" function="ditto"/>
+                        </abbr>
+                        <expan>resultados <hi rend="underline">sociaes</hi>
+                        </expan>
                      </choice>
                   </item>
                   <item>
                      <label>(1)</label>
                      <choice>
-                        <abbr><metamark rend="line" function="ditto"/></abbr>
-                        <expan><hi rend="underline">natureza</hi></expan>
+                        <abbr>
+                           <metamark rend="line" function="ditto"/>
+                        </abbr>
+                        <expan>
+                           <hi rend="underline">natureza</hi>
+                        </expan>
                      </choice>
                      social
                      <choice>
-                        <abbr><metamark rend="quotes" function="ditto"/></abbr>
+                        <abbr>
+                           <metamark rend="quotes" function="ditto"/>
+                        </abbr>
                         <expan>fins sociais;</expan>
                      </choice>
                      <choice>
-                        <abbr><metamark rend="quotes" function="ditto"/></abbr>
-                        <expan>resultados <hi rend="underline">sociaes</hi></expan>
+                        <abbr>
+                           <metamark rend="quotes" function="ditto"/>
+                        </abbr>
+                        <expan>resultados <hi rend="underline">sociaes</hi>
+                        </expan>
                      </choice>
                   </item>
                </list>
@@ -178,15 +217,24 @@
             <div>
                <list>
                   <item>
-                     <metamark rend="curly-bracket" function="grouping" target="range(I1,I3)" place="left">
-                        <label><hi rend="underline"><rs type="title">Sociologia</rs></hi></label>
+                     <metamark rend="curly-bracket"
+                               function="grouping"
+                               target="range(I1,I3)"
+                               place="left">
+                        <label>
+                           <hi rend="underline">
+                              <rs type="title">Sociologia</rs>
+                           </hi>
+                        </label>
                      </metamark>
                      <list>
                         <item xml:id="I1">
                            <label>(a)</label> parte introductoria philosophica.
                         </item>
                         <item xml:id="I2">
-                           <label><hi rend="underline">(b)</hi></label> 
+                           <label>
+                              <hi rend="underline">(b)</hi>
+                           </label>
                            <hi rend="underline">parte introductoria e psychologi<lb/>ca.</hi>
                         </item>
                         <item>
@@ -195,10 +243,14 @@
                      </list>
                   </item>
                   <item>
-                     <hi rend="underline"><rs type="title">Psychologia da intelligencia</rs></hi>
+                     <hi rend="underline">
+                        <rs type="title">Psychologia da intelligencia</rs>
+                     </hi>
                   </item>
                   <item>
-                     <hi rend="underline"><rs type="title">Theoria da Moral</rs></hi>.
+                     <hi rend="underline">
+                        <rs type="title">Theoria da Moral</rs>
+                     </hi>.
                   </item>
                </list>
             </div>

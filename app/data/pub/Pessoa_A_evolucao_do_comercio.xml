@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_A_evolucao_do_comercio.xml</idno>
          </publicationStmt>
@@ -42,7 +42,9 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item><rs type="work" key="W302">A evolução do comércio</rs></item>
+               <item>
+                  <rs type="work" key="W302">A evolução do comércio</rs>
+               </item>
             </list>
             <biblStruct>
                <analytic>
@@ -53,8 +55,10 @@
                   <textLang mainLang="pt" otherLangs="en"/>
                </analytic>
                <monogr>
-                  <title level="j"><rs type="periodical" key="J101">Revista de Comércio e
-                        Contabilidade</rs></title>
+                  <title level="j">
+                     <rs type="periodical" key="J101">Revista de Comércio e
+                        Contabilidade</rs>
+                  </title>
                   <imprint>
                      <date when="1926-03-25">25 de março de 1926</date>
                   </imprint>
@@ -63,10 +67,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/A_evolucao_do_comercio_1.jpg"/>
@@ -84,7 +96,6 @@
       <body>
          <div>
             <head>A EVOLUÇÃO DO COMERCIO</head>
-
             <p rend="indent-first">ESTE estudo é propriamente nosso. Não lhe fomos buscar os
                elementos a nenhum tratado. Não tivemos mestre para escrevê-lo. O conhecimento atento
                da historia, e a analise firme dos factos que ela fornece, foi quanto nos foi preciso
@@ -93,7 +104,6 @@
                conveniente começar este artigo por dizer que êle é nosso, e que em nenhum ensaio ou
                tratado estranho se encontra o estudo qne êle encerra, nem, portanto, os ensinamentos
                que dêsse estudo se derivam. O seu a seu dono, mesmo quando sejamos nós o dono...</p>
-
             <p rend="indent-first">A actividade social chamada comercio, por mal vista que esteja
                hoje pelos teoristas de sociedades impossiveis, é contudo um dos dois caracteristicos
                distintivos das sociedades chamadas civilisadas. O outro caracteristico distintivo é
@@ -136,7 +146,6 @@
                demorado e pacifico, o contacto material, que a estimule, terá que ser demorado e
                pacífico ― e é isto mesmo que, em contraposição á guerra, distingue a actividade
                social chamada comercio.</p>
-
             <p rend="indent-first">O estabelecimento, um pouco demorado, desta analogia ou paridade
                entre o fenomeno cultural e o comercial não é uma espécie de digressão ou devaneio
                nêste artigo e nesta Revista. Visa, antes de mais nada, a mostrar claramente a
@@ -152,20 +161,16 @@
                evolução cultural. Determinado, pois, um estádio da evolução do comercio, será facil
                verificar se está bem determinado, verificando-se se lhe corresponde um estádio
                paralelo da evolução da cultura.</p>
-
             <p rend="indent-first">Trez são as fases que, a nosso vêr, o comercio tem atravessado no
                decurso da civilisação a que pertencemos ― isto é, daquela civilisação que começa na
-               chamada Idade Media e de aí se estende até nossos dias. A primeira fase ― a do <hi
-                  rend="italic">comerciante mercador</hi> (assim lhe chamaremos) ― vai do inicio
+               chamada Idade Media e de aí se estende até nossos dias. A primeira fase ― a do <hi rend="italic">comerciante mercador</hi> (assim lhe chamaremos) ― vai do inicio
                dessa civilisação até o começo da época «moderna», isto é, o periodo, do seculo
                dezoito para o dezanove, em que se deu o advento da maquina e do individualismo
                economico. A segunda fase ― a que chamaremos <hi rend="italic">do comerciante
                   negociante</hi> ― vai de aqui até a vinda, não já da maquina, mas da sciencia da
                maquina, ou seja do que denota a formação do tipo industrial moderno ― a
                predominancia absoluta (pois até ali era só relativa) da sciencia, por meio da
-               engenharia, na vida pratica; a <hi rend="italic">mecanisação</hi>, como dizia <rs
-                  type="name" key="672">Rathenau</rs>. A terceira fase ― a do <hi rend="italic"
-                  >comerciante industrial</hi> (tal é o nome que lhe daremos) ― é a que parte e
+               engenharia, na vida pratica; a <hi rend="italic">mecanisação</hi>, como dizia <rs type="name" key="672">Rathenau</rs>. A terceira fase ― a do <hi rend="italic">comerciante industrial</hi> (tal é o nome que lhe daremos) ― é a que parte e
                nasce deste ultimo fenomeno e está dando a côr ao tempo presente. A razão dos trez
                nomes distintivos, de que acabamos de servir-nos, ver-se-ha no decurso desta breve
                exposição.</p>
@@ -196,7 +201,6 @@
             <p rend="indent-first">Com estas reservas fatais terá o leitor consciente que entender,
                não só este breve ensaio, mas qualquer estudo historico em que se fale de «evolução»,
                de «fases de progresso», de «periodos de civilisação».</p>
-
             <p rend="indent-first">Na época, em que colocámos o primeiro estádio da evolução do
                comercio, a civilisação tinha inicialmente, e substancialmente manteve, o tipo
                guerreiro e religioso. Sendo assim, o exercicio de qualquer mistér, que não fôsse o
@@ -367,7 +371,8 @@
                comerciantes de toda a parte a dar ao seu comercio uma organisação e uma coordenação
                parecidas com aquelas que são hoje inevitaveis na industria. E é por isto que damos a
                este periodo da evolução do comercio o nome de <hi rend="italic">do comerciante
-                  industrial.</hi></p>
+                  industrial.</hi>
+            </p>
             <p rend="indent-first">O principio sindical ― propriamente reacionario ou retrogrado,
                pois que é uma reversão ás corporações medievais ― emergiu nas classes operarias, e
                de aí galgou para todas as outras. Como, seja mau ou bom do ponto de vista social,
@@ -408,7 +413,6 @@
       <body>
          <div>
             <head>A EVOLUÇÃO DO COMERCIO</head>
-
             <p rend="indent-first">ESTE estudo é propriamente nosso. Não lhe fomos buscar os
                elementos a nenhum tratado. Não tivemos mestre para escrevê-lo. O conhecimento atento
                da historia, e a analise firme dos factos que ela fornece, foi quanto nos foi preciso
@@ -417,7 +421,6 @@
                conveniente começar este artigo por dizer que êle é nosso, e que em nenhum ensaio ou
                tratado estranho se encontra o estudo qne êle encerra, nem, portanto, os ensinamentos
                que dêsse estudo se derivam. O seu a seu dono, mesmo quando sejamos nós o dono...</p>
-
             <p rend="indent-first">A actividade social chamada comercio, por mal vista que esteja
                hoje pelos teoristas de sociedades impossiveis, é contudo um dos dois caracteristicos
                distintivos das sociedades chamadas civilisadas. O outro caracteristico distintivo é
@@ -460,7 +463,6 @@
                demorado e pacifico, o contacto material, que a estimule, terá que ser demorado e
                pacífico ― e é isto mesmo que, em contraposição á guerra, distingue a actividade
                social chamada comercio.</p>
-
             <p rend="indent-first">O estabelecimento, um pouco demorado, desta analogia ou paridade
                entre o fenomeno cultural e o comercial não é uma espécie de digressão ou devaneio
                nêste artigo e nesta Revista. Visa, antes de mais nada, a mostrar claramente a
@@ -476,20 +478,16 @@
                evolução cultural. Determinado, pois, um estádio da evolução do comercio, será facil
                verificar se está bem determinado, verificando-se se lhe corresponde um estádio
                paralelo da evolução da cultura.</p>
-
             <p rend="indent-first">Trez são as fases que, a nosso vêr, o comercio tem atravessado no
                decurso da civilisação a que pertencemos ― isto é, daquela civilisação que começa na
-               chamada Idade Media e de aí se estende até nossos dias. A primeira fase ― a do <hi
-                  rend="italic">comerciante mercador</hi> (assim lhe chamaremos) ― vai do inicio
+               chamada Idade Media e de aí se estende até nossos dias. A primeira fase ― a do <hi rend="italic">comerciante mercador</hi> (assim lhe chamaremos) ― vai do inicio
                dessa civilisação até o começo da época «moderna», isto é, o periodo, do seculo
                dezoito para o dezanove, em que se deu o advento da maquina e do individualismo
                economico. A segunda fase ― a que chamaremos <hi rend="italic">do comerciante
                   negociante</hi> ― vai de aqui até a vinda, não já da maquina, mas da sciencia da
                maquina, ou seja do que denota a formação do tipo industrial moderno ― a
                predominancia absoluta (pois até ali era só relativa) da sciencia, por meio da
-               engenharia, na vida pratica; a <hi rend="italic">mecanisação</hi>, como dizia <rs
-                  type="name" key="672">Rathenau</rs>. A terceira fase ― a do <hi rend="italic"
-                  >comerciante industrial</hi> (tal é o nome que lhe daremos) ― é a que parte e
+               engenharia, na vida pratica; a <hi rend="italic">mecanisação</hi>, como dizia <rs type="name" key="672">Rathenau</rs>. A terceira fase ― a do <hi rend="italic">comerciante industrial</hi> (tal é o nome que lhe daremos) ― é a que parte e
                nasce deste ultimo fenomeno e está dando a côr ao tempo presente. A razão dos trez
                nomes distintivos, de que acabamos de servir-nos, ver-se-ha no decurso desta breve
                exposição.</p>
@@ -520,7 +518,6 @@
             <p rend="indent-first">Com estas reservas fatais terá o leitor consciente que entender,
                não só este breve ensaio, mas qualquer estudo historico em que se fale de «evolução»,
                de «fases de progresso», de «periodos de civilisação».</p>
-
             <p rend="indent-first">Na época, em que colocámos o primeiro estádio da evolução do
                comercio, a civilisação tinha inicialmente, e substancialmente manteve, o tipo
                guerreiro e religioso. Sendo assim, o exercicio de qualquer mistér, que não fôsse o
@@ -691,7 +688,8 @@
                comerciantes de toda a parte a dar ao seu comercio uma organisação e uma coordenação
                parecidas com aquelas que são hoje inevitaveis na industria. E é por isto que damos a
                este periodo da evolução do comercio o nome de <hi rend="italic">do comerciante
-                  industrial.</hi></p>
+                  industrial.</hi>
+            </p>
             <p rend="indent-first">O principio sindical ― propriamente reacionario ou retrogrado,
                pois que é uma reversão ás corporações medievais ― emergiu nas classes operarias, e
                de aí galgou para todas as outras. Como, seja mau ou bom do ponto de vista social,

@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Falencia.xml</idno>
          </publicationStmt>
@@ -71,10 +71,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Falencia.jpg"/>
@@ -146,7 +154,7 @@
             <p rend="indent-first">Se essa incompetencia deriva de vicios herdados da monarquia
                     anterior, a Republica é um bem, por ter acabado com essa monarquia, e será tanto
                     melhor quanto mais dessa monarquia se afaste, no tempo e nos processos.</p>
-                 <p rend="indent-first">Mas nem uma nem outra destas hipoteses — postas aqui apenas
+            <p rend="indent-first">Mas nem uma nem outra destas hipoteses — postas aqui apenas
                          para boa ordem do raciocinio — é a que os monarquicos sequer admitem. Qualquer
                     delas está fóra da linha duma argumentação monarquica, e vae contra essa
                     argumentação. Nós, porém, o que estamos seguindo é a pista da argumentação que
@@ -297,7 +305,7 @@
             <p rend="indent-first">Se essa incompetência deriva de vícios herdados da monarquia
                     anterior, a República é um bem, por ter acabado com essa monarquia, e será tanto
                     melhor quanto mais dessa monarquia se afaste, no tempo e nos processos.</p>
-                 <p rend="indent-first">Mas nem uma nem outra destas hipóteses — postas aqui apenas
+            <p rend="indent-first">Mas nem uma nem outra destas hipóteses — postas aqui apenas
                          para boa ordem do raciocínio — é a que os monárquicos sequer admitem. Qualquer
                     delas está fora da linha duma argumentação monárquica, e vai contra essa
                     argumentação. Nós, porém, o que estamos seguindo é a pista da argumentação que

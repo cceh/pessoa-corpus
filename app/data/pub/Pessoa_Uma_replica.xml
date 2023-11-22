@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Uma_replica.xml</idno>
          </publicationStmt>
@@ -79,7 +79,9 @@
                </analytic>
                <monogr>
                   <title level="j">Inquérito à vida literária. </title>
-                  <author><rs type="name" key="P49">Boavida Portugal</rs></author>
+                  <author>
+                     <rs type="name" key="P49">Boavida Portugal</rs>
+                  </author>
                   <imprint>
                      <date when="1915">1915</date>
                      <pubPlace>Lisboa</pubPlace>
@@ -89,6 +91,9 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
@@ -100,6 +105,11 @@
             <handNote xml:id="H_FP">Texto redigido por Pessoa.</handNote>
          </handNotes>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Uma_replica_1.jpg"/>
@@ -134,9 +144,11 @@
                <argument>
                   <p rend="indent-first">
                      <app>
-                        <lem wit="República_1912"><hi rend="italic">Mais uma réplica corta a pacatez
+                        <lem wit="República_1912">
+                           <hi rend="italic">Mais uma réplica corta a pacatez
                               dos depoimentos desde o dia 3 do corrente veem sendo publicados na
-                                 «<rs type="periodical" key="J20">República</rs>».</hi></lem>
+                                 «<rs type="periodical" key="J20">República</rs>».</hi>
+                        </lem>
                         <rdg wit="Clássica_1915"/>
                      </app>
                   </p>
@@ -154,19 +166,20 @@
                            <expan>s<ex>enho</ex>r d<ex>outo</ex>r</expan>
                         </choice>
                         <rs type="name" key="P462" style="b">Adolfo Coelho</rs>, que não crê no <app>
-                           <lem wit="República_1912">super-<rs type="name" key="P15"
-                              >Camões</rs></lem>
-                           <rdg wit="Clássica_1915">«super-<rs type="name" key="P15"
-                              >Camões</rs>»</rdg>
+                           <lem wit="República_1912">super-<rs type="name" key="P15">Camões</rs>
+                           </lem>
+                           <rdg wit="Clássica_1915">«super-<rs type="name" key="P15">Camões</rs>»</rdg>
                         </app>.</hi>
                   </p>
                </argument>
             </div>
             <div>
-               <p rend="indent-first"><app>
+               <p rend="indent-first">
+                  <app>
                      <lem wit="República_1912"/>
                      <rdg wit="Clássica_1915">Envia-nos a seguinte carta:</rdg>
-                  </app></p>
+                  </app>
+               </p>
                <p rend="indent-first">
                   <handShift new="#H_FP"/>
                   <hi rend="italic">Meu caro amigo</hi> — O convite geral feito na sua secção de
@@ -194,12 +207,13 @@
                      </expan>
                   </choice>
                   <rs type="name" key="P462" style="b">Adolfo Coelho</rs> não tivesse feito incidir
-                  uma parte do seu depoimento sobre um artigo meu, publicado na <rs
-                     type="periodical" key="J5">
-                     <hi rend="italic"><app>
+                  uma parte do seu depoimento sobre um artigo meu, publicado na <rs type="periodical" key="J5">
+                     <hi rend="italic">
+                        <app>
                            <lem wit="República_1912">Aguia</lem>
                            <rdg wit="Clássica_1915">A Aguia</rdg>
-                        </app></hi>
+                        </app>
+                     </hi>
                   </rs>, e que visa precisamente a explicar, na sua significação sociológica, a
                   nossa novíssima poesia; chamado assim, como que por meu nome, á baila
                   jornalística, sinto-me com o direito e o dever de abrir uma clareira na minha
@@ -261,7 +275,9 @@
                   contra-argumentador, a uma só. É que a grandeza dos poetas de uma corrente
                   literaria está sempre em relação com a originalidade, o equilibrio e a <app>
                      <lem wit="República_1912">nacionalidade</lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">nacionalidade</hi></rdg>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">nacionalidade</hi>
+                     </rdg>
                   </app> (isto é, o caracter nacional) dessa corrente. Não se pode apontar em toda a
                   historia literária movimento que tenha surgido com caracter de originalidade,
                   equilibrio e nacionalidade que não tenha sido representado por, revelado atravez <app>
@@ -273,12 +289,10 @@
                   inesperadas e originais do seio dos seus povos, são a poesia grega e a poesia da
                   Renascença — preeminentemente, a da Renascença inglesa. A primeira surge como que
                   virgemente, anadiomenicamente, do oceano escuro do tempo; liga-se por episodios e
-                  elementos míticos á anterior poesia da India, mas a sua essencia, a sua <hi
-                     rend="italic">alma</hi>, a sua assombrosa alma lucida e profunda, é-lhe
+                  elementos míticos á anterior poesia da India, mas a sua essencia, a sua <hi rend="italic">alma</hi>, a sua assombrosa alma lucida e profunda, é-lhe
                   original e própria. De modo egualmente flagrante rompe da noite da idade chamada
                   média a poesia que, começando em <rs type="name" key="P220">Dante</rs>, culmina em
-                     <rs type="name" key="P65">Shakespeare</rs> e acaba em <rs type="name" key="P84"
-                     >Milton</rs>.</p>
+                     <rs type="name" key="P65">Shakespeare</rs> e acaba em <rs type="name" key="P84">Milton</rs>.</p>
                <p rend="indent-first">Todas as outras épocas literárias são inferiores a estas duas
                   em originalidade. Todas descendem muito mais evidentemente do passado do que
                   estas. O proprio Romantismo não destaca da Renascença ou mesmo do século dezoito
@@ -291,8 +305,7 @@
                   poesia estão na <rs type="title">
                      <hi rend="italic">Iliada</hi>
                   </rs> e em <rs type="name" key="P65">Shakespeare</rs>, e, logo abaixo, nos
-                  dramaturgos gregos e nos dois épicos supremos da Renascença, <rs type="name"
-                     key="P220">Dante</rs> e <rs type="name" key="P84">Milton</rs>. De modo que a
+                  dramaturgos gregos e nos dois épicos supremos da Renascença, <rs type="name" key="P220">Dante</rs> e <rs type="name" key="P84">Milton</rs>. De modo que a
                   questão se reduz simplesmente a procurar o grau de originalidade, equilibrio e
                   nacionalidade no actual período poetico português; se essas forem constatadas
                   grandes, inevitavelmente se terá de concluir ou que os novissimos poetas nossos
@@ -302,8 +315,7 @@
                      <rdg wit="Clássica_1915">na</rdg>
                   </app> nossa nova poesia.</p>
                <p rend="indent-first">Mas a questão póde ser posta á prova mais restritamente
-                  analisando. Em primeiro logar, escusamos de prescrutar a  <hi rend="italic"
-                     >nacionalidade</hi> de uma poesia: se se prova a sua plena e equilibrada
+                  analisando. Em primeiro logar, escusamos de prescrutar a  <hi rend="italic">nacionalidade</hi> de uma poesia: se se prova a sua plena e equilibrada
                   originalidade, fica ipso facto, provado o seu caracter de absolutamente nacional.
                   Porque se a poesia de uma nação é em certo periodo em absoluto original, de onde
                   lhe poderá vir essa originalidade, esse poder de ser diversa e outra do que todas
@@ -312,8 +324,8 @@
                   e não outro, é a <hi rend="italic">raça</hi>&gt;. Fica, portanto, restrita a nossa
                   investigação a constatar a existência ou não-existência, na nossa nova poesia, de
                   originalidade e equilibrio.</p>
-               <p rend="indent-first">Mas mesmo isto é escusado. O caso é <hi rend="italic"
-                  >saber</hi> constatar ori<pc>-</pc><pb/>ginalidade: pois que perfeita e verdadeira
+               <p rend="indent-first">Mas mesmo isto é escusado. O caso é <hi rend="italic">saber</hi> constatar ori<pc>-</pc>
+                  <pb/>ginalidade: pois que perfeita e verdadeira
                   originalidade não existe sem equilibrio perfeito. Vejamos porquê. <app>
                      <lem wit="República_1912">Primeiro,</lem>
                      <rdg wit="Clássica_1915">Primeiro</rdg>
@@ -339,7 +351,8 @@
                   </app> caracteristica de poetas e literatos de uma época. Qual é a base de uma
                   comunidade de ideias? Um fundamental conceito igual das coisas, uma igual atitude
                   perante o universo e a vida.</p>
-               <p rend="indent-first"><app>
+               <p rend="indent-first">
+                  <app>
                      <lem wit="República_1912">Que</lem>
                      <rdg wit="Clássica_1915">O que</rdg>
                   </app> é um comum conceito do universo e da vida? Um comum conceito do que
@@ -371,8 +384,7 @@
                      <rdg wit="Clássica_1915">Universo</rdg>
                   </app> e a vida? O que é que para ela constitue essencialmente a Realidade? É a
                   alma e só a alma: a Renascença não tem o sentimento da Natureza. Vejamos. Quais
-                  são as formas poeticas da Renascença? São ou poemas de amôr (<rs type="name"
-                     key="P517" style="b">Petrarcha</rs>), ou poemas de acção humana (os poetas
+                  são as formas poeticas da Renascença? São ou poemas de amôr (<rs type="name" key="P517" style="b">Petrarcha</rs>), ou poemas de acção humana (os poetas
                   épicos) ou dramas (<rs type="name" key="P65">Shakespeare</rs> e os dramaturgos do
                   seu tempo). São portanto tres formas de poesia de Alma, só de Alma — visto que
                   tratam ou do sentimento que liga as almas — o amôr —<app>
@@ -382,12 +394,15 @@
                      <rs type="name" key="P65">Shakespeare</rs>, mais completamente ainda de almas
                   em acção. Quanto à Natureza, os poetas da Renascença não a <app>
                      <lem wit="República_1912">sentem</lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">sentem</hi></rdg>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">sentem</hi>
+                     </rdg>
                   </app>, por mais nitidamente que a <app>
                      <lem wit="República_1912">vejam</lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">vejam</hi></rdg>
-                  </app>: assim, o mais observador de todos êles, <rs type="name" key="P65"
-                     >Shakespeare</rs>, não é poeta perante a Natureza, é observador simplesmente.
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">vejam</hi>
+                     </rdg>
+                  </app>: assim, o mais observador de todos êles, <rs type="name" key="P65">Shakespeare</rs>, não é poeta perante a Natureza, é observador simplesmente.
                   Descreve o que vê em maravilhosos versos; mas nenhuma simpatia o liga a essa
                   Natureza que tão nitidamente vê.</p>
                <p rend="indent-first">Dá-se com o Romantismo o caso inverso. Para os romanticos a
@@ -395,15 +410,12 @@
                   indívidual. Daí o caracter inteiramente diverso da poesia romantica em relação á
                   da Renascença. A sua noção da acção humana é fraca e descontinua, de modo que são
                   incapazes de elaborar uma epopeia. A sua fraquesa psicológica é conhecida: os
-                  únicos romanticos capazes de alguma intuição psicológica, <rs type="name"
-                     key="P198">Goethe</rs> e <rs type="name" key="P175">Shelley</rs>, apoiam-se ao
-                  passado, á tradição da Renascença, na figura de <rs type="name" key="P65"
-                     >Shakespeare</rs>, para beber psicologia. E o resultado? Grande como é em
+                  únicos romanticos capazes de alguma intuição psicológica, <rs type="name" key="P198">Goethe</rs> e <rs type="name" key="P175">Shelley</rs>, apoiam-se ao
+                  passado, á tradição da Renascença, na figura de <rs type="name" key="P65">Shakespeare</rs>, para beber psicologia. E o resultado? Grande como é em
                   outras coisas, <rs type="name" key="P198">Goethe</rs>-psicólogo não se pode medir,
                   não digamos já com <rs type="name" key="P65">Shakespeare</rs>, mas mesmo com
                   outros dramaturgos — <rs type="name" key="P120">Webster</rs>, por exemplo — da
-                  epoca shakespeareana. <rs type="name" key="P175">Shelley</rs>, para escrever <rs
-                     type="title">
+                  epoca shakespeareana. <rs type="name" key="P175">Shelley</rs>, para escrever <rs type="title">
                      <hi rend="italic">The Censi</hi>
                   </rs>, estudou atentamente os processos shakespeareanos — e o que resultou, ainda
                   que belo, não se pode comparar em intuição dramatica sequer com a obra de outros
@@ -414,9 +426,12 @@
                      por <hi rend="italic">imagens</hi>. Isto é, os primeiros pensam em termos de
                   Alma, os segundos em termos de Natureza. Nenhum romantico poderia escrever um
                   soneto como o <app>
-                     <lem wit="República_1912"><hi rend="italic">Alma</hi> minha <hi rend="italic"
-                           >gentil</hi></lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">Alma minha gentil</hi></rdg>
+                     <lem wit="República_1912">
+                        <hi rend="italic">Alma</hi> minha <hi rend="italic">gentil</hi>
+                     </lem>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">Alma minha gentil</hi>
+                     </rdg>
                   </app>, tão despido de imagens, tão <hi rend="italic">directamente</hi> 
                   exprimindo a alma.</p>
                <p rend="indent-first">Ora, sendo estes os caracteristicos dos dois grandes periodos
@@ -427,7 +442,9 @@
                   e da Natureza, a Nova Renascença (chamemos-lhe assim) não tem outra coisa que
                   tomar para Realidade. A sua originalidade só poderá vir portanto <app>
                      <lem wit="República_1912">de</lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">de</hi></rdg>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">de</hi>
+                     </rdg>
                   </app>
                   <hi rend="italic">uma fusão do psiquismo da Renascença com o psiquismo do
                      Romantismo</hi>. Não há outra hipótese concebivel.</p>
@@ -438,25 +455,19 @@
                   Realidade deverá ser <hi rend="italic">fusão de Natureza e Alma</hi>. A realidade
                   será pois <hi rend="italic">Natureza-Alma</hi>. Isto é, pela Nova Renascença 
                      a <hi rend="italic">Natureza será concebida como Alma</hi>.</p>
-               <p rend="indent-first">Ora eu creio que o professor <rs type="name" key="P462"
-                     style="b">Adolfo Coelho</rs> é suficientemente inteligente para perceber que
+               <p rend="indent-first">Ora eu creio que o professor <rs type="name" key="P462" style="b">Adolfo Coelho</rs> é suficientemente inteligente para perceber que
                   estamos em plena descrição da nova poesia portuguesa. Os caracteristicos que
-                  deduzimos como devendo infalivelmente ser os da poesia da Nova Renascença <hi
-                     rend="italic">coincidem em absoluto com os caracteristicos patentes da nossa
+                  deduzimos como devendo infalivelmente ser os da poesia da Nova Renascença <hi rend="italic">coincidem em absoluto com os caracteristicos patentes da nossa
                      novissima poesia</hi>.</p>
                <p rend="indent-first">Provas? Devem ser escusadas para qualquer criatura capaz de
-                  seguir um raciocinio e ler uma página. Leia o professor <rs type="name" key="P462"
-                     style="b">Adolfo Coelho</rs> as poesias caracteristicas dos nossos novissimos
+                  seguir um raciocinio e ler uma página. Leia o professor <rs type="name" key="P462" style="b">Adolfo Coelho</rs> as poesias caracteristicas dos nossos novissimos
                   poetas; medite todos os artigos de <rs type="name" key="P52" style="b">Teixeira de
                      Pascoais</rs> — cada verso tráe o conceito de Natureza-Alma, cada frase dêsses
                   artigos o exprime.</p>
                <p rend="indent-first">Para não fugir, porém, ao exemplo directo e individual,
-                  examinemos aqueles dois trechos citados por mim e re-citados pelo professor <rs
-                     type="name" key="P462" style="b">Adolfo Coelho</rs>, cuja erudita incompreensão
-                  não encontrou diferença entre êles e uma estância, citada, de <rs type="name"
-                     key="P248">Byron</rs>, inteiramente diversa no seu sentimento, perfeitamente
-                  romantico, de Natureza como Natureza. O primeiro trecho é este, de <rs type="name"
-                     key="P135" style="b">Jaime Cortezão</rs>:</p>
+                  examinemos aqueles dois trechos citados por mim e re-citados pelo professor <rs type="name" key="P462" style="b">Adolfo Coelho</rs>, cuja erudita incompreensão
+                  não encontrou diferença entre êles e uma estância, citada, de <rs type="name" key="P248">Byron</rs>, inteiramente diversa no seu sentimento, perfeitamente
+                  romantico, de Natureza como Natureza. O primeiro trecho é este, de <rs type="name" key="P135" style="b">Jaime Cortezão</rs>:</p>
                <lg rend="center">
                   <l>E, mal o luar os molha,</l>
                   <l>Os choupos, na noite calma,</l>
@@ -473,21 +484,20 @@
                </lg>
                <p rend="indent-first">Aqui temos o <app>
                      <lem wit="República_1912">acto material</lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">acto material</hi></rdg>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">acto material</hi>
+                     </rdg>
                   </app>, que é a queda de uma folha, concebido como <hi rend="italic">acto
-                     espiritual</hi>; e repare o professor <rs type="name" key="P462" style="b"
-                     >Adolfo Coelho</rs> que <rs type="name" key="P52" style="b">Pascoais</rs> não
+                     espiritual</hi>; e repare o professor <rs type="name" key="P462" style="b">Adolfo Coelho</rs> que <rs type="name" key="P52" style="b">Pascoais</rs> não
                   compára a queda da folha à ascensão da alma — a queda da folha, <app>
                      <lem wit="República_1912">é, materialmente,</lem>
                      <rdg wit="Clássica_1915">é materialmente,</rdg>
                   </app> a subida da alma.</p>
-               <p rend="indent-first">&gt;Comparando estes maravilhosos trechos a trechos de <rs
-                     type="name" key="P248">Byron</rs> e de <rs type="name" key="P292">Victor
+               <p rend="indent-first">&gt;Comparando estes maravilhosos trechos a trechos de <rs type="name" key="P248">Byron</rs> e de <rs type="name" key="P292">Victor
                      Hugo</rs>, mostrou o professor <rs type="name" key="P462" style="b">Adolfo
                      Coelho</rs> que não sabe olhar para além das palavras, e da méra gramática das
                   frases.</p>
-               <p rend="indent-first">Eu bem sei que o professor <rs type="name" key="P462"
-                     style="b">Adolfo Coelho</rs> <hi rend="italic">não pode sentir</hi> a nossa
+               <p rend="indent-first">Eu bem sei que o professor <rs type="name" key="P462" style="b">Adolfo Coelho</rs> <hi rend="italic">não pode sentir</hi> a nossa
                   nova poesia; ouso esperar que possa compreendê-la de longe, através do meu
                   raciocinio.</p>
                <p rend="indent-first">Que provámos, pois?</p>
@@ -495,29 +505,26 @@
                   Renascença, que é uma poesia perfeita e plenamente original. Mas, como acima
                   vimos, se é perfeitamente original, é equilibrada: erram portanto os que a
                   consideram doentia e confusa, lançando sôbre ela a sombra da sua própria
-                  incompreensão. — Se é original e equilibrada resulta, como acima provámos, que <hi
-                     rend="italic">é inteiramente nacional</hi>: erram portanto quantos falam em
+                  incompreensão. — Se é original e equilibrada resulta, como acima provámos, que <hi rend="italic">é inteiramente nacional</hi>: erram portanto quantos falam em
                   estrangeirismo a proposito dela. — Se é original, equilibrada e nacional produz ou
                   produzirá, como acima o mostrámos, grandes e máximas figuras de poeta: erra
                   portanto o professor <rs type="name" key="P462" style="b">Adolfo Coelho</rs>,
                   primeiro quando acha inferiores os nossos novissimos poetas, e depois quando
-                     considera <hi rend="italic">messianismo</hi> a ideia de um super-<rs
-                     type="name" key="P15" style="b">Camões</rs>, isto é, de um poeta máximo,
+                     considera <hi rend="italic">messianismo</hi> a ideia de um super-<rs type="name" key="P15" style="b">Camões</rs>, isto é, de um poeta máximo,
                   inevitavelmente maior do que aquêle poeta verdadeiramente grande, mas longe de ser
-                  um <rs type="name" key="P220">Dante</rs> ou um <rs type="name" key="P65"
-                     >Shakespeare</rs>.</p>
+                  um <rs type="name" key="P220">Dante</rs> ou um <rs type="name" key="P65">Shakespeare</rs>.</p>
                <p rend="indent-first">São estas, meu caro amigo, as considerações que julgo
-                  indispensaveis como resposta ao professor <rs type="name" key="P462" style="b"
-                     >Adolfo Coelho</rs>. Servem, ao mesmo tempo, como viu, para responder a outros
+                  indispensaveis como resposta ao professor <rs type="name" key="P462" style="b">Adolfo Coelho</rs>. Servem, ao mesmo tempo, como viu, para responder a outros
                   adversários da <hi rend="italic">Renascença Portuguesa</hi>.</p>
-               <p rend="indent-first">Repliquei com perfeita serenidade, 1.° porque o professor <rs
-                     type="name" key="P462" style="b">Adolfo Coelho</rs> com isenção de dureza
+               <p rend="indent-first">Repliquei com perfeita serenidade, 1.° porque o professor <rs type="name" key="P462" style="b">Adolfo Coelho</rs> com isenção de dureza
                   escreveu, e 2.° porque de outro modo não poderia escrever em atenção á sua pessoa
                   e ao seu jornal. Para o folheto que preparo reservo o tratar no tom que julgar
                   merecido alguns individuos pouco inteligentes ou menos correctos, que teem deposto
                   no seu inquérito.</p>
                <p rend="indent-first">Desculpe-me o espaço que lhe tomei e disponha sempre do seu
-                  amigo e admirador.—<hi rend="italic"><rs type="name" role="author" key="FP" style="b">Fernando Pessoa</rs></hi>.</p>
+                  amigo e admirador.—<hi rend="italic">
+                     <rs type="name" role="author" key="FP" style="b">Fernando Pessoa</rs>
+                  </hi>.</p>
             </div>
          </div>
       </body>
@@ -536,9 +543,11 @@
                <argument>
                   <p rend="indent-first">
                      <app>
-                        <lem wit="República_1912"><hi rend="italic">Mais uma réplica corta a pacatez
+                        <lem wit="República_1912">
+                           <hi rend="italic">Mais uma réplica corta a pacatez
                            dos depoimentos desde o dia 3 do corrente veem sendo publicados na
-                           «<rs type="periodical" key="J20">República</rs>».</hi></lem>
+                           «<rs type="periodical" key="J20">República</rs>».</hi>
+                        </lem>
                         <rdg wit="Clássica_1915"/>
                      </app>
                   </p>
@@ -560,10 +569,12 @@
                </argument>
             </div>
             <div>
-               <p rend="indent-first"><app>
-                  <lem wit="República_1912"/>
-                  <rdg wit="Clássica_1915">Envia-nos a seguinte carta:</rdg>
-               </app></p>
+               <p rend="indent-first">
+                  <app>
+                     <lem wit="República_1912"/>
+                     <rdg wit="Clássica_1915">Envia-nos a seguinte carta:</rdg>
+                  </app>
+               </p>
                <p rend="indent-first">
                   <handShift new="#H_FP"/>
                   <hi rend="italic">Meu caro amigo</hi> — O convite geral feito na sua secção de
@@ -582,18 +593,19 @@
                   </app> a como que argumentação dos adversários
                   da nossa novíssima poesia. Resolvi, por isso, guardar para folheto a resposta
                   extensa e completa a quantos simulacros de objeções várias competências nominais
-                  houvessem deixado cair nas suas colunas. Preparo esse folheto, que a <hi
-                     rend="italic">Renascença Portuguesa</hi> editará.</p>
+                  houvessem deixado cair nas suas colunas. Preparo esse folheto, que a <hi rend="italic">Renascença Portuguesa</hi> editará.</p>
                <p rend="indent-first">Nesta atitude me conservaria, se o <choice>
                      <abbr>Prof<am>.</am>
                      </abbr>
                      <expan>Prof<ex>essor</ex>
                      </expan>
                   </choice> Adolfo Coelho não tivesse feito incidir uma parte do seu depoimento
-                  sobre um artigo meu, publicado na <hi rend="italic"><app>
-                     <lem wit="República_1912">Águia</lem>
-                     <rdg wit="Clássica_1915">A Águia</rdg>
-                  </app></hi>, e que visa
+                  sobre um artigo meu, publicado na <hi rend="italic">
+                     <app>
+                        <lem wit="República_1912">Águia</lem>
+                        <rdg wit="Clássica_1915">A Águia</rdg>
+                     </app>
+                  </hi>, e que visa
                   precisamente a explicar, na sua significação sociológica, a nossa novíssima
                   poesia; chamado assim, como que por meu nome, à baila jornalística, sinto-me com o
                   direito e o dever de abrir uma clareira na minha renúncia à publicidade maior e a
@@ -651,7 +663,9 @@
                   literária está sempre em relação com a originalidade, o equilíbrio e a
                   <app>
                      <lem wit="República_1912">nacionalidade</lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">nacionalidade</hi></rdg>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">nacionalidade</hi>
+                     </rdg>
                   </app> (isto é, o carácter nacional) dessa corrente. Não se pode apontar em
                   toda a história literária movimento que tenha surgido com carácter de
                   originalidade, equilíbrio e nacionalidade que não tenha sido representado por,
@@ -661,8 +675,7 @@
                   inesperadas e originais do seio dos seus povos, são a poesia grega e a poesia da
                   Renascença — preeminentemente, a da Renascença inglesa. A primeira surge como que
                   virgemente, anadiomenicamente, do oceano escuro do tempo; liga-se por episódios e
-                  elementos míticos à anterior poesia da Índia, mas a sua essência, a sua <hi
-                     rend="italic">alma</hi>, a sua assombrosa alma lúcida e profunda, é-lhe
+                  elementos míticos à anterior poesia da Índia, mas a sua essência, a sua <hi rend="italic">alma</hi>, a sua assombrosa alma lúcida e profunda, é-lhe
                   original e própria. De modo igualmente flagrante rompe da noite da idade chamada
                   média a poesia que, começando em Dante, culmina em Shakespeare e acaba em
                   Milton.</p>
@@ -687,8 +700,7 @@
                   </app> nossa
                   nova poesia.</p>
                <p rend="indent-first">Mas a questão pode ser posta à prova mais restritamente
-                  analisando. Em primeiro lugar, escusamos de prescrutar a  <hi rend="italic"
-                     >nacionalidade</hi> de uma poesia: se se prova a sua plena e equilibrada
+                  analisando. Em primeiro lugar, escusamos de prescrutar a  <hi rend="italic">nacionalidade</hi> de uma poesia: se se prova a sua plena e equilibrada
                   originalidade, fica ipso facto, provado o seu carácter de absolutamente nacional.
                   Porque se a poesia de uma nação é em certo período em absoluto original, de onde
                   lhe poderá vir essa originalidade, esse poder de ser diversa e outra do que todas
@@ -697,8 +709,8 @@
                   e não outro, é a <hi rend="italic">raça</hi>&gt;. Fica, portanto, restrita a nossa
                   investigação a constatar a existência ou não-existência, na nossa nova poesia, de
                   originalidade e equilíbrio.</p>
-               <p rend="indent-first">Mas mesmo isto é escusado. O caso é <hi rend="italic"
-                  >saber</hi> constatar ori<pc>-</pc><pb/>ginalidade: pois que perfeita e verdadeira
+               <p rend="indent-first">Mas mesmo isto é escusado. O caso é <hi rend="italic">saber</hi> constatar ori<pc>-</pc>
+                  <pb/>ginalidade: pois que perfeita e verdadeira
                   originalidade não existe sem equilíbrio perfeito. Vejamos porquê. <app>
                      <lem wit="República_1912">Primeiro,</lem>
                      <rdg wit="Clássica_1915">Primeiro</rdg>
@@ -726,10 +738,11 @@
                   </app>, característica de poetas e literatos de uma época. Qual é a base
                   de uma comunidade de ideias? Um fundamental conceito igual das coisas, uma igual
                   atitude perante o universo e a vida.</p>
-               <p rend="indent-first"><app>
-                  <lem wit="República_1912">Que</lem>
-                  <rdg wit="Clássica_1915">O que</rdg>
-               </app> é um comum conceito do universo e da vida? Um comum
+               <p rend="indent-first">
+                  <app>
+                     <lem wit="República_1912">Que</lem>
+                     <rdg wit="Clássica_1915">O que</rdg>
+                  </app> é um comum conceito do universo e da vida? Um comum
                   conceito do que constitui a realidade. O ponto único, portanto, para onde tem de
                   convergir a nossa atenção é este — se a nova poesia portuguesa envolve qualquer
                   conceito novo do que é a realidade, se a sua atitude perante o universo e a vida é
@@ -754,9 +767,9 @@
                   depois os prováveis característicos do período literário que se lhes deve seguir e
                   comparemos finalmente esses característicos com os da nova poesia portuguesa.</p>
                <p rend="indent-first">Qual é a atitude da Renascença perante o <app>
-                  <lem wit="República_1912">universo</lem>
-                  <rdg wit="Clássica_1915">Universo</rdg>
-               </app> e a vida? O
+                     <lem wit="República_1912">universo</lem>
+                     <rdg wit="Clássica_1915">Universo</rdg>
+                  </app> e a vida? O
                   que é que para ela constitui essencialmente a Realidade? É a alma e só a alma: a
                   Renascença não tem o sentimento da Natureza. Vejamos. Quais são as formas poéticas
                   da Renascença? São ou poemas de amor (Petrarca), ou poemas de ação humana (os
@@ -769,10 +782,14 @@
                   poeta culminante, Shakespeare, mais completamente ainda de almas em ação. Quanto à
                   Natureza, os poetas da Renascença não a <app>
                      <lem wit="República_1912">sentem</lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">sentem</hi></rdg>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">sentem</hi>
+                     </rdg>
                   </app>, por mais nitidamente que a <app>
                      <lem wit="República_1912">vejam</lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">vejam</hi></rdg>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">vejam</hi>
+                     </rdg>
                   </app>:
                   assim, o mais observador de todos eles, Shakespeare, não é poeta perante a
                   Natureza, é observador simplesmente. Descreve o que vê em maravilhosos versos; mas
@@ -796,9 +813,12 @@
                      por <hi rend="italic">imagens</hi>. Isto é, os primeiros pensam em termos de
                   Alma, os segundos em termos de Natureza. Nenhum romântico poderia escrever um
                   soneto como o <app>
-                     <lem wit="República_1912"><hi rend="italic">Alma</hi> minha <hi rend="italic"
-                        >gentil</hi></lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">Alma minha gentil</hi></rdg>
+                     <lem wit="República_1912">
+                        <hi rend="italic">Alma</hi> minha <hi rend="italic">gentil</hi>
+                     </lem>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">Alma minha gentil</hi>
+                     </rdg>
                   </app>, tão
                   despido de imagens, tão <hi rend="italic">diretamente</hi>  exprimindo a alma.</p>
                <p rend="indent-first">Ora, sendo estes os característicos dos dois grandes períodos
@@ -809,9 +829,11 @@
                   da Natureza, a Nova Renascença (chamemos-lhe assim) não tem outra coisa que tomar
                   para Realidade. A sua originalidade só poderá vir portanto <app>
                      <lem wit="República_1912">de</lem>
-                     <rdg wit="Clássica_1915"><hi rend="italic">de</hi></rdg>
-                  </app> <hi rend="italic"
-                     >uma fusão do psiquismo da Renascença com o psiquismo do Romantismo</hi>. Não
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">de</hi>
+                     </rdg>
+                  </app>
+                  <hi rend="italic">uma fusão do psiquismo da Renascença com o psiquismo do Romantismo</hi>. Não
                   há outra hipótese concebível.</p>
                <p rend="indent-first">Essa fusão, porém, produz um facto curioso — a coexistência de
                   dois sentimentos da Realidade, uma dupla noção de Realidade. Mas só pode haver
@@ -851,9 +873,11 @@
                   <l>Era alma que subia.</l>
                </lg>
                <p rend="indent-first">Aqui temos o <app>
-                  <lem wit="República_1912">ato material</lem>
-                  <rdg wit="Clássica_1915"><hi rend="italic">ato material</hi></rdg>
-               </app>, que é a queda de uma folha,
+                     <lem wit="República_1912">ato material</lem>
+                     <rdg wit="Clássica_1915">
+                        <hi rend="italic">ato material</hi>
+                     </rdg>
+                  </app>, que é a queda de uma folha,
                   concebido como <hi rend="italic">ato espiritual</hi>; e repare o professor Adolfo
                   Coelho que Pascoais não compara a queda da folha à ascensão da alma — a queda da
                   folha, <app>
@@ -871,8 +895,7 @@
                   Renascença, que é uma poesia perfeita e plenamente original. Mas, como acima
                   vimos, se é perfeitamente original, é equilibrada: erram portanto os que a
                   consideram doentia e confusa, lançando sobre ela a sombra da sua própria
-                  incompreensão. — Se é original e equilibrada resulta, como acima provámos, que <hi
-                     rend="italic">é inteiramente nacional</hi>: erram portanto quantos falam em
+                  incompreensão. — Se é original e equilibrada resulta, como acima provámos, que <hi rend="italic">é inteiramente nacional</hi>: erram portanto quantos falam em
                   estrangeirismo a propósito dela. — Se é original, equilibrada e nacional produz ou
                   produzirá, como acima o mostrámos, grandes e máximas figuras de poeta: erra
                   portanto o professor Adolfo Coelho, primeiro quando acha inferiores os nossos

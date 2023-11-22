@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48-14<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48-14<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48-14r.xml</idno>
          </publicationStmt>
@@ -72,19 +73,29 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0027_14_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0027_14_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <head>ANTHOLOGIA</head>
-            <head><choice>
-                  <abbr>Vol<am>.</am></abbr>
-                  <expan>Vol<ex>ume</ex></expan>
+            <head>
+               <choice>
+                  <abbr>Vol<am>.</am>
+                  </abbr>
+                  <expan>Vol<ex>ume</ex>
+                  </expan>
                </choice> I.</head>
             <list>
                <item>
@@ -94,12 +105,24 @@
                   <label>2.</label>
                   <rs type="name" key="P83">Robert Louis Stevenson</rs>, <rs type="title"> “O
                      Extranho Caso do <lb/>
-                     <rs type="name" key="P207"><choice><abbr>D<am>r.</am></abbr><expan>D<ex>outor</ex></expan></choice> Jekyll</rs> e do <rs
-                        type="name" key="P208"><choice><abbr>S<am>r.</am></abbr><expan>S<ex>enhor</ex></expan></choice> Hyde</rs>”</rs>.
+                     <rs type="name" key="P207">
+                        <choice>
+                           <abbr>D<am>r.</am>
+                           </abbr>
+                           <expan>D<ex>outor</ex>
+                           </expan>
+                        </choice> Jekyll</rs> e do <rs type="name" key="P208">
+                        <choice>
+                           <abbr>S<am>r.</am>
+                           </abbr>
+                           <expan>S<ex>enhor</ex>
+                           </expan>
+                        </choice> Hyde</rs>”</rs>.
                </item>
                <item>
                   <label>3.</label>
-                  <rs type="title"><rs type="name" key="P87">Edgar Poe</rs>, Os principais poemas
+                  <rs type="title">
+                     <rs type="name" key="P87">Edgar Poe</rs>, Os principais poemas
                      de</rs>. </item>
             </list>
             <metamark rend="line" function="end"/>

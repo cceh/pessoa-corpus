@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 26B-52<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 26B-52<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -35,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_26B-52v.xml</idno>
          </publicationStmt>
@@ -68,20 +69,25 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-26b-1-100_JPG_24-C-R0150/bn-acpc-e-e3-26b-1-100_0105_52v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-26b-1-100_JPG_24-C-R0150/bn-acpc-e-e3-26b-1-100_0105_52v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <list>
-               <item rend="indent-2"> Annuncios <rs type="periodical" key="J2">“Athena”</rs>. — <rs
-                     type="name" key="P131">Augusto Franco</rs> (Bonneville) — <rs type="name"
-                     key="P132">Moitinho d’Al<pc>-</pc><lb/>meida</rs> — outros. (Vêr lista). </item>
+               <item rend="indent-2"> Annuncios <rs type="periodical" key="J2">“Athena”</rs>. — <rs type="name" key="P131">Augusto Franco</rs> (Bonneville) — <rs type="name" key="P132">Moitinho d’Al<pc>-</pc>
+                     <lb/>meida</rs> — outros. (Vêr lista). </item>
                <item>
                   <rs type="periodical" key="J6">Mercure de France</rs>. </item>
                <item>
@@ -91,7 +97,9 @@
                      Meyrelles</rs>. </item>
                <item>Completar e traduzir “<rs type="title">Banqueiro</rs>”.</item>
                <item>Cambridge Literary Agency.</item>
-               <item><rs type="title">Poemas de <rs type="name" key="P87">Edgar Poe</rs></rs>
+               <item>
+                  <rs type="title">Poemas de <rs type="name" key="P87">Edgar Poe</rs>
+                  </rs>
                   (?).</item>
                <item>Relatorio Companhia.</item>
                <metamark rend="space" function="distinct"/>

@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48-3<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48-3<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48-3r.xml</idno>
          </publicationStmt>
@@ -78,67 +79,105 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0005_3_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0005_3_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Portuguese Anthology.</hi></head>
+            <head>
+               <hi rend="underline">Portuguese Anthology.</hi>
+            </head>
             <list>
                <item>
                   <rs type="name" key="P25">Guerra Junqueiro</rs>: <list rend="inline">
-                     <item><rs type="title">Oração á Luz</rs>.</item>
-                     <item><rs type="title">Canção Perdida</rs>.</item>
+                     <item>
+                        <rs type="title">Oração á Luz</rs>.</item>
+                     <item>
+                        <rs type="title">Canção Perdida</rs>.</item>
                   </list>
                </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P52">Teixeira de Pascoaes</rs></hi>: <rs
-                     type="title">Elegia</rs>. </item>
+                  <hi rend="underline">
+                     <rs type="name" key="P52">Teixeira de Pascoaes</rs>
+                  </hi>: <rs type="title">Elegia</rs>. </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P53">Antonio Nobre</rs></hi>: <supplied
-                     resp="PS" reason="omitted-in-original"/>
+                  <hi rend="underline">
+                     <rs type="name" key="P53">Antonio Nobre</rs>
+                  </hi>: <supplied resp="PS" reason="omitted-in-original"/>
                </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P26">Cesario Verde</rs></hi>: <supplied
-                     resp="PS" reason="omitted-in-original"/>
+                  <hi rend="underline">
+                     <rs type="name" key="P26">Cesario Verde</rs>
+                  </hi>: <supplied resp="PS" reason="omitted-in-original"/>
                </item>
                <item>
                   <hi rend="underline">
                      <rs type="name" key="AdC" role="author">Alvaro de Campos</rs>
                   </hi>: <list rend="inline">
-                     <item><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Opiario"><rs type="work" key="O4-13"><rs type="title">Opiario</rs></rs></ref>.</item>
-                     <item><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ode_Triunfal"><rs type="work" key="O4-12"><rs type="title">Ode
-                        Triumphal</rs></rs></ref>.</item>
+                     <item>
+                        <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Opiario">
+                           <rs type="work" key="O4-13">
+                              <rs type="title">Opiario</rs>
+                           </rs>
+                        </ref>.</item>
+                     <item>
+                        <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ode_Triunfal">
+                           <rs type="work" key="O4-12">
+                              <rs type="title">Ode
+                        Triumphal</rs>
+                           </rs>
+                        </ref>.</item>
                   </list>
                </item>
                <item>
                   <hi rend="underline">Two Sensationists</hi>: <list rend="inline">
                      <item>
                         <rs type="name" key="FP" role="author" style="a">
-                              <choice>
-                                 <abbr>FP</abbr>
-                                 <expan>F<ex>ernando</ex> P<ex>essôa</ex></expan>
-                              </choice></rs>: – <rs type="work" key="O1-9"><ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Chuva-Obliqua"><rs type="title">Chuva Obliqua</rs></ref></rs>. </item>
+                           <choice>
+                              <abbr>FP</abbr>
+                              <expan>F<ex>ernando</ex> P<ex>essôa</ex>
+                              </expan>
+                           </choice>
+                        </rs>: – <rs type="work" key="O1-9">
+                           <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Chuva-Obliqua">
+                              <rs type="title">Chuva Obliqua</rs>
+                           </ref>
+                        </rs>. </item>
                      <item>
-                        <rs type="name" key="P30"><choice>
+                        <rs type="name" key="P30">
+                           <choice>
                               <abbr>SC</abbr>
-                              <expan>S<ex>á</ex>-C<ex>arneiro</ex></expan>
-                           </choice></rs> – <supplied resp="PS" reason="omitted-in-original"/>
+                              <expan>S<ex>á</ex>-C<ex>arneiro</ex>
+                              </expan>
+                           </choice>
+                        </rs> – <supplied resp="PS" reason="omitted-in-original"/>
                      </item>
                   </list>
                </item>
                <item rend="indent-2">
-                  <hi rend="underline"><rs type="name" key="P54">Eugenio de Castro</rs></hi>: <list
-                     rend="inline">
+                  <hi rend="underline">
+                     <rs type="name" key="P54">Eugenio de Castro</rs>
+                  </hi>: <list rend="inline">
                      <item>(He was ever a false “decadent”, being but<lb/> a morbid pagan.)</item>
-                     <item><rs type="title">Epigraphe (<choice>
-                              <abbr>S<am>.</am></abbr>
-                              <expan>S<ex>ombra</ex></expan>
-                           </choice> do Quadrante)</rs></item>
+                     <item>
+                        <rs type="title">Epigraphe (<choice>
+                              <abbr>S<am>.</am>
+                              </abbr>
+                              <expan>S<ex>ombra</ex>
+                              </expan>
+                           </choice> do Quadrante)</rs>
+                     </item>
                   </list>
                </item>
             </list>

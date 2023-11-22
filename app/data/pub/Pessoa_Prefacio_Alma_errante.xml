@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Prefacio_Alma_errante.xml</idno>
          </publicationStmt>
@@ -56,7 +56,9 @@
                </analytic>
                <monogr>
                   <title level="m">Alma errante</title>
-                  <author><rs type="name" key="P718" style="b">Eliezer Kamenezky</rs></author>
+                  <author>
+                     <rs type="name" key="P718" style="b">Eliezer Kamenezky</rs>
+                  </author>
                   <imprint>
                      <date when="1914">1932</date>
                      <pubPlace>Lisboa</pubPlace>
@@ -66,10 +68,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Pessoa_Prefacio_Alma_errante_1.jpg"/>
@@ -93,7 +103,8 @@
    <text type="orig" corresp="#W360">
       <body>
          <head>PREFÁCIO</head>
-         <p rend="indent-first"><rs type="name" key="P718" style="a">ELIEZER KAMENESKY</rs> é judeu
+         <p rend="indent-first">
+            <rs type="name" key="P718" style="a">ELIEZER KAMENESKY</rs> é judeu
             russo, vagamundo temporáriamente parado, cultor teórico e prático do que chamam
             naturismo, e idealista e romantico como são todos os judeus, quando não são o
             contrário.</p>
@@ -139,16 +150,13 @@
             inglês foi sempre claramente activo e prático; é contudo o povo que deu ao mundo a
             poesia lírica mais etérea e subtil. Mas o inglês, na mesma plena imersão prática, é
             incoordenado e inconstrutivo: vai pela realidade fora aos apalpões, ainda que aos
-            apalpões seguros. Um <rs type="name" key="P487">Infante D. Henrique</rs>, ou um <rs
-               type="name" key="P539">Bismarck</rs>, é produto impossível em Inglaterra. E, do mesmo
+            apalpões seguros. Um <rs type="name" key="P487">Infante D. Henrique</rs>, ou um <rs type="name" key="P539">Bismarck</rs>, é produto impossível em Inglaterra. E, do mesmo
             modo, na mais alta poesia inglesa a inspiração sobreleva á construção. Continúa a
             técnica de apalpões: nêsse nível, porém, tocam nos astros. Onde, por desvio e excepção,
             a construção suba, como em <rs type="name" key="P84">Milton</rs>, desde logo a subtileza
-            e a eteridade descem. O <rs type="name" key="P719">Ariel</rs> do pagão <rs type="name"
-               key="P65">Shakespeare</rs>, não sendo mais que um elemental do Ar, é todavia mais
+            e a eteridade descem. O <rs type="name" key="P719">Ariel</rs> do pagão <rs type="name" key="P65">Shakespeare</rs>, não sendo mais que um elemental do Ar, é todavia mais
             angélico que os anjos do cristão <rs type="name" key="P84">Milton</rs> ― anjos da Cabala
-            ou da Rosea Cruz, ou, pelo menos, da Rosea cruz como <rs type="name" key="P720"
-               >Fludd</rs> a entendeu.</p>
+            ou da Rosea Cruz, ou, pelo menos, da Rosea cruz como <rs type="name" key="P720">Fludd</rs> a entendeu.</p>
          <milestone rend="space" unit="section"/>
          <p rend="indent-first">Esta existência necessária, nos povos, de elementos opostos, e
             porisso complementares e equilibrantes, manifesta-se, em geral, atravez de indivíduos
@@ -156,12 +164,9 @@
             elementos complementares; aparece um em certos indivíduos, outro em outros. O equilíbrio
             dá-se na raça ou no povo em conjunto, não nos indivíduos separadamente.</p>
          <p rend="indent-first">Algumas vezes, é certo, essa dupla mentalidade da raça se reflecte,
-            ou parece reflectir, no mesmo indivíduo. Tal foi, talvez, o caso de <rs type="name"
-               key="P65">Shakespeare</rs> — burguês banal, dirigindo atiladamente o seu teátro,
-            emprestando dinheiro a juros a seus conterrâneos, e, no mesmo tempo, escrevendo <hi
-               rend="italic">A tormenta</hi>, que, para tudo ter de etéreo e inspirado, é até
-            simbólica e profética. Mas nem no caso de se citar <rs type="name" key="P65"
-               >Shakespeare</rs> quer dizer que a coexistencia individual dos elementos opostos se
+            ou parece reflectir, no mesmo indivíduo. Tal foi, talvez, o caso de <rs type="name" key="P65">Shakespeare</rs> — burguês banal, dirigindo atiladamente o seu teátro,
+            emprestando dinheiro a juros a seus conterrâneos, e, no mesmo tempo, escrevendo <hi rend="italic">A tormenta</hi>, que, para tudo ter de etéreo e inspirado, é até
+            simbólica e profética. Mas nem no caso de se citar <rs type="name" key="P65">Shakespeare</rs> quer dizer que a coexistencia individual dos elementos opostos se
             dê sómente em altos espíritos, nem o apontamos senão como a excepção, e para acentuar a
             regra. É na raça ou nação, repita-se, que o equilíbrio essencial se dá.</p>
          <p rend="indent-first">Isto vem, primeiro, para o fim geral de se compreender que, se nos
@@ -281,8 +286,7 @@
             se de facto relembra o Nome Perdido do cabalismo judaico, não é necessáriamente da mesma
             natureza. Sabe-se em que consiste a essencia do Nome Perdido dos cabalistas; não se sabe
             que espécie de Palavra é que o Mestre morreu para não revelar. A maior autoridade
-            maçonica de hoje interpreta a Palavra Perdida de um modo nitidamente não-judaico: <hi
-               rend="italic">Verbum <rs type="name" key="P50" style="c">Christus</rs> est</hi>,
+            maçonica de hoje interpreta a Palavra Perdida de um modo nitidamente não-judaico: <hi rend="italic">Verbum <rs type="name" key="P50" style="c">Christus</rs> est</hi>,
             diz.</p>
          <milestone rend="space" unit="section"/>
          <p rend="indent-first">O que acaba de dizer-se da Maçonaria, com mais forte razão se pode
@@ -362,8 +366,9 @@
          <p rend="indent-first">A primeira é que <rs type="name" key="P718">Eliezer</rs> não é
             português, nem se pode portanto esperar que maneje com qualquer intima destreza a que é
             uma das mais completas, subtis e opulentas línguas do mundo. A simplicidade do que tem a
-            dizer-nos não exige, é certo, os contornos de Vieira ou as cambiantes do <hi
-               rend="italic"><rs type="periodical" key="J12">Orfeu</rs></hi>. Mas, assim como a
+            dizer-nos não exige, é certo, os contornos de Vieira ou as cambiantes do <hi rend="italic">
+               <rs type="periodical" key="J12">Orfeu</rs>
+            </hi>. Mas, assim como a
             ideia e a emoção se refletem no vocabulario e no jôgo sintático, assim também êstes
             reagem sôbre a emoção ou ideia, e, se por qualquer razão são simples, as compelem, em
             certo grau, a ser simples também.</p>
@@ -372,10 +377,10 @@
             construção no conjunto nem precisão na frase. Nenhum judeu, grande poeta que fôsse,
             seria capaz de escrever uma composição que contivesse, explicito ou implicito, o
             profundo movimento logico — strofe, antistrofe, épodo — da ode grega. Nenhum judeu,
-            grande poeta que fôsse, seria capaz de escrever, como <rs type="name" key="P193"
-               style="c">Esquilo</rs>, «riso inumero das ondas do mar». E, é claro, nenhum judeu
+            grande poeta que fôsse, seria capaz de escrever, como <rs type="name" key="P193" style="c">Esquilo</rs>, «riso inumero das ondas do mar». E, é claro, nenhum judeu
             seria capaz de escrever êste prefácio.</p>
-         <signed rend="right"><rs type="name" key="FP" role="author" style="b">Fernando
+         <signed rend="right">
+            <rs type="name" key="FP" role="author" style="b">Fernando
             Pessoa</rs>.</signed>
       </body>
    </text>
@@ -443,8 +448,7 @@
             dá-se na raça ou no povo em conjunto, não nos indivíduos separadamente.</p>
          <p rend="indent-first">Algumas vezes, é certo, essa dupla mentalidade da raça se reflete,
             ou parece refletir, no mesmo indivíduo. Tal foi, talvez, o caso de Shakespeare — burguês banal, dirigindo atiladamente o seu teatro,
-            emprestando dinheiro a juros a seus conterrâneos, e, no mesmo tempo, escrevendo <hi
-               rend="italic">A tormenta</hi>, que, para tudo ter de etéreo e inspirado, é até
+            emprestando dinheiro a juros a seus conterrâneos, e, no mesmo tempo, escrevendo <hi rend="italic">A tormenta</hi>, que, para tudo ter de etéreo e inspirado, é até
             simbólica e profética. Mas nem no caso de se citar Shakespeare quer dizer que a coexistência individual dos elementos opostos se
             dê somente em altos espíritos, nem o apontamos senão como a exceção, e para acentuar a
             regra. É na raça ou nação, repita-se, que o equilíbrio essencial se dá.</p>
@@ -565,8 +569,7 @@
             se de facto relembra o Nome Perdido do cabalismo judaico, não é necessariamente da mesma
             natureza. Sabe-se em que consiste a essência do Nome Perdido dos cabalistas; não se sabe
             que espécie de Palavra é que o Mestre morreu para não revelar. A maior autoridade
-            maçónica de hoje interpreta a Palavra Perdida de um modo nitidamente não-judaico: <hi
-               rend="italic">Verbum Christus est</hi>,
+            maçónica de hoje interpreta a Palavra Perdida de um modo nitidamente não-judaico: <hi rend="italic">Verbum Christus est</hi>,
             diz.</p>
          <milestone rend="space" unit="section"/>
          <p rend="indent-first">O que acaba de dizer-se da Maçonaria, com mais forte razão se pode
@@ -645,8 +648,7 @@
          <p rend="indent-first">A primeira é que Eliezer não é
             português, nem se pode portanto esperar que maneje com qualquer íntima destreza a que é
             uma das mais completas, subtis e opulentas línguas do mundo. A simplicidade do que tem a
-            dizer-nos não exige, é certo, os contornos de Vieira ou as cambiantes do <hi
-               rend="italic">Orfeu</hi>. Mas, assim como a
+            dizer-nos não exige, é certo, os contornos de Vieira ou as cambiantes do <hi rend="italic">Orfeu</hi>. Mas, assim como a
             ideia e a emoção se refletem no vocabulário e no jogo sintático, assim também estes
             reagem sobre a emoção ou ideia, e, se por qualquer razão são simples, as compelem, em
             certo grau, a ser simples também.</p>

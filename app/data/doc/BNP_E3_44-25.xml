@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -43,7 +43,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_44-25.xml</idno>
          </publicationStmt>
@@ -77,11 +77,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-44-1-54_JPG_24-C-R0150/bn-acpc-e-e3-44-1-54_0049_25_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-44-1-54_JPG_24-C-R0150/bn-acpc-e-e3-44-1-54_0049_25_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -103,8 +110,7 @@
                <item>
                   <label>7.</label> Code. </item>
                <item>
-                  <label>8.</label> “Cosmopolis” — the <gap reason="illegible" unit="word"
-                     extent="1"/> plan </item>
+                  <label>8.</label> “Cosmopolis” — the <gap reason="illegible" unit="word" extent="1"/> plan </item>
             </list>
             <metamark rend="line" function="distinct"/>
             <gap reason="selection" unit="line" extent="33"/>

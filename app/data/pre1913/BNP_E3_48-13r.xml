@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48-13<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48-13<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -34,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48-13r.xml</idno>
          </publicationStmt>
@@ -64,7 +65,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0025_13_t24-C-R0150.jpg"/>
@@ -72,97 +81,127 @@
    <text>
       <body>
          <div>
-            <head rend="right"><hi rend="underline"><rs type="periodical" key="J51">Ibis Revista</rs></hi></head>
+            <head rend="right">
+               <hi rend="underline">
+                  <rs type="periodical" key="J51">Ibis Revista</rs>
+               </hi>
+            </head>
             <list>
                <item>
                   <rs type="name" key="P128">Guilherme Moniz Barreto</rs>.
                   <choice>
-                     <abbr>P<am>.</am></abbr>
-                     <expan>P<ex>ortuguez</ex></expan>
+                     <abbr>P<am>.</am>
+                     </abbr>
+                     <expan>P<ex>ortuguez</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P201">Tobias Barreto de Menezes</rs>.
                   <choice>
-                     <abbr>B<am>.</am></abbr>
-                     <expan>B<ex>rasileiro</ex></expan>
+                     <abbr>B<am>.</am>
+                     </abbr>
+                     <expan>B<ex>rasileiro</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P202">Julia Cortines</rs>
                   <choice>
-                     <abbr>B<am>.</am></abbr>
-                     <expan>B<ex>rasileira</ex></expan>
+                     <abbr>B<am>.</am>
+                     </abbr>
+                     <expan>B<ex>rasileira</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P203">Valentim Magalhães</rs>.
                   <choice>
-                     <abbr>B<am>.</am></abbr>
-                     <expan>B<ex>rasileiro</ex></expan>
+                     <abbr>B<am>.</am>
+                     </abbr>
+                     <expan>B<ex>rasileiro</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P80">Augusto de Lima</rs>.
                   <choice>
-                     <abbr>B<am>.</am></abbr>
-                     <expan>B<ex>rasileiro</ex></expan>
+                     <abbr>B<am>.</am>
+                     </abbr>
+                     <expan>B<ex>rasileiro</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P204">Hamilton de Araujo</rs>.
                   <choice>
-                     <abbr>P<am>.</am></abbr>
-                     <expan>P<ex>ortuguez</ex></expan>
+                     <abbr>P<am>.</am>
+                     </abbr>
+                     <expan>P<ex>ortuguez</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P125">Antonio Molarinho</rs>.
                   <choice>
-                     <abbr>P<am>.</am></abbr>
-                     <expan>P<ex>ortuguez</ex></expan>
+                     <abbr>P<am>.</am>
+                     </abbr>
+                     <expan>P<ex>ortuguez</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P145">Camillo Pessanha</rs>.
                   <choice>
-                     <abbr>P<am>.</am></abbr>
-                     <expan>P<ex>ortuguez</ex></expan>
+                     <abbr>P<am>.</am>
+                     </abbr>
+                     <expan>P<ex>ortuguez</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P205">Guilherme Braga</rs>.
                   <choice>
-                     <abbr>P<am>.</am></abbr>
-                     <expan>P<ex>ortuguez</ex></expan>
+                     <abbr>P<am>.</am>
+                     </abbr>
+                     <expan>P<ex>ortuguez</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P206">Francisco Rodrigues Lobo</rs>.
                   <choice>
-                     <abbr>P<am>.</am></abbr>
-                     <expan>P<ex>ortuguez</ex></expan>
+                     <abbr>P<am>.</am>
+                     </abbr>
+                     <expan>P<ex>ortuguez</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <rs type="name" key="P24">José Anastacio da Cunha</rs>.
                   <choice>
-                     <abbr>P<am>.</am></abbr>
-                     <expan>P<ex>ortuguez</ex></expan>
+                     <abbr>P<am>.</am>
+                     </abbr>
+                     <expan>P<ex>ortuguez</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   500 sonetos (portuguezes)
                   <choice>
-                     <abbr>P<am>.</am></abbr>
-                     <expan>P<ex>ortuguez</ex></expan>
+                     <abbr>P<am>.</am>
+                     </abbr>
+                     <expan>P<ex>ortuguez</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
                   500 sonetos (brasileiros)
                   <choice>
-                     <abbr>B<am>.</am></abbr>
-                     <expan>B<ex>rasileiro</ex></expan>
+                     <abbr>B<am>.</am>
+                     </abbr>
+                     <expan>B<ex>rasileiro</ex>
+                     </expan>
                   </choice>
                </item>
             </list>

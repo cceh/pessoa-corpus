@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 14E-5<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 14E-5<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_14E-5v.xml</idno>
          </publicationStmt>
@@ -76,11 +77,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-14e-1-96_JPG_24-c-R0150/bn-acpc-e-e3-14e-1-96_0010_5v_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-14e-1-96_JPG_24-c-R0150/bn-acpc-e-e3-14e-1-96_0010_5v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -100,48 +108,61 @@
                </row>
                <row>
                   <cell>2.</cell>
-                  <cell><rs type="name" key="P30">Sá Carneiro</rs>.</cell>
+                  <cell>
+                     <rs type="name" key="P30">Sá Carneiro</rs>.</cell>
                   <cell>8</cell>
                </row>
                <row>
                   <cell>3.</cell>
-                  <cell><rs type="name" key="P17">Antonio Botto</rs>.</cell>
+                  <cell>
+                     <rs type="name" key="P17">Antonio Botto</rs>.</cell>
                   <cell>8</cell>
                </row>
                <row>
                   <cell>4.</cell>
-                  <cell><rs type="work" key="W136"><rs type="title" key="T172"><rs type="name"
-                              key="AC" role="author">Caeiro</rs></rs></rs>.</cell>
+                  <cell>
+                     <rs type="work" key="W136">
+                        <rs type="title" key="T172">
+                           <rs type="name" key="AC" role="author">Caeiro</rs>
+                        </rs>
+                     </rs>.</cell>
                   <cell>28-50</cell>
                </row>
                <row>
                   <cell>5.</cell>
-                  <cell><rs type="name" key="P71">Raul Leal</rs>.</cell>
+                  <cell>
+                     <rs type="name" key="P71">Raul Leal</rs>.</cell>
                   <cell>6</cell>
                </row>
                <row>
                   <cell>6.</cell>
-                  <cell><rs type="name" key="P70">Montalvor</rs>.</cell>
+                  <cell>
+                     <rs type="name" key="P70">Montalvor</rs>.</cell>
                   <cell>10</cell>
                </row>
                <row>
                   <cell>7.</cell>
-                  <cell><rs type="name" key="FP" role="author" style="b">
+                  <cell>
+                     <rs type="name" key="FP" role="author" style="b">
                         <choice>
                            <abbr>F</abbr>
-                           <expan>F<ex>ernando</ex></expan>
+                           <expan>F<ex>ernando</ex>
+                           </expan>
                         </choice> Pessoa</rs>.</cell>
                   <cell>10</cell>
                </row>
                <row>
                   <cell>8.</cell>
-                  <cell><rs type="name" key="AdC" role="author">Alvaro de Campos</rs>.</cell>
+                  <cell>
+                     <rs type="name" key="AdC" role="author">Alvaro de Campos</rs>.</cell>
                   <cell>20 - 96</cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
-                  <cell><metamark rend="line" function="end"/></cell>
+                  <cell>
+                     <metamark rend="line" function="end"/>
+                  </cell>
                </row>
             </table>
             <pb n="2"/>

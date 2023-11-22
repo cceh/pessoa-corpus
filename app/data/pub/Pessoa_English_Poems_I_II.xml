@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_English_Poems_I_II.xml</idno>
          </publicationStmt>
@@ -42,7 +42,9 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item><rs type="work" key="361">English Poems I &amp; II</rs></item>
+               <item>
+                  <rs type="work" key="361">English Poems I &amp; II</rs>
+               </item>
             </list>
             <biblStruct>
                <monogr>
@@ -62,10 +64,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Pessoa_English_Poems_1.jpg"/>
@@ -98,7 +108,8 @@
                <titlePart type="main" rend="center">ENGLISH POEMS</titlePart>
                <titlePart type="sub" rend="center">I ― II</titlePart>
             </docTitle>
-            <byline rend="center">BY<lb/><rs type="name" role="editor" key="FP" style="b">FERNANDO
+            <byline rend="center">BY<lb/>
+               <rs type="name" role="editor" key="FP" style="b">FERNANDO
                   PESSOA</rs>
             </byline>
          </titlePage>
@@ -110,27 +121,37 @@
             <docTitle>
                <titlePart type="main" rend="center">ENGLISH POEMS</titlePart>
             </docTitle>
-            <byline rend="center">BY<lb/><rs type="name" role="editor" key="FP" style="b">FERNANDO
+            <byline rend="center">BY<lb/>
+               <rs type="name" role="editor" key="FP" style="b">FERNANDO
                   PESSOA</rs>
             </byline>
             <docTitle>
-               <titlePart type="sub" rend="center">I. ― <rs type="name" key="P710"
-                  >ANTINOUS</rs><lb/>II. ― INSCRIPTIONS</titlePart>
+               <titlePart type="sub" rend="center">I. ― <rs type="name" key="P710">ANTINOUS</rs>
+                  <lb/>II. ― INSCRIPTIONS</titlePart>
             </docTitle>
             <docImprint rend="center">«OLISIPO», APARTADO 145<lb/>1921</docImprint>
          </titlePage>
          <div>
             <pb/>
-            <ab><hi rend="italic">An early and very imperfect draft of</hi>
-               <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Antinous"><rs type="work"
-                     key="W323"><rs type="title" key="T361"><rs type="name" key="P710"
-                        >Antinous</rs></rs></rs></ref>
+            <ab>
+               <hi rend="italic">An early and very imperfect draft of</hi>
+               <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Antinous">
+                  <rs type="work" key="W323">
+                     <rs type="title" key="T361">
+                        <rs type="name" key="P710">Antinous</rs>
+                     </rs>
+                  </rs>
+               </ref>
                <hi rend="italic">was published in 1918. The present one is meant to annul and
-                  supersede that, from which it is essentially different. ―</hi> Inscriptions <hi
-                  rend="italic">is now first published. <lb/><metamark rend="line"/><lb/> All rights
-                  reserved</hi></ab>
-            <ab>Printing Office of the Annuario Commercial<lb/><hi rend="italic">24, Restauradores,
-                  Lisbon</hi></ab>
+                  supersede that, from which it is essentially different. ―</hi> Inscriptions <hi rend="italic">is now first published. <lb/>
+                  <metamark rend="line"/>
+                  <lb/> All rights
+                  reserved</hi>
+            </ab>
+            <ab>Printing Office of the Annuario Commercial<lb/>
+               <hi rend="italic">24, Restauradores,
+                  Lisbon</hi>
+            </ab>
          </div>
       </front>
       <body>
@@ -138,7 +159,9 @@
             <div type="poem">
                <pb/>
                <head>I</head>
-               <head><rs type="name" key="P710">ANTINOUS</rs></head>
+               <head>
+                  <rs type="name" key="P710">ANTINOUS</rs>
+               </head>
                <lg>
                   <l>The rain outside was cold in <rs type="name" key="P709">Hadrian</rs>'s
                      soul.</l>
@@ -185,10 +208,11 @@
                   <l>A thousand unborn eyes weep with his misery.</l>
                </lg>
                <lg>
-                  <l><rs type="name" key="P710">Antinous</rs> is dead, is dead for ever,</l>
+                  <l>
+                     <rs type="name" key="P710">Antinous</rs> is dead, is dead for ever,</l>
                   <l>Is dead for ever and all loves lament.</l>
-                  <l><rs type="name" key="P574" style="b">Venus</rs> herself, that was <rs
-                        type="name" key="P612" style="b">Adonis</rs>' lover,</l>
+                  <l>
+                     <rs type="name" key="P574" style="b">Venus</rs> herself, that was <rs type="name" key="P612" style="b">Adonis</rs>' lover,</l>
                   <l>Seeing him, that newly lived, now dead again,</l>
                   <l>Lends her old grief's renewal to be blent</l>
                   <l>With <rs type="name" key="P709">Hadrian</rs>'s pain.</l>

@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Campos_Toda_a_arte.xml</idno>
          </publicationStmt>
@@ -67,10 +67,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Toda_arte.jpg"/>
@@ -93,7 +101,9 @@
                     já em nosso poder o livro que contém a cifra e a alma que póde conter a
                     decifração.</p>
             <p rend="indent-first">Tanto basta até chegar o resto.</p>
-            <signed><rs type="name" key="AdC" role="author" style="a">ALVARO DE CAMPOS</rs></signed>
+            <signed>
+               <rs type="name" key="AdC" role="author" style="a">ALVARO DE CAMPOS</rs>
+            </signed>
          </div>
       </body>
    </text>

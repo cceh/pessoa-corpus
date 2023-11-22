@@ -19,7 +19,7 @@
             <respStmt>
                <resp>Codificação, Atualização ortográfica</resp>
                <name>Inês Filipa Rebelo do Carmo</name>
-            </respStmt>    
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Antonio_Botto_e_o_ideal.xml</idno>
          </publicationStmt>
@@ -67,10 +67,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Antonio_Botto_Ideal_1.jpg"/>
@@ -84,7 +92,7 @@
       <body>
          <div>
             <head>
-                    <pb n="121"/>
+               <pb n="121"/>
                <rs type="name" key="P17">ANTONIO BOTTO</rs>
             </head>
             <head type="sub">E O IDEAL ESTHETICO EM PORTUGAL</head>
@@ -198,7 +206,8 @@
                     Porisso, dos trez idealistas, é o helleno o único que não pode rejeitar aquella
                     vida a que chama imperfeita. O seu ideal é, portanto, humanamente o mais tragico
                     e profundo.</p>
-                 <p rend="indent-first"><pb n="123"/>De aqui o que resulta? A carencia de uma fé religiosa, de uma
+            <p rend="indent-first">
+               <pb n="123"/>De aqui o que resulta? A carencia de uma fé religiosa, de uma
                     confiança, moral ou metaphysica, no Além reduz as almas vis ou á materialidade
                     animal, ou á esteril ficção de um millenio do estomago ― o socialismo, o
                     anarquismo, e todos os plutocratismos invertidos que se lhes assemelham; porisso
@@ -269,7 +278,8 @@
                     mais para poder haver illusão, e, se fôr altamente moral, haverá dôr de sobra
                     para que a illusão possa agradar.</p>
             <p rend="indent-first">O primeiro characteristico da arte do estheta é pois a
-                    ausencia de elementos metaphy<pc>-</pc><pb n="124"/>sicos e moraes na substancia da sua ideação. Como,
+                    ausencia de elementos metaphy<pc>-</pc>
+               <pb n="124"/>sicos e moraes na substancia da sua ideação. Como,
                     porém, os ideaes hellenicos procedem todos de uma applicação directamente critica
                     da intelligencia á vida, e da sensibilidade ao conteudo d’ella, essa ausencia de
                     metaphysica não será uma ausencia de idéas metaphysicas, nem essa ausencia de
@@ -315,7 +325,7 @@
                     apresenta a primeira d’ellas, o poeta afasta-se de toda a especie de moralidade;
                     no modo como apresenta a segunda, de toda a especie de immoralidade.</p>
             <milestone rend="space" unit="section"/>
-                 <p rend="indent-first">Das trez formas, que podemos conceber, da belleza physica ― a
+            <p rend="indent-first">Das trez formas, que podemos conceber, da belleza physica ― a
                          graça, a força e a perfeição ―, o corpo feminino tem só a primeira, porque não
                     pode ter a belleza da força sem quebra da sua feminilidade, isto é, sem perda do
                     seu character proprio; o corpo masculino pode, sem quebra da sua masculinidade,
@@ -348,12 +358,13 @@
                     inspiradoras das <rs type="title">
                   <hi rend="italic">Canções</hi>
                </rs>.</p>
-                 <p rend="indent-first"><pb n="125"/>Disse eu que <rs type="name" key="P17">Antonio Botto</rs> se
+            <p rend="indent-first">
+               <pb n="125"/>Disse eu que <rs type="name" key="P17">Antonio Botto</rs> se
                     afasta de toda a moralidade no modo por que canta a belleza physica, e que se
                     afasta de toda a immoralidade no modo por que canta o prazer. De que modo canta
                     elle o prazer? Que modo há de cantar o prazer que, sem ser moral (porque se o
                     fôsse, estariamos fóra do caso esthetico), se afaste da immoralidade?</p>
-                 <p rend="indent-first">Para com o prazer ha trez attitudes possiveis ― acceital-o,
+            <p rend="indent-first">Para com o prazer ha trez attitudes possiveis ― acceital-o,
                     rejeital-o, acceital-o com moderação. A cada uma d’estas attitudes correspondem
                     graus varios de moralidade e de immoralidade, porque pode haver moralidade no
                     modo de acceitar o prazer, e immoralidade na maneira de rejeital-o. Aqui, porém,
@@ -403,7 +414,7 @@
                </rs>, desconhecido, em Portugal. A razão
                     d’essa raridade, quer em toda a Europa, quer em Portugal, e o valor que nella
                     haja, são relativamente faceis de comprehender.</p>
-                 <p rend="indent-first">O ideal esthetico é, como se viu, uma das formas ― a mais
+            <p rend="indent-first">O ideal esthetico é, como se viu, uma das formas ― a mais
                          tenue e vazia ― do ideal hellenico; mas, porisso mesmo que é a mais tenue e
                     vazia d’ellas, é a mais explicitamente representativa d’aquelle ideal. Para que
                     appareça um typo de estheta é necessario um meio social analogo ao meio social
@@ -425,7 +436,8 @@
                     productos culturaes, em contraposição aos naturaes seus similhantes, e porisso
                     de algum modo transcende a estreiteza especifica do ideal esthetico, sem todavia
                     deixar de lhe pertencer.</p>
-                 <p rend="indent-first"><pb n="126"/>Como os elementos culturaes são inteiramente negativos na
+            <p rend="indent-first">
+               <pb n="126"/>Como os elementos culturaes são inteiramente negativos na
                     obra de <rs type="name" key="P17">Antonio Botto</rs>, vemo-nos forçados a
                     assentar em que o seu esthetismo nasce de um simples desvio pathologico, sem
                     sollicitação cultural efficiente. Este processo de ser estheta apresenta uma
@@ -466,14 +478,16 @@
                     o autor das <rs type="title">
                   <hi rend="italic">Canções</hi>
                </rs>.</p>
-            <signed rend="right"><rs role="author" key="FP" type="name" style="b">FERNANDO PESSOA</rs></signed>
+            <signed rend="right">
+               <rs role="author" key="FP" type="name" style="b">FERNANDO PESSOA</rs>
+            </signed>
          </div>
       </body>
    </text>
    <text type="reg" corresp="#W245">
       <body>
          <div>
-                 <pb n="121"/>
+            <pb n="121"/>
             <head>ANTÓNIO BOTTO</head>
             <head type="sub">E O IDEAL ESTÉTICO EM PORTUGAL</head>
             <p>ANTÓNIO BOTTO é o único português, dos que
@@ -583,7 +597,8 @@
                     Por isso, dos três idealistas, é o heleno o único que não pode rejeitar aquela
                     vida a que chama imperfeita. O seu ideal é, portanto, humanamente o mais trágico
                     e profundo.</p>
-                 <p rend="indent-first"><pb n="123"/>De aqui o que resulta? A carência de uma fé religiosa, de uma
+            <p rend="indent-first">
+               <pb n="123"/>De aqui o que resulta? A carência de uma fé religiosa, de uma
                     confiança, moral ou metafísica, no Além reduz as almas vis ou à materialidade
                     animal, ou à estéril ficção de um milénio do estômago ― o socialismo, o
                     anarquismo, e todos os plutocratismos invertidos que se lhes assemelham; por isso
@@ -654,7 +669,8 @@
                     mais para poder haver ilusão, e, se for altamente moral, haverá dor de sobra
                     para que a ilusão possa agradar.</p>
             <p rend="indent-first">O primeiro característico da arte do esteta é pois a
-                    ausência de elementos metafí<pc>-</pc><pb n="124"/>sicos e morais na substância da sua ideação. Como,
+                    ausência de elementos metafí<pc>-</pc>
+               <pb n="124"/>sicos e morais na substância da sua ideação. Como,
                     porém, os ideais helénicos procedem todos de uma aplicação diretamente crítica
                     da inteligência à vida, e da sensibilidade ao conteúdo dela, essa ausência de
                     metafísica não será uma ausência de ideias metafísicas, nem essa ausência de
@@ -695,7 +711,7 @@
                     apresenta a primeira delas, o poeta afasta-se de toda a espécie de moralidade;
                     no modo como apresenta a segunda, de toda a espécie de imoralidade.</p>
             <milestone rend="space" unit="section"/>
-                 <p rend="indent-first">Das três formas, que podemos conceber, da beleza física ― a
+            <p rend="indent-first">Das três formas, que podemos conceber, da beleza física ― a
                          graça, a força e a perfeição ―, o corpo feminino tem só a primeira, porque não
                     pode ter a beleza da força sem quebra da sua feminilidade, isto é, sem perda do
                     seu carácter próprio; o corpo masculino pode, sem quebra da sua masculinidade,
@@ -724,12 +740,13 @@
             <p rend="indent-first">Ora é este conceito, puramente estético, da beleza física
                     que é, como todos sabem, porque escandalizadamente se notou, uma das duas ideias
                     inspiradoras das <hi rend="italic">Canções</hi>.</p>
-                 <p rend="indent-first"><pb n="125"/>Disse eu que António Botto se
+            <p rend="indent-first">
+               <pb n="125"/>Disse eu que António Botto se
                     afasta de toda a moralidade no modo por que canta a beleza física, e que se
                     afasta de toda a imoralidade no modo por que canta o prazer. De que modo canta
                     ele o prazer? Que modo há de cantar o prazer que, sem ser moral (porque se o
                     fosse, estaríamos fora do caso estético), se afaste da imoralidade?</p>
-                 <p rend="indent-first">Para com o prazer há três atitudes possíveis ― aceitá-lo,
+            <p rend="indent-first">Para com o prazer há três atitudes possíveis ― aceitá-lo,
                     rejeitá-lo, aceitá-lo com moderação. A cada uma destas atitudes correspondem
                     graus vários de moralidade e de imoralidade, porque pode haver moralidade no
                     modo de aceitar o prazer, e imoralidade na maneira de rejeitá-lo. Aqui, porém,
@@ -771,7 +788,7 @@
                     origem cristã, e mais que raro, porque, até às <hi rend="italic">Canções</hi>, desconhecido, em Portugal. A razão
                     dessa raridade, quer em toda a Europa, quer em Portugal, e o valor que nela
                     haja, são relativamente fáceis de compreender.</p>
-                 <p rend="indent-first">O ideal estético é, como se viu, uma das formas ― a mais
+            <p rend="indent-first">O ideal estético é, como se viu, uma das formas ― a mais
                          ténue e vazia ― do ideal helénico; mas, por isso mesmo que é a mais ténue e
                     vazia delas, é a mais explicitamente representativa daquele ideal. Para que
                     apareça um tipo de esteta é necessário um meio social análogo ao meio social
@@ -793,7 +810,8 @@
                     produtos culturais, em contraposição aos naturais seus semelhantes, e por isso
                     de algum modo transcende a estreiteza específica do ideal estético, sem todavia
                     deixar de lhe pertencer.</p>
-                 <p rend="indent-first"><pb n="126"/>Como os elementos culturais são inteiramente negativos na
+            <p rend="indent-first">
+               <pb n="126"/>Como os elementos culturais são inteiramente negativos na
                     obra de António Botto, vemo-nos forçados a
                     assentar em que o seu estetismo nasce de um simples desvio patológico, sem
                     solicitação cultural eficiente. Este processo de ser esteta apresenta uma

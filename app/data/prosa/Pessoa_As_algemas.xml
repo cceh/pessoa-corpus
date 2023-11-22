@@ -27,7 +27,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_As_algemas.xml</idno>
          </publicationStmt>
@@ -38,7 +38,9 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item><rs type="work" key="W306">As algemas</rs></item>
+               <item>
+                  <rs type="work" key="W306">As algemas</rs>
+               </item>
             </list>
             <biblStruct>
                <analytic>
@@ -49,7 +51,9 @@
                   <textLang mainLang="pt" otherLangs="en"/>
                </analytic>
                <monogr>
-                   <title level="j"><rs type="periodical" key="J101">Revista de Comércio e Contabilidade</rs></title>
+                  <title level="j">
+                     <rs type="periodical" key="J101">Revista de Comércio e Contabilidade</rs>
+                  </title>
                   <imprint>
                      <date when="1926-02-25">25 de fevereiro de 1926</date>
                   </imprint>
@@ -58,10 +62,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Prosa/As_algemas_1"/>
@@ -74,12 +86,10 @@
       <graphic url="Prosa/As_algemas_8"/>
       <graphic url="Prosa/As_algemas_9"/>
    </facsimile>
-    <text type="orig" corresp="#W306">
+   <text type="orig" corresp="#W306">
       <body>
          <div>
             <head>AS ALGEMAS</head>
-
-
             <p rend="indent-first">SUPONHA o leitor que lhe diziamos:</p>
             <p rend="indent-first">― Ha um paiz em que, depois das oito horas da noite, é crime
                previsto e punido o comprar maçãs, bananas, uvas, ananazes e tamaras, sendo porêm
@@ -126,8 +136,9 @@
                progressivamente o individuo, social e economicamente, das peias do Estado. No fundo,
                a doutrina do seculo XIX ― representada em seu relevo maximo nas teorias sociais de
                <rs type="name" key="P678">Spencer</rs> ― é uma reversão á politica da Grecia
-               Antiga, expressa ainda para nós na <rs type="title"><hi rend="italic"
-                  >Politica</hi></rs> de <rs type="name" key="P401">Aristóteles</rs> ― que o Estado
+               Antiga, expressa ainda para nós na <rs type="title">
+                  <hi rend="italic">Politica</hi>
+               </rs> de <rs type="name" key="P401">Aristóteles</rs> ― que o Estado
                existe para o individuo, e não o individuo para o Estado, excepto quando um manifesto
                de interêsse colectivo, como na guerra, compele o individuo a abdicar da sua
                liberdade em proveito da defeza da sociedade, cuja existencia, aliás, é a garantia do
@@ -373,5 +384,3 @@
       </body>
    </text>
 </TEI>
-
-

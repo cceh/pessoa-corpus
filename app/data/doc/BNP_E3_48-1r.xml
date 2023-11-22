@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48-1<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48-1<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48-1r.xml</idno>
          </publicationStmt>
@@ -72,11 +73,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0001_1_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0001_1_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -89,32 +97,47 @@
             <div rend="right">
                <div>
                   <list>
-                     <item><rs type="title">Columbus Birth Place</rs>.</item>
-                     <item><rs type="title">The Myth of <rs type="name" key="P21">King
-                              Sebastian</rs></rs>.</item>
-                     <item><rs type="title">Haunted Poems</rs>.</item>
+                     <item>
+                        <rs type="title">Columbus Birth Place</rs>.</item>
+                     <item>
+                        <rs type="title">The Myth of <rs type="name" key="P21">King
+                              Sebastian</rs>
+                        </rs>.</item>
+                     <item>
+                        <rs type="title">Haunted Poems</rs>.</item>
                      <item>
                         <rs type="name" key="P145">
                            <choice>
-                              <abbr>Cam<am>.</am></abbr>
-                              <expan>Cam<ex>illo</ex></expan>
+                              <abbr>Cam<am>.</am>
+                              </abbr>
+                              <expan>Cam<ex>illo</ex>
+                              </expan>
                            </choice> Pessanha</rs>
                      </item>
                      <item>
-                        <rs type="title"><rs type="name" key="P213">Catullo da Paixão
-                           Cearense</rs></rs>. </item>
+                        <rs type="title">
+                           <rs type="name" key="P213">Catullo da Paixão
+                           Cearense</rs>
+                        </rs>. </item>
                      <item>
-                        <rs type="title">A Portuguese Rationalist</rs> (<rs type="name" key="P24"
-                           >José Anastacio</rs>) </item>
-                     <item><rs type="title"> The Folk Songs <seg>of <add n="2" place="above">Spain
-                        <choice><abbr>&amp;</abbr><expan>and</expan></choice></add> Portugal</seg></rs>.</item>
+                        <rs type="title">A Portuguese Rationalist</rs> (<rs type="name" key="P24">José Anastacio</rs>) </item>
+                     <item>
+                        <rs type="title"> The Folk Songs <seg>of <add n="2" place="above">Spain
+                        <choice>
+                                    <abbr>&amp;</abbr>
+                                    <expan>and</expan>
+                                 </choice>
+                              </add> Portugal</seg>
+                        </rs>.</item>
                   </list>
                </div>
                <metamark rend="line" function="distinct"/>
                <div>
                   <list>
                      <item>Literary</item>
-                     <item><gap reason="illegible" extent="1" unit="word"/></item>
+                     <item>
+                        <gap reason="illegible" extent="1" unit="word"/>
+                     </item>
                   </list>
                </div>
             </div>

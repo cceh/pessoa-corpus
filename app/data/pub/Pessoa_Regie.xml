@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Regie.xml</idno>
          </publicationStmt>
@@ -94,10 +94,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
               corresp="#Comercio_1926">
@@ -119,7 +127,7 @@
    <text type="orig" corresp="#W296">
       <body>
          <div>
-                 <pb n="61"/>
+            <pb n="61"/>
             <head>RÉGIE, MONOPOLIO, LIBERDADE</head>
             <p rend="indent-first">A questão chamada dos tabacos veio trazer de novo á
                     superficie o problema batido e debatido de se se deve preferir o sistema de
@@ -129,12 +137,12 @@
                     considerar, ou três interesses ― os do Estado, os do comercio ou industria, e os
                     do consumidor. E todos os problemas particulares deste genero se apresentam de
                     diverso modo no que respeita a cada um desses interesses.</p>
-                 <p rend="indent-first">Não é, porém, nosso intuito ― nem, dada a indole desta
+            <p rend="indent-first">Não é, porém, nosso intuito ― nem, dada a indole desta
                     Revista, poderia ser ― o tratar particularmente do problema do regime dos
                     tabacos em Portugal. O que pretendemos é servir-nos da oportunidade oferecida
                     por ele ou, melhor, pelo estado agudo dele, para estudar a questão na sua
                     absoluta generalidade.</p>
-                 <p rend="indent-first">Limitar-nos-hemos pois, a estudar imparcialmente ― ou tão
+            <p rend="indent-first">Limitar-nos-hemos pois, a estudar imparcialmente ― ou tão
                     imparcialmente quanto humanamente seja possivel ― as vantagens e as desvantagens
                     dos três sistemas de administração comercial e industrial. Nada mais.</p>
             <p rend="indent-first">Considerada em si mesma, a administração de Estado é o pior
@@ -153,7 +161,7 @@
                     antiga, do espirito critico ― a idear sistemas politicos e sociais «definitivos»
                     em materia tão flutuante e incerta como a vida, em assunto ainda tão fóra da
                     sciencia como a sociedade.</p>
-                 <pb n="62"/>
+            <pb n="62"/>
             <p rend="indent-first">É preciso, contudo, que as sociedades, sejam o que fôrem, se
                     governem; e forçoso que haja um Estado de qualquer espécie. E esse Estado é
                     chamado a governar uma coisa que não sabe ao certo o que é, a legislar para uma
@@ -191,7 +199,8 @@
                     Pretendendo corrigir a Natureza, pretendemos realmente substituí-la, o que é
                     impossivel e resulta no nosso proprio aniquilamento e no do nosso esforço.</p>
             <p rend="indent-first">Os riscos, e pois os prejuizos, da administração de Estado
-                    estão eviden<pc>-</pc><pb n="63"/>temente na razão directa da extensão com que essa administração
+                    estão eviden<pc>-</pc>
+               <pb n="63"/>temente na razão directa da extensão com que essa administração
                     intervem na vida social espontanea. Maximos nos regimes reformadores, que
                     pretendem organisar de novo uma coisa chamada «sociedade», que não
                     sabem o que é nem a que leis obedece, esses riscos e essa extensão baixam á
@@ -263,14 +272,14 @@
                     ha sciencia, nada leva de vantagem a ideia de hoje sobre a ideia de ontem,
                     porque não representa um acrescimo de conhecimento. E em materia social ainda
                     não ha sciencia.</p>
-                 <pb n="74"/>
-                 <p rend="indent-first">Os monopolios são de duas ordens ― os monopolios artificiais
+            <pb n="74"/>
+            <p rend="indent-first">Os monopolios são de duas ordens ― os monopolios artificiais
                     e legais, isto é, concedidos pelo Estado, por lei ou contracto; e os monopolios
                     naturais e espontaneos, isto é, formados, em liberdade de comercio ou industria,
                     pela concentração de empresas, ou pela absorção de umas por outras ou de varias
                     por uma só. Os chamados <hi rend="italic">trusts</hi> são um caso flagrante
                     deste ultimo tipo de monopolio.</p>
-                 <p rend="indent-first">Trataremos agora dos monopolios legais ― dos que o Estado
+            <p rend="indent-first">Trataremos agora dos monopolios legais ― dos que o Estado
                     concede ou autorisa por contracto ou lei. Dos monopolios espontaneos, como são
                     produtos especiais da liberdade de comercio e de industria, trataremos quando
                     tratarmos desta.</p>
@@ -289,7 +298,7 @@
                     instituição humana, logo que não exista um travão facil, rapido e <hi rend="italic">natural</hi> para os seus actos. É evidentemente por estes
                     caracteristicos que os monopolios ― e sobretudo os legais, em que a garantia é
                     absoluta ― têm analogia com a administração de Estado.</p>
-                 <pb n="75"/>
+            <pb n="75"/>
             <p rend="indent-first">A par destas analogias com a administração de Estado,
                     apresentam os monopolios certas diferenças dela.</p>
             <p rend="indent-first">A primeira diferença consiste na <hi rend="italic">especialização</hi>. Um monopolio comercial ou industrial é exercido por
@@ -300,7 +309,7 @@
                     industriais, nem póde exercer <hi rend="italic">exclusivamente</hi> essas
                     funções. Ora a especialisação tende a atenuar, nos monopolios, a incuria tecnica
                     que a segurança economica neles estimula.</p>
-                 <p rend="indent-first">A segunda diferença consiste na <hi rend="italic">temporaridade</hi>. Salvo em casos especiais ― e como tais, em geral,
+            <p rend="indent-first">A segunda diferença consiste na <hi rend="italic">temporaridade</hi>. Salvo em casos especiais ― e como tais, em geral,
                          postos explicitamente, ― as funções e actividades do Estado, e, sobretudo, as
                     administrativas, têm um caracter de permanencia, de perpetuidade. Os monopolios,
                     ao contrario, têm um praso; são concedidos por um certo, e determinado, tempo. A
@@ -433,7 +442,7 @@
    </text>
    <text type="reg" corresp="#W296">
       <body>
-              <pb n="61"/>
+         <pb n="61"/>
          <div>
             <head>RÉGIE, MONOPÓLIO, LIBERDADE</head>
             <p rend="indent-first">A questão chamada dos tabacos veio trazer de novo à
@@ -444,12 +453,12 @@
                     considerar, ou três interesses ― os do Estado, os do comércio ou indústria, e os
                     do consumidor. E todos os problemas particulares deste género se apresentam de
                     diverso modo no que respeita a cada um desses interesses.</p>
-                 <p rend="indent-first">Não é, porém, nosso intuito ― nem, dada a índole desta
+            <p rend="indent-first">Não é, porém, nosso intuito ― nem, dada a índole desta
                          Revista, poderia ser ― o tratar particularmente do problema do regime dos
                     tabacos em Portugal. O que pretendemos é servir-nos da oportunidade oferecida
                     por ele ou, melhor, pelo estado agudo dele, para estudar a questão na sua
                     absoluta generalidade.</p>
-                 <p rend="indent-first">Limitar-nos-emos pois, a estudar imparcialmente ― ou tão
+            <p rend="indent-first">Limitar-nos-emos pois, a estudar imparcialmente ― ou tão
                          imparcialmente quanto humanamente seja possível ― as vantagens e as desvantagens
                     dos três sistemas de administração comercial e industrial. Nada mais.</p>
             <p rend="indent-first">Considerada em si mesma, a administração de Estado é o pior
@@ -468,7 +477,7 @@
                     antiga, do espírito crítico ― a idear sistemas políticos e sociais «definitivos»
                     em matéria tão flutuante e incerta como a vida, em assunto ainda tão fora da
                     ciência como a sociedade.</p>
-                 <pb n="62"/>
+            <pb n="62"/>
             <p rend="indent-first">É preciso, contudo, que as sociedades, sejam o que forem, se
                     governem; e forçoso que haja um Estado de qualquer espécie. E esse Estado é
                     chamado a governar uma coisa que não sabe ao certo o que é, a legislar para uma
@@ -506,7 +515,8 @@
                     Pretendendo corrigir a Natureza, pretendemos realmente substituí-la, o que é
                     impossível e resulta no nosso próprio aniquilamento e no do nosso esforço.</p>
             <p rend="indent-first">Os riscos, e pois os prejuízos, da administração de Estado
-                    estão eviden<pc>-</pc><pb n="63"/>temente na razão direta da extensão com que essa administração
+                    estão eviden<pc>-</pc>
+               <pb n="63"/>temente na razão direta da extensão com que essa administração
                     intervém na vida social espontânea. Máximos nos regimes reformadores, que
                     pretendem organizar de novo uma coisa chamada «sociedade», que não
                     sabem o que é nem a que leis obedece, esses riscos e essa extensão baixam à
@@ -577,14 +587,14 @@
                     há ciência, nada leva de vantagem a ideia de hoje sobre a ideia de ontem,
                     porque não representa um acréscimo de conhecimento. E em matéria social ainda
                     não há ciência.</p>
-                 <pb n="74"/>
-                 <p rend="indent-first">Os monopólios são de duas ordens ― os monopólios artificiais
+            <pb n="74"/>
+            <p rend="indent-first">Os monopólios são de duas ordens ― os monopólios artificiais
                     e legais, isto é, concedidos pelo Estado, por lei ou contrato; e os monopólios
                     naturais e espontâneos, isto é, formados, em liberdade de comércio ou indústria,
                     pela concentração de empresas, ou pela absorção de umas por outras ou de várias
                     por uma só. Os chamados <hi rend="italic">trusts</hi> são um caso flagrante
                     deste último tipo de monopólio.</p>
-                 <p rend="indent-first">Trataremos agora dos monopólios legais ― dos que o Estado
+            <p rend="indent-first">Trataremos agora dos monopólios legais ― dos que o Estado
                     concede ou autoriza por contrato ou lei. Dos monopólios espontâneos, como são
                     produtos especiais da liberdade de comércio e de indústria, trataremos quando
                     tratarmos desta.</p>
@@ -603,7 +613,7 @@
                     instituição humana, logo que não exista um travão fácil, rápido e <hi rend="italic">natural</hi> para os seus atos. É evidentemente por estes
                     característicos que os monopólios ― e sobretudo os legais, em que a garantia é
                     absoluta ― têm analogia com a administração de Estado.</p>
-                 <pb n="75"/>
+            <pb n="75"/>
             <p rend="indent-first">A par destas analogias com a administração de Estado,
                     apresentam os monopólios certas diferenças dela.</p>
             <p rend="indent-first">A primeira diferença consiste na <hi rend="italic">especialização</hi>. Um monopólio comercial ou industrial é exercido por
@@ -614,7 +624,7 @@
                     industriais, nem pode exercer <hi rend="italic">exclusivamente</hi> essas
                     funções. Ora a especialização tende a atenuar, nos monopólios, a incúria técnica
                     que a segurança económica neles estimula.</p>
-                 <p rend="indent-first">A segunda diferença consiste na <hi rend="italic">temporaridade</hi>. Salvo em casos especiais ― e como tais, em geral,
+            <p rend="indent-first">A segunda diferença consiste na <hi rend="italic">temporaridade</hi>. Salvo em casos especiais ― e como tais, em geral,
                     postos explicitamente, ― as funções e atividades do Estado, e, sobretudo, as
                     administrativas, têm um carácter de permanência, de perpetuidade. Os monopólios,
                     ao contrário, têm um prazo; são concedidos por um certo, e determinado, tempo. A

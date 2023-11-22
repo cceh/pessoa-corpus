@@ -38,8 +38,10 @@
                         <resp>Codificação</resp>
                         <name>Sviatoslav Drach</name>
                      </respStmt>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="pt"/>
                   </msItemStruct>
                </msContents>
@@ -53,27 +55,60 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0015_8_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48h-8">
       <body>
-         <head><hi rend="underline">Estudos Contemporâneos</hi></head>  
-         <list> 
+         <head>
+            <hi rend="underline">Estudos Contemporâneos</hi>
+         </head>
+         <list>
             <item>— A Oligarchia das Bestas. —</item>
-            <item>— A Coroação de Jorge Quinto —<rs type="name">Gervasio Guedes</rs> </item>        
-            <item>— Um Critico da Democracia (<rs type="name"><choice><abbr>E<am>.</am></abbr><expan>E<ex>mile</ex></expan></choice>Faguet</rs>) — <rs type="name" key="FP" role="author"><choice><abbr>F<am>.</am></abbr><expan>F<ex>ernando</ex></expan></choice> Pessoa</rs></item>
+            <item>— A Coroação de Jorge Quinto —<rs type="name">Gervasio Guedes</rs>
+            </item>
+            <item>— Um Critico da Democracia (<rs type="name">
+                  <choice>
+                     <abbr>E<am>.</am>
+                     </abbr>
+                     <expan>E<ex>mile</ex>
+                     </expan>
+                  </choice>Faguet</rs>) — <rs type="name" key="FP" role="author">
+                  <choice>
+                     <abbr>F<am>.</am>
+                     </abbr>
+                     <expan>F<ex>ernando</ex>
+                     </expan>
+                  </choice> Pessoa</rs>
+            </item>
             <item>— Observações sociologicas a um romance de H. G. Wells = ((1) † da Patria não de civilizações; (2) a idea de patria; 
-               limite do altruismo, (M. Barrés, quoted);<supplied resp="PS" reason="omitted-in-original"></supplied>)<rs type="name" key="FP" role="author"> <choice><abbr>F<am>.</am></abbr><expan>F<ex>ernando</ex></expan></choice> Pessoa</rs></item>
-            <item>— A Crise da Inglaterra — <rs type="name" key="FP" role="author">Fernando Pessoa</rs></item>
-            <item>— Monarchia e Republica (G. A. White) — <rs type="name" key="FP" role="author">Fernando Pessoa</rs></item>
-            <item>— A dissolução do imperialismo — <rs type="name" key="FP" role="author">Fernando Pessoa</rs><gap reason="selection" unit= "lines" extent="5"/> </item>
+               limite do altruismo, (M. Barrés, quoted);<supplied resp="PS" reason="omitted-in-original"/>)<rs type="name" key="FP" role="author">
+                  <choice>
+                     <abbr>F<am>.</am>
+                     </abbr>
+                     <expan>F<ex>ernando</ex>
+                     </expan>
+                  </choice> Pessoa</rs>
+            </item>
+            <item>— A Crise da Inglaterra — <rs type="name" key="FP" role="author">Fernando Pessoa</rs>
+            </item>
+            <item>— Monarchia e Republica (G. A. White) — <rs type="name" key="FP" role="author">Fernando Pessoa</rs>
+            </item>
+            <item>— A dissolução do imperialismo — <rs type="name" key="FP" role="author">Fernando Pessoa</rs>
+               <gap reason="selection" unit="lines" extent="5"/>
+            </item>
             <item>— <rs type="place">Portugal</rs> — poema.</item>
-            
-         </list> 
-         
+         </list>
          <div/>
       </body>
    </text>

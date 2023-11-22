@@ -39,7 +39,7 @@
                      <note type="genre">
                         <rs type="genre" key="lista_editorial">Lista editorial</rs>
                      </note>
-                     <textLang mainLang="pt"  otherLangs="en"/>
+                     <textLang mainLang="pt" otherLangs="en"/>
                   </msItemStruct>
                </msContents>
                <history>
@@ -51,12 +51,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-55d-1-107_JPG_24-C_R0150/bn-acpc-e-e3-55d-1-107_0204_101v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-55d-1-107_JPG_24-C_R0150/bn-acpc-e-e3-55d-1-107_0204_101v_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-55d-101v">
       <body>
@@ -66,27 +72,49 @@
          <metamark rend="line" function="distinct"/>
          <p>Sueltos. </p>
          <metamark rend="line" function="distinct"/>
-         <p>Cartas do<abbr> sr<am>.</am> </abbr><lb></lb> Pantaleão.<lb></lb> 
-            ou<lb></lb>
-            Visões de Manoel<lb></lb>  Maria.
+         <p>Cartas do<abbr> sr<am>.</am>
+            </abbr>
+            <lb/> Pantaleão.<lb/> 
+            ou<lb/>
+            Visões de Manoel<lb/>  Maria.
          </p>
          <metamark rend="line" function="distinct"/>
-         
-         <p><hi rend="underline">Parte litteraria</hi></p>
+         <p>
+            <hi rend="underline">Parte litteraria</hi>
+         </p>
          <metamark rend="doubleline" function="distinct"/>
          <gap reason="selection" unit="lines" extent="2"/>
          <list>
-            <item><choice><abbr>F<am>.</am></abbr><expan>F<ex>ernando</ex></expan></choice> Nogueira Pessôa. 
+            <item>
+               <choice>
+                  <abbr>F<am>.</am>
+                  </abbr>
+                  <expan>F<ex>ernando</ex>
+                  </expan>
+               </choice> Nogueira Pessôa. 
             </item>
-            <item><choice><abbr> P<am>.</am></abbr><expan> P<ex>adre</ex></expan></choice> Gonçalves Gomes.</item>        
-            <item><choice><abbr>  J<am>.</am></abbr><expan> J <ex>oaquim</ex></expan></choice>  Moura-Costa.</item>
+            <item>
+               <choice>
+                  <abbr> P<am>.</am>
+                  </abbr>
+                  <expan> P<ex>adre</ex>
+                  </expan>
+               </choice> Gonçalves Gomes.</item>
+            <item>
+               <choice>
+                  <abbr>  J<am>.</am>
+                  </abbr>
+                  <expan> J <ex>oaquim</ex>
+                  </expan>
+               </choice>  Moura-Costa.</item>
             <item>Carlos Otto.</item>
-           
-            </list> 
-         <p><del rend="overstrike">Collaboração</del> <lb></lb> <note rend="framed" ><metamark rend="double underline" function="distinct"/>  Redacção.</note>
-            
+         </list>
+         <p>
+            <del rend="overstrike">Collaboração</del>
+            <lb/>
+            <note rend="framed">
+               <metamark rend="double underline" function="distinct"/>  Redacção.</note>
          </p>
-         
          <div/>
       </body>
    </text>

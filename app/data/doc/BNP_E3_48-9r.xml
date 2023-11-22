@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -44,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48-9r.xml</idno>
          </publicationStmt>
@@ -81,11 +81,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0017_9_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48-1-56_JPG_24-C-R0150/bn-acpc-e-e3-48-1-56_0017_9_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -96,53 +103,70 @@
             <list>
                <item>
                   <label>1.</label>
-                  <hi rend="underline"><rs type="name" key="P56">José de Almada-Negreiros</rs>:</hi>
+                  <hi rend="underline">
+                     <rs type="name" key="P56">José de Almada-Negreiros</rs>:</hi>
                   <list rend="indent">
-                     <item><rs type="title">Frisos</rs>.</item>
-                     <item><rs type="title">Coastline</rs>. <metamark rend="space"
-                           function="distinct"/>
+                     <item>
+                        <rs type="title">Frisos</rs>.</item>
+                     <item>
+                        <rs type="title">Coastline</rs>. <metamark rend="space" function="distinct"/>
                         <rs type="title">The Blue Square</rs>.</item>
-                     <item><rs type="title">Scene of Hatred</rs>.</item>
-                     <item><rs type="title">Portuguese Poems</rs>.</item>
+                     <item>
+                        <rs type="title">Scene of Hatred</rs>.</item>
+                     <item>
+                        <rs type="title">Portuguese Poems</rs>.</item>
                   </list>
                </item>
                <item>
                   <label>2.</label>
-                  <hi rend="underline"><rs type="name" key="FP" role="author" style="b">Fernando
+                  <hi rend="underline">
+                     <rs type="name" key="FP" role="author" style="b">Fernando
                         Pessoa</rs>:</hi>
                   <list rend="indent">
-                     <item><rs type="title">The Sailor</rs>.</item>
-                     <item><rs type="title">Slanting Rain</rs>.</item>
-                     <item><rs type="title">Beyond God</rs>.</item>
+                     <item>
+                        <rs type="title">The Sailor</rs>.</item>
+                     <item>
+                        <rs type="title">Slanting Rain</rs>.</item>
+                     <item>
+                        <rs type="title">Beyond God</rs>.</item>
                   </list>
                </item>
                <item>
                   <label>3.</label>
-                  <hi rend="underline"><rs type="name" key="P30">Mario de Sá-Carneiro</rs>:</hi>
+                  <hi rend="underline">
+                     <rs type="name" key="P30">Mario de Sá-Carneiro</rs>:</hi>
                   <list rend="indent">
-                     <item><rs type="title">Alem</rs>.</item>
-                     <item><rs type="title">Bailado</rs>.</item>
-                     <item><rs type="title">Selections from the tales</rs>.</item>
-                     <item><rs type="title">Selections from the Poems</rs>.</item>
+                     <item>
+                        <rs type="title">Alem</rs>.</item>
+                     <item>
+                        <rs type="title">Bailado</rs>.</item>
+                     <item>
+                        <rs type="title">Selections from the tales</rs>.</item>
+                     <item>
+                        <rs type="title">Selections from the Poems</rs>.</item>
                   </list>
                </item>
                <item>
                   <label>4.</label>
-                  <hi rend="underline"><rs type="name" key="P36" style="b">Pedro de Menezes</rs>:</hi>
+                  <hi rend="underline">
+                     <rs type="name" key="P36" style="b">Pedro de Menezes</rs>:</hi>
                   <list rend="indent">
                      <item>several poems.</item>
                   </list>
                </item>
                <item>
                   <label>5.</label>
-                  <hi rend="underline"><rs type="name" key="P37">Côrtes-Rodrigues</rs>:</hi>
+                  <hi rend="underline">
+                     <rs type="name" key="P37">Côrtes-Rodrigues</rs>:</hi>
                   <list rend="indent">
                      <item>several poems.</item>
                   </list>
                </item>
                <item rend="indent-2">
                   <label>6.</label>
-                  <hi rend="underline"><rs type="name" key="P58">Violante de Cysneiros</rs>:</hi><lb/>
+                  <hi rend="underline">
+                     <rs type="name" key="P58">Violante de Cysneiros</rs>:</hi>
+                  <lb/>
                   <note>(certainly a pseudonym, but I have not been able to find<lb/> whose)
                      (?)</note>
                   <list rend="indent">

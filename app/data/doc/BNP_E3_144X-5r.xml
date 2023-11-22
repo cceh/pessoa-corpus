@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 144X-5<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 144X-5<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144X-5r.xml</idno>
          </publicationStmt>
@@ -51,8 +52,7 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p>Lista manuscrita no caderno 144X (cf. <ref target="http://purl.pt/13898"
-                           >http://purl.pt/13898</ref>).</p>
+                     <p>Lista manuscrita no caderno 144X (cf. <ref target="http://purl.pt/13898">http://purl.pt/13898</ref>).</p>
                   </summary>
                   <msItemStruct>
                      <author>
@@ -73,7 +73,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144x_JPG_24-C-R0150/bn-acpc-e-e3_144x_0009_5r_t24-C-R0150.jpg"/>
@@ -82,29 +90,39 @@
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Contos.</hi></head>
+            <head>
+               <hi rend="underline">Contos.</hi>
+            </head>
             <list>
                <item>
                   <label>1.</label>
                   <rs type="title">A Perversão ao Longe</rs>. </item>
                <item>
                   <label>2.</label>
-                  <rs type="title">Elogio historico de <rs type="name" key="P407"><choice>
-                           <abbr>D<am>.</am></abbr>
-                           <expan>D<ex>om</ex></expan>
-                        </choice> Miguel Roupinho</rs></rs>. </item>
+                  <rs type="title">Elogio historico de <rs type="name" key="P407">
+                        <choice>
+                           <abbr>D<am>.</am>
+                           </abbr>
+                           <expan>D<ex>om</ex>
+                           </expan>
+                        </choice> Miguel Roupinho</rs>
+                  </rs>. </item>
                <item>
                   <label>3.</label>
-                  <rs type="title">O livro do <rs type="name" key="P112">rey Igorab</rs></rs>. </item>
+                  <rs type="title">O livro do <rs type="name" key="P112">rey Igorab</rs>
+                  </rs>. </item>
                <item>
                   <label>4.</label>
                   <rs type="title">O pó</rs>. </item>
                <item>
                   <label>5.</label>
-                  <rs type="title">A Morte do <rs type="name" key="P101"><choice>
-                           <abbr>dr<am>.</am></abbr>
+                  <rs type="title">A Morte do <rs type="name" key="P101">
+                        <choice>
+                           <abbr>dr<am>.</am>
+                           </abbr>
                            <expan>d<ex>outo</ex>r</expan>
-                        </choice> Cerdeira</rs></rs>. </item>
+                        </choice> Cerdeira</rs>
+                  </rs>. </item>
                <item>
                   <label>6.</label>
                   <rs type="title">A perda do hiate “Nada.”</rs>
@@ -112,10 +130,13 @@
                <item>
                   <label>7.</label>
                   <rs type="title">O desapparecimento do <choice>
-                        <abbr>prof<am>.</am></abbr>
-                        <expan>prof<ex>essor</ex></expan>
+                        <abbr>prof<am>.</am>
+                        </abbr>
+                        <expan>prof<ex>essor</ex>
+                        </expan>
                      </choice>
-                     <rs type="name" key="P100">Serzedas</rs></rs>. </item>
+                     <rs type="name" key="P100">Serzedas</rs>
+                  </rs>. </item>
                <item>
                   <label>8.</label>
                   <rs type="title">O desconhecido</rs>. </item>
@@ -124,7 +145,9 @@
                   <rs type="title">A Grande symphonia (Master-Musician)</rs>. </item>
                <item>
                   <label>10.</label>
-                  <rs type="title"><rs type="name" key="P359">Jacob Dermot</rs></rs>. </item>
+                  <rs type="title">
+                     <rs type="name" key="P359">Jacob Dermot</rs>
+                  </rs>. </item>
                <item>
                   <label>11.</label>
                   <rs type="title">A porta</rs>. </item>
@@ -148,13 +171,15 @@
                   <rs type="title">Deus, principio do Mal</rs>. </item>
                <item>
                   <label>18.</label>
-                  <rs type="title">O sonho de <rs type="name" key="P408">Buddha</rs></rs>. </item>
+                  <rs type="title">O sonho de <rs type="name" key="P408">Buddha</rs>
+                  </rs>. </item>
                <item>
                   <label>19.</label>
                   <rs type="title">O prior de Buarcos</rs>. </item>
                <item>
                   <label>20.</label>
-                  <rs type="title"><hi rend="underline">N</hi> dimensões</rs>. </item>
+                  <rs type="title">
+                     <hi rend="underline">N</hi> dimensões</rs>. </item>
                <item>
                   <label>21.</label>
                   <rs type="title">A tortura pela escuridão</rs>.</item>
@@ -162,7 +187,8 @@
                <item>
                   <label>22.</label>
                   <rs type="title">O manuscripto de <rs type="name" key="P409">Ludovico
-                     Ricci</rs></rs>.</item>
+                     Ricci</rs>
+                  </rs>.</item>
                <item>
                   <label>23.</label>
                   <rs type="title">O eremita da Serra Negra</rs>.</item>
@@ -181,8 +207,12 @@
                <item>
                   <label>28.</label>
                   <rs type="title">O Orphão absoluto (<choice>
-                        <abbr><metamark rend="line" function="ditto"/></abbr>
-                        <expan><rs type="title">Na Pharmacia do Evaristo</rs></expan>
+                        <abbr>
+                           <metamark rend="line" function="ditto"/>
+                        </abbr>
+                        <expan>
+                           <rs type="title">Na Pharmacia do Evaristo</rs>
+                        </expan>
                      </choice>)</rs>. </item>
                <item>
                   <label>29.</label>
@@ -202,49 +232,73 @@
                </item>
                <item>
                   <label>34.</label>
-                  <rs type="title">O caso do professor de sciencias. <seg rend="right">(<rs
-                           type="title"><rs type="name" key="P34">Quaresma</rs>
-                        Decifrador</rs>)</seg></rs>
+                  <rs type="title">O caso do professor de sciencias. <seg rend="right">(<rs type="title">
+                           <rs type="name" key="P34">Quaresma</rs>
+                        Decifrador</rs>)</seg>
+                  </rs>
                </item>
                <item>
                   <label>35.</label>
                   <rs type="title">O caso do <choice>
-                        <abbr>s<am>.</am></abbr>
-                        <expan>s<ex>enhor</ex></expan>
+                        <abbr>s<am>.</am>
+                        </abbr>
+                        <expan>s<ex>enhor</ex>
+                        </expan>
                      </choice>
                      <rs type="name" key="P410">Arnott</rs>. <seg rend="right">(<choice>
-                           <abbr><metamark rend="line" function="ditto"/></abbr>
-                           <expan><rs type="title"><rs type="name" key="P34">Quaresma</rs>
-                                 Decifrador</rs></expan>
-                        </choice>)</seg></rs>
+                           <abbr>
+                              <metamark rend="line" function="ditto"/>
+                           </abbr>
+                           <expan>
+                              <rs type="title">
+                                 <rs type="name" key="P34">Quaresma</rs>
+                                 Decifrador</rs>
+                           </expan>
+                        </choice>)</seg>
+                  </rs>
                </item>
                <item>
                   <label>36.</label>
                   <rs type="title">A equação do 2º grau. <seg rend="right">(<choice>
-                           <abbr><metamark rend="line" function="ditto"/></abbr>
-                           <expan><rs type="title"><rs type="name" key="P34">Quaresma</rs>
-                                 Decifrador</rs></expan>
-                        </choice>)</seg></rs>
+                           <abbr>
+                              <metamark rend="line" function="ditto"/>
+                           </abbr>
+                           <expan>
+                              <rs type="title">
+                                 <rs type="name" key="P34">Quaresma</rs>
+                                 Decifrador</rs>
+                           </expan>
+                        </choice>)</seg>
+                  </rs>
                </item>
                <item>
                   <label>37.</label>
                   <rs type="title">O roubo na rua dos Capellistas <seg rend="right">(<choice>
-                           <abbr><metamark rend="line" function="ditto"/></abbr>
-                           <expan><rs type="title"><rs type="name" key="P34">Quaresma</rs>
-                                 Decifrador</rs></expan>
-                        </choice>)</seg></rs>
+                           <abbr>
+                              <metamark rend="line" function="ditto"/>
+                           </abbr>
+                           <expan>
+                              <rs type="title">
+                                 <rs type="name" key="P34">Quaresma</rs>
+                                 Decifrador</rs>
+                           </expan>
+                        </choice>)</seg>
+                  </rs>
                </item>
                <item>
                   <label>38.</label>
-                  <rs type="title">A experiencia do <rs type="name" key="P411"><choice>
-                           <abbr>Dr<am>.</am></abbr>
+                  <rs type="title">A experiencia do <rs type="name" key="P411">
+                        <choice>
+                           <abbr>Dr<am>.</am>
+                           </abbr>
                            <expan>d<ex>outo</ex>r</expan>
                         </choice> Lacroix</rs> (mediador plastico)</rs>
                </item>
                <item>
                   <label>39.</label>
                   <rs type="title">O que me disse o <rs type="name" key="P412">general
-                        Barcellos</rs></rs>. </item>
+                        Barcellos</rs>
+                  </rs>. </item>
                <item>
                   <label>40.</label>
                   <rs type="title">Notas sobre um suicida</rs>. </item>
@@ -254,8 +308,10 @@
                </item>
                <item>
                   <label>42.</label>
-                  <rs type="title">O segredo do <rs type="name" key="P413"><choice>
-                           <abbr>dr<am>.</am></abbr>
+                  <rs type="title">O segredo do <rs type="name" key="P413">
+                        <choice>
+                           <abbr>dr<am>.</am>
+                           </abbr>
                            <expan>d<ex>outo</ex>r</expan>
                         </choice> Borja</rs> (timidez)</rs>
                </item>

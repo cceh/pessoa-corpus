@@ -1,10 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 87-66<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 87-66<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_87-66r.xml</idno>
          </publicationStmt>
@@ -56,8 +57,7 @@
                <msContents>
                   <summary>
                      <p> Lista manuscrita em papel com marca de água «British Bankpost» e timbre «F.
-                        A. Pessoa | R. do Ouro, 87, 2.º | Lisboa», publicada em <hi rend="italic"
-                           >Obras de António Mora</hi> (2002, 167). </p>
+                        A. Pessoa | R. do Ouro, 87, 2.º | Lisboa», publicada em <hi rend="italic">Obras de António Mora</hi> (2002, 167). </p>
                   </summary>
                   <msItemStruct>
                      <author>
@@ -78,50 +78,82 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-87-1-103_JPG_24-C-R0150/bn-acpc-e-e3-87-1-103_0145_66_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-87-1-103_JPG_24-C-R0150/bn-acpc-e-e3-87-1-103_0145_66_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <head rend="center">
-               <rs type="collection" key="C3"><rs type="periodical" key="J2">Athena</rs></rs><lb/>
-               <rs type="collection" key="C17"><rs type="periodical" key="J73">Minerva</rs></rs> – 1 </head>
+               <rs type="collection" key="C3">
+                  <rs type="periodical" key="J2">Athena</rs>
+               </rs>
+               <lb/>
+               <rs type="collection" key="C17">
+                  <rs type="periodical" key="J73">Minerva</rs>
+               </rs> – 1 </head>
             <metamark rend="line" function="distinct"/>
             <list>
                <item rend="indent-2">
                   <label>1.</label>
                   <rs type="title">O Neo-Paganismo Portuguez<lb/>(introducção á Revista e á obra de<lb/>
-                     <rs type="name" key="AC" role="topic">Caeiro</rs>)</rs> – <seg type="certainty"
-                     cert="low" rend="cross below" resp="FP"><hi rend="underline">
-                        <rs type="name" key="P1" style="b"><choice>
+                     <rs type="name" key="AC" role="topic">Caeiro</rs>)</rs> – <seg type="certainty" cert="low" rend="cross below" resp="FP">
+                     <hi rend="underline">
+                        <rs type="name" key="P1" style="b">
+                           <choice>
                               <abbr>A</abbr>
-                              <expan>A<ex>ntonio</ex></expan>
+                              <expan>A<ex>ntonio</ex>
+                              </expan>
                            </choice> Mora</rs>
                         <hi rend="circled">ou</hi>
-                        <rs type="name" key="RR" role="author"><choice>
-                              <abbr>R<am>.</am></abbr>
-                              <expan>R<ex>icardo</ex></expan>
-                           </choice> Reis</rs></hi></seg>
+                        <rs type="name" key="RR" role="author">
+                           <choice>
+                              <abbr>R<am>.</am>
+                              </abbr>
+                              <expan>R<ex>icardo</ex>
+                              </expan>
+                           </choice> Reis</rs>
+                     </hi>
+                  </seg>
                </item>
                <item>
                   <label>2.</label>
-                  <rs type="work" key="W136"><rs type="title" key="T172"><rs type="name" key="AC"
-                           role="author"><hi rend="underline">Caeiro</hi></rs></rs></rs>. </item>
+                  <rs type="work" key="W136">
+                     <rs type="title" key="T172">
+                        <rs type="name" key="AC" role="author">
+                           <hi rend="underline">Caeiro</hi>
+                        </rs>
+                     </rs>
+                  </rs>. </item>
                <item>
                   <label>3.</label>
-                  <rs type="name" key="FP" role="author" style="b"><hi rend="underline"><choice>
+                  <rs type="name" key="FP" role="author" style="b">
+                     <hi rend="underline">
+                        <choice>
                            <abbr>F</abbr>
-                           <expan>F<ex>ernando</ex></expan>
-                        </choice> Pessoa</hi></rs> – <rs type="title">O Principio
+                           <expan>F<ex>ernando</ex>
+                           </expan>
+                        </choice> Pessoa</hi>
+                  </rs> – <rs type="title">O Principio
                   Aristocratico</rs>. </item>
                <item>
                   <label>4.</label>
-                  <rs type="name" key="P250"><hi rend="underline"><abbr>J<am>.</am></abbr>
-                        Craveiro</hi></rs> – <rs type="title">Commentarios</rs>. </item>
+                  <rs type="name" key="P250">
+                     <hi rend="underline">
+                        <abbr>J<am>.</am>
+                        </abbr>
+                        Craveiro</hi>
+                  </rs> – <rs type="title">Commentarios</rs>. </item>
                <item>
                   <label>5.</label>
                   <rs type="title">Reforma Ortographica</rs>

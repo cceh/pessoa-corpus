@@ -14,7 +14,7 @@
             </respStmt>
             <respStmt>
                <resp>Codificação</resp>
-               <name>Isabel Figueiredo-Iken</name> 
+               <name>Isabel Figueiredo-Iken</name>
             </respStmt>
             <respStmt>
                <resp>Codificação</resp>
@@ -51,35 +51,62 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-93-1-100_JPG_24-C-R0150/bn-acpc-e-e3-93-1-100_0181_87_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-93-1-100_JPG_24-C-R0150/bn-acpc-e-e3-93-1-100_0181_87_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-93-87r">
       <body>
          <gap reason="selection" unit="lines" extent="3"/>
          <metamark rend="double line" function="distinct"/>
-         <p>Walt Whitman<lb></lb>(Essay on)</p>
+         <p>Walt Whitman<lb/>(Essay on)</p>
          <metamark rend="line" function="distinct"/>
-         <p> Differença entre poesia<lb></lb> e prosa
-            puramente de <lb></lb>modo de rhythmar.<lb></lb>
-            (ou <hi rend="underline">versiculos</hi>, como os da Biblia,<lb></lb>
-            intermedios entre verso e prosa —<gap reason="illegible" extent="4" unit="characters"/><lb></lb>
-            &amp;<gap reason="illegible" extent="1" unit="character"/> <choice><abbr> H<am>.</am></abbr><expan>H<ex>istory</ex></expan></choice> of a <choice><abbr>D<am>.</am></abbr><expan>D<ex>ictatorship</ex></expan></choice>—
+         <p> Differença entre poesia<lb/> e prosa
+            puramente de <lb/>modo de rhythmar.<lb/>
+            (ou <hi rend="underline">versiculos</hi>, como os da Biblia,<lb/>
+            intermedios entre verso e prosa —<gap reason="illegible" extent="4" unit="characters"/>
+            <lb/>
+            &amp;<gap reason="illegible" extent="1" unit="character"/>
+            <choice>
+               <abbr> H<am>.</am>
+               </abbr>
+               <expan>H<ex>istory</ex>
+               </expan>
+            </choice> of a <choice>
+               <abbr>D<am>.</am>
+               </abbr>
+               <expan>D<ex>ictatorship</ex>
+               </expan>
+            </choice>—
             Este como symptoma de evolução)
          </p>
          <metamark rend="double line" function="distinct"/>
-         
-          <p><hi rend="underline">"As Leis da vida.</hi></p>
-          <p>Analyse da Lei Quinta,
-         <gap reason="illegible" extent="4" unit="words"/><lb></lb>(da vida e <hi rend="underline">a forma</hi>)</p>
-           <p><choice><abbr> Cap<am>.</am></abbr><expan>Cap<ex>itulo</ex></expan></choice> I — A questão trans <pc>-</pc><lb/>
-           formista — (historia <lb></lb>incluindo preversão<lb></lb> do darwinismo)</p> 
+         <p>
+            <hi rend="underline">"As Leis da vida.</hi>
+         </p>
+         <p>Analyse da Lei Quinta,
+         <gap reason="illegible" extent="4" unit="words"/>
+            <lb/>(da vida e <hi rend="underline">a forma</hi>)</p>
+         <p>
+            <choice>
+               <abbr> Cap<am>.</am>
+               </abbr>
+               <expan>Cap<ex>itulo</ex>
+               </expan>
+            </choice> I — A questão trans <pc>-</pc>
+            <lb/>
+           formista — (historia <lb/>incluindo preversão<lb/> do darwinismo)</p>
          <metamark rend="double line" function="distinct"/>
          <gap reason="selection" unit="lines" extent="11"/>
-    
          <div/>
       </body>
    </text>

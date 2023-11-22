@@ -17,8 +17,8 @@
                <name>Ulrike Henny-Krahmer</name>
             </respStmt>
             <respStmt>
-                <resp>Atualização ortográfica</resp>
-                <name>Inês Filipa Rebelo do Carmo</name>
+               <resp>Atualização ortográfica</resp>
+               <name>Inês Filipa Rebelo do Carmo</name>
             </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Campos_O_nosso_inquerito.xml</idno>
          </publicationStmt>
@@ -64,6 +64,9 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
@@ -75,6 +78,11 @@
             <handNote xml:id="H_FP">Texto redigido por Pessoa.</handNote>
          </handNotes>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Campos_Inquerito.jpg"/>
@@ -94,7 +102,7 @@
             <p rend="indent-first">Li-as com atenção. Tomei nota. Vou publica-las por este
                     simples dever de dar publicidade a todas as opiniões que me aparecem na mesa de
                     trabalho, mesmo as mais parvas.</p>
-                 <p rend="indent-first">As suas respostas não pertencem a essa categoria — são suas.
+            <p rend="indent-first">As suas respostas não pertencem a essa categoria — são suas.
                     E por tal lh’as publico, mas deixe me lhe diga que, de hoje em diante, embora
                     continue a ter por V. Exa a mesma admiração que me vem de larga data, fico
                     obrigado a não conhecer mais, pessoalmente, a pessoa de V. Ex.a.</p>

@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_English_Poems_III.xml</idno>
          </publicationStmt>
@@ -42,7 +42,9 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item><rs type="work" key="362">English Poems III</rs></item>
+               <item>
+                  <rs type="work" key="362">English Poems III</rs>
+               </item>
             </list>
             <biblStruct>
                <monogr>
@@ -61,10 +63,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Pessoa_English_Poems_III_1.jpg"/>
@@ -91,8 +101,8 @@
             <docTitle>
                <titlePart type="main" rend="center">English Poems</titlePart>
             </docTitle>
-            <byline rend="center">BY<lb/><rs type="name" role="editor" key="FP"
-               style="b">FERNANDO PESSOA</rs>
+            <byline rend="center">BY<lb/>
+               <rs type="name" role="editor" key="FP" style="b">FERNANDO PESSOA</rs>
             </byline>
             <docTitle>
                <titlePart type="sub" rend="center">III<lb/>EPITHALAMIUM</titlePart>
@@ -101,11 +111,17 @@
          </titlePage>
          <div>
             <pb/>
-            <ab><hi rend="italic">First published in 1921</hi></ab>
+            <ab>
+               <hi rend="italic">First published in 1921</hi>
+            </ab>
             <milestone rend="line" unit="section"/>
-            <ab><hi rend="italic">All rights reserved</hi></ab>
-            <ab>Printing Office of the Annuario Commercial<lb/><hi rend="italic">24, Restauradores,
-               Lisbon</hi></ab>
+            <ab>
+               <hi rend="italic">All rights reserved</hi>
+            </ab>
+            <ab>Printing Office of the Annuario Commercial<lb/>
+               <hi rend="italic">24, Restauradores,
+               Lisbon</hi>
+            </ab>
          </div>
       </front>
       <body>
@@ -172,30 +188,30 @@
                   <l>And she half hates the inevitable light.</l>
                </lg>
             </div>
-               <div type="poem">
-                  <pb n="5"/>
-                  <head>III</head>
-                  <lg>
-                     <l>Open the windows and the doors all wide</l>
-                     <l>Lest aught og night abide,</l>
-                     <l>Or, like a ship's trail in the sea, survive</l>
-                     <l>What made it there to live!</l>
-                     <l>She lies in bed half waiting that her wish</l>
-                     <l>Grow bolder or more rich</l>
-                     <l>To make her rise as a common day were here.</l>
-                     <l>That she would be a bride in bed with man</l>
-                     <l>The parts where she is woman do insist</l>
-                     <l>And send up messages that shame doth ban</l>
-                     <l>From being dreamed but in a shapeless mist.</l>
-                     <l>She opes her eyes, the ceiling sees above</l>
-                     <l>Shutting the small alcove,</l>
-                     <l>And thinks, till she must shut her eyes again,</l>
-                     <l>Another ceiling she this night will know,</l>
-                     <l>Another house, another bed, she lain</l>
-                     <l>In a way she half guesses; so</l>
-                     <l>She shuts her eyes to see not the room she</l>
-                     <l>Soon will no longer see.</l>
-                  </lg>
+            <div type="poem">
+               <pb n="5"/>
+               <head>III</head>
+               <lg>
+                  <l>Open the windows and the doors all wide</l>
+                  <l>Lest aught og night abide,</l>
+                  <l>Or, like a ship's trail in the sea, survive</l>
+                  <l>What made it there to live!</l>
+                  <l>She lies in bed half waiting that her wish</l>
+                  <l>Grow bolder or more rich</l>
+                  <l>To make her rise as a common day were here.</l>
+                  <l>That she would be a bride in bed with man</l>
+                  <l>The parts where she is woman do insist</l>
+                  <l>And send up messages that shame doth ban</l>
+                  <l>From being dreamed but in a shapeless mist.</l>
+                  <l>She opes her eyes, the ceiling sees above</l>
+                  <l>Shutting the small alcove,</l>
+                  <l>And thinks, till she must shut her eyes again,</l>
+                  <l>Another ceiling she this night will know,</l>
+                  <l>Another house, another bed, she lain</l>
+                  <l>In a way she half guesses; so</l>
+                  <l>She shuts her eyes to see not the room she</l>
+                  <l>Soon will no longer see.</l>
+               </lg>
             </div>
             <div type="poem">
                <head>IV</head>
@@ -610,5 +626,5 @@
             </div>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

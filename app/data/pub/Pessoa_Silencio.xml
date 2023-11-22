@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Silencio.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Silencio_por_Edgar_Poe.jpg"/>
@@ -121,12 +129,14 @@
                     contos em que figura como protagonista o célebre C. Augusto Dupin. Todos os
                     romances pseudos-scientificos, género <rs type="name" key="P520">Verne</rs> e
                         <rs type="name" key="P271">Wells</rs>, nascem da «<rs type="title">Extraodinária Aventura de um tal Hans Pfall</rs>» e de outras narrativas
-               análogas.— <rs type="name" role="author" key="FP"><choice>
-                  <abbr>F<am>.</am> P<am>.</am>
-                  </abbr>
-                  <expan>F<ex>ernando</ex> P<ex>essoa</ex>
-                  </expan>
-               </choice></rs>
+               análogas.— <rs type="name" role="author" key="FP">
+                  <choice>
+                     <abbr>F<am>.</am> P<am>.</am>
+                     </abbr>
+                     <expan>F<ex>ernando</ex> P<ex>essoa</ex>
+                     </expan>
+                  </choice>
+               </rs>
             </p>
          </div>
       </body>

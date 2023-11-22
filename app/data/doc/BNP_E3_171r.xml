@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -36,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_171r.xml</idno>
          </publicationStmt>
@@ -69,11 +69,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0009_171_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0009_171_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -88,7 +95,11 @@
                   numbers<lb/> of this, or cuttings<lb/>from it. </item>
                <item rend="indent-2">
                   <label>4.</label>
-                  <rs type="name" key="P235">Miva</rs> <choice><abbr>&amp;</abbr><expan>and</expan></choice> other<lb/>people I have been<lb/>
+                  <rs type="name" key="P235">Miva</rs>
+                  <choice>
+                     <abbr>&amp;</abbr>
+                     <expan>and</expan>
+                  </choice> other<lb/>people I have been<lb/>
                   introduced to here. </item>
                <item>
                   <label>5.</label>

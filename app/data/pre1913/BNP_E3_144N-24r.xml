@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -56,7 +56,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144n_JPG_24-C-R0150/bn-acpc-e-e3_144n_0049_24r_t24-C-R0150.jpg"/>
@@ -64,7 +72,9 @@
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Books</hi></head>
+            <head>
+               <hi rend="underline">Books</hi>
+            </head>
             <list>
                <item>
                   <label>1.</label>

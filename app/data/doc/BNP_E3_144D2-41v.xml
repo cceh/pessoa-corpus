@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 144D<hi rend="superscript">2</hi>-41<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 144D<hi rend="superscript">2</hi>-41<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144D2-41v.xml</idno>
          </publicationStmt>
@@ -55,8 +56,7 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p> Lista manuscrita no caderno 144D<hi rend="superscript">2</hi> (cf. <ref
-                           target="http://purl.pt/13880">http://purl.pt/13880</ref>), publicada em
+                     <p> Lista manuscrita no caderno 144D<hi rend="superscript">2</hi> (cf. <ref target="http://purl.pt/13880">http://purl.pt/13880</ref>), publicada em
                            <hi rend="italic">Obras de Jean Seul de Méluret</hi> (2006, 45). </p>
                   </summary>
                   <msItemStruct>
@@ -78,7 +78,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144d2_JPG_24-C-R0150/bn-acpc-e-e3_144d2_0132_41v_t24-C-R0150.jpg"/>
@@ -86,15 +94,21 @@
    <text>
       <body>
          <div>
-            <head><hi rend="underline"><rs type="periodical" key="J35">Europa</rs> –<lb/>No.
-               I.</hi></head>
+            <head>
+               <hi rend="underline">
+                  <rs type="periodical" key="J35">Europa</rs> –<lb/>No.
+               I.</hi>
+            </head>
             <list>
                <item>
                   <label>1.</label>
                   <rs type="title">Manifesto da <choice>
-                        <abbr>R<am>.</am> E<am>.</am></abbr>
-                        <expan>R<ex>evista</ex> E<ex>uropa</ex></expan>
-                     </choice></rs>
+                        <abbr>R<am>.</am> E<am>.</am>
+                        </abbr>
+                        <expan>R<ex>evista</ex> E<ex>uropa</ex>
+                        </expan>
+                     </choice>
+                  </rs>
                </item>
                <item>
                   <label>2.</label>
@@ -106,8 +120,12 @@
                <item>
                   <label>4.</label>
                   <rs type="title">Como o faria <choice>
-                        <abbr><metamark rend="dots" function="placeholder"/></abbr>
-                        <expan><supplied resp="PS" reason="omitted-in-original"/></expan>
+                        <abbr>
+                           <metamark rend="dots" function="placeholder"/>
+                        </abbr>
+                        <expan>
+                           <supplied resp="PS" reason="omitted-in-original"/>
+                        </expan>
                      </choice> (pastiches)</rs>
                </item>
                <item>
@@ -116,13 +134,16 @@
             </list>
             <metamark rend="line" function="distinct"/>
             <list>
-               <head><hi rend="underline">No. 2.</hi></head>
+               <head>
+                  <hi rend="underline">No. 2.</hi>
+               </head>
                <item>
                   <label>1.</label>
                   <rs type="title">La France à <del rend="overstrike">2000</del> l’an 2000</rs>. </item>
                <item>
-                  <label>2.</label><seg type="certainty" cert="low" resp="FP" rend="cross right"><rs
-                        type="title">Poèmes à la X</rs>.</seg>
+                  <label>2.</label>
+                  <seg type="certainty" cert="low" resp="FP" rend="cross right">
+                     <rs type="title">Poèmes à la X</rs>.</seg>
                </item>
             </list>
          </div>

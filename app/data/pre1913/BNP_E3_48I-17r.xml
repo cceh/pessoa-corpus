@@ -1,10 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48I-17<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48I-17<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -31,7 +32,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48I-17r.xml</idno>
          </publicationStmt>
@@ -61,16 +62,25 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48i-1-30_JPG_24-C-R0150/bn-acpc-e-e3-48i-1-30_0034_17_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48i-1-30_JPG_24-C-R0150/bn-acpc-e-e3-48i-1-30_0034_17_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Bibliotheca Portugueza</hi></head>
+            <head>
+               <hi rend="underline">Bibliotheca Portugueza</hi>
+            </head>
             <note rend="center">(memorando)</note>
             <list>
                <item>
@@ -89,14 +99,15 @@
                </item>
                <item>
                   <label>4.</label>
-                  <rs type="title">Sonetos</rs> (só?) de <rs type="name" key="P15"
-                  >Camões</rs>.
+                  <rs type="title">Sonetos</rs> (só?) de <rs type="name" key="P15">Camões</rs>.
                </item>
                <item>
                   <label>5.</label>
                   <rs type="title">Os Lusiadas</rs> – com notas e as estrophes cortadas in <choice>
-                     <abbr>app<am>.</am></abbr>
-                     <expan>app<ex>endice</ex></expan>
+                     <abbr>app<am>.</am>
+                     </abbr>
+                     <expan>app<ex>endice</ex>
+                     </expan>
                   </choice>
                </item>
                <item>
@@ -105,15 +116,19 @@
                </item>
                <item>
                   <label>7.</label>
-                  <rs type="title">Obras</rs> de <rs type="name" key="P206"><choice>
-                        <abbr>F<am><hi rend="superscript">co</hi></am></abbr>
-                        <expan>F<ex>rancisco</ex></expan>
+                  <rs type="title">Obras</rs> de <rs type="name" key="P206">
+                     <choice>
+                        <abbr>F<am>
+                              <hi rend="superscript">co</hi>
+                           </am>
+                        </abbr>
+                        <expan>F<ex>rancisco</ex>
+                        </expan>
                      </choice> Rodrigues Lobo</rs>.
                </item>
                <item>
                   <label>8.</label>
-                  <rs type="name" key="P254">José da Gama e Castro</rs>. <rs type="title"
-                     >O Novo Principe</rs>.
+                  <rs type="name" key="P254">José da Gama e Castro</rs>. <rs type="title">O Novo Principe</rs>.
                </item>
                <item>
                   <label>9.</label>
@@ -141,8 +156,8 @@
                <item>
                   <label>14.</label>
                   <rs type="name">Marquez de Penalva</rs>: <rs type="title">Dissertação a
-                  favor da Monarchia</rs>. (<seg cert="low">100<hi rend="superscript"
-                     >os</hi></seg>)
+                  favor da Monarchia</rs>. (<seg cert="low">100<hi rend="superscript">os</hi>
+                  </seg>)
                </item>
             </list>
          </div>

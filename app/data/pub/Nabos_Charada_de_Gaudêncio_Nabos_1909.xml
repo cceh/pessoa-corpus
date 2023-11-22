@@ -33,7 +33,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2023</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Nabos_Charada_de_Gaudêncio_Nabos_1909.xml</idno>
          </publicationStmt>
@@ -60,7 +60,15 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="pub/Charada_1909_1.jpg"/>
@@ -74,8 +82,12 @@
                   ALMANACH<lb/>DE<lb/>LEMBRANÇAS<lb/>LUSO-BRAZILEIRO<lb/>PARA O ANNO DE
                   1909</titlePart>
             </docTitle>
-            <byline rend="center"><hi rend="italic">Director:</hi><lb/><hi rend="bold">Adriano
-               Xavier Cordeiro</hi><lb/>Bacharel formado em direito</byline>
+            <byline rend="center">
+               <hi rend="italic">Director:</hi>
+               <lb/>
+               <hi rend="bold">Adriano
+               Xavier Cordeiro</hi>
+               <lb/>Bacharel formado em direito</byline>
             <metamark/>
             <!-- Ver possibilidades -->
             <byline rend="center">Adornado de gravuras, enriquecido com muitas<lb/>materias de
@@ -91,11 +103,21 @@
                <date>1908</date>
             </docImprint>
          </titlePage>
-         <div><ab>NOVO ALMANACH<lb/>DE<lb/>LEMBRANÇAS</ab></div><!-- Esta página ainda entra? -->
-         <div><ab><lg><l>Les longs ouvrages me font peur:</l>
-            <l>Loin d'épuiser une matière,</l>
-            <l>On n'en doit prendre que la fleur</l></lg>
-         </ab><signed rend="left">LA FONTAIGNE</signed></div><!-- Acrescentar key -->
+         <div>
+            <ab>NOVO ALMANACH<lb/>DE<lb/>LEMBRANÇAS</ab>
+         </div>
+         <!-- Esta página ainda entra? -->
+         <div>
+            <ab>
+               <lg>
+                  <l>Les longs ouvrages me font peur:</l>
+                  <l>Loin d'épuiser une matière,</l>
+                  <l>On n'en doit prendre que la fleur</l>
+               </lg>
+            </ab>
+            <signed rend="left">LA FONTAIGNE</signed>
+         </div>
+         <!-- Acrescentar key -->
       </front>
       <body>
          <head>CHARADA (CARTA)</head>
@@ -135,7 +157,8 @@
             <l>O vosso servo André Bento</l>
             <l>Faria e Sousa Machado.</l>
          </lg>
-         <signed rend="left"><hi rend="italic">Gaudencio Nabos</hi> (Lisboa).</signed>
+         <signed rend="left">
+            <hi rend="italic">Gaudencio Nabos</hi> (Lisboa).</signed>
       </body>
    </text>
    <text corresp="XXX" type="reg">
@@ -146,8 +169,12 @@
                   ALMANAQUE<lb/>DE<lb/>LEMBRANÇAS<lb/>LUSO-BRASILEIRO<lb/>PARA O ANO DE
                   1909</titlePart>
             </docTitle>
-            <byline rend="center"><hi rend="italic">Diretor:</hi><lb/><hi rend="bold">Adriano
-               Xavier Cordeiro</hi><lb/>Bacharel formado em direito</byline>
+            <byline rend="center">
+               <hi rend="italic">Diretor:</hi>
+               <lb/>
+               <hi rend="bold">Adriano
+               Xavier Cordeiro</hi>
+               <lb/>Bacharel formado em direito</byline>
             <metamark/>
             <byline rend="center">Adornado de gravuras, enriquecido com muitas<lb/>matérias de
                utilidade pública, e com o retrato e esboço<lb/>biográfico do falecido poeta e
@@ -162,11 +189,21 @@
                <date>1908</date>
             </docImprint>
          </titlePage>
-         <div><ab>NOVO ALMANAQUE<lb/>DE<lb/>LEMBRANÇAS</ab></div><!-- Esta página ainda entra? -->
-         <div><ab><lg><l>Les longs ouvrages me font peur:</l>
-            <l>Loin d'épuiser une matière,</l>
-            <l>On n'en doit prendre que la fleur</l></lg>
-         </ab><signed rend="left">LA FONTAIGNE</signed></div><!-- Acrescentar key -->
+         <div>
+            <ab>NOVO ALMANAQUE<lb/>DE<lb/>LEMBRANÇAS</ab>
+         </div>
+         <!-- Esta página ainda entra? -->
+         <div>
+            <ab>
+               <lg>
+                  <l>Les longs ouvrages me font peur:</l>
+                  <l>Loin d'épuiser une matière,</l>
+                  <l>On n'en doit prendre que la fleur</l>
+               </lg>
+            </ab>
+            <signed rend="left">LA FONTAIGNE</signed>
+         </div>
+         <!-- Acrescentar key -->
       </front>
       <body>
          <head>CHARADA (CARTA)</head>
@@ -206,7 +243,8 @@
             <l>O vosso servo André Bento</l>
             <l>Faria e Sousa Machado.</l>
          </lg>
-         <signed rend="left"><hi rend="italic">Gaudêncio Nabos</hi> (Lisboa).</signed>
+         <signed rend="left">
+            <hi rend="italic">Gaudêncio Nabos</hi> (Lisboa).</signed>
       </body>
    </text>
 </TEI>

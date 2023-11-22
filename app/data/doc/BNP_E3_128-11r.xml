@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 128-11<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 128-11<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_128-11r.xml</idno>
          </publicationStmt>
@@ -72,57 +73,88 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-128-1-100_JPG_24-C-R0150/bn-acpc-e-e3-128-1-100_0021_11_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-128-1-100_JPG_24-C-R0150/bn-acpc-e-e3-128-1-100_0021_11_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <list>
-               <head><hi rend="underline">Aristography.</hi></head>
+               <head>
+                  <hi rend="underline">Aristography.</hi>
+               </head>
                <item xml:id="I1">In English — First.</item>
-               <item xml:id="I2"><choice>
-                     <abbr><metamark rend="space" function="ditto"/></abbr>
+               <item xml:id="I2">
+                  <choice>
+                     <abbr>
+                        <metamark rend="space" function="ditto"/>
+                     </abbr>
                      <expan>In</expan>
                   </choice> Portuguese —</item>
-               <item xml:id="I3"><choice>
-                     <abbr><metamark rend="space" function="ditto"/></abbr>
+               <item xml:id="I3">
+                  <choice>
+                     <abbr>
+                        <metamark rend="space" function="ditto"/>
+                     </abbr>
                      <expan>In</expan>
-                  </choice> Spanish — <note target="range(I2,I5)" place="margin-right"
-                     type="addition">
-                     <metamark rend="curly-bracket" function="grouping"><label>At same
-                        time.</label></metamark>
-                  </note></item>
-               <item xml:id="I4"><choice>
-                     <abbr><metamark rend="space" function="ditto"/></abbr>
+                  </choice> Spanish — <note target="range(I2,I5)" place="margin-right" type="addition">
+                     <metamark rend="curly-bracket" function="grouping">
+                        <label>At same
+                        time.</label>
+                     </metamark>
+                  </note>
+               </item>
+               <item xml:id="I4">
+                  <choice>
+                     <abbr>
+                        <metamark rend="space" function="ditto"/>
+                     </abbr>
                      <expan>In</expan>
                   </choice> French —</item>
-               <item xml:id="I5"><choice>
-                     <abbr><metamark rend="space" function="ditto"/></abbr>
+               <item xml:id="I5">
+                  <choice>
+                     <abbr>
+                        <metamark rend="space" function="ditto"/>
+                     </abbr>
                      <expan>In</expan>
                   </choice> Italian —</item>
-               <item xml:id="I6"><choice>
-                     <abbr><metamark rend="space" function="ditto"/></abbr>
+               <item xml:id="I6">
+                  <choice>
+                     <abbr>
+                        <metamark rend="space" function="ditto"/>
+                     </abbr>
                      <expan>In</expan>
                   </choice> German — (last)</item>
             </list>
             <metamark rend="line" function="distinct"/>
-            <p><hi rend="underline">Code</hi> or Two Codes.</p>
+            <p>
+               <hi rend="underline">Code</hi> or Two Codes.</p>
             <metamark rend="line" function="distinct"/>
             <list>
-               <item><hi rend="underline">Parlour Games.</hi></item>
-               <item><hi rend="underline">Technical Dictionaries.</hi>
+               <item>
+                  <hi rend="underline">Parlour Games.</hi>
+               </item>
+               <item>
+                  <hi rend="underline">Technical Dictionaries.</hi>
                   <list rend="inline">
                      <item>
                         <label>A.</label>
-                        <hi rend="underline">Commercial.</hi></item>
+                        <hi rend="underline">Commercial.</hi>
+                     </item>
                      <item>
                         <label>B.</label>
-                        <supplied resp="PS" reason="omitted-in-original"/></item>
+                        <supplied resp="PS" reason="omitted-in-original"/>
+                     </item>
                   </list>
                </item>
             </list>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -36,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_59-45r.xml</idno>
          </publicationStmt>
@@ -71,11 +71,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-59-1-60_JPG_24-C-R0150/bn-acpc-e-e3-59-1-60_0094_45_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-59-1-60_JPG_24-C-R0150/bn-acpc-e-e3-59-1-60_0094_45_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -83,41 +90,63 @@
             <gap reason="selection" unit="line" extent="18"/>
             <list>
                <item rend="indent-2">
-                  <hi rend="underline"><rs type="name" key="P218">Homero</rs></hi>: <list><item><rs type="title"
-                        >Iliada</rs>.</item>
-                     <item><rs type="title">Odysséa</rs>.</item></list></item>
+                  <hi rend="underline">
+                     <rs type="name" key="P218">Homero</rs>
+                  </hi>: <list>
+                     <item>
+                        <rs type="title">Iliada</rs>.</item>
+                     <item>
+                        <rs type="title">Odysséa</rs>.</item>
+                  </list>
+               </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P219">Vergilio</rs></hi>: <rs
-                     type="title">Eneida</rs>. </item>
+                  <hi rend="underline">
+                     <rs type="name" key="P219">Vergilio</rs>
+                  </hi>: <rs type="title">Eneida</rs>. </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P220">Dante</rs></hi>: <rs type="title"
-                     >Divina Commedia</rs>. </item>
+                  <hi rend="underline">
+                     <rs type="name" key="P220">Dante</rs>
+                  </hi>: <rs type="title">Divina Commedia</rs>. </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P84">Milton</rs></hi>: <rs type="title"
-                     >Paraiso Perdido</rs>. </item>
+                  <hi rend="underline">
+                     <rs type="name" key="P84">Milton</rs>
+                  </hi>: <rs type="title">Paraiso Perdido</rs>. </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P84">Milton</rs></hi>: <rs type="title"
-                     >Samsão Agonistes</rs>. </item>
+                  <hi rend="underline">
+                     <rs type="name" key="P84">Milton</rs>
+                  </hi>: <rs type="title">Samsão Agonistes</rs>. </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P130">Bacon</rs></hi>: <rs type="title"
-                     >Ensaios, e outra prosa</rs>. </item>
+                  <hi rend="underline">
+                     <rs type="name" key="P130">Bacon</rs>
+                  </hi>: <rs type="title">Ensaios, e outra prosa</rs>. </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P188">Horacio</rs></hi>: <rs
-                     type="title">As Odes</rs>. </item>
+                  <hi rend="underline">
+                     <rs type="name" key="P188">Horacio</rs>
+                  </hi>: <rs type="title">As Odes</rs>. </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P65">Shakespeare</rs></hi>: <rs
-                     type="title">As Principaes Peças</rs>. </item>
+                  <hi rend="underline">
+                     <rs type="name" key="P65">Shakespeare</rs>
+                  </hi>: <rs type="title">As Principaes Peças</rs>. </item>
                <item>
-                  <hi rend="underline"><rs type="name" key="P103">Omar Khayyam</rs></hi>: <rs
-                     type="title">Rubayat</rs>. </item>
+                  <hi rend="underline">
+                     <rs type="name" key="P103">Omar Khayyam</rs>
+                  </hi>: <rs type="title">Rubayat</rs>. </item>
                <item>
-                  <hi rend="underline"><rs type="title">Anthologia Grega</rs></hi>. </item>
+                  <hi rend="underline">
+                     <rs type="title">Anthologia Grega</rs>
+                  </hi>. </item>
                <item>
-                  <hi rend="underline"><rs type="title">Anthologia Latina</rs></hi>. </item>
+                  <hi rend="underline">
+                     <rs type="title">Anthologia Latina</rs>
+                  </hi>. </item>
                <item>
-                  <hi rend="underline"><rs type="title">Anthologia India</rs></hi>. </item>
+                  <hi rend="underline">
+                     <rs type="title">Anthologia India</rs>
+                  </hi>. </item>
                <item>
-                  <hi rend="underline"><rs type="title">Anthologia Franceza</rs></hi>. (etc).
+                  <hi rend="underline">
+                     <rs type="title">Anthologia Franceza</rs>
+                  </hi>. (etc).
                </item>
             </list>
          </div>

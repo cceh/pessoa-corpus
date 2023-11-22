@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 183<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 183<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -35,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_183r.xml</idno>
          </publicationStmt>
@@ -68,16 +69,25 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0035_183_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0035_183_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Booklets.</hi></head>
+            <head>
+               <hi rend="underline">Booklets.</hi>
+            </head>
             <list>
                <item>
                   <label>1.</label>
@@ -90,11 +100,14 @@
                   <rs type="title">A Existencia de Deus</rs>. </item>
                <item>
                   <label>4.</label>
-                  <rs type="title">Geometria dos <abbr>anti-S.</abbr> e dos <abbr>Coex.</abbr></rs>
+                  <rs type="title">Geometria dos <abbr>anti-S.</abbr> e dos <abbr>Coex.</abbr>
+                  </rs>
                </item>
                <item>
                   <label>5.</label>
-                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_O_Banqueiro_Anarchista"><rs type="title">O Banqueiro Anarchista</rs></ref>. </item>
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_O_Banqueiro_Anarchista">
+                     <rs type="title">O Banqueiro Anarchista</rs>
+                  </ref>. </item>
                <item>
                   <label>6.</label>
                   <rs type="title">A Moral da Força</rs>. </item>
@@ -104,7 +117,8 @@
                <item>
                   <label>8.</label>
                   <rs type="title">Prefacio ao Desconhecido</rs>.
-                  (<abbr>occ<am>.</am></abbr>)</item>
+                  (<abbr>occ<am>.</am>
+                  </abbr>)</item>
                <item>
                   <label>9.</label>
                   <rs type="title">A Astrologia</rs>. </item>
@@ -113,14 +127,15 @@
                   <rs type="title">O Interregno</rs>. </item>
                <item>
                   <label>11.</label>
-                  <rs type="title">Introducção a <rs type="place">Portugal</rs></rs>. </item>
+                  <rs type="title">Introducção a <rs type="place">Portugal</rs>
+                  </rs>. </item>
                <item>
                   <label>12.</label>
                   <rs type="title">Theoria do Conhecimento Physico</rs>. </item>
                <item>
                   <label>13.</label>
-                  <rs type="title">Terceiro Corpo das Prophecias do <rs type="name" key="P259"
-                        >Bandarra</rs></rs>. </item>
+                  <rs type="title">Terceiro Corpo das Prophecias do <rs type="name" key="P259">Bandarra</rs>
+                  </rs>. </item>
                <item>
                   <label>14.</label>
                   <rs type="title">O Christianismo</rs>. </item>

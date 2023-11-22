@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Dez_minutos.xml</idno>
          </publicationStmt>
@@ -65,6 +65,9 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
@@ -76,6 +79,11 @@
             <handNote xml:id="H_FP">Texto redigido por Pessoa.</handNote>
          </handNotes>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Dez_minutos.jpg"/>
@@ -84,24 +92,18 @@
       <body>
          <div>
             <head>
-               <handShift new="#H_Suplemento_Literario"/>Dez minutos com <rs type="name"
-                  role="author" key="FP">Fernando Pessoa</rs>
+               <handShift new="#H_Suplemento_Literario"/>Dez minutos com <rs type="name" role="author" key="FP">Fernando Pessoa</rs>
             </head>
             <argument>
-               <p rend="indent-first">A calva socratica, os olhos de corvo de <rs type="name"
-                  key="P87">Edgar Poe</rs>, e um bigode rizivel, chaplinesco ― eis a traços tão
+               <p rend="indent-first">A calva socratica, os olhos de corvo de <rs type="name" key="P87">Edgar Poe</rs>, e um bigode rizivel, chaplinesco ― eis a traços tão
                   forte como precizos a mascara de <rs type="name" role="topic" key="FP">Fernando
                      Pessoa</rs>. Encontramo-lo friorento e encharcado desta chuva cruel de dezembro
                   a uma mesa do Martinho da Arcada, ultima estampa romantica dos cafés do seculo XX.
-                  É ali que vivem agora os derradeiros abencerragens do «<rs type="periodical"
-                     key="J12">Orfeu</rs>». A lira não se partiu. Ecôa ainda, mas menos barbara,
-                  trazida da velha Grecia, no peito duma sereia. Até a foz romana do Tejo, <rs
-                     type="name" key="FP">Fernando Pessoa</rs> tem três almas, baptizadas na pia
+                  É ali que vivem agora os derradeiros abencerragens do «<rs type="periodical" key="J12">Orfeu</rs>». A lira não se partiu. Ecôa ainda, mas menos barbara,
+                  trazida da velha Grecia, no peito duma sereia. Até a foz romana do Tejo, <rs type="name" key="FP">Fernando Pessoa</rs> tem três almas, baptizadas na pia
                   lustral da estetica nova: <rs type="name" role="topic" key="AdC">Alvaro de
-                     Campos</rs>, o das odes, convulsivo de dinamismo, <rs type="name" role="topic"
-                     key="RR">Ricardo Reis</rs>, o classico, que trabalha maravilhosamente a proza,
-                  descobrindo na cinza dos tumulos, tesouros de imagens, e <rs type="name"
-                     role="topic" key="AC">Alberto Caeiro</rs>, o super-clasico, magestoso como um
+                     Campos</rs>, o das odes, convulsivo de dinamismo, <rs type="name" role="topic" key="RR">Ricardo Reis</rs>, o classico, que trabalha maravilhosamente a proza,
+                  descobrindo na cinza dos tumulos, tesouros de imagens, e <rs type="name" role="topic" key="AC">Alberto Caeiro</rs>, o super-clasico, magestoso como um
                   principe. Mas desta vez fala <rs type="name" key="FP">Fernando Pessoa</rs> ― em
                   «pessoa». O titulo da sua obra recente, «Mensagem», está entre nós, como um hifen
                   de amizade literaria. Porque o titulo?</p>

@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 185<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 185<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -19,7 +20,7 @@
             <respStmt>
                <resp>Codificação</resp>
                <name>Isabel Figueiredo-Iken</name>
-            </respStmt>          
+            </respStmt>
             <respStmt>
                <resp>Codificação</resp>
                <name>Sviatoslav Drach</name>
@@ -35,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_185r.xml</idno>
          </publicationStmt>
@@ -68,11 +69,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0039_185_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0039_185_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -86,14 +94,18 @@
                   <rs type="title">The Anti-Shakespearean Illusion</rs>. </item>
                <item>
                   <label>3.</label>
-                  <rs type="title">The Case of<rs type="name" key="P32"> Oscar Wilde</rs></rs>. </item>
+                  <rs type="title">The Case of<rs type="name" key="P32"> Oscar Wilde</rs>
+                  </rs>. </item>
                <item rend="indent-2">
                   <label>4.</label>
-                  <rs type="title">The Case of <rs type="name" key="P358">Robert Burns</rs></rs>
-                     (includ<pc>-</pc><lb/>ing the conditions of fame?) </item>
+                  <rs type="title">The Case of <rs type="name" key="P358">Robert Burns</rs>
+                  </rs>
+                     (includ<pc>-</pc>
+                  <lb/>ing the conditions of fame?) </item>
                <item>
                   <label>5.</label>
-                  <rs type="title">The Problem of <rs type="name" key="P220">Dante</rs></rs>
+                  <rs type="title">The Problem of <rs type="name" key="P220">Dante</rs>
+                  </rs>
                   (probably later). </item>
                <item>
                   <label>6.</label>
@@ -104,17 +116,21 @@
                <item rend="indent-2">
                   <label>8.</label>
                   <rs type="title">The Myth of the Lost King</rs>. (or <rs type="title">The<lb/>
-                     Myth of King <rs type="name" key="P21"> Sebastian</rs></rs>). </item>
+                     Myth of King <rs type="name" key="P21"> Sebastian</rs>
+                  </rs>). </item>
                <item rend="indent-2">
                   <label>9.</label>
-                  <rs type="title">Prophecy</rs> (more or less the subject<lb/> of the <rs
-                     type="title">introduction to <rs type="name" key="P259"
-                        >Ban<pc>-</pc><lb/>darra</rs></rs> III, with illustrative<lb/> examples from
-                     <rs type="name" key="P259"><choice>
-                        <abbr>B<am>.</am></abbr>
-                        <expan>B<ex>andarra</ex></expan>
-                     </choice></rs> himself, as <lb/>also from <rs type="name" key="P357"
-                     >Nostradamus</rs>.) </item>
+                  <rs type="title">Prophecy</rs> (more or less the subject<lb/> of the <rs type="title">introduction to <rs type="name" key="P259">Ban<pc>-</pc>
+                        <lb/>darra</rs>
+                  </rs> III, with illustrative<lb/> examples from
+                     <rs type="name" key="P259">
+                     <choice>
+                        <abbr>B<am>.</am>
+                        </abbr>
+                        <expan>B<ex>andarra</ex>
+                        </expan>
+                     </choice>
+                  </rs> himself, as <lb/>also from <rs type="name" key="P357">Nostradamus</rs>.) </item>
             </list>
          </div>
       </body>

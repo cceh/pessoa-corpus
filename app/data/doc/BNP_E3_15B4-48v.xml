@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -40,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_15B4-48v.xml</idno>
          </publicationStmt>
@@ -72,37 +72,60 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-15b-4-1-82_JPG_24-C-R0150/bn-acpc-e-e3-15b-4-1-100_0098_48v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-15b-4-1-82_JPG_24-C-R0150/bn-acpc-e-e3-15b-4-1-100_0098_48v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <list>
-               <item><rs type="title">Quaresma</rs></item>
-               <item><rs type="title">Bandarra</rs></item>
-               <item><rs type="title">Auto do Circo</rs></item>
+               <item>
+                  <rs type="title">Quaresma</rs>
+               </item>
+               <item>
+                  <rs type="title">Bandarra</rs>
+               </item>
+               <item>
+                  <rs type="title">Auto do Circo</rs>
+               </item>
             </list>
             <pb/>
             <list>
-               <item><rs type="name" key="AdC" role="author">Alvaro de Campos</rs></item>
-               <item><rs type="title">Artigo “De Theatro”</rs>.</item>
-               <item><rs type="name" key="P138">Santa Rita</rs>.</item>
-               <item>Passar a limpo <rs type="name" key="P30"><choice>
-                        <abbr>M<am>.</am></abbr>
-                        <expan>M<ex>ario</ex></expan>
+               <item>
+                  <rs type="name" key="AdC" role="author">Alvaro de Campos</rs>
+               </item>
+               <item>
+                  <rs type="title">Artigo “De Theatro”</rs>.</item>
+               <item>
+                  <rs type="name" key="P138">Santa Rita</rs>.</item>
+               <item>Passar a limpo <rs type="name" key="P30">
+                     <choice>
+                        <abbr>M<am>.</am>
+                        </abbr>
+                        <expan>M<ex>ario</ex>
+                        </expan>
                      </choice> Saa</rs>.</item>
             </list>
             <metamark rend="line" function="distinct"/>
             <list>
                <item>2 Patentes (ou, pelo menos, uma).</item>
-               <item><rs type="title"><choice>
-                        <abbr>Trad<am>.</am></abbr>
-                        <expan>Trad<ex>ucção</ex></expan>
+               <item>
+                  <rs type="title">
+                     <choice>
+                        <abbr>Trad<am>.</am>
+                        </abbr>
+                        <expan>Trad<ex>ucção</ex>
+                        </expan>
                      </choice> “Tormenta”</rs>.</item>
                <item>Code</item>
             </list>

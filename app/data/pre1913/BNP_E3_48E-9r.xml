@@ -40,7 +40,7 @@
                         <rs type="genre" key="lista_editorial">Lista editorial</rs>
                         <rs type="genre" key="plano_editorial">Plano editorial</rs>
                      </note>
-                     <textLang mainLang="pt" otherLangs="en" />
+                     <textLang mainLang="pt" otherLangs="en"/>
                   </msItemStruct>
                </msContents>
                <history>
@@ -52,35 +52,62 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48e-1-45_JPG_24-C-R0150/bn-acpc-e-e3-48e-1-45_0017_9_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48e-1-45_JPG_24-C-R0150/bn-acpc-e-e3-48e-1-45_0017_9_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48e-9r">
       <body>
          <list>
-            <item><del rend="overstrike"><label>1.</label><rs type="title"><rs type="place">Portugal</rs></rs> &amp;perhaps other<lb></lb>  
-               politically<lb></lb> 
-               logical poems. </del></item>
-            
-            <metamark rend="mark" />
-         <metamark rend="doubleline" function="distinct"/>
-            <item><label> 1.</label><hi rend="underline"><rs type="title"> Agua Estagnada.</rs></hi><lb></lb> 
-               (<rs type="place">Portugal</rs>, e outros<lb></lb>  
-               poemas fóra<lb></lb>  de horas)</item>
-        <metamark rend="line" function="distinct"/>
-            <item><label> 2.</label><hi rend="underline"><rs type="title">Ao Cahir das Folhas.</rs></hi><lb></lb>
-               Poems re modern<lb></lb> feeling, etc.
-            </item> 
+            <item>
+               <del rend="overstrike">
+                  <label>1.</label>
+                  <rs type="title">
+                     <rs type="place">Portugal</rs>
+                  </rs> &amp;perhaps other<lb/>  
+               politically<lb/> 
+               logical poems. </del>
+            </item>
+            <metamark rend="mark"/>
+            <metamark rend="doubleline" function="distinct"/>
+            <item>
+               <label> 1.</label>
+               <hi rend="underline">
+                  <rs type="title"> Agua Estagnada.</rs>
+               </hi>
+               <lb/> 
+               (<rs type="place">Portugal</rs>, e outros<lb/>  
+               poemas fóra<lb/>  de horas)</item>
             <metamark rend="line" function="distinct"/>
-            <item><label> 3.</label><hi rend="underline"><rs type="title">Symphonias.</rs></hi><lb></lb>
-               <rs type="title"> “Fim do Paganismo”</rs>, e <lb></lb>
-               outras symphonias.</item> </list> 
-         <metamark rend="line" function="distinct"/>  
-         <gap reason="selection" unit="lines" extent="4"/>  
-         
+            <item>
+               <label> 2.</label>
+               <hi rend="underline">
+                  <rs type="title">Ao Cahir das Folhas.</rs>
+               </hi>
+               <lb/>
+               Poems re modern<lb/> feeling, etc.
+            </item>
+            <metamark rend="line" function="distinct"/>
+            <item>
+               <label> 3.</label>
+               <hi rend="underline">
+                  <rs type="title">Symphonias.</rs>
+               </hi>
+               <lb/>
+               <rs type="title"> “Fim do Paganismo”</rs>, e <lb/>
+               outras symphonias.</item>
+         </list>
+         <metamark rend="line" function="distinct"/>
+         <gap reason="selection" unit="lines" extent="4"/>
          <div/>
       </body>
    </text>

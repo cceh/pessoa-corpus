@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 87-26<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 87-26<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -47,7 +48,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_87-26r.xml</idno>
          </publicationStmt>
@@ -82,79 +83,110 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-87-1-103_JPG_24-C-R0150/bn-acpc-e-e3-87-1-103_0065_26_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-87-1-103_JPG_24-C-R0150/bn-acpc-e-e3-87-1-103_0065_26_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline"><rs type="periodical" key="J12">Orpheu</rs> 3 e 4</hi></head>
+            <head>
+               <hi rend="underline">
+                  <rs type="periodical" key="J12">Orpheu</rs> 3 e 4</hi>
+            </head>
             <table>
                <row>
-                  <cell><rs type="name" key="P30">Mario de Sá-Carneiro</rs>:</cell>
+                  <cell>
+                     <rs type="name" key="P30">Mario de Sá-Carneiro</rs>:</cell>
                   <cell/>
                   <cell rend="right">16</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="P106">Albino de Menzes</rs>:</cell>
-                  <cell><add n="2">#</add></cell>
+                  <cell>
+                     <rs type="name" key="P106">Albino de Menzes</rs>:</cell>
+                  <cell>
+                     <add n="2">#</add>
+                  </cell>
                   <cell rend="right">6</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="P89">José Coelho Pacheco</rs>:</cell>
+                  <cell>
+                     <rs type="name" key="P89">José Coelho Pacheco</rs>:</cell>
                   <cell/>
                   <cell rend="right">8</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="P107">Mario da Cunha e Sá</rs>:</cell>
-                  <cell><add n="2">#</add></cell>
+                  <cell>
+                     <rs type="name" key="P107">Mario da Cunha e Sá</rs>:</cell>
+                  <cell>
+                     <add n="2">#</add>
+                  </cell>
                   <cell rend="right">8</cell>
                </row>
                <row>
                   <cell>
                      <subst>
-                        <add place="above" n="2"><rs type="name" key="P108">Silva Tavares</rs></add>
+                        <add place="above" n="2">
+                           <rs type="name" key="P108">Silva Tavares</rs>
+                        </add>
                         <del rend="overstrike" n="1">AN Fernando</del>
                      </subst>: </cell>
                   <cell/>
                   <cell rend="right">8</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="P56">José de Almada-Negreiros</rs>:</cell>
+                  <cell>
+                     <rs type="name" key="P56">José de Almada-Negreiros</rs>:</cell>
                   <cell/>
                   <cell rend="right">18</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="P109">Augusto Ferreira Gomes</rs>:</cell>
+                  <cell>
+                     <rs type="name" key="P109">Augusto Ferreira Gomes</rs>:</cell>
                   <cell/>
                   <cell rend="right">10</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="P110"><abbr>M<am>.</am></abbr> Fernando de Carvalho</rs>:</cell>
+                  <cell>
+                     <rs type="name" key="P110">
+                        <abbr>M<am>.</am>
+                        </abbr> Fernando de Carvalho</rs>:</cell>
                   <cell/>
                   <cell rend="right">10</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="P111">Barradas Telles D’Aviz</rs>:</cell>
-                  <cell><add n="2">#</add></cell>
+                  <cell>
+                     <rs type="name" key="P111">Barradas Telles D’Aviz</rs>:</cell>
+                  <cell>
+                     <add n="2">#</add>
+                  </cell>
                   <cell rend="right">6</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="FP" role="author" style="b">Fernando
+                  <cell>
+                     <rs type="name" key="FP" role="author" style="b">Fernando
                      Pessoa</rs>:</cell>
                   <cell/>
                   <cell rend="right">8</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="P86">Castello de Moraes</rs>:</cell>
+                  <cell>
+                     <rs type="name" key="P86">Castello de Moraes</rs>:</cell>
                   <cell/>
                   <cell rend="right">12</cell>
                </row>
                <row>
-                  <cell><rs type="name" key="AdC" role="author">Alvaro de Campos</rs>:</cell>
+                  <cell>
+                     <rs type="name" key="AdC" role="author">Alvaro de Campos</rs>:</cell>
                   <cell/>
                   <cell rend="right">12</cell>
                </row>
@@ -168,8 +200,7 @@
                   <cell/>
                   <cell/>
                   <cell rend="right">
-                     <metamark rend="line" function="sum"/> 128 pp. <metamark rend="line"
-                        function="end"/>
+                     <metamark rend="line" function="sum"/> 128 pp. <metamark rend="line" function="end"/>
                   </cell>
                </row>
             </table>

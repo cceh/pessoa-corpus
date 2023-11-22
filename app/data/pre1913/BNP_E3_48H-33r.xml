@@ -3,7 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48H-33<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48H-33<hi rend="superscript">r</hi>
+            </title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -37,8 +38,10 @@
                         <resp>Codificação</resp>
                         <name>Sviatoslav Drach</name>
                      </respStmt>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="pt" otherLangs="en"/>
                   </msItemStruct>
                </msContents>
@@ -52,26 +55,41 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0065_33_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48h-33r">
       <body>
-         <head><hi rend="underline">Publicações.</hi></head>  
+         <head>
+            <hi rend="underline">Publicações.</hi>
+         </head>
          <list>
-            <item>“A Republica Portugueza”. A sua implantação e<lb></lb> orientação <subst><del rend="overstrike">estudadas</del>
-            <add place="above">necessarias, </add></subst><hi rend="underline">socio<pc>-</pc><lb />logicamente<lb></lb> consideradas/.”</hi></item>
+            <item>“A Republica Portugueza”. A sua implantação e<lb/> orientação <subst>
+                  <del rend="overstrike">estudadas</del>
+                  <add place="above">necessarias, </add>
+               </subst>
+               <hi rend="underline">socio<pc>-</pc>
+                  <lb/>logicamente<lb/> consideradas/.”</hi>
+            </item>
             <metamark rend="line" function="distinct"/>
-            <item>“Da Dictadura á Republica. Estudo sociologico dos ultimos anos da monar<pc>-</pc><lb />chia em Portugal”</item>        
+            <item>“Da Dictadura á Republica. Estudo sociologico dos ultimos anos da monar<pc>-</pc>
+               <lb/>chia em Portugal”</item>
             <metamark rend="line" function="distinct"/>
             <item>“Agua Estagnada” — <hi rend="underline">Poesias </hi>inactuaes.</item>
             <metamark rend="line" function="distinct"/>
             <item>“The Decline and Fall of the Portuguese Monarchy.”</item>
             <metamark rend="line" function="distinct"/>
-         </list> 
-      
+         </list>
          <div/>
       </body>
    </text>

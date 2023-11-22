@@ -60,11 +60,18 @@
             </msDesc>
             <msDesc corresp="#M1" type="prose">
                <msIdentifier/>
-               <p> Lista manuscrita no caderno 144Y (cf. <ref target="http://purl.pt/13899"
-                     >http://purl.pt/13899</ref>). </p>
+               <p> Lista manuscrita no caderno 144Y (cf. <ref target="http://purl.pt/13899">http://purl.pt/13899</ref>). </p>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144y_JPG_24-C-R0150/bn-acpc-e-e3_144y_0102_51v_t24-C-R0150.jpg"/>
@@ -74,23 +81,39 @@
          <p>Books to figure in a “Library” or “Collection”. </p>
          <metamark rend="line" function="distinct"/>
          <list>
-            <item><rs type="work"><rs type="name" role="author">Mario de Sá-Carneiro</rs>: <rs
-                     type="text">Obras.</rs> 4 <choice>
-                     <abbr>vol<am>.</am></abbr>
-                     <expan>vol<ex>umes</ex></expan>
-                  </choice></rs></item>
-            <item><rs type="work"><rs type="name" role="author">José de Almada-Negreiros</rs>:
-                  (see what).</rs></item>
-            <item><rs type="work"><rs type="name" role="author">Fernando Pessoa</rs>: <rs
-                     type="text">Theatro Statico.</rs> (1.a serie)</rs></item>
-            <item><rs type="work"><rs type="name" role="author"><metamark rend="line"
-                        function="ditto"/></rs>: <rs type="title">Itinerario.</rs></rs></item>
-            <item><rs type="work"><rs type="name" role="author">Alvaro de Campos</rs>: <rs
-                     type="text">Arco de Triumpho.</rs></rs></item>
-
+            <item>
+               <rs type="work">
+                  <rs type="name" role="author">Mario de Sá-Carneiro</rs>: <rs type="text">Obras.</rs> 4 <choice>
+                     <abbr>vol<am>.</am>
+                     </abbr>
+                     <expan>vol<ex>umes</ex>
+                     </expan>
+                  </choice>
+               </rs>
+            </item>
+            <item>
+               <rs type="work">
+                  <rs type="name" role="author">José de Almada-Negreiros</rs>:
+                  (see what).</rs>
+            </item>
+            <item>
+               <rs type="work">
+                  <rs type="name" role="author">Fernando Pessoa</rs>: <rs type="text">Theatro Statico.</rs> (1.a serie)</rs>
+            </item>
+            <item>
+               <rs type="work">
+                  <rs type="name" role="author">
+                     <metamark rend="line" function="ditto"/>
+                  </rs>: <rs type="title">Itinerario.</rs>
+               </rs>
+            </item>
+            <item>
+               <rs type="work">
+                  <rs type="name" role="author">Alvaro de Campos</rs>: <rs type="text">Arco de Triumpho.</rs>
+               </rs>
+            </item>
          </list>
          <div/>
-
       </body>
    </text>
 </TEI>

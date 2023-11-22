@@ -39,7 +39,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_137D-3.xml</idno>
          </publicationStmt>
@@ -72,14 +72,19 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-137d-1-100_JPG_24-C-R0150/bn-acpc-e-e3-137d-1-100_0005_3_t24-C-R0150.jpg"/>
-      <graphic
-         url="bn-acpc-e-e3-137d-1-100_JPG_24-C-R0150/bn-acpc-e-e3-137d-1-100_0006_3v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-137d-1-100_JPG_24-C-R0150/bn-acpc-e-e3-137d-1-100_0005_3_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-137d-1-100_JPG_24-C-R0150/bn-acpc-e-e3-137d-1-100_0006_3v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -94,7 +99,8 @@
                   Vocabulary. </item>
                <metamark rend="line" function="distinct"/>
                <item rend="indent-2">Dictionary of (1) Authors, (2) Books,<lb/> (3) Persons in
-                  Books, (4) Quo<pc>-</pc><lb/>tations — on the usual ref<lb/>erential basis. </item>
+                  Books, (4) Quo<pc>-</pc>
+                  <lb/>tations — on the usual ref<lb/>erential basis. </item>
                <metamark rend="line" function="distinct"/>
                <item>
                   <note rend="circled" place="margin-left" n="2">√</note> Shorthand System. </item>
@@ -104,28 +110,38 @@
                <item>Pronounciation of Foreign Languages.</item>
                <metamark rend="line" function="distinct"/>
                <item rend="indent-2">Spanish-<choice>
-                     <abbr>Port<am>.</am></abbr>
-                     <expan>Port<ex>uguese</ex></expan>
-               </choice> <choice><abbr>&amp;</abbr><expan>and</expan></choice> <choice>
-                     <abbr>Port<am>.</am></abbr>
-                     <expan>Port<ex>uguese</ex></expan>
+                     <abbr>Port<am>.</am>
+                     </abbr>
+                     <expan>Port<ex>uguese</ex>
+                     </expan>
+                  </choice>
+                  <choice>
+                     <abbr>&amp;</abbr>
+                     <expan>and</expan>
+                  </choice>
+                  <choice>
+                     <abbr>Port<am>.</am>
+                     </abbr>
+                     <expan>Port<ex>uguese</ex>
+                     </expan>
                   </choice>-Spanish<lb/>
                   <choice>
-                     <abbr>dict<am>.</am></abbr>
-                     <expan>dict<ex>ionary</ex></expan>
+                     <abbr>dict<am>.</am>
+                     </abbr>
+                     <expan>dict<ex>ionary</ex>
+                     </expan>
                   </choice> of different common words. </item>
                <metamark rend="line" function="distinct"/>
                <item>
-                  <note rend="circled" place="margin-left" n="2">√</note> Year-Books — <gap
-                     reason="illegible" unit="word" extent="1"/>
+                  <note rend="circled" place="margin-left" n="2">√</note> Year-Books — <gap reason="illegible" unit="word" extent="1"/>
                </item>
                <pb n="2"/>
                <item>ABC Condensing Code.</item>
                <metamark rend="line" function="distinct"/>
                <item>
                   <rs type="title">Anthologia (verso e prosa)</rs>
-                  <note place="margin-right">— em volumes vulgares,<lb/>meus: <supplied resp="PS"
-                        reason="omitted-in-original"/></note>
+                  <note place="margin-right">— em volumes vulgares,<lb/>meus: <supplied resp="PS" reason="omitted-in-original"/>
+                  </note>
                </item>
                <metamark rend="line" function="distinct"/>
                <item>

@@ -39,7 +39,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48C-50.xml</idno>
          </publicationStmt>
@@ -74,13 +74,19 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48c-1-50_JPG_24-C-R0150/bn-acpc-e-e3-48c-1-50_0111_50_t24-C-R0150.jpg"/>
-      <graphic
-         url="bn-acpc-e-e3-48c-1-50_JPG_24-C-R0150/bn-acpc-e-e3-48c-1-50_0112_50v_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48c-1-50_JPG_24-C-R0150/bn-acpc-e-e3-48c-1-50_0111_50_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48c-1-50_JPG_24-C-R0150/bn-acpc-e-e3-48c-1-50_0112_50v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -105,19 +111,24 @@
                <item rend="indent-2">
                   <label>4.</label> Translation of Catalogues and prospectuses into Portuguese,
                   (or<lb/> from <choice>
-                     <abbr>Port<am>.</am></abbr>
-                     <expan>Port<ex>uguese</ex></expan>
-                  </choice> into foreign languages) <note rend="circled" place="margin-right"
-                     type="addition">Extend to translation of<lb/>
+                     <abbr>Port<am>.</am>
+                     </abbr>
+                     <expan>Port<ex>uguese</ex>
+                     </expan>
+                  </choice> into foreign languages) <note rend="circled" place="margin-right" type="addition">Extend to translation of<lb/>
                      <hi rend="underline">courses</hi>, <choice>
                         <abbr>&amp;</abbr>
                         <expan>and</expan>
                      </choice> offer <seg type="anchor">services <add place="below">e. g.
-                           Payment</add></seg> for their<lb/> installation.</note></item>
+                           Payment</add>
+                     </seg> for their<lb/> installation.</note>
+               </item>
                <item rend="indent-2">
                   <label>5.</label> Obtaining of foreign advertisements for <choice>
-                     <abbr>Port<am>.</am></abbr>
-                     <expan>Port<ex>uguese</ex></expan>
+                     <abbr>Port<am>.</am>
+                     </abbr>
+                     <expan>Port<ex>uguese</ex>
+                     </expan>
                   </choice> papers – look<lb/> up (1) constant and universal foreign advertisers,
                   (2)<lb/> houses requiring foreign agents, (3) others.</item>
                <item rend="indent-2">
@@ -127,23 +138,27 @@
                   </choice> Technical Dictionary, <choice>
                      <abbr>&amp;</abbr>
                      <expan>and</expan>
-                  </choice><lb/> subscriptions (and advertisements for it).</item>
+                  </choice>
+                  <lb/> subscriptions (and advertisements for it).</item>
                <item>
-                  <label>7.</label> “<rs type="title">All about <rs type="place"
-                  >Portugal</rs></rs>”</item>
+                  <label>7.</label> “<rs type="title">All about <rs type="place">Portugal</rs>
+                  </rs>”</item>
                <item>
                   <label>8.</label> Propaganda Leaflets on <rs type="place">Portugal</rs>.</item>
                <item>
                   <label>9.</label>
-                  <rs type="title">Great Anthology</rs></item>
+                  <rs type="title">Great Anthology</rs>
+               </item>
                <item rend="indent-2">
                   <label>10.</label> Amateur Mechanic (or, complete, Enclyclopedia<lb/> Practica) –
                   in “tomos” in Portuguese.</item>
                <item>
                   <label>11.</label> In Parts – <gap reason="illegible" unit="word" extent="1"/> –
                   Short <choice>
-                     <abbr>Hist<am>.</am></abbr>
-                     <expan>Hist<ex>ory</ex></expan>
+                     <abbr>Hist<am>.</am>
+                     </abbr>
+                     <expan>Hist<ex>ory</ex>
+                     </expan>
                   </choice> of Freethought.</item>
                <item>
                   <label>12.</label> Some Encyclopedia (v. Britannica, Nelson's, Foreign’s, Chambers, etc.)</item>
@@ -153,22 +168,22 @@
                   tomos quizenais (or <hi rend="underline">volumes</hi>)</item>
                <item rend="indent-2">
                   <label>14.</label>
-                  <rs type="title">Grande Anthologia</rs>, in <seg type="anchor">Portuguese<add
-                        place="above">(não será posta à venda)</add></seg>. – Begin <hi
-                     rend="underline">Tempest</hi>. <list rend="indent">
+                  <rs type="title">Grande Anthologia</rs>, in <seg type="anchor">Portuguese<add place="above">(não será posta à venda)</add>
+                  </seg>. – Begin <hi rend="underline">Tempest</hi>. <list rend="indent">
                      <item>(<choice>
-                           <abbr>fasc<am>.</am></abbr>
-                           <expan>fasc<ex>iculos</ex></expan>
+                           <abbr>fasc<am>.</am>
+                           </abbr>
+                           <expan>fasc<ex>iculos</ex>
+                           </expan>
                         </choice> semanaes de 200, ou quinzenaes de 500)</item>
-                     <item>(too <gap reason="illegible" unit="word" extent="1"/> or <gap
-                           reason="illegible" unit="word" extent="1"/> for all Brazil;
+                     <item>(too <gap reason="illegible" unit="word" extent="1"/> or <gap reason="illegible" unit="word" extent="1"/> for all Brazil;
                         announced)</item>
-                     <item>(conta de participação com um emprego <gap reason="illegible" unit="word"
-                           extent="1"/><lb/> grande). (Buy <rs type="title">“Short History
+                     <item>(conta de participação com um emprego <gap reason="illegible" unit="word" extent="1"/>
+                        <lb/> grande). (Buy <rs type="title">“Short History
                            Library”</rs>)</item>
                      <item>(issue begins in 1921)</item>
-                     <item>(Agents in all Brazil) (one per state) (or <hi rend="underline"
-                        >one</hi><lb/> here for all Brazil)</item>
+                     <item>(Agents in all Brazil) (one per state) (or <hi rend="underline">one</hi>
+                        <lb/> here for all Brazil)</item>
                      <item>(we <gap reason="illegible" unit="word" extent="1"/> how propaganda<lb/>
                         is made)</item>
                   </list>
@@ -176,9 +191,14 @@
             </list>
             <metamark rend="line" function="distinct"/>
             <list>
-               <item rend="indent-2"><label><hi rend="underline">Anthologia</hi>
-                     <del rend="overstrike"><add place="below"><hi rend="underline"
-                           >Athena</hi></add></del> : -</label> Publicação portugueza incluindo
+               <item rend="indent-2">
+                  <label>
+                     <hi rend="underline">Anthologia</hi>
+                     <del rend="overstrike">
+                        <add place="below">
+                           <hi rend="underline">Athena</hi>
+                        </add>
+                     </del> : -</label> Publicação portugueza incluindo
                   traducções de obras completas<lb/> – de varios tamanhos, e em exacta conformação
                   com o original –<lb/> Publica-se em tomos mensaes, podendo levar annuncios em<lb/>
                   folhas de resguardo; cousa como o “Strand Magazine”.<lb/> Numeros (tomos), de 160
@@ -187,21 +207,24 @@
                   editores de toda a parte, principiando<lb/> pelos nacionaes; casa de artigos de
                   luxo; etc. (menos o<lb/> annuncio commercial) <list>
                      <item>
-                        <label><hi rend="underline">1º numero</hi>: –</label>
+                        <label>
+                           <hi rend="underline">1º numero</hi>: –</label>
                         <list>
-                           <item>“<rs type="title">A Tormenta</rs>” de <rs type="name" key="P65"
-                                 >Shakespeare</rs>.</item>
-                           <item><rs type="title">Poemas</rs> de <rs type="name" key="P24">José
+                           <item>“<rs type="title">A Tormenta</rs>” de <rs type="name" key="P65">Shakespeare</rs>.</item>
+                           <item>
+                              <rs type="title">Poemas</rs> de <rs type="name" key="P24">José
                                  Anastacio da Cunha</rs>.</item>
-                           <item><rs type="title">Alguns poemas</rs> de <rs type="name" key="P87"
-                                 >Edgar Poe</rs>.</item>
+                           <item>
+                              <rs type="title">Alguns poemas</rs> de <rs type="name" key="P87">Edgar Poe</rs>.</item>
                         </list> ´</item>
                      <item>
-                        <label><hi rend="underline">2º numero</hi>: –</label>
+                        <label>
+                           <hi rend="underline">2º numero</hi>: –</label>
                         <list>
-                           <item><rs type="title">Poemas dos velhos Cancioneiros</rs>.</item>
-                           <item>“<rs type="title">Hamlet, Principe da <rs type="place"
-                                    >Dinamarca</rs></rs>”</item>
+                           <item>
+                              <rs type="title">Poemas dos velhos Cancioneiros</rs>.</item>
+                           <item>“<rs type="title">Hamlet, Principe da <rs type="place">Dinamarca</rs>
+                              </rs>”</item>
                         </list>
                      </item>
                   </list>

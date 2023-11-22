@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48H-17<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48H-17<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48H-17r.xml</idno>
          </publicationStmt>
@@ -62,8 +63,10 @@
                      <author>
                         <rs type="name" key="FP">Fernando Pessoa</rs>
                      </author>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="pt"/>
                   </msItemStruct>
                </msContents>
@@ -76,11 +79,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0033_17_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0033_17_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -100,7 +110,9 @@
                <item>
                   <label>2.</label> Equalização do direito indigena? </item>
                <item>
-                  <label><supplied resp="PS" reason="omitted-in-original"/></label>
+                  <label>
+                     <supplied resp="PS" reason="omitted-in-original"/>
+                  </label>
                </item>
             </list>
             <metamark rend="line" function="distinct"/>
@@ -111,12 +123,16 @@
             <metamark rend="line" function="distinct"/>
             <list>
                <item>
-                  <note><hi rend="circled">3</hi></note>
-                  <label>1.</label><rs type="title">Sebastianismo</rs>. <metamark rend="line"
-                     function="distinct"/>
+                  <note>
+                     <hi rend="circled">3</hi>
+                  </note>
+                  <label>1.</label>
+                  <rs type="title">Sebastianismo</rs>. <metamark rend="line" function="distinct"/>
                   <list>
                      <item rend="indent-2">
-                        <note place="margin-left"><rs type="title">Sebastianismo</rs></note>
+                        <note place="margin-left">
+                           <rs type="title">Sebastianismo</rs>
+                        </note>
                         <label>— 1.</label> Creação do conceito<lb/>de imperio</item>
                      <item rend="indent-2">
                         <note place="margin-left">Mixtura de <lb/> fés e culturas </note>

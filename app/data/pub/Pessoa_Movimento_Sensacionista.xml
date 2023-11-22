@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Movimento_Sensacionista.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Movimento_Sensacionista_1.jpg"/>
@@ -103,8 +111,7 @@
                rasgando caminho, florindo em novos adeptos e sensibilidades acordadas.</p>
             <p rend="indent-first">Desde a data, gloriosa para as nossas lettras, em que, com a
                publicação de <rs type="periodical" key="J12">«Orpheu»</rs>, um oasis se abriu no
-               deserto da intelligencia nacional, os Espiritos, a quem <rs type="name" key="P573" style="a"
-                  >Deus</rs> concedeu que com a sua sensibilidade espontanea iniciassem o
+               deserto da intelligencia nacional, os Espiritos, a quem <rs type="name" key="P573" style="a">Deus</rs> concedeu que com a sua sensibilidade espontanea iniciassem o
                Sensacionismo, vêem, com patriotico agrado, de todos os solos do paiz, de todos os
                estratos da cultura, brotar poetas da prosa e do verso, que, levemente uns,
                vincadamente outros, alguns com consciencia, outros como que <hi rend="italic">malgré
@@ -119,8 +126,7 @@
                instancia da Hora da Raça, que, sentindo a necessidade de realisar Cosmopolis em si,
                se vira para o unico nucleo de artistas que, além de darem ao seu instincto de Chefes
                a garantia primaria de serem quasi todos homens de genio, que tomaram de nascença nas
-               mãos o pendão da Raça (ha tanto tempo bolorejando no tumulo de <rs type="name"
-                  key="P15" style="b">Camões</rs>, de <rs type="name" key="P186">Garrett</rs> ou de
+               mãos o pendão da Raça (ha tanto tempo bolorejando no tumulo de <rs type="name" key="P15" style="b">Camões</rs>, de <rs type="name" key="P186">Garrett</rs> ou de
                outros bric-à-brac), representam, manifestamente, uma pleiade luzida que nas suas
                obras enfeixa, com o maximo utilisavel do sentimento portuguez, o maximo aproveitavel
                nas actuaes correntes europêas.</p>
@@ -137,8 +143,7 @@
                «literario», acostumado ou a ser latoeiramente estrangeiro, ou a ser nacional no
                nivel da <pb n="47"/>Praça da Figueira, deu a <rs type="periodical" key="J12">«Orpheu»</rs> a
                unica honra que em taes almas cabia conferir ― a da sua invertebradamente espontanea,
-               surprehendentemente sincera aversão. Assim, no que facto publico, se <hi
-                  rend="italic">lançou</hi> o Sensacionismo. A unica propaganda que se fez foi não
+               surprehendentemente sincera aversão. Assim, no que facto publico, se <hi rend="italic">lançou</hi> o Sensacionismo. A unica propaganda que se fez foi não
                se fazer propaganda nenhuma. Gratis lhe fez esse frete a amabilidade involuntaria dos
                criticos.</p>
             <p rend="indent-first">Depois, seguro e certo como uma maré que sobe, começou o triumpho
@@ -151,8 +156,7 @@
             <milestone rend="asterisk" unit="section"/>
             <p rend="indent-first">Servem estas palavras de introdução á breve critica, que vamos
                fazer, das duas plaquettes sensacionistas, cujos titulos encimam este artigo.</p>
-            <p rend="indent-first">A breve e magistral colheita de sonetos, que o sr. <rs
-                  type="name" key="P36" style="b">Pedro de Menezes</rs> fez para o seu publico,
+            <p rend="indent-first">A breve e magistral colheita de sonetos, que o sr. <rs type="name" key="P36" style="b">Pedro de Menezes</rs> fez para o seu publico,
                marca bem a individualidade definida, que elle tem a dentro do Sensacionismo. A
                exhuberancia abstracto-concreta das imagens, a riqueza de suggestão na associação
                d’ellas, a profunda intuição metaphysica que socleia tanto os versos culminantes dos
@@ -190,8 +194,7 @@
                   <l>E a minha Alma era sempre a derradeira.</l>
                </lg>
             </lg>
-            <p rend="indent-first">Comvém não omittir que o sr. <rs type="name" key="P36" style="b"
-                  >Pedro de Menezes</rs> junta ás suas grandes qualidades dois defeitos, que, não
+            <p rend="indent-first">Comvém não omittir que o sr. <rs type="name" key="P36" style="b">Pedro de Menezes</rs> junta ás suas grandes qualidades dois defeitos, que, não
                chegando a empanal-as, certo é que não deixam que ellas tenham o relevo a que teem
                jus. O primeiro defeito é uma certa deficiencia ― por vezes accentuadamente notavel ―
                de musicalidade, de suggestão puramente syllabica, de seducção rhytmica pura. <choice>
@@ -218,8 +221,7 @@
             <p rend="indent-first">Os elementos componentes da inspiração sensacionista estão ainda
                inharmonicos e inindividualisados na, aliás interessantissima, pequena obra do sr.
                   <rs type="name" key="P478">Cabral do Nascimento</rs>. É singular que o defeito
-               capital d’esta plaquette é precisamente aquelle que ultimo apontámos na do sr. <rs
-                  type="name" key="P36">Pedro de Menezes</rs>. Aqui, porém, visto que o author,
+               capital d’esta plaquette é precisamente aquelle que ultimo apontámos na do sr. <rs type="name" key="P36">Pedro de Menezes</rs>. Aqui, porém, visto que o author,
                embora de verdade um poeta, seja ainda um principiante, o defeito tem um relevo muito
                maior, constitue, mesmo, o peccado original do livro.</p>
             <p rend="indent-first">Fóra isso, e aquella ligeira e indefinivel incerteza que ha em
@@ -239,7 +241,8 @@
                nunca poderá exceder-se; pode dar ao seu espirito todas as liberdades, que elle nunca
                tomará a de o tornar um mau poeta.</p>
             <p rend="indent-first">O resto é a literatura portugueza.</p>
-            <signed rend="right"><rs type="name" key="FP" role="author" style="a">Fernando Pessôa</rs>.<lb/>Sensacionista.</signed>
+            <signed rend="right">
+               <rs type="name" key="FP" role="author" style="a">Fernando Pessôa</rs>.<lb/>Sensacionista.</signed>
          </div>
       </body>
    </text>
@@ -317,8 +320,7 @@
                sugestão na associação delas, a profunda intuição metafísica que socleia tanto os
                versos culminantes dos sonetos desta plaquete, como, bastas vezes, a direção
                anímica de certos sonetos integralmente ― tantas são algumas das razões que um
-               espírito esclarecido e europeu encontra para admirar e amar o <hi rend="italic"
-                  >Elogio da Paisagem</hi>. Como esta crítica não é feita para analfabetos, é
+               espírito esclarecido e europeu encontra para admirar e amar o <hi rend="italic">Elogio da Paisagem</hi>. Como esta crítica não é feita para analfabetos, é
                inútil esmiuçá-la mais e fazer transcrições que, no lance, nada adiantariam. Basta
                que se aponte como são belos ― acima dos outros, que são todos belos ― os sonetos
                III (I.º), V, XIII (I.º) e, mais do que todos, o assombroso <hi rend="italic">Horas

@@ -35,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_As_algemas.xml</idno>
          </publicationStmt>
@@ -46,7 +46,9 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item><rs type="work" key="W306">As algemas</rs></item>
+               <item>
+                  <rs type="work" key="W306">As algemas</rs>
+               </item>
             </list>
             <biblStruct>
                <analytic>
@@ -57,8 +59,10 @@
                   <textLang mainLang="pt" otherLangs="en"/>
                </analytic>
                <monogr>
-                  <title level="j"><rs type="periodical" key="J101">Revista de Comércio e
-                        Contabilidade</rs></title>
+                  <title level="j">
+                     <rs type="periodical" key="J101">Revista de Comércio e
+                        Contabilidade</rs>
+                  </title>
                   <imprint>
                      <date when="1926-02-25">25 de fevereiro de 1926</date>
                   </imprint>
@@ -67,10 +71,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/As_algemas_1.jpg"/>
@@ -135,8 +147,9 @@
                progressivamente o individuo, social e economicamente, das peias do Estado. No fundo,
                a doutrina do seculo XIX ― representada em seu relevo maximo nas teorias sociais de
                   <rs type="name" key="P678">Spencer</rs> ― é uma reversão á politica da Grecia
-               Antiga, expressa ainda para nós na <rs type="title"><hi rend="italic"
-                  >Politica</hi></rs> de <rs type="name" key="P401">Aristóteles</rs> ― que o Estado
+               Antiga, expressa ainda para nós na <rs type="title">
+                  <hi rend="italic">Politica</hi>
+               </rs> de <rs type="name" key="P401">Aristóteles</rs> ― que o Estado
                existe para o individuo, e não o individuo para o Estado, excepto quando um manifesto
                de interêsse colectivo, como na guerra, compele o individuo a abdicar da sua
                liberdade em proveito da defeza da sociedade, cuja existencia, aliás, é a garantia do
@@ -281,7 +294,8 @@
                bebidas alcoolicas. E dá-se o caso, maravilhoso de ironia, de serem estes elementos
                contrabandistas que energicamente se opõem á revogação da Lei Sêca, pois que é dela
                que vivem. Afirma-se, mesmo, que, dada a poderosa influencia, eleitoral e social, do
-               Estado dos Contrabandistas, não poderá ser revogada com facilidade essa lei. Te<pc>-</pc><pb n="39"/>mos,
+               Estado dos Contrabandistas, não poderá ser revogada com facilidade essa lei. Te<pc>-</pc>
+               <pb n="39"/>mos,
                pois, como segunda conseqüencia da Lei Sêca, a substituição do comercio normal e
                honesto por um comercio anormal e deshonesto, com a agravante de êste, por ter que
                assumir uma organização poderosa para poder exercer-se, se tornar um Segundo Estado,
@@ -315,7 +329,8 @@
                como que um caso tipico visto ao microscopio: revela flagrantemente as falhas e as
                irregularidades dêle. O caso da Lei Sêca é extremo por duas razões ― porque a Lei
                Sêca é uma lei absolutamente radical, e porque, principalmente em virtude disso, o
-               Estado se viu obrigado a esforçar-se para que ela efec<pc>-</pc><pb n="40"/>tivamente se cumprisse. As leis
+               Estado se viu obrigado a esforçar-se para que ela efec<pc>-</pc>
+               <pb n="40"/>tivamente se cumprisse. As leis
                menos radicais desta ordem ― como, entre nós, a que pretendeu restringir as horas de
                consumo das bebidas alcoolicas ― naufragam na reacção surda e insistente do publico,
                que as desdenha e despreza, e no desleixo de fiscalisação do proprio Estado. Nascem
@@ -434,8 +449,7 @@
                progressivamente o indivíduo, social e economicamente, das peias do Estado. No fundo,
                a doutrina do século XIX ― representada em seu relevo máximo nas teorias sociais de
                Spencer ― é uma reversão à política da Grécia
-               Antiga, expressa ainda para nós na <hi rend="italic"
-                  >Política</hi> de Aristóteles ― que o Estado
+               Antiga, expressa ainda para nós na <hi rend="italic">Política</hi> de Aristóteles ― que o Estado
                existe para o indivíduo, e não o indivíduo para o Estado, exceto quando um manifesto
                de interesse coletivo, como na guerra, compele o indivíduo a abdicar da sua
                liberdade em proveito da defesa da sociedade, cuja existência, aliás, é a garantia do
@@ -580,7 +594,8 @@
                bebidas alcoólicas. E dá-se o caso, maravilhoso de ironia, de serem estes elementos
                contrabandistas que energicamente se opõem à revogação da Lei Seca, pois que é dela
                que vivem. Afirma-se, mesmo, que, dada a poderosa influência, eleitoral e social, do
-               Estado dos Contrabandistas, não poderá ser revogada com facilidade essa lei. Te<pc>-</pc><pb n="39"/>mos,
+               Estado dos Contrabandistas, não poderá ser revogada com facilidade essa lei. Te<pc>-</pc>
+               <pb n="39"/>mos,
                pois, como segunda consequência da Lei Seca, a substituição do comércio normal e
                honesto por um comércio anormal e desonesto, com a agravante de este, por ter que
                assumir uma organização poderosa para poder exercer-se, se tornar um Segundo Estado,
@@ -614,7 +629,8 @@
                como que um caso típico visto ao microscópio: revela flagrantemente as falhas e as
                irregularidades dele. O caso da Lei Seca é extremo por duas razões — porque a Lei
                Seca é uma lei absolutamente radical, e porque, principalmente em virtude disso, o
-               Estado se viu obrigado a esforçar-se para que ela efe<pc>-</pc><pb n="40"/>tivamente se cumprisse. As leis
+               Estado se viu obrigado a esforçar-se para que ela efe<pc>-</pc>
+               <pb n="40"/>tivamente se cumprisse. As leis
                menos radicais desta ordem — como, entre nós, a que pretendeu restringir as horas de
                consumo das bebidas alcoólicas — naufragam na reação surda e insistente do público,
                que as desdenha e despreza, e no desleixo de fiscalização do próprio Estado. Nascem

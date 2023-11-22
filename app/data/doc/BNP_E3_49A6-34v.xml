@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 49A<hi rend="superscript">6</hi>-34<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 49A<hi rend="superscript">6</hi>-34<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_49A6-34v.xml</idno>
          </publicationStmt>
@@ -73,46 +74,72 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-49a-6-1-53_JPG_24-C-R0150/bn-acpc-e-e3-49a-6-1-53_0071_34v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-49a-6-1-53_JPG_24-C-R0150/bn-acpc-e-e3-49a-6-1-53_0071_34v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Organização.</hi></head>
+            <head>
+               <hi rend="underline">Organização.</hi>
+            </head>
             <list>
-               <item><abbr>C<am>.</am> P<am>.</am></abbr> Portuguezes. <note place="margin-right"
-                     >Minas de carvão.<lb/> [Company]</note></item>
-               <item><abbr>C<am>.</am></abbr> Geral de <abbr>F<am>.</am> T<am>.</am>
-                     Exp<am>.</am></abbr></item>
+               <item>
+                  <abbr>C<am>.</am> P<am>.</am>
+                  </abbr> Portuguezes. <note place="margin-right">Minas de carvão.<lb/> [Company]</note>
+               </item>
+               <item>
+                  <abbr>C<am>.</am>
+                  </abbr> Geral de <abbr>F<am>.</am> T<am>.</am>
+                     Exp<am>.</am>
+                  </abbr>
+               </item>
                <item>Agencia Olisipo.</item>
                <metamark rend="line" function="distinct"/>
                <item>British Standard Exporter. — Agency <choice>
                      <abbr>&amp;</abbr>
                      <expan>and</expan>
                   </choice>
-                  <gap reason="illegible" unit="word" extent="1"/></item>
+                  <gap reason="illegible" unit="word" extent="1"/>
+               </item>
                <item>Periodo Commercial. <note place="margin-right">(Who are the <lb/>
-                     <gap reason="illegible" unit="word" extent="2"/>?)</note></item>
+                     <gap reason="illegible" unit="word" extent="2"/>?)</note>
+               </item>
                <item>Propaganda de <rs type="place">Portugal</rs>.</item>
             </list>
             <gap reason="selection" unit="line" extent="7"/>
             <metamark rend="line" function="distinct"/>
             <list>
-               <item><choice>
-                     <abbr>Trad<am>.</am></abbr>
-                     <expan>Trad<ex>ucção</ex></expan>
+               <item>
+                  <choice>
+                     <abbr>Trad<am>.</am>
+                     </abbr>
+                     <expan>Trad<ex>ucção</ex>
+                     </expan>
                   </choice>
                   <choice>
-                     <abbr>Dic<am>.</am></abbr>
-                     <expan>Dic<ex>cionario</ex></expan>
+                     <abbr>Dic<am>.</am>
+                     </abbr>
+                     <expan>Dic<ex>cionario</ex>
+                     </expan>
                   </choice> Technico. (carta <rs type="place">Allemanha</rs>)</item>
-               <item><del rend="overstrike"><abbr>C<am>.</am> L<am>.</am>
-                  A<am>.</am></abbr></del></item>
+               <item>
+                  <del rend="overstrike">
+                     <abbr>C<am>.</am> L<am>.</am>
+                  A<am>.</am>
+                     </abbr>
+                  </del>
+               </item>
                <item>(Translations). </item>
                <item>Send for “<rs type="title">Tempest</rs>” — <hi rend="underline">Watts.</hi>
                </item>
@@ -121,19 +148,27 @@
             <metamark rend="line" function="distinct"/>
             <gap reason="selection" unit="line" extent="2"/>
             <list>
-               <item><hi rend="underline">Frederico</hi> — <list rend="inline">
+               <item>
+                  <hi rend="underline">Frederico</hi> — <list rend="inline">
                      <item>All-In Policy</item>
-                     <item rend="indent-2">Agency for <gap reason="illegible" unit="word" extent="1"
-                        />, <rs type="place">Australia</rs>
+                     <item rend="indent-2">Agency for <gap reason="illegible" unit="word" extent="1"/>, <rs type="place">Australia</rs>
                         <choice>
                            <abbr>&amp;</abbr>
                            <expan>and</expan>
                         </choice>
                         <metamark rend="arrow-right-curved-down" target="#A1"/>
-                        <lb/><rs type="place"><choice>
-                              <abbr>N<am>.</am><expan>N<ex>ew</ex></expan></abbr>
-                           </choice> Zealand.</rs><anchor xml:id="A1"/></item>
-                  </list></item>
+                        <lb/>
+                        <rs type="place">
+                           <choice>
+                              <abbr>N<am>.</am>
+                                 <expan>N<ex>ew</ex>
+                                 </expan>
+                              </abbr>
+                           </choice> Zealand.</rs>
+                        <anchor xml:id="A1"/>
+                     </item>
+                  </list>
+               </item>
             </list>
             <gap reason="selection" unit="line" extent="1"/>
             <metamark rend="line" function="distinct"/>

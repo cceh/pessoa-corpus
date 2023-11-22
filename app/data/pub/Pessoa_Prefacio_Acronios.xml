@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Prefacio_Acronios.xml</idno>
          </publicationStmt>
@@ -59,7 +59,9 @@
                </analytic>
                <monogr>
                   <title level="m">Acrónios</title>
-                  <author><rs type="name" key="P703">Luís Pedro</rs></author>
+                  <author>
+                     <rs type="name" key="P703">Luís Pedro</rs>
+                  </author>
                   <imprint>
                      <date when="1933">1933</date>
                      <pubPlace>Lisboa</pubPlace>
@@ -71,10 +73,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Pessoa_Prefacio_Acronios_1.jpg"/>
@@ -147,7 +157,8 @@
             menos podemos dar a nós mesmos. Se me fecharem num subterraneo, tenho liberdade de fazer
             muita coisa sem risco de cahir no telhado abaixo. No telhado, em pleno ar livre, tenho
             que ver melhor onde ponho os pés. A vantagem e a desvantagem da poesia rhythmica, ou
-            livre, é que ella exige de nós que nos disci<pc>-</pc><pb n="7"/>plinemos com uma força e uma segurança que
+            livre, é que ella exige de nós que nos disci<pc>-</pc>
+            <pb n="7"/>plinemos com uma força e uma segurança que
             as poesias menos livres nos não exigiam, pois ellas mesmas tinham em si com que
             disciplinar-nos. Isto é vantagem porque a disciplina assim adquirida é mais intima e
             profunda; é desvantagem porque é muito mais difficil de adquirir.</p>
@@ -173,8 +184,10 @@
             estar certos desde o principio.</p>
          <p rend="indent-first">São estas as considerações que submetto a <rs type="name" key="P703">Luiz Pedro</rs>, que m'as
             pediu. Submetto-as tambem a varias outras pessoas, que se esqueceram de m'as pedir.</p>
-         <signed rend="right"><rs type="name" role="author" key="FP" style="b">FERNANDO
-            PESSOA</rs></signed>
+         <signed rend="right">
+            <rs type="name" role="author" key="FP" style="b">FERNANDO
+            PESSOA</rs>
+         </signed>
       </body>
    </text>
    <text type="reg" corresp="#W319">
@@ -241,7 +254,8 @@
             menos podemos dar a nós mesmos. Se me fecharem num subterrâneo, tenho liberdade de fazer
             muita coisa sem risco de cair no telhado abaixo. No telhado, em pleno ar livre, tenho
             que ver melhor onde ponho os pés. A vantagem e a desvantagem da poesia rítmica, ou
-            livre, é que ela exige de nós que nos disci<pc>-</pc><pb n="7"/>plinemos com uma força e uma segurança que
+            livre, é que ela exige de nós que nos disci<pc>-</pc>
+            <pb n="7"/>plinemos com uma força e uma segurança que
             as poesias menos livres nos não exigiam, pois elas mesmas tinham em si com que
             disciplinar-nos. Isto é vantagem porque a disciplina assim adquirida é mais íntima e
             profunda; é desvantagem porque é muito mais difícil de adquirir.</p>

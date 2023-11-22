@@ -51,29 +51,63 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-66c-1-100_JPG_24-C-R0150/bn-acpc-e-e3-66c-1-100_0199_98_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-66c-1-100_JPG_24-C-R0150/bn-acpc-e-e3-66c-1-100_0199_98_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-66c-98ar">
       <body>
-         <head><hi rend="underline">Criticos da Democracia.</hi></head>
-         <p><rs type="name">Faguet. <choice><abbr>H<am>.</am></abbr></choice><choice><abbr>G<am>.</am></abbr></choice> Wells.</rs></p>     
-         <p>Argumento (logico) sobre <hi rend="underline">limites</hi>,<lb></lb>  comprehensão, limitação<lb></lb> como criterio da realidade,<lb></lb> — 
-            Applicação d’isto ao caso <metamark rend="short line transversal" function="separation"/>da <lb></lb>democracia (e porque não aos<lb></lb> outros). </p>
+         <head>
+            <hi rend="underline">Criticos da Democracia.</hi>
+         </head>
+         <p>
+            <rs type="name">Faguet. <choice>
+                  <abbr>H<am>.</am>
+                  </abbr>
+               </choice>
+               <choice>
+                  <abbr>G<am>.</am>
+                  </abbr>
+               </choice> Wells.</rs>
+         </p>
+         <p>Argumento (logico) sobre <hi rend="underline">limites</hi>,<lb/>  comprehensão, limitação<lb/> como criterio da realidade,<lb/> — 
+            Applicação d’isto ao caso <metamark rend="short line transversal" function="separation"/>da <lb/>democracia (e porque não aos<lb/> outros). </p>
          <metamark rend="line" function="distinct"/>
-         
          <list>
-            <head><hi rend="underline">Articles on: </hi></head>   
-            <item><label>1.</label><rs type="title">Nova Aristocracia</rs> (artigo sobre<lb></lb>  <rs type="name"><choice><abbr>H<am>.</am></abbr></choice><choice><abbr>G<am>.</am></abbr></choice> Wells</rs>)</item>
-            <item><label>2.</label><rs type="title">O mysticismo portuguez.</rs></item>        
+            <head>
+               <hi rend="underline">Articles on: </hi>
+            </head>
+            <item>
+               <label>1.</label>
+               <rs type="title">Nova Aristocracia</rs> (artigo sobre<lb/>
+               <rs type="name">
+                  <choice>
+                     <abbr>H<am>.</am>
+                     </abbr>
+                  </choice>
+                  <choice>
+                     <abbr>G<am>.</am>
+                     </abbr>
+                  </choice> Wells</rs>)</item>
+            <item>
+               <label>2.</label>
+               <rs type="title">O mysticismo portuguez.</rs>
+            </item>
          </list>
          <metamark rend="line" function="distinct"/>
-         <p>Genealogias, no feminismo,<lb></lb>  etc., a <del rend="overstrike">these de</del> idea lyrica <lb></lb> de <hi rend="underline">limite</hi>
-            (que não tem<lb></lb>  cabimento lyrico na B<del rend="overstrike"><gap reason="illegible" extent="1" unit="character" />)</del> </p>          
+         <p>Genealogias, no feminismo,<lb/>  etc., a <del rend="overstrike">these de</del> idea lyrica <lb/> de <hi rend="underline">limite</hi>
+            (que não tem<lb/>  cabimento lyrico na B<del rend="overstrike">
+               <gap reason="illegible" extent="1" unit="character"/>)</del>
+         </p>
          <div/>
       </body>
    </text>

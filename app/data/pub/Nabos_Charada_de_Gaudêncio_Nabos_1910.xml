@@ -33,7 +33,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)<!-- Ainda é? --></publisher>
             <date>2023</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Nabos_Charada_de_Gaudêncio_Nabos_1910.xml</idno>
          </publicationStmt>
@@ -44,7 +44,9 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item><rs type="work" key="XX"><!-- Acrescentar key. Mudança de título? -->Charada de Gaudêncio Nabos (1910)</rs></item>
+               <item>
+                  <rs type="work" key="XX"><!-- Acrescentar key. Mudança de título? -->Charada de Gaudêncio Nabos (1910)</rs>
+               </item>
             </list>
             <biblStruct>
                <monogr>
@@ -62,10 +64,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="pub/Charada_1910_1.jpg"/>
@@ -77,8 +87,13 @@
             <docTitle>
                <titlePart type="main">NOVO ALMANACH<lb/>DE<lb/>LEMBRANÇAS<lb/>LUSO-BRAZILEIRO<lb/>PARA O ANNO DE 1910</titlePart>
             </docTitle>
-            <byline rend="center"><hi rend="italic">Director:</hi><lb/><hi rend="bold">Adriano Xavier Cordeiro</hi><lb/>Bacharel formado em direito</byline>
-            <metamark></metamark><!-- Ver possibilidades -->
+            <byline rend="center">
+               <hi rend="italic">Director:</hi>
+               <lb/>
+               <hi rend="bold">Adriano Xavier Cordeiro</hi>
+               <lb/>Bacharel formado em direito</byline>
+            <metamark/>
+            <!-- Ver possibilidades -->
             <byline rend="center">Adornado de gravuras, enriquecido com muitas<lb/>materias de utilidade publica, e com o retrato e a biographia<lb/>do fallecido escriptor brazileiro<lb/>MACHADO DE ASSIS</byline>
             <metamark rend="line"/>
             <byline rend="center">60.º ANNO DA COLLECÇÃO</byline>
@@ -124,7 +139,8 @@
             <l>Que o ar teria má composição</l>
             <l>E ficaria o sangue transformado.</l>
          </lg>
-         <signed rend="left"><hi rend="italic">Gaudencio Nabos</hi> (Lisboa).</signed>
+         <signed rend="left">
+            <hi rend="italic">Gaudencio Nabos</hi> (Lisboa).</signed>
       </body>
    </text>
    <text corresp="XXX" type="reg">
@@ -133,8 +149,13 @@
             <docTitle>
                <titlePart type="main">NOVO ALMANAQUE<lb/>DE<lb/>LEMBRANÇAS<lb/>LUSO-BRASILEIRO<lb/>PARA O ANO DE 1910</titlePart>
             </docTitle>
-            <byline rend="center"><hi rend="italic">Diretor:</hi><lb/><hi rend="bold">Adriano Xavier Cordeiro</hi><lb/>Bacharel formado em direito</byline>
-            <metamark></metamark><!-- Ver possibilidades -->
+            <byline rend="center">
+               <hi rend="italic">Diretor:</hi>
+               <lb/>
+               <hi rend="bold">Adriano Xavier Cordeiro</hi>
+               <lb/>Bacharel formado em direito</byline>
+            <metamark/>
+            <!-- Ver possibilidades -->
             <byline rend="center">Adornado de gravuras, enriquecido com muitas<lb/>matérias de utilidade pública, e com o retrato e a biografia<lb/>do falecido escritor brasileiro<lb/>MACHADO DE ASSIS</byline>
             <metamark rend="line"/>
             <byline rend="center">60.º ANO DA COLEÇÃO</byline>
@@ -180,7 +201,8 @@
             <l>Que o ar teria má composição</l>
             <l>E ficaria o sangue transformado.</l>
          </lg>
-         <signed rend="left"><hi rend="italic">Gaudêncio Nabos</hi> (Lisboa).</signed>
+         <signed rend="left">
+            <hi rend="italic">Gaudêncio Nabos</hi> (Lisboa).</signed>
       </body>
    </text>
 </TEI>

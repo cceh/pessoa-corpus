@@ -35,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_27-9E-2-2v.xml</idno>
          </publicationStmt>
@@ -53,7 +53,7 @@
                      <note type="genre">
                         <rs type="genre" key="lista_editorial">Lista editorial</rs>
                      </note>
-                     <textLang mainLang="pt" otherLangs="en" />
+                     <textLang mainLang="pt" otherLangs="en"/>
                   </msItemStruct>
                </msContents>
                <history>
@@ -65,7 +65,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-27-9-e-2-1-42_JPG_24-C-R0150/bn-acpc-e-e3-27-9-e-2-1-42_0004_2v_t24-C-R0150.jpg"/>
@@ -74,18 +82,31 @@
       <body>
          <div>
             <list>
-               <item><rs type="title">Moral metaphysica <lb/> no <gap reason="selection" unit="word" extent="1"/></rs></item>
+               <item>
+                  <rs type="title">Moral metaphysica <lb/> no <gap reason="selection" unit="word" extent="1"/>
+                  </rs>
+               </item>
                <metamark rend="line" function="distinct"/>
-               <item><rs type="title">Crença e descrença <lb/> <hi rend="underline">populares.</hi></rs></item>
+               <item>
+                  <rs type="title">Crença e descrença <lb/>
+                     <hi rend="underline">populares.</hi>
+                  </rs>
+               </item>
             </list>
             <metamark rend="line" function="distinct"/>
             <ab rend="left">O Pudor <lb/> (3 typhos)</ab>
             <ab rend="right">General. <lb/> Loriaux.</ab>
-            <ab rend="left">Lube for bath <lb/> <del rend="overstrike" n="2">Letter box.</del></ab>
+            <ab rend="left">Lube for bath <lb/>
+               <del rend="overstrike" n="2">Letter box.</del>
+            </ab>
             <list rend="center">
-               <item><del rend="overstrike">Carimbos Ibis.</del></item>
+               <item>
+                  <del rend="overstrike">Carimbos Ibis.</del>
+               </item>
                <metamark rend="line" function="distinct"/>
-               <item><del rend="overstrike">Safe.</del></item>
+               <item>
+                  <del rend="overstrike">Safe.</del>
+               </item>
             </list>
          </div>
       </body>

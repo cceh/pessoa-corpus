@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -36,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144D2-121v.xml</idno>
          </publicationStmt>
@@ -48,8 +48,7 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p> Lista manuscrita no caderno 144D<hi rend="superscript">2</hi> (cf. <ref
-                           target="http://purl.pt/13880">http://purl.pt/13880</ref>). </p>
+                     <p> Lista manuscrita no caderno 144D<hi rend="superscript">2</hi> (cf. <ref target="http://purl.pt/13880">http://purl.pt/13880</ref>). </p>
                   </summary>
                   <msItemStruct>
                      <author>
@@ -70,24 +69,37 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic url="bn-acpc-e-e3_144d2_JPG_24-C-R0150/bn-acpc-e-e3_144d2_0314_121v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3_144d2_JPG_24-C-R0150/bn-acpc-e-e3_144d2_0314_121v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Titles:</hi></head>
+            <head>
+               <hi rend="underline">Titles:</hi>
+            </head>
             <list>
-               <item><rs type="title">The Mad Fiddler</rs>. <metamark rend="space"
-                     function="distinct"/> a sub-title?</item>
-               <item><rs type="title">Odes and Songs</rs>. – <rs type="title">Poems and Songs</rs>
+               <item>
+                  <rs type="title">The Mad Fiddler</rs>. <metamark rend="space" function="distinct"/> a sub-title?</item>
+               <item>
+                  <rs type="title">Odes and Songs</rs>. – <rs type="title">Poems and Songs</rs>
                   –</item>
-               <item><rs type="title">Unrest</rs>.</item>
-               <item><rs type="title">Restlessness</rs>.</item>
-               <item><rs type="title">Uselessness</rs>.</item>
+               <item>
+                  <rs type="title">Unrest</rs>.</item>
+               <item>
+                  <rs type="title">Restlessness</rs>.</item>
+               <item>
+                  <rs type="title">Uselessness</rs>.</item>
             </list>
             <gap reason="selection" unit="line" extent="10"/>
          </div>

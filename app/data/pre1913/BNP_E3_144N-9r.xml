@@ -55,27 +55,47 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144n_JPG_24-C-R0150/bn-acpc-e-e3_144n_0019_9r_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-144n-9r">
       <body>
-         <head><hi rend="underline">Articles published or not.</hi></head>  
+         <head>
+            <hi rend="underline">Articles published or not.</hi>
+         </head>
          <list>
             <item>Popular —<rs type="place"> Lisbon</rs> —</item>
-            <item>Charadas no<rs type="periodical"> “Pimpão.””</rs></item>        
+            <item>Charadas no<rs type="periodical"> “Pimpão.””</rs>
+            </item>
             <item>Reply to “Fairplay” — “Natal Mercury.”</item>
-            <item><del rend="overstrike"><gap reason="illegible" extent="1" unit="character"/>
-            </del><rs type="periodical">D. H. S. Magazine — “Macaulay”,</rs><lb></lb> 
-            <note place= "center">— 2 Puzzles —</note></item>
-            <item>Contribution sent to<choice><abbr> M<am>.</am></abbr><expan> M<ex>an</ex></expan></choice> in Moon,<lb></lb> 
-               (Natal Mercury Office) + not accepted <lb></lb>containing 2 sonnets on the<lb></lb>
+            <item>
+               <del rend="overstrike">
+                  <gap reason="illegible" extent="1" unit="character"/>
+               </del>
+               <rs type="periodical">D. H. S. Magazine — “Macaulay”,</rs>
+               <lb/>
+               <note place="center">— 2 Puzzles —</note>
+            </item>
+            <item>Contribution sent to<choice>
+                  <abbr> M<am>.</am>
+                  </abbr>
+                  <expan> M<ex>an</ex>
+                  </expan>
+               </choice> in Moon,<lb/> 
+               (Natal Mercury Office) + not accepted <lb/>containing 2 sonnets on the<lb/>
                sarcasm irony heaped on the Russians.</item>
-           
-            </list> 
-            <div/>
+         </list>
+         <div/>
       </body>
    </text>
 </TEI>

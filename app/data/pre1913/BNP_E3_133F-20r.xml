@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 133F-20<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 133F-20<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -38,7 +39,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_133F-20r.xml</idno>
          </publicationStmt>
@@ -56,7 +57,7 @@
                      <note type="genre">
                         <rs type="genre" key="lista_editorial">Lista editorial</rs>
                      </note>
-                     <textLang mainLang="pt" />
+                     <textLang mainLang="pt"/>
                   </msItemStruct>
                </msContents>
                <history>
@@ -68,7 +69,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-133f-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133f-1-100_0039_20_t24-C-R0150.jpg"/>
@@ -77,29 +86,37 @@
       <body>
          <div>
             <list>
-               <head><hi rend="underline">Academia dos Alienados</hi></head>
+               <head>
+                  <hi rend="underline">Academia dos Alienados</hi>
+               </head>
                <item>
                   <label>1.</label>
                   <choice>
-                     <abbr>Trad<am>.</am></abbr>
+                     <abbr>Trad<am>.</am>
+                     </abbr>
                      <expan>Trad<ex>ucção</ex>
                      </expan>
                   </choice> de
                   “<rs type="title">
                      <rs type="name" key="P12">
                         <choice>
-                           <abbr>Nap<am>.</am></abbr>
-                           <expan>Nap<ex>oleão</ex></expan>
-                        </choice></rs> nunca existiu</rs>”
+                           <abbr>Nap<am>.</am>
+                           </abbr>
+                           <expan>Nap<ex>oleão</ex>
+                           </expan>
+                        </choice>
+                     </rs> nunca existiu</rs>”
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
                   <label>2.</label>
                   <rs type="title">Da 
                   <choice>
-                     <abbr>Imposs<am>.</am></abbr>
-                     <expan>Imposs<ex>ibilidade</ex></expan>
-                  </choice> de lêr um livro</rs>.
+                        <abbr>Imposs<am>.</am>
+                        </abbr>
+                        <expan>Imposs<ex>ibilidade</ex>
+                        </expan>
+                     </choice> de lêr um livro</rs>.
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
@@ -111,9 +128,12 @@
                   <label>4.</label>
                   <rs type="title">Diario d’um 
                   <choice>
-                     <abbr>Rot<am>.</am></abbr>
-                     <expan>Rot<ex>ativo</ex></expan>
-                  </choice></rs>.
+                        <abbr>Rot<am>.</am>
+                        </abbr>
+                        <expan>Rot<ex>ativo</ex>
+                        </expan>
+                     </choice>
+                  </rs>.
                </item>
                <metamark rend="line" function="distinct"/>
                <item>

@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Um_Camisa_Branca.xml</idno>
          </publicationStmt>
@@ -67,10 +67,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Um_Camisa_Branca_1.jpg"/>
@@ -79,7 +87,7 @@
    <text type="orig" corresp="#W298">
       <body>
          <div>
-                 <pb/>
+            <pb/>
             <head>Um "Camisa Branca"</head>
             <head type="sub">O “Duce" <rs type="name" key="P579">Mussolini</rs> é um louco...
                     <lb/>afirma-o ao “<rs type="periodical" key="J10">SOL</rs>" um italiano culto
@@ -109,7 +117,7 @@
                <hi rend="bold">Os italianos não são ridiculos...</hi>
             </p>
             <p rend="indent-first">
-                    <said who="H_Angioletti">Nós, os italianos, temos — permita-me que o diga — grandes
+               <said who="H_Angioletti">Nós, os italianos, temos — permita-me que o diga — grandes
                     qualidades, mas o sentimento do ridiculo não se inclue entre elas, nem nenhum
                     dos numerosos amigos, que a Italia tem sempre tido no estrangeiro, alguma vez
                     nos atribuiu um humorismo de inglez ou uma graça de francez. Isto lhe explica,
@@ -118,9 +126,9 @@
                     caricaturistas sem assunto, sobre um mundo que, devo dizer-lhe, o admira por o
                     que conhece dele, e porque não o conhece a ele, nem á Italia.</said>
             </p>
-                 <p rend="indent-first">—V. Ex.ᵃ disse «o paranoico genial»?</p>
+            <p rend="indent-first">—V. Ex.ᵃ disse «o paranoico genial»?</p>
             <p rend="indent-first">
-                    <said who="H_Angioletti">—Sim — genial como paranoico. Isso não exclue que se lhe
+               <said who="H_Angioletti">—Sim — genial como paranoico. Isso não exclue que se lhe
                     possa chamar um grande homem. A toda a gente que destaca do rebanho humano se
                     pode chamar grande, porisso mesmo que se destacou... <rs type="name" key="P579">Mussolini</rs> é um louco — desafio qualquer psiquiatra a negá-lo — mas a
                     loucura, como muita gente não sabe, é contagiosa em muitas das suas formas, e
@@ -137,7 +145,7 @@
             <p rend="indent-first">O anti-fascista continuou, respondendo, com uma intuição
                     quasi de bruxedo, a qualquer coisa que não havíamos perguntado:</p>
             <p rend="indent-first">
-                    <said who="H_Angioletti">—Tem-se dito muito contra o fascismo. Mas o que se tem dito
+               <said who="H_Angioletti">—Tem-se dito muito contra o fascismo. Mas o que se tem dito
                     contra o fascismo é o que de menos importante se pode dizer contra ele.
                     Violencias? É o que ha de menos importancia real no fascismo. Todos os partidos
                     esforçadamente politicos as exercem desde que as circunstancias sociais lhes
@@ -148,12 +156,12 @@
                     ilusão chamada poder. O que ha de verdadeiramente grave no fascismo não está nas
                     suas violencias...</said>
             </p>
-                 <p rend="indent-first">—Compreendo. Está nas suas doutrinas?...</p>
-                 <p rend="indent-first">—<said who="H_Angioletti">Não, não está nas suas doutrinas. Está, essencialmente, na
+            <p rend="indent-first">—Compreendo. Está nas suas doutrinas?...</p>
+            <p rend="indent-first">—<said who="H_Angioletti">Não, não está nas suas doutrinas. Está, essencialmente, na
                     sua exaltação da Italia.</said>
             </p>
-                 <p rend="indent-first">—?</p>
-                 <p rend="indent-first">—<said who="H_Angioletti">Não me compreendeu? Eu não esperava que me compreendesse...
+            <p rend="indent-first">—?</p>
+            <p rend="indent-first">—<said who="H_Angioletti">Não me compreendeu? Eu não esperava que me compreendesse...
                     Eu lhe explico, sem lhe tomar muito tempo; e, se quere saber o pior contra o
                     regime fascista, vai agora ouvir o pior.</said>
             </p>
@@ -184,11 +192,11 @@
                <hi rend="bold">… O mundo é dirigido por forças
                         especiaes...</hi>
             </p>
-                 <p rend="indent-first">Qualquer coisa no tom do nosso entrevistado — uma hesitação
+            <p rend="indent-first">Qualquer coisa no tom do nosso entrevistado — uma hesitação
                          subtil, uma vaga indecisão — prende-nos de repente. E de repente
                     perguntámos:</p>
-                 <pb/>
-                 <p rend="indent-first">—Mas <rs type="name" key="P579">Mussolini</rs> será tão louco
+            <pb/>
+            <p rend="indent-first">—Mas <rs type="name" key="P579">Mussolini</rs> será tão louco
                     como isso? <rs type="name" key="P579">Mussolini</rs> fará isso tudo por engano,
                     inconscientemente?</p>
             <p rend="indent-first">Pela face do anti-fascista passa qualquer coisa que foi quasi
@@ -196,7 +204,7 @@
                     tristeza. Ergue um pouco a cabeça, que descaira, e diz:</p>
             <p rend="indent-first">
                <said who="H_Angioletti">
-                       <hi rend="italic">—O mundo é dirigido por forças especiais—
+                  <hi rend="italic">—O mundo é dirigido por forças especiais—
                                muito especiais mesmo</hi> — de que o fascismo é apenas uma manifestação
                     particular. Entre o que se passa hoje na China e o que se passa hoje na Italia
                     ha uma relação intima, que, no fundo, e nos elementos verdadeiramente dirigentes
@@ -204,7 +212,7 @@
                     atenção para o que lhe estou dizendo, e a sua recordação, de aqui a dez anos, de
                     que hoje lho disse... V. é novo; não poderá deixar de ser vivo nessa altura.</said>
             </p>
-                 <p rend="indent-first">—Não percebo…</p>
+            <p rend="indent-first">—Não percebo…</p>
             <p rend="indent-first">O anti-fascista abriu uma gaveta, tirou de lá uma pasta, e,
                     de entre os papeis que nela estavam, escolheu um recorte de jornal. Logo á
                     primeira vista nos pareceu que era um jornal português. Á segunda vista vimos
@@ -245,20 +253,20 @@
                <hi rend="bold">Uma noticia que não foi
                     desmentida...</hi>
             </p>
-                 <p rend="indent-first">—Mas, perguntámos nós, o que quere isto dizer? Esta noticia
+            <p rend="indent-first">—Mas, perguntámos nós, o que quere isto dizer? Esta noticia
                     foi desmentida?</p>
             <p rend="indent-first">O anti-fascista encolheu os hombros</p>
             <p rend="indent-first">
-                    <said who="H_Angioletti">—Não foi, nem poderia ser, desmentida. E não foi desmentida
+               <said who="H_Angioletti">—Não foi, nem poderia ser, desmentida. E não foi desmentida
                     precisamente porque o não poderia ser...</said>
             </p>
-                 <p rend="indent-first">—Mas V. Ex.ᵃ diz que <rs type="name" key="P579">Mussolini</rs>…</p>
-                 <p rend="indent-first">—<said who="H_Angioletti">Faça de conta que eu não disse nada... Ou, melhor, faça de
+            <p rend="indent-first">—Mas V. Ex.ᵃ diz que <rs type="name" key="P579">Mussolini</rs>…</p>
+            <p rend="indent-first">—<said who="H_Angioletti">Faça de conta que eu não disse nada... Ou, melhor, faça de
                     conta que lhe disse apenas aquilo que lhe vou repetir: o mundo é dirigido por
                     forças especiais, de que o fascismo é apenas uma manifestação particular.</said>
             </p>
-                 <p rend="indent-first">—E a Italia?</p>
-                 <p rend="indent-first">—<said who="H_Angioletti">A Italia é eterna. É a mãe sublime das artes e a
+            <p rend="indent-first">—E a Italia?</p>
+            <p rend="indent-first">—<said who="H_Angioletti">A Italia é eterna. É a mãe sublime das artes e a
                     fecundadora das sciencias. O seu esforço arrancou a Europa da baixeza de si
                     mesma e ungiu-se com o oleo sacro que dá o conhecimento da beleza e a luxuria da
                     compreensão. A Italia está acima dos <rs type="name" key="P148">Cesares</rs> que
@@ -272,7 +280,7 @@
    </text>
    <text type="reg" corresp="#W298">
       <body>
-              <pb/>
+         <pb/>
          <div>
             <head>Um "Camisa Branca"</head>
             <head type="sub">O “Duce" Mussolini é um louco...
@@ -303,7 +311,7 @@
                <hi rend="bold">Os italianos não são ridículos...</hi>
             </p>
             <p rend="indent-first">
-                    <said who="H_Angioletti">Nós, os italianos, temos — permita-me que o diga — grandes
+               <said who="H_Angioletti">Nós, os italianos, temos — permita-me que o diga — grandes
                     qualidades, mas o sentimento do ridículo não se inclui entre elas, nem nenhum
                     dos numerosos amigos, que a Itália tem sempre tido no estrangeiro, alguma vez
                     nos atribuiu um humorismo de inglês ou uma graça de francês. Isto lhe explica,
@@ -312,9 +320,9 @@
                     caricaturistas sem assunto, sobre um mundo que, devo dizer-lhe, o admira por o
                     que conhece dele, e porque não o conhece a ele, nem à Itália.</said>
             </p>
-                 <p rend="indent-first">— V. Ex.ᵃ disse «o paranoico genial»?</p>
+            <p rend="indent-first">— V. Ex.ᵃ disse «o paranoico genial»?</p>
             <p rend="indent-first">
-                    <said who="H_Angioletti">— Sim — genial como paranoico. Isso não exclui que se lhe
+               <said who="H_Angioletti">— Sim — genial como paranoico. Isso não exclui que se lhe
                     possa chamar um grande homem. A toda a gente que destaca do rebanho humano se
                     pode chamar grande, por isso mesmo que se destacou... Mussolini é um louco — desafio qualquer psiquiatra a negá-lo — mas a
                     loucura, como muita gente não sabe, é contagiosa em muitas das suas formas, e
@@ -331,7 +339,7 @@
             <p rend="indent-first">O antifascista continuou, respondendo, com uma intuição
                     quase de bruxedo, a qualquer coisa que não havíamos perguntado:</p>
             <p rend="indent-first">
-                    <said who="H_Angioletti">— Tem-se dito muito contra o fascismo. Mas o que se tem dito
+               <said who="H_Angioletti">— Tem-se dito muito contra o fascismo. Mas o que se tem dito
                     contra o fascismo é o que de menos importante se pode dizer contra ele.
                     Violências? É o que há de menos importância real no fascismo. Todos os partidos
                     esforçadamente políticos as exercem desde que as circunstâncias sociais lhes
@@ -342,12 +350,12 @@
                     ilusão chamada poder.. O que há de verdadeiramente grave no fascismo não está nas
                     suas violências...</said>
             </p>
-                 <p rend="indent-first">— Compreendo. Está nas suas doutrinas?...</p>
-                 <p rend="indent-first">— <said who="H_Angioletti">Não, não está nas suas doutrinas. Está, essencialmente, na
+            <p rend="indent-first">— Compreendo. Está nas suas doutrinas?...</p>
+            <p rend="indent-first">— <said who="H_Angioletti">Não, não está nas suas doutrinas. Está, essencialmente, na
                     sua exaltação da Itália.</said>
             </p>
-                 <p rend="indent-first">— ?</p>
-                 <p rend="indent-first">— <said who="H_Angioletti">Não me compreendeu? Eu não esperava que me compreendesse...
+            <p rend="indent-first">— ?</p>
+            <p rend="indent-first">— <said who="H_Angioletti">Não me compreendeu? Eu não esperava que me compreendesse...
                     Eu lhe explico, sem lhe tomar muito tempo; e, se quer saber o pior contra o
                     regime fascista, vai agora ouvir o pior.</said>
             </p>
@@ -378,11 +386,11 @@
                <hi rend="bold">… O mundo é dirigido por forças
                         especiais...</hi>
             </p>
-                 <p rend="indent-first">Qualquer coisa no tom do nosso entrevistado — uma hesitação
+            <p rend="indent-first">Qualquer coisa no tom do nosso entrevistado — uma hesitação
                          subtil, uma vaga indecisão — prende-nos de repente. E de repente
                     perguntámos:</p>
-                 <pb/>
-                 <p rend="indent-first">— Mas Mussolini será tão louco
+            <pb/>
+            <p rend="indent-first">— Mas Mussolini será tão louco
                     como isso? Mussolini fará isso tudo por engano,
                     inconscientemente?</p>
             <p rend="indent-first">Pela face do antifascista passa qualquer coisa que foi quase
@@ -390,7 +398,7 @@
                     tristeza. Ergue um pouco a cabeça, que descaíra, e diz:</p>
             <p rend="indent-first">
                <said who="H_Angioletti">
-                       <hi rend="italic">— O mundo é dirigido por forças especiais —
+                  <hi rend="italic">— O mundo é dirigido por forças especiais —
                                muito especiais mesmo</hi> — de que o fascismo é apenas uma manifestação
                     particular. Entre o que se passa hoje na China e o que se passa hoje na Itália
                     há uma relação íntima, que, no fundo, e nos elementos verdadeiramente dirigentes
@@ -398,7 +406,7 @@
                     atenção para o que lhe estou dizendo, e a sua recordação, de aqui a dez anos, de
                     que hoje lho disse... V. é novo; não poderá deixar de ser vivo nessa altura.</said>
             </p>
-                 <p rend="indent-first">— Não percebo…</p>
+            <p rend="indent-first">— Não percebo…</p>
             <p rend="indent-first">O antifascista abriu uma gaveta, tirou de lá uma pasta, e,
                     de entre os papéis que nela estavam, escolheu um recorte de jornal. Logo à
                     primeira vista nos pareceu que era um jornal português. À segunda vista vimos
@@ -438,20 +446,20 @@
                <hi rend="bold">Uma notícia que não foi
                     desmentida...</hi>
             </p>
-                 <p rend="indent-first">— Mas, perguntámos nós, o que quer isto dizer? Esta notícia
+            <p rend="indent-first">— Mas, perguntámos nós, o que quer isto dizer? Esta notícia
                     foi desmentida?</p>
             <p rend="indent-first">O antifascista encolheu os ombros</p>
             <p rend="indent-first">
-                    <said who="H_Angioletti">— Não foi, nem poderia ser, desmentida. E não foi desmentida
+               <said who="H_Angioletti">— Não foi, nem poderia ser, desmentida. E não foi desmentida
                     precisamente porque o não poderia ser...</said>
             </p>
             <p rend="indent-first">— Mas V. Ex.ᵃ diz que Mussolini…</p>
-                 <p rend="indent-first">— <said who="H_Angioletti">Faça de conta que eu não disse nada... Ou, melhor, faça de
+            <p rend="indent-first">— <said who="H_Angioletti">Faça de conta que eu não disse nada... Ou, melhor, faça de
                     conta que lhe disse apenas aquilo que lhe vou repetir: o mundo é dirigido por
                     forças especiais, de que o fascismo é apenas uma manifestação particular.</said>
             </p>
-                 <p rend="indent-first">— E a Itália?</p>
-                 <p rend="indent-first">— <said who="H_Angioletti">A Itália é eterna. É a mãe sublime das artes e a
+            <p rend="indent-first">— E a Itália?</p>
+            <p rend="indent-first">— <said who="H_Angioletti">A Itália é eterna. É a mãe sublime das artes e a
                     fecundadora das ciências. O seu esforço arrancou a Europa da baixeza de si
                     mesma e ungiu-se com o óleo sacro que dá o conhecimento da beleza e a luxúria da
                     compreensão. A Itália está acima dos Césares que

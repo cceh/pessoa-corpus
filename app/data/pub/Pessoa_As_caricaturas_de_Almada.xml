@@ -19,7 +19,7 @@
             <respStmt>
                <resp>Codificação, Atualização ortográfica</resp>
                <name>Inês Filipa Rebelo do Carmo</name>
-            </respStmt>       
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_As_caricaturas_de_Almada.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/As_caricaturas_1.jpg"/>
@@ -116,7 +124,7 @@
                   <hi rend="italic">A Tale of a
                         Tub</hi>
                </rs> a pedirem que os citemos como exemplos.</p>
-                 <p rend="indent-first">Não se julgue porém que isto — mera constatação — leva
+            <p rend="indent-first">Não se julgue porém que isto — mera constatação — leva
                     escondido o puxar para despresivel a arte de satirizar. N’essa arte, como na
                     outra, pode haver, e em cada um dos seus trez generos, brilhantismo, talento e
                     genio. Pode haver mesmo um artista genial em nos dar o interesse futil das
@@ -168,7 +176,7 @@
                     maneiras na futilidade da Vida, apanhando-lhe ora este, ora aquelle, momento de
                     espuma, sem consciencia, infelizmente, de que essa espuma é a orla de um mar
                     antigo, vasto e misterioso.</p>
-                 <p rend="indent-first">E o seu polymorphismo — a que attribuil-o, cingindo-nos
+            <p rend="indent-first">E o seu polymorphismo — a que attribuil-o, cingindo-nos
                     criticamente só a elle? Será polyaptidão do artista, incerteza em encontrar-se,
                     ou uma assemelhavel imitação ou adaptação a varios generos? Creio na Synthese,
                     sempre, e aqui ella vem em meu auxilio. Porque me parece que de todos estes trez
@@ -215,7 +223,7 @@
                     menos satírica. Aí estão o <hi rend="italic">Dom
                         Quixote</hi> e <hi rend="italic">A Tale of a
                         Tub</hi> a pedirem que os citemos como exemplos.</p>
-                 <p rend="indent-first">Não se julgue porém que isto — mera constatação — leva
+            <p rend="indent-first">Não se julgue porém que isto — mera constatação — leva
                     escondido o puxar para desprezível a arte de satirizar. Nessa arte, como na
                     outra, pode haver, e em cada um dos seus três géneros, brilhantismo, talento e
                     génio. Pode haver mesmo um artista genial em nos dar o interesse fútil das
@@ -266,7 +274,7 @@
                     maneiras na futilidade da Vida, apanhando-lhe ora este, ora aquele, momento de
                     espuma, sem consciência, infelizmente, de que essa espuma é a orla de um mar
                     antigo, vasto e misterioso.</p>
-                 <p rend="indent-first">E o seu polimorfismo — a que atribuí-lo, cingindo-nos
+            <p rend="indent-first">E o seu polimorfismo — a que atribuí-lo, cingindo-nos
                     criticamente só a ele? Será poliaptidão do artista, incerteza em encontrar-se,
                     ou uma assemelhável imitação ou adaptação a varios géneros? Creio na Síntese,
                     sempre, e aqui ela vem em meu auxílio. Porque me parece que de todos estes três

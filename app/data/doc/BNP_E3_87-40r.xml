@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 87-40<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 87-40<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_87-40r.xml</idno>
          </publicationStmt>
@@ -77,44 +78,70 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-87-1-103_JPG_24-C-R0150/bn-acpc-e-e3-87-1-103_0093_40_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-87-1-103_JPG_24-C-R0150/bn-acpc-e-e3-87-1-103_0093_40_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <list>
-               <head><hi rend="underline"><rs type="periodical" key="J12">Orpheu</rs> do Vigesimo
-                     Anno.</hi></head>
+               <head>
+                  <hi rend="underline">
+                     <rs type="periodical" key="J12">Orpheu</rs> do Vigesimo
+                     Anno.</hi>
+               </head>
                <item>
                   <label>1.</label>
                   <choice>
-                     <abbr><metamark rend="space" function="placeholder"/></abbr>
-                     <expan><supplied resp="PS" reason="omitted-in-original"/></expan>
+                     <abbr>
+                        <metamark rend="space" function="placeholder"/>
+                     </abbr>
+                     <expan>
+                        <supplied resp="PS" reason="omitted-in-original"/>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <label>2.</label>
                   <choice>
-                     <abbr><metamark rend="space" function="placeholder"/></abbr>
-                     <expan><supplied resp="PS" reason="omitted-in-original"/></expan>
+                     <abbr>
+                        <metamark rend="space" function="placeholder"/>
+                     </abbr>
+                     <expan>
+                        <supplied resp="PS" reason="omitted-in-original"/>
+                     </expan>
                   </choice>
                </item>
                <item>
                   <label>3.</label>
                   <choice>
-                     <abbr><metamark rend="space" function="placeholder"/></abbr>
-                     <expan><supplied resp="PS" reason="omitted-in-original"/></expan>
+                     <abbr>
+                        <metamark rend="space" function="placeholder"/>
+                     </abbr>
+                     <expan>
+                        <supplied resp="PS" reason="omitted-in-original"/>
+                     </expan>
                   </choice>
                </item>
                <item rend="indent-2">
                   <label>4.</label>
                   <choice>
-                     <abbr><metamark rend="space" function="placeholder"/></abbr>
-                     <expan><supplied resp="PS" reason="omitted-in-original"/></expan>
+                     <abbr>
+                        <metamark rend="space" function="placeholder"/>
+                     </abbr>
+                     <expan>
+                        <supplied resp="PS" reason="omitted-in-original"/>
+                     </expan>
                   </choice> — <rs type="name" key="P80">Angelo de Lima</rs>,<lb/>
                   <note>(in fine)</note>
                </item>

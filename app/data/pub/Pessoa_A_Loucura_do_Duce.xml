@@ -31,17 +31,13 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_A_Loucura_do_Duce.xml</idno>
          </publicationStmt>
          <notesStmt>
-            <note type="summary" resp="JU">Texto atribuído a Pessoa por José Barreto (<ref
-                  target="http://www.pessoadigital.pt/pt/bibliography/About_the_work_of_Fernando_Pessoa#Barreto_2012"
-                  >Barreto, 2012, pp. 225-252</ref>), com base na lista de projetos <ref
-                  target="http://www.pessoadigital.pt/pt/doc/BNP_E3_189r">BNP 189</ref>, que por sua
-               vez é material preparatório da <ref
-                  target="http://www.pessoadigital.pt/pt/pub/Pessoa_Tabua_Bibliografica_FPessoa">
+            <note type="summary" resp="JU">Texto atribuído a Pessoa por José Barreto (<ref target="http://www.pessoadigital.pt/pt/bibliography/About_the_work_of_Fernando_Pessoa#Barreto_2012">Barreto, 2012, pp. 225-252</ref>), com base na lista de projetos <ref target="http://www.pessoadigital.pt/pt/doc/BNP_E3_189r">BNP 189</ref>, que por sua
+               vez é material preparatório da <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Tabua_Bibliografica_FPessoa">
                   ʺTábua Bibliográficaʺ</ref>, publicada na revista <hi rend="italic">Presença</hi>
                em Dezembro de 1928. Contudo, não é possível determinar se todo o texto é da autoria
                de Pessoa ou só a carta e a sua tradução. Algumas linhas da introdução sugerem também
@@ -75,10 +71,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/A_loucura_do_duce.jpg"/>
@@ -125,8 +129,7 @@
                      jornal que os «camisas brancas» se macularão de negro nem que o óleo de ricino
                      se ministrará como ridicula arma a adversários que se acolheram á tradicional
                      hospitalidade portuguesa.</p>
-                  <p rend="indent-first">Esteve em Lisboa o sr. <rs type="name" key="P578"
-                     >Gray</rs>. Deu-se o estranho facto de vir a Portugal em propaganda da politica
+                  <p rend="indent-first">Esteve em Lisboa o sr. <rs type="name" key="P578">Gray</rs>. Deu-se o estranho facto de vir a Portugal em propaganda da politica
                      interna do seu país e de escolher para local dessa campanha o edificio onde se
                      vai instalar a Legação de Italia.</p>
                   <p rend="indent-first">Anunciou-se essa conferencia só para italianos; mas a ela
@@ -142,8 +145,7 @@
             <div>
                <head>Uma carta do dr. <rs type="name" key="P374">Angioletti</rs>
                </head>
-               <p rend="indent-first">Já depois de composto o artigo acima, recebemos do sr. dr. <rs
-                     type="name" key="P374">Giovanni B. Angioletti</rs> a seguinte carta, a que
+               <p rend="indent-first">Já depois de composto o artigo acima, recebemos do sr. dr. <rs type="name" key="P374">Giovanni B. Angioletti</rs> a seguinte carta, a que
                   damos imediata publicidade, no original e na tradução literal que dela
                   fizémos:</p>
                <floatingText type="letter">
@@ -163,8 +165,7 @@
                            <hi rend="italic">Je vous prie, toutefois, de rectifier une petite
                               erreur, dont je ne m’explique pas l’origine. Je n’ai jamais collaboré
                               au </hi>
-                           <rs type="periodical" key="J6">Mercure de France</rs>; <hi rend="italic"
-                              >je le lis même très rarement. Je me hâte de vous signaler cette
+                           <rs type="periodical" key="J6">Mercure de France</rs>; <hi rend="italic">je le lis même très rarement. Je me hâte de vous signaler cette
                               erreur et de vous en demander la correction, parce qu’il peut se faire
                               qu’il y ait en effet un <rs type="name" key="P374">Angioletti</rs>, ou
                               quelque chose de semblable, qui soit collaborateur du</hi>
@@ -173,8 +174,7 @@
                               dans l’espirit de votre rédacteur. Et ce serait faire un assez mauvais
                               service à cet homonyme inconnu que de l’exposer — peut-être vit-il en
                               Italie — aux représailles criminelles, aux violences sinistres dont se
-                              compose la logique essentielle des serfs du <rs type="name" key="P580"
-                                 >Cesar Borgia</rs>.</hi>
+                              compose la logique essentielle des serfs du <rs type="name" key="P580">Cesar Borgia</rs>.</hi>
                         </p>
                         <p rend="indent-first">
                            <hi rend="italic">Je viens de lire aussi, dans un journal qui n’est pas
@@ -187,9 +187,10 @@
                               remerciments, l’assurance de mes sentiments les plus distingués.</hi>
                         </p>
                         <signed rend="align-right">
-                           <hi rend="italic"><rs type="name" key="P374"
-                              ><!-- JU: I think this is shorthand for pseudonym and in that case we will have to expand-->(a)
-                              G. B. ANGIOLETTI</rs></hi>
+                           <hi rend="italic">
+                              <rs type="name" key="P374"><!-- JU: I think this is shorthand for pseudonym and in that case we will have to expand-->(a)
+                              G. B. ANGIOLETTI</rs>
+                           </hi>
                         </signed>
                      </div>
                   </body>
@@ -210,17 +211,14 @@
                         <p rend="indent-first">
                            <hi rend="italic">Peço-vos, comtudo, que rectifiqueis um pequeno êrro,
                               cuja origem não sei qual fôsse. Nunca colaborei no</hi>
-                           <rs type="periodical" key="J6">Mercure de France</rs>; <hi rend="italic"
-                              >raras vezes, mesmo, o leio. Apresso-me, porém, em vos indicar este
+                           <rs type="periodical" key="J6">Mercure de France</rs>; <hi rend="italic">raras vezes, mesmo, o leio. Apresso-me, porém, em vos indicar este
                               êrro, e em vos pedir que o corrijais, porque pode dar-se o caso de
                               haver, de facto, um <rs type="name" key="P374">Angioletti</rs>, ou
-                              qualquer coisa parecida, que seja colaborador do</hi> Mercure. <hi
-                              rend="italic">Está nisso, talvez, a origem da falsa identificação que
+                              qualquer coisa parecida, que seja colaborador do</hi> Mercure. <hi rend="italic">Está nisso, talvez, a origem da falsa identificação que
                               se estabeleceu no espirito do vosso redactor. E seria prestar um
                               serviço bastante mau a esse homónimo desconhecido o expô-lo – talvez
                               ele viva em Italia – ás represálias criminais, ás violencias
-                              sinistras, de que se compõe a lógica essencial dos servos do <rs
-                                 type="name" key="P580">Cesar Borgia</rs>.</hi>
+                              sinistras, de que se compõe a lógica essencial dos servos do <rs type="name" key="P580">Cesar Borgia</rs>.</hi>
                         </p>
                         <p rend="indent-first">
                            <hi rend="italic">Acabo de ler tambem, num jornal que não é o vosso, que
@@ -233,9 +231,11 @@
                               afirmação da minha maior consideração.</hi>
                         </p>
                         <signed rend="align-right">
-                           <!-- JU: I think this is shorthand for pseudonym-->(a) <hi rend="italic"><rs type="name" key="P374"
-                              >G. B.
-                              ANGIOLETTI</rs></hi></signed>
+                           <!-- JU: I think this is shorthand for pseudonym-->(a) <hi rend="italic">
+                              <rs type="name" key="P374">G. B.
+                              ANGIOLETTI</rs>
+                           </hi>
+                        </signed>
                      </div>
                   </body>
                </floatingText>
@@ -336,7 +336,8 @@
                               remerciments, l’assurance de mes sentiments les plus distingués.</hi>
                         </p>
                         <signed rend="align-right"><!-- JU: I think this is shorthand for pseudonym and in that case we will have to expand-->(a)
-                           <hi rend="italic">G. B. ANGIOLETTI</hi></signed>
+                           <hi rend="italic">G. B. ANGIOLETTI</hi>
+                        </signed>
                      </div>
                   </body>
                </floatingText>
@@ -377,7 +378,8 @@
                               afirmação da minha maior consideração.</hi>
                         </p>
                         <signed rend="align-right"><!-- JU: I think this is shorthand for pseudonym-->(a) <hi rend="italic">G. B.
-                           ANGIOLETTI</hi></signed>
+                           ANGIOLETTI</hi>
+                        </signed>
                      </div>
                   </body>
                </floatingText>

@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48B-109<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48B-109<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48B-109r.xml</idno>
          </publicationStmt>
@@ -73,25 +74,34 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0224_109_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0224_109_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <gap reason="selection" unit="line" extent="3"/>
             <metamark rend="line" function="distinct"/>
-            <head><hi rend="underline">No. 1</hi> – 1<subst>
+            <head>
+               <hi rend="underline">No. 1</hi> – 1<subst>
                   <del rend="overtyped">7</del>
                   <add place="above">0</add>
                </subst>
                <choice>
-                  <abbr>pag<am>.</am></abbr>
-                  <expan>pag<ex>inas</ex></expan>
+                  <abbr>pag<am>.</am>
+                  </abbr>
+                  <expan>pag<ex>inas</ex>
+                  </expan>
                </choice>
             </head>
             <list>
@@ -100,13 +110,18 @@
                   <rs type="title">O Corvo</rs> – 4.</item>
                <item>
                   <label>2.</label>
-                  <rs type="name" key="P81"><choice>
-                        <abbr>M<am>.</am></abbr>
-                        <expan>M<ex>anuel</ex></expan>
+                  <rs type="name" key="P81">
+                     <choice>
+                        <abbr>M<am>.</am>
+                        </abbr>
+                        <expan>M<ex>anuel</ex>
+                        </expan>
                      </choice> da Veiga</rs> – 2.</item>
                <item>
                   <label>3.</label>
-                  <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Gladio"><rs type="title">Gladio</rs></ref> – 1.</item>
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Gladio">
+                     <rs type="title">Gladio</rs>
+                  </ref> – 1.</item>
                <item>
                   <label>4.</label>
                   <rs type="name" key="P161">O’Shaughnessy</rs> – <subst>
@@ -119,45 +134,64 @@
                   <rs type="title">O celebre soneto mystico</rs>. – 1 </item>
                <item>
                   <label>6.</label>
-                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP"><subst>
-                        <del rend="overstrike">Uma cousa do Frei <gap reason="illegible" extent="1"
-                              unit="word"/> – 2</del>
+                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP">
+                     <subst>
+                        <del rend="overstrike">Uma cousa do Frei <gap reason="illegible" extent="1" unit="word"/> – 2</del>
                         <add place="above">
                            <rs type="name" key="P30">Mario de Sá-Carneiro</rs> – 2
-                              (Caranguejola)<metamark rend="arrow-down" function="assignment"
-                              target="#A1"/></add>
-                     </subst></seg></item>
+                              (Caranguejola)<metamark rend="arrow-down" function="assignment" target="#A1"/>
+                        </add>
+                     </subst>
+                  </seg>
+               </item>
                <item>
                   <label>7.</label>
-                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP"><rs
-                        type="name" key="RR" role="author">Ricardo Reis</rs> – 1.</seg></item>
+                  <seg type="certainty" cert="low" rend="question-mark left" resp="FP">
+                     <rs type="name" key="RR" role="author">Ricardo Reis</rs> – 1.</seg>
+               </item>
             </list>
             <ab rend="right">
-               <note><anchor xml:id="A1"/><hi rend="framed">Apice</hi></note>
+               <note>
+                  <anchor xml:id="A1"/>
+                  <hi rend="framed">Apice</hi>
+               </note>
             </ab>
             <metamark rend="line" function="distinct"/>
             <p>(6 <choice>
-                  <abbr>pag<am>.</am></abbr>
-                  <expan>pag<ex>inas</ex></expan>
+                  <abbr>pag<am>.</am>
+                  </abbr>
+                  <expan>pag<ex>inas</ex>
+                  </expan>
                </choice> 10 numeros from 1 <lb/> volume.)</p>
             <metamark rend="line" function="distinct"/>
-            <p><subst>
+            <p>
+               <subst>
                   <del rend="overstrike">6</del>
                   <add place="above">5</add>
                </subst>
                <choice>
-                  <abbr>pag<am>.</am></abbr>
-                  <expan>pag<ex>inas</ex></expan>
+                  <abbr>pag<am>.</am>
+                  </abbr>
+                  <expan>pag<ex>inas</ex>
+                  </expan>
                </choice> assinadas – a 50$00 = 320$00 </p>
             <p>1 <choice>
-                  <abbr><metamark rend="quotes" function="ditto"/></abbr>
-                  <expan><choice>
-                        <abbr>pag<am>.</am></abbr>
-                        <expan>pag<ex>inas</ex></expan>
-                     </choice></expan>
+                  <abbr>
+                     <metamark rend="quotes" function="ditto"/>
+                  </abbr>
+                  <expan>
+                     <choice>
+                        <abbr>pag<am>.</am>
+                        </abbr>
+                        <expan>pag<ex>inas</ex>
+                        </expan>
+                     </choice>
+                  </expan>
                </choice>
                <choice>
-                  <abbr><metamark rend="quotes" function="ditto"/></abbr>
+                  <abbr>
+                     <metamark rend="quotes" function="ditto"/>
+                  </abbr>
                   <expan>assinadas</expan>
                </choice> – a 20$00</p>
          </div>

@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 92V-11<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 92V-11<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_92V-11r.xml</idno>
          </publicationStmt>
@@ -72,12 +73,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-92v-1-100_JPG_24-C-R0150/bn-acpc-e-e3-92v-1-100_0021_11_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-92v-1-100_JPG_24-C-R0150/bn-acpc-e-e3-92v-1-100_0021_11_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -85,8 +92,8 @@
             <list>
                <item>
                   <label>1.</label>
-                  <rs type="title">Five Epistles to the Boetians</rs>. = <metamark
-                     rend="curly-bracket" function="grouping">1 and 2, 3, 4, 5.</metamark></item>
+                  <rs type="title">Five Epistles to the Boetians</rs>. = <metamark rend="curly-bracket" function="grouping">1 and 2, 3, 4, 5.</metamark>
+               </item>
                <item>
                   <label>2.</label>
                   <rs type="title">Cinco Dialogos sobre a Tyrannia</rs>.</item>
@@ -101,7 +108,8 @@
                   <rs type="title">Diogénès</rs>, etc. </item>
                <item>
                   <label>6.</label>
-                  <supplied resp="PS" reason="omitted-in-original"/></item>
+                  <supplied resp="PS" reason="omitted-in-original"/>
+               </item>
             </list>
             <metamark rend="line" function="distinct"/>
             <list>
@@ -112,8 +120,10 @@
                      Contre-révolution</rs>.</item>
                <item>
                   <label>3.</label> = <rs type="title">La philodoxie de <choice>
-                        <abbr>M<am>.</am></abbr>
-                        <expan>M<ex>onsieur</ex></expan>
+                        <abbr>M<am>.</am>
+                        </abbr>
+                        <expan>M<ex>onsieur</ex>
+                        </expan>
                      </choice> Bergson</rs>.</item>
                <item>
                   <label>4.</label> = <rs type="title">Le Nouveau Prince (extraits)</rs> = ?
@@ -128,7 +138,9 @@
                <item>
                   <label>8.</label> = <rs type="title">Portuguese Special Editions</rs>.</item>
             </list>
-            <p><note place="center">and so on...</note></p>
+            <p>
+               <note place="center">and so on...</note>
+            </p>
             <metamark rend="line" function="end"/>
          </div>
       </body>

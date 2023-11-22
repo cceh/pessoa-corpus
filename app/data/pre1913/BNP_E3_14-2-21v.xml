@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -34,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_14-2-21v.xml</idno>
          </publicationStmt>
@@ -64,7 +65,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-14-2-1-101_JPG_24-C-R0150/bn-acpc-e-e3-14-2-1-101_0044_21v_t24-C-R0150.jpg"/>
@@ -74,34 +83,48 @@
          <div>
             <list>
                <item>
-                  <hi rend="underline"><rs type="name" key="P18">Anthero de Quental</rs></hi>: <rs type="title">(Philosophia)</rs>	<note place="right">(Lello)</note>
+                  <hi rend="underline">
+                     <rs type="name" key="P18">Anthero de Quental</rs>
+                  </hi>: <rs type="title">(Philosophia)</rs>
+                  <note place="right">(Lello)</note>
                </item>
                <item>
                   <rs type="name" key="P19">
                      <choice>
-                        <abbr>Alb<am>.</am></abbr>
-                        <expan>Alb<ex>erto</ex></expan>
-                     </choice> Sampaio</rs> (dita) <note place="right"><choice>
-                        <abbr><metamark rend="quotes" function="ditto"/></abbr>
+                        <abbr>Alb<am>.</am>
+                        </abbr>
+                        <expan>Alb<ex>erto</ex>
+                        </expan>
+                     </choice> Sampaio</rs> (dita) <note place="right">
+                     <choice>
+                        <abbr>
+                           <metamark rend="quotes" function="ditto"/>
+                        </abbr>
                         <expan>(Lello)</expan>
-                     </choice></note>
-               </item>        
-            </list>  
+                     </choice>
+                  </note>
+               </item>
+            </list>
             <metamark rend="line" function="distinct"/>
             <p>Uma collecção de folhetos com 64 paginas.</p>
             <metamark rend="line" function="distinct"/>
             <div>
                <head>
-                  <hi rend="underline"><rs type="title"> Theoria da <choice>
-                     <abbr>Rep<am>.</am></abbr>
-                     <expan>Rep<ex>ublica</ex></expan>
-                  </choice> Aristocratica</rs></hi>.
+                  <hi rend="underline">
+                     <rs type="title"> Theoria da <choice>
+                           <abbr>Rep<am>.</am>
+                           </abbr>
+                           <expan>Rep<ex>ublica</ex>
+                           </expan>
+                        </choice> Aristocratica</rs>
+                  </hi>.
                </head>
-               <ab><rs type="title">Resumo de physiologia</rs>.</ab>
+               <ab>
+                  <rs type="title">Resumo de physiologia</rs>.</ab>
                <gap reason="illegible" unit="word" extent="3"/>
                <gap reason="selection" unit="line" extent="6"/>
             </div>
-         </div>       
+         </div>
       </body>
    </text>
 </TEI>

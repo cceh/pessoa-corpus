@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 39-17<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 39-17<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -34,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_39-17v.xml</idno>
          </publicationStmt>
@@ -65,7 +66,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-39-1-51_JPG_24-C-R0150/bn-acpc-e-e3-39-1-51_0038_17v_t24-C-R0150.jpg"/>
@@ -73,7 +82,9 @@
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Anthologia</hi></head>
+            <head>
+               <hi rend="underline">Anthologia</hi>
+            </head>
             <list>
                <item>
                   =
@@ -84,31 +95,47 @@
                      <item>
                         <rs type="name" key="P53">Antonio Nobre</rs>:
                         <choice>
-                           <abbr><metamark rend="line" function="ditto"/></abbr>
+                           <abbr>
+                              <metamark rend="line" function="ditto"/>
+                           </abbr>
                            <expan>Soneto</expan>
                         </choice>:
-                        <rs type="title"><hi rend="underline">Ao 
+                        <rs type="title">
+                           <hi rend="underline">Ao 
                         <choice>
-                           <abbr>c<am>.</am></abbr>
-                           <expan>c<ex>air</ex></expan>
-                        </choice> das folhas</hi></rs>...
+                                 <abbr>c<am>.</am>
+                                 </abbr>
+                                 <expan>c<ex>air</ex>
+                                 </expan>
+                              </choice> das folhas</hi>
+                        </rs>...
                      </item>
                      <item>
                         <choice>
-                           <abbr><metamark rend="line" function="ditto"/></abbr>
-                           <expan><rs type="name" key="P53">Antonio Nobre</rs></expan>
+                           <abbr>
+                              <metamark rend="line" function="ditto"/>
+                           </abbr>
+                           <expan>
+                              <rs type="name" key="P53">Antonio Nobre</rs>
+                           </expan>
                         </choice>:
                         <choice>
-                           <abbr><metamark rend="line" function="ditto"/></abbr>
+                           <abbr>
+                              <metamark rend="line" function="ditto"/>
+                           </abbr>
                            <expan>Soneto</expan>
                         </choice>
                         <gap reason="illegible" unit="word" extent="1"/> dos <lb/>
-                        <gap reason="illegible" unit="word" extent="1"/> 
+                        <gap reason="illegible" unit="word" extent="1"/>
                      </item>
                      <item>
                         <choice>
-                           <abbr><metamark rend="line" function="ditto"/></abbr>
-                           <expan><rs type="name" key="P53">Antonio Nobre</rs></expan>
+                           <abbr>
+                              <metamark rend="line" function="ditto"/>
+                           </abbr>
+                           <expan>
+                              <rs type="name" key="P53">Antonio Nobre</rs>
+                           </expan>
                         </choice>:
                         <rs type="title">A Ceifeira</rs>.
                      </item>
@@ -118,13 +145,19 @@
                <item>
                   <list>
                      <item>
-                        <hi rend="underline"><rs type="name" key="P135">Jayme Cortesão</rs></hi>: <rs type="title">Perturba-se</rs>...
+                        <hi rend="underline">
+                           <rs type="name" key="P135">Jayme Cortesão</rs>
+                        </hi>: <rs type="title">Perturba-se</rs>...
                      </item>
                      <item>
                         <supplied resp="UH" reason="omitted-in-original">
                            <choice>
-                              <abbr><metamark rend="line" function="ditto"/></abbr>
-                              <expan><rs type="name" key="P135">Jayme Cortesão</rs></expan>
+                              <abbr>
+                                 <metamark rend="line" function="ditto"/>
+                              </abbr>
+                              <expan>
+                                 <rs type="name" key="P135">Jayme Cortesão</rs>
+                              </expan>
                            </choice>
                         </supplied>: <rs type="title">Choupos</rs> (?) +
                      </item>
@@ -135,39 +168,53 @@
                   <rs type="name" key="P52">
                      <hi rend="underline">
                         <choice>
-                           <abbr>T<am>.</am></abbr>
-                           <expan>T<ex>eixeira</ex></expan>
-                        </choice> de Pascoaes</hi></rs>:
+                           <abbr>T<am>.</am>
+                           </abbr>
+                           <expan>T<ex>eixeira</ex>
+                           </expan>
+                        </choice> de Pascoaes</hi>
+                  </rs>:
                   <rs type="title">Elegia</rs>. (<del rend="overstrike">da</del> Vida Etherea).
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
-                  <rs type="name" key="P125"><hi rend="underline">
-                     <choice>
-                        <abbr>Anto</abbr>
-                        <expan>Ant<ex>oni</ex>o</expan>
-                     </choice> Molarinho</hi></rs>: <rs type="title">Maria Manuela</rs>.
+                  <rs type="name" key="P125">
+                     <hi rend="underline">
+                        <choice>
+                           <abbr>Anto</abbr>
+                           <expan>Ant<ex>oni</ex>o</expan>
+                        </choice> Molarinho</hi>
+                  </rs>: <rs type="title">Maria Manuela</rs>.
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
-                  <hi rend="underline"><rs type="name" key="P136">Mario Beirão</rs></hi>: <rs type="title">O Sonho</rs> (?)
+                  <hi rend="underline">
+                     <rs type="name" key="P136">Mario Beirão</rs>
+                  </hi>: <rs type="title">O Sonho</rs> (?)
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
-                  <hi rend="underline"><rs type="name" key="P26">Cesario-Verde</rs></hi>: <rs type="title">Sentimento de um Ocidental</rs>.
+                  <hi rend="underline">
+                     <rs type="name" key="P26">Cesario-Verde</rs>
+                  </hi>: <rs type="title">Sentimento de um Ocidental</rs>.
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
-                  <hi rend="underline"><rs type="name" key="P137">Augusto Casimiro</rs></hi>: 
+                  <hi rend="underline">
+                     <rs type="name" key="P137">Augusto Casimiro</rs>
+                  </hi>: 
                   <supplied resp="PS" reason="omitted-in-original"/>
                </item>
                <item>
                   <hi rend="underline">
                      <rs type="name" key="P138">
                         <choice>
-                           <abbr>Aug<am>.</am></abbr>
-                           <expan>Aug<ex>usto</ex></expan>
-                        </choice> de Santa-Rita</rs></hi>:
+                           <abbr>Aug<am>.</am>
+                           </abbr>
+                           <expan>Aug<ex>usto</ex>
+                           </expan>
+                        </choice> de Santa-Rita</rs>
+                  </hi>:
                      <supplied resp="PS" reason="omitted-in-original"/>
                </item>
             </list>

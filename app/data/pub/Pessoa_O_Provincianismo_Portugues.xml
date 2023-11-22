@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_Provincianismo_Portugues.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Provincianismo.jpg"/>
@@ -157,7 +165,9 @@
                     por que o não somos. O princípio da cura está na consciência da doença, o da
                     verdade no conhecimento do êrro. Quando um doido sabe que está doido, já não
                     está doido. Estamos perto de acordar, disse <rs type="name" key="P5">Novalis</rs>, quando sonhamos que sonhamos.</p>
-            <signed rend="right"><rs type="name" key="FP" role="author" style="b">FERNANDO PESSOA</rs></signed>
+            <signed rend="right">
+               <rs type="name" key="FP" role="author" style="b">FERNANDO PESSOA</rs>
+            </signed>
          </div>
       </body>
    </text>

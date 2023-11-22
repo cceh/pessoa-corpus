@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Cronica_literaria_Orpheu.xml</idno>
          </publicationStmt>
@@ -65,10 +65,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Cronica_literaria_Orfeu.jpg"/>
@@ -82,7 +90,10 @@
                   <hi rend="italic">
                      <rs type="periodical" key="J12">ORFEU</rs> — Revista Trímestral de
                      Literatura. — No. 1 (Janeiro-fevereiro-março) — Depósitarios, Livraria
-                            Brazileira, de Monteiro <choice><abbr>&amp;</abbr><expan>e</expan></choice> C.e, Lisbôa.</hi>
+                            Brazileira, de Monteiro <choice>
+                        <abbr>&amp;</abbr>
+                        <expan>e</expan>
+                     </choice> C.e, Lisbôa.</hi>
                </hi>
             </bibl>
             <p rend="indent-first">Como se dê o caso de sermos colaborador desta revista, e
@@ -130,7 +141,9 @@
                     a atenção e o raciocinio do leitor. Não lhe diremos se é nossa opinião ou não,
                     que haja homens de genio entre os colaboradores de <rs type="periodical" key="J12">Orpheu</rs>. Isso não o auxiliaria a compreender, nem alteraria a decisão do
                     futuro.</p>
-            <signed rend="right"><rs type="name" role="author" key="FP" style="a">Fernando Pessôa</rs></signed>
+            <signed rend="right">
+               <rs type="name" role="author" key="FP" style="a">Fernando Pessôa</rs>
+            </signed>
          </div>
       </body>
    </text>
@@ -143,7 +156,10 @@
                   <hi rend="italic">
                      ORFEU — Revista Trimestral de
                      Literatura. — No. 1 (Janeiro-fevereiro-março) — Depositários, Livraria
-                            Brasileira, de Monteiro <choice><abbr>&amp;</abbr><expan>e</expan></choice> C.e, Lisboa.</hi>
+                            Brasileira, de Monteiro <choice>
+                        <abbr>&amp;</abbr>
+                        <expan>e</expan>
+                     </choice> C.e, Lisboa.</hi>
                </hi>
             </bibl>
             <p rend="indent-first">Como se dê o caso de sermos colaborador desta revista, e

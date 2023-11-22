@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 125A-52<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 125A-52<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_125A-52r.xml</idno>
          </publicationStmt>
@@ -63,8 +64,8 @@
                         <rs type="name" key="FP">Fernando Pessoa</rs>
                      </author>
                      <note type="genre">
-                        <rs type="genre" key="lista_editorial">Lista editorial</rs><rs type="genre"
-                           key="plano_editorial">Plano editorial</rs>
+                        <rs type="genre" key="lista_editorial">Lista editorial</rs>
+                        <rs type="genre" key="plano_editorial">Plano editorial</rs>
                      </note>
                      <textLang mainLang="pt"/>
                   </msItemStruct>
@@ -78,59 +79,92 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-125a-1-100_JPG_24-C-R0150/bn-acpc-e-e3-125a-1-100_0103_52_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-125a-1-100_JPG_24-C-R0150/bn-acpc-e-e3-125a-1-100_0103_52_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <delSpan rend="overstrike" spanTo="#A1"/>
-            <head rend="center"><hi rend="underline"><rs type="name" key="P259">Gonçalo Annes
-                     Bandarra</rs>:</hi></head>
-            <head rend="center"><hi rend="underline">Trovas propheticas</hi></head>
-            <ab><del rend="overstrike">com uma introducção sobre</del><lb/> com um commentario
-               explicativo<lb/> e uma introducção sobre <rs type="title">a Renas<pc>-</pc><lb/>cença
+            <head rend="center">
+               <hi rend="underline">
+                  <rs type="name" key="P259">Gonçalo Annes
+                     Bandarra</rs>:</hi>
+            </head>
+            <head rend="center">
+               <hi rend="underline">Trovas propheticas</hi>
+            </head>
+            <ab>
+               <del rend="overstrike">com uma introducção sobre</del>
+               <lb/> com um commentario
+               explicativo<lb/> e uma introducção sobre <rs type="title">a Renas<pc>-</pc>
+                  <lb/>cença
                   do sebastianismo</rs>.</ab>
             <anchor xml:id="A1"/>
             <metamark rend="line" function="distinct"/>
             <list>
                <item>
                   <label>I.</label> Introducção. <add n="2">(<rs type="title">Historia do
-                        sebastianismo</rs>)</add></item>
+                        sebastianismo</rs>)</add>
+               </item>
                <item rend="indent-2">
                   <label>II.</label>
-                  <del rend="overstrike"><rs type="title">O Bandarra</rs></del>
-                  <rs type="title">Os prophetas sebas<pc>-</pc><lb/>tianistas</rs>.</item>
+                  <del rend="overstrike">
+                     <rs type="title">O Bandarra</rs>
+                  </del>
+                  <rs type="title">Os prophetas sebas<pc>-</pc>
+                     <lb/>tianistas</rs>.</item>
                <item>
                   <label>III.</label>
                   <rs type="title">Trovas do Bandarra</rs>. <add n="2">(com
-                  commentario)</add></item>
+                  commentario)</add>
+               </item>
                <item rend="indent-2">
                   <label>IV.</label>
-                  <rs type="title">Outras prophecias sebastianistas</rs><lb/>
-                  <add n="2">(com commentario)</add></item>
+                  <rs type="title">Outras prophecias sebastianistas</rs>
+                  <lb/>
+                  <add n="2">(com commentario)</add>
+               </item>
                <item rend="indent-2">
                   <label>V.</label> Considerações finaes. <add n="2">(<rs type="title">A <choice>
-                           <abbr>Ren<am>.</am></abbr>
-                           <expan>Ren<ex>ascença</ex></expan>
+                           <abbr>Ren<am>.</am>
+                           </abbr>
+                           <expan>Ren<ex>ascença</ex>
+                           </expan>
                         </choice> do<lb/>
                         <choice>
-                           <abbr>Seb<am>.</am><hi rend="superscript">mo</hi></abbr>
+                           <abbr>Seb<am>.</am>
+                              <hi rend="superscript">mo</hi>
+                           </abbr>
                            <expan>Seb<ex>astianis</ex>mo</expan>
-                        </choice></rs>)</add></item>
+                        </choice>
+                     </rs>)</add>
+               </item>
             </list>
          </div>
          <metamark rend="line" function="distinct"/>
          <div>
-            <head rend="center"><hi rend="underline"><rs type="title">Manual do
-                  Sebastianista</rs></hi></head>
-            <p><rs type="title">Historia do sebastianismo</rs> —<lb/>
+            <head rend="center">
+               <hi rend="underline">
+                  <rs type="title">Manual do
+                  Sebastianista</rs>
+               </hi>
+            </head>
+            <p>
+               <rs type="title">Historia do sebastianismo</rs> —<lb/>
                <rs type="title">Prophecias <del rend="overstrike">dos</del> sebastianistas <lb/>e
-                  sua interpretação</rs> — <rs type="title">A re<pc>-</pc><lb/>nascença do
+                  sua interpretação</rs> — <rs type="title">A re<pc>-</pc>
+                  <lb/>nascença do
                   sebastianismo</rs>.</p>
          </div>
          <metamark rend="line" function="distinct"/>

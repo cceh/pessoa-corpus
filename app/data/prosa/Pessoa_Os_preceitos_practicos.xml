@@ -27,7 +27,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Os_preceitos_practicos.xml</idno>
          </publicationStmt>
@@ -39,12 +39,12 @@
          <sourceDesc>
             <list type="work-index">
                <item>
-                   <rs type="work" key="W309">Os preceitos práticos em geral e os de Henry Ford em particular</rs>
+                  <rs type="work" key="W309">Os preceitos práticos em geral e os de Henry Ford em particular</rs>
                </item>
             </list>
             <biblStruct>
                <analytic>
-                   <title level="a">Os preceitos práticos em geral e os de Henry Ford em particular</title>
+                  <title level="a">Os preceitos práticos em geral e os de Henry Ford em particular</title>
                   <author>
                      <rs type="name" key="FP">Fernando Pessoa</rs>
                   </author>
@@ -62,27 +62,33 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Prosa/Os_preceitos_practicos_1.jpg"/>
-       <graphic url="Prosa/Os_preceitos_practicos_2.jpg"/>
-       <graphic url="Prosa/Os_preceitos_practicos_3.jpg"/>
-       <graphic url="Prosa/Os_preceitos_practicos_4.jpg"/>
-       <graphic url="Prosa/Os_preceitos_practicos_5.jpg"/>
-       <graphic url="Prosa/Os_preceitos_practicos_6.jpg"/>
-       <graphic url="Prosa/Os_preceitos_practicos_7.jpg"/>
+      <graphic url="Prosa/Os_preceitos_practicos_2.jpg"/>
+      <graphic url="Prosa/Os_preceitos_practicos_3.jpg"/>
+      <graphic url="Prosa/Os_preceitos_practicos_4.jpg"/>
+      <graphic url="Prosa/Os_preceitos_practicos_5.jpg"/>
+      <graphic url="Prosa/Os_preceitos_practicos_6.jpg"/>
+      <graphic url="Prosa/Os_preceitos_practicos_7.jpg"/>
    </facsimile>
    <text type="orig" corresp="#W309">
       <body>
          <div>
             <head>OS PRECEITOS PRÁTICOS EM GERAL E OS DE <rs type="name" key="P679">HENRY FORD</rs>
                EM PARTICULAR</head>
-
-
             <p rend="indent-first">DEVE O LEITOR ter notado que, em várias alturas dêste volume,
                temos enchido os espaços entre os fins dos artigos e os das páginas com breves
                preceitos, máximas e considerações de diversa ordem, tendentes muitas a indicar,
@@ -133,12 +139,11 @@
                   muito pouco</hi>. O primeiro preceito é, em uma forma ou outra, de diversos
                sistemas religiosos. O segundo, inscripção num templo grego, é atribuido a um sabio
                da Grecia que provavelmente nunca existiu. Dos dois ultimos, o primeiro é do
-               florentino <rs type="name" key="P587">Guicciardini</rs>, e o segundo do inglez <rs
-                  type="name" key="XXX">Halifax.</rs></p>
+               florentino <rs type="name" key="P587">Guicciardini</rs>, e o segundo do inglez <rs type="name" key="XXX">Halifax.</rs>
+            </p>
             <p rend="indent-first">Nos proprios preceitos populares, a que chamamos proverbios,
                encontramos estas trez ordens de máximas. Um proverbio moral: <hi rend="italic">Filho
-                  és e pai serás; conforme fizeres, assim acharás</hi>. Um proverbio racional: <hi
-                  rend="italic">Fia-te na Virgem e não corras, e verás o tombo que levas</hi>.
+                  és e pai serás; conforme fizeres, assim acharás</hi>. Um proverbio racional: <hi rend="italic">Fia-te na Virgem e não corras, e verás o tombo que levas</hi>.
                Exemplo de um proverbio prático: <hi rend="italic">Quem seu inimigo poupa, ás mãos
                   lhe morre</hi>. Ninguem poderá dizer que êste ultimo proverbio, que é uma espécie
                de recomendação do que podemos chamar o homicidio predefensivo, tenha vantagens
@@ -185,9 +190,11 @@
                preceito prático, para ser verdadeiramente preceito, nunca esquece uma certa regra.
                Nisto se distinguem os preceitos, propriamente ditos, das regras misticamente
                religiosas, por um lado, e das indicações cinicamente absurdas, por outro. O
-               preceito, moral ou prático, está num ponto intermedio entre o <rs type="title"><hi
-                     rend="italic">Sermão da Montanha</hi></rs> e o <rs type="title"><hi
-                     rend="italic">Manual do Perfeito Escroc</hi></rs>. Do preceito, a que chamámos
+               preceito, moral ou prático, está num ponto intermedio entre o <rs type="title">
+                  <hi rend="italic">Sermão da Montanha</hi>
+               </rs> e o <rs type="title">
+                  <hi rend="italic">Manual do Perfeito Escroc</hi>
+               </rs>. Do preceito, a que chamámos
                racional, não é preciso acentuar êste caracter médio, porque a propria definição, que
                dêle demos, por si mesma o acentúa.</p>
             <milestone rend="asterisk" unit="section"/>
@@ -209,29 +216,22 @@
                concretizar-se-hão para o leitor nos novos exemplos, que vamos dar, de cada espécie
                de preceito prático que mencionámos.</p>
             <p rend="indent-first">Exemplos do preceito prático simples: <hi rend="italic">Todos
-                  vêem o que pareces; poucos sabem o que és</hi> (<rs type="name" key="P402"
-                  >Macchiavelli</rs>). <hi rend="italic">Nunca faças a alguem um favôr á custa de
+                  vêem o que pareces; poucos sabem o que és</hi> (<rs type="name" key="P402">Macchiavelli</rs>). <hi rend="italic">Nunca faças a alguem um favôr á custa de
                   outro; pois o primeiro provavelmente esquecerá o favor, mas o segundo com certeza
-                  não esquecerá a injuria</hi> (<rs type="name" key="P587">Guicciardini</rs>). <hi
-                  rend="italic">A dissimulação é como a maioria das outras qualidades; é necessaria,
+                  não esquecerá a injuria</hi> (<rs type="name" key="P587">Guicciardini</rs>). <hi rend="italic">A dissimulação é como a maioria das outras qualidades; é necessaria,
                   e é, ao mesmo tempo, perigosa. Não a ter torna-nos despreziveis; tel-a em excesso
                   torna-nos suspeitos. Nada há, porêm, de grande nesta qualidade, pois uma criada de
-                  quarto a possue ordinariamente em maior grau que qualquer principe</hi> (<rs
-                  type="name" key="XXX">Halifax</rs>).</p>
-            <p rend="indent-first">Exemplos do preceito prático necessariamente imoral: <hi
-                  rend="italic">Ou evita fazer mal a alguem; ou, se decides fazer-lhe mal, faze-lhe
+                  quarto a possue ordinariamente em maior grau que qualquer principe</hi> (<rs type="name" key="XXX">Halifax</rs>).</p>
+            <p rend="indent-first">Exemplos do preceito prático necessariamente imoral: <hi rend="italic">Ou evita fazer mal a alguem; ou, se decides fazer-lhe mal, faze-lhe
                então todo o mal que puderes. ― É melhor matar um homem do que ameaçal-o de morte,
                porque os mortos já não pensam em vingar-se. ― Os homens são sempre mais prontos
                   em retribuir injurias do que favores, porque retribuir um favor é uma obrigação, e
-                  retribuir uma injuria é um prazer</hi>. Todos estes primores de moral são de <rs
-                  type="name" key="P402">Macchiavelli</rs>, que, deve notar-se, escreveu
+                  retribuir uma injuria é um prazer</hi>. Todos estes primores de moral são de <rs type="name" key="P402">Macchiavelli</rs>, que, deve notar-se, escreveu
                principalmente para politicos, e numa epoca de politica subtil e agitada. Mas, salvo
                em circunstancias sociais onde em absoluto não tenham cabimento, estes principios são
                absolutamente verdadeiros.</p>
-            <p rend="indent-first">Exemplo do preceito prático necessariamente moral: <hi
-                  rend="italic">A honestidade é a melhor tactica</hi> (Proverbio Inglez)</p>
-            <p rend="indent-first">Exemplos do preceito prático necessariamente «insensato»: <hi
-                  rend="italic">Nas grandes dificuldades, age sempre antes de pensares</hi>
+            <p rend="indent-first">Exemplo do preceito prático necessariamente moral: <hi rend="italic">A honestidade é a melhor tactica</hi> (Proverbio Inglez)</p>
+            <p rend="indent-first">Exemplos do preceito prático necessariamente «insensato»: <hi rend="italic">Nas grandes dificuldades, age sempre antes de pensares</hi>
                (Anonimo). ― <hi rend="italic">O que não tem remedio, remediado está</hi> (Proverbio
                Portuguez).</p>
             <p rend="indent-first">Com as explicações que demos, e os exemplos que acabamos de dar,
@@ -244,15 +244,14 @@
                preceitos práticos que surgiu na publicidade. É mais que recente, é recentissimo, o
                seu aparecimento. Devemos êsses preceitos, de intuito primordialmente industrial e
                portanto proprio desta Revista, ao grande fabricante americano, e milionario supremo
-               do mundo, <rs type="name" key="P679">Henry Ford.</rs></p>
+               do mundo, <rs type="name" key="P679">Henry Ford.</rs>
+            </p>
             <milestone rend="asterisk" unit="section"/>
             <p rend="indent-first">Os preceitos práticos mais uteis são, como é de esperar, obra,
                não dos homens inteligentes mais práticos, mas, o que é diferente, dos homens
                práticos mais inteligentes. Os grandes mestres do preceito prático fôram políticos
-               que reflectiram sôbre a politica. Tal foi <rs type="name" key="P402"
-                  >Macchiavelli</rs>, cujos preceitos iluminam principalmente o que ha de vil e de
-               mau em todos os homens; tal foi <rs type="name" key="P588">George Saville</rs>, <rs
-                  type="name" key="XXX">Marquez de Halifax</rs>, cujas máximas ilustram sobretudo o
+               que reflectiram sôbre a politica. Tal foi <rs type="name" key="P402">Macchiavelli</rs>, cujos preceitos iluminam principalmente o que ha de vil e de
+               mau em todos os homens; tal foi <rs type="name" key="P588">George Saville</rs>, <rs type="name" key="XXX">Marquez de Halifax</rs>, cujas máximas ilustram sobretudo o
                que há de francamente humano em toda a gente.</p>
             <p rend="indent-first">De <rs type="name" key="P679">Henry Ford</rs>, mestre de
                indústria, haveria a esperar preceitos práticos que esclarecessem as condições
@@ -270,7 +269,6 @@
                   <rs type="name" key="P680">Riddell</rs> que vamos dar os nove mandamentos industriais do multimilionario
                americano.</p>
             <p rend="indent-first">Ai vão:</p>
-
             <p rend="indent-first">I. ― Busca a simplicidade. Examina tudo constantemente, para vêr
                se descobres como simplificá-lo e aperfeiçoá-lo. Não respeites o passado. O facto de
                que uma coisa se fez sempre de certa maneira não prova que não haja uma maneira
@@ -306,7 +304,8 @@
                comentário. Só ao último dêles ― ou, antes, a um seu derivado na política industtial
                recente de <rs type="name" key="P679">Ford</rs> ― nos referiremos para fecho dêste
                artigo.</p>
-            <p rend="indent-first"><rs type="name" key="P679">Henry Ford</rs> acaba de criar em suas
+            <p rend="indent-first">
+               <rs type="name" key="P679">Henry Ford</rs> acaba de criar em suas
                fábricas a semana de cinco dias. E acaba de propôr á consideração do mundo, como
                exemplo a seguir, esta redução filantrópica do trabalho dos seus operários. Sucede,
                porém, que já se sabe que os fabricantes de outros carros baratos americanos estão
@@ -319,12 +318,10 @@
             <p rend="indent-first">De sorte que, ao proclamar ao mundo como novo lema económico e
                moral a semana de cinco dias, <rs type="name" key="P679">Henry Ford</rs>, sem ter que
                inventar para si um novo preceito prático, se limitou a seguir aquêle, que é
-               admiravel, do mestre <rs type="name" key="P402">Macchiavelli</rs>: <hi rend="italic"
-                  >O que fazemos por necessidade, devemos fazer parecer que foi por vontade nossa
-                  que o fizemos.</hi></p>
+               admiravel, do mestre <rs type="name" key="P402">Macchiavelli</rs>: <hi rend="italic">O que fazemos por necessidade, devemos fazer parecer que foi por vontade nossa
+                  que o fizemos.</hi>
+            </p>
          </div>
       </body>
    </text>
 </TEI>
-
-

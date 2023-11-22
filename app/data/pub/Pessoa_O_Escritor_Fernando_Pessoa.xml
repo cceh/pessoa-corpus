@@ -20,7 +20,7 @@
             <respStmt>
                <resp>Atualização ortográfica</resp>
                <name>Inês Filipa Rebelo do Carmo</name>
-            </respStmt>     
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -32,7 +32,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_Escritor_Fernando_Pessoa.xml</idno>
          </publicationStmt>
@@ -71,6 +71,9 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
@@ -82,6 +85,11 @@
             <handNote xml:id="H_FP">Texto redigido por Pessoa.</handNote>
          </handNotes>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/O_Escritor_Fernando_Pessoa_1.jpg"/>
@@ -94,7 +102,7 @@
    <text type="orig" corresp="#W284">
       <body>
          <div>
-                 <pb n="17"/>
+            <pb n="17"/>
             <head>
                <handShift new="#H_Alves_Martins"/>O escritor <rs type="name" key="FP" role="topic">Fernando Pessoa</rs> expõe-nos as suas ideias sobre os varios
                     aspectos da arte e da literatura portuguesas</head>
@@ -109,7 +117,7 @@
                     alucinado que comporta o seu segundo eu, e que aparece em toda a parte, enchendo
                     a voz de louvores e raios para a Vida ― <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Soneto_ja_Antigo">
                   <hi rend="italic">raios partam a Vida e quem lá ande!</hi>
-                    </ref> ― é sempre
+               </ref> ― é sempre
                     um voluptuoso do raciocinio, um amante da inteligencia, podemos dizer: um
                     creadôr duma nova Razão. Paradoxal? Sem duvida. Mas ha tantas maneiras de ser
                     paradoxal!</p>
@@ -119,10 +127,10 @@
                     de ironia, vái decerto prender o espirito dos leitores...</p>
             <p rend="indent-first">Atenção! <rs type="name" key="FP" role="topic">Fernando
                         Pessôa</rs> vai responder ás perguntas que lhe fizemos:</p>
-                 <p rend="indent-first">― Que pensa da nossa crise? Dos seus aspectos ― politico,
+            <p rend="indent-first">― Que pensa da nossa crise? Dos seus aspectos ― politico,
                     moral e intellectual?</p>
             <p rend="indent-first">
-                    <said who="FP">― A nossa crise provém,
+               <said who="FP">― A nossa crise provém,
                     essencialmente, do excesso de civilização dos incivilizaveis. Esta phrase, como
                     todas que involvem uma contradição não involve contradicção nenhuma. Eu
                     explico.</said>
@@ -166,15 +174,15 @@
                     estarem interrompidos os portuguezes. A nossa crise intellectual é simplesmente
                     o não termos consciencia d’isto.</said>
             </p>
-                 <pb n="19"/>
+            <pb n="19"/>
             <p rend="indent-first">
                <said who="FP">Respondi, creio, á sua pergunta. Se v. reparar bem para o que
                     lhe disse, verá que tem um sentido. Qual, não me compete a mim dizer.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">Que pensa dos nossos
+            <p rend="indent-first">― <said who="H_Alves_Martins">Que pensa dos nossos
                     escriptores do momento, prosadores, poetas e dramaturgos?</said>
             </p>
-                 <p rend="indent-first">― <said who="FP">Citar é ser injusto. Enumerar é
+            <p rend="indent-first">― <said who="FP">Citar é ser injusto. Enumerar é
                     esquecer. Não quero esquecer ninguem de quem me não lembre. Confio ao silencio a
                     injustiça. A ansia de ser completo leva ao desespero de o não poder ser. Não
                     citarei ninguem. Julgue-se citado quem se julgue com direito a sel-o. Resolvo
@@ -186,11 +194,11 @@
                     conterraneos no tempo; e eu não quero ser bairrista em materia de immortalidade.
                     Na duvida, repito, não citarei ninguem.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">Estaremos em face de uma
+            <p rend="indent-first">― <said who="H_Alves_Martins">Estaremos em face de uma
                     renascença espiritual?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― Estamos tão desnacionalizados que
+               <said who="FP">― Estamos tão desnacionalizados que
                     devemos estar renascendo. Para os outros povos, na sua totalidade
                     elles-proprios, o desnacionalizar-se é o perder-se. Para nós, que não somos
                     nacionaes, o desnacionalizar-se é o encontrar-se. Apezar dos grandes obstáculos
@@ -207,15 +215,16 @@
                <said who="FP">Nada ha a esperar, é certo, das classes dirigentes, porque
                     não são dirigentes; e ainda menos da proletariagem, porque ser inferior não é
                     uma superioridade. Com razão lhes chamei eu, a estes, <hi rend="italic">sub-gente</hi>, <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Reincidindo">num artigo
-                    </ref> da antiga <pb n="20"/><rs type="periodical" key="J5">Aguia</rs> ― da <rs type="periodical" key="J5">Aguia</rs> que voava. Só a burguezia, que é a
+                    </ref> da antiga <pb n="20"/>
+                  <rs type="periodical" key="J5">Aguia</rs> ― da <rs type="periodical" key="J5">Aguia</rs> que voava. Só a burguezia, que é a
                     ausencia da classe social, pode crear o futuro. Só de uma classe que não ha pode
                     nascer uma classe que não ha ainda. Seja como fôr, avancemos confiadamente.
                     Todos os caminhos vão dar á ponte quando o rio não tem nenhuma.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">O que se deve entender por arte portugueza? Concorda com
+            <p rend="indent-first">― <said who="H_Alves_Martins">O que se deve entender por arte portugueza? Concorda com
                     este termo? Ha arte verdadeiramente portugueza?</said>
             </p>
-                 <p rend="indent-first">― <said who="FP">Por arte portugueza deve entender-se uma arte de Portugal
+            <p rend="indent-first">― <said who="FP">Por arte portugueza deve entender-se uma arte de Portugal
                     que nada tenha de portuguez, por nem sequer imitar o estrangeiro. Ser portuguez
                     no sentido decente da palavra, é ser europeu sem a má-creação de nacionalidade.
                     Arte portugueza será aquella em que a Europa ― entendendo por Europa
@@ -225,11 +234,11 @@
                     outras. Chamo a sua attenção para o facto, mais importante que geographico, de
                     que Lisboa e Athenas estão quasi na mesma latitude.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">O regionalismo na
+            <p rend="indent-first">― <said who="H_Alves_Martins">O regionalismo na
                     litteratura e na pintura?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― O regionalismo é uma degeneração
+               <said who="FP">― O regionalismo é uma degeneração
                     gordurosa do nacionalismo, e o nacionalismo tambem. E como o nacionalismo é
                     anti-portuguez (sendo bom, cá no Sul, só para os povos latinos e ibericos), o
                     regionalismo em Portugal é uma doença do que não ha. Amar a nossa terra não é
@@ -240,11 +249,11 @@
                     quintal ser inteiramente metaphorico não diminue a verdade de tudo isto: <rs type="name" key="P573">Deus</rs>, e o proprio universo, são metaphoras
                     tambem.)</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">Teriam existido em toda
+            <p rend="indent-first">― <said who="H_Alves_Martins">Teriam existido em toda
                     a nossa historia litteraria periodos de creação?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― O nosso unico periodo de creação
+               <said who="FP">― O nosso unico periodo de creação
                             foi dedicado a crear um mundo. Não tivemos tempo para pensar nisso. <pb n="21"/>O proprio
                         <rs type="name" key="P15">Camões</rs> não foi mais que o que esqueceu fazer.
                         <rs type="title">Os Lusiadas</rs> é grande, mas nunca se escreveu a valer.
@@ -256,11 +265,11 @@
                     mais alto. Ha só um periodo de creação na nossa historia litteraria: não chegou
                     ainda.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">Continuará sendo o
+            <p rend="indent-first">― <said who="H_Alves_Martins">Continuará sendo o
                     lyrismo a nossa feição litteraria predominante?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― Ha duas feições litterarias ― a
+               <said who="FP">― Ha duas feições litterarias ― a
                     epica e a dramatica. O lyrismo é a incapacidade commovida de ter qualquer
                     d’ellas. O que é ser lyrico? É cantar as emoções que se teem. Ora cantar as
                     emoções que se teem faz-se até sem cantar. O que custa é cantar as emoções que
@@ -273,11 +282,11 @@
                     O lyrismo só continuará sendo a nossa feição predominante se não formos capazes
                     de ter feição predominante.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">O que calcula que seja o
+            <p rend="indent-first">― <said who="H_Alves_Martins">O que calcula que seja o
                     futuro da raça portugueza?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― O Quinto Imperio. O futuro de
+               <said who="FP">― O Quinto Imperio. O futuro de
                             Portugal ― que não calculo mas <hi rend="italic">sei</hi> ― está escripto já,
                     para quem saiba lel-o, nas trovas do <rs type="name" key="P259">Bandarra</rs>, e
                     tambem nas quadras de <rs type="name" key="P357">Nostradamus</rs>. Esse futuro é
@@ -302,7 +311,7 @@
    <text type="reg" corresp="#W284">
       <body>
          <div>
-                 <pb n="17"/>
+            <pb n="17"/>
             <head>
                <handShift new="#H_Alves_Martins"/>O escritor Fernando Pessoa expõe-nos as suas ideias sobre os vários
                     aspetos da arte e da literatura portuguesas</head>
@@ -316,7 +325,7 @@
                     alucinado que comporta o seu segundo eu, e que aparece em toda a parte, enchendo
                     a voz de louvores e raios para a Vida ― <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Soneto_ja_Antigo">
                   <hi rend="italic">raios partam a Vida e quem lá ande!</hi>
-                    </ref> ― é sempre
+               </ref> ― é sempre
                     um voluptuoso do raciocínio, um amante da inteligência, podemos dizer: um
                     criador duma nova Razão. Paradoxal? Sem dúvida. Mas há tantas maneiras de ser
                     paradoxal!</p>
@@ -326,10 +335,10 @@
                     de ironia, vai decerto prender o espírito dos leitores...</p>
             <p rend="indent-first">Atenção! Fernando
                         Pessoa vai responder às perguntas que lhe fizemos:</p>
-                 <p rend="indent-first">― Que pensa da nossa crise? Dos seus aspetos ― político,
+            <p rend="indent-first">― Que pensa da nossa crise? Dos seus aspetos ― político,
                     moral e intelectual?</p>
             <p rend="indent-first">
-                    <said who="FP">― A nossa crise provém,
+               <said who="FP">― A nossa crise provém,
                     essencialmente, do excesso de civilização dos incivilizáveis. Esta frase, como
                     todas que envolvem uma contradição não envolve contradição nenhuma. Eu
                     explico.</said>
@@ -373,15 +382,15 @@
                     estarem interrompidos os portugueses. A nossa crise intelectual é simplesmente
                     o não termos consciência disto.</said>
             </p>
-                 <pb n="19"/>
+            <pb n="19"/>
             <p rend="indent-first">
                <said who="FP">Respondi, creio, à sua pergunta. Se v. reparar bem para o que
                     lhe disse, verá que tem um sentido. Qual, não me compete a mim dizer.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">Que pensa dos nossos
+            <p rend="indent-first">― <said who="H_Alves_Martins">Que pensa dos nossos
                     escritores do momento, prosadores, poetas e dramaturgos?</said>
             </p>
-                 <p rend="indent-first">― <said who="FP">Citar é ser injusto. Enumerar é
+            <p rend="indent-first">― <said who="FP">Citar é ser injusto. Enumerar é
                     esquecer. Não quero esquecer ninguém de quem me não lembre. Confio ao silêncio a
                     injustiça. A ânsia de ser completo leva ao desespero de o não poder ser. Não
                     citarei ninguém. Julgue-se citado quem se julgue com direito a sê-lo. Resolvo
@@ -393,11 +402,11 @@
                     conterrâneos no tempo; e eu não quero ser bairrista em matéria de imortalidade.
                     Na dúvida, repito, não citarei ninguém.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">Estaremos em face de uma
+            <p rend="indent-first">― <said who="H_Alves_Martins">Estaremos em face de uma
                     renascença espiritual?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― Estamos tão desnacionalizados que
+               <said who="FP">― Estamos tão desnacionalizados que
                     devemos estar renascendo. Para os outros povos, na sua totalidade
                     eles próprios, o desnacionalizar-se é o perder-se. Para nós, que não somos
                     nacionais, o desnacionalizar-se é o encontrar-se. Apesar dos grandes obstáculos
@@ -419,10 +428,10 @@
                     nascer uma classe que não há ainda. Seja como for, avancemos confiadamente.
                     Todos os caminhos vão dar à ponte quando o rio não tem nenhuma.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">O que se deve entender por arte portuguesa? Concorda com
+            <p rend="indent-first">― <said who="H_Alves_Martins">O que se deve entender por arte portuguesa? Concorda com
                     este termo? Há arte verdadeiramente portuguesa?</said>
             </p>
-                 <p rend="indent-first">― <said who="FP">Por arte portuguesa deve entender-se uma arte de Portugal
+            <p rend="indent-first">― <said who="FP">Por arte portuguesa deve entender-se uma arte de Portugal
                     que nada tenha de português, por nem sequer imitar o estrangeiro. Ser português
                     no sentido decente da palavra, é ser europeu sem a má-criação de nacionalidade.
                     Arte portuguesa será aquela em que a Europa ― entendendo por Europa
@@ -432,11 +441,11 @@
                     outras. Chamo a sua atenção para o facto, mais importante que geográfico, de
                     que Lisboa e Atenas estão quase na mesma latitude.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">O regionalismo na
+            <p rend="indent-first">― <said who="H_Alves_Martins">O regionalismo na
                     literatura e na pintura?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― O regionalismo é uma degeneração
+               <said who="FP">― O regionalismo é uma degeneração
                     gordurosa do nacionalismo, e o nacionalismo também. E como o nacionalismo é
                     antiportuguês (sendo bom, cá no Sul, só para os povos latinos e ibéricos), o
                     regionalismo em Portugal é uma doença do que não há. Amar a nossa terra não é
@@ -447,11 +456,11 @@
                     quintal ser inteiramente metafórico não diminui a verdade de tudo isto: Deus, e o próprio universo, são metáforas
                     também.)</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">Teriam existido em toda
+            <p rend="indent-first">― <said who="H_Alves_Martins">Teriam existido em toda
                     a nossa história literária períodos de criação?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― O nosso único período de criação
+               <said who="FP">― O nosso único período de criação
                             foi dedicado a criar um mundo. Não tivemos tempo para pensar nisso. <pb n="21"/>O próprio
                         Camões não foi mais que o que esqueceu fazer.
                         Os Lusíadas é grande, mas nunca se escreveu a valer.
@@ -463,11 +472,11 @@
                     mais alto. Há só um período de criação na nossa história literária: não chegou
                     ainda.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">Continuará sendo o
+            <p rend="indent-first">― <said who="H_Alves_Martins">Continuará sendo o
                     lirismo a nossa feição literária predominante?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― Há duas feições literárias ― a
+               <said who="FP">― Há duas feições literárias ― a
                     épica e a dramática. O lirismo é a incapacidade comovida de ter qualquer
                     delas. O que é ser lírico? É cantar as emoções que se têm. Ora cantar as
                     emoções que se têm faz-se até sem cantar. O que custa é cantar as emoções que
@@ -480,11 +489,11 @@
                     O lirismo só continuará sendo a nossa feição predominante se não formos capazes
                     de ter feição predominante.</said>
             </p>
-                 <p rend="indent-first">― <said who="H_Alves_Martins">O que calcula que seja o
+            <p rend="indent-first">― <said who="H_Alves_Martins">O que calcula que seja o
                     futuro da raça portuguesa?</said>
             </p>
             <p rend="indent-first">
-                    <said who="FP">― O Quinto Império. O futuro de
+               <said who="FP">― O Quinto Império. O futuro de
                             Portugal ― que não calculo mas <hi rend="italic">sei</hi> ― está escrito já,
                     para quem saiba lê-lo, nas trovas do Bandarra, e
                     também nas quadras de Nostradamus. Esse futuro é

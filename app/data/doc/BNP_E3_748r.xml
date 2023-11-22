@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 748<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 748<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -35,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_748r.xml</idno>
          </publicationStmt>
@@ -68,7 +69,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="doc_BNP_E3_748r.jpg"/>
@@ -76,22 +85,30 @@
    <text>
       <body>
          <div>
-            <head><hi rend="underline"><choice>
+            <head>
+               <hi rend="underline">
+                  <choice>
                      <abbr>GCP</abbr>
                      <expan>G<ex>remio</ex>
-                        <ex>de</ex> C<ex>ultura</ex> P<ex>ortugueza</ex></expan>
-                  </choice> — scheme of organization.</hi></head>
+                        <ex>de</ex> C<ex>ultura</ex> P<ex>ortugueza</ex>
+                     </expan>
+                  </choice> — scheme of organization.</hi>
+            </head>
             <p rend="indent-2">To obtain per month from 5 to 10 contos; either amount<lb/> would
-               cover (save for better staff and wider propa<pc>-</pc><lb/>ganda in the second case)
+               cover (save for better staff and wider propa<pc>-</pc>
+               <lb/>ganda in the second case)
                a definite scheme of action.</p>
             <p rend="indent-2">This could be obtained on the basis of monthly
-               subscrip<pc>-</pc><lb/>tions of 20, 10 or even 5 escudos (250, 500, 1000)<lb/> (500,
+               subscrip<pc>-</pc>
+               <lb/>tions of 20, 10 or even 5 escudos (250, 500, 1000)<lb/> (500,
                1000, 2000).</p>
             <div>
                <list>
                   <item>Propaganda historica e cultural: <list>
-                        <item><label>(1)</label> directa</item>
-                        <item><label>(2)</label> indirecta</item>
+                        <item>
+                           <label>(1)</label> directa</item>
+                        <item>
+                           <label>(2)</label> indirecta</item>
                      </list>
                   </item>
                   <item>Propaganda commercial.</item>
@@ -102,7 +119,8 @@
                <head>--- Manner of obtaining the money:</head>
                <list>
                   <item rend="indent-2">1st. stage: take this up with the Commercial and
-                        Indus<pc>-</pc><lb/>trial Associations;</item>
+                        Indus<pc>-</pc>
+                     <lb/>trial Associations;</item>
                   <item rend="indent-2">2nd. stage: take this up personally with the Banks and
                      <lb/>bigger Firms;</item>
                   <item>3rd. stage: complete by circulars throughout the country.</item>

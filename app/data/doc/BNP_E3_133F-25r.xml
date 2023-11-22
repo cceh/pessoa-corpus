@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 133F-25<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 133F-25<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_133F-25r.xml</idno>
          </publicationStmt>
@@ -73,12 +74,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-133f-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133f-1-100_0051_25_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-133f-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133f-1-100_0051_25_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -86,9 +93,15 @@
             <list>
                <item>= <rs type="title">Commentary on <rs type="name" key="P139">Louis
                      Rosebery</rs>’s Article</rs>.</item>
-               <item>= Addition to <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Naufragio_de_Bartholomeu"><rs type="title">article on <rs type="name" key="P140">Lopes
-                  Vieira</rs></rs></ref>.</item>
-               <item>= <rs type="title">Female Suffrage <choice><abbr>&amp;</abbr><expan>and</expan></choice> sexual inversion</rs>.</item>
+               <item>= Addition to <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Naufragio_de_Bartholomeu">
+                     <rs type="title">article on <rs type="name" key="P140">Lopes
+                  Vieira</rs>
+                     </rs>
+                  </ref>.</item>
+               <item>= <rs type="title">Female Suffrage <choice>
+                        <abbr>&amp;</abbr>
+                        <expan>and</expan>
+                     </choice> sexual inversion</rs>.</item>
             </list>
          </div>
       </body>

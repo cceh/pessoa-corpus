@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 144D<hi rend="superscript">2</hi>-111<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 144D<hi rend="superscript">2</hi>-111<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -47,7 +48,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144D2-111r.xml</idno>
          </publicationStmt>
@@ -59,8 +60,7 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p> Lista manuscrita no caderno 144D<hi rend="superscript">2</hi> (cf. <ref
-                           target="http://purl.pt/13880">http://purl.pt/13880</ref>), publicada em
+                     <p> Lista manuscrita no caderno 144D<hi rend="superscript">2</hi> (cf. <ref target="http://purl.pt/13880">http://purl.pt/13880</ref>), publicada em
                            <hi rend="italic">Sensacionismo e outros Ismos</hi> (2009, 343). </p>
                   </summary>
                   <msItemStruct>
@@ -68,8 +68,8 @@
                         <rs type="name" key="FP">Fernando Pessoa</rs>
                      </author>
                      <note type="genre">
-                        <rs type="genre" key="lista_editorial">Lista editorial</rs><rs type="genre"
-                           key="plano_editorial">Plano editorial</rs>
+                        <rs type="genre" key="lista_editorial">Lista editorial</rs>
+                        <rs type="genre" key="plano_editorial">Plano editorial</rs>
                      </note>
                      <textLang mainLang="pt"/>
                   </msItemStruct>
@@ -83,36 +83,53 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic url="bn-acpc-e-e3_144d2_JPG_24-C-R0150/bn-acpc-e-e3_144d2_0283_111r_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3_144d2_JPG_24-C-R0150/bn-acpc-e-e3_144d2_0283_111r_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <head rend="center">Q.</head>
             <list>
-               <item><hi rend="underline"><rs type="title">Aureola</rs></hi> – poemas
+               <item>
+                  <hi rend="underline">
+                     <rs type="title">Aureola</rs>
+                  </hi> – poemas
                   extensos.</item>
                <metamark rend="line" function="distinct"/>
-               <item><hi rend="underline"><rs type="title">Episodios</rs></hi> – varios pequenos
+               <item>
+                  <hi rend="underline">
+                     <rs type="title">Episodios</rs>
+                  </hi> – varios pequenos
                   livros</item>
                <metamark rend="line" function="distinct"/>
                <item>
                   <del rend="overstrike">Paues</del>
                   <hi rend="underline">
                      <rs type="title">Gladio</rs>
-                  </hi> – <seg type="anchor">2 <add place="below" n="2">(3)</add></seg> partes <list
-                     rend="inline">
+                  </hi> – <seg type="anchor">2 <add place="below" n="2">(3)</add>
+                  </seg> partes <list rend="inline">
                      <item>: Portugal</item>
                      <item>: (Poemas mysticos)</item>
                   </list>
                </item>
                <metamark rend="line" function="distinct"/>
-               <item><hi rend="underline"><rs type="title">As sete salas do palacio
-                     abandonado</rs></hi><lb/>7 partes.</item>
+               <item>
+                  <hi rend="underline">
+                     <rs type="title">As sete salas do palacio
+                     abandonado</rs>
+                  </hi>
+                  <lb/>7 partes.</item>
                <metamark rend="line" function="end"/>
             </list>
          </div>

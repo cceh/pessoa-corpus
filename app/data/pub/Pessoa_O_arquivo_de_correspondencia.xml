@@ -35,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_arquivo_de_correspondencia.xml</idno>
          </publicationStmt>
@@ -46,7 +46,9 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item><rs type="work" key="W307">O arquivo de correspondência</rs></item>
+               <item>
+                  <rs type="work" key="W307">O arquivo de correspondência</rs>
+               </item>
             </list>
             <biblStruct>
                <analytic>
@@ -57,8 +59,10 @@
                   <textLang mainLang="pt" otherLangs="en"/>
                </analytic>
                <monogr>
-                  <title level="j"><rs type="periodical" key="J101">Revista de Comércio e
-                        Contabilidade</rs></title>
+                  <title level="j">
+                     <rs type="periodical" key="J101">Revista de Comércio e
+                        Contabilidade</rs>
+                  </title>
                   <imprint>
                      <date when="1926-04-25">25 de abril de 1926</date>
                   </imprint>
@@ -67,10 +71,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/O_arquivo_de_correspondencia_1.jpg"/>
@@ -99,7 +111,8 @@
                arquivos materialmente diferentes para a correspondencia entrada e saída: quere dizer
                apenas que a correspondencia entrada e a correspondencia saída são dois aspectos a
                tratar separadamente, ainda que as cartas de uma e as copias das cartas da outra se
-               reunam sob as capas da mesma pasta ou do mesmo <hi rend="italic">dossier.</hi></p>
+               reunam sob as capas da mesma pasta ou do mesmo <hi rend="italic">dossier.</hi>
+            </p>
             <p rend="indent-first">Passamos a indicar os processos mais eficientes de arquivar e
                coordenar a correspondencia entrada, a correspondencia saída, e a referencia a ambas.
                Muito contribui para a facilidade de trabalho de um escritorio o ter uma boa
@@ -246,7 +259,9 @@
          </div>
          <div>
             <pb n="146"/>
-            <head><hi rend="italic">(CONCLUSÃO)</hi></head>
+            <head>
+               <hi rend="italic">(CONCLUSÃO)</hi>
+            </head>
             <p rend="indent-first">A CORRESPONDENCIA saída aparece no arquivo por meio da copia ou
                copias que déla se tiram. O primeiro problema que deparamos é pois o do processo de
                tirar essas copias.</p>
@@ -268,7 +283,8 @@
                nem se perde tempo, pois a carta pode ser expedida imediatamente, visto que é a sua
                copia, e não éla, que é copiada naquêle abominavel livro.</p>
             <p rend="indent-first">Detestamos o copiador, cuja unica vantagem (pois o ser exigido
-               por lei, onde o é, o torna necessario mas não vantajoso) é que fórma um re<pc>-</pc><pb n="147"/>gistro
+               por lei, onde o é, o torna necessario mas não vantajoso) é que fórma um re<pc>-</pc>
+               <pb n="147"/>gistro
                cronologico automatico da correspondencia expedida. Onde, porém, tenha que ser usado,
                recomendamos que se use o papel quimico de copia para êsse fim, tendo a maquina de
                escrever uma fita fixa, ou «record»; assim o aspecto da carta não sofrerá insulto nem
@@ -284,8 +300,7 @@
                correspondencia saída seria numerada do mesmo modo que a entrada, e estes numeros
                serviriam para a entre-referencia de um livro para outro: na coluna do livro da
                entrada que se destina á indicação de quando se respondeu inserir-se-hia o numero da
-               carta de resposta; na coluna do livro da saída que se destina á indicação de a <hi
-                  rend="italic">quê</hi> se respondeu se inseriria o numero da carta respondida,
+               carta de resposta; na coluna do livro da saída que se destina á indicação de a <hi rend="italic">quê</hi> se respondeu se inseriria o numero da carta respondida,
                podendo ainda acrescentar-se, para elucidação inteira, tambem o numero da carta que
                veio em resposta depois. É evidente que este sistema de entre-referencias se pode
                empregar tambem entre o copiador e o livro de registro da correspondencia
@@ -336,7 +351,8 @@
                processo se aplique para as firmas com quem ha muita correspondencia, e o segundo
                para aquelas com que ha pouca? Qualquer dos dois sistemas opostos tem vantagens, e o
                terceiro, que reune os dois, reune tambem em parte as vantagens dos dois. No primeiro
-               sis<pc>-</pc><pb n="149"/>tema ha mais facilidade e comodidade de consulta, sobretudo de consulta simultanea
+               sis<pc>-</pc>
+               <pb n="149"/>tema ha mais facilidade e comodidade de consulta, sobretudo de consulta simultanea
                de cartas de firmas diferentes. No segundo sistema ha mais simplicidade de arquivo,
                menor risco de desarrumação, a exigencia de um espaço mais pequeno. A vantagem maior
                está, a nosso vêr, no sistema mixto, desde que se mantenha o dossier colectivo apenas
@@ -428,7 +444,7 @@
       </body>
    </text>
    <text type="reg" corresp="#W307">
-       <body>
+      <body>
          <div>
             <pb n="121"/>
             <head>O ARQUIVO DE CORRESPONDÊNCIA</head>
@@ -442,7 +458,8 @@
                arquivos materialmente diferentes para a correspondência entrada e saída: quer dizer
                apenas que a correspondência entrada e a correspondência saída são dois aspetos a
                tratar separadamente, ainda que as cartas de uma e as cópias das cartas da outra se
-               reúnam sob as capas da mesma pasta ou do mesmo <hi rend="italic">dossier.</hi></p>
+               reúnam sob as capas da mesma pasta ou do mesmo <hi rend="italic">dossier.</hi>
+            </p>
             <p rend="indent-first">Passamos a indicar os processos mais eficientes de arquivar e
                coordenar a correspondência entrada, a correspondência saída, e a referência a ambas.
                Muito contribui para a facilidade de trabalho de um escritório o ter uma boa
@@ -589,7 +606,9 @@
          </div>
          <div>
             <pb n="146"/>
-            <head><hi rend="italic">(CONCLUSÃO)</hi></head>
+            <head>
+               <hi rend="italic">(CONCLUSÃO)</hi>
+            </head>
             <p rend="indent-first">A CORRESPONDÊNCIA saída aparece no arquivo por meio da cópia ou
                cópias que dela se tiram. O primeiro problema que deparamos é pois o do processo de
                tirar essas cópias.</p>
@@ -611,7 +630,8 @@
                nem se perde tempo, pois a carta pode ser expedida imediatamente, visto que é a sua
                cópia, e não ela, que é copiada naquele abominável livro.</p>
             <p rend="indent-first">Detestamos o copiador, cuja única vantagem (pois o ser exigido
-               por lei, onde o é, o torna necessário mas não vantajoso) é que forma um re<pc>-</pc><pb n="147"/>gisto
+               por lei, onde o é, o torna necessário mas não vantajoso) é que forma um re<pc>-</pc>
+               <pb n="147"/>gisto
                cronológico automático da correspondência expedida. Onde, porém, tenha que ser usado,
                recomendamos que se use o papel químico de cópia para esse fim, tendo a máquina de
                escrever uma fita fixa, ou «record»; assim o aspeto da carta não sofrerá insulto nem
@@ -627,8 +647,7 @@
                correspondência saída seria numerada do mesmo modo que a entrada, e estes números
                serviriam para a entrerreferência de um livro para outro: na coluna do livro da
                entrada que se destina à indicação de quando se respondeu inserir-se-ia o número da
-               carta de resposta; na coluna do livro da saída que se destina à indicação de a <hi
-                  rend="italic">quê</hi> se respondeu se inseriria o número da carta respondida,
+               carta de resposta; na coluna do livro da saída que se destina à indicação de a <hi rend="italic">quê</hi> se respondeu se inseriria o número da carta respondida,
                podendo ainda acrescentar-se, para elucidação inteira, também o número da carta que
                veio em resposta depois. É evidente que este sistema de entrerreferências se pode
                empregar também entre o copiador e o livro de registo da correspondência
@@ -679,7 +698,8 @@
                processo se aplique para as firmas com quem há muita correspondência, e o segundo
                para aquelas com que há pouca? Qualquer dos dois sistemas opostos tem vantagens, e o
                terceiro, que reúne os dois, reúne também em parte as vantagens dos dois. No primeiro
-               sis<pc>-</pc><pb n="149"/>tema há mais facilidade e comodidade de consulta, sobretudo de consulta simultânea
+               sis<pc>-</pc>
+               <pb n="149"/>tema há mais facilidade e comodidade de consulta, sobretudo de consulta simultânea
                de cartas de firmas diferentes. No segundo sistema há mais simplicidade de arquivo,
                menor risco de desarrumação, a exigência de um espaço mais pequeno. A vantagem maior
                está, a nosso ver, no sistema misto, desde que se mantenha o dossier coletivo apenas
@@ -715,8 +735,7 @@
                caso, mas em todo o caso de classificação alfabética de designações compostas de
                <pb n="150"/>vários nomes: qual é o nome que determina preferivelmente a classificação? Por
                exemplo: a firma <hi rend="italic">A. J. Silva &amp; Costa, Lda.</hi> deve classificar-se
-               em <hi rend="italic">A. J.</hi>, em <hi rend="italic">Silva</hi>, ou em <hi
-                  rend="italic">Costa</hi>? Não há critério logicamente preferível; adote cada qual
+               em <hi rend="italic">A. J.</hi>, em <hi rend="italic">Silva</hi>, ou em <hi rend="italic">Costa</hi>? Não há critério logicamente preferível; adote cada qual
                o que preferir. O essencial, porém, é que, adotado um, se adote sempre esse; e o
                risco de erro será reduzido se o arquivo, por firmas, de cartas tiver o seu
                complemento (como deve ter, e pelas razões abaixo expostas) num arquivo de fichas ou

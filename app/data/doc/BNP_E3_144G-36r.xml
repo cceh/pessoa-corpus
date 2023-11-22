@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -36,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144G-36r.xml</idno>
          </publicationStmt>
@@ -48,8 +48,7 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p> Lista manuscrita no caderno 144G (cf. <ref target="http://purl.pt/13883"
-                           >http://purl.pt/13883</ref>). </p>
+                     <p> Lista manuscrita no caderno 144G (cf. <ref target="http://purl.pt/13883">http://purl.pt/13883</ref>). </p>
                   </summary>
                   <msItemStruct>
                      <author>
@@ -70,7 +69,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144g_JPG_24-C-R0150/bn-acpc-e-e3_144g_0099_36r_t24-C-R0150.jpg"/>
@@ -79,13 +86,19 @@
       <body>
          <div>
             <list>
-               <item><rs type="title">Theoria do Suffragio Politico</rs>.</item>
-               <item><rs type="title">Ensaio sobre o Bolchevismo</rs>.</item>
-               <item><rs type="title">Bases para uma Orthographia Nacional</rs>.</item>
-               <item><rs type="title">O Renascimento da Tyrannia</rs>.</item>
-               <item><rs type="title">O Futuro do Racionalismo</rs>.</item>
-               <item><rs type="title">Evolução da Idéa de <rs type="name" key="P50"
-                  >Jesus</rs></rs>.</item>
+               <item>
+                  <rs type="title">Theoria do Suffragio Politico</rs>.</item>
+               <item>
+                  <rs type="title">Ensaio sobre o Bolchevismo</rs>.</item>
+               <item>
+                  <rs type="title">Bases para uma Orthographia Nacional</rs>.</item>
+               <item>
+                  <rs type="title">O Renascimento da Tyrannia</rs>.</item>
+               <item>
+                  <rs type="title">O Futuro do Racionalismo</rs>.</item>
+               <item>
+                  <rs type="title">Evolução da Idéa de <rs type="name" key="P50">Jesus</rs>
+                  </rs>.</item>
             </list>
          </div>
       </body>

@@ -19,7 +19,7 @@
             <respStmt>
                <resp>Codificação, Atualização ortográfica</resp>
                <name>Inês Filipa Rebelo do Carmo</name>
-            </respStmt> 
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Athena.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Athena_1.jpg"/>
@@ -80,7 +88,7 @@
    <text type="orig" corresp="#W266">
       <body>
          <div>
-                 <pb n="5"/>
+            <pb n="5"/>
             <head>ATHENA</head>
             <p rend="indent-first">Tem duas fórmas, ou modos, o que chamamos cultura. Não é a
                     cultura senão o aperfeiçoamento subjectivo da vida. Esse aperfeiçoamento é
@@ -123,8 +131,8 @@
                     sciencia) tem origem como perfeição. Sob o influxo do deus nasce o poeta,
                     entendendo nós por poesia, como outros, o <hi rend="italic">principio animador
                         de todas as artes</hi>; com o auxilio da deusa se fórma o artista.</p>
-                 <pb n="6"/>
-                 <p rend="indent-first">Com esta ordem de symbolos ― e assim nesta materia como em
+            <pb n="6"/>
+            <p rend="indent-first">Com esta ordem de symbolos ― e assim nesta materia como em
                          outras ― ensinaram os gregos que tudo é de origem divina, isto é, extranho ao
                     nosso entendimento, e alheio á nossa vontade. Somos só o que nos fizeram ser, e
                     dormimos com sonhos, servos orgulhosos nelles da liberdade que nem nelles temos.
@@ -134,7 +142,7 @@
                     capacidade para ser mais que o artista nato. Cada um tem o <rs type="name" key="P604" style="a">Apollo</rs> que busca, e
                     terá a Athena que buscar. Tanto o que temos, porém, como o que teremos, já nos
                     está dado, porque tudo é lógico. <hi rend="italic">
-                            <rs type="name" key="P573" style="a">Deus</rs> geometriza</hi>, disse <rs type="name" key="P432">Platão</rs>.</p>
+                  <rs type="name" key="P573" style="a">Deus</rs> geometriza</hi>, disse <rs type="name" key="P432">Platão</rs>.</p>
             <milestone rend="asterisk" unit="section"/>
             <p rend="indent-first">Da sensibilidade, da personalidade distincta que ella
                     determina, nasce a arte per o que se chama a inspiração ― o segredo que ninguem
@@ -167,7 +175,7 @@
                     nelle, no genio sobresahe a loucura, em que se funda; no talento a extranheza,
                     em que se fundamenta; no ingenho a singularidade, em que tem origem. O individuo
                     mata a individualidade.</p>
-                 <pb n="7"/>
+            <pb n="7"/>
             <milestone rend="asterisk" unit="section"/>
             <p rend="indent-first">Na arte buscamos para nós um aperfeiçoamento directo; podemos
                     buscal-o temporario, ou constante, ou permanente. Nossa indole, e as
@@ -215,7 +223,7 @@
                     grau, manifestarem-se estes elementos, ainda que só nas artes abstractas, e
                     sobretudo na litteratura, que é a mais completa, possam manifestar-se
                     inteiramente.</p>
-                 <pb n="8"/>
+            <pb n="8"/>
             <p rend="indent-first">A mesma abstracção é tambem o estádio supremo da sciencia.
                     Tende esta para ser mathematica, isto é, abstracta, á medida que se eleva e se
                     aperfeiçôa. É pois no nivel da abstracção que a arte e a sciencia, ambas se
@@ -253,14 +261,16 @@
                     infantil e triste. E a arte não é porventura mais, em sua forma suprema, que a
                     infancia triste de um deus futuro, a desolação humana da immortalidade
                     pressentida.</p>
-                 <signed rend="right"><rs role="author" key="FP" type="name" style="b">FERNANDO PESSOA</rs></signed>
+            <signed rend="right">
+               <rs role="author" key="FP" type="name" style="b">FERNANDO PESSOA</rs>
+            </signed>
          </div>
       </body>
    </text>
    <text type="reg" corresp="#W266">
       <body>
          <div>
-                 <pb n="5"/>
+            <pb n="5"/>
             <head>ATHENA</head>
             <p rend="indent-first">Tem duas formas, ou modos, o que chamamos cultura. Não é a
                     cultura senão o aperfeiçoamento subjetivo da vida. Esse aperfeiçoamento é
@@ -303,8 +313,8 @@
                     ciência) tem origem como perfeição. Sob o influxo do deus nasce o poeta,
                     entendendo nós por poesia, como outros, o <hi rend="italic">princípio animador
                         de todas as artes</hi>; com o auxílio da deusa se forma o artista.</p>
-                 <pb n="6"/>
-                 <p rend="indent-first">Com esta ordem de símbolos ― e assim nesta matéria como em
+            <pb n="6"/>
+            <p rend="indent-first">Com esta ordem de símbolos ― e assim nesta matéria como em
                          outras ― ensinaram os gregos que tudo é de origem divina, isto é, estranho ao
                     nosso entendimento, e alheio à nossa vontade. Somos só o que nos fizeram ser, e
                     dormimos com sonhos, servos orgulhosos neles da liberdade que nem neles temos.
@@ -393,7 +403,7 @@
                     grau, manifestarem-se estes elementos, ainda que só nas artes abstratas, e
                     sobretudo na literatura, que é a mais completa, possam manifestar-se
                     inteiramente.</p>
-                 <pb n="8"/>
+            <pb n="8"/>
             <p rend="indent-first">A mesma abstração é tambem o estádio supremo da ciência.
                     Tende esta para ser matemática, isto é, abstrata, à medida que se eleva e se
                     aperfeiçoa. É pois no nível da abstração que a arte e a ciência, ambas se

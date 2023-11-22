@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="work" key="W367"></rs>Mensagem</title>
+            <title>
+               <rs type="work" key="W367"/>Mensagem</title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -35,45 +36,35 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Mensagem.xml</idno>
          </publicationStmt>
          <notesStmt>
-            <note type="summary">Pessoa publicou vários dos poemas do livro <hi rend="italic"
-                  >Mensagem</hi>, cuja historia genética remonta-se pelo menos até 1913 (cf. MPPV),
-               em diferentes lugares ao longo de duas décadas. As publicações <ref
-                  target="http://www.pessoadigital.pt/pt/pub/Pessoa_Mar_Portuguez">"Mar
-                  Português"</ref> e <ref
-                  target="http://www.pessoadigital.pt/pt/pub/Pessoa_Triptico">"Tríptico"</ref> são
+            <note type="summary">Pessoa publicou vários dos poemas do livro <hi rend="italic">Mensagem</hi>, cuja historia genética remonta-se pelo menos até 1913 (cf. MPPV),
+               em diferentes lugares ao longo de duas décadas. As publicações <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Mar_Portuguez">"Mar
+                  Português"</ref> e <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Triptico">"Tríptico"</ref> são
                preparatórias do material aproveitado na versão impressa e contém variantes
                significativas nos títulos e alguns versos dos poemas. Por exemplo, o poema no livro
-               intitulado "O Mostrengo" antes levou o título "O Morcego" em <ref
-                  target="http://www.pessoadigital.pt/pt/pub/Pessoa_Mar_Portuguez">"Mar
+               intitulado "O Mostrengo" antes levou o título "O Morcego" em <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Mar_Portuguez">"Mar
                   Português"</ref>, o mesmo "Occidente", antes "Os decobridores do ocidente" e
                "Fernão de Magalhães", antes "Dança dos Titãs", poemas todos que apresentam mudanças
-               significativas em alguns versos. No caso dos poemas publicados em <ref
-                  target="http://www.pessoadigital.pt/pt/pub/Pessoa_Triptico">"Tríptico"</ref>,
+               significativas em alguns versos. No caso dos poemas publicados em <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Triptico">"Tríptico"</ref>,
                existem diferenças menores nos poemas "O infante D. Henrique", "D. João o Segundo",
                enquanto que o poema "Afonso de Albuquerque" foi completamente refeito para o livro,
                mantendo únicamente o título. Após a publicação do livro impresso alguns poemas
                formam republicados em jornais. É o caso de "O infante", "O Mostrengo" e "Prece",
                publicados no Suplemento literario do <hi rend="italic">Diário de Lisboa</hi>, a 14 de
-               Dezembro de 1934, sob o título <ref
-                  target="http://www.pessoadigital.pt/de/pub/Pessoa_Do_livro_Mensagem">Do livo
+               Dezembro de 1934, sob o título <ref target="http://www.pessoadigital.pt/de/pub/Pessoa_Do_livro_Mensagem">Do livo
                   Mensagem de Fernando Pessoa</ref>; "O dos castelos" e "D. Afonso Heriques"
                publicados em <hi rend="italic">O "Notícias" Ilustrado</hi> a 6 de janeiro de 1935
-               sob o título <ref
-                  target="http://www.pessoadigital.pt/pt/pub/Pessoa_Mensagem_por_Fernando_Pessoa"
-                  >"Mensagem" por Fernando Pessoa (Os Campos)</ref>; e finalmente, os poemas "D.
-               Dinis" e "Terceiro" foram republicados parcialmente no Suplemento do <hi
-                  rend="italic">Diário de Notícias</hi> do Rio de Janeiro, a 10 de março de 1935,
+               sob o título <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Mensagem_por_Fernando_Pessoa">"Mensagem" por Fernando Pessoa (Os Campos)</ref>; e finalmente, os poemas "D.
+               Dinis" e "Terceiro" foram republicados parcialmente no Suplemento do <hi rend="italic">Diário de Notícias</hi> do Rio de Janeiro, a 10 de março de 1935,
                ainda com diferenças ortotipográficas (cf. Xavier, 2020, p. 559). No caso do poema
                "D. Fernando, Infante de Portugal" conhece-se a publicação previa sob o título
                "Gládio" com a dedicatória a Alberto da Cunha Dias, primeiro como parte do conjunto
                   <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Alguns-Poemas">"Alguns
-                  Poemas"</ref> e depois autónomamente em <ref
-                  target="http://www.pessoadigital.pt/pt/pub/Pessoa_Gladio">"Gládio"</ref>. O poema
+                  Poemas"</ref> e depois autónomamente em <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Gladio">"Gládio"</ref>. O poema
                   <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Prece">"Prece"</ref> também
                foi publicado autónomamente, em 1929, com ligeiras variantes ortotipográficas.</note>
             <note type="genre">
@@ -82,32 +73,84 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item><rs type="work" key="W368">O Dos Castelos</rs></item>
-               <item><rs type="work" key="W371">O das Quinas</rs></item>
-               <item><rs type="work" key="W372">Ulisses</rs></item>
-               <item><rs type="work" key="W373">Viriato</rs></item>
-               <item><rs type="work" key="W374">O Conde D. Henrique</rs></item>
-               <item><rs type="work" key="W375">D. Tareja</rs></item>
-               <item><rs type="work" key="W376">D. Dinis</rs></item>
-               <item><rs type="work" key="W377">D. João O Primeiro</rs></item>
-               <item><rs type="work" key="W378">D. Filipa de Lencastre</rs></item>
-               <item><rs type="work" key="W379">D. Duarte, Rei de Portugal</rs></item>
-               <item><rs type="work" key="W380">D. Fernando, Infante de Portugal</rs></item>
-               <item><rs type="work" key="W381">D. Pedro, Regente de Portugal</rs></item>
-               <item><rs type="work" key="W382">D. João, Infante de Portugal</rs></item>
-               <item><rs type="work" key="W383">D. Sebastião, Rei de Portugal</rs></item>
-               <item><rs type="work" key="W384">Nunálvares Pereira</rs></item>
-               <item><rs type="work" key="W385">O Infante D. Henrique</rs></item>
-               <item><rs type="work" key="W386">D. João O Segundo</rs></item>
-               <item><rs type="work" key="W387">Afonso de Albuquerque</rs></item>
-               <item><rs type="work" key="W215">Afonso de Albuquerque</rs></item>
-               <item><rs type="work" key="W217">Ironia</rs></item>
-               <item><rs type="work" key="W218">Ocidente</rs></item>
-               <item><rs type="work" key="W219">Dança dos Titãs</rs></item>
-               <item><rs type="work" key="W220">Ascensão de Vasco da Gama</rs></item>
-               <item><rs type="work" key="W221">Mar Português</rs></item>
-               <item><rs type="work" key="W222">A última nau</rs></item>
-               <item><rs type="work" key="W223">Prece</rs></item>
+               <item>
+                  <rs type="work" key="W368">O Dos Castelos</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W371">O das Quinas</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W372">Ulisses</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W373">Viriato</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W374">O Conde D. Henrique</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W375">D. Tareja</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W376">D. Dinis</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W377">D. João O Primeiro</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W378">D. Filipa de Lencastre</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W379">D. Duarte, Rei de Portugal</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W380">D. Fernando, Infante de Portugal</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W381">D. Pedro, Regente de Portugal</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W382">D. João, Infante de Portugal</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W383">D. Sebastião, Rei de Portugal</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W384">Nunálvares Pereira</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W385">O Infante D. Henrique</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W386">D. João O Segundo</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W387">Afonso de Albuquerque</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W215">Afonso de Albuquerque</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W217">Ironia</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W218">Ocidente</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W219">Dança dos Titãs</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W220">Ascensão de Vasco da Gama</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W221">Mar Português</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W222">A última nau</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W223">Prece</rs>
+               </item>
             </list>
             <biblStruct>
                <monogr>
@@ -126,10 +169,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="pub/Pessoa_Mensagem_1.jpg"/>
@@ -208,11 +259,14 @@
       <front>
          <titlePage>
             <pb/>
-            <docAuthor>Fernando Pessoa</docAuthor><lb/>
+            <docAuthor>Fernando Pessoa</docAuthor>
+            <lb/>
             <docTitle>
-               <titlePart>Mensagem</titlePart><lb/>
+               <titlePart>Mensagem</titlePart>
+               <lb/>
             </docTitle>
-            <docImprint>Lisboa 1934<lb/>Parceria Antonio Maria Pereira 44 Rua Augusta 54</docImprint><lb/>
+            <docImprint>Lisboa 1934<lb/>Parceria Antonio Maria Pereira 44 Rua Augusta 54</docImprint>
+            <lb/>
          </titlePage>
          <div>
             <pb/>
@@ -232,9 +286,11 @@
                <pb/>
                <head>I.</head>
                <head>OS CAMPOS</head>
-                  <pb n="15"/>
-                  <div type="poem" corresp="#W368">
-                  <head><hi rend="italic">PRIMEIRO</hi></head>
+               <pb n="15"/>
+               <div type="poem" corresp="#W368">
+                  <head>
+                     <hi rend="italic">PRIMEIRO</hi>
+                  </head>
                   <head>O DOS CASTELLOS</head>
                   <lg>
                      <l>A Europa jaz, posta nos cotovellos:</l>
@@ -256,11 +312,12 @@
                   <lg>
                      <l>O rosto com que fita é Portugal.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W371">
                   <pb n="16"/>
-                  <head><hi rend="italic">SEGUNDO</hi></head>
+                  <head>
+                     <hi rend="italic">SEGUNDO</hi>
+                  </head>
                   <head>O DAS QUINAS</head>
                   <lg>
                      <l>Vendem os Deuses o que dão.</l>
@@ -276,12 +333,10 @@
                   </lg>
                   <lg>
                      <l>Foi com desgraça e com vileza</l>
-                     <l>Que <rs type="name" key="P573" style="a">Deus</rs> ao <rs type="name"
-                           key="P50">Christo</rs> definiu:</l>
+                     <l>Que <rs type="name" key="P573" style="a">Deus</rs> ao <rs type="name" key="P50">Christo</rs> definiu:</l>
                      <l>Assím o oppoz à Natureza</l>
                      <l>E Filho o ungiu</l>
                   </lg>
-
                </div>
             </div>
             <div>
@@ -290,8 +345,12 @@
                <pb/>
                <div type="poem" corresp="W372">
                   <pb n="19"/>
-                  <head><hi rend="italic">PRIMEIRO</hi></head>
-                  <head><rs type="name" key="P598">ULYSSES</rs></head>
+                  <head>
+                     <hi rend="italic">PRIMEIRO</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P598">ULYSSES</rs>
+                  </head>
                   <lg>
                      <l>O mytho é o nada que é tudo.</l>
                      <l>O mesmo sol que abre os céus</l>
@@ -313,12 +372,15 @@
                      <l>Em baixo, a vida, metade</l>
                      <l>De nada, morre.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W373">
                   <pb n="20"/>
-                  <head><hi rend="italic">SEGUNDO</hi></head>
-                  <head><rs type="name" key="P672">VIRIATO</rs></head>
+                  <head>
+                     <hi rend="italic">SEGUNDO</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P672">VIRIATO</rs>
+                  </head>
                   <lg>
                      <l>Se a alma que sente e faz conhece</l>
                      <l>Só porque lembra o que esqueceu,</l>
@@ -337,15 +399,19 @@
                      <l>E é já o ir a haver o dia</l>
                      <l>Na antemanhã, confuso nada.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W374">
                   <pb n="21"/>
-                  <head><hi rend="italic">TERCEIRO</hi></head>
-                  <head><rs type="name" key="P487">O CONDE D. HENRIQUE</rs></head>
+                  <head>
+                     <hi rend="italic">TERCEIRO</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P487">O CONDE D. HENRIQUE</rs>
+                  </head>
                   <lg>
                      <l>Todo começo é involuntario.</l>
-                     <l><rs type="name" key="P573" style="a">Deus</rs> é o agente.</l>
+                     <l>
+                        <rs type="name" key="P573" style="a">Deus</rs> é o agente.</l>
                      <l>O heroe a si assiste, vario</l>
                      <l>E inconsciente.</l>
                   </lg>
@@ -357,12 +423,15 @@
                   <lg>
                      <l>Ergueste-a, e fez-se.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W375">
                   <pb n="22"/>
-                  <head><hi rend="italic">QUARTO</hi></head>
-                  <head><rs type="name" key="688">D. TAREJA</rs></head>
+                  <head>
+                     <hi rend="italic">QUARTO</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="688">D. TAREJA</rs>
+                  </head>
                   <lg>
                      <l>As nações todas são mysterios.</l>
                      <l>Cada uma é todo o mundo a sós.</l>
@@ -388,12 +457,15 @@
                      <l>No antigo seio, vigilante,</l>
                      <l>De novo o cria!</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W369">
                   <pb n="24"/>
-                  <head><hi rend="italic">QUINTO</hi></head>
-                  <head><rs type="name" key="P653">D. AFFONSO HENRIQUES</rs></head>
+                  <head>
+                     <hi rend="italic">QUINTO</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P653">D. AFFONSO HENRIQUES</rs>
+                  </head>
                   <!--MJ: "Afonso" em "Mensagem" por Fernando Pessoa-->
                   <lg>
                      <l>Pae, foste cavalleiro.</l>
@@ -407,12 +479,15 @@
                      <l>A benção como espada,</l>
                      <l>A espada como benção!</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W376">
                   <pb n="25"/>
-                  <head><hi rend="italic">SEXTO</hi></head>
-                  <head><rs type="name" key="689">D. DINIZ</rs></head>
+                  <head>
+                     <hi rend="italic">SEXTO</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="689">D. DINIZ</rs>
+                  </head>
                   <lg>
                      <l>Na noite escreve um seu Cantar de Amigo</l>
                      <l>O plantador de naus a haver,</l>
@@ -427,12 +502,15 @@
                      <l>É o som presente d'esse mar futuro,</l>
                      <l>É a voz da terra anciando pelo mar.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W377">
                   <pb n="26"/>
-                  <head><hi rend="italic">SEPTIMO (I)</hi></head>
-                  <head><rs type="name" key="P102">D. JOÃO O PRIMEIRO</rs></head>
+                  <head>
+                     <hi rend="italic">SEPTIMO (I)</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P102">D. JOÃO O PRIMEIRO</rs>
+                  </head>
                   <lg>
                      <l>O homem e a hora são um só</l>
                      <l>Quando <rs type="name" key="P573" style="a">Deus</rs> faz e a história é
@@ -452,12 +530,15 @@
                      <l>A que repelle, eterna chamma,</l>
                      <l>A sombra eterna.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W378">
                   <pb n="27"/>
-                  <head><hi rend="italic">SEPTIMO (II)</hi></head>
-                  <head><rs type="name" key="690">D. PHILIPPA DE LENCASTRE</rs></head>
+                  <head>
+                     <hi rend="italic">SEPTIMO (II)</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="690">D. PHILIPPA DE LENCASTRE</rs>
+                  </head>
                   <lg>
                      <l>Que enigma havia em teu seio</l>
                      <l>Que só genios concebia?</l>
@@ -470,7 +551,6 @@
                      <l>Humano ventre do Imperio,</l>
                      <l>Madrinha de Portugal!</l>
                   </lg>
-
                </div>
             </div>
             <div>
@@ -479,8 +559,11 @@
                <head>AS QUINAS</head>
                <pb/>
                <div type="poem" corresp="W379">
-                  <head><hi rend="italic">PRIMEIRA</hi></head>
-                  <head><rs type="name" key="691">D. DUARTE</rs>, REI DE PORTUGAL</head>
+                  <head>
+                     <hi rend="italic">PRIMEIRA</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="691">D. DUARTE</rs>, REI DE PORTUGAL</head>
                   <lg>
                      <l>Meu dever fez-me, como <rs type="name" key="P573" style="a">Deus</rs> ao
                         mundo.</l>
@@ -492,12 +575,14 @@
                      <l>Cumpri contra o Destino o meu dever.</l>
                      <l>Inutilmente? Não, porque o cumpri.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W380">
                   <pb n="32"/>
-                  <head><hi rend="italic">SEGUNDA</hi></head>
-                  <head><rs type="name" key="692">D. FERNANDO</rs>, INFANTE DE PORTUGAL</head>
+                  <head>
+                     <hi rend="italic">SEGUNDA</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="692">D. FERNANDO</rs>, INFANTE DE PORTUGAL</head>
                   <lg>
                      <l>Deu-me <rs type="name" key="P573" style="a">Deus</rs> o seu gladio, porque
                         eu faça</l>
@@ -522,12 +607,14 @@
                      <l>Pois, venha o que vier, nunca será</l>
                      <l>Maior do que a minha alma.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W381">
                   <pb n="33"/>
-                  <head><hi rend="italic">TERCEIRA</hi></head>
-                  <head><rs type="name" key="693">D. PEDRO</rs>, REGENTE DE PORTUGAL</head>
+                  <head>
+                     <hi rend="italic">TERCEIRA</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="693">D. PEDRO</rs>, REGENTE DE PORTUGAL</head>
                   <lg>
                      <l>Claro em pensar, e claro no sentir,</l>
                      <l>E claro no querer;</l>
@@ -544,12 +631,14 @@
                      <l>Fiel à palavra dada e à idéa tida.</l>
                      <l>Tudo mais é com <rs type="name" key="P573" style="a">Deus</rs>!</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W382">
                   <pb n="34"/>
-                  <head><hi rend="italic">QUARTA</hi></head>
-                  <head><rs type="name" key="P102">D. JOÃO</rs>, INFANTE DE PORTUGAL</head>
+                  <head>
+                     <hi rend="italic">QUARTA</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P102">D. JOÃO</rs>, INFANTE DE PORTUGAL</head>
                   <lg>
                      <l>Não fui alguem. Minha alma estava estreita</l>
                      <l>Entre tam grandes almas minhas pares,</l>
@@ -562,12 +651,14 @@
                      <l>O inteiro mar, ou a orla vã desfeita —</l>
                      <l>O todo, ou o seu nada.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W383">
                   <pb n="35"/>
-                  <head><hi rend="italic">QUINTA</hi></head>
-                  <head><rs type="name" key="P21">D. SEBASTIÃO</rs>, REI DE PORTUGAL</head>
+                  <head>
+                     <hi rend="italic">QUINTA</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P21">D. SEBASTIÃO</rs>, REI DE PORTUGAL</head>
                   <lg>
                      <l>Louco, sim, louco, porque quiz grandeza</l>
                      <l>Qual a Sorte a não dá.</l>
@@ -582,7 +673,6 @@
                      <l>Mais que a besta sadia,</l>
                      <l>Cadaver addiado que procria?</l>
                   </lg>
-
                </div>
             </div>
             <div>
@@ -591,7 +681,9 @@
                <head>A COROA</head>
                <pb/>
                <div type="poem" corresp="W384">
-                  <head><rs type="name" key="694">NUNALVARES PEREIRA</rs></head>
+                  <head>
+                     <rs type="name" key="694">NUNALVARES PEREIRA</rs>
+                  </head>
                   <lg>
                      <l>Que aureola te cerca?</l>
                      <l>É a espada que, volteando,</l>
@@ -610,7 +702,6 @@
                      <l>Ergue a luz da tua espada</l>
                      <l>Para a estrada se ver!</l>
                   </lg>
-
                </div>
             </div>
             <div>
@@ -619,9 +710,12 @@
                <head>O TIMBRE</head>
                <pb/>
                <div type="poem" corresp="W385">
-                  <head><hi rend="italic">A CABEÇA DO GRYPHO</hi></head>
+                  <head>
+                     <hi rend="italic">A CABEÇA DO GRYPHO</hi>
+                  </head>
                   <!--MJ: "Tríptico" não tem este título -->
-                  <head>O INFANTE <rs type="name" key="P487">D. HENRIQUE</rs></head>
+                  <head>O INFANTE <rs type="name" key="P487">D. HENRIQUE</rs>
+                  </head>
                   <lg>
                      <l>Em seu throno entre o brilho das espheras,</l>
                      <!--MJ: "trono" e "esferas" em "Tríptico"-->
@@ -631,13 +725,16 @@
                      <!--MJ: "único" em "Tríptico"-->
                      <l>O globo mundo em sua mão.</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="W386">
                   <pb n="44"/>
-                  <head><hi rend="italic">UMA ASA DO GRYPHO</hi></head>
+                  <head>
+                     <hi rend="italic">UMA ASA DO GRYPHO</hi>
+                  </head>
                   <!--MJ: em "Tríptico" não tem este título-->
-                  <head><rs type="name" key="P594">D. JOÃO O SEGUNDO</rs></head>
+                  <head>
+                     <rs type="name" key="P594">D. JOÃO O SEGUNDO</rs>
+                  </head>
                   <lg>
                      <l>Braços cruzados, fita além do mar.</l>
                      <l>Parece em promontorio uma alta serra —</l>
@@ -654,12 +751,15 @@
                      <l>Que elle abra os braços e lhe rasgue o véu.</l>
                      <!--MJ: "êle" em "Tríptico"-->
                   </lg>
-
                </div>
                <div type="poem" corresp="W387">
                   <pb n="45"/>
-                  <head><hi rend="italic">A OUTRA ASA DO GRYPHO</hi></head>
-                  <head><rs type="name" key="P488">AFFONSO DE ALBUQUERQUE</rs></head>
+                  <head>
+                     <hi rend="italic">A OUTRA ASA DO GRYPHO</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P488">AFFONSO DE ALBUQUERQUE</rs>
+                  </head>
                   <!--MJ: "Afonso" em "Tríptico"-->
                   <lg>
                      <l>De pé, sobre os paizes conquistados</l>
@@ -673,7 +773,6 @@
                      <l>Trez imperios do chão lhe a Sorte apanha.</l>
                      <l>Creou-os como quem desdenha.</l>
                   </lg>
-
                </div>
             </div>
          </div>
@@ -688,9 +787,11 @@
                <head>I.</head>
                <head>O INFANTE</head>
                <lg>
-                  <l><rs type="name" key="P573" style="a">Deus</rs> quer, o homem sonha, a obra
+                  <l>
+                     <rs type="name" key="P573" style="a">Deus</rs> quer, o homem sonha, a obra
                      nasce.</l>
-                  <l><rs type="name" key="P573" style="a">Deus</rs> quiz que a terra fosse toda
+                  <l>
+                     <rs type="name" key="P573" style="a">Deus</rs> quiz que a terra fosse toda
                      uma,</l>
                   <l>Que o mar unisse, já não separasse.</l>
                   <l>Sagrou-te, e foste desvendando a espuma,</l>
@@ -707,7 +808,6 @@
                   <l>Cumpriu-se o Mar, e o Imperio se desfez.</l>
                   <l>Senhor, falta cumprir-se Portugal!</l>
                </lg>
-
             </div>
             <div type="poem" corresp="#W213">
                <pb n="52"/>
@@ -741,7 +841,6 @@
                   <l>A arvore, a praia, a flor, a ave, a fonte —</l>
                   <l>Os beijos merecidos da Verdade.</l>
                </lg>
-
             </div>
             <div type="poem" corresp="#W214">
                <pb n="54"/>
@@ -758,7 +857,8 @@
                   <l>Este padrão signala ao vento e aos céus</l>
                   <!--MJ: "céos" em "Mar Portuguez"-->
                   <l>Que, da obra ousada, é minha a parte feita:</l>
-                  <l>O por-fazer é só com <rs type="name" key="P573" style="a">Deus.</rs></l>
+                  <l>O por-fazer é só com <rs type="name" key="P573" style="a">Deus.</rs>
+                  </l>
                </lg>
                <lg>
                   <l>E ao immenso e possivel oceano</l>
@@ -776,7 +876,6 @@
                      calma</l>
                   <l>O porto sempre por achar.</l>
                </lg>
-
             </div>
             <div type="poem" corresp="W215">
                <pb n="56"/>
@@ -830,19 +929,19 @@
                   <l>De El-Rei <rs type="name" key="P594">D. João Segundo</rs>!»</l>
                   <!--MJ: "D'El-Rei Dom João Segundo" em "Mar Portuguez"-->
                </lg>
-
             </div>
             <div type="poem" corresp="#W216">
                <pb n="58"/>
                <head>V.</head>
-               <head>EPITAPHIO DE <rs type="name" key="P477">BARTHOLOMEU DIAS</rs></head>
+               <head>EPITAPHIO DE <rs type="name" key="P477">BARTHOLOMEU DIAS</rs>
+               </head>
                <lg>
                   <l>Jaz aqui, na pequena praia extrema,</l>
                   <l>O Capitão do Fim. Dobrado o Assombro,</l>
                   <l>O mar é o mesmo: já ninguem o tema!</l>
-                  <l><rs type="name" key="P609">Atlas</rs>, mostra alto o mundo no seu hombro.</l>
+                  <l>
+                     <rs type="name" key="P609">Atlas</rs>, mostra alto o mundo no seu hombro.</l>
                </lg>
-
             </div>
             <div type="poem" corresp="W217">
                <pb n="59"/>
@@ -901,7 +1000,9 @@
             <div type="poem" corresp="W219">
                <pb n="61"/>
                <head>VIII.</head>
-               <head><rs type="name" key="695">FERNÃO DE MAGALHÃES</rs></head>
+               <head>
+                  <rs type="name" key="695">FERNÃO DE MAGALHÃES</rs>
+               </head>
                <!--MJ: "Dança dos titans" em "Mar Portuguez"-->
                <lg>
                   <l>No valle clareia uma fogueira.</l>
@@ -948,7 +1049,8 @@
             <div type="poem" corresp="W220">
                <pb n="63"/>
                <head>IX.</head>
-               <head>ASCENSÃO DE <rs type="name" key="P610">VASCO DA GAMA</rs></head>
+               <head>ASCENSÃO DE <rs type="name" key="P610">VASCO DA GAMA</rs>
+               </head>
                <lg>
                   <l>Os Deuses da tormenta e os gigantes da terra</l>
                   <l>Suspendem de repente o odio da sua guerra</l>
@@ -992,7 +1094,8 @@
                   <l>Se a alma não é pequena.</l>
                   <l>Quem quer passar além do Bojador</l>
                   <l>Tem que passar além da dor.</l>
-                  <l><rs type="name" key="P573" style="a">Deus</rs> ao mar o perigo e o abysmo
+                  <l>
+                     <rs type="name" key="P573" style="a">Deus</rs> ao mar o perigo e o abysmo
                      deu,</l>
                   <l>Mas nelle é que espelhou o céu.</l>
                   <!--MJ: "céo" em "Mar Portuguez"-->
@@ -1004,7 +1107,8 @@
                <head>A ULTIMA NAU</head>
                <!--MJ: "Nao" em "Mar Portuguez"-->
                <lg>
-                  <l>Levando a bordo <rs type="name" key="P21">El-Rei D. Sebastião,</rs></l>
+                  <l>Levando a bordo <rs type="name" key="P21">El-Rei D. Sebastião,</rs>
+                  </l>
                   <!--MJ: "Dom" em "Mar Portuguez"-->
                   <l>E erguendo, como um nome, alto o pendão</l>
                   <!--MJ: vírgula depois de "alto" em "Mar Portuguez"-->
@@ -1019,7 +1123,8 @@
                   <l>Não voltou mais. A que ilha indescoberta</l>
                   <l>Aportou? Voltará da sorte incerta</l>
                   <l>Que teve?</l>
-                  <l><rs type="name" key="P573" style="a">Deus</rs> guarda o corpo e a fórma do
+                  <l>
+                     <rs type="name" key="P573" style="a">Deus</rs> guarda o corpo e a fórma do
                      futuro,</l>
                   <l>Mas Sua luz projecta-o, sonho escuro</l>
                   <l>E breve.</l>
@@ -1089,13 +1194,18 @@
                <pb/>
                <div type="poem" corresp="XXX">
                   <pb n="75"/>
-                  <head><hi rend="italic">PRIMEIRO</hi></head>
-                  <head><rs type="name" key="P21">D. SEBASTIÃO</rs></head>
+                  <head>
+                     <hi rend="italic">PRIMEIRO</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P21">D. SEBASTIÃO</rs>
+                  </head>
                   <lg>
                      <l>Sperae! Cahi no areal e na hora adversa</l>
                      <l>Que <rs type="name" key="P573" style="a">Deus</rs> concede aos seus</l>
                      <l>Para o intervallo em que esteja a alma immersa</l>
-                     <l>Em sonhos que são <rs type="name" key="P573" style="a">Deus.</rs></l>
+                     <l>Em sonhos que são <rs type="name" key="P573" style="a">Deus.</rs>
+                     </l>
                   </lg>
                   <lg>
                      <l>Que importa o areal e a morte e a desventura</l>
@@ -1106,7 +1216,9 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="76"/>
-                  <head><hi rend="italic">SEGUNDO</hi></head>
+                  <head>
+                     <hi rend="italic">SEGUNDO</hi>
+                  </head>
                   <head>O QUINTO IMPERIO</head>
                   <lg>
                      <l>Triste de quem vive em casa,</l>
@@ -1149,7 +1261,9 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="78"/>
-                  <head><hi rend="italic">TERCEIRO</hi></head>
+                  <head>
+                     <hi rend="italic">TERCEIRO</hi>
+                  </head>
                   <head>O DESEJADO</head>
                   <lg>
                      <l>Onde quer que, entre sombras e dizeres,</l>
@@ -1169,11 +1283,12 @@
                      <l>Que sua Luz ao mundo dividido</l>
                      <l>Revele o Santo Gral!</l>
                   </lg>
-
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="79"/>
-                  <head><hi rend="italic">QUARTO</hi></head>
+                  <head>
+                     <hi rend="italic">QUARTO</hi>
+                  </head>
                   <head>AS ILHAS AFORTUNADAS</head>
                   <lg>
                      <l>Que voz vem no som das ondas</l>
@@ -1199,7 +1314,9 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="80"/>
-                  <head><hi rend="italic">QUINTO</hi></head>
+                  <head>
+                     <hi rend="italic">QUINTO</hi>
+                  </head>
                   <head>O ENCOBERTO</head>
                   <lg>
                      <l>Que symbolo fecundo</l>
@@ -1211,7 +1328,8 @@
                      <l>Que symbolo divino</l>
                      <l>Traz o dia já visto?</l>
                      <l>Na Cruz, que é o Destino,</l>
-                     <l>A Rosa, que é o <rs type="name" key="P50">Christo.</rs></l>
+                     <l>A Rosa, que é o <rs type="name" key="P50">Christo.</rs>
+                     </l>
                   </lg>
                   <lg>
                      <l>Que symbolo final</l>
@@ -1227,14 +1345,17 @@
                <pb/>
                <div type="poem" corresp="XXX">
                   <pb n="83"/>
-                  <head><hi rend="italic">PRIMEIRO</hi></head>
+                  <head>
+                     <hi rend="italic">PRIMEIRO</hi>
+                  </head>
                   <head>O BANDARRA</head>
                   <lg>
                      <l>Sonhava, anonymo e disperso,</l>
                      <l>O Imperio por <rs type="name" key="P573" style="a">Deus</rs> mesmo
                         visto,</l>
                      <l>Confuso como o Universo</l>
-                     <l>E plebeu como <rs type="name" key="P50">Jesus Christo.</rs></l>
+                     <l>E plebeu como <rs type="name" key="P50">Jesus Christo.</rs>
+                     </l>
                   </lg>
                   <lg>
                      <l>Não foi nem santo nem heroe,</l>
@@ -1245,8 +1366,12 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="84"/>
-                  <head><hi rend="italic">SEGUNDO</hi></head>
-                  <head><rs type="name" key="P300">ANTONIO VIEIRA</rs></head>
+                  <head>
+                     <hi rend="italic">SEGUNDO</hi>
+                  </head>
+                  <head>
+                     <rs type="name" key="P300">ANTONIO VIEIRA</rs>
+                  </head>
                   <lg>
                      <l>O céu estrella o azul e tem grandeza.</l>
                      <l>Este, que teve a fama e à gloria tem,</l>
@@ -1257,7 +1382,8 @@
                      <l>No immenso espaço seu de meditar,</l>
                      <l>Constellado de fórma e de visão,</l>
                      <l>Surge, prenuncio claro do luar,</l>
-                     <l>El-Rei <rs type="name" key="P21">D. Sebastião.</rs></l>
+                     <l>El-Rei <rs type="name" key="P21">D. Sebastião.</rs>
+                     </l>
                   </lg>
                   <lg>
                      <l>Mas não, não é luar: é luz do ethereo.</l>
@@ -1268,7 +1394,9 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="85"/>
-                  <head><hi rend="italic">TERCEIRO</hi></head>
+                  <head>
+                     <hi rend="italic">TERCEIRO</hi>
+                  </head>
                   <lg>
                      <l>Screvo meu livro à beira-magua.</l>
                      <l>Meu coração não tem que ter.</l>
@@ -1282,7 +1410,8 @@
                      <l>Quando é o Rei? Quando é a Hora?</l>
                   </lg>
                   <lg>
-                     <l>Quando virás a ser o <rs type="name" key="P50">Cristo</rs></l>
+                     <l>Quando virás a ser o <rs type="name" key="P50">Cristo</rs>
+                     </l>
                      <l>De a quem morreu o falso <rs type="name" key="P573" style="a">Deus</rs>,</l>
                      <l>E a dispertar do mal que existo</l>
                      <l>A Nova Terra e os Novos Céus?</l>
@@ -1301,7 +1430,6 @@
                      <l>Da nevoa e da saudade quando?</l>
                      <l>Quando, meu Sonho e meu Senhor?</l>
                   </lg>
-
                </div>
             </div>
             <div>
@@ -1310,7 +1438,9 @@
                <pb/>
                <div type="poem" corresp="XXX">
                   <pb n="89"/>
-                  <head><hi rend="italic">PRIMEIRO</hi></head>
+                  <head>
+                     <hi rend="italic">PRIMEIRO</hi>
+                  </head>
                   <head>NOITE</head>
                   <lg>
                      <l>A nau de um d'elles tinha se perdido</l>
@@ -1358,7 +1488,9 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="92"/>
-                  <head><hi rend="italic">SEGUNDO</hi></head>
+                  <head>
+                     <hi rend="italic">SEGUNDO</hi>
+                  </head>
                   <head>TORMENTA</head>
                   <lg>
                      <l>Que jaz no abysmo sob o mar que se ergue?</l>
@@ -1376,7 +1508,9 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="93"/>
-                  <head><hi rend="italic">TERCEIRO</hi></head>
+                  <head>
+                     <hi rend="italic">TERCEIRO</hi>
+                  </head>
                   <head>CALMA</head>
                   <lg>
                      <l>Que costa é que as ondas contam</l>
@@ -1410,7 +1544,9 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="95"/>
-                  <head><hi rend="italic">QUARTO</hi></head>
+                  <head>
+                     <hi rend="italic">QUARTO</hi>
+                  </head>
                   <head>ANTEMANHÃ</head>
                   <lg>
                      <l>O mostrengo que está no fim do mar</l>
@@ -1433,7 +1569,9 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="96"/>
-                  <head><hi rend="italic">QUINTO</hi></head>
+                  <head>
+                     <hi rend="italic">QUINTO</hi>
+                  </head>
                   <head>NEVOEIRO</head>
                   <lg>
                      <l>Nem rei nem lei, nem paz nem guerra,</l>
@@ -1456,7 +1594,9 @@
                      <l>É a Hora!</l>
                   </lg>
                   <lg>
-                     <l><hi rend="italic">Valete, Fratres.</hi></l>
+                     <l>
+                        <hi rend="italic">Valete, Fratres.</hi>
+                     </l>
                   </lg>
                </div>
             </div>
@@ -1488,7 +1628,9 @@
             <head>OS CAMPOS</head>
             <div type="poem" corresp="XXX">
                <pb n="15"/>
-               <head rend="indent"><hi rend="italic">PRIMEIRO</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">PRIMEIRO</hi>
+               </head>
                <head rend="indent">O DOS CASTELOS
                   <!--MJ: "Castelos" em "Mensagem" por Fernando Pessoa--></head>
                <lg>
@@ -1515,7 +1657,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="16"/>
-               <head rend="indent"><hi rend="italic">SEGUNDO</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">SEGUNDO</hi>
+               </head>
                <head rend="indent">O DAS QUINAS</head>
                <lg>
                   <l>Vendem os Deuses o que dão.</l>
@@ -1541,7 +1685,9 @@
                <head>OS CASTELOS</head>
                <div type="poem" corresp="XXX">
                   <pb n="19"/>
-                  <head rend="indent"><hi rend="italic">PRIMEIRO</hi></head>
+                  <head rend="indent">
+                     <hi rend="italic">PRIMEIRO</hi>
+                  </head>
                   <head rend="indent">ULISSES</head>
                   <lg>
                      <l>O mito é o nada que é tudo.</l>
@@ -1568,7 +1714,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="20"/>
-               <head rend="indent"><hi rend="italic">SEGUNDO</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">SEGUNDO</hi>
+               </head>
                <head rend="indent">VIRIATO</head>
                <lg>
                   <l>Se a alma que sente e faz conhece</l>
@@ -1591,7 +1739,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="21"/>
-               <head rend="indent"><hi rend="italic">TERCEIRO</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">TERCEIRO</hi>
+               </head>
                <head rend="indent">O CONDE D. HENRIQUE</head>
                <lg>
                   <l>Todo começo é involuntário.</l>
@@ -1610,8 +1760,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="22"/>
-               <head rend="indent"><hi rend="italic">QUARTO</hi></head>
-
+               <head rend="indent">
+                  <hi rend="italic">QUARTO</hi>
+               </head>
                <head rend="indent">D. TAREJA</head>
                <lg>
                   <l>As nações todas são mistérios.</l>
@@ -1641,8 +1792,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="24"/>
-               <head rend="indent"><hi rend="italic">QUINTO</hi></head>
-
+               <head rend="indent">
+                  <hi rend="italic">QUINTO</hi>
+               </head>
                <head rend="indent">D. AFONSO HENRIQUES</head>
                <!--MJ: "Afonso" em "Mensagem" por Fernando Pessoa-->
                <lg>
@@ -1660,7 +1812,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="25"/>
-               <head rend="indent"><hi rend="italic">SEXTO</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">SEXTO</hi>
+               </head>
                <head rend="indent">D. DINIS</head>
                <lg>
                   <l>Na noite escreve um seu Cantar de Amigo</l>
@@ -1679,7 +1833,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="26"/>
-               <head rend="indent"><hi rend="italic">SÉTIMO (I)</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">SÉTIMO (I)</hi>
+               </head>
                <head rend="indent">D. JOÃO O PRIMEIRO</head>
                <lg>
                   <l>O homem e a hora são um só</l>
@@ -1702,7 +1858,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="27"/>
-               <head rend="indent"><hi rend="italic">SÉTIMO (II)</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">SÉTIMO (II)</hi>
+               </head>
                <head rend="indent">D. FILIPA DE LENCASTRE</head>
                <lg>
                   <l>Que enigma havia em teu seio</l>
@@ -1722,7 +1880,9 @@
                <head>III.</head>
                <head>AS QUINAS</head>
                <div type="poem" corresp="XXX">
-                  <head rend="indent"><hi rend="italic">PRIMEIRA</hi></head>
+                  <head rend="indent">
+                     <hi rend="italic">PRIMEIRA</hi>
+                  </head>
                   <head rend="indent">D. DUARTE, REI DE PORTUGAL</head>
                   <lg>
                      <l>Meu dever fez-me, como Deus ao mundo.</l>
@@ -1738,7 +1898,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="32"/>
-               <head rend="indent"><hi rend="italic">SEGUNDA</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">SEGUNDA</hi>
+               </head>
                <head rend="indent">D. FERNANDO, INFANTE DE PORTUGAL</head>
                <lg>
                   <l>Deu-me Deus o seu gládio porque eu faça</l>
@@ -1765,7 +1927,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="33"/>
-               <head rend="indent"><hi rend="italic">TERCEIRA</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">TERCEIRA</hi>
+               </head>
                <head rend="indent">D. PEDRO, REGENTE DE PORTUGAL</head>
                <lg>
                   <l>Claro em pensar, e claro no sentir,</l>
@@ -1786,7 +1950,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="34"/>
-               <head rend="indent"><hi rend="italic">QUARTA</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">QUARTA</hi>
+               </head>
                <head rend="indent">D. JOÃO, INFANTE DE PORTUGAL</head>
                <lg>
                   <l>Não fui alguém. Minha alma estava estreita</l>
@@ -1803,7 +1969,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="35"/>
-               <head rend="indent"><hi rend="italic">QUINTA</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">QUINTA</hi>
+               </head>
                <head rend="indent">D. SEBASTIÃO, REI DE PORTUGAL</head>
                <lg>
                   <l>Louco, sim, louco, porque quis grandeza</l>
@@ -1851,7 +2019,9 @@
                <head>V.</head>
                <head>O TIMBRE</head>
                <div type="poem" corresp="XXX">
-                  <head rend="indent"><hi rend="italic">A CABEÇA DO GRIFO</hi></head>
+                  <head rend="indent">
+                     <hi rend="italic">A CABEÇA DO GRIFO</hi>
+                  </head>
                   <!--MJ: "Tríptico" não tem este título -->
                   <head rend="indent">O INFANTE D. HENRIQUE</head>
                   <lg>
@@ -1867,7 +2037,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="44"/>
-               <head rend="indent"><hi rend="italic">UMA ASA DO GRIFO</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">UMA ASA DO GRIFO</hi>
+               </head>
                <!--MJ: em "Tríptico" não tem este título-->
                <head rend="indent">D. JOÃO O SEGUNDO</head>
                <lg>
@@ -1889,7 +2061,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="45"/>
-               <head rend="indent"><hi rend="italic">A OUTRA ASA DO GRIFO</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">A OUTRA ASA DO GRIFO</hi>
+               </head>
                <head rend="indent">AFONSO DE ALBUQUERQUE</head>
                <!--MJ: "Afonso" em "Tríptico"-->
                <lg>
@@ -1909,7 +2083,9 @@
                <head>SEGUNDA PARTE</head>
                <head>MAR PORTUGUÊS</head>
                <pb/>
-               <ab><hi rend="italic">POSSESSIO MARIS</hi></ab>
+               <ab>
+                  <hi rend="italic">POSSESSIO MARIS</hi>
+               </ab>
                <pb/>
                <div type="poem" corresp="#W212">
                   <pb n="51"/>
@@ -1939,7 +2115,6 @@
                <pb n="52"/>
                <head rend="indent">II.</head>
                <head rend="indent">HORIZONTE</head>
-
                <lg>
                   <l> O' mar anterior a nós, teus medos</l>
                   <l>Tinham coral e praias e arvoredos.</l>
@@ -1972,9 +2147,7 @@
             <div type="poem" corresp="#W214">
                <pb n="54"/>
                <head rend="indent">III.</head>
-
                <head rend="indent">PADRÃO</head>
-
                <lg>
                   <l>O esforço é grande e o homem é pequeno.</l>
                   <l>Eu, Diogo Cão, navegador, deixei</l>
@@ -2007,10 +2180,8 @@
             <div type="poem" corresp="XXX">
                <pb n="56"/>
                <head rend="indent">IV.</head>
-
                <head rend="indent">O MOSTRENGO</head>
                <!--MJ: "Morcego" em "Mar Portuguez"-->
-
                <lg>
                   <l>O mostrengo que está no fim do mar</l>
                   <l>Na noite de breu ergueu-se a voar;</l>
@@ -2062,9 +2233,7 @@
             <div type="poem" corresp="#W216">
                <pb n="58"/>
                <head rend="indent">V.</head>
-
                <head rend="indent">EPITÁFIO DE BARTOLOMEU DIAS</head>
-
                <lg>
                   <l>Jaz aqui, na pequena praia extrema,</l>
                   <l>O Capitão do Fim. Dobrado o Assombro,</l>
@@ -2075,10 +2244,8 @@
             <div type="poem" corresp="XXX">
                <pb n="59"/>
                <head rend="indent">VI.</head>
-
                <head rend="indent">OS COLOMBOS</head>
                <!--MJ: em "Mar Portuguez" o título é "Ironia"-->
-
                <lg>
                   <l>Outros haverão de ter</l>
                   <l>O que houvermos de perder.</l>
@@ -2099,10 +2266,8 @@
             <div type="poem" corresp="XXX">
                <pb n="60"/>
                <head rend="indent">VII.</head>
-
                <head rend="indent">OCIDENTE</head>
                <!--MJ: em "Mar Portuguez" o título é "Os descobridores de occidente"-->
-
                <lg>
                   <l>Com duas mãos — o Ato e o Destino —</l>
                   <l>Desvendámos. No mesmo gesto, ao céu</l>
@@ -2132,10 +2297,8 @@
             <div type="poem" corresp="XXX">
                <pb n="61"/>
                <head rend="indent">VIII.</head>
-
                <head rend="indent">FERNÃO DE MAGALHÃES</head>
                <!--MJ: "Dança dos titans" em "Mar Portuguez"-->
-
                <lg>
                   <l>No vale clareia uma fogueira.</l>
                   <l>Uma dança sacode a terra inteira.</l>
@@ -2181,9 +2344,7 @@
             <div type="poem" corresp="XXX">
                <pb n="63"/>
                <head rend="indent">IX.</head>
-
                <head rend="indent">ASCENSÃO DE VASCO DA GAMA</head>
-
                <lg>
                   <l>Os Deuses da tormenta e os gigantes da terra</l>
                   <l>Suspendem de repente o ódio da sua guerra</l>
@@ -2210,10 +2371,8 @@
             <div type="poem" corresp="#W221">
                <pb n="64"/>
                <head rend="indent">X.</head>
-
                <head rend="indent">MAR PORTUGUÊS</head>
                <!--MJ: "português" em "Mar Portuguez"-->
-
                <lg>
                   <l>Ó mar salgado, quanto do teu sal</l>
                   <!--MJ: "Ó" em "Mar Portuguez"-->
@@ -2237,10 +2396,8 @@
             <div type="poem" corresp="#W222">
                <pb n="65"/>
                <head rend="indent">XI.</head>
-
                <head rend="indent">A ÚLTIMA NAU</head>
                <!--MJ: "Nao" em "Mar Portuguez"-->
-
                <lg>
                   <l>Levando a bordo El-Rei D. Sebastião,</l>
                   <!--MJ: "Dom" em "Mar Portuguez"-->
@@ -2286,9 +2443,7 @@
             <div type="poem" corresp="XXX">
                <pb n="67"/>
                <head rend="indent">XII.</head>
-
                <head rend="indent">PRECE</head>
-
                <lg>
                   <l>Senhor, a noite veio e a alma é vil.</l>
                   <!--MJ: "veiu" em "Mar Portuguez"-->
@@ -2319,7 +2474,9 @@
                <head>TERCEIRA PARTE</head>
                <head>O ENCOBERTO</head>
                <pb/>
-               <ab><hi rend="italic">PAX IN EXCELSIS</hi></ab>
+               <ab>
+                  <hi rend="italic">PAX IN EXCELSIS</hi>
+               </ab>
                <pb/>
                <div>
                   <head>I.</head>
@@ -2327,10 +2484,10 @@
                   <pb/>
                   <div type="poem" corresp="XXX">
                      <pb n="75"/>
-                     <head rend="indent"><hi rend="italic">PRIMEIRO</hi></head>
-
+                     <head rend="indent">
+                        <hi rend="italic">PRIMEIRO</hi>
+                     </head>
                      <head rend="indent">D. SEBASTIÃO</head>
-
                      <lg>
                         <l>Esperai! Cai no areal e na hora adversa</l>
                         <l>Que Deus concede aos seus</l>
@@ -2347,10 +2504,10 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="76"/>
-                  <head rend="indent"><hi rend="italic">SEGUNDO</hi></head>
-
+                  <head rend="indent">
+                     <hi rend="italic">SEGUNDO</hi>
+                  </head>
                   <head rend="indent">O QUINTO IMPÉRIO</head>
-
                   <lg>
                      <l>Triste de quem vive em casa,</l>
                      <l>Contente com o seu lar,</l>
@@ -2392,10 +2549,10 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="78"/>
-                  <head rend="indent"><hi rend="italic">TERCEIRO</hi></head>
-
+                  <head rend="indent">
+                     <hi rend="italic">TERCEIRO</hi>
+                  </head>
                   <head rend="indent">O DESEJADO</head>
-
                   <lg>
                      <l>Onde quer que, entre sombras e dizeres,</l>
                      <l>Jazas, remoto, sente-te sonhado,</l>
@@ -2417,10 +2574,10 @@
                </div>
                <div type="poem" corresp="XXX">
                   <pb n="79"/>
-                  <head rend="indent"><hi rend="italic">QUARTO</hi></head>
-
+                  <head rend="indent">
+                     <hi rend="italic">QUARTO</hi>
+                  </head>
                   <head rend="indent">AS ILHAS AFORTUNADAS</head>
-
                   <lg>
                      <l>Que voz vem no som das ondas</l>
                      <l>Que não é a voz do mar?</l>
@@ -2444,9 +2601,10 @@
                   </lg>
                </div>
                <div type="poem" corresp="XXX">
-                  <head rend="indent"><hi rend="italic">QUINTO</hi></head>
+                  <head rend="indent">
+                     <hi rend="italic">QUINTO</hi>
+                  </head>
                   <head rend="indent">O ENCOBERTO</head>
-
                   <lg>
                      <l>Que símbolo fecundo</l>
                      <l>Vem na aurora ansiosa?</l>
@@ -2470,12 +2628,12 @@
             <div>
                <head>II.</head>
                <head>OS AVISOS</head>
-
                <div type="poem" corresp="XXX">
                   <pb n="83"/>
-                  <head rend="indent"><hi rend="italic">PRIMEIRO</hi></head>
+                  <head rend="indent">
+                     <hi rend="italic">PRIMEIRO</hi>
+                  </head>
                   <head rend="indent">O BANDARRA</head>
-
                   <lg>
                      <l>Sonhava, anónimo e disperso,</l>
                      <l>O Império por Deus mesmo visto,</l>
@@ -2492,10 +2650,10 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="84"/>
-               <head rend="indent"><hi rend="italic">SEGUNDO</hi></head>
-
+               <head rend="indent">
+                  <hi rend="italic">SEGUNDO</hi>
+               </head>
                <head rend="indent">ANTÓNIO VIEIRA</head>
-
                <lg>
                   <l>O céu estrela o azul e tem grandeza.</l>
                   <l>Este, que teve a fama e à glória tem,</l>
@@ -2517,8 +2675,9 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="85"/>
-               <head rend="indent"><hi rend="italic">TERCEIRO</hi></head>
-
+               <head rend="indent">
+                  <hi rend="italic">TERCEIRO</hi>
+               </head>
                <lg>
                   <l>Escrevo meu livro à beira-mágoa.</l>
                   <l>Meu coração não tem que ter.</l>
@@ -2531,7 +2690,6 @@
                   <l>Mas quando quererás voltar?</l>
                   <l>Quando é o Rei? Quando é a Hora?</l>
                </lg>
-
                <lg>
                   <l>Quando virás a ser o Cristo</l>
                   <l>De a quem morreu o falso Deus,</l>
@@ -2557,9 +2715,10 @@
                <head>OS TEMPOS</head>
                <div type="poem" corresp="XXX">
                   <pb n="89"/>
-                  <head rend="indent"><hi rend="italic">PRIMEIRO</hi></head>
+                  <head rend="indent">
+                     <hi rend="italic">PRIMEIRO</hi>
+                  </head>
                   <head rend="indent">NOITE</head>
-
                   <lg>
                      <l>A nau de um deles tinha se perdido</l>
                      <l>No mar indefinido.</l>
@@ -2606,9 +2765,10 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="92"/>
-               <head rend="indent"><hi rend="italic">SEGUNDO</hi></head>
+               <head rend="indent">
+                  <hi rend="italic">SEGUNDO</hi>
+               </head>
                <head rend="indent">TORMENTA</head>
-
                <lg>
                   <l>Que jaz no abismo sob o mar que se ergue?</l>
                   <l>Nós, Portugal, o poder ser.</l>
@@ -2624,10 +2784,10 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="93"/>
-               <head rend="indent"><hi rend="italic">TERCEIRO</hi></head>
-
+               <head rend="indent">
+                  <hi rend="italic">TERCEIRO</hi>
+               </head>
                <head rend="indent">CALMA</head>
-
                <lg>
                   <l>Que costa é que as ondas contam</l>
                   <l>E se não pode encontrar</l>
@@ -2660,10 +2820,10 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="95"/>
-               <head rend="indent"><hi rend="italic">QUARTO</hi></head>
-
+               <head rend="indent">
+                  <hi rend="italic">QUARTO</hi>
+               </head>
                <head rend="indent">ANTEMANHÃ</head>
-
                <lg>
                   <l>O mostrengo que está no fim do mar</l>
                   <l>Veio das trevas a procurar</l>
@@ -2685,10 +2845,10 @@
             </div>
             <div type="poem" corresp="XXX">
                <pb n="96"/>
-               <head rend="indent"><hi rend="italic">QUINTO</hi></head>
-
+               <head rend="indent">
+                  <hi rend="italic">QUINTO</hi>
+               </head>
                <head rend="indent">NEVOEIRO</head>
-
                <lg>
                   <l>Nem rei nem lei, nem paz nem guerra,</l>
                   <l>Define com perfil e ser</l>
@@ -2710,7 +2870,9 @@
                   <l>É a Hora!</l>
                </lg>
                <lg>
-                  <l><hi rend="italic">Valete, Fratres.</hi></l>
+                  <l>
+                     <hi rend="italic">Valete, Fratres.</hi>
+                  </l>
                </lg>
             </div>
          </div>

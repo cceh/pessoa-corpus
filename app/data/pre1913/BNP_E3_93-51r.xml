@@ -55,23 +55,62 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-93-1-100_JPG_24-C-R0150/bn-acpc-e-e3-93-1-100_0105_51_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-93-51r">
       <body>
-         <head><hi rend="underline">EMPREZA IBIS.</hi></head>  
+         <head>
+            <hi rend="underline">EMPREZA IBIS.</hi>
+         </head>
          <p>Obras originaes em prosa e verso.</p>
          <list>
-            <item><choice><abbr>V<am>.</am></abbr><expan>V<ex></ex>erso</expan></choice>	Poesias de <rs type="name">Antonio Molarinho.</rs></item>
-            <item><choice><abbr>V<am>.</am></abbr><expan>V<ex></ex>erso</expan></choice>	<rs type="place">"Portugal"</rs> por <rs type="name" key="FNP" role="author">
-               <choice><abbr>F<am>.</am></abbr><expan>F<ex>ernando</ex></expan></choice> Nogueira Pessôa.</rs></item>        
-            <item><choice><abbr>V<am>.</am></abbr><expan>V<ex></ex>erso</expan></choice>	Poesias de<rs type="name">Henrique Rosa.</rs> </item>
-            <item><choice><abbr>P<am>.</am></abbr><expan>P<ex></ex>rosa</expan></choice>	Gymnastica – <rs type="name">Furtado Coelho.</rs></item>
-            
-         </list> 
+            <item>
+               <choice>
+                  <abbr>V<am>.</am>
+                  </abbr>
+                  <expan>V<ex/>erso</expan>
+               </choice>	Poesias de <rs type="name">Antonio Molarinho.</rs>
+            </item>
+            <item>
+               <choice>
+                  <abbr>V<am>.</am>
+                  </abbr>
+                  <expan>V<ex/>erso</expan>
+               </choice>
+               <rs type="place">"Portugal"</rs> por <rs type="name" key="FNP" role="author">
+                  <choice>
+                     <abbr>F<am>.</am>
+                     </abbr>
+                     <expan>F<ex>ernando</ex>
+                     </expan>
+                  </choice> Nogueira Pessôa.</rs>
+            </item>
+            <item>
+               <choice>
+                  <abbr>V<am>.</am>
+                  </abbr>
+                  <expan>V<ex/>erso</expan>
+               </choice>	Poesias de<rs type="name">Henrique Rosa.</rs>
+            </item>
+            <item>
+               <choice>
+                  <abbr>P<am>.</am>
+                  </abbr>
+                  <expan>P<ex/>rosa</expan>
+               </choice>	Gymnastica – <rs type="name">Furtado Coelho.</rs>
+            </item>
+         </list>
          <div/>
       </body>
    </text>

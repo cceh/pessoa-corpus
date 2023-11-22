@@ -35,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48B-21.xml</idno>
          </publicationStmt>
@@ -69,14 +69,19 @@
                <p> Lista manuscrita </p>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0042_21_t24-C-R0150.jpg"/>
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0043_21v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0042_21_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0043_21v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -86,47 +91,58 @@
                   <item>Mr. <rs type="name">Williams</rs>’ Office</item>
                   <item>City of Laughter</item>
                   <item>Dream of Buddha.</item>
-                  <item><rs type="name">Tito Vecchi</rs>.</item>
-                  <item>(A Purloined Letter).<supplied resp="PS" reason="omitted-in-original"
-                        >(</supplied>Stolen document)</item>
-                  <item><rs type="name">Dom José Parisiello</rs>.</item>
+                  <item>
+                     <rs type="name">Tito Vecchi</rs>.</item>
+                  <item>(A Purloined Letter).<supplied resp="PS" reason="omitted-in-original">(</supplied>Stolen document)</item>
+                  <item>
+                     <rs type="name">Dom José Parisiello</rs>.</item>
                   <item>Wandering Jew.</item>
                   <item>Mandinke</item>
                   <item>The Voice of the <seg type="doubt">Unknown</seg> – 1904 –</item>
                   <item>Moonlight (&amp; Beauty).</item>
                   <item>The Pictures in my room.</item>
-                  <item><rs type="name">Doctor Jones</rs>.</item>
+                  <item>
+                     <rs type="name">Doctor Jones</rs>.</item>
                   <item>Persecution-Mania.</item>
                   <item>The Door.</item>
-                  <item><gap reason="illegible" unit="word" extent="3"/> – Science Master.</item>
+                  <item>
+                     <gap reason="illegible" unit="word" extent="3"/> – Science Master.</item>
                   <item>Czyrkresco.</item>
                   <item>Mania of Doubt.</item>
                   <item>“The Realist”</item>
                   <item>An Ancient Latin <choice>
-                        <abbr>M<am>S.</am></abbr>
-                        <expan>M<ex>anuscript</ex></expan>
-                     </choice></item>
+                        <abbr>M<am>S.</am>
+                        </abbr>
+                        <expan>M<ex>anuscript</ex>
+                        </expan>
+                     </choice>
+                  </item>
                   <pb/>
                   <item>Running away from <rs type="name">Smith</rs>.</item>
                   <item>Silence.</item>
                   <item>The Miser.</item>
-                  <item><seg type="doubt">The Ascete’s</seg> Crime</item>
+                  <item>
+                     <seg type="doubt">The Ascete’s</seg> Crime</item>
                   <item>Extracts from “Heaven Courier”</item>
                   <item>A Photographer at Mr. <rs type="name">Snipe</rs>’s.</item>
-                  <item><gap reason="illegible" unit="word" extent="1"/>.</item>
+                  <item>
+                     <gap reason="illegible" unit="word" extent="1"/>.</item>
                   <item>The <gap reason="illegible" unit="word" extent="1"/> Sciences. </item>
                   <item>Results of the Storm. </item>
                   <item>Mr. <rs type="name">Joseph Turner</rs>. </item>
                   <item>A Yacht </item>
-                  <item><rs type="name">Jacob Dermot</rs>. </item>
-                  <item>The Mask (pining for <gap reason="illegible" unit="word" extent="1"
-                     />)</item>
+                  <item>
+                     <rs type="name">Jacob Dermot</rs>. </item>
+                  <item>The Mask (pining for <gap reason="illegible" unit="word" extent="1"/>)</item>
                   <item>Baly’s Death. </item>
                   <item>The Black Spider</item>
-                  <item><gap reason="illegible" unit="word" extent="3"/></item>
+                  <item>
+                     <gap reason="illegible" unit="word" extent="3"/>
+                  </item>
                   <item>The Circle of Life.</item>
                   <item>Essay in Poetry.</item>
-                  <item><rs type="name">Jack</rs> Wild’s Marriage.</item>
+                  <item>
+                     <rs type="name">Jack</rs> Wild’s Marriage.</item>
                   <item>Justus Ford turns on a new leaf.</item>
                   <item>Igorab</item>
                   <item>Le Théatre <gap reason="illegible" unit="word" extent="1"/>.</item>
@@ -136,12 +152,16 @@
                   <item>Travelling through door.</item>
                   <item>Between Moralists</item>
                   <item>A <choice>
-                        <abbr>V<am>.</am></abbr>
-                        <expan>V<ex>ery</ex></expan>
+                        <abbr>V<am>.</am>
+                        </abbr>
+                        <expan>V<ex>ery</ex>
+                        </expan>
                      </choice>
                      <choice>
-                        <abbr>O<am>.</am></abbr>
-                        <expan>O<ex>riginal</ex></expan>
+                        <abbr>O<am>.</am>
+                        </abbr>
+                        <expan>O<ex>riginal</ex>
+                        </expan>
                      </choice> Dinner</item>
                   <item>Death.</item>
                </list>
@@ -152,7 +172,9 @@
                   <item>Mr. Frazer’s Courage (spectables <lb/> less &amp; <lb/> enemies)</item>
                   <item>The Marriage of M. <lb/>
                      <gap reason="illegible" unit="word" extent="1"/>.</item>
-                  <item><rs type="name">John</rs> and <rs type="name">J.</rs></item>
+                  <item>
+                     <rs type="name">John</rs> and <rs type="name">J.</rs>
+                  </item>
                   <item>Professon <gap reason="illegible" unit="word" extent="1"/> &amp;<lb/> Mr.
                         <rs type="name">Deuvant</rs>.</item>
                   <item>&amp; The Shadows on the Wall</item>

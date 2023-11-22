@@ -33,7 +33,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Soares_LDD_Descobrimento_5.xml</idno>
          </publicationStmt>
@@ -72,6 +72,9 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
@@ -83,6 +86,11 @@
             <handNote xml:id="H_FP">Texto redigido por Pessoa.</handNote>
          </handNotes>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/LDD_Descobrimento_1.jpg"/>
@@ -115,7 +123,7 @@
       </front>
       <body>
          <div>
-                 <pb n="405"/>
+            <pb n="405"/>
             <head>1</head>
             <p rend="indent-first">Prefiro a prosa ao verso, como modo de arte, por duas razões,
                     das quais a primeira, que é minha, é que não tenho escolha, pois sou incapaz de
@@ -156,7 +164,7 @@
                     sua substância corpórea o mistério impalpável do universo.</p>
          </div>
          <div>
-                 <pb n="407"/>
+            <pb n="407"/>
             <head>2</head>
             <p rend="indent-first">Nuvens... Hoje tenho consciência do céu, pois há dias em que
                     o não ólho mas sinto, vivendo na cidade e não na natureza que a inclui.
@@ -194,7 +202,7 @@
                     desfeito.</p>
          </div>
          <div>
-                 <pb n="409"/>
+            <pb n="409"/>
             <head>3</head>
             <p rend="indent-first">Gósto de dizer. Direi melhor; gósto de palavrar. As palavras
                     são para mim corpos tocáveis, sereias visíveis, sensualidades incorporadas.
@@ -217,7 +225,8 @@
             <p rend="indent-first">Não choro por nada que a vida traga ou leve. Há porém páginas
                     de prosa que me têm feito chorar. Lembro-me, como do que estou vendo, da noite
                     em que, ainda criança, li pela primeira vez, numa selecta, o passo célebre de
-                    <rs type="name" key="P300">Vieira</rs> sôbre o Rei <pb n="410"/><rs type="name" key="P497">Salomão</rs>. "Fabricou <rs type="name" key="P497">Salomão</rs>
+                    <rs type="name" key="P300">Vieira</rs> sôbre o Rei <pb n="410"/>
+               <rs type="name" key="P497">Salomão</rs>. "Fabricou <rs type="name" key="P497">Salomão</rs>
                     um palácio..." E fui lendo até ao fim, trémulo, confuso; depois rompi em
                     lágrimas felizes, como nenhuma felicidade real me fará chorar, como nenhuma
                     tristeza da vida me fará imitar. Aquele movimento hierático da nossa clara
@@ -239,7 +248,6 @@
                     vista e ouvida. E a gala da transliteração grecoromana veste-ma do seu vero
                     manto régio, pelo qual é senhora e rainha <note n="1">
                   <label>(1).</label>
-                            
                   <handShift new="#H_Descobrimento"/>É involuntariamente que contrariamos o
                         gosto do autor, não respeitando a sua ortografia. Sirva isto de desculpa a
                             <rs type="name" role="topic" key="FP">Fernando Pessoa</rs>, e de
@@ -252,7 +260,7 @@
             </p>
          </div>
          <div>
-                 <pb n="411"/>
+            <pb n="411"/>
             <head>4</head>
             <p rend="indent-first">Sim, é o poente. Chego à foz da Rua da Alfândega, vagaroso e
                     disperso, e, ao clarear-me o Terreiro do Paço, vejo nítido o sem sol do céu
@@ -273,7 +281,7 @@
                     mais se acaba, a luz extingue-se em branco lívido que se azula de esverdeado
                     frio. Há no ar um torpor do que se não consegue nunca. Cala alto a paisagem do
                     céu.</p>
-                 <pb n="412"/>
+            <pb n="412"/>
             <p rend="indent-first">Nesta hora, em que sinto até transbordar, quizera ter a
                     malícia inteira de dizer, o capricho livre de um estilo por destino. Mas não, só
                     o céu alto é tudo, remoto, abolindo-se, e a emoção que tenho, e que é tantas,
@@ -292,12 +300,12 @@
                     dêstes tons que vão empalidecendo pelo ar fictício, de onde o crescente
                     imaginário da lua emerge numa brancura eléctrica parada, re- cortado a longínquo
                     e a insensível.</p>
-                 <p rend="indent-first">É tôda a falta de um <rs type="name" key="P573" style="a">Deus</rs>
+            <p rend="indent-first">É tôda a falta de um <rs type="name" key="P573" style="a">Deus</rs>
                     verdadeiro que é o cadáver vácuo do céu alto e da alma fechada. Cárcere infinito
                     — porque és infinito, não se pode fugir de ti!</p>
          </div>
          <div>
-                 <pb n="413"/>
+            <pb n="413"/>
             <head>5</head>
             <p rend="indent-first">Assim como, quer o saibamos quer não, temos todos uma
                     metafísica, assim também, quer o queiramos quer não, temos todos uma moral.
@@ -342,7 +350,8 @@
                     enternece a minha infância como a de outrem: são ambas, no passado que não sei o
                     que é, fenómenos puramente visuais, que sinto com a atenção literária.
                     Enterneço-me, sim, mas não é porque lembro, mas porque vejo.</p>
-                 <p rend="indent-first">Nunca amei ninguém. O mais que tenho amado são sensa<pc>-</pc><pb n="415"/>ções
+            <p rend="indent-first">Nunca amei ninguém. O mais que tenho amado são sensa<pc>-</pc>
+               <pb n="415"/>ções
                     minhas — estados da visualidade consciente, impressões da audição disperta,
                     perfumes que são uma maneira de a humildade do mundo externo falar comigo,
                     dizer-me coisas do passado (tão fácil de lembrar pelos cheiros) — isto é, de me
@@ -374,7 +383,7 @@
       </front>
       <body>
          <div>
-                 <pb n="405"/>
+            <pb n="405"/>
             <head>1</head>
             <p rend="indent-first">Prefiro a prosa ao verso, como modo de arte, por duas razões,
                     das quais a primeira, que é minha, é que não tenho escolha, pois sou incapaz de
@@ -415,7 +424,7 @@
                     sua substância corpórea o mistério impalpável do universo.</p>
          </div>
          <div>
-                 <pb n="407"/>
+            <pb n="407"/>
             <head>2</head>
             <p rend="indent-first">Nuvens... Hoje tenho consciência do céu, pois há dias em que
                     o não olho mas sinto, vivendo na cidade e não na natureza que a inclui.
@@ -453,7 +462,7 @@
                     desfeito.</p>
          </div>
          <div>
-                 <pb n="409"/>
+            <pb n="409"/>
             <head>3</head>
             <p rend="indent-first">Gosto de dizer. Direi melhor; gosto de palavrar. As palavras
                     são para mim corpos tocáveis, sereias visíveis, sensualidades incorporadas.
@@ -497,7 +506,6 @@
                     vista e ouvida. E a gala da transliteração greco-romana veste-ma do seu vero
                     manto régio, pelo qual é senhora e rainha <note n="1">
                   <label>(1).</label>
-                            
                   <handShift new="#H_Descobrimento"/>É involuntariamente que contrariamos o
                         gosto do autor, não respeitando a sua ortografia. Sirva isto de desculpa a
                             Fernando Pessoa, e de
@@ -510,7 +518,7 @@
             </p>
          </div>
          <div>
-                 <pb n="411"/>
+            <pb n="411"/>
             <head>4</head>
             <p rend="indent-first">Sim, é o poente. Chego à foz da Rua da Alfândega, vagaroso e
                     disperso, e, ao clarear-me o Terreiro do Paço, vejo nítido o sem sol do céu
@@ -531,7 +539,7 @@
                     mais se acaba, a luz extingue-se em branco lívido que se azula de esverdeado
                     frio. Há no ar um torpor do que se não consegue nunca. Cala alto a paisagem do
                     céu.</p>
-                 <pb n="412"/>
+            <pb n="412"/>
             <p rend="indent-first">Nesta hora, em que sinto até transbordar, quisera ter a
                     malícia inteira de dizer, o capricho livre de um estilo por destino. Mas não, só
                     o céu alto é tudo, remoto, abolindo-se, e a emoção que tenho, e que é tantas,
@@ -555,7 +563,7 @@
                     — porque és infinito, não se pode fugir de ti!</p>
          </div>
          <div>
-                 <pb n="413"/>
+            <pb n="413"/>
             <head>5</head>
             <p rend="indent-first">Assim como, quer o saibamos quer não, temos todos uma
                     metafísica, assim também, quer o queiramos quer não, temos todos uma moral.
@@ -600,7 +608,8 @@
                     enternece a minha infância como a de outrem: são ambas, no passado que não sei o
                     que é, fenómenos puramente visuais, que sinto com a atenção literária.
                     Enterneço-me, sim, mas não é porque lembro, mas porque vejo.</p>
-                 <p rend="indent-first">Nunca amei ninguém. O mais que tenho amado são sensa<pc>-</pc><pb n="415"/>ções
+            <p rend="indent-first">Nunca amei ninguém. O mais que tenho amado são sensa<pc>-</pc>
+               <pb n="415"/>ções
                     minhas — estados da visualidade consciente, impressões da audição desperta,
                     perfumes que são uma maneira de a humildade do mundo externo falar comigo,
                     dizer-me coisas do passado (tão fácil de lembrar pelos cheiros) — isto é, de me

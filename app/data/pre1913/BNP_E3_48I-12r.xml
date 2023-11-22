@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48I-12<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48I-12<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -38,7 +39,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48I-12r.xml</idno>
          </publicationStmt>
@@ -68,7 +69,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48i-1-30_JPG_24-C-R0150/bn-acpc-e-e3-48i-1-30_0023_12_t24-C-R0150.jpg"/>
@@ -77,16 +86,20 @@
       <body>
          <div>
             <list>
-               <head><hi rend="underline">Trilogia da Noite</hi></head>
+               <head>
+                  <hi rend="underline">Trilogia da Noite</hi>
+               </head>
                <item>
-                  <label>1.</label> 
-                  <rs type="title"><rs type="name" key="P92">Fausto</rs></rs>. (a consciencia)
+                  <label>1.</label>
+                  <rs type="title">
+                     <rs type="name" key="P92">Fausto</rs>
+                  </rs>. (a consciencia)
                </item>
                <item>
                   <add place="margin left" n="2">?</add>
-                  <label>2.</label> 
+                  <label>2.</label>
                   <rs type="name" key="P50" style="a">Jesus (Christo)</rs> (a illusão)
-               </item>        
+               </item>
                <item>
                   <label>3.</label> (Um dominador) (<supplied resp="PS" reason="omitted-in-original"/>)
                </item>
@@ -95,17 +108,28 @@
             <ab>
                Meu pai, meu 
                <choice>
-                  <abbr>p<am>.</am></abbr>
-                  <expan>p<ex>ai</ex></expan>
+                  <abbr>p<am>.</am>
+                  </abbr>
+                  <expan>p<ex>ai</ex>
+                  </expan>
                </choice> porque me abandonaste(s)?
             </ab>
             <ab>
-               <hi rend="framed"><rs type="name" key="P113">Judas</rs> a symbol.</hi>
-               (<hi rend="underline"><rs type="name" key="P114">Satan</rs></hi> writes then)
+               <hi rend="framed">
+                  <rs type="name" key="P113">Judas</rs> a symbol.</hi>
+               (<hi rend="underline">
+                  <rs type="name" key="P114">Satan</rs>
+               </hi> writes then)
             </ab>
             <list>
-               <item><hi rend="underline"><rs type="name" key="P115">Frei Gil</rs>.</hi></item>
-               <item><hi rend="underline"><rs type="name" key="P116">Paracelso</rs>.</hi></item>
+               <item>
+                  <hi rend="underline">
+                     <rs type="name" key="P115">Frei Gil</rs>.</hi>
+               </item>
+               <item>
+                  <hi rend="underline">
+                     <rs type="name" key="P116">Paracelso</rs>.</hi>
+               </item>
             </list>
          </div>
       </body>

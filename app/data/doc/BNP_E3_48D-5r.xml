@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48D-5<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48D-5<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48D-5r.xml</idno>
          </publicationStmt>
@@ -77,25 +78,39 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48d-1-76_JPG_24-C-R0150/bn-acpc-e-e3-48d-1-76_0011_5_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48d-1-76_JPG_24-C-R0150/bn-acpc-e-e3-48d-1-76_0011_5_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head>Manifestos de <hi rend="underline"><rs type="periodical" key="J12"
-                  >Orpheu</rs></hi>.</head>
+            <head>Manifestos de <hi rend="underline">
+                  <rs type="periodical" key="J12">Orpheu</rs>
+               </hi>.</head>
             <list>
                <item rend="indent-2">
                   <label>1.</label>
-                  <hi rend="underline"><rs type="title">Constatação Sensacionista</rs></hi>
+                  <hi rend="underline">
+                     <rs type="title">Constatação Sensacionista</rs>
+                  </hi>
                   <lb/> de <rs type="name" key="FP" role="author" style="b">Fernando Pessoa</rs>. </item>
                <item rend="indent-2">
                   <label>2.</label>
-                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum"><hi rend="underline"><rs type="title">Ultimatum</rs></hi></ref> (Mandado de Despejo)
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
+                     <hi rend="underline">
+                        <rs type="title">Ultimatum</rs>
+                     </hi>
+                  </ref> (Mandado de Despejo)
                   <lb/> de <rs type="name" key="AdC" role="author">Alvaro de Campos</rs>. </item>
             </list>
          </div>

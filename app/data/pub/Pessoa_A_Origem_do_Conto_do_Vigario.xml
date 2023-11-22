@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_A_Origem_do_Conto_do_Vigario.xml</idno>
          </publicationStmt>
@@ -70,6 +70,9 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
@@ -81,6 +84,11 @@
             <handNote xml:id="H_FP">Texto redigido por Pessoa.</handNote>
          </handNotes>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/A_origem_do_conto_do_viagario_1.jpg"/>
@@ -144,7 +152,8 @@
                     e assinado. O <rs type="name" key="P370">Vigario</rs> meteu-o na carteira,
                     demorou-se mais um pouco, bebeu ainda mais vinho, e por fim foi-se embora.</p>
             <p rend="indent-first">Quando, no dia seguinte, houve ocasião de se trocar a
-               primeira nota de cem mil reis, o indivi<pc>-</pc><pb n="7"/>duo, que ia a recebê-la, rejeitou-a logo
+               primeira nota de cem mil reis, o indivi<pc>-</pc>
+               <pb n="7"/>duo, que ia a recebê-la, rejeitou-a logo
                     por falsissima. Rejeitou do mesmo modo a segunda e a terceira. E os dois irmãos,
                     olhando então bem para as notas, verificaram que nem a cegos se poderiam
                     passar.</p>
@@ -229,7 +238,8 @@
                e assinado. O Vigário meteu-o na carteira,
                demorou-se mais um pouco, bebeu ainda mais vinho, e por fim foi-se embora.</p>
             <p rend="indent-first">Quando, no dia seguinte, houve ocasião de se trocar a
-               primeira nota de cem mil réis, o indiví<pc>-</pc><pb n="7"/>duo, que ia a recebê-la, rejeitou-a logo
+               primeira nota de cem mil réis, o indiví<pc>-</pc>
+               <pb n="7"/>duo, que ia a recebê-la, rejeitou-a logo
                por falsíssima. Rejeitou do mesmo modo a segunda e a terceira. E os dois irmãos,
                olhando então bem para as notas, verificaram que nem a cegos se poderiam
                passar.</p>

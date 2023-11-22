@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_individuo.xml</idno>
          </publicationStmt>
@@ -42,9 +42,7 @@
             <note type="summary" resp="#JU">Neste caso, é possível defender uma autoria pessoana
                deste breve reclame, publicado no <hi rend="italic">Sol</hi>, como assinalou José
                Barreto, afirmando tratar-se de «um texto caracteristicamente pessoano tanto na forma
-               como no conteúdo» (<ref
-                  target="http://www.pessoadigital.pt/pt/bibliography/About_the_work_of_Fernando_Pessoa#Barreto_2012"
-                  >Barreto 2012, p. 233</ref>). Como também assinala Barreto, são muitos os textos
+               como no conteúdo» (<ref target="http://www.pessoadigital.pt/pt/bibliography/About_the_work_of_Fernando_Pessoa#Barreto_2012">Barreto 2012, p. 233</ref>). Como também assinala Barreto, são muitos os textos
                pessoanos que têm como assunto o individualismo, como por exemplo BNP 55-59, de um
                teor semelhante ao do texto publicado, embora inserido noutro contexto.</note>
          </notesStmt>
@@ -73,10 +71,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/O_individuo.jpg"/>

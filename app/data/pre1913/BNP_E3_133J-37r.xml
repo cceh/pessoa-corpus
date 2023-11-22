@@ -14,7 +14,7 @@
             </respStmt>
             <respStmt>
                <resp>Codificação</resp>
-               <name>Isabel Figueiredo-Iken</name> 
+               <name>Isabel Figueiredo-Iken</name>
             </respStmt>
             <respStmt>
                <resp>Codificação</resp>
@@ -51,39 +51,96 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-133j-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133j-1-100_0073_37_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-133j-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133j-1-100_0073_37_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-133j-37r">
       <body>
-         <list> 
-            <item><label><rs type="name">San Martin</rs>	</label>11</item>
-            <item><label><rs type="name">Zorrilla</rs>	(√)</label>2 1/2 </item>        
-            <item><label><rs type="name">Gertrudis</rs></label> 2 1/2</item>
-            <item><label><rs type="name">Heredia</rs></label> 2</item>
-            <item><label><rs type="name">Vasseur</rs></label>2</item>
+         <list>
+            <item>
+               <label>
+                  <rs type="name">San Martin</rs>
+               </label>11</item>
+            <item>
+               <label>
+                  <rs type="name">Zorrilla</rs>	(√)</label>2 1/2 </item>
+            <item>
+               <label>
+                  <rs type="name">Gertrudis</rs>
+               </label> 2 1/2</item>
+            <item>
+               <label>
+                  <rs type="name">Heredia</rs>
+               </label> 2</item>
+            <item>
+               <label>
+                  <rs type="name">Vasseur</rs>
+               </label>2</item>
             <metamark rend="line" place="right" function="distinct"/>
-            <item><label><rs type="name"> Nuñez de Arce</rs> </label>4 1/2</item>
-            <item><label> La Gloria  (√)</label>1 3/4</item>
-            <item><label><rs type="name">Quintana	</rs> </label>1 3/4</item>
-            <item><label><rs type="name">Martinez de la Rosa</rs>    (√)</label>1</item>
-            <item><label><choice><abbr>G<am>.</am></abbr><expan>G<ex>uillermo</ex></expan></choice> Matta </label>1</item>
-            <item><label>Himno argentino  (√) </label>3</item>
-            <item><label>Himno de Chile  (√)</label>2</item>
-            <item><label><rs type="name">Góngora	</rs></label>3</item>
-            <item><label><rs type="name">Kipling	</rs></label>1</item>
-            <item><label><rs type="name">Coleridge </rs> </label>1</item>
+            <item>
+               <label>
+                  <rs type="name"> Nuñez de Arce</rs>
+               </label>4 1/2</item>
+            <item>
+               <label> La Gloria  (√)</label>1 3/4</item>
+            <item>
+               <label>
+                  <rs type="name">Quintana	</rs>
+               </label>1 3/4</item>
+            <item>
+               <label>
+                  <rs type="name">Martinez de la Rosa</rs>    (√)</label>1</item>
+            <item>
+               <label>
+                  <choice>
+                     <abbr>G<am>.</am>
+                     </abbr>
+                     <expan>G<ex>uillermo</ex>
+                     </expan>
+                  </choice> Matta </label>1</item>
+            <item>
+               <label>Himno argentino  (√) </label>3</item>
+            <item>
+               <label>Himno de Chile  (√)</label>2</item>
+            <item>
+               <label>
+                  <rs type="name">Góngora	</rs>
+               </label>3</item>
+            <item>
+               <label>
+                  <rs type="name">Kipling	</rs>
+               </label>1</item>
+            <item>
+               <label>
+                  <rs type="name">Coleridge </rs>
+               </label>1</item>
             <metamark rend="line" place="right" function="distinct"/>
-            <item><label><rs type="name"> Shelley</rs></label>3</item>
-            <item><label><rs type="name">Espronceda</rs></label>2</item>
-            <item><label><rs type="name">Wordsworth</rs> </label>2</item>
-            <item><note place="right">50 paginas.</note></item>
+            <item>
+               <label>
+                  <rs type="name"> Shelley</rs>
+               </label>3</item>
+            <item>
+               <label>
+                  <rs type="name">Espronceda</rs>
+               </label>2</item>
+            <item>
+               <label>
+                  <rs type="name">Wordsworth</rs>
+               </label>2</item>
+            <item>
+               <note place="right">50 paginas.</note>
+            </item>
          </list>
-         
          <div/>
       </body>
    </text>

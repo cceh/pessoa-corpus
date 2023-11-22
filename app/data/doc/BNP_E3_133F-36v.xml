@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 133F-36<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 133F-36<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_133F-36v.xml</idno>
          </publicationStmt>
@@ -78,12 +79,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-133f-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133f-1-100_0074_36v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-133f-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133f-1-100_0074_36v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -92,24 +99,32 @@
             <list rend="rotate-left">
                <item xml:id="I1">
                   <label>1.</label>
-                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_Ultimatum"><rs type="title">Ultimatum</rs></ref>. </item>
+                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_Ultimatum">
+                     <rs type="title">Ultimatum</rs>
+                  </ref>. </item>
                <item xml:id="I2">
                   <label>2.</label>
                   <rs type="title">Desnivelamento</rs>
                </item>
                <item xml:id="I3">
                   <label>3.</label>
-                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_O_Que_e_a_Metaphysica"><rs type="title">O que é a <choice>
-                        <abbr>met<am>.</am></abbr>
-                        <expan>met<ex>aphysica</ex></expan>
-                  </choice>?</rs></ref>
+                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_O_Que_e_a_Metaphysica">
+                     <rs type="title">O que é a <choice>
+                           <abbr>met<am>.</am>
+                           </abbr>
+                           <expan>met<ex>aphysica</ex>
+                           </expan>
+                        </choice>?</rs>
+                  </ref>
                   <note place="margin-left" target="range(I1,I5)">
                      <metamark rend="curly-bracket" function="grouping"/>
                   </note>
                </item>
                <item xml:id="I4">
                   <label>4.</label>
-                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_Apontamentos_para_uma_Esthetica"><rs type="title">Apontamentos</rs></ref>
+                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_Apontamentos_para_uma_Esthetica">
+                     <rs type="title">Apontamentos</rs>
+                  </ref>
                </item>
                <item xml:id="I5">
                   <label>5.</label>
@@ -117,31 +132,40 @@
                </item>
             </list>
             <metamark rend="line" function="distinct"/>
-            <ab rend="center">Subsidios <lb/> para o estudo <lb/> do futuro <metamark
-                  rend="arrow-right-down" target="#A2" function="assignment"/></ab>
-            <metamark rend="line" function="distinct"/>
-            <ab rend="right">
-               <del><gap reason="illegible" unit="word" extent="1"/></del>
+            <ab rend="center">Subsidios <lb/> para o estudo <lb/> do futuro <metamark rend="arrow-right-down" target="#A2" function="assignment"/>
             </ab>
             <metamark rend="line" function="distinct"/>
-            <ab rend="right"><anchor xml:id="A2"/> (subtitulo)</ab>
+            <ab rend="right">
+               <del>
+                  <gap reason="illegible" unit="word" extent="1"/>
+               </del>
+            </ab>
+            <metamark rend="line" function="distinct"/>
+            <ab rend="right">
+               <anchor xml:id="A2"/> (subtitulo)</ab>
             <metamark rend="line" function="distinct"/>
             <ab rend="center">
-               <hi rend="underline">Desnivelamento</hi> (titulo da <lb/> carta a <rs type="name"
-                  key="P144">
+               <hi rend="underline">Desnivelamento</hi> (titulo da <lb/> carta a <rs type="name" key="P144">
                   <choice>
-                     <abbr>J<am>.</am></abbr>
-                     <expan>J<ex>osé</ex></expan>
+                     <abbr>J<am>.</am>
+                     </abbr>
+                     <expan>J<ex>osé</ex>
+                     </expan>
                   </choice> Pacheco</rs>) </ab>
             <metamark rend="line" function="distinct"/>
             <list>
                <item>
                   <label>1.</label>
-                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_Ultimatum"><rs type="title">Ultimatum</rs></ref> de <rs type="name" key="AdC" role="author">
+                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_Ultimatum">
+                     <rs type="title">Ultimatum</rs>
+                  </ref> de <rs type="name" key="AdC" role="author">
                      <choice>
-                        <abbr>A<am>.</am> de C<am>.</am></abbr>
-                        <expan>A<ex>lvaro</ex> de C<ex>ampos</ex></expan>
-                     </choice></rs>. </item>
+                        <abbr>A<am>.</am> de C<am>.</am>
+                        </abbr>
+                        <expan>A<ex>lvaro</ex> de C<ex>ampos</ex>
+                        </expan>
+                     </choice>
+                  </rs>. </item>
                <item xml:id="I6">
                   <label>2.</label>
                   <rs type="title">Carro Electrico</rs>
@@ -161,11 +185,15 @@
                   <label>4.</label>
                   <subst>
                      <del rend="overstrike">Apontamentos</del>
-                     <add place="above"><ref target="http://www.pessoadigital.pt/en/pub/Campos_O_Que_e_a_Metaphysica">O que é a Metaphysica?</ref></add>
+                     <add place="above">
+                        <ref target="http://www.pessoadigital.pt/en/pub/Campos_O_Que_e_a_Metaphysica">O que é a Metaphysica?</ref>
+                     </add>
                   </subst>...... </item>
                <item>
                   <label>5.</label>
-                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_Apontamentos_para_uma_Esthetica"><rs type="title">Apontamentos...</rs></ref>
+                  <ref target="http://www.pessoadigital.pt/en/pub/Campos_Apontamentos_para_uma_Esthetica">
+                     <rs type="title">Apontamentos...</rs>
+                  </ref>
                </item>
                <item>
                   <label>6.</label>
@@ -175,8 +203,10 @@
                            <label>1.</label>
                            <rs type="title">
                               <choice>
-                                 <abbr>Pref<am>.</am></abbr>
-                                 <expan>Pref<ex>acio</ex></expan>
+                                 <abbr>Pref<am>.</am>
+                                 </abbr>
+                                 <expan>Pref<ex>acio</ex>
+                                 </expan>
                               </choice> a <rs type="name" key="AC" role="topic">Caeiro</rs>
                            </rs>
                         </item>
@@ -184,16 +214,19 @@
                            <label>2.</label>
                            <rs type="title">
                               <choice>
-                                 <abbr>Pref<am>.</am></abbr>
-                                 <expan>Pref<ex>acio</ex></expan>
+                                 <abbr>Pref<am>.</am>
+                                 </abbr>
+                                 <expan>Pref<ex>acio</ex>
+                                 </expan>
                               </choice> aos <choice>
-                                 <abbr>Manif<am>.</am></abbr>
-                                 <expan>Manif<ex>estos</ex></expan>
+                                 <abbr>Manif<am>.</am>
+                                 </abbr>
+                                 <expan>Manif<ex>estos</ex>
+                                 </expan>
                               </choice>
                            </rs>
                            <note place="margin-left">
-                              <metamark function="grouping" rend="curly-bracket"
-                                 target="range(I8,I10)"/>
+                              <metamark function="grouping" rend="curly-bracket" target="range(I8,I10)"/>
                            </note>
                         </item>
                         <item xml:id="I10">

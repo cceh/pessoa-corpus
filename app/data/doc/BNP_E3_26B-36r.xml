@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 26B-36<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 26B-36<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_26B-36r.xml</idno>
          </publicationStmt>
@@ -72,34 +73,50 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-26b-1-100_JPG_24-C-R0150/bn-acpc-e-e3-26b-1-100_0072_36_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-26b-1-100_JPG_24-C-R0150/bn-acpc-e-e3-26b-1-100_0072_36_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div rend="left">
                <list>
-                  <head><hi rend="underline">Lyricas</hi></head>
+                  <head>
+                     <hi rend="underline">Lyricas</hi>
+                  </head>
                   <item>
-                     <rs type="title"><choice>
-                           <abbr>L<am>.</am></abbr>
-                           <expan>L<ex>ivro</ex></expan>
+                     <rs type="title">
+                        <choice>
+                           <abbr>L<am>.</am>
+                           </abbr>
+                           <expan>L<ex>ivro</ex>
+                           </expan>
                         </choice> do <choice>
-                           <abbr>Des<am>.</am></abbr>
-                           <expan>Des<ex>asocego</ex></expan>
-                        </choice></rs>
+                           <abbr>Des<am>.</am>
+                           </abbr>
+                           <expan>Des<ex>asocego</ex>
+                           </expan>
+                        </choice>
+                     </rs>
                   </item>
                   <metamark rend="line" function="distinct"/>
                   <item>
                      <rs type="name" key="P1" style="b">
                         <choice>
-                           <abbr>A<am>.</am></abbr>
-                           <expan>A<ex>ntonio</ex></expan>
+                           <abbr>A<am>.</am>
+                           </abbr>
+                           <expan>A<ex>ntonio</ex>
+                           </expan>
                         </choice>
                         <hi rend="underline">Mora (?)</hi>
                      </rs>
@@ -110,35 +127,49 @@
             <metamark rend="vertical" function="distinct"/>
             <div rend="right">
                <list>
-                  <head><hi rend="underline">Manifestos.</hi></head>
+                  <head>
+                     <hi rend="underline">Manifestos.</hi>
+                  </head>
                   <item>
                      <choice>
-                        <abbr>Art<am>.</am></abbr>
-                        <expan>Art<ex>igo</ex></expan>
+                        <abbr>Art<am>.</am>
+                        </abbr>
+                        <expan>Art<ex>igo</ex>
+                        </expan>
                      </choice> Camoezas </item>
                   <metamark rend="line" function="distinct"/>
                   <item>
                      <del rend="overstrike" n="2">Art</del>
                      <choice>
-                        <abbr>Bibl<am>.</am></abbr>
-                        <expan>Bibl<ex>ioteca</ex></expan>
+                        <abbr>Bibl<am>.</am>
+                        </abbr>
+                        <expan>Bibl<ex>ioteca</ex>
+                        </expan>
                      </choice>
                      <choice>
-                        <abbr>Acad<am>.</am></abbr>
-                        <expan>Acad<ex>emia</ex></expan>
+                        <abbr>Acad<am>.</am>
+                        </abbr>
+                        <expan>Acad<ex>emia</ex>
+                        </expan>
                      </choice>
                   </item>
                   <item>
                      <choice>
-                        <abbr>Encycl<am>.</am></abbr>
-                        <expan>Encycl<ex>opedia</ex></expan>
+                        <abbr>Encycl<am>.</am>
+                        </abbr>
+                        <expan>Encycl<ex>opedia</ex>
+                        </expan>
                      </choice>
                      <choice>
-                        <abbr>Brit<am>.</am></abbr>
-                        <expan>Brit<ex>anica</ex></expan>
+                        <abbr>Brit<am>.</am>
+                        </abbr>
+                        <expan>Brit<ex>anica</ex>
+                        </expan>
                      </choice> — <choice>
-                        <abbr>art<am>.</am></abbr>
-                        <expan>art<ex>icle</ex></expan>
+                        <abbr>art<am>.</am>
+                        </abbr>
+                        <expan>art<ex>icle</ex>
+                        </expan>
                      </choice> Germany. </item>
                </list>
                <metamark rend="line" function="distinct"/>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -32,7 +32,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_30A-8v.xml</idno>
          </publicationStmt>
@@ -44,8 +44,7 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p> Lista manuscrita. Na mesma folha encontra-se um testemunho de <hi
-                           rend="italic">Fausto</hi> (cf. FAU, 22) e da tradução de «La Gioconda»,
+                     <p> Lista manuscrita. Na mesma folha encontra-se um testemunho de <hi rend="italic">Fausto</hi> (cf. FAU, 22) e da tradução de «La Gioconda»,
                         de Walter Pater, continuação de um texto iniciado em BNP 30A-9r e publicado
                         no n.º 2 da revista <hi rend="italic">Athena</hi>, em Novembro de 1924. </p>
                   </summary>
@@ -68,37 +67,56 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-30a-1-25_JPG_24-C-R0150/bn-acpc-e-e3-30a-1-25_0016_8v_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-30a-1-25_JPG_24-C-R0150/bn-acpc-e-e3-30a-1-25_0016_8v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <gap reason="selection" unit="line" extent="7"/>
             <list>
-               <item><rs type="name" key="P14">Espronceda</rs>.</item>
+               <item>
+                  <rs type="name" key="P14">Espronceda</rs>.</item>
                <item>(<rs type="name" key="P212">Moch Einstein</rs>)</item>
-               <item><rs type="title">Sonetos de <rs type="name" key="P15">Camões</rs></rs></item>
-               <item><rs type="title">Anthologia Grega</rs>.</item>
-               <item><rs type="title">Evolution of States</rs>.</item>
+               <item>
+                  <rs type="title">Sonetos de <rs type="name" key="P15">Camões</rs>
+                  </rs>
+               </item>
+               <item>
+                  <rs type="title">Anthologia Grega</rs>.</item>
+               <item>
+                  <rs type="title">Evolution of States</rs>.</item>
                <item>
                   <rs type="title">
                      <choice>
-                        <abbr>Sh<am>.</am></abbr>
-                        <expan>Sh<ex>ort</ex></expan>
+                        <abbr>Sh<am>.</am>
+                        </abbr>
+                        <expan>Sh<ex>ort</ex>
+                        </expan>
                      </choice>
                      <choice>
-                        <abbr>Hist<am>.</am></abbr>
-                        <expan>Hist<ex>ory</ex></expan>
+                        <abbr>Hist<am>.</am>
+                        </abbr>
+                        <expan>Hist<ex>ory</ex>
+                        </expan>
                      </choice> of Freethought</rs>. </item>
                <item>
                   <rs type="title">
                      <choice>
-                        <abbr>Int<am>.</am></abbr>
-                        <expan>Int<ex>roduction</ex></expan>
+                        <abbr>Int<am>.</am>
+                        </abbr>
+                        <expan>Int<ex>roduction</ex>
+                        </expan>
                      </choice> to Mathematics</rs>. </item>
                <item>(<rs type="name" key="P87">Edgar Poe</rs>)</item>
             </list>

@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Campos_O_que_e_a_metaphysica.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/O_que_a_Metaphysica.jpg"/>
@@ -86,7 +94,7 @@
                   <rs type="title">
                      <hi rend="italic">Athena</hi>
                   </rs>
-                        </ref>, a philosophia ― isto é, a
+               </ref>, a philosophia ― isto é, a
                metaphysica ― não é uma sciencia, mas uma arte. Não creio que assim seja.
                     Parece-me que <rs type="name" role="topic" key="FP">Fernando Pessoa</rs>
                     confunde o que a arte é com o que a sciencia não é. Ora o que não é sciencia,
@@ -160,11 +168,17 @@
                     metaphysica venha a ser mais que uma sciencia virtual, ou que não venha a ser
                     mais. Quer dizer apenas que ella é effectivamente, não uma arte, mas uma
                     sciencia virtual.</p>
-            <p rend="indent-first">Pasmarão talvez d’estas considerações os que leram o meu <hi rend="italic"><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
-                  <rs type="title">Ultimatum</rs>
-               </ref></hi>, no <hi rend="italic"><rs type="periodical" key="J29">Portugal Futurista</rs></hi> (1917). Nesse <hi rend="italic"><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
-                  <rs type="title">Ultimatum</rs>
-               </ref></hi> lê-se sobre a philosophia uma opinião
+            <p rend="indent-first">Pasmarão talvez d’estas considerações os que leram o meu <hi rend="italic">
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
+                     <rs type="title">Ultimatum</rs>
+                  </ref>
+               </hi>, no <hi rend="italic">
+                  <rs type="periodical" key="J29">Portugal Futurista</rs>
+               </hi> (1917). Nesse <hi rend="italic">
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
+                     <rs type="title">Ultimatum</rs>
+                  </ref>
+               </hi> lê-se sobre a philosophia uma opinião
                     que parece, salvo que a precedeu, exactamente a mesma que a de <rs type="name" role="topic" key="FP">Fernando Pessoa</rs>. Não é bem assim. A conclusão
                     practica pode realmente ser identica, mas a conclusão theorica, que é a practica
                     para uma theoria, é differente.</p>
@@ -229,9 +243,11 @@
                     seja ao menos <hi rend="italic">sentida</hi>, e a metaphysica seja arte; visto
                     que tudo, bom ou mau, verdadeiro ou falso, tem afinal, porque existe, um direito
                         <hi rend="italic">vital</hi> a existir.</p>
-            <p rend="indent-first">A minha theoria esthetica e social no <hi rend="italic"><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
-                  <rs type="title">Ultimatum</rs>
-               </ref></hi> resume-se nisto: na irracionalização
+            <p rend="indent-first">A minha theoria esthetica e social no <hi rend="italic">
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
+                     <rs type="title">Ultimatum</rs>
+                  </ref>
+               </hi> resume-se nisto: na irracionalização
                     das actividades que não são (pelo menos ainda) racionalizaveis. Como a
                     metaphysica é uma sciencia virtual, e a sociologia é outra, proponho a
                     irracionalização de ambas ― isto é, a metaphysica tornada arte, o que a
@@ -241,12 +257,16 @@
                     sociologia pelo utopismo social, porque isso seria, não irracionalizar, mas
                     subracionalizar, essas actividades, dando-lhes, não uma finalidade diversa, mas
                     um grau inferior da sua propria finalidade.</p>
-            <p rend="indent-first">É isto, em resumo, o que defendi no meu <hi rend="italic"><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
-                  <rs type="title">Ultimatum</rs>
-               </ref></hi>. E as theorias, politica e esthetica,
+            <p rend="indent-first">É isto, em resumo, o que defendi no meu <hi rend="italic">
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">
+                     <rs type="title">Ultimatum</rs>
+                  </ref>
+               </hi>. E as theorias, politica e esthetica,
                     inteiramente originaes e novas, que proponho nessa proclamação, são, por uma
                     razão logica, inteiramente irracionaes, exactamente como a vida.</p>
-            <signed rend="right"><rs type="name" key="AdC" role="author" style="a">Alvaro de Campos</rs></signed>
+            <signed rend="right">
+               <rs type="name" key="AdC" role="author" style="a">Alvaro de Campos</rs>
+            </signed>
          </div>
       </body>
    </text>
@@ -331,7 +351,11 @@
                     metafísica venha a ser mais que uma ciência virtual, ou que não venha a ser
                     mais. Quer dizer apenas que ela é efetivamente, não uma arte, mas uma
                     ciência virtual.</p>
-            <p rend="indent-first">Pasmarão talvez destas considerações os que leram o meu <hi rend="italic"><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">Ultimatum</ref></hi>, no <hi rend="italic">Portugal Futurista</hi> (1917). Nesse <hi rend="italic"><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">Ultimatum</ref></hi> lê-se sobre a filosofia uma opinião
+            <p rend="indent-first">Pasmarão talvez destas considerações os que leram o meu <hi rend="italic">
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">Ultimatum</ref>
+               </hi>, no <hi rend="italic">Portugal Futurista</hi> (1917). Nesse <hi rend="italic">
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">Ultimatum</ref>
+               </hi> lê-se sobre a filosofia uma opinião
                     que parece, salvo que a precedeu, exatamente a mesma que a de Fernando Pessoa. Não é bem assim. A conclusão
                     prática pode realmente ser idêntica, mas a conclusão teórica, que é a prática
                     para uma teoria, é diferente.</p>
@@ -396,7 +420,9 @@
                     seja ao menos <hi rend="italic">sentida</hi>, e a metafísica seja arte; visto
                     que tudo, bom ou mau, verdadeiro ou falso, tem afinal, porque existe, um direito
                         <hi rend="italic">vital</hi> a existir.</p>
-            <p rend="indent-first">A minha teoria estética e social no <hi rend="italic"><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">Ultimatum</ref></hi> resume-se nisto: na irracionalização
+            <p rend="indent-first">A minha teoria estética e social no <hi rend="italic">
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">Ultimatum</ref>
+               </hi> resume-se nisto: na irracionalização
                     das atividades que não são (pelo menos ainda) racionalizáveis. Como a
                     metafísica é uma ciência virtual, e a sociologia é outra, proponho a
                     irracionalização de ambas ― isto é, a metafísica tornada arte, o que a
@@ -406,7 +432,9 @@
                     sociologia pelo utopismo social, porque isso seria, não irracionalizar, mas
                     subracionalizar, essas atividades, dando-lhes, não uma finalidade diversa, mas
                     um grau inferior da sua própria finalidade.</p>
-            <p rend="indent-first">É isto, em resumo, o que defendi no meu <hi rend="italic"><ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">Ultimatum</ref></hi>. E as teorias, política e estética,
+            <p rend="indent-first">É isto, em resumo, o que defendi no meu <hi rend="italic">
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ultimatum">Ultimatum</ref>
+               </hi>. E as teorias, política e estética,
                     inteiramente originais e novas, que proponho nessa proclamação, são, por uma
                     razão lógica, inteiramente irracionais, exatamente como a vida.</p>
             <signed rend="right">Álvaro de Campos</signed>

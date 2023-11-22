@@ -32,10 +32,9 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
-            <idno type="filename"
-               >Pessoa_Antonio_Botto_e_o_ideal_estetico_criador_Cartas_devolvidas.xml</idno>
+            <idno type="filename">Pessoa_Antonio_Botto_e_o_ideal_estetico_criador_Cartas_devolvidas.xml</idno>
          </publicationStmt>
          <notesStmt>
             <note type="genre">
@@ -59,7 +58,9 @@
                </analytic>
                <monogr>
                   <title level="m">Cartas que me foram devolvidas</title>
-                  <author><rs type="name" key="P17">António Botto</rs></author>
+                  <author>
+                     <rs type="name" key="P17">António Botto</rs>
+                  </author>
                   <imprint>
                      <date when="1932">1932</date>
                      <pubPlace>Lisboa</pubPlace>
@@ -68,10 +69,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Pessoa_Antonio_Botto_Ideal_Cartas_1.jpg"/>
@@ -139,21 +148,23 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart type="main"><rs type="name" key="P17" style="b">ANTÓNIO BOTTO</rs>
+               <titlePart type="main">
+                  <rs type="name" key="P17" style="b">ANTÓNIO BOTTO</rs>
                   <lb/>E O IDEAL <lb/>ESTÉTICO <lb/>CREADOR</titlePart>
                <titlePart type="sub">
-                  ESTUDO CRÍTICO DE <lb/><rs type="name" role="author" key="FP" style="b"
-                     >FERNANDO PESSOA</rs>
+                  ESTUDO CRÍTICO DE <lb/>
+                  <rs type="name" role="author" key="FP" style="b">FERNANDO PESSOA</rs>
                </titlePart>
             </docTitle>
             <byline rend="center">por <lb/>
                <rs type="name" role="editor" key="FP">Fernando Pessoa</rs>
             </byline>
          </titlePage>
-         </front>
+      </front>
       <body>
          <milestone rend="tilde" unit="section"/>
-         <p><rs type="name" key="P17" style="b">ANTÓNIO BOTTO</rs> é o único poeta português, dos
+         <p>
+            <rs type="name" key="P17" style="b">ANTÓNIO BOTTO</rs> é o único poeta português, dos
             que sabemos que existem, a quem a designação de esteta se póde aplicar distintivamente,
             isto é, como definição bastante, sem acrescimo nem restrição. É êste o teorema; o fim
             dêste breve estudo é demonstrá-lo.</p>
@@ -161,19 +172,19 @@
             significa, primáriamente, cultor da beleza, e todo artista, e portanto <pb/>todo poeta, é,
             pelo menos, cultor da beleza pela criação dela. Ha, porém, poetas, e artistas, que criam
             beleza por um movimento íntimo espontâneo, em que a idéa de beleza não figura como
-            elemento determinante: assim um <rs type="name" key="P248">Byron</rs> ou um <rs
-               type="name" key="P175">Shelley</rs> olha menos à beleza possível do que cria ao
+            elemento determinante: assim um <rs type="name" key="P248">Byron</rs> ou um <rs type="name" key="P175">Shelley</rs> olha menos à beleza possível do que cria ao
             aliviar a alma do peso de uma emoção, e a criação da beleza é mais parte do alivio que
             preocupação directa. Outros ha que, escravos embora da beleza, são todavia, no mesmo
-            tempo, subditos de outras preocupações, como a religiosa em <rs type="name" key="P220"
-               >Dante</rs> e <rs type="name" key="P84">Milton</rs>, e a psicológica em <pb/><rs type="name" key="P65">Shakespeare</rs>.
+            tempo, subditos de outras preocupações, como a religiosa em <rs type="name" key="P220">Dante</rs> e <rs type="name" key="P84">Milton</rs>, e a psicológica em <pb/>
+            <rs type="name" key="P65">Shakespeare</rs>.
             Os primeiros não são inteiramente estetas; os segundos não o são exclusivamente. Em
             quási todos os casos, a palavra esteta é larga ou estreita de mais para definir o poeta.
             Define, bem ou mal, sómente parte do seu espírito: só o inconsciente no primeiro caso
             exemplificado; só parte do consciente no segundo.</p>
          <p rend="indent-first">Designo por esteta, como é de sentir no que vai dito, o homem que
             faz consistir na contemplação da beleza, distinta da criação dela, tôda aquela sua
-            atitude crítica da vida a que chamamos o ideal; e que, por nessa contemplação con<pc>-</pc><pb/>centrar
+            atitude crítica da vida a que chamamos o ideal; e que, por nessa contemplação con<pc>-</pc>
+            <pb/>centrar
             o seu ideal todo, não admite nêste nem elementos intelectuais, nem elementos morais,
             nem, enfim, elementos de qualquer ordem que não seja a contemplativa. Deduz-se disto
             que, por natureza e definição, o esteta própriamente tal, não é artista, pois que não é
@@ -181,7 +192,8 @@
             sendo evidentemente criador, pois que é artista, é também demonstravelmente o tipo do
             esteta. Consubstancia-se com o tipo de que se afasta. Nisto, quando em mais não fosse,
             reside o interesse do caso e o da analise dele.</p>
-         <p rend="indent-first"><pb/>Nasce o ideal do nosso convencimento da imperfeição da vida:
+         <p rend="indent-first">
+            <pb/>Nasce o ideal do nosso convencimento da imperfeição da vida:
             consiste na idéa de perfeição que derivamos, por contraste, da maneira como concebemos
             essa imperfeição. Ora é de trez maneiras que podemos ter qualquer coisa, e portanto a
             vida, por imperfeita. Um exemplo, como sempre, dil-o-ha, primeiro, melhor que uma
@@ -215,14 +227,14 @@
             compreensão, sem precisar de mais vôo para compreender, abarcasse, num só grande abrir
             de asas, o espaço inteligivel de tudo. Quizeramos, em suma, não uma vida perfeita, mas a
             perfeição da vida.</p>
-         <p rend="indent-first">Ora a perfeição de uma coisa em si mesma resulta da sua abso<pc>-</pc><pb/>luta
+         <p rend="indent-first">Ora a perfeição de uma coisa em si mesma resulta da sua abso<pc>-</pc>
+            <pb/>luta
             identificação com a sua própria substancia — com a sua matéria, se a sua substancia é
             material; com a sua fórma, se a sua substancia é formal; com o seu fim, se a sua
             substancia é ter um fim. E como este perfeito ajustamento, que, quando externo, se chama
             equilibrio, se chama, quando externo, harmonia, convém ao ideal, que nêle se funde, o
             nome de ideal harmónico. Como, porém, foram os gregos os que não só criaram êste ideal,
-            mas mais intimamente o incarnaram, e como era o deus <rs type="name" key="P706"
-               >Febo</rs>, ou <rs type="name" key="P604" style="b">Apolo</rs>, quem para êles o
+            mas mais intimamente o incarnaram, e como era o deus <rs type="name" key="P706">Febo</rs>, ou <rs type="name" key="P604" style="b">Apolo</rs>, quem para êles o
             figurava na vida (pois <pb/>na inteligencia o figurava <rs type="name" key="P96">Atena</rs>),
             chamaremos a êste ideal o <hi rend="italic">ideal apolineo</hi>.</p>
          <milestone rend="tilde" unit="section"/>
@@ -237,7 +249,8 @@
             natureza se lhe oponha. Ao primeiro ideal, porque é da embriaguês da vida, chamaremos
                <hi rend="italic">dionisiaco;</hi> ao segundo, porque é da transcendência dela,
             chamaremos <hi rend="italic">cristão</hi>.</p>
-         <p rend="indent-first"><pb/>Os dois ideais, que nascem dêstes dois conceitos, são em substância
+         <p rend="indent-first">
+            <pb/>Os dois ideais, que nascem dêstes dois conceitos, são em substância
             o mesmo ideal: são produtos do mesmo critério, efeito da mesma causa. Um é quantitativo,
             o outro qualitativo; mas qualidade e quantidade, na mesma matéria, são sòmente dois
             aspectos dela, como os aspectos concavo e convexo da mesma superfície curva. Quando a
@@ -246,14 +259,12 @@
             Mas estes dois ideais são idênticos, não só pela igual <pb/>origem, senão também pelo modo
             igual em que se diferençam do ideal apolineo. Aquele é harmónico e natural; estes
             desarmónicos e misticos. Aquele assenta na aceitação da vida; estes, de um modo e de
-            outro, na comum negação dela. <rs type="name" key="P707">Baco</rs> e <rs type="name"
-               key="P50" style="b">Cristo</rs> são, aliás, em certo grau do entendimento oculto,
+            outro, na comum negação dela. <rs type="name" key="P707">Baco</rs> e <rs type="name" key="P50" style="b">Cristo</rs> são, aliás, em certo grau do entendimento oculto,
             duas formas do mesmo deus. «<rs type="name" key="P50" style="b">Cristo</rs> Baquico» diz
             a inscrição por baixo da figura crucificada na joia antiga do Museu de Berlim.</p>
          <p rend="indent-first">Idênticos na matéria, estes dois ideais são contudo, não só
             diferentes, mas opostos, na forma: são, repetindo a imagem e o exemplo, <pb/>como os aspectos
-            opostos, o concavo e o convexo, da mesma superfície curva; como <rs type="name"
-               key="P707">Baco</rs> e <rs type="name" key="P50" style="b">Cristo</rs> na ordem
+            opostos, o concavo e o convexo, da mesma superfície curva; como <rs type="name" key="P707">Baco</rs> e <rs type="name" key="P50" style="b">Cristo</rs> na ordem
             externa. Para o dionisiaco a vida é simplesmente estreita; para o cristão a vida é vil.
             Para um é uma jaula, de onde há que fugir para os campos, que não são mais seus que a
             jaula; para o outro uma estalagem, suja e alheia, onde espera ter que estar pouco,
@@ -281,7 +292,8 @@
             devemo-lo, expresso, a <rs type="name" key="P472">Platão</rs>, em cuja doutrina todo
             espiritualismo se filia. Como, porém, é aquele platonismo judaizado a que chamamos
             cristianismo que com mais clara plenitude incarna, mistica e asceticamente, o
-            es<pc>-</pc><pb/>piritualismo, chamámos a êste ideal o ideal cristão.</p>
+            es<pc>-</pc>
+            <pb/>piritualismo, chamámos a êste ideal o ideal cristão.</p>
          <milestone rend="tilde" unit="section"/>
          <p rend="indent-first">Pelo último dos três critérios, aplicando-o como aplicámos os
             outros, teremos a vida por imperfeita por a compararmos com uma vida, a verdadeira,
@@ -307,7 +319,8 @@
             separadas ― corpos, formas, seres ―, aquela será formada de uma unidade sem nada, onde
             tudo, anulando-se, se funde. E como isto é o que está tipicamente expresso no Nirvana
             dos budistas, chamaremos a êste ideal o <hi rend="italic">ideal budico</hi>.</p>
-         <p rend="indent-first"><pb/>Depreende-se de tudo quanto ficou dito que um ideal é simplesmente
+         <p rend="indent-first">
+            <pb/>Depreende-se de tudo quanto ficou dito que um ideal é simplesmente
             uma filosofia da vida, tomando a palavra filosofia como abrangendo, pois que
             naturalmente abrange, uma metafísica, uma ética e uma estética. Nem todos os homens,
             porém, formam de igual modo a sua filosofia da vida.</p>
@@ -334,8 +347,7 @@
             intelectual de uma predisposição. Póde estabelecel-a, ou supôr que a estabelece, fazendo
             do seu temperamento um escravo do seu ideal, isto é, compelindo êsse temperamento a uma
             regra da inteligencia. Êste processo é o processo religioso: uma religião não é mais que
-            uma subordinação dos sentidos a uma regra super-sensual, <pb/>quer a simbolise o <rs
-               type="name" key="P50" style="b">Cristo</rs> Crucificado das Egrejas ou o Compasso e
+            uma subordinação dos sentidos a uma regra super-sensual, <pb/>quer a simbolise o <rs type="name" key="P50" style="b">Cristo</rs> Crucificado das Egrejas ou o Compasso e
             Esquadro da Maçonaria.</p>
          <p rend="indent-first">O primeiro dêsses homens superiores, o filósofo, é o que vulgarmente
             chamam o sábio, não no sentido de saber por saber, mas de saber por pensar. O segundo
@@ -349,8 +361,7 @@
             atenção que está virada para o mundo e a vida, e a atenção que está virada para a
             inteligencia; de ser solicitado igualmente pela matéria e pelo espírito; de dar, do
             fundo da vida e da razão, a <rs type="name" key="P148" style="c">Cesar</rs> o que é de
-            <rs type="name" key="P148" style="c">Cesar</rs> e a <rs type="name" key="P573" style="a"
-               >Deus</rs> o que é de <rs type="name" key="P573" style="a">Deus</rs>.</p>
+            <rs type="name" key="P148" style="c">Cesar</rs> e a <rs type="name" key="P573" style="a">Deus</rs> o que é de <rs type="name" key="P573" style="a">Deus</rs>.</p>
          <p rend="indent-first">A igual atenção à matéria e ao <pb/>espírito faz que, instintivamente,
             cada coisa material seja pensada como espiritual, cada coisa espiritual como material:
             sendo as duas atenções iguais em fôrça e existentes na mesma alma, os seus objectos
@@ -358,7 +369,8 @@
             material pensada como espiritual é uma coisa material considerada na sua beleza, pois a
             beleza é o que a matéria tem de imaterial em si mesma. E uma coisa espiritual pensada
             como material é essa mesma coisa às avessas ― um produto do espírito entregue ao mundo
-            ex<pc>-</pc><pb/>terno como beleza. A essa coisa chamamos obra de arte, e artista àquele que cria.</p>
+            ex<pc>-</pc>
+            <pb/>terno como beleza. A essa coisa chamamos obra de arte, e artista àquele que cria.</p>
          <p rend="indent-first">O artista é a forma mais alta do homem superior. O santo é do tipo
             dos Anjos, cujo mister é crer; o sábio é do tipo dos Arcanjos, cujo mister é
             compreender; o artista, porém, é do tipo dos Deuses, cujo mister é crear.</p>
@@ -379,8 +391,7 @@
             como se nada mais houvesse com que os comparar.</p>
          <p rend="indent-first">Um dionisiaco, se o fôr deveras, quer viver ou sonhar, que não fazer
             arte: tudo, quanto se der à arte, rouba-se à vida ou ao sonho. <pb/>Um cristão, se o fôr
-            devéras, também não pensa em fazer arte: para que desviar da contemplação de <rs
-               type="name" key="P573" style="a">Deus</rs> e da salvação da alma um minuto que seja do tempo,
+            devéras, também não pensa em fazer arte: para que desviar da contemplação de <rs type="name" key="P573" style="a">Deus</rs> e da salvação da alma um minuto que seja do tempo,
             para com o emprêgo dele ir aumentar as hostes que o são da vileza e do pecado? O
             caotico, se o fôr devéras, fará uma só coisa — suïcidar-se-á no momento em que conceba,
             em plenitude e sinceridade, o seu ideal noturno. E ao budista, se o fôr devéras, nada
@@ -391,8 +402,7 @@
             apolineo. É-o com aquela vida de sentidos de que se forma o seu temperamento; pode ser
             outra coisa, seguir outro ideal, com a vida da sua inteligência. Pode servir-se da
             poesia, como <rs type="name" key="P220">Dante</rs>, para expor um ideal cristão; como
-               <rs type="name" key="P216">Whitman</rs>, para expor um ideal dionisiaco; como <rs
-               type="name" key="P103">Omar Khayyam</rs> ou <rs type="name" key="P296">Swinburne</rs>
+               <rs type="name" key="P216">Whitman</rs>, para expor um ideal dionisiaco; como <rs type="name" key="P103">Omar Khayyam</rs> ou <rs type="name" key="P296">Swinburne</rs>
             para expor um ideal caotico, exprimindo-o no vinho, como o primeiro, no sono, como o
             <pb/>segundo. A oferenda, qualquer que seja o deus a que se destine, leva-a êle sempre,
             sonâmbulo, ao templo de Apolo. Os passos com que queria ir, consciente, a Jerusalem ou
@@ -413,7 +423,8 @@
          <p rend="indent-first">O ideal, dissemos, provém do nosso convencimento da imperfeição da
             vida, consiste no critério de perfeição que opomos a essa imperfeição. Para o
             dionisiaco, que acha a vida pouca, o ideal está em mais-vida ou em tôda a vida; a
-            perfeição para êle consistirá na intensidade, na fôrça, se fôr ob<pc>-</pc><pb/>jectivista; no sonho,
+            perfeição para êle consistirá na intensidade, na fôrça, se fôr ob<pc>-</pc>
+            <pb/>jectivista; no sonho,
             se fôr subjectivista. Para o cristão, que acha a vida pouco, o ideal está em vida mas
             outra vida; a perfeição para êle consistirá na espiritualidade. Para o caotico, que acha
             a vida nada, o ideal está em não existir; a perfeição para êle consistirá na
@@ -436,8 +447,7 @@
             inclue elemento algum que não seja desta vida, como seria, por exemplo, o de recompensa
             ou castigo em uma vida subsequente. Se assim fôsse, estariamos fora do <pb/>ideal apolineo. O
             ideal moral preocupou extensamente os gregos antigos, que formaram dêle vários tipos,
-            incluindo alguns, como o hedonistico, a que nós hoje, dando à palavra <hi rend="italic"
-               >moral</hi> um sentido restrito e cristão, hesitariamos em aplicar essa palavra. Ao
+            incluindo alguns, como o hedonistico, a que nós hoje, dando à palavra <hi rend="italic">moral</hi> um sentido restrito e cristão, hesitariamos em aplicar essa palavra. Ao
             ideal moral poderiamos, até, chamar o ideal socrático, em homenagem àquele grego sublime
             que com êle mais, e mais profundamente, se preocupou.</p>
          <p rend="indent-first">Para o homem de tipo mixto, a vida o menos imperfeita possível será
@@ -455,7 +465,8 @@
             perfeita vejamos; pois, excluido todo elemento de acção, tudo, desde a pedra ao homem,
             passa a ser tão sómente «mundo externo». Mas a única coisa que, no mundo externo, lembra
             a perfeição, ou se aproxima dela, é aquilo que chamamos beleza. Para o apolíneo
-            contemplativo o ideal consistirá, pois, não na contemplação em ge<pc>-</pc><pb/>ral, mas na
+            contemplativo o ideal consistirá, pois, não na contemplação em ge<pc>-</pc>
+            <pb/>ral, mas na
             contemplação particular da beleza. Nada importa a moral ou o dever, pois são acção;
             pouco importa a glória, pois contém acção; a beleza basta. A êste ideal compete, pois,
             naturalmente, o nome de ideal estético.</p>
@@ -468,7 +479,8 @@
             sem moral nem uso, só por ser beleza.</p>
          <p rend="indent-first">Um socrático, um heróico ou um esteta, tinha, nascido que fôsse na
             Grécia antiga, o ambiente propício à realização do seu ideal — tanto, é claro, quanto um
-            ideal se pode realizar. O ideal íntimo ajus<pc>-</pc><pb/>tava-se ao ideal social. E assim o homem era
+            ideal se pode realizar. O ideal íntimo ajus<pc>-</pc>
+            <pb/>tava-se ao ideal social. E assim o homem era
             um indivíduo verdadeiro, que não, como a maioria de nós de hoje, um indivíduo amador.
             Daí a extraordinária perfeição cívica e moral da vida grega, que só consideraremos
             imoral, em certos aspectos, se a avaliarmos por critérios morais diferentes, isto é, se
@@ -489,13 +501,12 @@
             Apolo, terá um sentimento — o da revolta. Reagirá, e a reacção é uma acção. Passará de
             contemplativo a activo, de esteta a artista. Gritará o que calaria, cantará o que
             preferiria ouvir.</p>
-         <p rend="indent-first">É êste o caso especial de <rs type="name" key="P17" style="b"
-               >António Botto</rs>.</p>
-         <p rend="indent-first"><pb/>Para a demonstração completa do que nos propuzemos demonstrar falta
+         <p rend="indent-first">É êste o caso especial de <rs type="name" key="P17" style="b">António Botto</rs>.</p>
+         <p rend="indent-first">
+            <pb/>Para a demonstração completa do que nos propuzemos demonstrar falta
             sòmente que provemos que <rs type="name" key="P17" style="b">António Botto</rs> é o tipo
             exacto do esteta, no sentido, cada vez mais preciso, que viemos dar a esta palavra
-            através dos raciocínios que nos levaram à alma dela. Não temos que provar que <rs
-               type="name" key="P17" style="b">António Botto</rs> nasceu em nosso tempo, pois êle
+            através dos raciocínios que nos levaram à alma dela. Não temos que provar que <rs type="name" key="P17" style="b">António Botto</rs> nasceu em nosso tempo, pois êle
             aqui está; nem que é artista, pois êle o é sem que o provemos. E há que notar que, para
             o caso da nossa demonstração, nada importa o que êle valha como artista. Por nós,
             julgamos que é um artista admirável, o que dizemos, porém, só para <pb/>que se saiba que o
@@ -512,7 +523,8 @@
             ideia do Bem. Será esteta, pois, aquele cujo ideal de beleza se revele livre da atracção
             da vida ou do sexo oposto, de qualquer noção do dever, de qualquer ideia do Bem. Livre,
             porém, não quere dizer oposto, pois que o ideal estético, que é um ideal apolineo, não é
-            um ideal de nega<pc>-</pc><pb/>ção, mas de harmonia. O esteta ama a beleza onde quer que a veja, sem
+            um ideal de nega<pc>-</pc>
+            <pb/>ção, mas de harmonia. O esteta ama a beleza onde quer que a veja, sem
             restricção moral: na vida como na não-vida, no sexo oposto como no próprio; no dever
             como na falta a êle, se na falta a êle houver beleza; no Bem como no Mal, se o Mal fôr,
             como <rs type="name" key="P708">Lucifer</rs>, a Estrêla da Manhã.</p>
@@ -526,10 +538,10 @@
             para o Evangelho — cai igual a beleza da chuva sôbre o campo do justo e do injusto. Não
             citaremos um verso, nem faremos um extrato, em apoio do que dizemos: citamos a obra
             inteira do artista, pois nem uma linha dela nos desmente.</p>
-         <p rend="indent-first">Esta demonstração está com<pc>-</pc><pb/>pleta. Antes, porém, que a fechemos, há um
+         <p rend="indent-first">Esta demonstração está com<pc>-</pc>
+            <pb/>pleta. Antes, porém, que a fechemos, há um
             ponto que desejamos, não demonstrar, mas esclarecer. A estupidêz psicológica elegeu, de
-            ha muito, para o escândalo postiço o modo como <rs type="name" key="P17" style="b"
-               >António Botto</rs> acentua o seu afecto à beleza masculina. Quem tiver lido com
+            ha muito, para o escândalo postiço o modo como <rs type="name" key="P17" style="b">António Botto</rs> acentua o seu afecto à beleza masculina. Quem tiver lido com
             atenção êste estudo não precisa de esclarecimento, pois que a demonstração já o contém.
             Muitos, porém, precisam de que o explicado se lhes explique. São para êsses estas
             ultimas linhas.</p>
@@ -541,8 +553,10 @@
             opressão do nosso ambiente; daí servir-se <rs type="name" key="P17" style="b">António
                Botto</rs> dela com uma constância e uma persistência que há não só que compreender,
             mas que louvar.</p>
-         <p rend="indent-first"><rs type="name" key="P17" style="b">António Botto</rs> é um estéta
-            grego nascido num exilio longinquo. Ama a Pátria perdida com a devo<pc>-</pc><pb/>ção violenta de quem
+         <p rend="indent-first">
+            <rs type="name" key="P17" style="b">António Botto</rs> é um estéta
+            grego nascido num exilio longinquo. Ama a Pátria perdida com a devo<pc>-</pc>
+            <pb/>ção violenta de quem
             não poderá voltar a ela. Daí o que na sua obra há de estrangeiro, de saüdoso e de
             triste. É como, nas noites sem lua, aquele brilho ténue, vindo do céu, não se sabe de
             onde, que toca de prata negra a solidão inquieta do mar.</p>
@@ -552,7 +566,8 @@
    <text type="reg" corresp="#W320">
       <body>
          <milestone rend="tilde" unit="section"/>
-         <head><rs type="name" key="P17" style="b">ANTÓNIO BOTTO</rs>
+         <head>
+            <rs type="name" key="P17" style="b">ANTÓNIO BOTTO</rs>
             <lb/>E O IDEAL <lb/>ESTÉTICO <lb/>CRIADOR</head>
          <head type="sub">ESTUDO CRÍTICO DE <lb/>FERNANDO PESSOA</head>
          <p>ANTÓNIO BOTTO é o único poeta português, dos
@@ -573,7 +588,8 @@
             exemplificado; só parte do consciente no segundo.</p>
          <p rend="indent-first">Designo por esteta, como é de sentir no que vai dito, o homem que
             faz consistir na contemplação da beleza, distinta da criação dela, toda aquela sua
-            atitude crítica da vida a que chamamos o ideal; e que, por nessa contemplação con<pc>-</pc><pb/>centrar
+            atitude crítica da vida a que chamamos o ideal; e que, por nessa contemplação con<pc>-</pc>
+            <pb/>centrar
             o seu ideal todo, não admite neste nem elementos intelectuais, nem elementos morais,
             nem, enfim, elementos de qualquer ordem que não seja a contemplativa. Deduz-se disto
             que, por natureza e definição, o esteta propriamente tal, não é artista, pois que não é
@@ -581,7 +597,8 @@
             sendo evidentemente criador, pois que é artista, é também demonstravelmente o tipo do
             esteta. Consubstancia-se com o tipo de que se afasta. Nisto, quando em mais não fosse,
             reside o interesse do caso e o da análise dele.</p>
-         <p rend="indent-first"><pb/>Nasce o ideal do nosso convencimento da imperfeição da vida:
+         <p rend="indent-first">
+            <pb/>Nasce o ideal do nosso convencimento da imperfeição da vida:
             consiste na ideia de perfeição que derivamos, por contraste, da maneira como concebemos
             essa imperfeição. Ora é de três maneiras que podemos ter qualquer coisa, e portanto a
             vida, por imperfeita. Um exemplo, como sempre, di-lo-á, primeiro, melhor que uma
@@ -615,7 +632,8 @@
             compreensão, sem precisar de mais voo para compreender, abarcasse, num só grande abrir
             de asas, o espaço inteligível de tudo. Quiséramos, em suma, não uma vida perfeita, mas a
             perfeição da vida.</p>
-         <p rend="indent-first">Ora a perfeição de uma coisa em si mesma resulta da sua abso<pc>-</pc><pb/>luta
+         <p rend="indent-first">Ora a perfeição de uma coisa em si mesma resulta da sua abso<pc>-</pc>
+            <pb/>luta
             identificação com a sua própria substância — com a sua matéria, se a sua substância é
             material; com a sua forma, se a sua substância é formal; com o seu fim, se a sua
             substância é ter um fim. E como este perfeito ajustamento, que, quando externo, se chama
@@ -636,7 +654,8 @@
             natureza se lhe oponha. Ao primeiro ideal, porque é da embriaguez da vida, chamaremos
                <hi rend="italic">dionisíaco;</hi> ao segundo, porque é da transcendência dela,
             chamaremos <hi rend="italic">cristão</hi>.</p>
-         <p rend="indent-first"><pb/>Os dois ideais, que nascem destes dois conceitos, são em substância
+         <p rend="indent-first">
+            <pb/>Os dois ideais, que nascem destes dois conceitos, são em substância
             o mesmo ideal: são produtos do mesmo critério, efeito da mesma causa. Um é quantitativo,
             o outro qualitativo; mas qualidade e quantidade, na mesma matéria, são somente dois
             aspetos dela, como os aspetos côncavo e convexo da mesma superfície curva. Quando a
@@ -678,7 +697,8 @@
             devemo-lo, expresso, a Platão, em cuja doutrina todo
             espiritualismo se filia. Como, porém, é aquele platonismo judaizado a que chamamos
             cristianismo que com mais clara plenitude encarna, mística e asceticamente, o
-            es<pc>-</pc><pb/>piritualismo, chamámos a este ideal o ideal cristão.</p>
+            es<pc>-</pc>
+            <pb/>piritualismo, chamámos a este ideal o ideal cristão.</p>
          <milestone rend="tilde" unit="section"/>
          <p rend="indent-first">Pelo último dos três critérios, aplicando-o como aplicámos os
             outros, teremos a vida por imperfeita por a compararmos com uma vida, a verdadeira,
@@ -704,7 +724,8 @@
             separadas ― corpos, formas, seres ―, aquela será formada de uma unidade sem nada, onde
             tudo, anulando-se, se funde. E como isto é o que está tipicamente expresso no Nirvana
             dos budistas, chamaremos a este ideal o <hi rend="italic">ideal búdico</hi>.</p>
-         <p rend="indent-first"><pb/>Depreende-se de tudo quanto ficou dito que um ideal é simplesmente
+         <p rend="indent-first">
+            <pb/>Depreende-se de tudo quanto ficou dito que um ideal é simplesmente
             uma filosofia da vida, tomando a palavra filosofia como abrangendo, pois que
             naturalmente abrange, uma metafísica, uma ética e uma estética. Nem todos os homens,
             porém, formam de igual modo a sua filosofia da vida.</p>
@@ -753,7 +774,8 @@
             material pensada como espiritual é uma coisa material considerada na sua beleza, pois a
             beleza é o que a matéria tem de imaterial em si mesma. E uma coisa espiritual pensada
             como material é essa mesma coisa às avessas ― um produto do espírito entregue ao mundo
-            ex<pc>-</pc><pb/>terno como beleza. A essa coisa chamamos obra de arte, e artista àquele que cria.</p>
+            ex<pc>-</pc>
+            <pb/>terno como beleza. A essa coisa chamamos obra de arte, e artista àquele que cria.</p>
          <p rend="indent-first">O artista é a forma mais alta do homem superior. O santo é do tipo
             dos Anjos, cujo mister é crer; o sábio é do tipo dos Arcanjos, cujo mister é
             compreender; o artista, porém, é do tipo dos Deuses, cujo mister é criar.</p>
@@ -806,7 +828,8 @@
          <p rend="indent-first">O ideal, dissemos, provém do nosso convencimento da imperfeição da
             vida, consiste no critério de perfeição que opomos a essa imperfeição. Para o
             dionisíaco, que acha a vida pouca, o ideal está em mais-vida ou em toda a vida; a
-            perfeição para ele consistirá na intensidade, na força, se for ob<pc>-</pc><pb/>jetivista; no sonho,
+            perfeição para ele consistirá na intensidade, na força, se for ob<pc>-</pc>
+            <pb/>jetivista; no sonho,
             se for subjetivista. Para o cristão, que acha a vida pouco, o ideal está em vida mas
             outra vida; a perfeição para ele consistirá na espiritualidade. Para o caótico, que acha
             a vida nada, o ideal está em não existir; a perfeição para ele consistirá na
@@ -829,8 +852,7 @@
             inclui elemento algum que não seja desta vida, como seria, por exemplo, o de recompensa
             ou castigo em uma vida subsequente. Se assim fosse, estaríamos fora do <pb/>ideal apolíneo. O
             ideal moral preocupou extensamente os gregos antigos, que formaram dele vários tipos,
-            incluindo alguns, como o hedonístico, a que nós hoje, dando à palavra <hi rend="italic"
-               >moral</hi> um sentido restrito e cristão, hesitaríamos em aplicar essa palavra. Ao
+            incluindo alguns, como o hedonístico, a que nós hoje, dando à palavra <hi rend="italic">moral</hi> um sentido restrito e cristão, hesitaríamos em aplicar essa palavra. Ao
             ideal moral poderiamos, até, chamar o ideal socrático, em homenagem àquele grego sublime
             que com ele mais, e mais profundamente, se preocupou.</p>
          <p rend="indent-first">Para o homem de tipo misto, a vida o menos imperfeita possível será
@@ -848,7 +870,8 @@
             perfeita vejamos; pois, excluído todo elemento de ação, tudo, desde a pedra ao homem,
             passa a ser tão-somente «mundo externo». Mas a única coisa que, no mundo externo, lembra
             a perfeição, ou se aproxima dela, é aquilo que chamamos beleza. Para o apolíneo
-            contemplativo o ideal consistirá, pois, não na contemplação em ge<pc>-</pc><pb/>ral, mas na
+            contemplativo o ideal consistirá, pois, não na contemplação em ge<pc>-</pc>
+            <pb/>ral, mas na
             contemplação particular da beleza. Nada importa a moral ou o dever, pois são ação;
             pouco importa a glória, pois contém ação; a beleza basta. A este ideal compete, pois,
             naturalmente, o nome de ideal estético.</p>
@@ -861,7 +884,8 @@
             sem moral nem uso, só por ser beleza.</p>
          <p rend="indent-first">Um socrático, um heróico ou um esteta, tinha, nascido que fosse na
             Grécia antiga, o ambiente propício à realização do seu ideal — tanto, é claro, quanto um
-            ideal se pode realizar. O ideal íntimo ajus<pc>-</pc><pb/>tava-se ao ideal social. E assim o homem era
+            ideal se pode realizar. O ideal íntimo ajus<pc>-</pc>
+            <pb/>tava-se ao ideal social. E assim o homem era
             um indivíduo verdadeiro, que não, como a maioria de nós de hoje, um indivíduo amador.
             Daí a extraordinária perfeição cívica e moral da vida grega, que só consideraremos
             imoral, em certos aspetos, se a avaliarmos por critérios morais diferentes, isto é, se
@@ -883,7 +907,8 @@
             contemplativo a ativo, de esteta a artista. Gritará o que calaria, cantará o que
             preferiria ouvir.</p>
          <p rend="indent-first">É este o caso especial de António Botto.</p>
-         <p rend="indent-first"><pb/>Para a demonstração completa do que nos propusemos demonstrar falta
+         <p rend="indent-first">
+            <pb/>Para a demonstração completa do que nos propusemos demonstrar falta
             somente que provemos que António Botto é o tipo
             exato do esteta, no sentido, cada vez mais preciso, que viemos dar a esta palavra
             através dos raciocínios que nos levaram à alma dela. Não temos que provar que António Botto nasceu em nosso tempo, pois ele
@@ -903,7 +928,8 @@
             ideia do Bem. Será esteta, pois, aquele cujo ideal de beleza se revele livre da atração
             da vida ou do sexo oposto, de qualquer noção do dever, de qualquer ideia do Bem. Livre,
             porém, não quer dizer oposto, pois que o ideal estético, que é um ideal apolíneo, não é
-            um ideal de nega<pc>-</pc><pb/>ção, mas de harmonia. O esteta ama a beleza onde quer que a veja, sem
+            um ideal de nega<pc>-</pc>
+            <pb/>ção, mas de harmonia. O esteta ama a beleza onde quer que a veja, sem
             restrição moral: na vida como na não-vida, no sexo oposto como no próprio; no dever
             como na falta a ele, se na falta a ele houver beleza; no Bem como no Mal, se o Mal for,
             como Lúcifer, a Estrela da Manhã.</p>
@@ -917,7 +943,8 @@
             para o Evangelho — cai igual a beleza da chuva sobre o campo do justo e do injusto. Não
             citaremos um verso, nem faremos um extrato, em apoio do que dizemos: citamos a obra
             inteira do artista, pois nem uma linha dela nos desmente.</p>
-         <p rend="indent-first">Esta demonstração está com<pc>-</pc><pb/>pleta. Antes, porém, que a fechemos, há um
+         <p rend="indent-first">Esta demonstração está com<pc>-</pc>
+            <pb/>pleta. Antes, porém, que a fechemos, há um
             ponto que desejamos, não demonstrar, mas esclarecer. A estupidez psicológica elegeu, de
             há muito, para o escândalo postiço o modo como António Botto acentua o seu afeto à beleza masculina. Quem tiver lido com
             atenção este estudo não precisa de esclarecimento, pois que a demonstração já o contém.
@@ -932,7 +959,8 @@
                Botto dela com uma constância e uma persistência que há não só que compreender,
             mas que louvar.</p>
          <p rend="indent-first">António Botto é um esteta
-            grego nascido num exílio longínquo. Ama a Pátria perdida com a devo<pc>-</pc><pb/>ção violenta de quem
+            grego nascido num exílio longínquo. Ama a Pátria perdida com a devo<pc>-</pc>
+            <pb/>ção violenta de quem
             não poderá voltar a ela. Daí o que na sua obra há de estrangeiro, de saudoso e de
             triste. É como, nas noites sem lua, aquele brilho ténue, vindo do céu, não se sabe de
             onde, que toca de prata negra a solidão inquieta do mar.</p>

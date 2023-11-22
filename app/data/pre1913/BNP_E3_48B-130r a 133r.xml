@@ -38,8 +38,10 @@
                         <resp>Codificação</resp>
                         <name>Sviatoslav Drach</name>
                      </respStmt>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="pt"/>
                   </msItemStruct>
                </msContents>
@@ -53,7 +55,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0267_130_t24-C-R0150.jpg"/>
@@ -66,71 +76,154 @@
    </facsimile>
    <text xml:id="bnp-e3-48b-130r-a-133r">
       <body>
-         <head><hi rend="underline">Empreza Ibis</hi></head>  
-         <list> 
+         <head>
+            <hi rend="underline">Empreza Ibis</hi>
+         </head>
+         <list>
             <item>	Bibliotheca Scientifica (e Historica)</item>
             <metamark rend="line" function="distinct"/>
-            <item> Obras Nacionaes e Estrangeiras</item> 
+            <item> Obras Nacionaes e Estrangeiras</item>
             <metamark rend="line" function="distinct"/>
             <item>A. <del rend="overstike">Reedições</del> Obras Nacionaes (baratas).</item>
          </list>
-         <note place="margin left">ou  in<pc>-</pc><lb /><del rend="overstike">identifi</del> corporadas<lb></lb>
-          na<choice><abbr>Ed<am>.</am></abbr><expan>Ed<ex>ição</ex></expan></choice> <lb></lb>Lusitana.  </note>
-         <list> 
-            <item><label>1.</label><hi rend="underline"><rs type="name">Pedro d’Amorim Viana:</rs></hi> “O Racio<lb></lb> nalismo”</item>
-            <item><label>2.</label><hi rend="underline"><rs type="name">Henriques Nogueira:</rs></hi> “Os Municipios.”</item>
+         <note place="margin left">ou  in<pc>-</pc>
+            <lb/>
+            <del rend="overstike">identifi</del> corporadas<lb/>
+          na<choice>
+               <abbr>Ed<am>.</am>
+               </abbr>
+               <expan>Ed<ex>ição</ex>
+               </expan>
+            </choice>
+            <lb/>Lusitana.  </note>
+         <list>
+            <item>
+               <label>1.</label>
+               <hi rend="underline">
+                  <rs type="name">Pedro d’Amorim Viana:</rs>
+               </hi> “O Racio<lb/> nalismo”</item>
+            <item>
+               <label>2.</label>
+               <hi rend="underline">
+                  <rs type="name">Henriques Nogueira:</rs>
+               </hi> “Os Municipios.”</item>
          </list>
          <metamark rend="line" function="distinct"/>
-         <list> 
-            <head>Preferivel:<choice><abbr> Bibl<am>.</am></abbr><expan> Bibl<ex>iotheca</ex></expan></choice>Scientifica: —</head>  
-         
+         <list>
+            <head>Preferivel:<choice>
+                  <abbr> Bibl<am>.</am>
+                  </abbr>
+                  <expan> Bibl<ex>iotheca</ex>
+                  </expan>
+               </choice>Scientifica: —</head>
             <item>		Varios preços: —</item>
-            <item><hi rend="underline">		A 200 reis</hi> (ou 300).</item>        
-            <item><hi rend="underline">		A 400 reis</hi> (ou 500).</item>
-            <item><hi rend="underline">		A 600 reis</hi> (ou 700).</item>
-            <item><add place="left">(grandes volumes)</add><hi rend="underline">  A 800 reis</hi> (ou 900 ou 1000).</item>
-            <item></item>
+            <item>
+               <hi rend="underline">		A 200 reis</hi> (ou 300).</item>
+            <item>
+               <hi rend="underline">		A 400 reis</hi> (ou 500).</item>
+            <item>
+               <hi rend="underline">		A 600 reis</hi> (ou 700).</item>
+            <item>
+               <add place="left">(grandes volumes)</add>
+               <hi rend="underline">  A 800 reis</hi> (ou 900 ou 1000).</item>
+            <item/>
          </list>
-         <list> 
-         <head>			Collecção de romances estrangeiros </head>
-            <note place="right"><hi rend="underline">Ibis.</hi></note>
-            <note><hi rend="underline">				A 200 reis.(?)</hi><add place="margin right">(obter formato inusité <del rend="overstrike">inusité </del>)</add></note> 
-            <item><label>1.</label><rs type="name"> Ranger-Gull:</rs> “O Hypocrita”</item>
-            <item><label>2.</label><metamark rend="line" function="ditto"/>:	 Malevola</item>        
-            <item><label>3.</label><metamark rend="line" function="ditto"/>:	 O Fumador de Cigarros.</item>
-            <item><label>4.</label><metamark rend="line" function="ditto"/><add><rs type="name">F. Anstey:</rs></add> Vice-Versa.</item>
-            <item><label>5.</label><rs type="name">Stevenson:</rs> O Dr. Jekyll e Mr. o sr. Hyde</item>
-            <item><label>6.</label><rs type="name">A. Morrison:</rs> Martin Hewitt, investigador.</item>
-            <item><label>7.</label> <metamark rend="line" function="ditto"/>:<supplied resp="PS" reason="omitted-in-original"></supplied> </item>
-            <item><label>8.</label><metamark rend="line" function="ditto"/> :<supplied resp="PS" reason="omitted-in-original"></supplied></item>
+         <list>
+            <head>			Collecção de romances estrangeiros </head>
+            <note place="right">
+               <hi rend="underline">Ibis.</hi>
+            </note>
+            <note>
+               <hi rend="underline">				A 200 reis.(?)</hi>
+               <add place="margin right">(obter formato inusité <del rend="overstrike">inusité </del>)</add>
+            </note>
+            <item>
+               <label>1.</label>
+               <rs type="name"> Ranger-Gull:</rs> “O Hypocrita”</item>
+            <item>
+               <label>2.</label>
+               <metamark rend="line" function="ditto"/>:	 Malevola</item>
+            <item>
+               <label>3.</label>
+               <metamark rend="line" function="ditto"/>:	 O Fumador de Cigarros.</item>
+            <item>
+               <label>4.</label>
+               <metamark rend="line" function="ditto"/>
+               <add>
+                  <rs type="name">F. Anstey:</rs>
+               </add> Vice-Versa.</item>
+            <item>
+               <label>5.</label>
+               <rs type="name">Stevenson:</rs> O Dr. Jekyll e Mr. o sr. Hyde</item>
+            <item>
+               <label>6.</label>
+               <rs type="name">A. Morrison:</rs> Martin Hewitt, investigador.</item>
+            <item>
+               <label>7.</label>
+               <metamark rend="line" function="ditto"/>:<supplied resp="PS" reason="omitted-in-original"/>
+            </item>
+            <item>
+               <label>8.</label>
+               <metamark rend="line" function="ditto"/> :<supplied resp="PS" reason="omitted-in-original"/>
+            </item>
          </list>
-         <list> 
-            <head><hi rend="underline"> Empreza Ibis</hi></head>  
-            <note><hi rend="underline">		Pamphletos “Ibis” —</hi> </note>
+         <list>
+            <head>
+               <hi rend="underline"> Empreza Ibis</hi>
+            </head>
+            <note>
+               <hi rend="underline">		Pamphletos “Ibis” —</hi>
+            </note>
             <note>		Preço: 50 reis (ou 50 e 100 reis). </note>
-            <note>		numero de paginas:<supplied resp="PS" reason="omitted-in-original"></supplied> </note>
-            <item><label>1.</label>A <choice><seg n="1">Psychose</seg><seg n="2"><add place="below">Nevrose</add></seg></choice>Adeantativa.</item>
-            <item><label>2.</label>A Nossa Administração Colonial (talvez só á <lb></lb> 2a edição, aqui)</item>        
-            <item><label>3.</label>Da Impossibilidade de lêr um livro.</item>
+            <note>		numero de paginas:<supplied resp="PS" reason="omitted-in-original"/>
+            </note>
+            <item>
+               <label>1.</label>A <choice>
+                  <seg n="1">Psychose</seg>
+                  <seg n="2">
+                     <add place="below">Nevrose</add>
+                  </seg>
+               </choice>Adeantativa.</item>
+            <item>
+               <label>2.</label>A Nossa Administração Colonial (talvez só á <lb/> 2a edição, aqui)</item>
+            <item>
+               <label>3.</label>Da Impossibilidade de lêr um livro.</item>
          </list>
-            <list>
-         
-               <head><hi rend="underline">Colecção Lusitana.</hi>		da
-               <note place="right"><hi rend="underline">Empreza Ibis.</hi></note></head>  
-               <note>(Poetas e prosadores portuguezes e brasileiros)
+         <list>
+            <head>
+               <hi rend="underline">Colecção Lusitana.</hi>		da
+               <note place="right">
+                  <hi rend="underline">Empreza Ibis.</hi>
+               </note>
+            </head>
+            <note>(Poetas e prosadores portuguezes e brasileiros)
                   a 200 ou 300 reis o volume.</note>
-               <note>Livros a incluir n’esta collecção: — </note>
-               <item><label>1.</label><rs type="name">Machado de Assis:</rs> Memorias posthumas de<lb></lb>  Braz Cubas.</item>
-               <item><label>2.</label><rs type="name">Guilherme Braga:</rs> Obras poeticas.</item>        
-               <item><label>3.</label><rs type="name">José Anastacio da Cunha:</rs> Obras poeticas.</item>
-               <item><label>4.</label>Obras completas de <rs type="name">Antonio José da <lb></lb> Silva</rs> (o Judeu).</item>
-               <item><label>5.</label><rs type="name">Antonio Ferreira:</rs> Obras Dramaticas e poe<pc>-</pc><lb />ticas.</item>
-               <item><label>6.</label>Obras poeticas (completas) de <rs type="name">Cesario Verde.</rs></item>
-               <item><label>7.</label>Obras poeticas (completas) de <rs type="name">José Duro.</rs></item>
-               <item><label>8.</label>Obras de <rs type="name">Nicolau Tolentino.</rs></item>
-            </list>
-  
-         
+            <note>Livros a incluir n’esta collecção: — </note>
+            <item>
+               <label>1.</label>
+               <rs type="name">Machado de Assis:</rs> Memorias posthumas de<lb/>  Braz Cubas.</item>
+            <item>
+               <label>2.</label>
+               <rs type="name">Guilherme Braga:</rs> Obras poeticas.</item>
+            <item>
+               <label>3.</label>
+               <rs type="name">José Anastacio da Cunha:</rs> Obras poeticas.</item>
+            <item>
+               <label>4.</label>Obras completas de <rs type="name">Antonio José da <lb/> Silva</rs> (o Judeu).</item>
+            <item>
+               <label>5.</label>
+               <rs type="name">Antonio Ferreira:</rs> Obras Dramaticas e poe<pc>-</pc>
+               <lb/>ticas.</item>
+            <item>
+               <label>6.</label>Obras poeticas (completas) de <rs type="name">Cesario Verde.</rs>
+            </item>
+            <item>
+               <label>7.</label>Obras poeticas (completas) de <rs type="name">José Duro.</rs>
+            </item>
+            <item>
+               <label>8.</label>Obras de <rs type="name">Nicolau Tolentino.</rs>
+            </item>
+         </list>
          <div/>
       </body>
    </text>

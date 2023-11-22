@@ -1,93 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>A inutilidade dos concelhos fiscais e dos comissários do governo nos bancos e
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A inutilidade dos concelhos fiscais e dos comissários do governo nos bancos e
                     nas sociedades anónimas</title>
-                <author>
-                    <rs type="name" key="FP">Fernando Pessoa</rs>
-                </author>
-                <respStmt>
-                    <resp>Edição, Transcrição, Codificação</resp>
-                    <name>Jorge Uribe</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Edição, Transcrição, Codificação</resp>
-                    <name>Maria José Galeano</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Modelagem de dados, Codificação</resp>
-                    <name>Ulrike Henny-Krahmer</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Atualização ortográfica</resp>
-                    <name>Inês Filipa Rebelo do Carmo</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Consultoria</resp>
-                    <name>Institut für Dokumentologie und Editorik (IDE)</name>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e
+            <author>
+               <rs type="name" key="FP">Fernando Pessoa</rs>
+            </author>
+            <respStmt>
+               <resp>Edição, Transcrição, Codificação</resp>
+               <name>Jorge Uribe</name>
+            </respStmt>
+            <respStmt>
+               <resp>Edição, Transcrição, Codificação</resp>
+               <name>Maria José Galeano</name>
+            </respStmt>
+            <respStmt>
+               <resp>Modelagem de dados, Codificação</resp>
+               <name>Ulrike Henny-Krahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Atualização ortográfica</resp>
+               <name>Inês Filipa Rebelo do Carmo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Consultoria</resp>
+               <name>Institut für Dokumentologie und Editorik (IDE)</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e
                     Tradição (IELT)</publisher>
-                <publisher>Cologne Center for eHumanities (CCeH)</publisher>
-                <date>2021</date>
-                <availability status="free">
-                    <licence target="http://creativecommons.org/licenses/by/3.0/"/>
-                </availability>
-                <idno type="filename">Pessoa_A_inutilidade.xml</idno>
-            </publicationStmt>
-            <notesStmt>
-                <note type="genre">
-                    <rs type="genre" key="prosa">Prosa</rs>
-                </note>
-            </notesStmt>
-            <sourceDesc>
-                <list type="work-index">
-                    <item><rs type="work" key="W303">A inutilidade dos concelhos fiscais e dos
-                            comissários do governo nos bancos e nas sociedades anónimas</rs></item>
-                </list>
-                <biblStruct>
-                    <analytic>
-                        <title level="a">A inutilidade dos concelhos fiscais e dos comissários do
+            <publisher>Cologne Center for eHumanities (CCeH)</publisher>
+            <date>2021</date>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+            <idno type="filename">Pessoa_A_inutilidade.xml</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="genre">
+               <rs type="genre" key="prosa">Prosa</rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <list type="work-index">
+               <item>
+                  <rs type="work" key="W303">A inutilidade dos concelhos fiscais e dos
+                            comissários do governo nos bancos e nas sociedades anónimas</rs>
+               </item>
+            </list>
+            <biblStruct>
+               <analytic>
+                  <title level="a">A inutilidade dos concelhos fiscais e dos comissários do
                             governo nos bancos e nas sociedades anónimas</title>
-                        <author>
-                            <rs type="name" key="FP">Fernando Pessoa</rs>
-                        </author>
-                        <textLang mainLang="pt" otherLangs="en"/>
-                    </analytic>
-                    <monogr>
-                        <title level="j"><rs type="periodical" key="J101">Revista de Comércio e
-                                Contabilidade</rs></title>
-                        <imprint>
-                            <date when="1926-01-25">25 de janeiro de 1926</date>
-                        </imprint>
-                        <biblScope unit="issue">1</biblScope>
-                        <biblScope unit="page">24-26</biblScope>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <variantEncoding method="parallel-segmentation" location="internal"/>
-        </encodingDesc>
-    </teiHeader>
-    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-        <graphic url="prosa/A_inutilidade_1.jpg"/>
-        <graphic url="prosa/A_inutilidade_2.jpg"/>
-        <graphic url="prosa/A_inutilidade_3.jpg"/>
-    </facsimile>
-    <text type="orig" corresp="W303">
-        <body>
-            <div>
-                <head>A INUTILIDADE DOS CONSELHOS FISCAIS E DOS COMISSARIOS DO GOVERNO NOS BANCOS E
+                  <author>
+                     <rs type="name" key="FP">Fernando Pessoa</rs>
+                  </author>
+                  <textLang mainLang="pt" otherLangs="en"/>
+               </analytic>
+               <monogr>
+                  <title level="j">
+                     <rs type="periodical" key="J101">Revista de Comércio e
+                                Contabilidade</rs>
+                  </title>
+                  <imprint>
+                     <date when="1926-01-25">25 de janeiro de 1926</date>
+                  </imprint>
+                  <biblScope unit="issue">1</biblScope>
+                  <biblScope unit="page">24-26</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+      <graphic url="prosa/A_inutilidade_1.jpg"/>
+      <graphic url="prosa/A_inutilidade_2.jpg"/>
+      <graphic url="prosa/A_inutilidade_3.jpg"/>
+   </facsimile>
+   <text type="orig" corresp="W303">
+      <body>
+         <div>
+            <head>A INUTILIDADE DOS CONSELHOS FISCAIS E DOS COMISSARIOS DO GOVERNO NOS BANCOS E
                     NAS SOCIEDADES ANÓNIMAS</head>
-                <p>ESCANDALOS ainda recentes, que se tornaram conhecidos do público através dos
-                    relatórios publicados no <rs type="periodical" key="J103"><hi rend="italic"
-                            >Diario do Govêrno</hi></rs>, vieram pôr mais uma vês em evidencia a
+            <p>ESCANDALOS ainda recentes, que se tornaram conhecidos do público através dos
+                    relatórios publicados no <rs type="periodical" key="J103">
+                  <hi rend="italic">Diario do Govêrno</hi>
+               </rs>, vieram pôr mais uma vês em evidencia a
                     inutilidade prática dos Conselhos Fiscais e dos Comissários do Govêrno ―
                     inutilidade essa reconhecida no estrangeiro pela substituição a essas entidades,
                     realmente ficticias, de outras mais suceptiveis de se desempenhar o mistér que a
@@ -96,7 +109,7 @@
                     que julga que nêles encontra o contrôle da aplicação e a salvaguarda dos
                     capitais que confiou ao Banco ou á Sociedade Anónima a dentro ou junto, da qual
                     êles funcionam.</p>
-                <p rend="indent-first">Reconhecendo as Sociedades Anónimas que a melhor fórma de
+            <p rend="indent-first">Reconhecendo as Sociedades Anónimas que a melhor fórma de
                     chamar o capital é a distribuição ruidosa de grandes dividendos, procuram
                     freqüentemente, por meio de lançamentos artificiais, encobrir um estado
                     verdadeiro de pouco desafôgo; publicam, para dar uma aparencia de prosperidade,
@@ -105,17 +118,17 @@
                     Fiscal, com o costumado voto de louvor á Direcção, e a indicação aos acionistas
                     que aprovem o Relatório de contas e a distribuição de dividendo que êle
                     consigna.</p>
-                <p rend="indent-first">Os accionistas aprovam tudo ― umas vezes porque o dividendo é
+            <p rend="indent-first">Os accionistas aprovam tudo ― umas vezes porque o dividendo é
                     magnifico, outras porque simplesmente confiam na indicação que lhes é dada. E a
                     Direcção e o Conselho Fiscal recebem os respectivos louvores. São homens habeis,
                     uns; são homens sérios, outros. Tudo está, pois, necessariamente certo.</p>
-                <p rend="indent-first">Acontece, porêm, que muitas vezes está errado. E é isso que
+            <p rend="indent-first">Acontece, porêm, que muitas vezes está errado. E é isso que
                     os relatórios recentemente publicados põem em evidencia.</p>
-                <p rend="indent-first">Quando se cai na suspensão de pagamentos, os accionistas
+            <p rend="indent-first">Quando se cai na suspensão de pagamentos, os accionistas
                     acordam. Mas, como esperavam que o Conselho Fiscal os acordasse, e o Conselho
                     Fiscal dorme por naturesa, acordam sempre tarde, e perdem... não o comboio mas o
                     dinheiro.</p>
-                <p rend="indent-first">Ha Sociedades Anónimas em que não acontece isto. Mas ha
+            <p rend="indent-first">Ha Sociedades Anónimas em que não acontece isto. Mas ha
                     porventura alguma Sociedade Anónima em que, <hi rend="italic">tanto quanto o
                         sabe o accionista</hi>, não possa acontecer isto? Que elementos tem o
                     accionista para poder saber ao certo que isso lhe não póde acontecer? A
@@ -132,14 +145,14 @@
                     sérios e de boa posição social. Não consta, porêm, que a seriedade seja a
                     contabilidade, nem que a boa posição social seja um curso intuitivo de
                     guarda-livros.</p>
-                <p rend="indent-first">Escolhem-se homens sérios para os Conselhos Fiscais. Mas os
+            <p rend="indent-first">Escolhem-se homens sérios para os Conselhos Fiscais. Mas os
                     homens sérios podem ser estupidos ― ha muitos ― ; os homens sérios podem ser
                     confiados ― ha muitissimos ―, os homens sérios podem ser desleixados ― ha
                     imensos ―, e o accionista perde o seu dinheiro, sem que os homens muito sérios
                     deixem de ser muito sérios, o que é uma consolação insuficiente para quem perdeu
                     o dinheiro que fiou da fiscalisação incompetente, senão inexistente, dos homens
                     de muita seriedade.</p>
-                <p rend="indent-first">Tudo isto, no fundo, é uma comédia sem graça. A Direcção de
+            <p rend="indent-first">Tudo isto, no fundo, é uma comédia sem graça. A Direcção de
                     uma Sociedade Anónima é, por naturesa, um conselho tecnico de gerencia; o
                     Conselho Fiscal de uma Sociedade Anónima é, por naturesa, um conselho técnico de
                     fiscalisação. A Direcção produz resultados; o Conselho Fiscal verifica êsses
@@ -152,7 +165,7 @@
                     em magnificas relações de amisade com a Gerencia, e portanto com toda a
                     confiança nela. Em resumo: o melhor fiscal dos actos de alguem é um amigo
                     incompetente. É ou não uma comédia?</p>
-                <p rend="indent-first">Dos Comissários do Govêrno nem é bom falar. Dos membros do
+            <p rend="indent-first">Dos Comissários do Govêrno nem é bom falar. Dos membros do
                     Conselho Fiscal ainda se póde presumir, visto que são accionistas, um certo
                     interesse pela Sociedade Anónima a que pertencem, se bem que o interesse não
                     crie competencia, nem pese mais, na maioria dos casos, que o desleixo natural de
@@ -163,7 +176,7 @@
                     veraneiem todo o âno no seu comissariado; são nomeados para não fazer nada, e é
                     efectivamente o que fazem. Dêles, pois, é o Reino dos Céus... Deixemo-los e
                     volvamos á terra.</p>
-                <p rend="indent-first">Independencia e competencia são as duas qualidades que se
+            <p rend="indent-first">Independencia e competencia são as duas qualidades que se
                     exigem em quem fiscalisa. O ter interesse em fiscalisar é secundário: o doente
                     não percebe mais da doença que o médico, embora seja quem tem mais interesse na
                     cura. Ora, se independencia e competencia são as qualidades a exigir ao fiscal,
@@ -176,7 +189,7 @@
                     Êsses peritos (<hi rend="italic">auditors</hi>) teem poderes para examinar toda
                     a escrita, para verificar todas as transacções, para fazer à Direcção todas as
                     perguntas que entenderem dever fazer para cabal desempenho do seu mistér.</p>
-                <p rend="indent-first">E assim é que deve ser. De todas as fórmas das sociedades
+            <p rend="indent-first">E assim é que deve ser. De todas as fórmas das sociedades
                     comerciais as Sociedades Anónimas são as que mais se prestam ao abuso e ao
                     desleixo da Gerencia, pois que nelas ha uma intervenção já teoricamente
                     periódica, mas, em geral, praticamente nula dos socios (isto é, dos accionistas)
@@ -187,16 +200,15 @@
                     contabilistas ‒ competentes porque são técnicos, independentes porque não
                     pertencem à Sociedade, e responsaveis criminalmente por abuso, ou mesmo
                     desleixo, no exercício do seu cargo.</p>
-            </div>
-        </body>
-    </text>
-    <text type="reg" corresp="W303">
-        <body>
-            <div>
-                <head>A INUTILIDADE DOS CONSELHOS FISCAIS E DOS COMISSÁRIOS DO GOVERNO
+         </div>
+      </body>
+   </text>
+   <text type="reg" corresp="W303">
+      <body>
+         <div>
+            <head>A INUTILIDADE DOS CONSELHOS FISCAIS E DOS COMISSÁRIOS DO GOVERNO
                     NOS BANCOS E NAS SOCIEDADES ANÓNIMAS</head>
-                
-                <p rend="indent-first">ESCÂNDALOS ainda recentes, que se tornaram conhecidos do público
+            <p rend="indent-first">ESCÂNDALOS ainda recentes, que se tornaram conhecidos do público
                     através dos relatórios publicados no <hi rend="italic">Diário
                         do Governo</hi>, vieram pôr mais uma vez em evidência a inutilidade
                     prática dos Conselhos Fiscais e dos Comissários do Governo ― inutilidade essa
@@ -206,7 +218,7 @@
                     ― são pontos de apoio da confiança do acionista, que julga que neles encontra o
                     controle da aplicação e a salvaguarda dos capitais que confiou ao Banco ou à
                     Sociedade Anónima a dentro ou junto, da qual eles funcionam.</p>
-                <p rend="indent-first">Reconhecendo as Sociedades Anónimas que a melhor forma de chamar
+            <p rend="indent-first">Reconhecendo as Sociedades Anónimas que a melhor forma de chamar
                     o capital é a distribuição ruidosa de grandes dividendos, procuram frequentemente,
                     por meio de lançamentos artificiais, encobrir um estado verdadeiro de pouco desafogo;
                     publicam, para dar uma aparência de prosperidade, relatórios de prosa literária no
@@ -214,16 +226,16 @@
                     traz o inevitável «parecer» do Conselho Fiscal, com o costumado voto de louvor à
                     Direção, e a indicação aos acionistas que aprovem o Relatório de contas e a
                     distribuição de dividendo que ele consigna.</p>
-                <p rend="indent-first">Os acionistas aprovam tudo ― umas vezes porque o dividendo é
+            <p rend="indent-first">Os acionistas aprovam tudo ― umas vezes porque o dividendo é
                     magnífico, outras porque simplesmente confiam na indicação que lhes é dada. E a
                     Direção e o Conselho Fiscal recebem os respetivos louvores. São homens hábeis, uns;
                     são homens sérios, outros. Tudo está, pois, necessariamente certo.</p>
-                <p rend="indent-first">Acontece, porém, que muitas vezes está errado. E é isso que os
+            <p rend="indent-first">Acontece, porém, que muitas vezes está errado. E é isso que os
                     relatórios recentemente publicados põem em evidência.</p>
-                <p rend="indent-first">Quando se cai na suspensão de pagamentos, os acionistas acordam.
+            <p rend="indent-first">Quando se cai na suspensão de pagamentos, os acionistas acordam.
                     Mas, como esperavam que o Conselho Fiscal os acordasse, e o Conselho Fiscal dorme por
                     natureza, acordam sempre tarde, e perdem... não o comboio mas o dinheiro.</p>
-                <p rend="indent-first">Há Sociedades Anónimas em que não acontece isto. Mas há
+            <p rend="indent-first">Há Sociedades Anónimas em que não acontece isto. Mas há
                     porventura alguma Sociedade Anónima em que, <hi rend="italic">tanto quanto o sabe o
                         acionista</hi>, não possa acontecer isto? Que elementos tem o acionista para
                     poder saber ao certo que isso lhe não pode acontecer? A prosperidade do Banco ou da
@@ -239,14 +251,14 @@
                     sérios e de boa posição social. Não consta, porém, que a seriedade seja a
                     contabilidade, nem que a boa posição social seja um curso intuitivo de
                     guarda-livros.</p>
-                <p rend="indent-first">Escolhem-se homens sérios para os Conselhos Fiscais. Mas os
+            <p rend="indent-first">Escolhem-se homens sérios para os Conselhos Fiscais. Mas os
                     homens sérios podem ser estúpidos ― há muitos ―; os homens sérios podem ser
                     confiados ― há muitíssimos ―, os homens sérios podem ser desleixados ― há imensos ―,
                     e o acionista perde o seu dinheiro, sem que os homens muito sérios deixem de ser
                     muito sérios, o que é uma consolação insuficiente para quem perdeu o dinheiro que
                     fiou da fiscalização incompetente, senão inexistente, dos homens de muita
                     seriedade.</p>
-                <p rend="indent-first">Tudo isto, no fundo, é uma comédia sem graça. A Direção de uma
+            <p rend="indent-first">Tudo isto, no fundo, é uma comédia sem graça. A Direção de uma
                     Sociedade Anónima é, por natureza, um conselho técnico de gerência; o Conselho Fiscal
                     de uma Sociedade Anónima é, por natureza, um conselho técnico de fiscalização. A
                     Direção produz resultados; o Conselho Fiscal verifica esses resultados. E como os
@@ -258,7 +270,7 @@
                     incompetência, e, é claro, de pessoas em magníficas relações de amizade com a
                     Gerência, e portanto com toda a confiança nela. Em resumo: o melhor fiscal dos atos
                     de alguém é um amigo incompetente. E’ ou não uma comédia?</p>
-                <p rend="indent-first">Dos Comissários do Governo nem é bom falar. Dos membros do
+            <p rend="indent-first">Dos Comissários do Governo nem é bom falar. Dos membros do
                     Conselho Fiscal ainda se pode presumir, visto que são acionistas, um certo interesse
                     pela Sociedade Anónima a que pertencem, se bem que o interesse não crie
                     competência, nem pese mais, na maioria dos casos, que o desleixo natural de quem é
@@ -268,7 +280,7 @@
                     partidário, em prémio de serviços políticos e para que veraneiem todo o ano no seu
                     comissariado; são nomeados para não fazer nada, e é efetivamente o que fazem. Deles,
                     pois, é o Reino dos Céus... Deixemo-los e volvamos à terra.</p>
-                <p rend="indent-first">Independência e competência são as duas qualidades que se
+            <p rend="indent-first">Independência e competência são as duas qualidades que se
                     exigem em quem fiscaliza. O ter interesse em fiscalizar é secundário: o doente não
                     percebe mais da doença que o médico, embora seja quem tem mais interesse na cura.
                     Ora, se independência e competência são as qualidades a exigir ao fiscal, está
@@ -281,17 +293,16 @@
                     poderes para examinar toda a escrita, para verificar todas as transações, para fazer
                     à Direção todas as perguntas que entenderem dever fazer para cabal desempenho do seu
                     mister.</p>
-                <p rend="indent-first">E assim é que deve ser. De todas as formas das sociedades
+            <p rend="indent-first">E assim é que deve ser. De todas as formas das sociedades
                     comerciais as Sociedades Anónimas são as que mais se prestam ao abuso e ao desleixo
                     da Gerência, pois que nelas há uma intervenção já teoricamente periódica, mas, em
                     geral, praticamente nula dos sócios (isto é, dos acionistas) na gerência. Há mister,
                     pois, que deleguem em alguém a fiscalização que nem podem, nem em geral sabem,
                     exercer. Delegá-la em Concelhos Fiscais equivale a delegá-la em ninguém, ou a
-                    delegá-la na própria gerência a fiscalizar. Não, não há outra solução senão os <hi
-                        rend="italic">auditors</hi>, os peritos contabilistas ― competentes porque são
+                    delegá-la na própria gerência a fiscalizar. Não, não há outra solução senão os <hi rend="italic">auditors</hi>, os peritos contabilistas ― competentes porque são
                     técnicos, independentes porque não pertencem à Sociedade, e responsáveis
                     criminalmente por abuso, ou mesmo desleixo, no exercício do seu cargo.</p>
-            </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>

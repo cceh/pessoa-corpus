@@ -43,7 +43,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48D-19.xml</idno>
          </publicationStmt>
@@ -62,8 +62,10 @@
                      <author>
                         <rs type="name" key="FP">Fernando Pessoa</rs>
                      </author>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="pt"/>
                   </msItemStruct>
                </msContents>
@@ -76,16 +78,24 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48d-1-76_JPG_24-C-R0150/bn-acpc-e-e3-48d-1-76_0039_19_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48d-1-76_JPG_24-C-R0150/bn-acpc-e-e3-48d-1-76_0039_19_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Periodico de cultura superior</hi>
+            <head>
+               <hi rend="underline">Periodico de cultura superior</hi>
                <note place="margin-right">(aparece sempre que fôr preciso)</note>
             </head>
             <list>
@@ -94,22 +104,30 @@
                   <rs type="title">O Interseccionismo</rs> – (manifesto).</item>
                <item>
                   <label>2.</label>
-                  <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Chuva-Obliqua"><rs type="title">Chuva Obliqua – poemas interseccionistas</rs></ref>.</item>
+                  <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Chuva-Obliqua">
+                     <rs type="title">Chuva Obliqua – poemas interseccionistas</rs>
+                  </ref>.</item>
                <item>
                   <label>3.</label>
                   <rs type="title">Archivo dos artigos contra o <choice>
-                        <abbr>intersec<am>.</am></abbr>
-                        <expan>intersec<ex>cionismo</ex></expan>
-                     </choice></rs> (“Secção de annuncios”).</item>
+                        <abbr>intersec<am>.</am>
+                        </abbr>
+                        <expan>intersec<ex>cionismo</ex>
+                        </expan>
+                     </choice>
+                  </rs> (“Secção de annuncios”).</item>
                <item>
                   <label>4.</label>
-                  <supplied resp="PS" reason="omitted-in-original"/></item>
+                  <supplied resp="PS" reason="omitted-in-original"/>
+               </item>
                <item>
                   <label>5.</label>
-                  <supplied resp="PS" reason="omitted-in-original"/></item>
+                  <supplied resp="PS" reason="omitted-in-original"/>
+               </item>
                <item>
                   <label>6.</label>
-                  <supplied resp="PS" reason="omitted-in-original"/></item>
+                  <supplied resp="PS" reason="omitted-in-original"/>
+               </item>
             </list>
             <p rend="center"> = (Formato genero “<rs type="periodical" key="J68">Povo de
                Aveiro</rs>”) =</p>

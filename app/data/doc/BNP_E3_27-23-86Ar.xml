@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 27<hi rend="superscript">23</hi>-86a<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 27<hi rend="superscript">23</hi>-86a<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -35,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_27-23-86Ar.xml</idno>
          </publicationStmt>
@@ -71,12 +72,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-27-23-1-130_JPG_24-C-R0150/bn-acpc-e-e3-27-23-1-130_0171_86_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-27-23-1-130_JPG_24-C-R0150/bn-acpc-e-e3-27-23-1-130_0171_86_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -93,19 +100,22 @@
                   <rs type="title">Portuguese Proverbs</rs>. </item>
                <item>
                   <label>2.</label>
-                  <rs type="title">Fifty sonnets of <rs type="name" key="P15">Camoens</rs></rs>. </item>
+                  <rs type="title">Fifty sonnets of <rs type="name" key="P15">Camoens</rs>
+                  </rs>. </item>
                <item rend="indent-2">
                   <label>3.</label>
-                  <rs type="title">Poemas de <rs type="name" key="P87">Edgar Poe</rs></rs>. <lb/> (A
+                  <rs type="title">Poemas de <rs type="name" key="P87">Edgar Poe</rs>
+                  </rs>. <lb/> (A
                   translation into <choice>
-                     <abbr>P<am>.</am></abbr>
-                     <expan>P<ex>ortuguese</ex></expan>
+                     <abbr>P<am>.</am>
+                     </abbr>
+                     <expan>P<ex>ortuguese</ex>
+                     </expan>
                   </choice>
                   <lb/> of <hi rend="underline">Liberty, Equality, Fraternity</hi>) </item>
                <item rend="indent-2">
                   <label>4.</label>
-                  <rs type="title">A Portuguese <lb/> Anthology</rs>. <gap reason="selection"
-                     unit="line" extent="3"/>
+                  <rs type="title">A Portuguese <lb/> Anthology</rs>. <gap reason="selection" unit="line" extent="3"/>
                </item>
                <item>
                   <label>5.</label>

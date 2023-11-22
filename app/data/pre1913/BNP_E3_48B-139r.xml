@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48B-139r.xml</idno>
          </publicationStmt>
@@ -61,35 +61,55 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0285_139_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0285_139_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
-        <div>
-          <list>
-            <item><rs type="title">“Pela Republica.”</rs></item>
-            <item><rs type="title">“A Egreja.”</rs></item>
-          </list>
-          <metamark rend="line" function="distinct"/>
-          <list>
-            <item><rs type="title">“The Student of Salamanca.”</rs><lb/>
+         <div>
+            <list>
+               <item>
+                  <rs type="title">“Pela Republica.”</rs>
+               </item>
+               <item>
+                  <rs type="title">“A Egreja.”</rs>
+               </item>
+            </list>
+            <metamark rend="line" function="distinct"/>
+            <list>
+               <item>
+                  <rs type="title">“The Student of Salamanca.”</rs>
+                  <lb/>
                 – Translation.</item>
-            <item><rs type="title">“Dictionary of the English Language.”</rs><lb/>
+               <item>
+                  <rs type="title">“Dictionary of the English Language.”</rs>
+                  <lb/>
                – Humourous.</item>
-            <item><rs type="title">“The Death of God.”</rs> – Poems.</item>
-            <item>
-               <note place="margin-left"><hi rend="underline">small.</hi></note>
-               <rs type="title">“The Logical Basis of Anarchy.”</rs>
-            </item>
-            <item><rs type="title">“Tales of a Madman.”</rs> – Tales.</item>
-            <item><rs type="title">“Poems other than Combative.”</rs></item>
-          </list>
-        </div>
+               <item>
+                  <rs type="title">“The Death of God.”</rs> – Poems.</item>
+               <item>
+                  <note place="margin-left">
+                     <hi rend="underline">small.</hi>
+                  </note>
+                  <rs type="title">“The Logical Basis of Anarchy.”</rs>
+               </item>
+               <item>
+                  <rs type="title">“Tales of a Madman.”</rs> – Tales.</item>
+               <item>
+                  <rs type="title">“Poems other than Combative.”</rs>
+               </item>
+            </list>
+         </div>
       </body>
    </text>
 </TEI>

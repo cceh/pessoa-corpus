@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 114-79<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 114-79<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_114-79r.xml</idno>
          </publicationStmt>
@@ -53,8 +54,7 @@
                   <summary>
                      <p>Lista manuscrita, publicada em <hi rend="italic">Sensacionismo e Outros
                            Ismos</hi> (2009, 385). A folha de papel contém um esboço de carta
-                        dirigida a um editor inglês, associado ao periódico literário <hi
-                           rend="italic">The Egoist</hi> e mencionando o envio do segundo número de
+                        dirigida a um editor inglês, associado ao periódico literário <hi rend="italic">The Egoist</hi> e mencionando o envio do segundo número de
                            <hi rend="italic">Orpheu</hi>, publicado em julho de 1915. ʺNaval Odeʺ surge aqui
                         como possível tradução da <ref target="http://www.pessoadigital.pt/pt/pub/Campos_Ode_Maritima">ʺOde Marítimaʺ</ref>, 
                         enquanto que ʺSlanting Rainʺ seria a tradução de <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Chuva-Obliqua">ʺChuva Oblíquaʺ</ref>.</p>
@@ -78,34 +78,63 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-114-1-1-119_JPG_24-C-R0150/bn-acpc-e-e3-114-1-1-119_0161_79_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-114-1-1-119_JPG_24-C-R0150/bn-acpc-e-e3-114-1-1-119_0161_79_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <gap reason="selection" unit="line" extent="19"/>
             <list>
-               <head><hi rend="underline">Translations of:</hi></head>
-               <item><rs type="title">Naval Ode</rs>,</item>
-               <item><rs type="title">Slanting Rain</rs>.</item>
-               <item><rs type="title">Manucure.</rs></item>
+               <head>
+                  <hi rend="underline">Translations of:</hi>
+               </head>
+               <item>
+                  <rs type="title">Naval Ode</rs>,</item>
+               <item>
+                  <rs type="title">Slanting Rain</rs>.</item>
+               <item>
+                  <rs type="title">Manucure.</rs>
+               </item>
             </list>
             <list>
-               <item><rs type="work"><ref target="http://www.pessoadigital.pt/en/pub/Campos_Ode_Maritima"><rs type="title">Ode Maritima</rs></ref> – <rs type="name" key="AdC"><choice>
-                           <abbr>Alv<am>.</am></abbr>
-                           <expan>Alv<ex>aro</ex></expan>
-                        </choice> de Campos.</rs></rs></item>
-               <item><rs type="title">A Passagem das Horas</rs> – o mesmo.</item>
-               <item><rs type="work"><rs type="title">Scena do Odio</rs> – <rs type="name" key="P56"><choice>
-                           <abbr>J<am>.</am> Alm<am>.</am></abbr>
+               <item>
+                  <rs type="work">
+                     <ref target="http://www.pessoadigital.pt/en/pub/Campos_Ode_Maritima">
+                        <rs type="title">Ode Maritima</rs>
+                     </ref> – <rs type="name" key="AdC">
+                        <choice>
+                           <abbr>Alv<am>.</am>
+                           </abbr>
+                           <expan>Alv<ex>aro</ex>
+                           </expan>
+                        </choice> de Campos.</rs>
+                  </rs>
+               </item>
+               <item>
+                  <rs type="title">A Passagem das Horas</rs> – o mesmo.</item>
+               <item>
+                  <rs type="work">
+                     <rs type="title">Scena do Odio</rs> – <rs type="name" key="P56">
+                        <choice>
+                           <abbr>J<am>.</am> Alm<am>.</am>
+                           </abbr>
                            <expan>J<ex>osé</ex>
-                              <ex>de</ex> Alm<ex>ada</ex></expan>
-                        </choice> Negreiros.</rs></rs></item>
+                              <ex>de</ex> Alm<ex>ada</ex>
+                           </expan>
+                        </choice> Negreiros.</rs>
+                  </rs>
+               </item>
             </list>
             <gap reason="selection" unit="line" extent="3"/>
          </div>

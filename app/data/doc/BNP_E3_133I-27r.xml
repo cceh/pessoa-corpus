@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 133I-27<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 133I-27<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_133I-27r.xml</idno>
          </publicationStmt>
@@ -72,22 +73,30 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-133i-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133i-1-100_0054_27_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-133i-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133i-1-100_0054_27_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <list>
                <item rend="indent-2">
-                  <hi rend="underline"><subst>
+                  <hi rend="underline">
+                     <subst>
                         <add n="2" place="above">Trez</add>
                         <del n="1">Cinco</del>
-                     </subst> Contos por semana</hi><lb/> em fasciculos. </item>
+                     </subst> Contos por semana</hi>
+                  <lb/> em fasciculos. </item>
                <item rend="indent-2">(<subst>
                      <add place="above" n="2">three</add>
                      <del n="1">five</del>
@@ -97,7 +106,9 @@
             </list>
             <list>
                <item>
-                  <label><abbr>e<am>.</am> g<am>.</am></abbr>
+                  <label>
+                     <abbr>e<am>.</am> g<am>.</am>
+                     </abbr>
                       —</label>
                   <list rend="inline">
                      <item>
@@ -106,16 +117,25 @@
                      </item>
                      <item>
                         <label>2.</label>
-                        <rs type="name" key="P347"><choice>
-                              <abbr>W<am>.</am> W<am>.</am></abbr>
-                           <expan>W<ex>illiam</ex> W<ex>ymark</ex></expan>
+                        <rs type="name" key="P347">
+                           <choice>
+                              <abbr>W<am>.</am> W<am>.</am>
+                              </abbr>
+                              <expan>W<ex>illiam</ex> W<ex>ymark</ex>
+                              </expan>
                            </choice> Jacobs</rs>. </item>
-                     <item><label>3.</label>
-                        <supplied resp="PS" reason="omitted-in-original"/></item>
-                     <item><label>4.</label>
-                        <supplied resp="PS" reason="omitted-in-original"/></item>
-                     <item><label>5.</label>
-                        <supplied resp="PS" reason="omitted-in-original"/></item>
+                     <item>
+                        <label>3.</label>
+                        <supplied resp="PS" reason="omitted-in-original"/>
+                     </item>
+                     <item>
+                        <label>4.</label>
+                        <supplied resp="PS" reason="omitted-in-original"/>
+                     </item>
+                     <item>
+                        <label>5.</label>
+                        <supplied resp="PS" reason="omitted-in-original"/>
+                     </item>
                   </list>
                </item>
             </list>

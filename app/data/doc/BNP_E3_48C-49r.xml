@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48C-49<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48C-49<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48C-49r.xml</idno>
          </publicationStmt>
@@ -73,28 +74,44 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48c-1-50_JPG_24-C-R0150/bn-acpc-e-e3-48c-1-50_0109_49_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48c-1-50_JPG_24-C-R0150/bn-acpc-e-e3-48c-1-50_0109_49_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <list>
                <item>
-                  <label><hi rend="circled">1.</hi></label> Olisipo Condensing Code. </item>
+                  <label>
+                     <hi rend="circled">1.</hi>
+                  </label> Olisipo Condensing Code. </item>
                <item>
-                  <label><hi rend="circled">2.</hi></label> Olisipo Hotel and Travel(lers’)
+                  <label>
+                     <hi rend="circled">2.</hi>
+                  </label> Olisipo Hotel and Travel(lers’)
                   Dictionary, in 6 languages. </item>
                <item>
-                  <label><hi rend="framed">3.</hi></label> Press letter from <rs type="place"
-                     >Spain</rs> and <rs type="place">Portugal</rs>. </item>
+                  <label>
+                     <hi rend="framed">3.</hi>
+                  </label> Press letter from <rs type="place">Spain</rs> and <rs type="place">Portugal</rs>. </item>
                <item>
-                  <label><hi rend="circled">4.</hi></label> Olisipo Auxiliary Code. </item>
+                  <label>
+                     <hi rend="circled">4.</hi>
+                  </label> Olisipo Auxiliary Code. </item>
                <item>
-                  <label><hi rend="circled">5.</hi></label> Olisipo Commercial (<choice>
+                  <label>
+                     <hi rend="circled">5.</hi>
+                  </label> Olisipo Commercial (<choice>
                      <abbr>&amp;</abbr>
                      <expan>and</expan>
                   </choice> Technical) Dictionary, in 6 languages. </item>
@@ -102,15 +119,19 @@
                   <label>6.</label> Olisipo Guide to <rs type="place">Portugal</rs>. </item>
                <item>
                   <label>7.</label> List of Portuguese <choice>
-                     <abbr>infra<am>.</am></abbr>
-                     <expan>infra<ex>structures</ex></expan>
+                     <abbr>infra<am>.</am>
+                     </abbr>
+                     <expan>infra<ex>structures</ex>
+                     </expan>
                   </choice>, Producers and Exporters. </item>
                <item>
                   <label>8.</label> Monthly Review of Portuguese Trade – subscribers. </item>
                <item>
                   <label>9.</label> Lists of Foreign <choice>
-                     <abbr>infra<am>.</am></abbr>
-                     <expan>infra<ex>structures</ex></expan>
+                     <abbr>infra<am>.</am>
+                     </abbr>
+                     <expan>infra<ex>structures</ex>
+                     </expan>
                   </choice> and Exporters. </item>
                <item>
                   <label>10.</label> Guide Books to <rs type="place">Portugal</rs> – several,
@@ -119,24 +140,33 @@
                   <label>11.</label> Translations of Portuguese Books. </item>
                <item>
                   <label>12.</label> English Editions. <del rend="overstrike">(for the</del>
-                  <seg type="anchor">6 d. <add place="below">(classics)</add></seg> 1/- etc </item>
+                  <seg type="anchor">6 d. <add place="below">(classics)</add>
+                  </seg> 1/- etc </item>
                <item>
                   <label>13.</label> Edições de classicos portugueses. </item>
                <item>
                   <label>14.</label> Edições de classicos estrangeiros, traduzidos. </item>
                <item>
-                  <label><hi rend="circled">15.</hi></label> The exact way to pronounce French. </item>
+                  <label>
+                     <hi rend="circled">15.</hi>
+                  </label> The exact way to pronounce French. </item>
                <item>
-                  <label><hi rend="circled">16.</hi></label> Aristography. </item>
+                  <label>
+                     <hi rend="circled">16.</hi>
+                  </label> Aristography. </item>
                <item>
-                  <label><hi rend="framed">17.</hi></label> Parlour (table) Games. </item>
+                  <label>
+                     <hi rend="framed">17.</hi>
+                  </label> Parlour (table) Games. </item>
                <item>
                   <label>18.</label> Agency of Publications and Papers. </item>
                <item>
                   <label>19.</label>
                   <choice>
-                     <abbr>Advert<am>.</am></abbr>
-                     <expan>Advert<ex>isement</ex></expan>
+                     <abbr>Advert<am>.</am>
+                     </abbr>
+                     <expan>Advert<ex>isement</ex>
+                     </expan>
                   </choice> Agency. </item>
             </list>
          </div>

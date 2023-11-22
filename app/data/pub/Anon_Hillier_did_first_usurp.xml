@@ -33,7 +33,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2023</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Anon_Hillier_did_first_usurp.xml</idno>
          </publicationStmt>
@@ -52,12 +52,15 @@
                <analytic>
                   <title level="a">Hillier did first usurp the realms of rhyme</title>
                   <author>
-                     <rs type="name" key="XX">Charles Robert Anon</rs><!-- Confirmar nome e key-->
+                     <rs type="name" key="XX">Charles Robert Anon</rs>
+                     <!-- Confirmar nome e key-->
                   </author>
                   <textLang mainLang="en"/>
                </analytic>
                <monogr>
-                  <title level="j"><rs type="periodical" key="J49">The Natal Mercury</rs></title>
+                  <title level="j">
+                     <rs type="periodical" key="J49">The Natal Mercury</rs>
+                  </title>
                   <imprint>
                      <date when="1904-07-15">15 de julho de 1904</date>
                   </imprint>
@@ -65,10 +68,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="Prosa/Charles_Robert_Anon.jpg"/>
@@ -91,7 +102,13 @@
             <l>While after metre pure he seems to thirst.</l>
             <l>But shows how ev'ry worse can have a worst.</l>
          </lg>
-         <signed rend="left"><choice><abbr>C<am>.</am> R<am>.</am></abbr><expan>C<ex>harles</ex> R<ex>obert</ex></expan></choice> ANON.</signed>
+         <signed rend="left">
+            <choice>
+               <abbr>C<am>.</am> R<am>.</am>
+               </abbr>
+               <expan>C<ex>harles</ex> R<ex>obert</ex>
+               </expan>
+            </choice> ANON.</signed>
       </body>
    </text>
 </TEI>

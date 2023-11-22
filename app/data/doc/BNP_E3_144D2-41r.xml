@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 144D<hi rend="superscript">2</hi>-41<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 144D<hi rend="superscript">2</hi>-41<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144D2-41r.xml</idno>
          </publicationStmt>
@@ -55,8 +56,7 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p> Lista manuscrita no caderno 144D<hi rend="superscript">2</hi> (cf. <ref
-                           target="http://purl.pt/13880">http://purl.pt/13880</ref>), publicada em
+                     <p> Lista manuscrita no caderno 144D<hi rend="superscript">2</hi> (cf. <ref target="http://purl.pt/13880">http://purl.pt/13880</ref>), publicada em
                            <hi rend="italic">Sensacionismo e outros Ismos</hi> (2009, 608). </p>
                   </summary>
                   <msItemStruct>
@@ -78,7 +78,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144d2_JPG_24-C-R0150/bn-acpc-e-e3_144d2_0131_41r_t24-C-R0150.jpg"/>
@@ -86,31 +94,44 @@
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Primeiros Passos</hi></head>
+            <head>
+               <hi rend="underline">Primeiros Passos</hi>
+            </head>
             <list>
                <item rend="indent-2">
                   <label>1.</label>
-                  <rs type="title">O Evangelho de <choice><abbr>S<am>.</am></abbr><expan>S<ex>ão</ex></expan></choice> João Baptista</rs>
-                  <lb/>(artigos – 3 – de <hi rend="underline"><rs type="periodical" key="J5">A
-                        Aguia</rs></hi>
-                  <del rend="overstrike">)</del><lb/> e 1 na <hi rend="underline"><rs
-                        type="periodical" key="J20">Republica</rs>)</hi>
+                  <rs type="title">O Evangelho de <choice>
+                        <abbr>S<am>.</am>
+                        </abbr>
+                        <expan>S<ex>ão</ex>
+                        </expan>
+                     </choice> João Baptista</rs>
+                  <lb/>(artigos – 3 – de <hi rend="underline">
+                     <rs type="periodical" key="J5">A
+                        Aguia</rs>
+                  </hi>
+                  <del rend="overstrike">)</del>
+                  <lb/> e 1 na <hi rend="underline">
+                     <rs type="periodical" key="J20">Republica</rs>)</hi>
                </item>
                <item>
                   <label>2.</label>
                   <list rend="inline">
-                     <item><rs type="title">O Rhythmismo Extatico</rs>.</item>
+                     <item>
+                        <rs type="title">O Rhythmismo Extatico</rs>.</item>
                      <item>Documentos e historia.</item>
                   </list>
                </item>
                <item rend="indent-2">
                   <label>3.</label>
-                  <seg type="certainty" cert="low" resp="FP" rend="cross right"><rs type="title"
-                        >Criticas favoraveis a pedido <lb/>dos artistas</rs>.</seg>
+                  <seg type="certainty" cert="low" resp="FP" rend="cross right">
+                     <rs type="title">Criticas favoraveis a pedido <lb/>dos artistas</rs>.</seg>
                </item>
                <item>
                   <label>4.</label>
-                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Balan%C3%A7a_de_Minerva"><rs type="title">Balança de Minerva</rs></ref>. </item>
+                  <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Balan%C3%A7a_de_Minerva">
+                     <rs type="title">Balança de Minerva</rs>
+                  </ref>. </item>
             </list>
          </div>
       </body>

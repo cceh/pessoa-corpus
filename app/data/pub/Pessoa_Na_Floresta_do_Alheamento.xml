@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Na_Floresta_do_Alheamento.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Na_Floresta_1.jpg"/>
@@ -81,7 +89,7 @@
    <text type="orig" corresp="#W190">
       <body>
          <div>
-                 <pb n="38"/>
+            <pb n="38"/>
             <head>NA FLORESTA DO ALHEAMENTO</head>
             <p rend="indent-first">
                <hi rend="bold">Sei que</hi> despertei e que ainda durmo. O
@@ -143,7 +151,7 @@
                     vida um echo de som de fonte. Davamo’-nos as mãos e os nossos olhares
                     perguntavam-se o que seria o ser sensual e o querer realizar em carne a illusão
                     do amôr...</p>
-                 <p rend="indent-first">No nosso jardim havia flores de todas as bellezas... — rosas
+            <p rend="indent-first">No nosso jardim havia flores de todas as bellezas... — rosas
                     de contornos enrolados, lyrios de um branco amarellecendo-se, papoulas que
                     seriam occultas se o seu rubro lhes não espreitasse presença, violetas pouco na
                     margem tufada dos canteiros, myosotis mínimos, camelias estereis de perfume...
@@ -301,17 +309,19 @@
                   <rs type="title" key="T96">«Livro do Desasocego»</rs>
                </rs>
                <lb/>em preparação</ab>
-                 <signed rend="right"><rs type="name" key="FP" role="author" style="a">Fernando Pessôa</rs></signed>
+            <signed rend="right">
+               <rs type="name" key="FP" role="author" style="a">Fernando Pessôa</rs>
+            </signed>
          </div>
       </body>
    </text>
    <text type="reg" corresp="#W190">
       <body>
          <div>
-                 <pb n="38"/>
+            <pb n="38"/>
             <head>NA FLORESTA DO ALHEAMENTO</head>
             <p rend="indent-first">
-            <hi rend="bold">Sei que</hi> despertei e que ainda durmo. O
+               <hi rend="bold">Sei que</hi> despertei e que ainda durmo. O
                     meu corpo antigo, moído de eu viver diz-me que é muito cedo ainda... Sinto-me
                     febril de longe. Peso-me, não sei porquê...</p>
             <p rend="indent-first">Num torpor lúcido, pesadamente incorpóreo, estagno, entre o

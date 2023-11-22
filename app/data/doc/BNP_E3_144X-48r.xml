@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 144X-48<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 144X-48<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -47,7 +48,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_144X-48r.xml</idno>
          </publicationStmt>
@@ -59,9 +60,7 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p> Lista manuscrita no caderno 144X (cf. <ref target="http://purl.pt/13898"
-                           >http://purl.pt/13898</ref>), publicada em <hi rend="italic"
-                           >Sensacionismo e Outros Ismos</hi> (2009, 308-309). </p>
+                     <p> Lista manuscrita no caderno 144X (cf. <ref target="http://purl.pt/13898">http://purl.pt/13898</ref>), publicada em <hi rend="italic">Sensacionismo e Outros Ismos</hi> (2009, 308-309). </p>
                   </summary>
                   <msItemStruct>
                      <author>
@@ -82,7 +81,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3_144x_JPG_24-C-R0150/bn-acpc-e-e3_144x_0095_48r_t24-C-R0150.jpg"/>
@@ -92,10 +99,13 @@
          <div>
             <delSpan rend="overstrike" spanTo="#A1"/>
             <list>
-               <head><hi rend="underline">Order of publication:</hi></head>
+               <head>
+                  <hi rend="underline">Order of publication:</hi>
+               </head>
                <item>
                   <label>1.</label>
-                  <rs type="title"><rs type="periodical" key="J12">Orpheu</rs> 3</rs>.
+                  <rs type="title">
+                     <rs type="periodical" key="J12">Orpheu</rs> 3</rs>.
                </item>
                <item>
                   <label>2.</label>

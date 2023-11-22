@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 716<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 716<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -35,7 +36,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_716r.xml</idno>
          </publicationStmt>
@@ -70,7 +71,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="doc_BNP_E3_716r.jpg"/>
@@ -80,7 +89,8 @@
          <div>
             <head>
                <hi rend="underline">Trechos portuguezes<del n="2">
-                     <seg rend="overstrike">antigos</seg></del>.</hi>
+                     <seg rend="overstrike">antigos</seg>
+                  </del>.</hi>
             </head>
             <list>
                <item>
@@ -96,13 +106,11 @@
                   <rs type="title">O PRIMEIRO POEMA</rs> de <rs type="name" key="P24">José Anastacio
                      da Cunha</rs>. </item>
                <item>
-                  <rs type="title">NO INTERVALLO DE UMA DOLOROSA DOENÇA</rs>, <rs type="name"
-                     key="P24">do mesmo</rs>. </item>
+                  <rs type="title">NO INTERVALLO DE UMA DOLOROSA DOENÇA</rs>, <rs type="name" key="P24">do mesmo</rs>. </item>
                <item>
                   <rs type="title">SONETO</rs>, de <rs type="name" key="P76">Bocage</rs>. </item>
                <item>
-                  <rs type="title">A EXTRANHA MORTE DO PROFESSOR ANTENA</rs>, de <rs type="name"
-                     key="P30">Sá-Carneiro</rs>
+                  <rs type="title">A EXTRANHA MORTE DO PROFESSOR ANTENA</rs>, de <rs type="name" key="P30">Sá-Carneiro</rs>
                </item>
                <item>
                   <rs type="title">VARIAS LYRICAS</rs>, de <rs type="name" key="P186">Garrett</rs>. </item>
@@ -111,8 +119,7 @@
                </item>
                <addSpan spanTo="#a1" n="2"/>
                <item>
-                  <rs type="title">O Homem dos Sonhos</rs> ― <rs type="name" key="P30"
-                     >Sá-Carneiro</rs>. </item>
+                  <rs type="title">O Homem dos Sonhos</rs> ― <rs type="name" key="P30">Sá-Carneiro</rs>. </item>
                <item>
                   <rs type="title">Soneto</rs>, de <rs type="name" key="P80">Angelo de Lima</rs>. </item>
                <anchor xml:id="a1"/>

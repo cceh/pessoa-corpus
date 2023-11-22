@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48H-15<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48H-15<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48H-15r.xml</idno>
          </publicationStmt>
@@ -73,26 +74,42 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0029_15_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0029_15_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <list>
-               <item>- <rs type="title" key="T22">Pamphleto <rs type="periodical" key="J27"
-                        >Renascença</rs></rs>.</item>
-               <item>- <rs type="work" key="W18"><rs type="name" key="AC" role="author">Alberto
-                        Caeiro</rs>. <rs type="title" key="T18"><hi rend="underline">O <choice>
+               <item>- <rs type="title" key="T22">Pamphleto <rs type="periodical" key="J27">Renascença</rs>
+                  </rs>.</item>
+               <item>- <rs type="work" key="W18">
+                     <rs type="name" key="AC" role="author">Alberto
+                        Caeiro</rs>. <rs type="title" key="T18">
+                        <hi rend="underline">O <choice>
                               <abbr>G de R</abbr>
-                              <expan>G<ex>uardador</ex> de R<ex>ebanhos</ex></expan>
-                           </choice></hi></rs></rs></item>
-               <item>- <rs type="title" key="T23">English Poems</rs></item>
+                              <expan>G<ex>uardador</ex> de R<ex>ebanhos</ex>
+                              </expan>
+                           </choice>
+                        </hi>
+                     </rs>
+                  </rs>
+               </item>
+               <item>- <rs type="title" key="T23">English Poems</rs>
+               </item>
                <item>- <rs type="name" key="P130">Bacon</rs>
-                  <unclear reason="illegible">Books</unclear></item>
+                  <unclear reason="illegible">Books</unclear>
+               </item>
                <item>- <rs type="title" key="T24">Political pamphlets</rs>.</item>
             </list>
          </div>

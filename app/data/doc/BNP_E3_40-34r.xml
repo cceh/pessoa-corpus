@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 40-34<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 40-34<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_40-34r.xml</idno>
          </publicationStmt>
@@ -53,8 +54,7 @@
                   <summary>
                      <p> Lista manuscrita, publicada em <hi rend="italic">Livro do Desassossego</hi>
                         (1982, I, XXXVI). No verso da folha encontram-se alguns versos pertencentes
-                        ao poema «Livro de Outro Amor», referido na lista como parte do livro <hi
-                           rend="italic">Água Estagnada</hi>. Uma versão do dito poema foi redigida
+                        ao poema «Livro de Outro Amor», referido na lista como parte do livro <hi rend="italic">Água Estagnada</hi>. Uma versão do dito poema foi redigida
                         na página BNP 40-33<hi rend="superscript">r</hi> e apresenta a data de 14
                         de Maio de 1913. </p>
                   </summary>
@@ -78,20 +78,33 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-40-1-52_JPG_24-C-R0150/bn-acpc-e-e3-40-1-52_0074_34_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-40-1-52_JPG_24-C-R0150/bn-acpc-e-e3-40-1-52_0074_34_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Livros de versos:</hi></head>
+            <head>
+               <hi rend="underline">Livros de versos:</hi>
+            </head>
             <list>
                <item>
                   <list>
-                     <item><label><rs type="title"><hi rend="underline">Agua Estagnada</hi></rs> — </label>
+                     <item>
+                        <label>
+                           <rs type="title">
+                              <hi rend="underline">Agua Estagnada</hi>
+                           </rs> — </label>
                         <list rend="inline">
                            <item>
                               <label>I.</label>
@@ -118,7 +131,11 @@
                <metamark rend="line" function="distinct"/>
                <item>
                   <list>
-                     <item><label><hi rend="underline"><rs type="title">Exilio</rs></hi> — </label>
+                     <item>
+                        <label>
+                           <hi rend="underline">
+                              <rs type="title">Exilio</rs>
+                           </hi> — </label>
                         <list rend="inline">
                            <item>
                               <label>I.</label>
@@ -148,21 +165,33 @@
          </div>
          <metamark rend="line" function="distinct"/>
          <div>
-            <head><hi rend="underline">Prosa:</hi></head>
+            <head>
+               <hi rend="underline">Prosa:</hi>
+            </head>
             <list>
                <item>
                   <list>
-                     <item><label><hi rend="underline"><rs type="title">Livro do
-                              Desassocego</rs>.</hi></label>
+                     <item>
+                        <label>
+                           <hi rend="underline">
+                              <rs type="title">Livro do
+                              Desassocego</rs>.</hi>
+                        </label>
                         <list rend="inline">
-                           <item><label>I.</label>
-                              <rs type="title">Bailado</rs></item>
-                           <item><label>II.</label>
+                           <item>
+                              <label>I.</label>
+                              <rs type="title">Bailado</rs>
+                           </item>
+                           <item>
+                              <label>II.</label>
                               <rs type="title">O Ultimo Cysne</rs>.</item>
-                           <item><label>III.</label>
+                           <item>
+                              <label>III.</label>
                               <rs type="title">Antemanhã</rs>.</item>
-                           <item><label>IV.</label>
-                              <supplied resp="PS" reason="omitted-in-original"/></item>
+                           <item>
+                              <label>IV.</label>
+                              <supplied resp="PS" reason="omitted-in-original"/>
+                           </item>
                         </list>
                      </item>
                   </list>

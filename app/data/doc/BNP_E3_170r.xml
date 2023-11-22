@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 170<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 170<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -47,7 +48,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_170r.xml</idno>
          </publicationStmt>
@@ -81,11 +82,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0007_170_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0007_170_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -93,7 +101,9 @@
             <list>
                <item>
                   <label>1.</label>
-                  <rs type="title"><rs type="place">“Portugal”</rs></rs>. </item>
+                  <rs type="title">
+                     <rs type="place">“Portugal”</rs>
+                  </rs>. </item>
                <item>
                   <label>2.</label>
                   <rs type="title">“Livro do Desasocego”</rs>. </item>
@@ -128,11 +138,15 @@
             <list>
                <item>
                   <label>1.</label>
-                  <rs type="work" key="W136"><rs type="title" key="T172"><rs type="name" key="AC"
-                           role="author">Caeiro</rs></rs></rs>. </item>
+                  <rs type="work" key="W136">
+                     <rs type="title" key="T172">
+                        <rs type="name" key="AC" role="author">Caeiro</rs>
+                     </rs>
+                  </rs>. </item>
                <item>
                   <label>2.</label>
-                  <rs type="title"> Edições <rs type="name" key="P30">Sá-Carneiro</rs></rs>. </item>
+                  <rs type="title"> Edições <rs type="name" key="P30">Sá-Carneiro</rs>
+                  </rs>. </item>
             </list>
          </div>
       </body>

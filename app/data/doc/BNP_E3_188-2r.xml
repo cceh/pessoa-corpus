@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 188-2<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 188-2<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_188-2r.xml</idno>
          </publicationStmt>
@@ -72,7 +73,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-188_JPG_24-C-R0150/bn-acpc-e-e3-188_0003_2_t24-C-R0150.jpg"/>
@@ -80,23 +89,32 @@
    <text>
       <body>
          <div>
-            <head><hi rend="underline"><choice>
-                     <abbr>GCP<am>.</am></abbr>
+            <head>
+               <hi rend="underline">
+                  <choice>
+                     <abbr>GCP<am>.</am>
+                     </abbr>
                      <expan>G<ex>remio</ex>
-                        <ex>de</ex> C<ex>ultura</ex> P<ex>ortugueza</ex></expan>
-                  </choice></hi></head>
+                        <ex>de</ex> C<ex>ultura</ex> P<ex>ortugueza</ex>
+                     </expan>
+                  </choice>
+               </hi>
+            </head>
             <p>Subscripções para o Gremio:</p>
             <list rend="indent">
                <item>Por <choice>
-                     <abbr>nu<am>.</am></abbr>
-                     <expan>nu<ex>mero</ex></expan>
+                     <abbr>nu<am>.</am>
+                     </abbr>
+                     <expan>nu<ex>mero</ex>
+                     </expan>
                   </choice>: 1$00.</item>
                <item rend="indent-2">Doações de ahi para cima, de quem<lb/> sympathisar com a
                   attitude do Gremio.</item>
             </list>
          </div>
          <div>
-            <head><hi rend="underline">Despezas do Gremio</hi>:</head>
+            <head>
+               <hi rend="underline">Despezas do Gremio</hi>:</head>
             <table>
                <row>
                   <cell rend="right">Renda mensal:</cell>
@@ -117,16 +135,19 @@
                <row>
                   <cell/>
                   <cell rend="right">
-                     <metamark rend="line" function="sum"/> 150$00 <metamark rend="line"
-                        function="end"/>
+                     <metamark rend="line" function="sum"/> 150$00 <metamark rend="line" function="end"/>
                   </cell>
                </row>
             </table>
          </div>
          <div>
-            <head><hi rend="underline">Select a printing office</hi>:</head>
-            <p>17.00 copies of <abbr>Th<am>.</am></abbr>
-               <abbr>Sr<am>.</am></abbr></p>
+            <head>
+               <hi rend="underline">Select a printing office</hi>:</head>
+            <p>17.00 copies of <abbr>Th<am>.</am>
+               </abbr>
+               <abbr>Sr<am>.</am>
+               </abbr>
+            </p>
             <table>
                <row>
                   <cell rend="right">(each <gap reason="illegible" extent="1" unit="word"/> Acção)
@@ -144,8 +165,7 @@
                <row>
                   <cell rend="right">Profit =</cell>
                   <cell rend="right">
-                     <metamark rend="line" function="sum"/> 680$00 <metamark rend="line"
-                        function="end"/>
+                     <metamark rend="line" function="sum"/> 680$00 <metamark rend="line" function="end"/>
                   </cell>
                </row>
             </table>

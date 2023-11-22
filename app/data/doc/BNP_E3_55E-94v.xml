@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -40,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_55E-94v.xml</idno>
          </publicationStmt>
@@ -73,12 +73,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-55e-1-100_JPG_24-C-R0150/bn-acpc-e-e3-55e-1-100_0191_94v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-55e-1-100_JPG_24-C-R0150/bn-acpc-e-e3-55e-1-100_0191_94v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -100,7 +106,9 @@
                   <cell/>
                   <cell>
                      <label>2.</label>
-                     <rs type="work" key="O1-2"><rs type="title">Gladio</rs></rs>. — </cell>
+                     <rs type="work" key="O1-2">
+                        <rs type="title">Gladio</rs>
+                     </rs>. — </cell>
                   <cell>
                      <subst>
                         <del n="1" rend="overstrike">1</del>
@@ -151,7 +159,9 @@
                   <cell/>
                   <cell>
                      <label>8.</label>
-                     <rs type="title"><abbr>Merc<am>.</am></abbr> Acephalo</rs> — </cell>
+                     <rs type="title">
+                        <abbr>Merc<am>.</am>
+                        </abbr> Acephalo</rs> — </cell>
                   <cell>1</cell>
                </row>
             </table>
@@ -161,7 +171,8 @@
                   <table>
                      <row>
                         <cell>II —</cell>
-                        <cell><hi rend="underline">Antidoto</hi>.</cell>
+                        <cell>
+                           <hi rend="underline">Antidoto</hi>.</cell>
                      </row>
                   </table>
                </div>
@@ -172,8 +183,11 @@
                         <cell>1.</cell>
                         <cell>
                            <choice>
-                              <abbr><metamark rend="line" function="placeholder"/></abbr>
-                              <expan><rs type="title">Prefacio</rs>.</expan>
+                              <abbr>
+                                 <metamark rend="line" function="placeholder"/>
+                              </abbr>
+                              <expan>
+                                 <rs type="title">Prefacio</rs>.</expan>
                            </choice>
                         </cell>
                         <cell>1 3/4</cell>
@@ -187,8 +201,11 @@
                         <cell>2.</cell>
                         <cell>
                            <choice>
-                              <abbr><metamark rend="line" function="placeholder"/></abbr>
-                              <expan><ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Gladio">Gladio</ref>.</expan>
+                              <abbr>
+                                 <metamark rend="line" function="placeholder"/>
+                              </abbr>
+                              <expan>
+                                 <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Gladio">Gladio</ref>.</expan>
                            </choice>
                         </cell>
                         <cell>1/4</cell>
@@ -197,7 +214,9 @@
                         <cell>3.</cell>
                         <cell>
                            <choice>
-                              <abbr><metamark rend="line" function="placeholder"/></abbr>
+                              <abbr>
+                                 <metamark rend="line" function="placeholder"/>
+                              </abbr>
                               <expan>Auto do Circo.</expan>
                            </choice>
                         </cell>
@@ -207,7 +226,9 @@
                         <cell>4.</cell>
                         <cell>
                            <choice>
-                              <abbr><metamark rend="line" function="placeholder"/></abbr>
+                              <abbr>
+                                 <metamark rend="line" function="placeholder"/>
+                              </abbr>
                               <expan>Theoria da Orthographia Portugueza.</expan>
                            </choice>
                         </cell>
@@ -216,7 +237,9 @@
                         <cell>5.</cell>
                         <cell>
                            <choice>
-                              <abbr><metamark rend="line" function="placeholder"/></abbr>
+                              <abbr>
+                                 <metamark rend="line" function="placeholder"/>
+                              </abbr>
                               <expan>O Corvo (Poe)</expan>
                            </choice>
                         </cell>
@@ -231,7 +254,9 @@
                         <cell>6.</cell>
                         <cell>
                            <choice>
-                              <abbr><metamark rend="line" function="placeholder"/></abbr>
+                              <abbr>
+                                 <metamark rend="line" function="placeholder"/>
+                              </abbr>
                               <expan>Epigramas</expan>
                            </choice>
                         </cell>
@@ -241,7 +266,9 @@
                         <cell>7.</cell>
                         <cell>
                            <choice>
-                              <abbr><metamark rend="line" function="placeholder"/></abbr>
+                              <abbr>
+                                 <metamark rend="line" function="placeholder"/>
+                              </abbr>
                               <expan>Uma Entrevista.</expan>
                            </choice>
                         </cell>
@@ -256,8 +283,14 @@
                         <cell>8.</cell>
                         <cell>
                            <choice>
-                              <abbr><metamark rend="line" function="placeholder"/></abbr>
-                              <expan><rs type="title"><abbr>Merc<am>.</am></abbr> Acephalo</rs></expan>
+                              <abbr>
+                                 <metamark rend="line" function="placeholder"/>
+                              </abbr>
+                              <expan>
+                                 <rs type="title">
+                                    <abbr>Merc<am>.</am>
+                                    </abbr> Acephalo</rs>
+                              </expan>
                            </choice>
                         </cell>
                         <cell>1/2</cell>

@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_Misterio_da_Boca_do_Inferno.xml</idno>
          </publicationStmt>
@@ -66,6 +66,9 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
@@ -79,6 +82,11 @@
             <handNote xml:id="H_FP">Texto redigido por Pessoa.</handNote>
          </handNotes>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Boca_do_Inferno_2.jpg"/>
@@ -235,7 +243,8 @@
                         não abundem; já vão aparecendo em Portugal.</p>
                <p rend="indent-first">Tinha chegado a ficha de <rs type="name" key="P500" style="a">Crowley</rs>. <hi rend="italic">Dava-o como saido pela
                             fronteira de Vilar Formoso no dia 23</hi>. Estava, aparentemente, o caso
-                  arrumado. Se <pb n="10"/><rs type="name" key="P500" style="a">Crowley</rs> saira é
+                  arrumado. Se <pb n="10"/>
+                  <rs type="name" key="P500" style="a">Crowley</rs> saira é
                         porque <hi rend="italic">não estava cá</hi>. Nesta altura apresentou-se ao
                         Sr. Dr. <rs type="name" key="P504">Alexandrino de Albuquerque</rs> o
                   escritor <rs type="name" role="topic" key="FP">Fernando Pessoa</rs> —

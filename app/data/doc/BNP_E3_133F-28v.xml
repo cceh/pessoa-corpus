@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 133F-28<hi rend="superscript">v</hi></title>
+            <title>BNP/E3 133F-28<hi rend="superscript">v</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +44,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_133F-28v.xml</idno>
          </publicationStmt>
@@ -77,47 +78,70 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-133f-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133f-1-100_0058_28v_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-133f-1-100_JPG_24-C-R0150/bn-acpc-e-e3-133f-1-100_0058_28v_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <delSpan rend="overstrike" spanTo="#A1"/>
             <list>
-               <head><hi rend="underline"><rs type="collection" key="C11"><rs type="title" key="T"
-                           >Ficções do Interludio</rs></rs></hi></head>
+               <head>
+                  <hi rend="underline">
+                     <rs type="collection" key="C11">
+                        <rs type="title" key="T">Ficções do Interludio</rs>
+                     </rs>
+                  </hi>
+               </head>
                <item>
                   <label>I. —</label>
                   <list rend="inline">
                      <item rend="indent-2">
                         <label>1.</label>
-                        <rs type="work" key="W135"><rs type="title" key="T171">Poemas Completos de<lb/>
-                              <rs type="name" role="author" key="AC">Alberto Caeiro</rs></rs></rs>. </item>
+                        <rs type="work" key="W135">
+                           <rs type="title" key="T171">Poemas Completos de<lb/>
+                              <rs type="name" role="author" key="AC">Alberto Caeiro</rs>
+                           </rs>
+                        </rs>. </item>
                      <item rend="indent-2">
                         <label>2.</label> Notas — <rs type="name" role="author" key="AdC">
                            <choice>
-                              <abbr>Alv<am>.</am></abbr>
-                              <expan>Alv<ex>aro</ex></expan>
+                              <abbr>Alv<am>.</am>
+                              </abbr>
+                              <expan>Alv<ex>aro</ex>
+                              </expan>
                            </choice> de<lb/> Campos</rs>. </item>
                      <item rend="indent-2">
                         <label>3.</label>
                         <rs type="work" key="O3" style="b">
                            <rs type="title">Odes (<choice>
-                                 <abbr>liv<am>.</am></abbr>
-                                 <expan>liv<ex>ros</ex></expan>
-                           </choice> <ref target="http://www.pessoadigital.pt/en/pub/Reis_Odes_Livro_Primeiro">I</ref> — <choice>
+                                 <abbr>liv<am>.</am>
+                                 </abbr>
+                                 <expan>liv<ex>ros</ex>
+                                 </expan>
+                              </choice>
+                              <ref target="http://www.pessoadigital.pt/en/pub/Reis_Odes_Livro_Primeiro">I</ref> — <choice>
                                  <seg n="1">V</seg>
-                                 <seg n="2"><add place="above">III</add></seg>
-                              </choice>)</rs><lb/>
+                                 <seg n="2">
+                                    <add place="above">III</add>
+                                 </seg>
+                              </choice>)</rs>
+                           <lb/>
                            <rs type="name" role="author" key="RR">
                               <choice>
                                  <abbr>R</abbr>
-                                 <expan>R<ex>icardo</ex></expan>
+                                 <expan>R<ex>icardo</ex>
+                                 </expan>
                               </choice> Reis</rs>.</rs>
                      </item>
                   </list>

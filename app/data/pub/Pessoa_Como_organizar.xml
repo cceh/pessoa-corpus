@@ -19,7 +19,7 @@
             <respStmt>
                <resp>Codificação, Atualização ortográfica</resp>
                <name>Inês Filipa Rebelo do Carmo</name>
-            </respStmt> 
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Como_organizar.xml</idno>
          </publicationStmt>
@@ -65,10 +65,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Como_Organizar_1.jpg"/>
@@ -78,7 +86,7 @@
    <text type="orig" corresp="#W286">
       <body>
          <div>
-                 <pb n="2"/>
+            <pb n="2"/>
             <head>COMO ORGANIZAR PORTUGAL</head>
             <p rend="indent-first">Quando a guerra findou — como se a guerra alguma vez
                     findasse, ou houvesse neste mundo senão guerra! —; quando, enfim, findou esta
@@ -243,7 +251,8 @@
                     chamada progresso incide, portanto, quando não sobre os instinctos, pelo menos
                     sobre os habitos dos individuos, ou da maioria dos individuos, que compõem uma
                     sociedade. Ora o homem, como todos os animaes, é essencialmente uma creatura de
-                    instinctos e de habitos; a sciencia psychologica terá des<pc>-</pc><pb n="3"/>coberto pouco, mas
+                    instinctos e de habitos; a sciencia psychologica terá des<pc>-</pc>
+               <pb n="3"/>coberto pouco, mas
                     isso, pelo menos, descobriu. A essencia do progresso é portanto uma coisa que
                     choca os homens no que teem de mais humano; a attitude instinctiva da maioria
                     dos homens perante o progresso é, portanto, a resistência a elle. A resistencia
@@ -455,14 +464,16 @@
                     practicas, estabelecer o modo de lhe dar realização — nenhuma d’estas cousas é
                     objecto d’este estudo, ou assumpto da minha competencia. O que me cabia fazer
                     está feito.</p>
-            <signed rend="right"><rs type="name" role="author" key="FP" style="b">Fernando Pessoa</rs></signed>
+            <signed rend="right">
+               <rs type="name" role="author" key="FP" style="b">Fernando Pessoa</rs>
+            </signed>
          </div>
       </body>
    </text>
    <text type="reg" corresp="#W286">
       <body>
          <div>
-                 <pb n="2"/>
+            <pb n="2"/>
             <head>COMO ORGANIZAR PORTUGAL</head>
             <p rend="indent-first">Quando a guerra findou — como se a guerra alguma vez
                     findasse, ou houvesse neste mundo senão guerra! —; quando, enfim, findou esta
@@ -627,7 +638,8 @@
                     chamada progresso incide, portanto, quando não sobre os instintos, pelo menos
                     sobre os hábitos dos indivíduos, ou da maioria dos indivíduos, que compõem uma
                     sociedade. Ora o homem, como todos os animais, é essencialmente uma criatura de
-                    instintos e de hábitos; a ciência psicológica terá des<pc>-</pc><pb n="3"/>coberto pouco, mas
+                    instintos e de hábitos; a ciência psicológica terá des<pc>-</pc>
+               <pb n="3"/>coberto pouco, mas
                     isso, pelo menos, descobriu. A essência do progresso é portanto uma coisa que
                     choca os homens no que têm de mais humano; a atitude instintiva da maioria
                     dos homens perante o progresso é, portanto, a resistência a ele. A resistência

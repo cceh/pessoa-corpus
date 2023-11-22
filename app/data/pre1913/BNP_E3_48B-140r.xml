@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48B-140r.xml</idno>
          </publicationStmt>
@@ -61,36 +61,55 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0287_140_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0287_140_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
-        <div>
-          <list>
-            <item><rs type="title">On Hats</rs>.</item>
-            <item><rs type="title">Manuscript</rs>.</item>
-            <item><rs type="name" key="P214">D. Juan Conejo</rs>.</item>
-            <item><rs type="title">Essay on <rs type="name" key="P213">Catullus</rs></rs>.</item>
-            <item>
-               <choice>
-                  <abbr><metamark rend="line" function="ditto"/></abbr>
-                  <expan>Essay on</expan>
-               </choice>
-               <rs type="name" key="P14">Espronceda</rs>.
+         <div>
+            <list>
+               <item>
+                  <rs type="title">On Hats</rs>.</item>
+               <item>
+                  <rs type="title">Manuscript</rs>.</item>
+               <item>
+                  <rs type="name" key="P214">D. Juan Conejo</rs>.</item>
+               <item>
+                  <rs type="title">Essay on <rs type="name" key="P213">Catullus</rs>
+                  </rs>.</item>
+               <item>
+                  <choice>
+                     <abbr>
+                        <metamark rend="line" function="ditto"/>
+                     </abbr>
+                     <expan>Essay on</expan>
+                  </choice>
+                  <rs type="name" key="P14">Espronceda</rs>.
             </item>
-            <item><rs type="title">Everybody Sings</rs>.</item>
-            <item><rs type="title">Nomenclature</rs>.</item>
-            <item><rs type="title">Letters after Name</rs>.</item>
-            <item><rs type="title">Football &amp; Cricket</rs>.</item>
-            <item><rs type="name" key="P215">Sherlock Holmes</rs>.</item>
-            <item><rs type="title">Medicine Advertisments</rs>.</item>
-          </list>
-        </div>
+               <item>
+                  <rs type="title">Everybody Sings</rs>.</item>
+               <item>
+                  <rs type="title">Nomenclature</rs>.</item>
+               <item>
+                  <rs type="title">Letters after Name</rs>.</item>
+               <item>
+                  <rs type="title">Football &amp; Cricket</rs>.</item>
+               <item>
+                  <rs type="name" key="P215">Sherlock Holmes</rs>.</item>
+               <item>
+                  <rs type="title">Medicine Advertisments</rs>.</item>
+            </list>
+         </div>
       </body>
    </text>
 </TEI>

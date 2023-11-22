@@ -39,7 +39,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48H-10.xml</idno>
          </publicationStmt>
@@ -58,8 +58,10 @@
                      <author>
                         <rs type="name" key="FP">Fernando Pessoa</rs>
                      </author>
-                     <note type="genre"><rs type="genre" key="lista_editorial">Lista
-                        editorial</rs></note>
+                     <note type="genre">
+                        <rs type="genre" key="lista_editorial">Lista
+                        editorial</rs>
+                     </note>
                      <textLang mainLang="en"/>
                   </msItemStruct>
                </msContents>
@@ -72,11 +74,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0019_10_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0019_10_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -110,11 +119,15 @@
                   <rs type="title">Rules for Social Thinking</rs>. </item>
             </list>
             <div>
-               <head rend="indent"><hi rend="underline"><rs type="title">Political
-                     Sociology</rs>.</hi></head>
+               <head rend="indent">
+                  <hi rend="underline">
+                     <rs type="title">Political
+                     Sociology</rs>.</hi>
+               </head>
                <p rend="indent-1">Since there is no social science, that is to say,<lb/> no
                   sociology, it may seem strange that any book should<lb/> be entitled Political
-                  Sociology – a title expressing <del rend="overtyped">the</del><lb/> a species of
+                  Sociology – a title expressing <del rend="overtyped">the</del>
+                  <lb/> a species of
                   an inexistent genus.</p>
             </div>
          </div>

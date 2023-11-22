@@ -55,30 +55,45 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-135c-1-104_JPG_24-C-R0150/bn-acpc-e-e3-135c-1-104_0076_23_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-135c-23r">
       <body>
-         <head>Artigos que poderão ser insertos a><hi rend="underline"> 6/c. </hi></head>  
-         <list> 
-            <item xml:id="I1"><note><metamark rend="circle"> The</metamark></note> Decline &amp;Fall of the Portuguese Monarchy. </item>
-            <item xml:id="I2">“The English” </item>        
-            <item xml:id="I3">A Reply to <rs type="name">Jim Crow </rs> </item>
+         <head>Artigos que poderão ser insertos a&gt;<hi rend="underline"> 6/c. </hi>
+         </head>
+         <list>
+            <item xml:id="I1">
+               <note>
+                  <metamark rend="circle"> The</metamark>
+               </note> Decline &amp;Fall of the Portuguese Monarchy. </item>
+            <item xml:id="I2">“The English” </item>
+            <item xml:id="I3">A Reply to <rs type="name">Jim Crow </rs>
+            </item>
             <item xml:id="I4">La Décadence Française.</item>
             <item xml:id="I5">The Decay of<rs type="place">England</rs>.</item>
             <item xml:id="I6">La <rs type="place">France </rs>en 1950.</item>
-         </list> 
-            <ab n="a">
-               <note target="range(I2,I3)" place="left" type="addition">
+         </list>
+         <ab n="a">
+            <note target="range(I2,I3)" place="left" type="addition">
                <metamark rend="curly bracket" function="grouping"/>
-               </note>
-            </ab>
+            </note>
+         </ab>
          <ab n="b">
             <note target="range(I2,I3)" place="right" type="addition">
-               <label><add>(?) — </add> </label>
+               <label>
+                  <add>(?) — </add>
+               </label>
                <metamark rend="curly bracket" function="grouping"/>
             </note>
          </ab>

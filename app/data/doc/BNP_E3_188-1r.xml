@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 188-1<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 188-1<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_188-1r.xml</idno>
          </publicationStmt>
@@ -72,7 +73,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-188_JPG_24-C-R0150/bn-acpc-e-e3-188_0001_1_t24-C-R0150.jpg"/>
@@ -80,12 +89,19 @@
    <text>
       <body>
          <div>
-            <head><hi rend="underline"><choice>
-                     <abbr>GCP<am>.</am></abbr>
+            <head>
+               <hi rend="underline">
+                  <choice>
+                     <abbr>GCP<am>.</am>
+                     </abbr>
                      <expan>G<ex>remio</ex>
-                        <ex>de</ex> C<ex>ultura</ex> P<ex>ortugueza</ex></expan>
-                  </choice></hi></head>
-            <p rend="indent-2"><rs type="periodical" key="J54">“Portugal”</rs> — revista <subst>
+                        <ex>de</ex> C<ex>ultura</ex> P<ex>ortugueza</ex>
+                     </expan>
+                  </choice>
+               </hi>
+            </head>
+            <p rend="indent-2">
+               <rs type="periodical" key="J54">“Portugal”</rs> — revista <subst>
                   <add place="above" n="2">de vida portugueza para o</add>
                   <del rend="overstrike" n="1">de commercio, de industria</del>
                </subst>
@@ -105,12 +121,12 @@
                </row>
                <row xml:id="C3">
                   <cell rend="right">1/4 page:</cell>
-                  <cell rend="right">35$00<note target="range(C1,C5)" place="margin-right"
-                        type="addition">
+                  <cell rend="right">35$00<note target="range(C1,C5)" place="margin-right" type="addition">
                         <metamark rend="curly-bracket" function="grouping">
                            <label>inalteraveis</label>
                         </metamark>
-                     </note></cell>
+                     </note>
+                  </cell>
                </row>
                <row xml:id="C4">
                   <cell rend="right">1/8 page:</cell>
@@ -123,16 +139,18 @@
             </table>
             <metamark rend="line" function="distinct"/>
             <list>
-               <head><hi rend="underline">
+               <head>
+                  <hi rend="underline">
                      <gap reason="illegible" unit="word" extent="1"/> number</hi>:</head>
-               <item>A Man’s Death — <gap reason="illegible" unit="word" extent="2"/> — <gap
-                     reason="illegible" unit="word" extent="1"/>
+               <item>A Man’s Death — <gap reason="illegible" unit="word" extent="2"/> — <gap reason="illegible" unit="word" extent="1"/>
                </item>
                <item>
                   <rs type="place">Portugal</rs> of <gap reason="illegible" unit="word" extent="1"/>
                   <choice>
-                     <abbr>S<am>.</am></abbr>
-                     <expan>S<ex>idonio</ex></expan>
+                     <abbr>S<am>.</am>
+                     </abbr>
+                     <expan>S<ex>idonio</ex>
+                     </expan>
                   </choice> Paes.</item>
             </list>
             <note place="center" n="2" type="addition">shall this start now?</note>

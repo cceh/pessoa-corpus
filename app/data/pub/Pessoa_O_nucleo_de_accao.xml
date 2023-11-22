@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2021</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_nucleo_de_accao.xml</idno>
          </publicationStmt>
@@ -63,10 +63,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Pessoa_O_nucleo_de_accao_1.jpg"/>
@@ -81,8 +89,12 @@
       <body>
          <div>
             <pb/>
-            <head><hi rend="bold">O NUCLEO DE ACÇÃO NACIONAL</hi></head>
-            <head type="sub"><hi rend="bold">dirige-se terminantemente á Nação</hi></head>
+            <head>
+               <hi rend="bold">O NUCLEO DE ACÇÃO NACIONAL</hi>
+            </head>
+            <head type="sub">
+               <hi rend="bold">dirige-se terminantemente á Nação</hi>
+            </head>
             <milestone rend="line" unit="section"/>
             <head>PRIMEIRO MANIFESTO</head>
             <head>O INTERREGNO</head>
@@ -235,8 +247,10 @@
                   constitucionalismo, formula de equilibrio espontaneo, provinda de antigas
                   tradições nacionaes em que o fermento de todas as doctrinas antimonarchicas
                   diversamente se infiltrara. O principal theorista do systema, tal qual finalmente
-                  veio a parecer, foi <rs type="name" key="P684">Locke</rs>, em seu <rs type="title"
-                        ><hi rend="italic">Ensaio sobre o Governo Civil.</hi></rs></p>
+                  veio a parecer, foi <rs type="name" key="P684">Locke</rs>, em seu <rs type="title">
+                     <hi rend="italic">Ensaio sobre o Governo Civil.</hi>
+                  </rs>
+               </p>
                <p rend="indent-first">Ora o mesmo simplismo do espirito humano, que o leva a
                   confundir o particular e o geral na theoria, o conduz a os não distinguir na
                   práctica. Assim, sem considerar se a solução politica ingleza não seria
@@ -261,7 +275,8 @@
                   por elles suffocada, nasceu em Europa, e alastrou a todo o mundo civilizado, a
                   superstição constitucional. Consiste ella em crer que a formula constitucional
                   ingleza é <hi rend="italic">universal</hi>, sendo pois applicavel a qualquer povo
-                  civili<pc>-</pc><pb/>zado, em quaesquer circumstancias; e que é <hi rend="italic">perfeita</hi>,
+                  civili<pc>-</pc>
+                  <pb/>zado, em quaesquer circumstancias; e que é <hi rend="italic">perfeita</hi>,
                   sendo que é a verdadeira formula de traduzir para uma norma politica aquillo a que
                   se chama a opinião publica.</p>
                <p rend="indent-first">Ambas as theses são demonstravelmente erroneas. A primeira a
@@ -470,8 +485,7 @@
                   preoccupado, mais que quaesquer outros, a sciencia psychologica moderna; assentou
                   ella já na certeza de que o campo do que chamou subconsciente é vastamente maior
                   que o da razão, e que o homem, verdadeiramente definido, é um animal irracional.
-                  Só por orgulho ou preconceito se pode não ver que a intelligencia é — como <rs
-                     type="name" key="P685">Huxley</rs> abusivamente suppunha que a simples
+                  Só por orgulho ou preconceito se pode não ver que a intelligencia é — como <rs type="name" key="P685">Huxley</rs> abusivamente suppunha que a simples
                   consciencia era — o que chamou um epiphenomeno. Isto é, a intelligencia não faz
                   mais que espelhar, esclarecendo-os para nós e, pela palavra, para outrem, os
                   instinctos obscuros, as solicitações intuitivas, do nosso temperamento.</p>
@@ -579,10 +593,10 @@
                   haja equilibrio, que ser oppostas. Um paiz unanime numa opinião de habito não
                   seria paiz — seria gado. Um paiz concorde numa opinião de intuição não seria paiz
                   — seria sombras. O progresso consiste numa media entre o que a opinião de habito
-                  deseja e o que a opinião de intuição sonha. Figurou <rs type="name" key="P15"
-                     >Camões</rs>, nos <rs type="title"><hi rend="italic">Lusiadas</hi></rs>, em o
-                     <rs type="name" key="P686">Velho do Restello</rs> a opinião de habito, em o <rs
-                     type="name" key="P610">Gama</rs> a opinião de intuição. Mas o Imperio Portuguez
+                  deseja e o que a opinião de intuição sonha. Figurou <rs type="name" key="P15">Camões</rs>, nos <rs type="title">
+                     <hi rend="italic">Lusiadas</hi>
+                  </rs>, em o
+                     <rs type="name" key="P686">Velho do Restello</rs> a opinião de habito, em o <rs type="name" key="P610">Gama</rs> a opinião de intuição. Mas o Imperio Portuguez
                   nem foi a ausencia de imperio que o primeiro desejara, nem a plenitude de imperio
                   que o segundo sonharia. Porisso, por mal ou por bem, o Imperio Portuguez pôde
                   ser.</p>
@@ -751,8 +765,12 @@
       <body>
          <div>
             <pb/>
-            <head><hi rend="bold">O NÚCLEO DE AÇÃO NACIONAL</hi></head>
-            <head type="sub"><hi rend="bold">dirige-se terminantemente à Nação</hi></head>
+            <head>
+               <hi rend="bold">O NÚCLEO DE AÇÃO NACIONAL</hi>
+            </head>
+            <head type="sub">
+               <hi rend="bold">dirige-se terminantemente à Nação</hi>
+            </head>
             <milestone rend="line" unit="section"/>
             <head>PRIMEIRO MANIFESTO</head>
             <head>O INTERREGNO</head>
@@ -905,7 +923,8 @@
                   constitucionalismo, fórmula de equilíbrio espontâneo, provinda de antigas
                   tradições nacionais em que o fermento de todas as doutrinas antimonárquicas
                   diversamente se infiltrara. O principal teorista do sistema, tal qual finalmente
-                  veio a parecer, foi Locke, em seu <hi rend="italic">Ensaio sobre o Governo Civil.</hi></p>
+                  veio a parecer, foi Locke, em seu <hi rend="italic">Ensaio sobre o Governo Civil.</hi>
+               </p>
                <p rend="indent-first">Ora o mesmo simplismo do espírito humano, que o leva a
                   confundir o particular e o geral na teoria, o conduz a os não distinguir na
                   prática. Assim, sem considerar se a solução política inglesa não seria
@@ -930,7 +949,8 @@
                   por eles sufocada, nasceu em Europa, e alastrou a todo o mundo civilizado, a
                   superstição constitucional. Consiste ela em crer que a fórmula constitucional
                   inglesa é <hi rend="italic">universal</hi>, sendo pois aplicável a qualquer povo
-                  civili<pc>-</pc><pb/>zado, em quaisquer circunstâncias; e que é <hi rend="italic">perfeita</hi>,
+                  civili<pc>-</pc>
+                  <pb/>zado, em quaisquer circunstâncias; e que é <hi rend="italic">perfeita</hi>,
                   sendo que é a verdadeira fórmula de traduzir para uma norma política aquilo a que
                   se chama a opinião pública.</p>
                <p rend="indent-first">Ambas as teses são demonstravelmente erróneas. A primeira a

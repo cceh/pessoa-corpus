@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 137D-32<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 137D-32<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_137D-32r.xml</idno>
          </publicationStmt>
@@ -72,62 +73,92 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-137d-1-100_JPG_24-C-R0150/bn-acpc-e-e3-137d-1-100_0067_32_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-137d-1-100_JPG_24-C-R0150/bn-acpc-e-e3-137d-1-100_0067_32_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Financial propositions proper</hi>:</head>
+            <head>
+               <hi rend="underline">Financial propositions proper</hi>:</head>
             <list>
-               <item><abbr>JMB</abbr>, as usual.</item>
+               <item>
+                  <abbr>JMB</abbr>, as usual.</item>
                <item>Lhi. (and patent ones).</item>
                <item>The <choice>
-                     <abbr>Span<am>.</am></abbr>
-                     <expan>Span<ex>ish</ex></expan>
+                     <abbr>Span<am>.</am>
+                     </abbr>
+                     <expan>Span<ex>ish</ex>
+                     </expan>
                   </choice>
                   <choice>
-                     <abbr>prop<am>.</am></abbr>
-                     <expan>prop<ex>osition</ex></expan>
+                     <abbr>prop<am>.</am>
+                     </abbr>
+                     <expan>prop<ex>osition</ex>
+                     </expan>
                   </choice>/ Pamphlet / investigate.</item>
             </list>
          </div>
          <div>
-            <head><hi rend="underline">Patent propositions</hi>:</head>
+            <head>
+               <hi rend="underline">Patent propositions</hi>:</head>
             <list>
                <item>
-                  <abbr>C<am>.</am> P<am>.</am> P<am>.</am></abbr> (here). </item>
+                  <abbr>C<am>.</am> P<am>.</am> P<am>.</am>
+                  </abbr> (here). </item>
                <item>Directory (here and elsewhere).</item>
                <item>Dictionary (here and <hi rend="underline">elsewhere</hi>).</item>
                <item>District directs. (here) (as 2).</item>
                <item>Cosmopolis.</item>
-               <item><choice>
-                     <abbr>Com<am>.</am></abbr>
-                     <expan>Com<ex>mercial</ex></expan>
+               <item>
+                  <choice>
+                     <abbr>Com<am>.</am>
+                     </abbr>
+                     <expan>Com<ex>mercial</ex>
+                     </expan>
                   </choice> Club.</item>
                <item>Monomark, developed.</item>
-               <item>English continental editions (<choice><abbr>&amp;</abbr><expan>and</expan></choice> banned).</item>
+               <item>English continental editions (<choice>
+                     <abbr>&amp;</abbr>
+                     <expan>and</expan>
+                  </choice> banned).</item>
             </list>
          </div>
          <div>
-            <head><hi rend="underline">Literary propositions</hi>:</head>
+            <head>
+               <hi rend="underline">Literary propositions</hi>:</head>
             <list>
                <item>Monthly 5.00 edition here.</item>
                <item>Translation of plays (AVL).</item>
                <item>Shakespeare in parts (?).</item>
                <item>Translations into English.</item>
-               <item>Review (<abbr>O<abbr><am>.</am></abbr></abbr> or other) to fix matters.</item>
+               <item>Review (<abbr>O<abbr>
+                        <am>.</am>
+                     </abbr>
+                  </abbr> or other) to fix matters.</item>
             </list>
          </div>
          <div>
-            <head><hi rend="underline">Personal, to consider (?):</hi></head>
+            <head>
+               <hi rend="underline">Personal, to consider (?):</hi>
+            </head>
             <list>
-               <item>JMB / <abbr>DR<am>.</am></abbr> and <abbr>Vand<am>.</am></abbr></item>
-               <item>Place in <abbr>C<am>.</am> P<am>.</am> P<am>.</am></abbr>
+               <item>JMB / <abbr>DR<am>.</am>
+                  </abbr> and <abbr>Vand<am>.</am>
+                  </abbr>
+               </item>
+               <item>Place in <abbr>C<am>.</am> P<am>.</am> P<am>.</am>
+                  </abbr>
                </item>
                <item>Bookshop, etc., with <abbr>MMH</abbr>.</item>
             </list>

@@ -39,7 +39,7 @@
                      <note type="genre">
                         <rs type="genre" key="lista_editorial">Lista editorial</rs>
                      </note>
-                     <textLang mainLang="en" otherLangs="pt" />
+                     <textLang mainLang="en" otherLangs="pt"/>
                   </msItemStruct>
                </msContents>
                <history>
@@ -51,33 +51,65 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0099_49_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48h-1-65_JPG_24-C-R0150/bn-acpc-e-e3-48h-1-65_0099_49_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48h-49r">
       <body>
-         <head><hi rend="underline">Plan of Work.<lb></lb>
-            Urgent </hi></head>  
+         <head>
+            <hi rend="underline">Plan of Work.<lb/>
+            Urgent </hi>
+         </head>
          <gap reason="selection" unit="lines" extent="5"/>
-         <list> 
-            <item> <rs type="title">History of a <hi rend="underline">Dictatorship.</hi></rs></item>
-            
-            <item><rs type="title">The Pretended <hi rend="underline">Slavery</hi> in <rs type="place"><choice><abbr>St<am>.</am></abbr></choice> Thomé.</rs></rs></item>        
-            <item><rs type="title"><rs type="place">“Portugal”</rs> – epic <hi rend="underline">fragment</hi>.</rs></item>
-            <item><rs type="title">“Reacção” – a novel.</rs> </item>
+         <list>
+            <item>
+               <rs type="title">History of a <hi rend="underline">Dictatorship.</hi>
+               </rs>
+            </item>
+            <item>
+               <rs type="title">The Pretended <hi rend="underline">Slavery</hi> in <rs type="place">
+                     <choice>
+                        <abbr>St<am>.</am>
+                        </abbr>
+                     </choice> Thomé.</rs>
+               </rs>
+            </item>
+            <item>
+               <rs type="title">
+                  <rs type="place">“Portugal”</rs> – epic <hi rend="underline">fragment</hi>.</rs>
+            </item>
+            <item>
+               <rs type="title">“Reacção” – a novel.</rs>
+            </item>
             <metamark rend="line" function="distinct"/>
-            <item>Write to Spring, <gap reason="illegible" extent="2" unit="characters" /></item>
+            <item>Write to Spring, <gap reason="illegible" extent="2" unit="characters"/>
+            </item>
             <metamark rend="line" function="distinct"/>
-            <item>Let up <rs type="title">“O Phosphoro”</rs> <supplied resp="PS" reason="omitted-in-original"></supplied></item>
+            <item>Let up <rs type="title">“O Phosphoro”</rs>
+               <supplied resp="PS" reason="omitted-in-original"/>
+            </item>
             <metamark rend="line" function="distinct"/>
-            <item>Follow up <rs type="title">“The Pretended Slavery in <rs type="place"><choice><abbr>St<am>.</am></abbr></choice> Thomé” </rs></rs><lb></lb>
-               with<rs type="title"> “Slavery &amp; Cruelty in the British<lb></lb> Colonies.”</rs>
-            </item> 
+            <item>Follow up <rs type="title">“The Pretended Slavery in <rs type="place">
+                     <choice>
+                        <abbr>St<am>.</am>
+                        </abbr>
+                     </choice> Thomé” </rs>
+               </rs>
+               <lb/>
+               with<rs type="title"> “Slavery &amp; Cruelty in the British<lb/> Colonies.”</rs>
+            </item>
          </list>
-         <metamark rend="line" function="distinct"/>  
+         <metamark rend="line" function="distinct"/>
          <gap reason="selection" unit="lines" extent="10"/>
          <div/>
       </body>

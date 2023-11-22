@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 48B-20<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 48B-20<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_48B-20r.xml</idno>
          </publicationStmt>
@@ -74,34 +75,49 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0040_20_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0040_20_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <head><hi rend="underline">Major pieces:</hi></head>
+            <head>
+               <hi rend="underline">Major pieces:</hi>
+            </head>
             <list>
-               <item><label>1.</label>
+               <item>
+                  <label>1.</label>
                   <rs type="title">O Caso Vargas</rs>.</item>
-               <item><label>2.</label>
+               <item>
+                  <label>2.</label>
                   <rs type="title">Os Cumplices</rs>.</item>
-               <item><label>3.</label>
+               <item>
+                  <label>3.</label>
                   <rs type="title">As Minas do Quanza</rs>.</item>
             </list>
             <metamark rend="line" function="distinct"/>
             <list>
-               <item><label>1.</label>
+               <item>
+                  <label>1.</label>
                   <rs type="title">Conservatism</rs> (3 chapters or articles).</item>
-               <item><label>2.</label>
+               <item>
+                  <label>2.</label>
                   <rs type="title">Erostratus</rs>.</item>
-               <item><label>3.</label>
+               <item>
+                  <label>3.</label>
                   <rs type="title">Theory of Political Suffrage</rs>.</item>
-               <item><label>4.</label>
+               <item>
+                  <label>4.</label>
                   <rs type="title">Anteros</rs>.</item>
             </list>
          </div>

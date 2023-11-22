@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_O_banqueiro_anarchista.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Banqueiro_1.jpg"/>
@@ -237,9 +245,9 @@
                <said>— A mesma. A theoria anarchista, a verdadeira theoria, é só uma. Tenho a que
                   sempre tive, desde que me tornei anarchista. V. já vae ver... Ia eu dizendo que,
                   como era lúcido por natureza, me tornei anarchista consciente. Ora o que é um
-                  anarchista? É um revoltado contra a injustiça de nascermos desiguaes <hi
-                     rend="italic">socialmente</hi> — no fundo é só isto. E de ahi resulta, como é
-                  de ver, a revolta contra as convenções sociaes que tornam essa desegual<pc>-</pc><pb n="7"/>dade
+                  anarchista? É um revoltado contra a injustiça de nascermos desiguaes <hi rend="italic">socialmente</hi> — no fundo é só isto. E de ahi resulta, como é
+                  de ver, a revolta contra as convenções sociaes que tornam essa desegual<pc>-</pc>
+                  <pb n="7"/>dade
                   possivel. O que lhe estou indicando agora é o caminho psychologico, isto é, como é
                   que a gente se torna anarchista; já vamos á parte theorica do assumpto. Por agora,
                   comprehenda v. bem qual seria a revolta de um typo intelligente nas minhas
@@ -305,8 +313,7 @@
                   ficções e de cada uma d’ellas completamente, <hi rend="italic">é uma ficção
                      tambem</hi>. Empregar todo o nosso desejo, todo o nosso exforço, toda a nossa
                   intelligencia para implantar, ou contribuir para implantar, uma ficção social em
-                  vez de outra, é um absurdo, <pb n="8"/>quando não seja mesmo um crime, <hi rend="italic"
-                     >porque é fazer uma perturbação social com o fim expresso de deixar tudo na
+                  vez de outra, é um absurdo, <pb n="8"/>quando não seja mesmo um crime, <hi rend="italic">porque é fazer uma perturbação social com o fim expresso de deixar tudo na
                      mesma</hi>. Se achamos injustas as ficções sociaes, porque esmagam e opprimem o
                   que é natural no homem, para que empregar o nosso exforço em substituir-lhes
                   outras ficções, se o podemos empregar para as destruir a todas?</said>
@@ -320,8 +327,7 @@
                <said>«Porque é que o systema anarchista não seria realizavel? Nós partimos, todos os
                   avançados, do principio, não só de que o actual systema é injusto, mas de que ha
                   vantagem, porque ha justiça, em substituil-o por outro mais justo. Se não pensamos
-                  assim, não somos avançados, mas burguezes. Ora de onde vem esse criterio de <hi
-                     rend="italic">justiça</hi>? Do que <hi rend="italic">é natural e
+                  assim, não somos avançados, mas burguezes. Ora de onde vem esse criterio de <hi rend="italic">justiça</hi>? Do que <hi rend="italic">é natural e
                      verdadeiro</hi>, em opposição ás ficções sociaes e ás mentiras da convenção,
                   Ora o que é natural é o que é inteiramente natural, não o que é metade, ou
                   um-quarto, ou um-oitavo de natural. Muito bem. Ora, de duas coisas, uma: ou o
@@ -333,8 +339,7 @@
                   importa) tem por força que ser ficção, então do mal o menos; façamol-a dentro
                   d’essa ficção inevitavel, o mais natural possível, para que seja, por isso mesmo,
                   o mais justa possível. Qual é a ficção mais natural? Nenhuma é natural em si,
-                  porque é ficção; a mais natural, neste nosso caso, será aquella que <hi
-                     rend="italic">pareça</hi> mais natural, que <hi rend="italic">se sinta</hi>
+                  porque é ficção; a mais natural, neste nosso caso, será aquella que <hi rend="italic">pareça</hi> mais natural, que <hi rend="italic">se sinta</hi>
                   como mais natural. Qual é a que parece mais natural, ou que sintamos mais natural?
                   É aquella a que estamos habituados. (V. comprehende: o que é natural é o que é do
                   instincto; é o que, não sendo instincto, se parece em tudo com o instincto é o
@@ -376,7 +381,8 @@
                   seu meio social não existem <hi rend="italic">materialmente</hi> ainda. Assim,
                   chegamos á conclusão que, na passagem da sociedade burgueza para a sociedade
                   livre, a unica parte que pode haver de adaptação, de evolução ou de transição é
-                  <hi rend="italic">mental</hi>, é a gra<pc>-</pc><pb n="9"/>dual adaptação dos espiritos á idéa da
+                  <hi rend="italic">mental</hi>, é a gra<pc>-</pc>
+                  <pb n="9"/>dual adaptação dos espiritos á idéa da
                   sociedade livre... Em todo o caso, no campo da adaptação material, ainda ha uma
                   hypothese...</said>
             </p>
@@ -418,11 +424,9 @@
                   guerra, ou, nas verdadeiras palavras, um regimen militar despotico, porque o
                   estado de guerra é imposto á sociedade por uma parte d’ella — aquella parte que
                   assumiu revolucionariamente o poder. O que é que resulta? Resulta que quem se
-                  adaptar a esse regimen, como a unica coisa que elle é <hi rend="italic"
-                     >materialmente</hi>, <hi rend="italic">immediatamente</hi>, é um regimen
+                  adaptar a esse regimen, como a unica coisa que elle é <hi rend="italic">materialmente</hi>, <hi rend="italic">immediatamente</hi>, é um regimen
                   militar despotico, adapta-se a um regime militar despotico. A idéa, que conduziu
-                  os revolucionários, o fim, a que visaram, desapareceu por completo da <hi
-                     rend="italic">realidade</hi> social, que é occupada exclusivamente pelo
+                  os revolucionários, o fim, a que visaram, desapareceu por completo da <hi rend="italic">realidade</hi> social, que é occupada exclusivamente pelo
                   phenomeno guerreiro. De modo que o que sahe de uma ditadura revolucionaria — e
                   tanto mais completamente sahirá, quanto mais tempo essa dictadura durar — é uma
                   sociedade guerreira de typo dictatorial, isto é, um despotismo militar. Nem mesmo
@@ -541,8 +545,7 @@
             </p>
             <pb n="11"/>
             <p rend="indent-first">
-               <said>«É claro que esta liberdade, que deve haver cuidado em não estorvar, é <hi
-                     rend="italic">a liberdade futura</hi> e, no presente, <hi rend="italic">a
+               <said>«É claro que esta liberdade, que deve haver cuidado em não estorvar, é <hi rend="italic">a liberdade futura</hi> e, no presente, <hi rend="italic">a
                      liberdade dos opprimidos pelas ficções sociaes</hi>. Claro está que não temos
                   que olhar a não estorvar a «liberdade» dos poderosos, dos bem-situados, de todos
                   que representam as ficções sociaes e teem vantagem nellas. Essa não é liberdade; é
@@ -601,8 +604,7 @@
                   eu fôsse christão, não era anarchista, porque então as taes desegualdades sociaes
                   não tinham importancia na nossa curta vida: eram só condições da nossa provação, e
                   lá seriam compensadas na vida eterna. Mas eu não era christão, como não sou, e
-                  perguntava-me: mas por quem é que eu me vou sacrificar nisto tudo? Mais ainda: <hi
-                     rend="italic">porque</hi> é que eu me vou sacrificar?</said>
+                  perguntava-me: mas por quem é que eu me vou sacrificar nisto tudo? Mais ainda: <hi rend="italic">porque</hi> é que eu me vou sacrificar?</said>
             </p>
             <p rend="indent-first">
                <said>«Vieram-me momentos de descrença; e V. comprehende que era justificada... Sou
@@ -675,8 +677,7 @@
             </p>
             <p rend="indent-first">
                <said>«Estava bem — vamos lá — que estivesse disposto a sacrificar-me, sem recompensa
-                  nenhuma propriamente pessoal, isto é, sem recompensa nenhuma verdadeiramente <hi
-                     rend="italic">natural</hi>. Mas supponhamos que a sociedade futura não dava em
+                  nenhuma propriamente pessoal, isto é, sem recompensa nenhuma verdadeiramente <hi rend="italic">natural</hi>. Mas supponhamos que a sociedade futura não dava em
                   nada do que eu esperava, que nunca havia a sociedade livre, a que diabo é que eu,
                   nesse caso, me estava sacrificando? Sacrificar-me a uma idéa sem recompensa
                   pessoal, sem eu ganhar nada com o meu exforço por essa idéa, vá; mas sacrificar-me
@@ -758,8 +759,7 @@
                   natural!…</said>
             </p>
             <p rend="indent-first">
-               <said>— Será. Já vamos a isso. O que lhe peço que note é que é <hi rend="italic"
-                     >exactamente o contrario da doutrina anarchista</hi>. Repare bem que isto se
+               <said>— Será. Já vamos a isso. O que lhe peço que note é que é <hi rend="italic">exactamente o contrario da doutrina anarchista</hi>. Repare bem que isto se
                   passava num grupo pequeno, num grupo sem influencia nem importancia, num grupo a
                   quem não estava confiada a solução de nenhuma questão grave ou a decisão sobre
                   qualquer assumpto de vulto. E repare que se passava num <pb n="14"/>grupo de gente que se
@@ -783,8 +783,7 @@
                   outros, ou os levavam para onde queriam, não faziam isso pela força do dinheiro,
                   ou da posição social, ou de qualquer authoridade de natureza ficticia, que se
                   arrogassem; faziam-o por uma acção de qualquer especie fóra das ficções sociaes.
-                  Quer dizer, esta tyrannia era, relativamente ás ficções sociaes, <hi rend="italic"
-                     >uma tyrannia nova</hi>. E era uma tyrannia exercida sobre gente essencialmente
+                  Quer dizer, esta tyrannia era, relativamente ás ficções sociaes, <hi rend="italic">uma tyrannia nova</hi>. E era uma tyrannia exercida sobre gente essencialmente
                   opprimida já pelas ficções sociaes. Era, ainda por cima, tyrannia exercida entre
                   si por gente cujo intuito sincero não era senão destruir tyrannia e crear
                   liberdade.</said>
@@ -868,8 +867,7 @@
                   caso. Ora um typo que, sem ser por uma razão derivada das ficções sociaes, manda
                   noutro, por força que o faz por lhe ser superior em uma ou outra das qualidades
                   naturaes. Domina-o pelo emprego das suas qualidades naturaes. Mas ha uma coisa a
-                  ver: esse emprego das qualidades naturaes será legitimo, isto é, será <hi
-                     rend="italic">natural</hi>?</said>
+                  ver: esse emprego das qualidades naturaes será legitimo, isto é, será <hi rend="italic">natural</hi>?</said>
             </p>
             <p rend="indent-first">
                <said>«Ora qual é o emprego natural das nossas qualidades naturaes? O servir os fins
@@ -895,8 +893,7 @@
                   das qualidades mais naturaes. Ora, d’estas duas hypotheses, qual é que seria a
                   verdadeira? De um modo satisfactorio — isto é, rigorosamente logico ou scientifico
                   — era impossivel determinar. O raciocinio não pode entrar com o problema, porque
-                  elle é de ordem historica, ou scientifica, e depende do conhecimento de <hi
-                     rend="italic">factos</hi>. Por seu lado, a sciencia tambem nos não ajuda,
+                  elle é de ordem historica, ou scientifica, e depende do conhecimento de <hi rend="italic">factos</hi>. Por seu lado, a sciencia tambem nos não ajuda,
                   porque, por mais longe que recuemos na historia, encontramos sempre o homem
                   vivendo sob um ou outro systema de tyrannia social, e portanto sempre num estado
                   que nos não permite averiguar como é o homem quando vive em circumstancias pura e
@@ -918,8 +915,7 @@
                   tyrannia, sem crear entre si uma tyrannia nova, supplementar á das ficções
                   sociaes, sem destruir na práctica tudo quanto querem na theoria, sem
                   involuntariamente estorvar o mais possivel o proprio intuito que querem promover.
-                  O que ha a fazer? É muito simples… É trabalharmos todos para o mesmo fim, <hi
-                     rend="italic">mas separados</hi>.</said>
+                  O que ha a fazer? É muito simples… É trabalharmos todos para o mesmo fim, <hi rend="italic">mas separados</hi>.</said>
             </p>
             <p rend="indent-first">
                <said>— Separados?!</said>
@@ -956,8 +952,7 @@
                   hereditario sobre as qualidades que a Natureza deu.</said>
             </p>
             <p rend="indent-first">
-               <said>«É claro que toda esta tactica se applica ao que eu chamei o <hi rend="italic"
-                     >periodo de preparação</hi> para a revolução social. Arruinadas as defezas
+               <said>«É claro que toda esta tactica se applica ao que eu chamei o <hi rend="italic">periodo de preparação</hi> para a revolução social. Arruinadas as defezas
                   burguezas, e reduzida a sociedade inteira ao estado de acceitação das doutrinas
                   anarchistas, faltando só fazer a revolução social, então, para o golpe final, é
                   que não pode continuar a acção separada. Mas, nessa altura, já a sociedade livre
@@ -1069,13 +1064,11 @@
                   futura. Ora como diabo se faz isso na práctica?</said>
             </p>
             <p rend="indent-first">
-               <said>«Ora o que é combater na práctica? Combater na práctica é a guerra, é <hi
-                     rend="italic">uma</hi> guerra, pelo menos. Como é que se faz guerra ás ficções
+               <said>«Ora o que é combater na práctica? Combater na práctica é a guerra, é <hi rend="italic">uma</hi> guerra, pelo menos. Como é que se faz guerra ás ficções
                   sociaes? Antes de mais nada, como é que se faz guerra? Como é que se vence o
                   inimigo em qualquer guerra? De uma de duas maneiras: ou matando-o, isto é,
                   destruindo-o; ou aprisionando-o, isto é, subjugando-o, reduzindo-o á inactividade.
-                     <hi rend="italic">Destruir</hi> as ficções sociaes não podia eu fazer; <hi
-                     rend="italic">destruir</hi> as ficções sociaes só o podia fazer a revolução
+                     <hi rend="italic">Destruir</hi> as ficções sociaes não podia eu fazer; <hi rend="italic">destruir</hi> as ficções sociaes só o podia fazer a revolução
                   social. Até alli, as ficções sociaes podiam estar abaladas, cambaleando, por um
                   fio; mas <hi rend="italic">destruidas</hi>, só o estariam com a vinda da sociedade
                   livre e a queda positiva da sociedade burgueza. O mais que eu poderia fazer nesse
@@ -1101,8 +1094,7 @@
                   possa dar tiros… V. comprehende bem? Não era como o soldado de um exercito que
                   mata doze soldados de um exercito contrario; era como um soldado que mata doze
                   civis da nação do outro exercito. É matar estupidamente, porque não se elimina
-                  combatente nenhum… Eu não podia portanto pensar em <hi rend="italic"
-                  >destruir</hi>, nem no todo nem em nenhuma parte, as ficções sociaes. Tinha então
+                  combatente nenhum… Eu não podia portanto pensar em <hi rend="italic">destruir</hi>, nem no todo nem em nenhuma parte, as ficções sociaes. Tinha então
                   que subjugal-as, que vencel-as subjugando-as, reduzindo-as á inactividade.</said>
             </p>
             <p rend="indent-first">Apontou para mim o indicador direito súbito.</p>
@@ -1163,15 +1155,12 @@
                <said>— Sim.</said>
             </p>
             <p rend="indent-first">
-               <said>— Ora veja como ficaram resolvidas… As difficuldades eram estas: não é <hi
-                     rend="italic">natural</hi> trabalhar por qualquer coisa, seja o que fôr, sem
-                  uma compensação <hi rend="italic">natural</hi>, isto é, egoista; e não é <hi
-                     rend="italic">natural</hi> dar o nosso exforço a qualquer fim sem ter a
+               <said>— Ora veja como ficaram resolvidas… As difficuldades eram estas: não é <hi rend="italic">natural</hi> trabalhar por qualquer coisa, seja o que fôr, sem
+                  uma compensação <hi rend="italic">natural</hi>, isto é, egoista; e não é <hi rend="italic">natural</hi> dar o nosso exforço a qualquer fim sem ter a
                   compensação de saber <hi rend="italic">que esse fim se attinge</hi>. As duas
                   difficuldades eram estas; ora repare como ficam resolvidas pelo processo de
                   trabalho anarchista que o meu raciocinio me levou a descobrir como sendo o unico
-                  verdadeiro… O processo dá em resultado eu enriquecer; <hi rend="italic"
-                     >portanto</hi>, <hi rend="italic">compensação egoista</hi>. O processo visa ao
+                  verdadeiro… O processo dá em resultado eu enriquecer; <hi rend="italic">portanto</hi>, <hi rend="italic">compensação egoista</hi>. O processo visa ao
                   conseguimento da liberdade; ora eu, tornando-me superior á força do dinheiro, isto
                   é, libertando-me d’ella, <hi rend="italic">consigo liberdade</hi>. Consigo
                   liberdade só para mim, é certo; mas é que como já lhe provei, a liberdade para
@@ -1198,8 +1187,7 @@
                   bombas e dá tiros, bem sabe que mata, e bem sabe que as suas doutrinas não incluem
                   a pena de morte. Ataca uma immoralidade com um crime, porque acha que essa
                   immoralidade vale um crime para se destruir. Elle é estupido quanto ao processo,
-                  porque, como já lhe mostrei, <pb n="20"/>esse processo é errado e contraproducente <hi
-                     rend="italic">como processo anarchista</hi>; agora quanto á moral do processo
+                  porque, como já lhe mostrei, <pb n="20"/>esse processo é errado e contraproducente <hi rend="italic">como processo anarchista</hi>; agora quanto á moral do processo
                   elle é intelligente. Ora o meu processo estava certo, e eu servia-me
                   legitimamente, como anarchista, de todos os meios para enriquecer. Hoje realizei o
                   meu limitado sonho de anarchista práctico e lucido. Sou livre. Faço o que quero,
@@ -1222,11 +1210,9 @@
                   resultado da minha acção de combate contra as ficções sociaes, é uma tyrannia que
                   não parte de mim, que portanto eu não creei; <hi rend="italic">está nas ficções
                      sociaes, eu não a juntei a ellas</hi>. Essa tyrania <hi rend="italic">é a
-                     propria tyrannia das ficções sociaes</hi>; e eu não podia, nem me propuz, <hi
-                     rend="italic">destruir</hi> as ficções sociaes. Pela centesima vez lhe repito:
+                     propria tyrannia das ficções sociaes</hi>; e eu não podia, nem me propuz, <hi rend="italic">destruir</hi> as ficções sociaes. Pela centesima vez lhe repito:
                   só a revolução social pode <hi rend="italic">destruir</hi> as ficções sociaes;
-                  antes d’isso, a acção anarchista perfeita, como a minha, só pode <hi rend="italic"
-                     >subjugar</hi> as ficções sociaes, subjugal-as em relação só ao anarchista que
+                  antes d’isso, a acção anarchista perfeita, como a minha, só pode <hi rend="italic">subjugar</hi> as ficções sociaes, subjugal-as em relação só ao anarchista que
                   põe esse processo em practica, porque esse processo não permitte uma mais larga
                   sujeição d’essas ficções. Não é de não crear tyrannia que se trata: é de não crear
                      <hi rend="italic">tyrannia nova</hi>, tyrannia <hi rend="italic">onde não
@@ -1248,8 +1234,7 @@
                   incarnam; esses são, por assim dizer, <hi rend="italic">os meios</hi> de que as
                   ficções se servem para tyrannizar, como a faca é o meio de que se pode servir o
                   assassino. E v. decerto não julga que abolindo as facas abole os assassinos… Olhe…
-                  Destrua v. <hi rend="italic">todos</hi> os capitalistas do mundo, mas <hi
-                     rend="italic">sem destruir o capital</hi>… No dia seguinte o capital, já nas
+                  Destrua v. <hi rend="italic">todos</hi> os capitalistas do mundo, mas <hi rend="italic">sem destruir o capital</hi>… No dia seguinte o capital, já nas
                   mãos de outros, continuará, por meio <hi rend="italic">d’esses</hi>, a sua
                   tyrannia. Destrua, não os capitalistas, mas o capital; quantos capitalistas
                   ficam?… Vê?…</said>
@@ -1479,9 +1464,9 @@
                <said>— A mesma. A teoria anarquista, a verdadeira teoria, é só uma. Tenho a que
                   sempre tive, desde que me tornei anarquista. V. já vai ver... Ia eu dizendo que,
                   como era lúcido por natureza, me tornei anarquista consciente. Ora o que é um
-                  anarquista? É um revoltado contra a injustiça de nascermos desiguais <hi
-                     rend="italic">socialmente</hi> — no fundo é só isto. E daí resulta, como é
-                  de ver, a revolta contra as convenções sociais que tornam essa desigual<pc>-</pc><pb n="7"/>dade
+                  anarquista? É um revoltado contra a injustiça de nascermos desiguais <hi rend="italic">socialmente</hi> — no fundo é só isto. E daí resulta, como é
+                  de ver, a revolta contra as convenções sociais que tornam essa desigual<pc>-</pc>
+                  <pb n="7"/>dade
                   possível. O que lhe estou indicando agora é o caminho psicológico, isto é, como é
                   que a gente se torna anarquista; já vamos à parte teórica do assunto. Por agora,
                   compreenda v. bem qual seria a revolta de um tipo inteligente nas minhas
@@ -1547,8 +1532,7 @@
                   ficções e de cada uma delas completamente, <hi rend="italic">é uma ficção
                      também</hi>. Empregar todo o nosso desejo, todo o nosso esforço, toda a nossa
                   inteligência para implantar, ou contribuir para implantar, uma ficção social em
-                  vez de outra, é um absurdo, <pb n="8"/>quando não seja mesmo um crime, <hi rend="italic"
-                     >porque é fazer uma perturbação social com o fim expresso de deixar tudo na
+                  vez de outra, é um absurdo, <pb n="8"/>quando não seja mesmo um crime, <hi rend="italic">porque é fazer uma perturbação social com o fim expresso de deixar tudo na
                      mesma</hi>. Se achamos injustas as ficções sociais, porque esmagam e oprimem o
                   que é natural no homem, para que empregar o nosso esforço em substituir-lhes
                   outras ficções, se o podemos empregar para as destruir a todas?</said>
@@ -1562,8 +1546,7 @@
                <said>«Porque é que o sistema anarquista não seria realizável? Nós partimos, todos os
                   avançados, do princípio, não só de que o atual sistema é injusto, mas de que há
                   vantagem, porque há justiça, em substituí-lo por outro mais justo. Se não pensamos
-                  assim, não somos avançados, mas burgueses. Ora de onde vem esse critério de <hi
-                     rend="italic">justiça</hi>? Do que <hi rend="italic">é natural e
+                  assim, não somos avançados, mas burgueses. Ora de onde vem esse critério de <hi rend="italic">justiça</hi>? Do que <hi rend="italic">é natural e
                      verdadeiro</hi>, em oposição às ficções sociais e às mentiras da convenção,
                   Ora o que é natural é o que é inteiramente natural, não o que é metade, ou
                   um quarto, ou um oitavo de natural. Muito bem. Ora, de duas coisas, uma: ou o
@@ -1575,8 +1558,7 @@
                   importa) tem por força que ser ficção, então do mal o menos; façamo-la dentro
                   dessa ficção inevitável, o mais natural possível, para que seja, por isso mesmo,
                   o mais justa possível. Qual é a ficção mais natural? Nenhuma é natural em si,
-                  porque é ficção; a mais natural, neste nosso caso, será aquela que <hi
-                     rend="italic">pareça</hi> mais natural, que <hi rend="italic">se sinta</hi>
+                  porque é ficção; a mais natural, neste nosso caso, será aquela que <hi rend="italic">pareça</hi> mais natural, que <hi rend="italic">se sinta</hi>
                   como mais natural. Qual é a que parece mais natural, ou que sintamos mais natural?
                   É aquela a que estamos habituados. (V. compreende: o que é natural é o que é do
                   instinto; é o que, não sendo instinto, se parece em tudo com o instinto é o
@@ -1618,7 +1600,8 @@
                   seu meio social não existem <hi rend="italic">materialmente</hi> ainda. Assim,
                   chegamos à conclusão que, na passagem da sociedade burguesa para a sociedade
                   livre, a única parte que pode haver de adaptação, de evolução ou de transição é
-                  <hi rend="italic">mental</hi>, é a gra<pc>-</pc><pb n="9"/>dual adaptação dos espíritos à ideia da
+                  <hi rend="italic">mental</hi>, é a gra<pc>-</pc>
+                  <pb n="9"/>dual adaptação dos espíritos à ideia da
                   sociedade livre... Em todo o caso, no campo da adaptação material, ainda há uma
                   hipótese...</said>
             </p>
@@ -1660,11 +1643,9 @@
                   guerra, ou, nas verdadeiras palavras, um regímen militar despótico, porque o
                   estado de guerra é imposto à sociedade por uma parte dela — aquela parte que
                   assumiu revolucionariamente o poder. O que é que resulta? Resulta que quem se
-                  adaptar a esse regímen, como a única coisa que ele é <hi rend="italic"
-                     >materialmente</hi>, <hi rend="italic">imediatamente</hi>, é um regímen
+                  adaptar a esse regímen, como a única coisa que ele é <hi rend="italic">materialmente</hi>, <hi rend="italic">imediatamente</hi>, é um regímen
                   militar despótico, adapta-se a um regime militar despótico. A ideia, que conduziu
-                  os revolucionários, o fim, a que visaram, desapareceu por completo da <hi
-                     rend="italic">realidade</hi> social, que é ocupada exclusivamente pelo
+                  os revolucionários, o fim, a que visaram, desapareceu por completo da <hi rend="italic">realidade</hi> social, que é ocupada exclusivamente pelo
                   fenómeno guerreiro. De modo que o que sai de uma ditadura revolucionária — e
                   tanto mais completamente sairá, quanto mais tempo essa ditadura durar — é uma
                   sociedade guerreira de tipo ditatorial, isto é, um despotismo militar. Nem mesmo
@@ -1783,8 +1764,7 @@
             </p>
             <pb n="11"/>
             <p rend="indent-first">
-               <said>«É claro que esta liberdade, que deve haver cuidado em não estorvar, é <hi
-                     rend="italic">a liberdade futura</hi> e, no presente, <hi rend="italic">a
+               <said>«É claro que esta liberdade, que deve haver cuidado em não estorvar, é <hi rend="italic">a liberdade futura</hi> e, no presente, <hi rend="italic">a
                      liberdade dos oprimidos pelas ficções sociais</hi>. Claro está que não temos
                   que olhar a não estorvar a «liberdade» dos poderosos, dos bem-situados, de todos
                   que representam as ficções sociais e têm vantagem nelas. Essa não é liberdade; é
@@ -1843,8 +1823,7 @@
                   eu fosse cristão, não era anarquista, porque então as tais desigualdades sociais
                   não tinham importância na nossa curta vida: eram só condições da nossa provação, e
                   lá seriam compensadas na vida eterna. Mas eu não era cristão, como não sou, e
-                  perguntava-me: mas por quem é que eu me vou sacrificar nisto tudo? Mais ainda: <hi
-                     rend="italic">porque</hi> é que eu me vou sacrificar?</said>
+                  perguntava-me: mas por quem é que eu me vou sacrificar nisto tudo? Mais ainda: <hi rend="italic">porque</hi> é que eu me vou sacrificar?</said>
             </p>
             <p rend="indent-first">
                <said>«Vieram-me momentos de descrença; e V. compreende que era justificada... Sou
@@ -1917,8 +1896,7 @@
             </p>
             <p rend="indent-first">
                <said>«Estava bem — vamos lá — que estivesse disposto a sacrificar-me, sem recompensa
-                  nenhuma propriamente pessoal, isto é, sem recompensa nenhuma verdadeiramente <hi
-                     rend="italic">natural</hi>. Mas suponhamos que a sociedade futura não dava em
+                  nenhuma propriamente pessoal, isto é, sem recompensa nenhuma verdadeiramente <hi rend="italic">natural</hi>. Mas suponhamos que a sociedade futura não dava em
                   nada do que eu esperava, que nunca havia a sociedade livre, a que diabo é que eu,
                   nesse caso, me estava sacrificando? Sacrificar-me a uma ideia sem recompensa
                   pessoal, sem eu ganhar nada com o meu esforço por essa ideia, vá; mas sacrificar-me
@@ -2000,8 +1978,7 @@
                   natural!…</said>
             </p>
             <p rend="indent-first">
-               <said>— Será. Já vamos a isso. O que lhe peço que note é que é <hi rend="italic"
-                     >exatamente o contrário da doutrina anarquista</hi>. Repare bem que isto se
+               <said>— Será. Já vamos a isso. O que lhe peço que note é que é <hi rend="italic">exatamente o contrário da doutrina anarquista</hi>. Repare bem que isto se
                   passava num grupo pequeno, num grupo sem influência nem importância, num grupo a
                   quem não estava confiada a solução de nenhuma questão grave ou a decisão sobre
                   qualquer assunto de vulto. E repare que se passava num <pb n="14"/>grupo de gente que se
@@ -2025,8 +2002,7 @@
                   outros, ou os levavam para onde queriam, não faziam isso pela força do dinheiro,
                   ou da posição social, ou de qualquer autoridade de natureza fictícia, que se
                   arrogassem; faziam-no por uma ação de qualquer espécie fora das ficções sociais.
-                  Quer dizer, esta tirania era, relativamente às ficções sociais, <hi rend="italic"
-                     >uma tirania nova</hi>. E era uma tirania exercida sobre gente essencialmente
+                  Quer dizer, esta tirania era, relativamente às ficções sociais, <hi rend="italic">uma tirania nova</hi>. E era uma tirania exercida sobre gente essencialmente
                   oprimida já pelas ficções sociais. Era, ainda por cima, tirania exercida entre
                   si por gente cujo intuito sincero não era senão destruir tirania e criar
                   liberdade.</said>
@@ -2110,8 +2086,7 @@
                   caso. Ora um tipo que, sem ser por uma razão derivada das ficções sociais, manda
                   noutro, por força que o faz por lhe ser superior em uma ou outra das qualidades
                   naturaes. Domina-o pelo emprego das suas qualidades naturais. Mas há uma coisa a
-                  ver: esse emprego das qualidades naturais será legitimo, isto é, será <hi
-                     rend="italic">natural</hi>?</said>
+                  ver: esse emprego das qualidades naturais será legitimo, isto é, será <hi rend="italic">natural</hi>?</said>
             </p>
             <p rend="indent-first">
                <said>«Ora qual é o emprego natural das nossas qualidades naturais? O servir os fins
@@ -2137,8 +2112,7 @@
                   das qualidades mais naturais. Ora, destas duas hipóteses, qual é que seria a
                   verdadeira? De um modo satisfatório — isto é, rigorosamente lógico ou científico
                   — era impossível determinar. O raciocínio não pode entrar com o problema, porque
-                  ele é de ordem histórica, ou científica, e depende do conhecimento de <hi
-                     rend="italic">factos</hi>. Por seu lado, a ciência também nos não ajuda,
+                  ele é de ordem histórica, ou científica, e depende do conhecimento de <hi rend="italic">factos</hi>. Por seu lado, a ciência também nos não ajuda,
                   porque, por mais longe que recuemos na história, encontramos sempre o homem
                   vivendo sob um ou outro sistema de tirania social, e portanto sempre num estado
                   que nos não permite averiguar como é o homem quando vive em circunstâncias pura e
@@ -2160,8 +2134,7 @@
                   tirania, sem criar entre si uma tirania nova, suplementar à das ficções
                   sociais, sem destruir na prática tudo quanto querem na teoria, sem
                   involuntariamente estorvar o mais possível o próprio intuito que querem promover.
-                  O que há a fazer? É muito simples… É trabalharmos todos para o mesmo fim, <hi
-                     rend="italic">mas separados</hi>.</said>
+                  O que há a fazer? É muito simples… É trabalharmos todos para o mesmo fim, <hi rend="italic">mas separados</hi>.</said>
             </p>
             <p rend="indent-first">
                <said>— Separados?!</said>
@@ -2198,8 +2171,7 @@
                   hereditário sobre as qualidades que a Natureza deu.</said>
             </p>
             <p rend="indent-first">
-               <said>«É claro que toda esta tática se aplica ao que eu chamei o <hi rend="italic"
-                     >período de preparação</hi> para a revolução social. Arruinadas as defesas
+               <said>«É claro que toda esta tática se aplica ao que eu chamei o <hi rend="italic">período de preparação</hi> para a revolução social. Arruinadas as defesas
                   burguesas, e reduzida a sociedade inteira ao estado de aceitação das doutrinas
                   anarquistas, faltando só fazer a revolução social, então, para o golpe final, é
                   que não pode continuar a ação separada. Mas, nessa altura, já a sociedade livre
@@ -2311,13 +2283,11 @@
                   futura. Ora como diabo se faz isso na prática?</said>
             </p>
             <p rend="indent-first">
-               <said>«Ora o que é combater na prática? Combater na prática é a guerra, é <hi
-                     rend="italic">uma</hi> guerra, pelo menos. Como é que se faz guerra às ficções
+               <said>«Ora o que é combater na prática? Combater na prática é a guerra, é <hi rend="italic">uma</hi> guerra, pelo menos. Como é que se faz guerra às ficções
                   sociais? Antes de mais nada, como é que se faz guerra? Como é que se vence o
                   inimigo em qualquer guerra? De uma de duas maneiras: ou matando-o, isto é,
                   destruindo-o; ou aprisionando-o, isto é, subjugando-o, reduzindo-o à inatividade.
-                     <hi rend="italic">Destruir</hi> as ficções sociais não podia eu fazer; <hi
-                     rend="italic">destruir</hi> as ficções sociais só o podia fazer a revolução
+                     <hi rend="italic">Destruir</hi> as ficções sociais não podia eu fazer; <hi rend="italic">destruir</hi> as ficções sociais só o podia fazer a revolução
                   social. Até ali, as ficções sociais podiam estar abaladas, cambaleando, por um
                   fio; mas <hi rend="italic">destruídas</hi>, só o estariam com a vinda da sociedade
                   livre e a queda positiva da sociedade burguesa. O mais que eu poderia fazer nesse
@@ -2343,8 +2313,7 @@
                   possa dar tiros… V. compreende bem? Não era como o soldado de um exército que
                   mata doze soldados de um exército contrário; era como um soldado que mata doze
                   civis da nação do outro exército. É matar estupidamente, porque não se elimina
-                  combatente nenhum… Eu não podia portanto pensar em <hi rend="italic"
-                  >destruir</hi>, nem no todo nem em nenhuma parte, as ficções sociais. Tinha então
+                  combatente nenhum… Eu não podia portanto pensar em <hi rend="italic">destruir</hi>, nem no todo nem em nenhuma parte, as ficções sociais. Tinha então
                   que subjugá-las, que vencê-las subjugando-as, reduzindo-as à inatividade.</said>
             </p>
             <p rend="indent-first">Apontou para mim o indicador direito súbito.</p>
@@ -2405,15 +2374,12 @@
                <said>— Sim.</said>
             </p>
             <p rend="indent-first">
-               <said>— Ora veja como ficaram resolvidas… As dificuldades eram estas: não é <hi
-                     rend="italic">natural</hi> trabalhar por qualquer coisa, seja o que for, sem
-                  uma compensação <hi rend="italic">natural</hi>, isto é, egoísta; e não é <hi
-                     rend="italic">natural</hi> dar o nosso esforço a qualquer fim sem ter a
+               <said>— Ora veja como ficaram resolvidas… As dificuldades eram estas: não é <hi rend="italic">natural</hi> trabalhar por qualquer coisa, seja o que for, sem
+                  uma compensação <hi rend="italic">natural</hi>, isto é, egoísta; e não é <hi rend="italic">natural</hi> dar o nosso esforço a qualquer fim sem ter a
                   compensação de saber <hi rend="italic">que esse fim se atinge</hi>. As duas
                   dificuldades eram estas; ora repare como ficam resolvidas pelo processo de
                   trabalho anarquista que o meu raciocínio me levou a descobrir como sendo o único
-                  verdadeiro… O processo dá em resultado eu enriquecer; <hi rend="italic"
-                     >portanto</hi>, <hi rend="italic">compensação egoísta</hi>. O processo visa ao
+                  verdadeiro… O processo dá em resultado eu enriquecer; <hi rend="italic">portanto</hi>, <hi rend="italic">compensação egoísta</hi>. O processo visa ao
                   conseguimento da liberdade; ora eu, tornando-me superior à força do dinheiro, isto
                   é, libertando-me dela, <hi rend="italic">consigo liberdade</hi>. Consigo
                   liberdade só para mim, é certo; mas é que como já lhe provei, a liberdade para
@@ -2440,8 +2406,7 @@
                   bombas e dá tiros, bem sabe que mata, e bem sabe que as suas doutrinas não incluem
                   a pena de morte. Ataca uma imoralidade com um crime, porque acha que essa
                   imoralidade vale um crime para se destruir. Ele é estúpido quanto ao processo,
-                  porque, como já lhe mostrei, <pb n="20"/>esse processo é errado e contraproducente <hi
-                     rend="italic">como processo anarquista</hi>; agora quanto à moral do processo
+                  porque, como já lhe mostrei, <pb n="20"/>esse processo é errado e contraproducente <hi rend="italic">como processo anarquista</hi>; agora quanto à moral do processo
                   ele é inteligente. Ora o meu processo estava certo, e eu servia-me
                   legitimamente, como anarquista, de todos os meios para enriquecer. Hoje realizei o
                   meu limitado sonho de anarquista prático e lúcido. Sou livre. Faço o que quero,
@@ -2464,11 +2429,9 @@
                   resultado da minha ação de combate contra as ficções sociais, é uma tirania que
                   não parte de mim, que portanto eu não criei; <hi rend="italic">está nas ficções
                      sociais, eu não a juntei a elas</hi>. Essa tirania <hi rend="italic">é a
-                     propria tirania das ficções sociais</hi>; e eu não podia, nem me propus, <hi
-                     rend="italic">destruir</hi> as ficções sociais. Pela centésima vez lhe repito:
+                     propria tirania das ficções sociais</hi>; e eu não podia, nem me propus, <hi rend="italic">destruir</hi> as ficções sociais. Pela centésima vez lhe repito:
                   só a revolução social pode <hi rend="italic">destruir</hi> as ficções sociais;
-                  antes disso, a ação anarquista perfeita, como a minha, só pode <hi rend="italic"
-                     >subjugar</hi> as ficções sociais, subjugá-las em relação só ao anarquista que
+                  antes disso, a ação anarquista perfeita, como a minha, só pode <hi rend="italic">subjugar</hi> as ficções sociais, subjugá-las em relação só ao anarquista que
                   põe esse processo em prática, porque esse processo não permite uma mais larga
                   sujeição dessas ficções. Não é de não criar tirania que se trata: é de não criar
                      <hi rend="italic">tirania nova</hi>, tirania <hi rend="italic">onde não
@@ -2490,8 +2453,7 @@
                   encarnam; esses são, por assim dizer, <hi rend="italic">os meios</hi> de que as
                   ficções se servem para tiranizar, como a faca é o meio de que se pode servir o
                   assassino. E v. decerto não julga que abolindo as facas abole os assassinos… Olhe…
-                  Destrua v. <hi rend="italic">todos</hi> os capitalistas do mundo, mas <hi
-                     rend="italic">sem destruir o capital</hi>… No dia seguinte o capital, já nas
+                  Destrua v. <hi rend="italic">todos</hi> os capitalistas do mundo, mas <hi rend="italic">sem destruir o capital</hi>… No dia seguinte o capital, já nas
                   mãos de outros, continuará, por meio <hi rend="italic">desses</hi>, a sua
                   tirania. Destrua, não os capitalistas, mas o capital; quantos capitalistas
                   ficam?… Vê?…</said>

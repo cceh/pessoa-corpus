@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -43,7 +43,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_750.xml</idno>
          </publicationStmt>
@@ -63,7 +63,8 @@
                         <rs type="name" key="FP">Fernando Pessoa</rs>
                      </author>
                      <note type="genre">
-                        <rs type="genre" key="lista_editorial">Lista editorial</rs></note>
+                        <rs type="genre" key="lista_editorial">Lista editorial</rs>
+                     </note>
                      <textLang mainLang="pt"/>
                   </msItemStruct>
                </msContents>
@@ -76,7 +77,15 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="doc_BNP_E3_750r.jpg"/>
@@ -86,17 +95,22 @@
       <body>
          <div>
             <list>
-               <head><hi rend="underline">
+               <head>
+                  <hi rend="underline">
                      <choice>
                         <abbr>GCP</abbr>
                         <expan>G<ex>remio</ex>
-                           <ex>de</ex> C<ex>ultura</ex> P<ex>ortugueza</ex></expan>
-                     </choice>: —</hi></head>
+                           <ex>de</ex> C<ex>ultura</ex> P<ex>ortugueza</ex>
+                        </expan>
+                     </choice>: —</hi>
+               </head>
                <item rend="indent-2">
-                  <label>1.</label> Secção de informação com<pc>-</pc><lb/>mercial e de agencia
+                  <label>1.</label> Secção de informação com<pc>-</pc>
+                  <lb/>mercial e de agencia
                   util<lb/> ao commercio e industria. </item>
                <item rend="indent-2">
-                  <label>2.</label> Secção de bases litterarias, in<pc>-</pc><lb/>vestigações, etc. </item>
+                  <label>2.</label> Secção de bases litterarias, in<pc>-</pc>
+                  <lb/>vestigações, etc. </item>
                <item rend="indent-2">
                   <label>3.</label> Secção editorial, (ha relatorio <lb/>preparado). </item>
                <item rend="indent-2">

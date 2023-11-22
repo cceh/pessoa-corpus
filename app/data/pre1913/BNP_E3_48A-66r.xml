@@ -51,29 +51,45 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-48a-1-66_JPG_24-C-R0150/bn-acpc-e-e3-48a-1-66_0096_48_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-48a-1-66_JPG_24-C-R0150/bn-acpc-e-e3-48a-1-66_0096_48_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48a-66r">
       <body>
-         <note><gap reason="selection" unit="characters-numbers" extent="several"/> </note>
+         <note>
+            <gap reason="selection" unit="characters-numbers" extent="several"/>
+         </note>
          <list>
-            <item xml:id="I1"> Descriptions of Portuguese Scene (<metamark rend="down arrow" target="#I2"  ></metamark>caused by <choice><abbr>Dr<am>.</am></abbr></choice> Nabos’ propounding Helvetiu’s theory.)
+            <item xml:id="I1"> Descriptions of Portuguese Scene (<metamark rend="down arrow" target="#I2"/>caused by <choice>
+                  <abbr>Dr<am>.</am>
+                  </abbr>
+               </choice> Nabos’ propounding Helvetiu’s theory.)
             </item>
-            <item xml:id="I2">Plausibility of all Philosophies</item>        
+            <item xml:id="I2">Plausibility of all Philosophies</item>
             <item xml:id="I3">Poetry of small things.</item>
             <item xml:id="I4">Imagination earthly &amp;  material.</item>
-           
-         </list> 
+         </list>
          <note target="range(I1,I2)" type="addition">
-            <metamark rend="down arrow" function="grouping"/></note>
+            <metamark rend="down arrow" function="grouping"/>
+         </note>
          <metamark rend="line" function="distinct"/>
-         <note><gap reason="selection" unit="characters-numbers" extent="several"/> </note>
-         <note><gap reason="selection" unit="Figures" extent="several"/> </note>
-         <div/>  
+         <note>
+            <gap reason="selection" unit="characters-numbers" extent="several"/>
+         </note>
+         <note>
+            <gap reason="selection" unit="Figures" extent="several"/>
+         </note>
+         <div/>
       </body>
    </text>
 </TEI>

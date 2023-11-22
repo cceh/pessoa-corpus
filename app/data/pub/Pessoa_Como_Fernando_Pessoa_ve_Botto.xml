@@ -19,7 +19,7 @@
             <respStmt>
                <resp>Atualização ortográfica</resp>
                <name>Inês Filipa Rebelo do Carmo</name>
-            </respStmt> 
+            </respStmt>
             <respStmt>
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Como_Fernando_Pessoa_ve_Botto.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Como_Fernando_Pessoa_Ve_Antonio_Botto.jpg"/>
@@ -100,7 +108,7 @@
                     envolvem, nenhum aprofundamento ou intensificação. <rs type="name" key="P17">Antonio Botto</rs> não analisa emotivamente as suas emoções, nem de tal
                     modo nelas se concentra que automaticamente, se animem, aqueçam, se convertam em
                     paixões.</p>
-                 <p rend="indent-first">Com analise emotiva das emoções — em oposição implicita á
+            <p rend="indent-first">Com analise emotiva das emoções — em oposição implicita á
                          analise intelectual delas — quero significar aquele estado em que o poeta, ou o
                     homem, se concentra sonhadoramente no que sente, e assim o multiplica, o
                     desdobra, o sente diversa e divididamente. Tal estado merece o nome de paixão,
@@ -220,7 +228,7 @@
                     envolvem, nenhum aprofundamento ou intensificação. António Botto não analisa emotivamente as suas emoções, nem de tal
                     modo nelas se concentra que automaticamente, se animem, aqueçam, se convertam em
                     paixões.</p>
-                 <p rend="indent-first">Com análise emotiva das emoções — em oposição implícita à
+            <p rend="indent-first">Com análise emotiva das emoções — em oposição implícita à
                          análise intelectual delas — quero significar aquele estado em que o poeta, ou o
                     homem, se concentra sonhadoramente no que sente, e assim o multiplica, o
                     desdobra, o sente diversa e divididamente. Tal estado merece o nome de paixão,

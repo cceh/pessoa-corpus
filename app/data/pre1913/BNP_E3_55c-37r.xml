@@ -51,25 +51,37 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-55c-1-100_JPG_24-C-R0150/bn-acpc-e-e3-55c-1-100_0075_37_t24-C-R0150.jpg"
-      />
+      <graphic url="bn-acpc-e-e3-55c-1-100_JPG_24-C-R0150/bn-acpc-e-e3-55c-1-100_0075_37_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-55c-37r">
       <body>
-         <p> <rs type="title">A Obscenidade Nacional.</rs></p>
-         <metamark rend="shortline" function="distinct" place="center"/>         
-         <p><rs type="title">O Egoismo Artista</rs> <lb></lb> (Ver <rs type="name">Flaubert</rs> (<choice><abbr>conclu</abbr><expan>conclu<ex>sion</ex></expan></choice> <lb></lb> 
-            of politics, etc.)) </p>   
-         
-         <metamark rend="shortline" function="distinct" place="center" />
-         <p>Somos um povo que não respeita <lb></lb>  a mulher. É o melhor indicio <lb></lb> de falta de civilização.</p>
-         <metamark rend="line transversal" function="end" place="right" />
-         
-         
+         <p>
+            <rs type="title">A Obscenidade Nacional.</rs>
+         </p>
+         <metamark rend="shortline" function="distinct" place="center"/>
+         <p>
+            <rs type="title">O Egoismo Artista</rs>
+            <lb/> (Ver <rs type="name">Flaubert</rs> (<choice>
+               <abbr>conclu</abbr>
+               <expan>conclu<ex>sion</ex>
+               </expan>
+            </choice>
+            <lb/> 
+            of politics, etc.)) </p>
+         <metamark rend="shortline" function="distinct" place="center"/>
+         <p>Somos um povo que não respeita <lb/>  a mulher. É o melhor indicio <lb/> de falta de civilização.</p>
+         <metamark rend="line transversal" function="end" place="right"/>
          <div/>
       </body>
    </text>

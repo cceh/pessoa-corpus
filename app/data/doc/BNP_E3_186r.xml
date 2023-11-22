@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>BNP/E3 186<hi rend="superscript">r</hi></title>
+            <title>BNP/E3 186<hi rend="superscript">r</hi>
+            </title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -39,7 +40,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_186r.xml</idno>
          </publicationStmt>
@@ -72,11 +73,18 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0041_186_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-167-186_JPG_24-C-R0150/bn-acpc-e-e3-167-186_0041_186_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -94,19 +102,24 @@
             </list>
             <metamark rend="line" function="distinct"/>
             <list>
-               <head><hi rend="underline">Fórma de subsistir</hi>:</head>
+               <head>
+                  <hi rend="underline">Fórma de subsistir</hi>:</head>
                <item rend="indent-2">
                   <label>1.</label> Por socios, que dão quotas, em troca<lb/> dos serviços da parte
                   commercial. </item>
                <item rend="indent-2">
                   <label>2.</label>
-                  <metamark rend="arrow-right-down" target="#A1" function="assignment" n="2"/> Por
+                  <metamark rend="arrow-right-down"
+                            target="#A1"
+                            function="assignment"
+                            n="2"/> Por
                   dadivas de quem sympathize<lb/>com a obra encetada. </item>
                <item rend="indent-2">
                   <label>3.</label> Por venda das edições e das<lb/>informações. </item>
             </list>
             <metamark rend="line center" function="distinct"/>
-            <p><anchor xml:id="A1"/> Pode haver tambem socios, que<lb/>deem quotas por simples
+            <p>
+               <anchor xml:id="A1"/> Pode haver tambem socios, que<lb/>deem quotas por simples
                interesse<lb/> pela obra tentada. </p>
             <metamark rend="line center" function="distinct"/>
             <p rend="indent-1">Estar prompta a installação em <lb/>1 de Janeiro de 1920.</p>

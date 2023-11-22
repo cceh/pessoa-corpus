@@ -31,7 +31,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">Pessoa_Reincidindo.xml</idno>
          </publicationStmt>
@@ -66,10 +66,18 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Reincidindo_137.jpg"/>
@@ -145,7 +153,8 @@
                <p rend="indent-first">Toda a corrente literaria desta especie suprema é
                   subdivisivel em tres subperiodos ― um, <hi rend="italic">precursor</hi>, em
                         fins do periodo literario antecedente; outro, aquele que constitui
-                        essencialmente a corrente; e, último, aquele em que se dissolve a <hi rend="italic">alma</hi> <pb n="138"/>desse periodo em elementos aurorealmente
+                        essencialmente a corrente; e, último, aquele em que se dissolve a <hi rend="italic">alma</hi>
+                  <pb n="138"/>desse periodo em elementos aurorealmente
                   caracteristicos do periodo literario subsequente. ― Assim, no periodo em
                         questão, da Inglaterra temos o subperiodo precursor com a figura culminante
                         tipica de <rs type="name" key="P433">Chaucer</rs>
@@ -219,7 +228,8 @@
                         é facil vêr que a extraordinaria rapidez do movimento social moderno é a
                         causa imixtora dos phenomenos.</p>
                <p rend="indent-first">Vejamos, agora, se, sob este ponto de vista exterior, a
-                  actual corrente lite<pc>-</pc><pb n="139"/>raria portugueza alguma analogia offerece com as outras
+                  actual corrente lite<pc>-</pc>
+                  <pb n="139"/>raria portugueza alguma analogia offerece com as outras
                         correntes, que estudámos. Note-se, primeiro, quando a nossa corrente
                         principia. O seu <hi rend="italic">tom</hi> especial e distinctivo, quando
                         começa a apparecer? É fácil constatal-o. É com o <rs type="title">
@@ -292,7 +302,8 @@
                         Se houve no mundo periodo reles e mesquinho, foi reles e mesquinho esse. Até
                         aqui está, portanto, a nossa corrente literaria em coincidencia com as
                         outras, n’esta especial relacionação social. Continúa a haver coincidencia
-                        no que diz respeito ao vislum<pc>-</pc><pb n="140"/>brar <hi rend="italic">apenas literario</hi> do
+                        no que diz respeito ao vislum<pc>-</pc>
+                  <pb n="140"/>brar <hi rend="italic">apenas literario</hi> do
                         periodo que se segue. Foi no periodo constitucional pre-revolucionario que
                         apareceu <rs type="name" key="P18">Anthero de Quental</rs>, em que já vimos
                         o precursor da nossa corrente literaria.</p>
@@ -431,7 +442,8 @@
                         intelligencia.</p>
                <p rend="indent-first">Resta o terceiro ponto: a grandeza. Haverá, aqui tambem,
                         analogia? Tanto quanto a juvenilidade da nossa corrente literaria permitte a
-                        aproximação, a analo<pc>-</pc><pb n="142"/>gia não nos parece menos flagrante. A comparação só pode
+                        aproximação, a analo<pc>-</pc>
+                  <pb n="142"/>gia não nos parece menos flagrante. A comparação só pode
                         versar sobre o primeiro estadio dos trez periodos, e, para mais auxilio,
                         sobre o subperiodo precursor. Quanto a este, <rs type="name" key="P18">Anthero de Quental</rs> nada tem de temer de <rs type="name" key="P434">Rousseau</rs>-poeta, ou de <rs type="name" key="P433">Chaucer</rs>
                         mesmo, considerado tudo. E repare-se que <rs type="name" key="P18">Anthero</rs> teve co-precursores de mais valor que os contemporaneos
@@ -591,7 +603,9 @@
                             Galliffet</rs>.</p>
             </div>
             <signed rend="right">
-               <hi rend="italic"><rs type="name" role="author" key="FP" style="a">Fernando Pessôa</rs></hi>.</signed>
+               <hi rend="italic">
+                  <rs type="name" role="author" key="FP" style="a">Fernando Pessôa</rs>
+               </hi>.</signed>
          </div>
       </body>
    </text>
@@ -659,7 +673,8 @@
                <p rend="indent-first">Toda a corrente literária desta espécie suprema é
                   subdivisível em três subperíodos ― um, <hi rend="italic">precursor</hi>, em
                         fins do período literário antecedente; outro, aquele que constitui
-                        essencialmente a corrente; e, último, aquele em que se dissolve a <hi rend="italic">alma</hi> <pb n="138"/>desse período em elementos aurorealmente
+                        essencialmente a corrente; e, último, aquele em que se dissolve a <hi rend="italic">alma</hi>
+                  <pb n="138"/>desse período em elementos aurorealmente
                   característicos do período literário subsequente. ― Assim, no período em
                         questão, da Inglaterra temos o subperíodo precursor com a figura culminante
                         típica de Chaucer</p>
@@ -732,7 +747,8 @@
                         é fácil ver que a extraordinária rapidez do movimento social moderno é a
                         causa imixtora dos fenómenos.</p>
                <p rend="indent-first">Vejamos, agora, se, sob este ponto de vista exterior, a
-                  atual corrente lite<pc>-</pc><pb n="139"/>rária portuguesa alguma analogia oferece com as outras
+                  atual corrente lite<pc>-</pc>
+                  <pb n="139"/>rária portuguesa alguma analogia oferece com as outras
                         correntes, que estudámos. Note-se, primeiro, quando a nossa corrente
                         principia. O seu <hi rend="italic">tom</hi> especial e distintivo, quando
                         começa a aparecer? É fácil constatá-lo. É com o <hi rend="italic">Só</hi> de António
@@ -798,7 +814,8 @@
                         Se houve no mundo período reles e mesquinho, foi reles e mesquinho esse. Até
                         aqui está, portanto, a nossa corrente literária em coincidência com as
                         outras, nesta especial relacionação social. Continua a haver coincidência
-                        no que diz respeito ao vislum<pc>-</pc><pb n="140"/>brar <hi rend="italic">apenas literário</hi> do
+                        no que diz respeito ao vislum<pc>-</pc>
+                  <pb n="140"/>brar <hi rend="italic">apenas literário</hi> do
                         período que se segue. Foi no período constitucional pré-revolucionário que
                         apareceu Antero de Quental, em que já vimos
                         o precursor da nossa corrente literária.</p>
@@ -937,7 +954,8 @@
                         inteligência.</p>
                <p rend="indent-first">Resta o terceiro ponto: a grandeza. Haverá, aqui também,
                         analogia? Tanto quanto a juvenilidade da nossa corrente literária permite a
-                        aproximação, a analo<pc>-</pc><pb n="142"/>gia não nos parece menos flagrante. A comparação só pode
+                        aproximação, a analo<pc>-</pc>
+                  <pb n="142"/>gia não nos parece menos flagrante. A comparação só pode
                         versar sobre o primeiro estádio dos três períodos, e, para mais auxílio,
                         sobre o subperíodo precursor. Quanto a este, Antero de Quental nada tem de temer de Rousseau-poeta, ou de Chaucer
                         mesmo, considerado tudo. E repare-se que Antero teve coprecursores de mais valor que os contemporâneos

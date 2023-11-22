@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/pessoaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -34,7 +35,7 @@
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2016</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"/>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="filename">BNP_E3_14E-64r.xml</idno>
          </publicationStmt>
@@ -64,26 +65,38 @@
                </history>
             </msDesc>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="FAF">
+                    Added edition statement to the teiHeader
+                </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic
-         url="bn-acpc-e-e3-14e-1-96_JPG_24-c-R0150/bn-acpc-e-e3-14e-1-96_0127_64_t24-C-R0150.jpg"/>
+      <graphic url="bn-acpc-e-e3-14e-1-96_JPG_24-c-R0150/bn-acpc-e-e3-14e-1-96_0127_64_t24-C-R0150.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <list>
                <item>
-                  <rs type="title">Defense of <rs type="name" key="P32">Oscar Wilde</rs></rs>
+                  <rs type="title">Defense of <rs type="name" key="P32">Oscar Wilde</rs>
+                  </rs>
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
-                  <del rend="overstrike"><rs type="title">Principio Aristocratico</rs></del>
+                  <del rend="overstrike">
+                     <rs type="title">Principio Aristocratico</rs>
+                  </del>
                </item>
                <metamark rend="line" function="distinct"/>
                <item>
-                  <del rend="overstrike"><rs type="title">A um revolucionario morto</rs></del>
+                  <del rend="overstrike">
+                     <rs type="title">A um revolucionario morto</rs>
+                  </del>
                </item>
                <metamark rend="line" function="distinct"/>
                <item>

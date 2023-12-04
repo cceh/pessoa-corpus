@@ -1092,27 +1092,30 @@
                   <title>"Mensagem" por Fernando Pessoa (Os Campos)</title>
                </item>
                <item xml:id="T354">
-                  <title>"Notícia" ― <hi rend="italic">Motivos de Beleza</hi>, de António Botto</title>
+                  <title>"Notícia" ― <hi rend="italic">Motivos de Beleza</hi>, de António
+                     Botto</title>
                </item>
                <item xml:id="T355">
-                  <title>"A quadra é o vaso de flores que o povo" — <hi rend="italic">Missal de Trovas</hi>, de António
-                     Ferro e Augusto Cunha</title>
+                  <title>"A quadra é o vaso de flores que o povo" — <hi rend="italic">Missal de
+                        Trovas</hi>, de António Ferro e Augusto Cunha</title>
                </item>
                <item xml:id="T356">
-                  <title>“Palavras de Fernando Pessoa” ― <hi rend="italic">Entrevistas</hi>, de Francisco Manuel Cabral
-                     Metelo</title>
+                  <title>“Palavras de Fernando Pessoa” ― <hi rend="italic">Entrevistas</hi>, de
+                     Francisco Manuel Cabral Metelo</title>
                </item>
                <item xml:id="T357">
                   <title>“Prefácio” — <hi rend="italic">Acrónios</hi>, de Luís Pedro</title>
                </item>
                <item xml:id="T358">
-                  <title>“António Botto e o ideal estético criador”, posfácio de <hi rend="italic">Cartas que me foram devolvidas</hi>, de António Botto</title>
+                  <title>“António Botto e o ideal estético criador”, posfácio de <hi rend="italic"
+                        >Cartas que me foram devolvidas</hi>, de António Botto</title>
                </item>
                <item xml:id="T359">
                   <title>“António” — <hi rend="italic">António</hi>, de António Botto</title>
                </item>
                <item xml:id="T360">
-                  <title>"Prefácio" a <hi rend="italic">Quinto Império</hi>, de Augusto Ferreira Gomes</title>
+                  <title>"Prefácio" a <hi rend="italic">Quinto Império</hi>, de Augusto Ferreira
+                     Gomes</title>
                </item>
                <item xml:id="T361">
                   <title>Antinous</title>
@@ -1209,8 +1212,7 @@
                   <title>My weary life, that lives unsatisfied</title>
                </item>
                <item xml:id="T392">
-                  <title>I do not know what truth the false untruth</title>>
-               </item>
+                  <title>I do not know what truth the false untruth</title>> </item>
                <item xml:id="T393">
                   <title>I am older than Nature and her Time</title>
                </item>
@@ -1237,7 +1239,7 @@
                </item>
                <item xml:id="T401">
                   <title>Outro trecho do ʺLivro do Desassossegoʺ (ʺTenho diante de mimʺ)</title>
-               </item>               
+               </item>
                <item xml:id="T402">
                   <title>Aforismos, preceitos e considerações</title>
                </item>
@@ -1248,7 +1250,8 @@
                   <title>Sonnet XXX</title>
                </item>
                <item xml:id="T405">
-                  <title>"Prefácio" a <hi rend="italic">Antologia de poemas portugueses modernos</hi>, de António Botto e Fernando Pessoa</title>
+                  <title>"Prefácio" a <hi rend="italic">Antologia de poemas portugueses
+                        modernos</hi>, de António Botto e Fernando Pessoa</title>
                </item>
                <item xml:id="T406">
                   <title>O Dos Castelos</title>
@@ -1554,7 +1557,8 @@
                </item>
                <item xml:id="W46">
                   <title key="T32">Artigo do Sá-Carneiro</title>
-                  <name type="author" key="P30">Mário de Sá-Carneiro marinheiro de Sá Carneiro</name>
+                  <name type="author" key="P30">Mário de Sá-Carneiro marinheiro de Sá
+                     Carneiro</name>
                </item>
                <item xml:id="W47">
                   <title key="T33">Artigo do Ribeiro Lopes</title>
@@ -2648,7 +2652,8 @@
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W312">
-                  <title key="T351">O Núcleo de Ação Nacional dirige-se terminantemente à Nação</title>
+                  <title key="T351">O Núcleo de Ação Nacional dirige-se terminantemente à
+                     Nação</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W313">
@@ -2664,33 +2669,38 @@
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W316">
-                  <title key="T354">"Notícia" ― <hi rend="italic">Motivos de Beleza</hi>, de António Botto</title>
+                  <title key="T354">"Notícia" ― <hi rend="italic">Motivos de Beleza</hi>, de António
+                     Botto</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W317">
-                  <title key="T355">"A quadra é o vaso de flores que o povo" — <hi rend="italic">Missal de Trovas</hi>, de António
-                     Ferro e Augusto Cunha</title>
+                  <title key="T355">"A quadra é o vaso de flores que o povo" — <hi rend="italic"
+                        >Missal de Trovas</hi>, de António Ferro e Augusto Cunha</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W318">
-                  <title key="T356">“Palavras de Fernando Pessoa” ― <hi rend="italic">Entrevistas</hi>, de Francisco Manuel Cabral
-                     Metelo</title>
+                  <title key="T356">“Palavras de Fernando Pessoa” ― <hi rend="italic"
+                        >Entrevistas</hi>, de Francisco Manuel Cabral Metelo</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W319">
-                  <title key="T357">“Prefácio” — <hi rend="italic">Acrónios</hi>, de Luís Pedro</title>
+                  <title key="T357">“Prefácio” — <hi rend="italic">Acrónios</hi>, de Luís
+                     Pedro</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W320">
-                  <title key="T358">“António Botto e o ideal estético criador”, posfácio de <hi rend="italic">Cartas que me foram devolvidas</hi>, de António Botto</title>
+                  <title key="T358">“António Botto e o ideal estético criador”, posfácio de <hi
+                        rend="italic">Cartas que me foram devolvidas</hi>, de António Botto</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W321">
-                  <title key="T359">“António” — <hi rend="italic">António</hi>, de António Botto</title>
+                  <title key="T359">“António” — <hi rend="italic">António</hi>, de António
+                     Botto</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W322">
-                  <title key="T360">"Prefácio" a <hi rend="italic">Quinto Império</hi>, de Augusto Ferreira Gomes</title>
+                  <title key="T360">"Prefácio" a <hi rend="italic">Quinto Império</hi>, de Augusto
+                     Ferreira Gomes</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W323">
@@ -2842,7 +2852,8 @@
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W360">
-                  <title key="T398">"Prefácio" ― <hi rend="italic">Alma errante</hi>, de António Botto</title>
+                  <title key="T398">"Prefácio" ― <hi rend="italic">Alma errante</hi>, de António
+                     Botto</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W361">
@@ -2854,7 +2865,8 @@
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W363">
-                  <title key="T401">Outro trecho do ʺLivro do Desassossegoʺ (ʺTenho diante de mimʺ)</title>
+                  <title key="T401">Outro trecho do ʺLivro do Desassossegoʺ (ʺTenho diante de
+                     mimʺ)</title>
                   <name type="author" key="BS">Bernardo Soares</name>
                </item>
                <item xml:id="W364">
@@ -2866,12 +2878,14 @@
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W366">
-                  <title key="T405">"Prefácio" a <hi rend="italic">Antologia de poemas portugueses modernos</hi>, de António Botto e Fernando Pessoa</title>
+                  <title key="T405">"Prefácio" a <hi rend="italic">Antologia de poemas portugueses
+                        modernos</hi>, de António Botto e Fernando Pessoa</title>
                   <name type="author" key="FP">Fernando Pessoa</name>
                </item>
                <item xml:id="W368"><title key="T406">O Dos Castelos</title></item>
                <item xml:id="W369"><title key="T407">D. Afonso Henriques</title></item>
-               <item xml:id="W370"><title key="T408">"Mensagem" por Fernando Pessoa ("Os Campos")</title></item>
+               <item xml:id="W370"><title key="T408">"Mensagem" por Fernando Pessoa ("Os
+                     Campos")</title></item>
                <item xml:id="W371"><title key="409">O das Quinas</title></item>
                <item xml:id="W372"><title key="410">Ulisses</title></item>
                <item xml:id="W373"><title key="411">Viriato</title></item>
@@ -2893,60 +2907,141 @@
             <!-- ####################### JOURNALS ############################ -->
             <list type="periodical">
                <item xml:id="J1">Presença</item>
-               <item xml:id="J2">Athena</item>
-               <item xml:id="J3">The Southern Review</item>
+               <item xml:id="J2">
+                  <title>Athena</title>
+                  <idno type="wikidata">Q60999796</idno>
+               </item>
+               <item xml:id="J3">
+                  <title>The Southern Review</title>
+                  <idno type="wikidata">Q3522794</idno>
+               </item>
                <item xml:id="J4">A Revista da Solução Editora</item>
-               <item xml:id="J5">A Águia</item>
-               <item xml:id="J6">Mercure de France</item>
+               <item xml:id="J5">
+                  <title>A Águia</title>
+                  <idno type="wikidata">Q8183602</idno>
+               </item>
+               <item xml:id="J6">
+                  <title>Mercure de France</title>
+                  <idno type="wikidata">Q186225</idno>
+               </item>
                <item xml:id="J7">Teatro – Revista de Crítica</item>
                <item xml:id="J8">T.P.'s Weekly</item>
-               <item xml:id="J9">O "Notícias" Ilustrado</item>
+               <item xml:id="J9">
+                  <title>O "Notícias" Ilustrado</title>
+                  <idno type="wikidata">Q20049938</idno>
+               </item>
                <item xml:id="J10">Sol: Bissemanário republicano</item>
-               <item xml:id="J11">Contemporânea</item>
-               <item xml:id="J12">Orpheu</item>
+               <item xml:id="J11">
+                  <title>Contemporânea</title>
+                  <idno type="wikidata">Q18245158</idno>
+               </item>
+               <item xml:id="J12">
+                  <title>Orpheu</title>
+                  <idno type="wikidata">Q1351196</idno>
+               </item>
                <item xml:id="J13">Descobrimento</item>
                <item xml:id="J14">Século</item>
                <item xml:id="J15">Montanha</item>
                <item xml:id="J16">El Tea</item>
                <item xml:id="J17">São Miguel</item>
                <item xml:id="J18">Economia</item>
-               <item xml:id="J19">O Mundo</item>
-               <item xml:id="J20">A República</item>
-               <item xml:id="J21">English Review</item>
+               <item xml:id="J19">
+                  <title>O Mundo</title>
+                  <idno type="wikidata">Q20049894</idno>
+               </item>
+               <item xml:id="J20">
+                  <title>A República</title>
+                  <idno type="wikidata">Q60999733</idno>
+               </item>
+               <item xml:id="J21">
+                  <title>English Review</title>
+                  <idno type="wikidata">Q7732245</idno>
+               </item>
                <item xml:id="J22">Renascimento</item>
                <item xml:id="J24">Centauro</item>
-               <item xml:id="J25">Tesouro da Juventude</item>
-               <item xml:id="J26">The athenaeum</item>
+               <item xml:id="J25">
+                  <title>Tesouro da Juventude</title>
+                  <idno type="wikidata">Q7722457</idno>
+               </item>
+               <item xml:id="J26">
+                  <title>The athenaeum</title>
+                  <idno type="wikidata">Q755237</idno>
+               </item>
                <item xml:id="J27">A Renascença</item>
                <item xml:id="J28">Momento</item>
-               <item xml:id="J29">Portugal Futurista</item>
-               <item xml:id="J30">Sudoeste, Cadernos de Almada Negreiros</item>
-               <item xml:id="J31">Ilustração Portuguesa</item>
+               <item xml:id="J29">
+                  <title>Portugal Futurista</title>
+                  <idno type="wikidata">Q10352002</idno>
+               </item>
+               <item xml:id="J30">
+                  <title>Sudoeste, Cadernos de Almada Negreiros</title>
+                  <idno type="wikidata">Q25442927</idno>
+               </item>
+               <item xml:id="J31">
+                  <title>Ilustração Portuguesa</title>
+                  <idno type="wikidata">Q10301379</idno>
+               </item>
                <item xml:id="J32">Exílio</item>
                <item xml:id="J33">Folhas de Arte</item>
                <item xml:id="J34">Ressurreição</item>
                <item xml:id="J35">Europa</item>
                <item xml:id="J36">Revista Portuguesa</item>
-               <item xml:id="J37">Eh Real!</item>
+               <item xml:id="J37">
+                  <title>Eh Real!</title>
+                  <idno type="wikidata">Q112583014</idno>
+               </item>
                <item xml:id="J38">Terra Nossa</item>
-               <item xml:id="J39">O Heraldo</item>
+               <item xml:id="J39">
+                  <title>O Heraldo</title>
+                  <idno type="wikidata">Q2676209</idno>
+               </item>
                <item xml:id="J40">O Raio</item>
-               <item xml:id="J41">A Ideia Nacional</item>
-               <item xml:id="J42">O Diabo</item>
-               <item xml:id="J43">Poesia</item>
-               <item xml:id="J44">Nouvelles Littéraires</item>
-               <item xml:id="J45">O Jornal</item>
-               <item xml:id="J46">A Galera</item>
-               <item xml:id="J47">O Imparcial</item>
+               <item xml:id="J41">
+                  <title>A Ideia Nacional</title>
+                  <idno type="wikidata">Q25444299</idno>
+               </item>
+               <item xml:id="J42">
+                  <title>O Diabo</title>
+                  <idno type="wikidata">Q28678876</idno>
+               </item>
+               <item xml:id="J43">
+                  <title>Poesia</title>
+                  <idno type="wikidata">Q3906949</idno>
+               </item>
+               <item xml:id="J44">
+                  <title>Nouvelles Littéraires</title>
+                  <idno type="wikidata">Q2361734</idno>
+               </item>
+               <item xml:id="J45">
+                  <title>O Jornal</title>
+                  <idno type="wikidata">Q7073275</idno>
+               </item>
+               <item xml:id="J46">
+                  <title>A Galera</title>
+                  <idno type="wikidata">Q18236930</idno>
+               </item>
+               <item xml:id="J47">
+                  <title>O Imparcial</title>
+                  <idno type="wikidata">Q10339258</idno>
+               </item>
                <item xml:id="J48">The Durban High School Magazine</item>
-               <item xml:id="J49">The Natal Mercury</item>
+               <item xml:id="J49">
+                  <title>The Natal Mercury</title>
+                  <idno type="wikidata">Q1955204</idno>
+               </item>
                <item xml:id="J50">Terra de Sol</item>
                <!-- ist pre1913 <item xml:id="J51">Ibis Revista</item>-->
-               <item xml:id="J52">A Semana</item>
+               <item xml:id="J52">
+                  <title>A Semana</title>
+                  <idno type="wikidata">Q52158716</idno>
+               </item>
                <item xml:id="J53">Fradique</item>
                <item xml:id="J54">Portugal</item>
                <item xml:id="J55">The New Decadence</item>
-               <item xml:id="J56">Vida Portuguesa</item>
+               <item xml:id="J56">
+                  <title>Vida Portuguesa</title>
+                  <idno type="wikidata">Q112583013</idno>
+               </item>
                <item xml:id="J57">Heraldo de Faro</item>
                <item xml:id="J58">Ação</item>
                <item xml:id="J59">Teatro — Jornal D'arte</item>
@@ -2958,40 +3053,91 @@
                <item xml:id="J69">Norma</item>
                <item xml:id="J70">Girasol</item>
                <item xml:id="J71">Poetry Review</item>
-               <item xml:id="J72">Jornal do Comércio e das colónias</item>
+               <item xml:id="J72">
+                  <title>Jornal do Comércio e das colónias</title>
+                  <idno type="wikidata">Q107325410</idno>
+               </item>
                <item xml:id="J73">Minerva</item>
                <item xml:id="J74">The Portuguese Review</item>
-               <item xml:id="J75">Novidades</item>
-               <item xml:id="J76">Times Literary Supplement</item>
+               <item xml:id="J75">
+                  <title>Novidades</title>
+                  <idno type="wikidata">Q10337952</idno>
+               </item>
+               <item xml:id="J76">
+                  <title>Times Literary Supplement</title>
+                  <idno type="wikidata">Q1768060</idno>
+               </item>
                <item xml:id="J77">A Quinzena Portugueza</item>
-               <item xml:id="J78">Diário dos Açores</item>
+               <item xml:id="J78">
+                  <title>Diário dos Açores</title>
+                  <idno type="wikidata">Q4819631</idno>
+               </item>
                <item xml:id="J79">O Mundo Português</item>
-               <item xml:id="J80">Diário de Lisboa</item>
+               <item xml:id="J80">
+                  <title>Diário de Lisboa</title>
+                  <idno type="wikidata">Q3492605</idno>
+               </item>
                <item xml:id="J81">Teatrália</item>
                <item xml:id="J82">Gente Moça</item>
-               <item xml:id="J83">O Talassa</item>
+               <item xml:id="J83">
+                  <title>O Talassa</title>
+                  <idno type="wikidata">Q25443038</idno>
+               </item>
                <item xml:id="J84">O Debate</item>
                <item xml:id="J85">Suplemento Literário do Diário de Lisboa</item>
                <!--<item xml:id="J86">A Capital</item> UH: I cannot find any references to this journal -->
                <item xml:id="J87">Fama</item>
-               <item xml:id="J88">Quarterly Review</item>
+               <item xml:id="J88">
+                  <title>Quarterly Review</title>
+                  <idno type="wikidata">Q2441261</idno>
+               </item>
                <item xml:id="J89">Portugal: Semanário Republicano</item>
                <item xml:id="J90">Revolução</item>
                <item xml:id="J91">Leitura para todos – Revista mensal ilustrada</item>
-               <item xml:id="J92">O Tico-tico: Jornal das crianças</item>
-               <item xml:id="J93">O Mutilado da Guerra: Órgão da “Liga Portuguesa dos Mutilados
-                  e Inválidos da Guerra”</item>
-               <item xml:id="J94">Diário de Notícias</item>
-               <item xml:id="J95">Diário Nacional</item>
-               <item xml:id="J96">Catálogo do I Salão dos Independentes</item>
+               <item xml:id="J92">
+                  <title>O Tico-tico: Jornal das crianças</title>
+                  <idno type="wikidata">Q10339878</idno>
+               </item>
+               <item xml:id="J93">
+                  <title>O Mutilado da Guerra: Órgão da “Liga Portuguesa dos Mutilados
+                     e Inválidos da Guerra”</title>
+                  <idno type="wikidata">Q123669569</idno>
+               </item>
+               <item xml:id="J94">
+                  <title>Diário de Notícias</title>
+                  <idno type="wikidata">Q508252</idno>
+               </item>
+               <item xml:id="J95">
+                  <title>Diário Nacional</title>
+                  <idno type="wikidata">Q116204893</idno>
+               </item>
+               <item xml:id="J96">
+                  <title>Catálogo do I Salão dos Independentes</title>
+                  <idno type="wikidata">Q123669506</idno>
+               </item>
                <!-- Ju This is not a Journal...We will have to find the place -->
-               <item xml:id="J97">The Times</item>
-               <item xml:id="J98">Sunday Times</item>
+               <item xml:id="J97">
+                  <title>The Times</title>
+                  <idno type="wikidata">Q50008</idno>
+               </item>
+               <item xml:id="J98">
+                  <title>Sunday Times</title>
+                  <idno type="wikidata">Q221986</idno>
+               </item>
                <item xml:id="J99">Daily Telegraph</item>
-               <item xml:id="J100">Oxford Mail</item>
-               <item xml:id="J101">Revista de Comércio e Contabilidade</item>
+               <item xml:id="J100">
+                  <title>Oxford Mail</title>
+                  <idno type="wikidata">Q7115399</idno>
+               </item>
+               <item xml:id="J101">
+                  <title>Revista de Comércio e Contabilidade</title>
+                  <idno type="wikidata">Q10360183</idno>
+               </item>
                <item xml:id="J102">British Export Gazette</item>
-               <item xml:id="J103">Diário do Governo</item>
+               <item xml:id="J103">
+                  <title>Diário do Governo</title>
+                  <idno type="wikidata">Q56062703</idno>
+               </item>
             </list>
             <!-- ####################### PERSONS ############################ -->
             <listPerson type="all">
@@ -6552,7 +6698,7 @@
                </person>
                <person xml:id="P654">
                   <persName type="main">Bernarr Macfadden</persName>
-                  <idno type="viaf">64807604</idno> 
+                  <idno type="viaf">64807604</idno>
                   <note type="ontological-status">real</note>
                   <sex>male</sex>
                </person>
@@ -6915,7 +7061,7 @@
                   <sex>male</sex>
                </person>
                <person xml:id="P718">
-                  <persName style="a" >Eliezer Kamenesky</persName>
+                  <persName style="a">Eliezer Kamenesky</persName>
                   <persName style="b" type="main">Eliezer Kamenezky</persName>
                   <note type="ontological-status">real</note>
                   <sex>male</sex>

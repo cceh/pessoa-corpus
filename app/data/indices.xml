@@ -2012,7 +2012,8 @@
                   <name type="author" key="AC">Alberto Caeiro</name>
                </item>
                <item xml:id="W157">
-                  <title key="T197">Se Quiserem que Eu Tenha um Misticismo, Está Bem, Tenho-o</title>
+                  <title key="T197">Se Quiserem que Eu Tenha um Misticismo, Está Bem,
+                     Tenho-o</title>
                   <name type="author" key="AC">Alberto Caeiro</name>
                </item>
                <item xml:id="W158">
@@ -2904,14 +2905,19 @@
                <item xml:id="W386"><title key="424">D. João O Segundo</title></item>
                <item xml:id="W387"><title key="425">Afonso de Albuquerque</title></item>
                <item xml:id="W388"><title key="426">Prefiro a prosa ao verso</title></item>
-               <item xml:id="W389"><title key="427">Nuvens... Hoje tenho a consciência do céu</title></item>
+               <item xml:id="W389"><title key="427">Nuvens... Hoje tenho a consciência do
+                     céu</title></item>
                <item xml:id="W390"><title key="428">Gosto de dizer</title></item>
                <item xml:id="W391"><title key="429">Sim, é o poente</title></item>
-               <item xml:id="W392"><title key="430">Assim como, quer o saibamos quer não</title></item>
+               <item xml:id="W392"><title key="430">Assim como, quer o saibamos quer
+                  não</title></item>
             </list>
             <!-- ####################### JOURNALS ############################ -->
             <list type="periodical">
-               <item xml:id="J1">Presença</item>
+               <item xml:id="J1">
+                  <title>Presença</title>
+                  <idno type="wikidata">Q10353627</idno>
+               </item>
                <item xml:id="J2">
                   <title>Athena</title>
                   <idno type="wikidata">Q60999796</idno>
@@ -2920,7 +2926,10 @@
                   <title>The Southern Review</title>
                   <idno type="wikidata">Q3522794</idno>
                </item>
-               <item xml:id="J4">A Revista da Solução Editora</item>
+               <item xml:id="J4">
+                  <title>A Revista da Solução Editora</title>
+                  <idno type="wikidata">Q123745663</idno>
+               </item>
                <item xml:id="J5">
                   <title>A Águia</title>
                   <idno type="wikidata">Q8183602</idno>
@@ -2935,7 +2944,10 @@
                   <title>O "Notícias" Ilustrado</title>
                   <idno type="wikidata">Q20049938</idno>
                </item>
-               <item xml:id="J10">Sol: Bissemanário republicano</item>
+               <item xml:id="J10">
+                  <title>Sol: Bissemanário republicano</title>
+                  <idno type="wikidata">Q123742737</idno>
+               </item>
                <item xml:id="J11">
                   <title>Contemporânea</title>
                   <idno type="wikidata">Q18245158</idno>
@@ -2944,7 +2956,10 @@
                   <title>Orpheu</title>
                   <idno type="wikidata">Q1351196</idno>
                </item>
-               <item xml:id="J13">Descobrimento</item>
+               <item xml:id="J13">
+                  <title>Descobrimento</title>
+                  <idno type="wikidata">Q123745582</idno>
+               </item>
                <item xml:id="J14">Século</item>
                <item xml:id="J15">Montanha</item>
                <item xml:id="J16">El Tea</item>
@@ -2963,7 +2978,11 @@
                   <idno type="wikidata">Q7732245</idno>
                </item>
                <item xml:id="J22">Renascimento</item>
-               <item xml:id="J24">Centauro</item>
+               <item xml:id="J24">
+                  <title>Centauro</title>
+                  <idno type="viaf">156492225</idno>
+                  <idno type="wikidata">Q25442339</idno>
+               </item>
                <item xml:id="J25">
                   <title>Tesouro da Juventude</title>
                   <idno type="wikidata">Q7722457</idno>
@@ -2973,7 +2992,10 @@
                   <idno type="wikidata">Q755237</idno>
                </item>
                <item xml:id="J27">A Renascença</item>
-               <item xml:id="J28">Momento</item>
+               <item xml:id="J28">
+                  <title>Momento</title>
+                  <idno type="wikidata">Q123745194</idno>
+               </item>
                <item xml:id="J29">
                   <title>Portugal Futurista</title>
                   <idno type="wikidata">Q10352002</idno>
@@ -2986,21 +3008,36 @@
                   <title>Ilustração Portuguesa</title>
                   <idno type="wikidata">Q10301379</idno>
                </item>
-               <item xml:id="J32">Exílio</item>
+               <item xml:id="J32">
+                  <title>Exílio</title>
+                  <idno type="wikidata">Q123745454</idno>
+               </item>
                <item xml:id="J33">Folhas de Arte</item>
-               <item xml:id="J34">Ressurreição</item>
+               <item xml:id="J34">
+                  <title>Ressurreição</title>
+                  <idno type="wikidata">Q123743895</idno>
+               </item>
                <item xml:id="J35">Europa</item>
-               <item xml:id="J36">Revista Portuguesa</item>
+               <item xml:id="J36">
+                  <title>Revista Portuguesa</title>
+                  <idno type="wikidata">Q123742525</idno>
+               </item>
                <item xml:id="J37">
                   <title>Eh Real!</title>
                   <idno type="wikidata">Q112583014</idno>
                </item>
-               <item xml:id="J38">Terra Nossa</item>
+               <item xml:id="J38">
+                  <title>Terra Nossa</title>
+                  <idno type="wikidata">Q123745470</idno>
+               </item>
                <item xml:id="J39">
                   <title>O Heraldo</title>
                   <idno type="wikidata">Q2676209</idno>
                </item>
-               <item xml:id="J40">O Raio</item>
+               <item xml:id="J40">
+                  <title>O Raio</title>
+                  <idno type="wikidata">Q123745217</idno>
+               </item>
                <item xml:id="J41">
                   <title>A Ideia Nacional</title>
                   <idno type="wikidata">Q25444299</idno>
@@ -3051,13 +3088,22 @@
                <item xml:id="J58">Ação</item>
                <item xml:id="J59">Teatro — Jornal D'arte</item>
                <item xml:id="J60">O Tempo</item>
-               <item xml:id="J61">Sol: diário independente</item>
-               <item xml:id="J62">A Informação</item>
+               <item xml:id="J61">
+                  <title>Sol: diário independente</title>
+                  <idno type="wikidata">Q123742911</idno>
+               </item>
+               <item xml:id="J62">
+                  <title>A Informação</title>
+                  <idno type="wikidata">Q123745080</idno>
+               </item>
                <!-- freie IDs: J63-J67 -->
                <item xml:id="J68">Povo de Aveiro</item>
                <item xml:id="J69">Norma</item>
                <item xml:id="J70">Girasol</item>
-               <item xml:id="J71">Poetry Review</item>
+               <item xml:id="J71">
+                  <title>Poetry Review</title>
+                  <idno type="wikidata">Q7207510</idno>
+               </item>
                <item xml:id="J72">
                   <title>Jornal do Comércio e das colónias</title>
                   <idno type="wikidata">Q107325410</idno>
@@ -3082,23 +3128,35 @@
                   <title>Diário de Lisboa</title>
                   <idno type="wikidata">Q3492605</idno>
                </item>
-               <item xml:id="J81">Teatrália</item>
+               <item xml:id="J81">
+                  <title>Teatrália</title>
+                  <idno type="wikidata">Q123745250</idno>
+               </item>
                <item xml:id="J82">Gente Moça</item>
                <item xml:id="J83">
                   <title>O Talassa</title>
                   <idno type="wikidata">Q25443038</idno>
                </item>
                <item xml:id="J84">O Debate</item>
-               <item xml:id="J85">Suplemento Literário do Diário de Lisboa</item>
+               <item xml:id="J85">
+                  <title>Suplemento Literário do Diário de Lisboa</title>
+                  <idno type="wikidata">Q123743042</idno>
+               </item>
                <!--<item xml:id="J86">A Capital</item> UH: I cannot find any references to this journal -->
-               <item xml:id="J87">Fama</item>
+               <item xml:id="J87">
+                  <title>Fama</title>
+                  <idno type="wikidata">Q123745230</idno>
+               </item>
                <item xml:id="J88">
                   <title>Quarterly Review</title>
                   <idno type="wikidata">Q2441261</idno>
                </item>
                <item xml:id="J89">Portugal: Semanário Republicano</item>
                <item xml:id="J90">Revolução</item>
-               <item xml:id="J91">Leitura para todos – Revista mensal ilustrada</item>
+               <item xml:id="J91">
+                  <title>Leitura para todos – Revista mensal ilustrada</title>
+                  <idno type="wikidata">Q88565180</idno>
+               </item>
                <item xml:id="J92">
                   <title>O Tico-tico: Jornal das crianças</title>
                   <idno type="wikidata">Q10339878</idno>
@@ -3129,7 +3187,10 @@
                   <title>Sunday Times</title>
                   <idno type="wikidata">Q221986</idno>
                </item>
-               <item xml:id="J99">Daily Telegraph</item>
+               <item xml:id="J99">
+                  <title>Daily Telegraph</title>
+                  <idno type="wikidata">Q192621</idno>
+               </item>
                <item xml:id="J100">
                   <title>Oxford Mail</title>
                   <idno type="wikidata">Q7115399</idno>
@@ -3138,7 +3199,10 @@
                   <title>Revista de Comércio e Contabilidade</title>
                   <idno type="wikidata">Q10360183</idno>
                </item>
-               <item xml:id="J102">British Export Gazette</item>
+               <item xml:id="J102">
+                  <title>British Export Gazette</title>
+                  <idno type="wikidata">Q123745168</idno>
+               </item>
                <item xml:id="J103">
                   <title>Diário do Governo</title>
                   <idno type="wikidata">Q56062703</idno>

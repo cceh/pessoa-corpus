@@ -2921,6 +2921,7 @@
                <item xml:id="J2">
                   <title>Athena</title>
                   <idno type="wikidata">Q60999796</idno>
+                  <idno type="bnd">22125</idno>
                </item>
                <item xml:id="J3">
                   <title>The Southern Review</title>
@@ -2933,9 +2934,11 @@
                <item xml:id="J5">
                   <title>A Águia</title>
                   <idno type="wikidata">Q8183602</idno>
+                  <idno type="bnd">12152</idno>
                </item>
                <item xml:id="J6">
                   <title>Mercure de France</title>
+                  <idno type="viaf">219221259</idno>
                   <idno type="wikidata">Q186225</idno>
                </item>
                <item xml:id="J7">Teatro – Revista de Crítica</item>
@@ -2951,20 +2954,28 @@
                <item xml:id="J11">
                   <title>Contemporânea</title>
                   <idno type="wikidata">Q18245158</idno>
+                  <idno type="bnd">22539</idno>
                </item>
                <item xml:id="J12">
                   <title>Orpheu</title>
                   <idno type="wikidata">Q1351196</idno>
+                  <idno type="bnd">12089</idno>
                </item>
                <item xml:id="J13">
                   <title>Descobrimento</title>
                   <idno type="wikidata">Q123745582</idno>
                </item>
                <item xml:id="J14">Século</item>
-               <item xml:id="J15">Montanha</item>
+               <item xml:id="J15">
+                  <title>Montanha</title>
+                  <idno type="wikidata">Q123749504</idno>
+               </item>
                <item xml:id="J16">El Tea</item>
                <item xml:id="J17">São Miguel</item>
-               <item xml:id="J18">Economia</item>
+               <item xml:id="J18">
+                  <title>Economia</title>
+                  <idno type="wikidata">Q123750308</idno>
+               </item>
                <item xml:id="J19">
                   <title>O Mundo</title>
                   <idno type="wikidata">Q20049894</idno>
@@ -2982,6 +2993,7 @@
                   <title>Centauro</title>
                   <idno type="viaf">156492225</idno>
                   <idno type="wikidata">Q25442339</idno>
+                  <idno type="bnd">27124</idno>
                </item>
                <item xml:id="J25">
                   <title>Tesouro da Juventude</title>
@@ -2999,6 +3011,7 @@
                <item xml:id="J29">
                   <title>Portugal Futurista</title>
                   <idno type="wikidata">Q10352002</idno>
+                  <idno type="bnd">26497</idno>
                </item>
                <item xml:id="J30">
                   <title>Sudoeste, Cadernos de Almada Negreiros</title>
@@ -3012,7 +3025,10 @@
                   <title>Exílio</title>
                   <idno type="wikidata">Q123745454</idno>
                </item>
-               <item xml:id="J33">Folhas de Arte</item>
+               <item xml:id="J33">
+                  <title>Folhas de Arte</title>
+                  <idno type="wikidata">Q123745712</idno>
+               </item>
                <item xml:id="J34">
                   <title>Ressurreição</title>
                   <idno type="wikidata">Q123743895</idno>
@@ -3025,6 +3041,7 @@
                <item xml:id="J37">
                   <title>Eh Real!</title>
                   <idno type="wikidata">Q112583014</idno>
+                  <idno type="bnd">33563</idno>
                </item>
                <item xml:id="J38">
                   <title>Terra Nossa</title>
@@ -3066,7 +3083,10 @@
                   <title>O Imparcial</title>
                   <idno type="wikidata">Q10339258</idno>
                </item>
-               <item xml:id="J48">The Durban High School Magazine</item>
+               <item xml:id="J48">
+                  <title>The Durban High School Magazine</title>
+                  <idno type="wikidata">Q123750397</idno>
+               </item>
                <item xml:id="J49">
                   <title>The Natal Mercury</title>
                   <idno type="wikidata">Q1955204</idno>
@@ -3083,6 +3103,7 @@
                <item xml:id="J56">
                   <title>Vida Portuguesa</title>
                   <idno type="wikidata">Q112583013</idno>
+                  <idno type="bnd">284</idno>
                </item>
                <item xml:id="J57">Heraldo de Faro</item>
                <item xml:id="J58">Ação</item>
@@ -3116,6 +3137,8 @@
                </item>
                <item xml:id="J76">
                   <title>Times Literary Supplement</title>
+                  <idno type="viaf">178313774</idno>
+                  <idno type="gnd">4117226-7</idno>
                   <idno type="wikidata">Q1768060</idno>
                </item>
                <item xml:id="J77">A Quinzena Portugueza</item>
@@ -3123,9 +3146,13 @@
                   <title>Diário dos Açores</title>
                   <idno type="wikidata">Q4819631</idno>
                </item>
-               <item xml:id="J79">O Mundo Português</item>
+               <item xml:id="J79">
+                  <title>O Mundo Português</title>
+                  <idno type="wikidata">Q123749547</idno>
+               </item>
                <item xml:id="J80">
                   <title>Diário de Lisboa</title>
+                  <idno type="viaf">131919500</idno>
                   <idno type="wikidata">Q3492605</idno>
                </item>
                <item xml:id="J81">
@@ -3149,6 +3176,8 @@
                </item>
                <item xml:id="J88">
                   <title>Quarterly Review</title>
+                  <idno type="viaf">317149413</idno>
+                  <idno type="gnd">4688328-9</idno>
                   <idno type="wikidata">Q2441261</idno>
                </item>
                <item xml:id="J89">Portugal: Semanário Republicano</item>
@@ -3168,6 +3197,7 @@
                </item>
                <item xml:id="J94">
                   <title>Diário de Notícias</title>
+                  <idno type="viaf">167439084</idno>
                   <idno type="wikidata">Q508252</idno>
                </item>
                <item xml:id="J95">
@@ -3181,14 +3211,18 @@
                <!-- Ju This is not a Journal...We will have to find the place -->
                <item xml:id="J97">
                   <title>The Times</title>
+                  <idno type="viaf">126483936</idno>
                   <idno type="wikidata">Q50008</idno>
                </item>
                <item xml:id="J98">
                   <title>Sunday Times</title>
+                  <idno type="viaf">262266036</idno>
                   <idno type="wikidata">Q221986</idno>
                </item>
                <item xml:id="J99">
                   <title>Daily Telegraph</title>
+                  <idno type="viaf">127240012</idno>
+                  <idno type="gnd">4148752-7</idno>
                   <idno type="wikidata">Q192621</idno>
                </item>
                <item xml:id="J100">

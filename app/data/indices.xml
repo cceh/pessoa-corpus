@@ -2941,8 +2941,15 @@
                   <idno type="viaf">219221259</idno>
                   <idno type="wikidata">Q186225</idno>
                </item>
-               <item xml:id="J7">Teatro – Revista de Crítica</item>
-               <item xml:id="J8">T.P.'s Weekly</item>
+               <item xml:id="J7">
+                  <title>Teatro – Revista de Crítica</title>
+                  <idno type="wikidata">Q123766441</idno>
+                  <idno type="bnd">38844</idno>
+               </item>
+               <item xml:id="J8">
+                  <title>T.P.'s Weekly</title>
+                  <idno type="wikidata">Q123766433</idno>
+               </item>
                <item xml:id="J9">
                   <title>O "Notícias" Ilustrado</title>
                   <idno type="wikidata">Q20049938</idno>
@@ -2965,7 +2972,12 @@
                   <title>Descobrimento</title>
                   <idno type="wikidata">Q123745582</idno>
                </item>
-               <item xml:id="J14">Século</item>
+               <item xml:id="J14">
+                  <title>Século</title>
+                  <idno type="viaf">180234301</idno>
+                  <idno type="gnd">7567219-4</idno>
+                  <idno type="wikidata">Q3347813</idno>
+               </item>
                <item xml:id="J15">
                   <title>Montanha</title>
                   <idno type="wikidata">Q123749504</idno>
@@ -3033,7 +3045,10 @@
                   <title>Ressurreição</title>
                   <idno type="wikidata">Q123743895</idno>
                </item>
-               <item xml:id="J35">Europa</item>
+               <item xml:id="J35">
+                  <title>Europa</title>
+                  <idno type="wikidata">Q123766443</idno>
+               </item>
                <item xml:id="J36">
                   <title>Revista Portuguesa</title>
                   <idno type="wikidata">Q123742525</idno>
@@ -3097,7 +3112,10 @@
                   <title>A Semana</title>
                   <idno type="wikidata">Q52158716</idno>
                </item>
-               <item xml:id="J53">Fradique</item>
+               <item xml:id="J53">
+                  <title>Fradique</title>
+                  <idno type="wikidata">Q123766484</idno>
+               </item>
                <item xml:id="J54">Portugal</item>
                <item xml:id="J55">The New Decadence</item>
                <item xml:id="J56">
@@ -3107,7 +3125,10 @@
                </item>
                <item xml:id="J57">Heraldo de Faro</item>
                <item xml:id="J58">Ação</item>
-               <item xml:id="J59">Teatro — Jornal D'arte</item>
+               <item xml:id="J59">
+                  <title>Teatro — Jornal D'arte</title>
+                  <idno type="wikidata">Q123766442</idno>
+               </item>
                <item xml:id="J60">O Tempo</item>
                <item xml:id="J61">
                   <title>Sol: diário independente</title>
@@ -3120,7 +3141,10 @@
                <!-- freie IDs: J63-J67 -->
                <item xml:id="J68">Povo de Aveiro</item>
                <item xml:id="J69">Norma</item>
-               <item xml:id="J70">Girasol</item>
+               <item xml:id="J70">
+                  <title>Girasol</title>
+                  <idno type="wikidata">Q123766477</idno>
+               </item>
                <item xml:id="J71">
                   <title>Poetry Review</title>
                   <idno type="wikidata">Q7207510</idno>
@@ -3141,7 +3165,10 @@
                   <idno type="gnd">4117226-7</idno>
                   <idno type="wikidata">Q1768060</idno>
                </item>
-               <item xml:id="J77">A Quinzena Portugueza</item>
+               <item xml:id="J77">
+                  <title>A Quinzena Portugueza</title>
+                  <idno type="wikidata">Q123766416</idno>
+               </item>
                <item xml:id="J78">
                   <title>Diário dos Açores</title>
                   <idno type="wikidata">Q4819631</idno>
@@ -3159,7 +3186,10 @@
                   <title>Teatrália</title>
                   <idno type="wikidata">Q123745250</idno>
                </item>
-               <item xml:id="J82">Gente Moça</item>
+               <item xml:id="J82">
+                  <title>Gente Moça</title>
+                  <idno type="wikidata">Q123766380</idno>
+               </item>
                <item xml:id="J83">
                   <title>O Talassa</title>
                   <idno type="wikidata">Q25443038</idno>
@@ -3180,7 +3210,10 @@
                   <idno type="gnd">4688328-9</idno>
                   <idno type="wikidata">Q2441261</idno>
                </item>
-               <item xml:id="J89">Portugal: Semanário Republicano</item>
+               <item xml:id="J89">
+                  <title>Portugal: Semanário Republicano</title>
+                  <idno type="wikidata">Q123766429</idno>
+               </item>
                <item xml:id="J90">Revolução</item>
                <item xml:id="J91">
                   <title>Leitura para todos – Revista mensal ilustrada</title>

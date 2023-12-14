@@ -90,7 +90,7 @@
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
       <revisionDesc>
-         <change when="2023-11-15" who="FAF">
+         <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
       </revisionDesc>

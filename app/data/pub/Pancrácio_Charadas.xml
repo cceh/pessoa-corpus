@@ -27,7 +27,7 @@
       </fileDesc>
       <!-- Quatro ficheiros diferentes? Como faço o header? Codifico capas antes de cada uma? -->
       <revisionDesc>
-         <change when="2023-11-15" who="FAF">
+         <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
       </revisionDesc>

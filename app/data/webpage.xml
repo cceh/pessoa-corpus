@@ -2449,6 +2449,37 @@
                     </text>
                 </group>
             </text>
+            <text xml:id="lod">
+                <group>
+                    <text xml:lang="en">
+                        <body>
+                            <div>
+                                <head>Linked Open Data (LOD)</head>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  </p>
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="pt">
+                        <body>
+                            <div>
+                                <head>Linked Open Data (LOD)</head>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  </p>                                                          
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="de">
+                        <body>
+                            <div>
+                                <head>Linked Open Data (LOD)</head>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  </p>                                
+                            </div>
+                        </body>
+                    </text>
+                </group>
+            </text>
             <text xml:id="titles">
                 <group>
                     <text xml:lang="de">

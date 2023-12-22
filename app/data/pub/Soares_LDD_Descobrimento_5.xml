@@ -4,9 +4,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Do ʺLivro do Desassossegoʺ (ʺPrefiro a prosaʺ)(ʺNuvens... Hoje tenho
+                 <title><rs type="work" key="W249">Do ʺLivro do Desassossegoʺ (ʺPrefiro a prosaʺ)(ʺNuvens... Hoje tenho
                     consciênciaʺ)(ʺGosto de dizer.ʺ)(ʺSim, é o poente.ʺ)(ʺAssim como, quer o
-                    saibamos quer nãoʺ)</title>
+                    saibamos quer nãoʺ)</rs></title>
             <author>
                <rs type="name" key="BS">Bernardo Soares</rs>
             </author>
@@ -44,11 +44,6 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item>
-                  <rs type="work" key="W249">Do ʺLivro do Desassossegoʺ (ʺPrefiro a
-                            prosaʺ)(ʺNuvens... Hoje tenho consciênciaʺ)(ʺGosto de dizer.ʺ) (ʺSim, é
-                            o poente.ʺ)(ʺAssim como, quer o saibamos quer nãoʺ)</rs>
-               </item>
                     <item>
                             <rs type="work" key="388">Prefiro a prosa ao verso</rs>
                     </item>     
@@ -105,6 +100,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+              <change when="2023-12-22" who="#IRC">
+                      Changed the code of the main title from sourceDesc to titleStmt.
+              </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">

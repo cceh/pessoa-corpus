@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>English Poems I &amp; II</title>
+            <title><rs type="work" key="W361">English Poems I &amp; II</rs></title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +43,46 @@
          <sourceDesc>
             <list type="work-index">
                <item>
-                  <rs type="work" key="361">English Poems I &amp; II</rs>
+                  <rs type="work" key="W393" n="1">We Pass and Dream. Earth Smiles. Virtue Is Rare</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W394" n="2">Me, Chloe, a Maid, the Mighty Fates Have Given</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W395" n="3">From My Villa on the Hill I Long Looked Down</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W396" n="4">Not Cecrops Kept My Bees. My Olives Bore</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W397" n="5">I Conquered. Far Barbarians Hear My Name</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W398" n="6">Some Were as Loved Loved, Some as Prizes Prized</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W399" n="7">I Put by Pleasure like an Alien Bowl</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W400" n="8">Scarce Five Years Passed Ere I Passed Too</rs>
+               </item>               
+               <item>
+                  <rs type="work" key="W401" n="9">There Is a Silence Where the Town Was Old</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W402" n="10">We, that Both Lie Here, Loved. This Denies Us</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W403" n="11">I for My City's Want Far and Fell</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W404" n="12">Life Lived Us, Not We Life. We, as Bees Sip</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W405" n="13">The Work Is Done. The Hammer Is Laid Down</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W406" n="14">This Covers, that Erst Had the Blue Sky</rs>
                </item>
             </list>
             <biblStruct>
@@ -75,6 +114,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2023-12-22" who="#IRC">
+            Encoded the title of each poem.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">

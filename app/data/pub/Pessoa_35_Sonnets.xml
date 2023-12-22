@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>35 Sonnets</title>
+            <title><rs type="work" key="W324">35 Sonnets</rs></title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -42,9 +42,6 @@
          </notesStmt>
          <sourceDesc>
             <list type="work-index">
-               <item>
-                  <rs type="work" key="324">35 Sonnets</rs>
-               </item>
                <item>
                   <rs type="work" key="W325" n="1">Whether We Write or Speak or Do but
                   Look</rs>
@@ -197,6 +194,9 @@
       <revisionDesc>
          <change when="2023-11-15" who="#FAF"> Added edition statement to the teiHeader </change>
          <change when="2023-12-18" who="#IRC"> Added the titles of each poem to SourceDesc </change>
+         <change when="2023-12-22" who="#IRC">
+            Changed the code of the main title from sourceDesc to titleStmt.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">

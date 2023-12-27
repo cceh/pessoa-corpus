@@ -3596,8 +3596,12 @@
                   <title>Montanha</title>
                   <idno type="wikidata">Q123749504</idno>
                </item>
-               <item xml:id="J16">El Tea</item>
-               <item xml:id="J17">São Miguel</item>
+               <item xml:id="J16">
+                  <title>El Tea</title>
+               </item>
+               <item xml:id="J17">
+                  <title>São Miguel</title>
+               </item>
                <item xml:id="J18">
                   <title>Economia</title>
                   <idno type="wikidata">Q123750308</idno>
@@ -3614,7 +3618,9 @@
                   <title>English Review</title>
                   <idno type="wikidata">Q7732245</idno>
                </item>
-               <item xml:id="J22">Renascimento</item>
+               <item xml:id="J22">
+                  <title>Renascimento</title>
+               </item>
                <item xml:id="J24">
                   <title>Centauro</title>
                   <idno type="viaf">156492225</idno>
@@ -3629,7 +3635,9 @@
                   <title>The athenaeum</title>
                   <idno type="wikidata">Q755237</idno>
                </item>
-               <item xml:id="J27">A Renascença</item>
+               <item xml:id="J27">
+                  <title>A Renascença</title>
+               </item>
                <item xml:id="J28">
                   <title>Momento</title>
                   <idno type="wikidata">Q123745194</idno>
@@ -3720,7 +3728,9 @@
                   <title>The Natal Mercury</title>
                   <idno type="wikidata">Q1955204</idno>
                </item>
-               <item xml:id="J50">Terra de Sol</item>
+               <item xml:id="J50">
+                  <title>Terra de Sol</title>
+               </item>
                <!-- ist pre1913 <item xml:id="J51">Ibis Revista</item>-->
                <item xml:id="J52">
                   <title>A Semana</title>
@@ -3730,20 +3740,30 @@
                   <title>Fradique</title>
                   <idno type="wikidata">Q123766484</idno>
                </item>
-               <item xml:id="J54">Portugal</item>
-               <item xml:id="J55">The New Decadence</item>
+               <item xml:id="J54">
+                  <title>Portugal</title>
+               </item>
+               <item xml:id="J55">
+                  <title>The New Decadence</title>
+               </item>
                <item xml:id="J56">
                   <title>Vida Portuguesa</title>
                   <idno type="wikidata">Q112583013</idno>
                   <idno type="bnd">284</idno>
                </item>
-               <item xml:id="J57">Heraldo de Faro</item>
-               <item xml:id="J58">Ação</item>
+               <item xml:id="J57">
+                  <title>Heraldo de Faro</title>
+               </item>
+               <item xml:id="J58">
+                  <title>Ação</title>
+               </item>
                <item xml:id="J59">
                   <title>Teatro — Jornal D'arte</title>
                   <idno type="wikidata">Q123766442</idno>
                </item>
-               <item xml:id="J60">O Tempo</item>
+               <item xml:id="J60">
+                  <title>O Tempo</title>
+               </item>
                <item xml:id="J61">
                   <title>Sol: diário independente</title>
                   <idno type="wikidata">Q123742911</idno>
@@ -3753,8 +3773,12 @@
                   <idno type="wikidata">Q123745080</idno>
                </item>
                <!-- freie IDs: J63-J67 -->
-               <item xml:id="J68">Povo de Aveiro</item>
-               <item xml:id="J69">Norma</item>
+               <item xml:id="J68">
+                  <title>Povo de Aveiro</title>
+               </item>
+               <item xml:id="J69">
+                  <title>Norma</title>
+               </item>
                <item xml:id="J70">
                   <title>Girasol</title>
                   <idno type="wikidata">Q123766477</idno>
@@ -3767,8 +3791,12 @@
                   <title>Jornal do Comércio e das colónias</title>
                   <idno type="wikidata">Q107325410</idno>
                </item>
-               <item xml:id="J73">Minerva</item>
-               <item xml:id="J74">The Portuguese Review</item>
+               <item xml:id="J73">
+                  <title>Minerva</title>
+               </item>
+               <item xml:id="J74">
+                  <title>The Portuguese Review</title>
+               </item>
                <item xml:id="J75">
                   <title>Novidades</title>
                   <idno type="wikidata">Q10337952</idno>
@@ -3808,7 +3836,9 @@
                   <title>O Talassa</title>
                   <idno type="wikidata">Q25443038</idno>
                </item>
-               <item xml:id="J84">O Debate</item>
+               <item xml:id="J84">
+                  <title>O Debate</title>
+               </item>
                <item xml:id="J85">
                   <title>Suplemento Literário do Diário de Lisboa</title>
                   <idno type="wikidata">Q123743042</idno>
@@ -3828,7 +3858,9 @@
                   <title>Portugal: Semanário Republicano</title>
                   <idno type="wikidata">Q123766429</idno>
                </item>
-               <item xml:id="J90">Revolução</item>
+               <item xml:id="J90">
+                  <title>Revolução</title>
+               </item>
                <item xml:id="J91">
                   <title>Leitura para todos – Revista mensal ilustrada</title>
                   <idno type="wikidata">Q88565180</idno>

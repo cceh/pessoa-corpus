@@ -2455,8 +2455,13 @@
                         <body>
                             <div>
                                 <head>Linked Open Data (LOD)</head>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  </p>
+                                <p>On this page you can find links between the Pessoa Digital's resources to 
+                                    three authoritative standard data sources: the Integrated Authority File (GND),
+                                    the Virtual International Authority File (VIAF), and Wikidata. 
+                                    The linked data is offered in two formats, RDF and BEACON:
+                                    RDF
+                                    BEACON
+                               </p>
                             </div>
                         </body>
                     </text>

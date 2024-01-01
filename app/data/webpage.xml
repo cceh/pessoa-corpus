@@ -360,7 +360,7 @@
                                         </item>
                                         <item>Erik Renz (2022-, Universidade de Rostock)<lb/>
                                             <seg rend="smaller">gestão de conteúdos e imagens,
-                                                documentação</seg>
+                                                documentação, dados abertos conectados</seg>
                                         </item>
                                     </list>
                                 </div>
@@ -370,6 +370,9 @@
                                         <item>Ben Bigalke (2014-2019, Universidade de Colónia)<lb/>
                                             <seg rend="smaller">desenvolvimento da base de dados
                                                 (eXist &amp; XQuery)</seg>
+                                        </item>
+                                        <item>Hanna Bott (2023, Universidade de Rostock)<lb/>
+                                            <seg rend="smaller">dados abertos conectados</seg>
                                         </item>
                                         <item>Ana Leonor Branco (2015, Universidade Nova de Lisboa)<lb/>
                                             <seg rend="smaller">codificação em TEI, revisão de
@@ -392,6 +395,9 @@
                                         </item>
                                         <item>Alena Geduldig (2014-2015, Universidade de Colónia)<lb/>
                                             <seg rend="smaller">programação (XQuery, XSLT)</seg>
+                                        </item>
+                                        <item>Marie Kisser (2023, Universidade de Rostock)<lb/>
+                                            <seg rend="smaller">dados abertos conectados</seg>
                                         </item>
                                         <item>Pablo Javier Pérez López (2014-2015, Universidade Nova
                                             de Lisboa)<lb/>
@@ -471,7 +477,7 @@
                                         </item>
                                         <item>Erik Renz (2022-, University of Rostock)<lb/>
                                             <seg rend="smaller">content and image management,
-                                                documentation</seg>
+                                                documentation, authority data und linked open data</seg>
                                         </item>
                                     </list>
                                 </div>
@@ -481,6 +487,9 @@
                                         <item>Ben Bigalke (2014-2019, University of Cologne)<lb/>
                                             <seg rend="smaller">database development (eXist &amp;
                                                 XQuery)</seg>
+                                        </item>
+                                        <item>Hanna Bott (2023, University of Rostock)<lb/>
+                                            <seg rend="smaller">authority data und linked open data</seg>
                                         </item>
                                         <item>Ana Leonor Branco (2015, NOVA University Lisbon)<lb/>
                                             <seg rend="smaller">TEI encoding, review of
@@ -503,6 +512,9 @@
                                         </item>
                                         <item>Alena Geduldig (2014-2015, University of Cologne)<lb/>
                                             <seg rend="smaller">programming (XQuery, XSLT)</seg>
+                                        </item>
+                                        <item>Marie Kisser (2023, University of Rostock)<lb/>
+                                            <seg rend="smaller">authority data und linked open data</seg>
                                         </item>
                                         <item>Pablo Javier Pérez López (2014-2015, NOVA University Lisbon)<lb/>
                                             <seg rend="smaller">collecting and transcription of
@@ -584,7 +596,7 @@
                                         </item>
                                         <item>Erik Renz (2022-, Universität Rostock)<lb/>
                                             <seg rend="smaller">Redaktion von Webseiteninhalten,
-                                                Bilderverwaltung, Dokumentation</seg>
+                                                Bilderverwaltung, Dokumentation, Normdaten und Linked Open Data</seg>
                                         </item>
                                     </list>
                                 </div>
@@ -595,6 +607,9 @@
                                         <item>Ben Bigalke (2014-2019, Universität zu Köln)<lb/>
                                             <seg rend="smaller">Datenbankentwicklung (eXist &amp;
                                                 XQuery)</seg>
+                                        </item>
+                                        <item>Hanna Bott (2023, Universität Rostock)<lb/>
+                                            <seg rend="smaller">Normdaten und Linked Open Data</seg>
                                         </item>
                                         <item>Ana Leonor Branco (2015, Neue Universität Lissabon)<lb/>
                                             <seg rend="smaller">TEI-Codierung, Überprüfung von
@@ -617,6 +632,10 @@
                                         </item>
                                         <item>Alena Geduldig (2014-2015, Universität zu Köln)<lb/>
                                             <seg rend="smaller">Programmierung (XQuery, XSLT)</seg>
+                                        </item>
+                                        <item>Marie Kisser (2023, Universität Rostock)<lb/>
+                                            <seg rend="smaller">Normdaten und Linked Open Data</seg>
+                                        </item>
                                         </item>
                                         <item>Pablo Javier Pérez López (2014-2015, Neue Universität Lissabon)<lb/>
                                             <seg rend="smaller">Sammlung und Transkription

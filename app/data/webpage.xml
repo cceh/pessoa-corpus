@@ -477,7 +477,8 @@
                                         </item>
                                         <item>Erik Renz (2022-, University of Rostock)<lb/>
                                             <seg rend="smaller">content and image management,
-                                                documentation, authority data und linked open data</seg>
+                                                documentation, authority data und linked open
+                                                data</seg>
                                         </item>
                                     </list>
                                 </div>
@@ -489,7 +490,8 @@
                                                 XQuery)</seg>
                                         </item>
                                         <item>Hanna Bott (2023, University of Rostock)<lb/>
-                                            <seg rend="smaller">authority data und linked open data</seg>
+                                            <seg rend="smaller">authority data und linked open
+                                                data</seg>
                                         </item>
                                         <item>Ana Leonor Branco (2015, NOVA University Lisbon)<lb/>
                                             <seg rend="smaller">TEI encoding, review of
@@ -514,7 +516,8 @@
                                             <seg rend="smaller">programming (XQuery, XSLT)</seg>
                                         </item>
                                         <item>Marie Kisser (2023, University of Rostock)<lb/>
-                                            <seg rend="smaller">authority data und linked open data</seg>
+                                            <seg rend="smaller">authority data und linked open
+                                                data</seg>
                                         </item>
                                         <item>Pablo Javier Pérez López (2014-2015, NOVA University Lisbon)<lb/>
                                             <seg rend="smaller">collecting and transcription of
@@ -596,7 +599,8 @@
                                         </item>
                                         <item>Erik Renz (2022-, Universität Rostock)<lb/>
                                             <seg rend="smaller">Redaktion von Webseiteninhalten,
-                                                Bilderverwaltung, Dokumentation, Normdaten und Linked Open Data</seg>
+                                                Bilderverwaltung, Dokumentation, Normdaten und
+                                                Linked Open Data</seg>
                                         </item>
                                     </list>
                                 </div>
@@ -635,7 +639,6 @@
                                         </item>
                                         <item>Marie Kisser (2023, Universität Rostock)<lb/>
                                             <seg rend="smaller">Normdaten und Linked Open Data</seg>
-                                        </item>
                                         </item>
                                         <item>Pablo Javier Pérez López (2014-2015, Neue Universität Lissabon)<lb/>
                                             <seg rend="smaller">Sammlung und Transkription
@@ -2384,9 +2387,9 @@
                                 <p>Sämtliche TEI-Dateien stehen unter der Lizenz <ref
                                         target="http://creativecommons.org/licenses/by/3.0/"
                                         type="external">Creative Commons license “Attribution 3.0
-                                        Unported”(CC BY 3.0)</ref> und können entsprechend
-                                    nachgenutzt werden. Alle Bilder können verwendet werden, wenn
-                                    immer ihre Quelle angegeben wird.</p>
+                                        Unported”(CC BY 3.0)</ref> zur Verfügung und können
+                                    entsprechend nachgenutzt werden. Alle Bilder können verwendet
+                                    werden, solange immer ihre Quelle angegeben wird.</p>
                             </div>
                         </body>
                     </text>
@@ -2398,21 +2401,30 @@
                         <body>
                             <div>
                                 <head>Versions</head>
-                                <p>The repository of the web application and the corpus repository are versioned 
-                                    separately and archived via Zenodo according to the following scheme: 
-                                    [major version number (Mv)], [minor version number (mv)], [revision number (rv)].</p>
-                                <p>For the web application, this scheme is followed in accordance with the conventions 
-                                    for software versioning: the major version number indicates significant changes to 
-                                    the program, the minor version number indicates functional enhancements to the
-                                    program and the revision number indicates minor changes, in particular bug fixes. 
-                                    For the corpus repository, the major version number indicates a substantial expansion 
-                                    of the corpus content, the minor version number indicates additions of individual texts
-                                    or certain types of data (e.g., additional export formats, register data or coding) 
-                                    and the revision number indicates changes to individual passages in the texts/data 
-                                    or the coding, in particular to correct errors. The version is, thus, defined 
-                                    according to the following model, in which A refers to the web application and 
-                                    C to the corpus: A[Mv].[mv].[rv]-C[Mv].[mv].[rv].</p>
-                                <p>Current version <ref target="https://github.com/cceh/pessoa/releases/tag/A2.0.0">A2.0.0</ref>-<ref target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0">C2.0.0</ref></p>
+                                <p>The repository of the web application and the corpus repository
+                                    are versioned separately and archived via Zenodo according to
+                                    the following scheme: [major version number (Mv)], [minor
+                                    version number (mv)], [revision number (rv)].</p>
+                                <p>For the web application, this scheme is followed in accordance
+                                    with the conventions for software versioning: the major version
+                                    number indicates significant changes to the program, the minor
+                                    version number indicates functional enhancements to the program
+                                    and the revision number indicates minor changes, in particular
+                                    bug fixes. For the corpus repository, the major version number
+                                    indicates a substantial expansion of the corpus content, the
+                                    minor version number indicates additions of individual texts or
+                                    certain types of data (e.g., additional export formats, register
+                                    data or coding) and the revision number indicates changes to
+                                    individual passages in the texts/data or the coding, in
+                                    particular to correct errors. The version is, thus, defined
+                                    according to the following model, in which A refers to the web
+                                    application and C to the corpus:
+                                    A[Mv].[mv].[rv]-C[Mv].[mv].[rv].</p>
+                                <p>Current version <ref
+                                        target="https://github.com/cceh/pessoa/releases/tag/A2.0.0"
+                                        >A2.0.0</ref>-<ref
+                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0"
+                                        >C2.0.0</ref></p>
                             </div>
                         </body>
                     </text>
@@ -2420,24 +2432,32 @@
                         <body>
                             <div>
                                 <head>Versões</head>
-                                <p>O repositório do aplicativo Web e o repositório de corpus são versionados 
-                                    separadamente e arquivados via Zenodo de acordo com o seguinte esquema: 
-                                    [número da versão principal (vp)], [número da versão secundária (vs)], 
-                                    [número da revisão (rv)]. </p>
-                                <p>Para o aplicativo da Web, esse esquema é seguido de acordo com as convenções
-                                    de versionamento de software: o número da versão principal indica alterações 
-                                    significativas no programa, o número da versão secundária indica aprimoramentos 
-                                    funcionais no programa e o número da revisão indica alterações menores, 
-                                    especialmente correções de bugs. No caso do repositório de corpus, o número da 
-                                    versão principal indica uma expansão substancial do conteúdo do corpus, o número 
-                                    da versão secundária indica acréscimos de textos individuais ou determinados 
-                                    tipos de dados (por exemplo, formatos de exportação adicionais, dados de registro 
-                                    ou código) e o número da revisão indica alterações em passagens individuais nos 
-                                    textos/dados ou no código, especialmente para corrigir erros. A versão é, portanto, 
-                                    definida de acordo com o seguinte modelo, no qual A se refere ao aplicativo da Web 
-                                    e C ao corpus: A[vp].[vs].[rv]-C[vp].[vs].[rv].</p>
-                                    
-                                <p>Versão atual <ref target="https://github.com/cceh/pessoa/releases/tag/A2.0.0">A2.0.0</ref>-<ref target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0">C2.0.0</ref></p>
+                                <p>O repositório do aplicativo Web e o repositório de corpus são
+                                    versionados separadamente e arquivados via Zenodo de acordo com
+                                    o seguinte esquema: [número da versão principal (vp)], [número
+                                    da versão secundária (vs)], [número da revisão (rv)]. </p>
+                                <p>Para o aplicativo da Web, esse esquema é seguido de acordo com as
+                                    convenções de versionamento de software: o número da versão
+                                    principal indica alterações significativas no programa, o número
+                                    da versão secundária indica aprimoramentos funcionais no
+                                    programa e o número da revisão indica alterações menores,
+                                    especialmente correções de bugs. No caso do repositório de
+                                    corpus, o número da versão principal indica uma expansão
+                                    substancial do conteúdo do corpus, o número da versão secundária
+                                    indica acréscimos de textos individuais ou determinados tipos de
+                                    dados (por exemplo, formatos de exportação adicionais, dados de
+                                    registro ou código) e o número da revisão indica alterações em
+                                    passagens individuais nos textos/dados ou no código,
+                                    especialmente para corrigir erros. A versão é, portanto,
+                                    definida de acordo com o seguinte modelo, no qual A se refere ao
+                                    aplicativo da Web e C ao corpus:
+                                    A[vp].[vs].[rv]-C[vp].[vs].[rv].</p>
+
+                                <p>Versão atual <ref
+                                        target="https://github.com/cceh/pessoa/releases/tag/A2.0.0"
+                                        >A2.0.0</ref>-<ref
+                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0"
+                                        >C2.0.0</ref></p>
                             </div>
                         </body>
                     </text>
@@ -2445,24 +2465,31 @@
                         <body>
                             <div>
                                 <head>Versionen</head>
-                                <p>Das Repositorium der Webanwendung und das Korpus-Repositorium 
-                                    werden separat versioniert und über Zenodo nach dem folgenden 
-                                    Schema archiviert: [Hauptversionsnummer (Hv)], [Nebenversionsnummer (Nv)], 
-                                    [Revisionsnummer (rv)]. </p>
-                                <p>Für die Webanwendung wird dieses Schema in Übereinstimmung mit den Konventionen 
-                                    für die Softwareversionierung verfolgt: die Hauptversionsnummer kennzeichnet 
-                                    signifikante Änderungen am Programm, die Nebenversionsnummer funktionale 
-                                    Erweiterungen des Programms und die Revisionsnummer kleinere Änderungen, 
-                                    insbesondere Fehlerbehebungen. Für das Korpusrepositorium bedeutet die 
-                                    Hauptversionsnummer eine substantielle inhaltliche Erweiterung des Korpus, 
-                                    die Nebenversionsnummer Hinzufügungen einzelner Texte oder bestimmter 
-                                    Datentypen (z.B. zusätzliche Exportformate, Registerdaten oder Codierungen)
-                                    und die Revisionsnummer Änderungen einzelner Stellen in den Texten/Daten
-                                    oder der Codierung insbesondere zur Fehlerbehebung. Die Version wird also 
-                                    nach folgendem Modell definiert, wobei sich A auf die Webanwendung und C
-                                    auf das Korpus bezieht: A[Hv].[Nv].[rv]-C[Hv].[Nv].[rv]. </p>
-                                    
-                                <p>Aktuelle Version <ref target="https://github.com/cceh/pessoa/releases/tag/A2.0.0">A2.0.0</ref>-<ref target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0">C2.0.0</ref></p>
+                                <p>Das Repositorium der Webanwendung und das Korpus-Repositorium
+                                    werden separat versioniert und über Zenodo nach dem folgenden
+                                    Schema archiviert: [Hauptversionsnummer (Hv)],
+                                    [Nebenversionsnummer (Nv)], [Revisionsnummer (rv)]. </p>
+                                <p>Für die Webanwendung wird dieses Schema in Übereinstimmung mit
+                                    den Konventionen für die Softwareversionierung verfolgt: die
+                                    Hauptversionsnummer kennzeichnet signifikante Änderungen am
+                                    Programm, die Nebenversionsnummer funktionale Erweiterungen des
+                                    Programms und die Revisionsnummer kleinere Änderungen,
+                                    insbesondere Fehlerbehebungen. Für das Korpusrepositorium
+                                    bedeutet die Hauptversionsnummer eine substantielle inhaltliche
+                                    Erweiterung des Korpus, die Nebenversionsnummer Hinzufügungen
+                                    einzelner Texte oder bestimmter Datentypen (z.B. zusätzliche
+                                    Exportformate, Registerdaten oder Codierungen) und die
+                                    Revisionsnummer Änderungen einzelner Stellen in den Texten/Daten
+                                    oder der Codierung insbesondere zur Fehlerbehebung. Die Version
+                                    wird also nach folgendem Modell definiert, wobei sich A auf die
+                                    Webanwendung und C auf das Korpus bezieht:
+                                    A[Hv].[Nv].[rv]-C[Hv].[Nv].[rv]. </p>
+
+                                <p>Aktuelle Version <ref
+                                        target="https://github.com/cceh/pessoa/releases/tag/A2.0.0"
+                                        >A2.0.0</ref>-<ref
+                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0"
+                                        >C2.0.0</ref></p>
                             </div>
                         </body>
                     </text>

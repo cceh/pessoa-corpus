@@ -3016,7 +3016,6 @@
                </item>
                <item xml:id="Campos_Ode_Triunfal">
                   <title>Ode Triunfal</title>
-                  <idno type="wikidata">Q10295552</idno>
                   <idno  type="wikidata">Q10295552</idno>
                </item>
                <item xml:id="Campos_Opiario">
@@ -3088,6 +3087,8 @@
                </item>
                <item xml:id="Pessoa_Antinous">
                   <title>Antinous</title>
+                  <idno  type="wikidata">Q22984336</idno>
+                  <idno  type="viaf">310495757</idno>
                </item>
                <item xml:id="Pessoa_Antonio_Antonio">
                   <title>“António”, posfácio a , de António Botto</title>
@@ -3241,6 +3242,7 @@
                </item>
                <item xml:id="Pessoa_Depois-da-Feira">
                   <title>Depois da Feira</title>
+                  <idno  type="wikidata">Q19536076</idno>
                </item>
                <item xml:id="Pessoa_Dez_minutos">
                   <title>Dez minutos com Fernando Pessoa</title>
@@ -3275,6 +3277,7 @@
                </item>
                <item xml:id="Pessoa_Gladio">
                   <title>Gládio</title>
+                  <idno  type="wikidata">Q124101745</idno>
                </item>
                <item xml:id="Pessoa_Gomes-Leal">
                   <title>Gomes Leal</title>
@@ -3319,8 +3322,6 @@
                </item>
                <item xml:id="Pessoa_Mar_Portuguez">
                   <title>Mar Português</title>
-                  <idno>Q10324842</idno>
-                  <idno>309549797</idno>
                   <idno  type="wikidata">Q10324842</idno>
                   <idno  type="viaf">309549797</idno>
                </item>
@@ -3558,6 +3559,7 @@
                </item>
                <item xml:id="Reis_Odes_Livro_Primeiro">
                   <title>Odes, Livro Primeiro</title>
+                  <idno  type="wikidata">Q19552596</idno>
                </item>
                <item xml:id="Reis_O_rastro_breve_que_das_hervas_molles">
                   <title>Ode (ʺO rastro breve que das ervas molesʺ)</title>

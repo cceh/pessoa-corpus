@@ -2917,612 +2917,670 @@
             </list>
             <!-- publications: published works by Pessoa  -->
             <list type="publications">
-               <item xml:id="Anon_Hillier_did_first_usurp.xml">
+               <item xml:id="Anon_Hillier_did_first_usurp">
                   <title>Hillier did first usurp the realms of rhyme</title>
                </item>
-               <item xml:id="Caeiro_De_O_Guardador_de_Rebanhos.xml">
+               <item xml:id="Caeiro_De_O_Guardador_de_Rebanhos">
                   <title>De ʺO Guardador de Rebanhosʺ</title>
+                  <idno  type="wikidata">Q10339214</idno>
+                  <idno  type="viaf">182801150</idno>
                </item>
-               <item xml:id="Caeiro_Dos_Poemas_Inconjunctos.xml">
+               <item xml:id="Caeiro_Dos_Poemas_Inconjunctos">
                   <title>Dos ʺPoemas Inconjuntosʺ</title>
                </item>
-               <item xml:id="Caeiro_O_Oitavo_Poema_de_O_Guardador_de_Rebanhos.xml">
+               <item xml:id="Caeiro_O_Oitavo_Poema_de_O_Guardador_de_Rebanhos">
                   <title>O Oitavo Poema de ʺO Guardador de Rebanhosʺ</title>
+                  <idno  type="wikidata">Q19554168</idno>
                </item>
-               <item xml:id="Caeiro_O_Penultimo_Poema.xml">
+               <item xml:id="Caeiro_O_Penultimo_Poema">
                   <title>O Penúltimo Poema</title>
+                  <idno  type="wikidata">Q19559620</idno>
                </item>
-               <item xml:id="Campos_Addiamento.xml">
+               <item xml:id="Campos_Addiamento">
                   <title>Adiamento</title>
+                  <idno  type="wikidata">Q19527173</idno>
                </item>
-               <item xml:id="Campos_Ah_um_soneto.xml">
+               <item xml:id="Campos_Ah_um_soneto">
                   <title>Ah, um Soneto...</title>
+                  <idno  type="wikidata">Q19527404</idno>
                </item>
-               <item xml:id="Campos_Ambiente.xml">
+               <item xml:id="Campos_Ambiente">
                   <title>Ambiente</title>
                </item>
-               <item xml:id="Campos_Anniversario.xml">
+               <item xml:id="Campos_Anniversario">
                   <title>Aniversário</title>
+                  <idno  type="wikidata">Q21042674</idno>
                </item>
-               <item xml:id="Campos_Antipathico_Futurismo.xml">
+               <item xml:id="Campos_Antipathico_Futurismo">
                   <title>Antipático futurismo</title>
                </item>
-               <item xml:id="Campos_Apontamento.xml">
+               <item xml:id="Campos_Apontamento">
                   <title>Apontamento</title>
+                  <idno  type="wikidata">Q19529195</idno>
                </item>
-               <item xml:id="Campos_Apontamentos_para_uma_Esthetica.xml">
+               <item xml:id="Campos_Apontamentos_para_uma_Esthetica">
                   <title>Apontamentos para uma estética não-aristotélica</title>
                </item>
-               <item xml:id="Campos_Apostilla.xml">
+               <item xml:id="Campos_Apostilla">
                   <title>Apostila</title>
+                  <idno  type="wikidata">Q21042675</idno>
                </item>
-               <item xml:id="Campos_Aviso_por_causa_da_moral.xml">
+               <item xml:id="Campos_Aviso_por_causa_da_moral">
                   <title>Aviso por causa da moral</title>
                </item>
-               <item xml:id="Campos_Depois_de_doze_minutos.xml">
+               <item xml:id="Campos_Depois_de_doze_minutos">
                   <title>A Fernando Pessoa</title>
+                  <idno  type="wikidata">Q19524015</idno>
                </item>
-               <item xml:id="Campos_De_Newcastle.xml">
+               <item xml:id="Campos_De_Newcastle">
                   <title>De Newcastle-On-Tyne — Álvaro de Campos escreve à ʺContemporâneaʺ</title>
                </item>
-               <item xml:id="Campos_Escripto_num_livro_abandonado_em_viagem.xml">
+               <item xml:id="Campos_Escripto_num_livro_abandonado_em_viagem">
                   <title>Escrito num Livro Abandonado em Viagem</title>
+                  <idno  type="wikidata">Q19537865</idno>
                </item>
-               <item xml:id="Campos_Gazetilha.xml">
+               <item xml:id="Campos_Gazetilha">
                   <title>Gazetilha</title>
+                  <idno  type="wikidata">Q19539515</idno>
                </item>
-               <item xml:id="Campos_Lisbon_Revisited_1923.xml">
+               <item xml:id="Campos_Lisbon_Revisited_1923">
                   <title>Lisbon Revisited (1923)</title>
+                  <idno  type="wikidata">Q19559536</idno>
                </item>
-               <item xml:id="Campos_Lisbon_Revisited_1926.xml">
+               <item xml:id="Campos_Lisbon_Revisited_1926">
                   <title>Lisbon Revisited (1926)</title>
+                  <idno  type="wikidata">Q19553607</idno>
                </item>
-               <item xml:id="Campos_Notas_para_a_recordacao.xml">
+               <item xml:id="Campos_Notas_para_a_recordacao">
                   <title>Notas para a recordação do meu mestre Caeiro</title>
                </item>
-               <item xml:id="Campos_Nota_Ao_Acaso.xml">
+               <item xml:id="Campos_Nota_Ao_Acaso">
                   <title>Nota ao acaso</title>
                </item>
-               <item xml:id="Campos_Novela_Curta.xml">
+               <item xml:id="Campos_Novela_Curta">
                   <title>Novela curta</title>
                </item>
-               <item xml:id="Campos_Ode_Maritima.xml">
+               <item xml:id="Campos_Ode_Maritima">
                   <title>Ode Marítima</title>
+                  <idno  type="wikidata">Q19552576</idno>
+                  <idno  type="viaf">108145911120727060015</idno>
                </item>
-               <item xml:id="Campos_Ode_Triunfal.xml">
+               <item xml:id="Campos_Ode_Triunfal">
                   <title>Ode Triunfal</title>
+                  <idno type="wikidata">Q10295552</idno>
+                  <idno  type="wikidata">Q10295552</idno>
                </item>
-               <item xml:id="Campos_Opiario.xml">
+               <item xml:id="Campos_Opiario">
                   <title>Opiário</title>
+                  <idno  type="wikidata">Q19552956</idno>
                </item>
-               <item xml:id="Campos_O_nosso_inquerito.xml">
+               <item xml:id="Campos_O_nosso_inquerito">
                   <title>O nosso inquérito</title>
                </item>
-               <item xml:id="Campos_O_que_e_a_metaphysica.xml">
+               <item xml:id="Campos_O_que_e_a_metaphysica">
                   <title>O que é a metafísica?</title>
                </item>
-               <item xml:id="Campos_Quero_acabar_entre_rosas_porque_as_amei_na_infancia.xml">
+               <item xml:id="Campos_Quero_acabar_entre_rosas_porque_as_amei_na_infancia">
                   <title>ʺQuero acabar entre rosas, porque as amei na infância.ʺ</title>
                </item>
-               <item xml:id="Campos_Soneto_ja_Antigo.xml">
+               <item xml:id="Campos_Soneto_ja_Antigo">
                   <title>Soneto já Antigo</title>
+                  <idno  type="wikidata">Q19554110</idno>
                </item>
-               <item xml:id="Campos_Tabacaria.xml">
+               <item xml:id="Campos_Tabacaria">
                   <title>Tabacaria</title>
+                  <idno  type="wikidata">Q10377692</idno>
+                  <idno  type="viaf">308095010</idno>
                </item>
-               <item xml:id="Campos_Toda_a_arte.xml">
+               <item xml:id="Campos_Toda_a_arte">
                   <title>ʺToda a arte é uma forma de literaturaʺ</title>
                </item>
-               <item xml:id="Campos_Trapo.xml">
+               <item xml:id="Campos_Trapo">
                   <title>Trapo</title>
+                  <idno  type="wikidata">Q21042688</idno>
                </item>
-               <item xml:id="Campos_Ultimatum.xml">
+               <item xml:id="Campos_Ultimatum">
                   <title>Ultimatum</title>
+                  <idno  type="viaf">4146522256832390506</idno>
                </item>
-               <item xml:id="Nabos_Charada_de_Gaudêncio_Nabos_1909.xml">
+               <item xml:id="Nabos_Charada_de_Gaudêncio_Nabos_1909">
                   <title>Charada de Gaudêncio Nabos (1909)</title>
                </item>
-               <item xml:id="Nabos_Charada_de_Gaudêncio_Nabos_1910.xml">
+               <item xml:id="Nabos_Charada_de_Gaudêncio_Nabos_1910">
                   <title>Charada de Gaudêncio Nabos (1910)</title>
                </item>
-               <item xml:id="Pancrácio_Charadas.xml">
+               <item xml:id="Pancrácio_Charadas">
                   <title>Charadas (Pimpão)</title>
                </item>
-               <item xml:id="Pessoa_3.xml">
+               <item xml:id="Pessoa_3">
                   <title>3</title>
                </item>
-               <item xml:id="Pessoa_35_Sonnets.xml">
+               <item xml:id="Pessoa_35_Sonnets">
                   <title>35 Sonnets</title>
                </item>
-               <item xml:id="Pessoa_Abdicacao.xml">
+               <item xml:id="Pessoa_Abdicacao">
                   <title>Abdicação</title>
+                  <idno  type="wikidata">Q19533572</idno>
                </item>
-               <item xml:id="Pessoa_Afonso_Lopes_Vieira.xml">
+               <item xml:id="Pessoa_Afonso_Lopes_Vieira">
                   <title>Afonso Lopes Vieira, o poeta nacionalista</title>
                </item>
                <item xml:id="Pessoa_Aforismos">
                   <title>Aforismos, preceitos e considerações várias</title>
                </item>
-               <item xml:id="Pessoa_Aleister_Crowley_foi_assasinado.xml">
+               <item xml:id="Pessoa_Aleister_Crowley_foi_assasinado">
                   <title>Aleister Crowley foi assassinado?</title>
                </item>
-               <item xml:id="Pessoa_Alguns-Poemas.xml">
+               <item xml:id="Pessoa_Alguns-Poemas">
                   <title>Alguns Poemas (Sacadura Cabral, Gládio, De um Cancioneiro)</title>
                </item>
-               <item xml:id="Pessoa_Anti-Gazetilha.xml">
+               <item xml:id="Pessoa_Anti-Gazetilha">
                   <title>Anti-Gazetilha</title>
                </item>
-               <item xml:id="Pessoa_Antinous.xml">
+               <item xml:id="Pessoa_Antinous">
                   <title>Antinous</title>
                </item>
-               <item xml:id="Pessoa_Antonio_Antonio.xml">
+               <item xml:id="Pessoa_Antonio_Antonio">
                   <title>“António”, posfácio a , de António Botto</title>
                </item>
-               <item xml:id="Pessoa_Antonio_Botto_e_o_ideal.xml">
+               <item xml:id="Pessoa_Antonio_Botto_e_o_ideal">
                   <title>António Botto e o ideal estético em Portugal</title>
                </item>
-               <item xml:id="Pessoa_Antonio_Botto_e_o_ideal_estetico_criador_Cartas_devolvidas.xml">
+               <item xml:id="Pessoa_Antonio_Botto_e_o_ideal_estetico_criador_Cartas_devolvidas">
                   <title>“António Botto e o ideal estético criador” — , de António Botto</title>
                </item>
-               <item xml:id="Pessoa_Associacoes_secretas.xml">
+               <item xml:id="Pessoa_Associacoes_secretas">
                   <title>“Associações secretas”</title>
                </item>
-               <item xml:id="Pessoa_As_algemas.xml">
+               <item xml:id="Pessoa_As_algemas">
                   <title>As algemas</title>
                </item>
-               <item xml:id="Pessoa_As_caricaturas_de_Almada.xml">
+               <item xml:id="Pessoa_As_caricaturas_de_Almada">
                   <title>As caricaturas de Almada Negreiros</title>
                </item>
-               <item xml:id="Pessoa_As_causas_longinquas.xml">
+               <item xml:id="Pessoa_As_causas_longinquas">
                   <title>As causas longínquas da homenagem a Al-Mu'tamide</title>
                </item>
-               <item xml:id="Pessoa_Athena.xml">
+               <item xml:id="Pessoa_Athena">
                   <title>Athena</title>
                </item>
-               <item xml:id="Pessoa_Athena_Diario.xml">
+               <item xml:id="Pessoa_Athena_Diario">
                   <title>ʺAthenaʺ (ʺAcaba de aparecerʺ)</title>
                </item>
-               <item xml:id="Pessoa_Autopsicografia.xml">
+               <item xml:id="Pessoa_Autopsicografia">
                   <title>Autopsicografia</title>
+                  <idno  type="wikidata">Q19530282</idno>
                </item>
-               <item xml:id="Pessoa_A_casa_branca_nau_preta.xml">
+               <item xml:id="Pessoa_A_casa_branca_nau_preta">
                   <title>A Casa Branca Nau Preta</title>
+                  <idno  type="wikidata">Q19531674</idno>
                </item>
-               <item xml:id="Pessoa_A_Ceifeira.xml">
+               <item xml:id="Pessoa_A_Ceifeira">
                   <title>A Ceifeira</title>
+                  <idno  type="wikidata">Q19531787</idno>
                </item>
-               <item xml:id="Pessoa_A_cotacao.xml">
+               <item xml:id="Pessoa_A_cotacao">
                   <title>A cotação C.I.F inclui as despesas com a fatura consular?</title>
                </item>
-               <item xml:id="Pessoa_A_essencia_do_comercio.xml">
+               <item xml:id="Pessoa_A_essencia_do_comercio">
                   <title>A essência do comércio</title>
                </item>
-               <item xml:id="Pessoa_A_evolucao_do_comercio.xml">
+               <item xml:id="Pessoa_A_evolucao_do_comercio">
                   <title>A evolução do comércio</title>
                </item>
-               <item xml:id="Pessoa_A_inutilidade.xml">
+               <item xml:id="Pessoa_A_inutilidade">
                   <title>A inutilidade dos concelhos fiscais e dos comissários do governo nos bancos e
                     nas sociedades anónimas</title>
                </item>
-               <item xml:id="Pessoa_A_Loucura_do_Duce.xml">
+               <item xml:id="Pessoa_A_Loucura_do_Duce">
                   <title>A loucura do ʺDuceʺ</title>
                </item>
-               <item xml:id="Pessoa_A_Memoria_do_Presidente_Sidonio_Paes.xml">
+               <item xml:id="Pessoa_A_Memoria_do_Presidente_Sidonio_Paes">
                   <title>À Memória do Presidente Sidónio Pais</title>
                </item>
-               <item xml:id="Pessoa_A_Nova_Poesia_Portugueza_No_Seu_Aspecto_Psychologico.xml">
+               <item xml:id="Pessoa_A_Nova_Poesia_Portugueza_No_Seu_Aspecto_Psychologico">
                   <title>A nova poesia portuguesa no seu aspeto psicológico</title>
                </item>
-               <item xml:id="Pessoa_A_Nova_Poesia_Portugueza_Sociologicamente_Considerada.xml">
+               <item xml:id="Pessoa_A_Nova_Poesia_Portugueza_Sociologicamente_Considerada">
                   <title>A nova poesia portuguesa sociologicamente considerada</title>
                </item>
-               <item xml:id="Pessoa_A_Opiniao_Publica.xml">
+               <item xml:id="Pessoa_A_Opiniao_Publica">
                   <title>A opinião pública</title>
                </item>
-               <item xml:id="Pessoa_A_Origem_do_Conto_do_Vigario.xml">
+               <item xml:id="Pessoa_A_Origem_do_Conto_do_Vigario">
                   <title>A origem do conto do vigário</title>
                </item>
-               <item xml:id="Pessoa_A_Quadra_Missal_de_Trovas.xml">
+               <item xml:id="Pessoa_A_Quadra_Missal_de_Trovas">
                   <title>"A quadra é o vaso de flores que o povo" — , de António
                Ferro e Augusto Cunha</title>
                </item>
-               <item xml:id="Pessoa_A_reforma.xml">
+               <item xml:id="Pessoa_A_reforma">
                   <title>A reforma do calendário e as suas consequências comerciais</title>
                </item>
-               <item xml:id="Pessoa_A_revista_Athena.xml">
+               <item xml:id="Pessoa_A_revista_Athena">
                   <title>A revista “ATHENA” e o que nos afirmou Fernando Pessoa</title>
                </item>
-               <item xml:id="Pessoa_A_Romaria.xml">
+               <item xml:id="Pessoa_A_Romaria">
                   <title>ʺA Romariaʺ</title>
                </item>
-               <item xml:id="Pessoa_Balanca_de_Minerva.xml">
+               <item xml:id="Pessoa_Balanca_de_Minerva">
                   <title>Balança de Minerva — aferição</title>
                </item>
-               <item xml:id="Pessoa_Cancao-Sol-nulo-dos-dias-vaos.xml">
+               <item xml:id="Pessoa_Cancao-Sol-nulo-dos-dias-vaos">
                   <title>Canção (ʺSol nulo dos dias vãosʺ)</title>
                </item>
-               <item xml:id="Pessoa_Cancao.xml">
+               <item xml:id="Pessoa_Cancao">
                   <title>Canção</title>
                </item>
-               <item xml:id="Pessoa_Cancao_de_Outomno.xml">
+               <item xml:id="Pessoa_Cancao_de_Outomno">
                   <title>Canção de Outono</title>
                </item>
-               <item xml:id="Pessoa_Carta_ao_author_de_S.xml">
+               <item xml:id="Pessoa_Carta_ao_author_de_S">
                   <title>Carta ao autor de ʺSácháʺ</title>
                </item>
-               <item xml:id="Pessoa_Chronicas_Decorativas.xml">
+               <item xml:id="Pessoa_Chronicas_Decorativas">
                   <title>Crónicas decorativas — I</title>
                </item>
-               <item xml:id="Pessoa_Chuva-Obliqua.xml">
+               <item xml:id="Pessoa_Chuva-Obliqua">
                   <title>Chuva Oblíqua</title>
+                  <idno  type="wikidata">Q123906704</idno>
+                  <idno  type="viaf">182745298</idno>
                </item>
-               <item xml:id="Pessoa_Coisas_Estilisticas.xml">
+               <item xml:id="Pessoa_Coisas_Estilisticas">
                   <title>Coisas estilísticas que aconteceram a um gomil cinzelado, que se dizia ter sido
                batido no céu, em tempos da velha fábula, por um deus amoroso</title>
                </item>
-               <item xml:id="Pessoa_Comentarios.xml">
+               <item xml:id="Pessoa_Comentarios">
                   <title>Comentários</title>
                </item>
-               <item xml:id="Pessoa_Como_Fernando_Pessoa_ve_Botto.xml">
+               <item xml:id="Pessoa_Como_Fernando_Pessoa_ve_Botto">
                   <title>Como Fernando Pessoa vê António Botto</title>
                </item>
-               <item xml:id="Pessoa_Como_organizar.xml">
+               <item xml:id="Pessoa_Como_organizar">
                   <title>Como organizar Portugal</title>
                </item>
-               <item xml:id="Pessoa_Como_os_outros_nos_veem.xml">
+               <item xml:id="Pessoa_Como_os_outros_nos_veem">
                   <title>Como os outros nos veem</title>
                </item>
-               <item xml:id="Pessoa_Conselho.xml">
+               <item xml:id="Pessoa_Conselho">
                   <title>Conselho</title>
+                  <idno  type="wikidata">Q21042768</idno>
                </item>
-               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Das_feicoes.xml">
+               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Das_feicoes">
                   <title>Crónica da vida que passa... (ʺDas feições de almaʺ)</title>
                </item>
-               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Na_Russia.xml">
+               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Na_Russia">
                   <title>Crónica da vida que passa... (ʺNa Rússiaʺ)</title>
                </item>
-               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Nisto_de.xml">
+               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Nisto_de">
                   <title>Crónica da vida que passa... (ʺNisto de manifestações popularesʺ)</title>
                </item>
-               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Proletariado.xml">
+               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Proletariado">
                   <title>Crónica da vida que passa... (ʺO proletariadoʺ)</title>
                </item>
-               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Recentemente.xml">
+               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Recentemente">
                   <title>Crónica da vida que passa... (ʺRecentementeʺ)</title>
                </item>
-               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Sempre_que.xml">
+               <item xml:id="Pessoa_Cronica_da_vida_que_passa_Sempre_que">
                   <title>Crónica da vida que passa... (ʺSempre que alguémʺ)</title>
                </item>
-               <item xml:id="Pessoa_Cronica_dos_livros.xml">
+               <item xml:id="Pessoa_Cronica_dos_livros">
                   <title>Crónica dos livros</title>
                </item>
-               <item xml:id="Pessoa_Cronica_literaria_Orpheu.xml">
+               <item xml:id="Pessoa_Cronica_literaria_Orpheu">
                   <title>Crónica literária (ʺOrpheuʺ)</title>
                </item>
-               <item xml:id="Pessoa_Depois-da-Feira.xml">
+               <item xml:id="Pessoa_Depois-da-Feira">
                   <title>Depois da Feira</title>
                </item>
-               <item xml:id="Pessoa_Dez_minutos.xml">
+               <item xml:id="Pessoa_Dez_minutos">
                   <title>Dez minutos com Fernando Pessoa</title>
                </item>
-               <item xml:id="Pessoa_Do_livro_Mensagem.xml">
+               <item xml:id="Pessoa_Do_livro_Mensagem">
                   <title>Do Livro ʺMensagemʺ</title>
                </item>
-               <item xml:id="Pessoa_English_Poems_III.xml">
+               <item xml:id="Pessoa_English_Poems_III">
                   <title>English Poems III</title>
                </item>
-               <item xml:id="Pessoa_English_Poems_I_II.xml">
+               <item xml:id="Pessoa_English_Poems_I_II">
                   <title>English Poems I &amp; II</title>
                </item>
-               <item xml:id="Pessoa_Episodios.xml">
+               <item xml:id="Pessoa_Episodios">
                   <title>Episódios (A Múmia, Ficções do Interlúdio)</title>
                </item>
-               <item xml:id="Pessoa_Eros-e-Psique.xml">
+               <item xml:id="Pessoa_Eros-e-Psique">
                   <title>Eros e Psique</title>
+                  <idno  type="wikidata">Q19537828</idno>
                </item>
-               <item xml:id="Pessoa_Fabula.xml">
+               <item xml:id="Pessoa_Fabula">
                   <title>Fábula</title>
                </item>
-               <item xml:id="Pessoa_Falencia.xml">
+               <item xml:id="Pessoa_Falencia">
                   <title>Falência?</title>
                </item>
-               <item xml:id="Pessoa_Falta_de_logica.xml">
+               <item xml:id="Pessoa_Falta_de_logica">
                   <title>Falta de lógica... Passadista</title>
                </item>
-               <item xml:id="Pessoa_Fresta.xml">
+               <item xml:id="Pessoa_Fresta">
                   <title>Fresta</title>
                </item>
-               <item xml:id="Pessoa_Gladio.xml">
+               <item xml:id="Pessoa_Gladio">
                   <title>Gládio</title>
                </item>
-               <item xml:id="Pessoa_Gomes-Leal.xml">
+               <item xml:id="Pessoa_Gomes-Leal">
                   <title>Gomes Leal</title>
                </item>
-               <item xml:id="Pessoa_Guia-me-a-so-razao.xml">
+               <item xml:id="Pessoa_Guia-me-a-so-razao">
                   <title>Guia-me a Só Razão</title>
                </item>
-               <item xml:id="Pessoa_Hora-Absurda.xml">
+               <item xml:id="Pessoa_Hora-Absurda">
                   <title>Hora Absurda</title>
+                  <idno  type="wikidata">Q19555322</idno>
+                  <idno  type="viaf">206875899</idno>
                </item>
-               <item xml:id="Pessoa_Impressoes-do-Crepusculo.xml">
+               <item xml:id="Pessoa_Impressoes-do-Crepusculo">
                   <title>Impressões do Crepúsculo</title>
                </item>
-               <item xml:id="Pessoa_Iniciacao.xml">
+               <item xml:id="Pessoa_Iniciacao">
                   <title>Iniciação</title>
                </item>
-               <item xml:id="Pessoa_Inquerito_Fado.xml">
+               <item xml:id="Pessoa_Inquerito_Fado">
                   <title>O nosso inquérito sobre o fado</title>
                </item>
-               <item xml:id="Pessoa_Intervalo.xml">
+               <item xml:id="Pessoa_Intervalo">
                   <title>Intervalo</title>
                </item>
-               <item xml:id="Pessoa_Isto.xml">
+               <item xml:id="Pessoa_Isto">
                   <title>Isto</title>
                </item>
-               <item xml:id="Pessoa_Justica.xml">
+               <item xml:id="Pessoa_Justica">
                   <title>Justiça</title>
                </item>
-               <item xml:id="Pessoa_Luiz_de_Camoes.xml">
+               <item xml:id="Pessoa_Luiz_de_Camoes">
                   <title>Luís de Camões glorificado pelos poetas da nossa terra</title>
                </item>
-               <item xml:id="Pessoa_Luiz_de_Montalvor.xml">
+               <item xml:id="Pessoa_Luiz_de_Montalvor">
                   <title>Luís de Montalvor</title>
                </item>
-               <item xml:id="Pessoa_Marinha.xml">
+               <item xml:id="Pessoa_Marinha">
                   <title>Marinha</title>
                </item>
-               <item xml:id="Pessoa_Mario_de_Sa-Carneiro.xml">
+               <item xml:id="Pessoa_Mario_de_Sa-Carneiro">
                   <title>Mário de Sá-Carneiro (1890-1916)</title>
                </item>
-               <item xml:id="Pessoa_Mar_Portuguez.xml">
+               <item xml:id="Pessoa_Mar_Portuguez">
                   <title>Mar Português</title>
+                  <idno>Q10324842</idno>
+                  <idno>309549797</idno>
+                  <idno  type="wikidata">Q10324842</idno>
+                  <idno  type="viaf">309549797</idno>
                </item>
-               <item xml:id="Pessoa_Meantime.xml">
+               <item xml:id="Pessoa_Meantime">
                   <title>Meantime</title>
                </item>
-               <item xml:id="Pessoa_Mensagem.xml">
+               <item xml:id="Pessoa_Mensagem">
                   <title>Mensagem</title>
+                  <idno  type="wikidata">Q428842</idno>
+                  <idno  type="viaf">214765249</idno>
+                  <idno  type="gnd">1131651898</idno>
                </item>
-               <item xml:id="Pessoa_Mensagem_por_Fernando_Pessoa.xml">
+               <item xml:id="Pessoa_Mensagem_por_Fernando_Pessoa">
                   <title>"Mensagem" por Fernando Pessoa ("Os Campos")</title>
                </item>
-               <item xml:id="Pessoa_Miners_Song.xml">
+               <item xml:id="Pessoa_Miners_Song">
                   <title>Miner's Song</title>
                </item>
-               <item xml:id="Pessoa_Movimento_Sensacionista.xml">
+               <item xml:id="Pessoa_Movimento_Sensacionista">
                   <title>Movimento sensacionista</title>
                </item>
-               <item xml:id="Pessoa_Natal-Na-provincia-neva.xml">
+               <item xml:id="Pessoa_Natal-Na-provincia-neva">
                   <title>Natal (ʺNatal. Na província nevaʺ)</title>
                </item>
-               <item xml:id="Pessoa_Natal.xml">
+               <item xml:id="Pessoa_Natal">
                   <title>Natal</title>
                </item>
-               <item xml:id="Pessoa_Naufragio_de_Bartholomeu.xml">
+               <item xml:id="Pessoa_Naufragio_de_Bartholomeu">
                   <title>Naufrágio de Bartolomeu</title>
                </item>
-               <item xml:id="Pessoa_Na_Floresta_do_Alheamento.xml">
+               <item xml:id="Pessoa_Na_Floresta_do_Alheamento">
                   <title>Na floresta do alheamento</title>
+                  <idno  type="wikidata">Q19559565</idno>
                </item>
-               <item xml:id="Pessoa_Nevoa.xml">
+               <item xml:id="Pessoa_Nevoa">
                   <title>Versos de Fernando Pessoa (Minuete Invisível, Névoa)</title>
                </item>
-               <item xml:id="Pessoa_Nos_os_de_Orpheu.xml">
+               <item xml:id="Pessoa_Nos_os_de_Orpheu">
                   <title>Nós os de “ORPHEU”</title>
                </item>
-               <item xml:id="Pessoa_Noticia_Motivos_de_Beleza.xml">
+               <item xml:id="Pessoa_Noticia_Motivos_de_Beleza">
                   <title>"Notícia" ― , de António Botto</title>
                </item>
-               <item xml:id="Pessoa_Nucleo_de_Accao_Nacional.xml">
+               <item xml:id="Pessoa_Nucleo_de_Accao_Nacional">
                   <title>Núcleo de Ação Nacional</title>
                </item>
-               <item xml:id="Pessoa_O-Andaime.xml">
+               <item xml:id="Pessoa_O-Andaime">
                   <title>O Andaime</title>
+                  <idno  type="wikidata">Q19559588</idno>
                </item>
-               <item xml:id="Pessoa_O-Avo-e-o-Neto.xml">
+               <item xml:id="Pessoa_O-Avo-e-o-Neto">
                   <title>O Avô e o Neto</title>
                </item>
-               <item xml:id="Pessoa_O-Menino-da-sua-Mae.xml">
+               <item xml:id="Pessoa_O-Menino-da-sua-Mae">
                   <title>O Menino da Sua Mãe</title>
+                  <idno  type="wikidata">Q19557572</idno>
                </item>
-               <item xml:id="Pessoa_O-Ultimo-Sortilegio.xml">
+               <item xml:id="Pessoa_O-Ultimo-Sortilegio">
                   <title>O Último Sortilégio</title>
                </item>
-               <item xml:id="Pessoa_Organisar.xml">
+               <item xml:id="Pessoa_Organisar">
                   <title>Organizar</title>
                </item>
-               <item xml:id="Pessoa_Os_preceitos_practicos.xml">
+               <item xml:id="Pessoa_Os_preceitos_practicos">
                   <title>Os preceitos práticos em geral e os de Henry Ford em particular</title>
                </item>
-               <item xml:id="Pessoa_O_arquivo_de_correspondencia.xml">
+               <item xml:id="Pessoa_O_arquivo_de_correspondencia">
                   <title>O arquivo de correspondência</title>
                </item>
-               <item xml:id="Pessoa_O_banqueiro_anarchista.xml">
+               <item xml:id="Pessoa_O_banqueiro_anarchista">
                   <title>O banqueiro anarquista</title>
+                  <idno  type="wikidata">Q1305378</idno>
+                  <idno  type="viaf">309260659</idno>
+                  <idno  type="gnd">1133483232</idno>
                </item>
-               <item xml:id="Pessoa_O_Caso_Mental_Portugues.xml">
+               <item xml:id="Pessoa_O_Caso_Mental_Portugues">
                   <title>O caso mental português</title>
                </item>
-               <item xml:id="Pessoa_O_Escritor_Fernando_Pessoa.xml">
+               <item xml:id="Pessoa_O_Escritor_Fernando_Pessoa">
                   <title>O escritor Fernando Pessoa expõe-nos as suas ideias sobre os vários aspetos
                     da arte e da literatura portuguesas</title>
                </item>
-               <item xml:id="Pessoa_O_homem_de_Porlock.xml">
+               <item xml:id="Pessoa_O_homem_de_Porlock">
                   <title>O homem de Porlock</title>
                </item>
-               <item xml:id="Pessoa_O_individuo.xml">
+               <item xml:id="Pessoa_O_individuo">
                   <title>O indivíduo é que é gente</title>
                </item>
-               <item xml:id="Pessoa_O_interregno.xml">
+               <item xml:id="Pessoa_O_interregno">
                   <title>O interregno</title>
                </item>
-               <item xml:id="Pessoa_O_Mais_Belo_Livro.xml">
+               <item xml:id="Pessoa_O_Mais_Belo_Livro">
                   <title>ʺO Mais Belo Livroʺ — Um inquérito de intelectuais</title>
                </item>
-               <item xml:id="Pessoa_O_Marinheiro.xml">
+               <item xml:id="Pessoa_O_Marinheiro">
                   <title>O marinheiro. Drama estático em um quadro</title>
+                  <idno  type="wikidata">Q19556245</idno>
+                  <idno  type="viaf">135145911050327060362</idno>
+                  <idno  type="gnd">1186866039</idno>
                </item>
-               <item xml:id="Pessoa_O_Misterio_da_Boca_do_Inferno.xml">
+               <item xml:id="Pessoa_O_Misterio_da_Boca_do_Inferno">
                   <title>O mistério da Boca do Inferno</title>
                </item>
-               <item xml:id="Pessoa_O_nucleo_de_accao.xml">
+               <item xml:id="Pessoa_O_nucleo_de_accao">
                   <title>O Núcleo de Ação Nacional dirige-se terminantemente à Nação</title>
                </item>
-               <item xml:id="Pessoa_O_Preconceito_da_Ordem.xml">
+               <item xml:id="Pessoa_O_Preconceito_da_Ordem">
                   <title>O preconceito da ordem</title>
                </item>
-               <item xml:id="Pessoa_O_Provincianismo_Portugues.xml">
+               <item xml:id="Pessoa_O_Provincianismo_Portugues">
                   <title>O provincianismo português</title>
                </item>
-               <item xml:id="Pessoa_O_que_um_milionario.xml">
+               <item xml:id="Pessoa_O_que_um_milionario">
                   <title>O que um milionário americano fez em Portugal</title>
                </item>
-               <item xml:id="Pessoa_O_Renascer_de_um_Simbolo.xml">
+               <item xml:id="Pessoa_O_Renascer_de_um_Simbolo">
                   <title>O renascer de um símbolo: Al-Mu'tamide, o iniciador</title>
                </item>
-               <item xml:id="Pessoa_O_Varre_Canelhas.xml">
+               <item xml:id="Pessoa_O_Varre_Canelhas">
                   <title>Crónica dos livros (ʺO Varre Canelhasʺ)</title>
                </item>
-               <item xml:id="Pessoa_Palavras_de_Fernando_Pessoa_Entrevistas.xml">
+               <item xml:id="Pessoa_Palavras_de_Fernando_Pessoa_Entrevistas">
                   <title>“Palavras de Fernando Pessoa” ― , de Francisco Manuel Cabral
                Metelo</title>
                </item>
-               <item xml:id="Pessoa_Palavras_iniciais.xml">
+               <item xml:id="Pessoa_Palavras_iniciais">
                   <title>Palavras iniciais</title>
                </item>
-               <item xml:id="Pessoa_Para_A_Memoria_de_Antonio_Nobre.xml">
+               <item xml:id="Pessoa_Para_A_Memoria_de_Antonio_Nobre">
                   <title>Para a memória de António Nobre</title>
                </item>
-               <item xml:id="Pessoa_Passos-da-Cruz.xml">
+               <item xml:id="Pessoa_Passos-da-Cruz">
                   <title>Passos da Cruz</title>
+                  <idno  type="wikidata">Q123906626</idno>
+                  <idno  type="viaf">296400897</idno>
                </item>
-               <item xml:id="Pessoa_Passos_da_Cruz_XII.xml">
+               <item xml:id="Pessoa_Passos_da_Cruz_XII">
                   <title>Passos da Cruz, XII</title>
+                  <idno  type="wikidata">Q123906632</idno>
                </item>
-               <item xml:id="Pessoa_Poesias_dum_prosador.xml">
+               <item xml:id="Pessoa_Poesias_dum_prosador">
                   <title>Poesias dum prosador</title>
                </item>
-               <item xml:id="Pessoa_Portugal_vasto_imperio.xml">
+               <item xml:id="Pessoa_Portugal_vasto_imperio">
                   <title>“Portugal, Vasto Império”</title>
                </item>
-               <item xml:id="Pessoa_Prece.xml">
+               <item xml:id="Pessoa_Prece">
                   <title>Prece</title>
+                  <idno  type="wikidata">Q19555942</idno>
                </item>
-               <item xml:id="Pessoa_Prefacio_Acronios.xml">
+               <item xml:id="Pessoa_Prefacio_Acronios">
                   <title>“Prefácio” a , de Luís Pedro</title>
                </item>
-               <item xml:id="Pessoa_Prefacio_Alma_errante.xml">
+               <item xml:id="Pessoa_Prefacio_Alma_errante">
                   <title>"Prefácio" — , de Eliezer Kamenezky</title>
                </item>
-               <item xml:id="Pessoa_Prefacio_Antologia.xml">
+               <item xml:id="Pessoa_Prefacio_Antologia">
                   <title>"Prefácio" a , de
                António Botto e Fernando Pessoa</title>
                </item>
-               <item xml:id="Pessoa_Prefacio_Quinto_Imperio.xml">
+               <item xml:id="Pessoa_Prefacio_Quinto_Imperio">
                   <title>"Prefácio" — , de Augusto Ferreira Gomes</title>
                </item>
-               <item xml:id="Pessoa_Programa_Contemporanea.xml">
+               <item xml:id="Pessoa_Programa_Contemporanea">
                   <title>Programa — Contemporânea</title>
                </item>
-               <item xml:id="Pessoa_Qualquer-Musica.xml">
+               <item xml:id="Pessoa_Qualquer-Musica">
                   <title>Qualquer Música</title>
+                  <idno  type="wikidata">Q19556436</idno>
                </item>
-               <item xml:id="Pessoa_Qual_Tem_Sido.xml">
+               <item xml:id="Pessoa_Qual_Tem_Sido">
                   <title>Qual tem sido a influência da nova geração na vida portuguesa?</title>
                </item>
-               <item xml:id="Pessoa_Regie.xml">
+               <item xml:id="Pessoa_Regie">
                   <title>Régie, monopólio, liberdade</title>
                </item>
-               <item xml:id="Pessoa_Regulamentacao_do_jogo.xml">
+               <item xml:id="Pessoa_Regulamentacao_do_jogo">
                   <title>A regulamentação do jogo</title>
                </item>
-               <item xml:id="Pessoa_Reincidindo.xml">
+               <item xml:id="Pessoa_Reincidindo">
                   <title>Reincidindo...</title>
                </item>
-               <item xml:id="Pessoa_Rubaiyat.xml">
+               <item xml:id="Pessoa_Rubaiyat">
                   <title>Rubaiyat</title>
                </item>
-               <item xml:id="Pessoa_Silencio.xml">
+               <item xml:id="Pessoa_Silencio">
                   <title>Silêncio por Edgar Poe</title>
                </item>
-               <item xml:id="Pessoa_Sobre_os_poemas.xml">
+               <item xml:id="Pessoa_Sobre_os_poemas">
                   <title>Sobre os ʺPoemasʺ de Paulino de Oliveira</title>
                </item>
-               <item xml:id="Pessoa_Sobre_um_manifesto.xml">
+               <item xml:id="Pessoa_Sobre_um_manifesto">
                   <title>Sobre um manifesto de estudantes</title>
                </item>
-               <item xml:id="Pessoa_Sonnet_XXX.xml">
+               <item xml:id="Pessoa_Sonnet_XXX">
                   <title>Sonnet XXX</title>
                </item>
-               <item xml:id="Pessoa_Spell.xml">
+               <item xml:id="Pessoa_Spell">
                   <title>Spell</title>
                </item>
-               <item xml:id="Pessoa_Tabua_Bibliografica_FPessoa.xml">
+               <item xml:id="Pessoa_Tabua_Bibliografica_FPessoa">
                   <title>Tábua bibliográfica, Fernando Pessoa</title>
                </item>
-               <item xml:id="Pessoa_Tabua_Bibliografica_SaCarneiro.xml">
+               <item xml:id="Pessoa_Tabua_Bibliografica_SaCarneiro">
                   <title>Tábua bibliográfica, Mário de Sá-Carneiro</title>
                </item>
-               <item xml:id="Pessoa_Tenente_Theophilo.xml">
+               <item xml:id="Pessoa_Tenente_Theophilo">
                   <title>Tenente Teófilo Duarte</title>
                </item>
-               <item xml:id="Pessoa_Tomamos-a-Villa.xml">
+               <item xml:id="Pessoa_Tomamos-a-Villa">
                   <title>Tomamos a vila depois de um intenso bombardeamento</title>
                </item>
-               <item xml:id="Pessoa_Triptico.xml">
+               <item xml:id="Pessoa_Triptico">
                   <title>Tríptico</title>
                </item>
-               <item xml:id="Pessoa_Trois-Chansons-mortes.xml">
+               <item xml:id="Pessoa_Trois-Chansons-mortes">
                   <title>Trois Chansons Mortes</title>
+                  <idno  type="wikidata">Q19235825</idno>
                </item>
-               <item xml:id="Pessoa_Uma_replica.xml">
+               <item xml:id="Pessoa_Uma_replica">
                   <title>Uma réplica ao snr. dr. Adolfo Coelho</title>
                </item>
-               <item xml:id="Pessoa_Um_Camisa_Branca.xml">
+               <item xml:id="Pessoa_Um_Camisa_Branca">
                   <title>Um ʺCamisa Brancaʺ</title>
                </item>
-               <item xml:id="Pessoa_Um_grande_portugues.xml">
+               <item xml:id="Pessoa_Um_grande_portugues">
                   <title>Um grande português</title>
                </item>
-               <item xml:id="Reis_Duas_Odes.xml">
+               <item xml:id="Reis_Duas_Odes">
                   <title>Duas Odes</title>
+                  <idno  type="wikidata">Q123906716</idno>
                </item>
-               <item xml:id="Reis_Ja_sobre_a_fronte_va_se_me_acinzenta.xml">
+               <item xml:id="Reis_Ja_sobre_a_fronte_va_se_me_acinzenta">
                   <title>Ode (ʺJá sobre a fronte vã se me acinzentaʺ)</title>
                </item>
-               <item xml:id="Reis_Odes_Livro_Primeiro.xml">
+               <item xml:id="Reis_Odes_Livro_Primeiro">
                   <title>Odes, Livro Primeiro</title>
                </item>
-               <item xml:id="Reis_O_rastro_breve_que_das_hervas_molles.xml">
+               <item xml:id="Reis_O_rastro_breve_que_das_hervas_molles">
                   <title>Ode (ʺO rastro breve que das ervas molesʺ)</title>
                </item>
-               <item xml:id="Reis_Para_ser_grande_se_inteiro_nada.xml">
+               <item xml:id="Reis_Para_ser_grande_se_inteiro_nada">
                   <title>Ode (ʺPara ser grande, sê inteiro: nadaʺ)</title>
                </item>
-               <item xml:id="Reis_Tres_Odes.xml">
+               <item xml:id="Reis_Tres_Odes">
                   <title>Três Odes</title>
+                  <idno  type="wikidata">Q123906721</idno>
                </item>
-               <item xml:id="Soares_LDD_Amo_Pelas_Tardes.xml">
+               <item xml:id="Soares_LDD_Amo_Pelas_Tardes">
                   <title>Do ʺLivro do Desassossegoʺ (ʺAmo pelas tardes demoradas de verãoʺ)</title>
                </item>
-               <item xml:id="Soares_LDD_Descobrimento_5.xml">
+               <item xml:id="Soares_LDD_Descobrimento_5">
                   <title>Do ʺLivro do Desassossegoʺ (ʺPrefiro a prosaʺ)(ʺNuvens... Hoje tenho
                     consciênciaʺ)(ʺGosto de dizer.ʺ)(ʺSim, é o poente.ʺ)(ʺAssim como, quer o
                     saibamos quer nãoʺ)</title>
                </item>
-               <item xml:id="Soares_LDD_Disse_Amiel.xml">
+               <item xml:id="Soares_LDD_Disse_Amiel">
                   <title>Do ʺLivro do Desassossegoʺ (ʺDisse Amielʺ)</title>
                </item>
-               <item xml:id="Soares_LDD_Durei_Horas_Incognitas.xml">
+               <item xml:id="Soares_LDD_Durei_Horas_Incognitas">
                   <title>De um ʺLivro do Desassossegoʺ (ʺDurei horas incógnitasʺ)</title>
                </item>
-               <item xml:id="Soares_LDD_Muitos_tem_definido.xml">
+               <item xml:id="Soares_LDD_Muitos_tem_definido">
                   <title>Do Livro do Desassossego (ʺMuitos têm definido o homemʺ)</title>
                </item>
-               <item xml:id="Soares_LDD_Na_perfeicao_nitida.xml">
+               <item xml:id="Soares_LDD_Na_perfeicao_nitida">
                   <title>Do ʺLivro do Desassossegoʺ (ʺNa perfeição nítida do diaʺ)</title>
                </item>
-               <item xml:id="Soares_LDD_Tenho_Deante.xml">
+               <item xml:id="Soares_LDD_Tenho_Deante">
                   <title>Outro trecho do ʺLivro do Desassossegoʺ (ʺTenho diante de mimʺ)</title>
                </item>
             </list>

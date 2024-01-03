@@ -3889,7 +3889,8 @@
                                     three authoritative standard data sources: the Integrated Authority File (GND),
                                     the Virtual International Authority File (VIAF), and Wikidata. 
                                     The linked data is offered in two formats, RDF and BEACON:</p>
-                                <p>RDF</p>
+                                <p><ref target="../PD_RDF.txt" type="internal"
+                                    >RDF</ref></p>
                                 <p><ref target="../PD_BEACON.txt" type="internal"
                                     >BEACON</ref></p>
                                 
@@ -3900,8 +3901,15 @@
                         <body>
                             <div>
                                 <head>Linked Open Data (LOD)</head>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  </p>                                                          
+                                <p>Nesta página, pode encontrar links entre os recursos de Pessoa Digital e 
+                                    três fontes de dados padrão autorizadas: Integrated Authority File (GND),
+                                    Virtual International Authority File (VIAF) e Wikidata. Os dados são 
+                                    oferecidos em dois formatos, RDF e BEACON: </p> 
+                                <p><ref target="../PD_RDF.txt" type="internal"
+                                    >RDF</ref></p>
+                                <p><ref target="../PD_BEACON.txt" type="internal"
+                                    >BEACON</ref></p>
+                                
                             </div>
                         </body>
                     </text>
@@ -3909,8 +3917,15 @@
                         <body>
                             <div>
                                 <head>Linked Open Data (LOD)</head>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  </p>                                
+                                <p>Auf dieser Seite finden Sie Links zwischen den Ressourcen von Pessoa Digital 
+                                    und drei wichtigen Normdatenquellen: die Gemeinsame Normdatei (GND), der 
+                                    Virtual International Authority File (VIAF) und Wikidata. Die verlinkten 
+                                    Daten werden in zwei Formaten angeboten, RDF und BEACON:</p> 
+                                <p><ref target="../PD_RDF.txt" type="internal"
+                                    >RDF</ref></p>
+                                <p><ref target="../PD_BEACON.txt" type="internal"
+                                    >BEACON</ref></p>
+                                
                             </div>
                         </body>
                     </text>

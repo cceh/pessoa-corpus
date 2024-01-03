@@ -1,5 +1,5 @@
 
-
+app/tools/
 *.gitignore
 *.properties
 *.xpr

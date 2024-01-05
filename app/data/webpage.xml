@@ -15,7 +15,7 @@
                 <p>Born digital.</p>
             </sourceDesc>
             <editionStmt>
-                <p>Corpus version C2.0.0</p>
+                <p>Corpus version C2.1.0</p>
             </editionStmt>
         </fileDesc>
         <revisionDesc>
@@ -2429,10 +2429,10 @@
                                     application and C to the corpus:
                                     A[Mv].[mv].[rv]-C[Mv].[mv].[rv].</p>
                                 <p>Current version <ref
-                                        target="https://github.com/cceh/pessoa/releases/tag/A2.0.0"
-                                        >A2.0.0</ref>-<ref
-                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0"
-                                        >C2.0.0</ref></p>
+                                        target="https://github.com/cceh/pessoa/releases/tag/A3.0.0"
+                                        >A3.0.0</ref>-<ref
+                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.1.0"
+                                        >C2.1.0</ref></p>
                             </div>
                         </body>
                     </text>
@@ -2462,10 +2462,10 @@
                                     A[vp].[vs].[rv]-C[vp].[vs].[rv].</p>
 
                                 <p>Versão atual <ref
-                                        target="https://github.com/cceh/pessoa/releases/tag/A2.0.0"
-                                        >A2.0.0</ref>-<ref
-                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0"
-                                        >C2.0.0</ref></p>
+                                        target="https://github.com/cceh/pessoa/releases/tag/A3.0.0"
+                                        >A3.0.0</ref>-<ref
+                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.1.0"
+                                        >C2.1.0</ref></p>
                             </div>
                         </body>
                     </text>
@@ -2494,10 +2494,10 @@
                                     A[Hv].[Nv].[rv]-C[Hv].[Nv].[rv]. </p>
 
                                 <p>Aktuelle Version <ref
-                                        target="https://github.com/cceh/pessoa/releases/tag/A2.0.0"
-                                        >A2.0.0</ref>-<ref
-                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.0.0"
-                                        >C2.0.0</ref></p>
+                                        target="https://github.com/cceh/pessoa/releases/tag/A3.0.0"
+                                        >A3.0.0</ref>-<ref
+                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.1.0"
+                                        >C2.1.0</ref></p>
                             </div>
                         </body>
                     </text>

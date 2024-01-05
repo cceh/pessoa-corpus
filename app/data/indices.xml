@@ -14,7 +14,15 @@
          <sourceDesc>
             <p>Born digital.</p>
          </sourceDesc>
+         <editionStmt>
+            <p>Corpus version C2.0.0</p>
+         </editionStmt>
       </fileDesc>
+      <revisionDesc>
+         <change when="2024-01-05" who="#FAF">
+            Added edition statement to the teiHeader
+         </change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>

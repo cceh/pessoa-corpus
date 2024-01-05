@@ -15,7 +15,22 @@
             <sourceDesc>
                 <p>created on Monday 12th October 2015 02:26:37 PM</p>
             </sourceDesc>
-        </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.0.0" when="2023-11-22T21:46:40.650Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+            <editionStmt>
+                <p>Corpus version C2.0.0</p>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="RomaJS" version="1.0.0" when="2023-11-22T21:46:40.650Z">
+                    <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2024-01-05" who="#FAF">
+                Added edition statement to the teiHeader
+            </change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>

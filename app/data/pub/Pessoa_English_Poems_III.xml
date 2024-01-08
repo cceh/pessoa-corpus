@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>English Poems III</title>
+            <title><rs type="work" key="W362">English Poems III</rs></title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -43,7 +43,67 @@
          <sourceDesc>
             <list type="work-index">
                <item>
-                  <rs type="work" key="362">English Poems III</rs>
+                  <rs type="work" key="W407" n="1">Set Ope All Shutters, that the Day Come In</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W408" n="2">Part from the Windows the Small Curtains Set</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W409" n="3">Open the Windows and the Doors All Wide</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W410" n="4">Let the Wide Light Come through the Whole House Now</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W411" n="5">Now Will Her Grave of Untorn Maidenhood</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W412" n="6">Sing at Her Window, Ye Heard Early Wings</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W413" n="7">Now Is She Risen. Look How She Looks Down</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W414" n="8">Look How Over Her Seeing-Them-Not Her Maids</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W415" n="9">Now Is She Gownded Completely, Her Face Won</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W416" n="10">Now Is She Issued. List How All Speech Pines</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W417" n="11">Hang with Festoons and Wreaths and Coronals</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W418" n="12">This Is the Month and This the Day</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W419" n="13">No More, No More of Church or Feast, for These</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W420" n="14">The Bridegroom Aches for the End of This and Lusts</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W421" n="15">Even Ye, Now Old, that to This Come as to</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W422" n="16">No Matter Now or Past or Future. Be</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W423" n="17">In a Red Bacchic Surge of Thoughts that Beat</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W424" n="18">Io! Io! There Runs a Juice of Pleasure's Rage</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W425" n="19">Set the Great Flemish Hour Aflame!</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W426" n="20">But These Are Thoughts or Promises or but</rs>
+               </item>
+               <item>
+                  <rs type="work" key="W427" n="21">And Ye, that Wed To-day, Guess These Instincts</rs>
                </item>
             </list>
             <biblStruct>
@@ -74,6 +134,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2023-12-28" who="#IRC">
+            Added the keys to each individual title
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">

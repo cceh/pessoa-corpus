@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tríptico</title>
+            <title><rs type="work" key="W428">Tríptico</rs></title>
             <author>
                <rs type="name" key="FP">Fernando Pessoa</rs>
             </author>
@@ -89,6 +89,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-01-18" who="#FAF">
+            Acrescentei a Key no título.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">

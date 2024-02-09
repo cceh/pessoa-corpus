@@ -76,6 +76,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-09" who="#IRC">
+            Removed the choice element from the original orthography version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -90,10 +93,7 @@
                   <hi rend="italic">
                      <rs type="periodical" key="J12">ORFEU</rs> — Revista Trímestral de
                      Literatura. — No. 1 (Janeiro-fevereiro-março) — Depósitarios, Livraria
-                            Brazileira, de Monteiro <choice>
-                        <abbr>&amp;</abbr>
-                        <expan>e</expan>
-                     </choice> C.e, Lisbôa.</hi>
+                            Brazileira, de Monteiro &amp; C.e, Lisbôa.</hi>
                </hi>
             </bibl>
             <p rend="indent-first">Como se dê o caso de sermos colaborador desta revista, e

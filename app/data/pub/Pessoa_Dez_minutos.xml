@@ -83,6 +83,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-09" who="#IRC">
+            Removed the choice element from the original orthography version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -156,14 +159,7 @@
                de Jacob e desaparece á nossa vista, num ceu constelado de enigmas e de belas imagens
                   <rs type="name" key="P109">Ferreira Gomes</rs> que está ao nosso lado olha-nos com
                misterio. Que é do poeta?</p>
-            <signed rend="right">
-               <choice>
-                  <abbr>A<am>.</am> P<am>.</am>
-                  </abbr>
-                  <expan resp="#JU">A<ex>rtur</ex> P<ex>ortela</ex>
-                  </expan>
-               </choice>
-            </signed>
+            <signed rend="right">A. P.</signed>
          </div>
       </body>
    </text>

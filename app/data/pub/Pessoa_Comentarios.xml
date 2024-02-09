@@ -92,6 +92,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-09" who="#IRC">
+            Removed the choice element from the original orthography version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -105,13 +108,7 @@
                <milestone rend="asterisks" unit="section"/>
                <p rend="indent-first">Emquanto não incide sobre o nosso integralismo e as suas
                         origens uma critica mais apertada, póde o curioso ir entretendo os seus
-                        momentos com o livro de <rs type="name" key="P528">
-                     <choice>
-                        <abbr>D<am>.</am>
-                        </abbr>
-                        <expan>D<ex>om</ex>
-                        </expan>
-                     </choice> Parodi</rs>
+                        momentos com o livro de <rs type="name" key="P528">D. Parodi</rs>
                   <ref target="http://bibliotecaparticular.casafernandopessoa.pt/index/aut/P/parodid.htm">
                      <hi rend="italic">Traditionalisme et démocratie</hi>
                   </ref> (Paris,

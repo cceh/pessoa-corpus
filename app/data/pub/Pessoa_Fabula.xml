@@ -76,6 +76,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-09" who="#IRC">
+            Removed the choice element from the original orthography version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -106,14 +109,7 @@
             <p rend="indent-first">No fabulario, onde vem, esta fabula não traz moralidade.
                     Mesmo porque, na edade de ouro, as fabulas não tinham moralidade nenhuma.</p>
             <signed rend="right">
-               <rs type="name" role="author" key="FP">
-                  <choice>
-                     <abbr>F<am>.</am> P<am>.</am>
-                     </abbr>
-                     <expan>F<ex>ernando</ex> P<ex>essôa</ex>
-                     </expan>
-                  </choice>
-               </rs>
+               <rs type="name" role="author" key="FP">F. P.</rs>
             </signed>
          </div>
       </body>

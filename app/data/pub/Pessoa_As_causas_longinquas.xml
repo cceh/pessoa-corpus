@@ -95,6 +95,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-09" who="#IRC">
+            Removed the choice element from the original orthography version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -124,11 +127,7 @@
                     caminhos que seguirão, e os atalhos por onde hão-de conduzir os outros.</p>
             <p rend="indent-first">«Os acontecimentos provocados, que foram «enfeixados» á
                     meia-noite de 29 de Maio de 1928, terão em breve o seu termo oculto e o seu
-                    principio visivel. ― <choice>
-                  <abbr>O<am>.</am> S</abbr>
-                  <expan resp="#JU">O<ex>rdem</ex> S<ex>ebastianista</ex>
-                  </expan>
-               </choice>
+                    principio visivel. ― O. S
             </p>
             <p rend="indent-first">A nota recebida, que acima damos á estampa, está, de facto,
                     em acôrdo com o nosso entendimento. Aos pontos versados não nos referimos,

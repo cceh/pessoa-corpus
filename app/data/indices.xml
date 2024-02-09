@@ -1364,6 +1364,7 @@
                <item xml:id="T463"><title>Set the Great Flemish Hour Aflame!</title></item>
                <item xml:id="T464"><title>But These Are Thoughts or Promises or but</title></item>
                <item xml:id="T465"><title>And Ye, that Wed To-day, Guess These Instincts</title></item>
+               <item xml:id="T466"><title>Tríptico</title></item>
             </list>
             <!-- collections -->
             <list type="collections">
@@ -3001,7 +3002,7 @@
                <item xml:id="W425"><title key="T463">Set the Great Flemish Hour Aflame!</title></item>
                <item xml:id="W426"><title key="T464">But These Are Thoughts or Promises or but</title></item>
                <item xml:id="W427"><title key="T465">And Ye, that Wed To-day, Guess These Instincts</title></item>
-               
+               <item xml:id="W428"><title key="T466">Tríptico</title></item>
             </list>
             <!-- publications: published works by Pessoa  -->
             <list type="publications">

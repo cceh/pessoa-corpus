@@ -88,6 +88,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-09" who="#IRC">
+            Removed the choice element from the original orthography version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -170,14 +173,7 @@
             <p rend="indent-first">O caso, porém, não podia ficar secreto. Por um lado ou por
                     outro, começou a contar-se, e espalhou-se. E a historia do «conto de reis do <rs type="name" key="P370">Manuel Peres Vigario</rs>», passou a ser uma
                     expressão corrente na lingua portuguesa.</p>
-            <signed rend="right">
-               <choice>
-                  <abbr>F</abbr>
-                  <abbr>P</abbr>
-                  <expan>F<ex>ernando</ex> P<ex>essoa</ex>
-                  </expan>
-               </choice>
-            </signed>
+            <signed rend="right">FP</signed>
          </div>
       </body>
    </text>

@@ -105,6 +105,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+              <change when="2024-02-19" who="#IRC">
+                      Removed the abbreviaton development from the original version.
+              </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -266,12 +269,7 @@
                   <handShift new="#H_Descobrimento"/>É involuntariamente que contrariamos o
                         gosto do autor, não respeitando a sua ortografia. Sirva isto de desculpa a
                             <rs type="name" role="topic" key="FP">Fernando Pessoa</rs>, e de
-                        explicação aos leitores (<choice>
-                     <abbr>N<am>.</am> da R<am>.</am>
-                     </abbr>
-                     <expan>N<ex>ota</ex> da R<ex>edacção</ex>
-                     </expan>
-                  </choice>)</note>
+                        explicação aos leitores (N. da R.)</note>
             </p>
          </div>
          <div>

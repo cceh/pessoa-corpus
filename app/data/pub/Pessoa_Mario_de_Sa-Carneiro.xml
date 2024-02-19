@@ -77,6 +77,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-19" who="#IRC">
+            Removed the abbreviaton development from the original version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -99,14 +102,7 @@
                             Catulo</note>
                </quote>
                <bibl rend="center">
-                  <rs type="name" key="P521">
-                     <choice>
-                        <abbr>CAT<am>.</am>
-                        </abbr>
-                        <expan>CAT<ex>ULO</ex>
-                        </expan>
-                     </choice>
-                  </rs>
+                  <rs type="name" key="P521">CAT.</rs>
                </bibl>
             </cit>
             <p rend="indent-first">

@@ -109,6 +109,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-19" who="#IRC">
+            Removed the abbreviaton development from the original version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -133,11 +136,7 @@
          <div>
             <pb/>
             <head>
-               <handShift new="#H_Republica"/>UMA RÉPLICA AO <choice>
-                  <abbr>snr<am>.</am> dr<am>.</am>
-                  </abbr>
-                  <expan>s<ex>enho</ex>r d<ex>outo</ex>r</expan>
-               </choice>
+               <handShift new="#H_Republica"/>UMA RÉPLICA AO snr. dr.
                <rs type="name" key="P462" style="b">Adolfo Coelho</rs>
             </head>
             <div>
@@ -153,19 +152,10 @@
                      </app>
                   </p>
                   <p rend="indent-first">
-                     <hi>Agora é o colaborador da «<rs type="periodical" key="J5">Aguia</rs>», <choice>
-                           <abbr>snr<am>.</am>
-                           </abbr>
-                           <expan>s<ex>enho</ex>r</expan>
-                        </choice>
+                     <hi>Agora é o colaborador da «<rs type="periodical" key="J5">Aguia</rs>», snr.
                         <rs type="name" key="FP" role="topic">Fernando Pessoa</rs>, que vem
                         responder ao ilustre filólogo e lente da Faculdade de Letras da Universidade
-                        de Lisboa, <choice>
-                           <abbr>snr<am>.</am> dr<am>.</am>
-                           </abbr>
-                           <expan>s<ex>enho</ex>r d<ex>outo</ex>r</expan>
-                        </choice>
-                        <rs type="name" key="P462" style="b">Adolfo Coelho</rs>, que não crê no <app>
+                        de Lisboa, snr. dr. <rs type="name" key="P462" style="b">Adolfo Coelho</rs>, que não crê no <app>
                            <lem wit="República_1912">super-<rs type="name" key="P15">Camões</rs>
                            </lem>
                            <rdg wit="Clássica_1915">«super-<rs type="name" key="P15">Camões</rs>»</rdg>
@@ -200,13 +190,7 @@
                   de objecções várias competencias nominais houvessem deixado cair nas suas colunas.
                   Preparo esse folhêto, que a <hi rend="italic">Renascença Portuguesa</hi>
                   editará.</p>
-               <p rend="indent-first">Nesta atitude me conservaria, se o <choice>
-                     <abbr>Prof<am>.</am>
-                     </abbr>
-                     <expan>Prof<ex>essor</ex>
-                     </expan>
-                  </choice>
-                  <rs type="name" key="P462" style="b">Adolfo Coelho</rs> não tivesse feito incidir
+               <p rend="indent-first">Nesta atitude me conservaria, se o Prof. <rs type="name" key="P462" style="b">Adolfo Coelho</rs> não tivesse feito incidir
                   uma parte do seu depoimento sobre um artigo meu, publicado na <rs type="periodical" key="J5">
                      <hi rend="italic">
                         <app>
@@ -219,36 +203,18 @@
                   jornalística, sinto-me com o direito e o dever de abrir uma clareira na minha
                   renuncia á publicidade maior e a valer-me, na extensão de um artigo, do seu amável
                   convite.</p>
-               <p rend="indent-first">Os argumentos que empregarei contra as objecções do <choice>
-                     <abbr>Prof<am>.</am>
-                     </abbr>
-                     <expan>Prof<ex>essor</ex>
-                     </expan>
-                  </choice>
-                  <rs type="name" key="P462" style="b">Adolfo Coelho</rs> servir-me-hão, ao mesmo
+               <p rend="indent-first">Os argumentos que empregarei contra as objecções do Prof. <rs type="name" key="P462" style="b">Adolfo Coelho</rs> servir-me-hão, ao mesmo
                   tempo e de sumário modo, de resposta geral a outras adversas referências feitas á
                      <hi rend="italic">Renascença Portuguesa</hi> e á nossa nova poesia; porquanto,
                   explicativos como são daquelas, implicita resposta levam a todos os seus inimigos.
                   Isto não exclue — bom é que se note — a mais detalhada resposta no folhêto. Apenas
                   a prepara e imperfeitamente a resume.</p>
                <p rend="indent-first">Por ora, pois, responderei apenas ás vagas objecções feitas
-                  contra o caracter renovador e grande da nossa novissima poesia pelo <choice>
-                     <abbr>Prof<am>.</am>
-                     </abbr>
-                     <expan>Prof<ex>essor</ex>
-                     </expan>
-                  </choice>
-                  <rs type="name" key="P462" style="b">Adolfo Coelho</rs> no seu quasi-erudito
+                  contra o caracter renovador e grande da nossa novissima poesia pelo Prof. <rs type="name" key="P462" style="b">Adolfo Coelho</rs> no seu quasi-erudito
                   artigo. Esse artigo é sereno e aparentemente lucido e motivado; infelizmente, quem
                   se dér ao trabalho de lhe procurar o fio condutor de uma lógica, encontra-lhe uma
                   intima desconexão, desmentindo a sua fisionomia de ligado e conexo.</p>
-               <p rend="indent-first">Seja como fôr, perscrutemos em que se baseia o <choice>
-                     <abbr>Prof<am>.</am>
-                     </abbr>
-                     <expan>Prof<ex>essor</ex>
-                     </expan>
-                  </choice>
-                  <rs type="name" key="P462" style="b">Adolfo Coelho</rs> para descrer de uma
+               <p rend="indent-first">Seja como fôr, perscrutemos em que se baseia o Prof. <rs type="name" key="P462" style="b">Adolfo Coelho</rs> para descrer de uma
                   renascença literária em Portugal e de ser a nossa poesia novissima representativa
                   dessa renascença. Cinge-se a duas considerações, que era <app>
                      <lem wit="República_1912">indispensavel</lem>
@@ -260,13 +226,7 @@
                   1870; 2.° — que não mostra avanço espiritual — isto é, em compreensão da Natureza,
                   expressão de emoções, etc., — sobre qualquer outra corrente poetica — a romantica,
                   suponha-se, consoante exemplos indicados de <rs type="name" key="P248">Byron</rs>
-                  e <rs type="name" key="P292">Victor Hugo</rs>. Concretizando mais: para o <choice>
-                     <abbr>Prof<am>.</am>
-                     </abbr>
-                     <expan>Prof<ex>essor</ex>
-                     </expan>
-                  </choice>
-                  <rs type="name" key="P462" style="b">Adolfo Coelho</rs> a nossa novissima poesia
+                  e <rs type="name" key="P292">Victor Hugo</rs>. Concretizando mais: para o Prof. <rs type="name" key="P462" style="b">Adolfo Coelho</rs> a nossa novissima poesia
                   nem pela grandeza dos seus poetas, nem pela originalidade e grandeza do seu
                   caracter geral se impõe como poesia caracteristica de uma renascença; ou mesmo de
                   um grande periodo poetico. Isto é o essencial e o basilar do artigo; o resto ou

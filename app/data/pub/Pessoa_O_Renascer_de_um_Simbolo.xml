@@ -85,6 +85,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-19" who="#IRC">
+            Removed the abbreviaton development from the original version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -123,14 +126,7 @@
                     memoria, tambem, como um signal da Hora que os Deuses guardam para gloria dos
                     Poetas, dos Santos e dos Herois.</p>
             <signed rend="right">
-               <rs type="name" key="P109">
-                  <choice>
-                     <abbr>A<am>.</am> F<am>.</am> G<am>.</am>
-                     </abbr>
-                     <expan resp="#JU">A<ex>ugusto</ex> F<ex>erreira</ex> G<ex>omes</ex>
-                     </expan>
-                  </choice>
-               </rs>
+               <rs type="name" key="P109">A. F. G.</rs>
             </signed>
          </div>
       </body>

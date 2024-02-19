@@ -107,6 +107,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-19" who="#IRC">
+            Removed the abbreviaton development from the original version.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -150,12 +153,7 @@
                      Renascença que ha de seguir-se à Edade Média que atravessamos, o logar de uma
                      grande potencia?</hi>
                </p>
-               <p rend="indent-first">Resposta do <choice>
-                     <abbr>sr<am>.</am>
-                     </abbr>
-                     <expan>s<ex>enho</ex>r</expan>
-                  </choice>
-                  <rs type="name" key="FP" role="topic">Fernando Pessoa</rs>:</p>
+               <p rend="indent-first">Resposta do sr. <rs type="name" key="FP" role="topic">Fernando Pessoa</rs>:</p>
                <p rend="indent-first">
                   <handShift new="#H_FP"/>(1) Cumpre, antes de mais nada, definir a expressão
                   «grande potencia». Por «grande potencia» se deve entender, evidentemente, uma
@@ -376,12 +374,7 @@
             </div>
             <div>
                <p rend="indent-first">
-                  <handShift new="#H_Augusto_da_Costa"/>Devo dizer ao <choice>
-                     <abbr>sr<am>.</am>
-                     </abbr>
-                     <expan>s<ex>enho</ex>r</expan>
-                  </choice>
-                  <rs type="name" key="FP" role="topic">Fernando Pessoa</rs> que a minha primeira
+                  <handShift new="#H_Augusto_da_Costa"/>Devo dizer ao sr. <rs type="name" key="FP" role="topic">Fernando Pessoa</rs> que a minha primeira
                   interrogação não postulava de qualquer fórma a existencia futura de Portugal como
                   potencia dominante entre as que hoje são consideradas «<app>
                      <lem wit="Jornal_1926">Grandes</lem>

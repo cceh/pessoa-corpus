@@ -86,6 +86,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-26" who="#IRC">
+            Added the key to Ode Marítima and replaced some punctuation.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -111,8 +114,8 @@
                <item>
                   <rs type="work">
                      <ref target="http://www.pessoadigital.pt/en/pub/Campos_Ode_Maritima">
-                        <rs type="title">Ode Maritima</rs>
-                     </ref> – <rs type="name" key="AdC">
+                        <rs type="title" key="O4-11">Ode Maritima</rs>
+                     </ref> — <rs type="name" key="AdC">
                         <choice>
                            <abbr>Alv<am>.</am>
                            </abbr>
@@ -122,10 +125,10 @@
                   </rs>
                </item>
                <item>
-                  <rs type="title">A Passagem das Horas</rs> – o mesmo.</item>
+                  <rs type="title">A Passagem das Horas</rs> — o mesmo.</item>
                <item>
                   <rs type="work">
-                     <rs type="title">Scena do Odio</rs> – <rs type="name" key="P56">
+                     <rs type="title">Scena do Odio</rs> — <rs type="name" key="P56">
                         <choice>
                            <abbr>J<am>.</am> Alm<am>.</am>
                            </abbr>

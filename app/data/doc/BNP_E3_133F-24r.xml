@@ -79,6 +79,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-26" who="#IRC">
+            Added a title's key.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -103,7 +106,7 @@
                      <item rend="inline">
                         <label>1.</label>
                         <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_O_Marinheiro">
-                           <rs type="title">O <choice>
+                           <rs type="title" key="W198">O <choice>
                                  <abbr>Mar<am>.</am>
                                  </abbr>
                                  <expan>Mar<ex>inheiro</ex>

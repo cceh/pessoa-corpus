@@ -22,6 +22,18 @@
          <change when="2024-01-05" who="#FAF">
             Added edition statement to the teiHeader
          </change>
+         <change when="2024-01-08" who="#IRC">
+            Added some titles.
+         </change>
+         <change when="2024-01-18" who="#IRC">
+            Added a title.
+         </change>
+         <change when="2024-02-09" who="#IRC">
+            Added a title.
+         </change>
+         <change when="2024-02-26" who="#IRC">
+            Fixed a typo.
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -3171,7 +3183,7 @@
                   <idno  type="viaf">310495757</idno>
                </item>
                <item xml:id="Pessoa_Antonio_Antonio">
-                  <title>“António”, posfácio a , de António Botto</title>
+                  <title>“António”, posfácio a <hi rend="italic">António</hi>, de António Botto</title>
                </item>
                <item xml:id="Pessoa_Antonio_Botto_e_o_ideal">
                   <title>António Botto e o ideal estético em Portugal</title>

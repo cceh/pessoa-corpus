@@ -81,6 +81,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2023-02-26" who="#IRC">
+            Added keys to title.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -103,13 +106,13 @@
                   <rs type="title">O Theatro Portuguez</rs>.</item>
                <item>
                   <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Antonio_Botto_e_o_ideal">
-                     <rs type="title">
+                     <rs type="title" key="W245">
                         <rs type="name" key="P17">Antonio Botto</rs> e o Ideal
                   Esthetico</rs>
                   </ref>.</item>
                <item>
                   <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_O_Banqueiro_Anarchista">
-                     <rs type="title">O Banqueiro Anarchista</rs>
+                     <rs type="title" key="W229">O Banqueiro Anarchista</rs>
                   </ref>.</item>
                <item>
                   <rs type="title">Na Botica do Evaristo</rs>. (serial)</item>

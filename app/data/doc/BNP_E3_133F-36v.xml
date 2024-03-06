@@ -87,6 +87,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-06" who="#IRC">
+            Added title keys.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -100,7 +103,7 @@
                <item xml:id="I1">
                   <label>1.</label>
                   <ref target="http://www.pessoadigital.pt/en/pub/Campos_Ultimatum">
-                     <rs type="title">Ultimatum</rs>
+                     <rs type="title" key="W202">Ultimatum</rs>
                   </ref>. </item>
                <item xml:id="I2">
                   <label>2.</label>
@@ -109,7 +112,7 @@
                <item xml:id="I3">
                   <label>3.</label>
                   <ref target="http://www.pessoadigital.pt/en/pub/Campos_O_Que_e_a_Metaphysica">
-                     <rs type="title">O que é a <choice>
+                     <rs type="title" key="W210">O que é a <choice>
                            <abbr>met<am>.</am>
                            </abbr>
                            <expan>met<ex>aphysica</ex>
@@ -123,7 +126,7 @@
                <item xml:id="I4">
                   <label>4.</label>
                   <ref target="http://www.pessoadigital.pt/en/pub/Campos_Apontamentos_para_uma_Esthetica">
-                     <rs type="title">Apontamentos</rs>
+                     <rs type="title" key="W206">Apontamentos</rs>
                   </ref>
                </item>
                <item xml:id="I5">
@@ -157,7 +160,7 @@
                <item>
                   <label>1.</label>
                   <ref target="http://www.pessoadigital.pt/en/pub/Campos_Ultimatum">
-                     <rs type="title">Ultimatum</rs>
+                     <rs type="title" key="W202">Ultimatum</rs>
                   </ref> de <rs type="name" key="AdC" role="author">
                      <choice>
                         <abbr>A<am>.</am> de C<am>.</am>
@@ -186,13 +189,13 @@
                   <subst>
                      <del rend="overstrike">Apontamentos</del>
                      <add place="above">
-                        <ref target="http://www.pessoadigital.pt/en/pub/Campos_O_Que_e_a_Metaphysica">O que é a Metaphysica?</ref>
+                        <ref target="http://www.pessoadigital.pt/en/pub/Campos_O_Que_e_a_Metaphysica"><rs type="title" key="W210">O que é a Metaphysica?</rs></ref>
                      </add>
                   </subst>...... </item>
                <item>
                   <label>5.</label>
                   <ref target="http://www.pessoadigital.pt/en/pub/Campos_Apontamentos_para_uma_Esthetica">
-                     <rs type="title">Apontamentos...</rs>
+                     <rs type="title" key="W206">Apontamentos...</rs>
                   </ref>
                </item>
                <item>

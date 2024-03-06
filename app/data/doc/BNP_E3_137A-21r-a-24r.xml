@@ -81,6 +81,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-06" who="#IRC">
+            Added a title key and fixed a typo.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -279,7 +282,7 @@
                <pb n="2"/>
                <item>
                   <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Mar_Portuguez">
-                     <rs type="title">“Mar Portuguez”</rs>
+                     "<rs type="title" key="W211">Mar Portuguez</rs>"
                   </ref> (<rs type="name" key="FP" role="author">Fernando Pessoa</rs>).</item>
                <item>
                   <rs type="title">“Cancioneiro, <choice>

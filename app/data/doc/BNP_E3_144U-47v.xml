@@ -90,6 +90,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-03-06" who="#IRC">
+            Added title keys.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -126,20 +129,20 @@
                <row>
                   <cell>
                      <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Chuva-Obliqua">
-                        <rs type="title">Chuva Obliqua</rs> — 6 poemas</ref>.</cell>
+                        <rs type="title" key="O1-9">Chuva Obliqua</rs> — 6 poemas</ref>.</cell>
                   <cell rend="right">8</cell>
                </row>
                <row>
                   <cell>
                      <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_A_casa_branca_nau_preta">
-                        <rs type="title">A Casa Branca Nau Preta</rs>
+                        <rs type="title" key="O1-0">A Casa Branca Nau Preta</rs>
                      </ref>.</cell>
                   <cell rend="right">3</cell>
                </row>
                <row>
                   <cell>
                      <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Passos-da-Cruz">
-                        <rs type="title">Passos da Cruz</rs> — 14 sonetos</ref>.</cell>
+                        <rs type="title" key="O1-32">Passos da Cruz</rs> — 14 sonetos</ref>.</cell>
                   <cell rend="right">14</cell>
                </row>
                <row>

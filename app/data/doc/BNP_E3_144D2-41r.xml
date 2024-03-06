@@ -86,6 +86,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-02-06" who="#IRC">
+            Added a title key.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -130,7 +133,7 @@
                <item>
                   <label>4.</label>
                   <ref target="http://www.pessoadigital.pt/en/pub/Pessoa_Balan%C3%A7a_de_Minerva">
-                     <rs type="title">Balança de Minerva</rs>
+                     <rs type="title" key="W235">Balança de Minerva</rs>
                   </ref>. </item>
             </list>
          </div>

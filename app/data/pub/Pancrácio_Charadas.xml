@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>Charadas (Pimpão)</title>
-         </titleStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
          <publicationStmt>
             <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e Tradição
                (IELT)</publisher>
@@ -21,9 +21,6 @@
          <sourceDesc>
             <p>Information about the source</p>
          </sourceDesc>
-         <editionStmt>
-            <p>Corpus version C2.1.0</p>
-         </editionStmt>
       </fileDesc>
       <!-- Quatro ficheiros diferentes? Como faço o header? Codifico capas antes de cada uma? -->
       <revisionDesc>

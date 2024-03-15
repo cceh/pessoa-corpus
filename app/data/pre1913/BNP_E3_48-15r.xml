@@ -29,7 +29,7 @@
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
             </respStmt>
-         </titleStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
          <publicationStmt>
             <publisher/>
             <idno type="filename">BNP_E3_48-15r.xml</idno>
@@ -60,9 +60,6 @@
                </history>
             </msDesc>
          </sourceDesc>
-         <editionStmt>
-            <p>Corpus version C2.1.0</p>
-         </editionStmt>
       </fileDesc>
       <revisionDesc>
          <change when="2023-11-15" who="#FAF">

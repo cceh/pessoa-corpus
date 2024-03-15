@@ -19,7 +19,7 @@
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
             </respStmt>
-         </titleStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
          <publicationStmt>
             <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e
                               Tradição (IELT)</publisher>
@@ -48,9 +48,6 @@
  Os aforismos das páginas 120, 125, 128 foram publicados em Abril
  E os aforismos das páginas 145 e 164 foram publicados em Maio-->
          </sourceDesc>
-         <editionStmt>
-            <p>Corpus version C2.1.0</p>
-         </editionStmt>
       </fileDesc>
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>

@@ -5,7 +5,7 @@
          <titleStmt>
             <title>48B-142
             </title>
-         </titleStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
@@ -55,9 +55,6 @@
                </history>
             </msDesc>
          </sourceDesc>
-         <editionStmt>
-            <p>Corpus version C2.1.0</p>
-         </editionStmt>
       </fileDesc>
       <revisionDesc>
          <change when="2023-11-15" who="#FAF">

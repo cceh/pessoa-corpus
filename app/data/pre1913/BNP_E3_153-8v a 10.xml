@@ -5,7 +5,7 @@
          <titleStmt>
             <title>153-8<hi rend="superscript">v</hi> a 10<hi rend="superscript">r</hi>
             </title>
-         </titleStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
@@ -59,9 +59,6 @@
                </history>
             </msDesc>
          </sourceDesc>
-         <editionStmt>
-            <p>Corpus version C2.1.0</p>
-         </editionStmt>
       </fileDesc>
       <revisionDesc>
          <change when="2023-11-15" who="#FAF">

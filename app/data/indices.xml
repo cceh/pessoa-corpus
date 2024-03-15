@@ -7,16 +7,13 @@
       <fileDesc>
          <titleStmt>
             <title>Digital Edition of Fernando Pessoa - Project Knowledge</title>
-         </titleStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
          </sourceDesc>
-         <editionStmt>
-            <p>Corpus version C2.1.0</p>
-         </editionStmt>
       </fileDesc>
       <revisionDesc>
          <change when="2024-01-05" who="#FAF">

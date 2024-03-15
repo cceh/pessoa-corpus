@@ -42,9 +42,12 @@
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
             </respStmt>
          </titleStmt>
+         <editionStmt>
+            <p>Corpus version C2.1.0</p>
+         </editionStmt>
          <publicationStmt>
-            <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e
-                    Tradição (IELT)</publisher>
+            <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e Tradição
+               (IELT)</publisher>
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
             <date>2017</date>
             <availability status="free">
@@ -60,8 +63,8 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <p> Lista manuscrita, publicada em <hi rend="italic">Obras de António
-                                    Mora</hi> (2002, 155). </p>
+                     <p> Lista manuscrita, publicada em <hi rend="italic">Obras de António Mora</hi>
+                        (2002, 155). </p>
                   </summary>
                   <msItemStruct>
                      <author>
@@ -82,18 +85,15 @@
                </history>
             </msDesc>
          </sourceDesc>
-         <editionStmt>
-            <p>Corpus version C2.1.0</p>
-         </editionStmt>
       </fileDesc>
       <revisionDesc>
-         <change when="2023-11-15" who="#FAF">
-                    Added edition statement to the teiHeader
-                </change>
+         <change when="2023-11-15" who="#FAF"> Added edition statement to the teiHeader </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
-      <graphic url="bn-acpc-e-e3-12-1-1-100_JPG_24-C-R0150/bn-acpc-e-e3-12-1-1-100_0167_79_t24-C-R0150.jpg"/>
+      <graphic
+         url="bn-acpc-e-e3-12-1-1-100_JPG_24-C-R0150/bn-acpc-e-e3-12-1-1-100_0167_79_t24-C-R0150.jpg"
+      />
    </facsimile>
    <text>
       <body>
@@ -107,8 +107,7 @@
                   <note place="margin-left">? -</note>
                   <hi rend="underline">
                      <rs type="name" key="P3">José Enrique Rodó</rs>
-                  </hi>:
-                            <rs type="title">Ariel</rs>. </item>
+                  </hi>: <rs type="title">Ariel</rs>. </item>
                <item>
                   <note place="margin-left">? -</note>
                   <hi rend="underline">
@@ -148,8 +147,7 @@
                            <expan>G<ex>ilbert</ex> K<ex>eith</ex>
                            </expan>
                         </choice> Chesterton</rs>
-                  </hi>:
-                            <rs type="title">Herejes</rs>
+                  </hi>: <rs type="title">Herejes</rs>
                </item>
                <item>
                   <note place="margin-left">? -</note>
@@ -165,8 +163,7 @@
                <item>
                   <hi rend="underline">
                      <rs type="name" key="P10">Francisco Sanches</rs>
-                  </hi>:
-                            <rs type="title">Quod nihil scitur</rs>. </item>
+                  </hi>: <rs type="title">Quod nihil scitur</rs>. </item>
                <item>
                   <choice>
                      <abbr>
@@ -174,8 +171,7 @@
                      </abbr>
                      <expan>
                         <hi rend="underline">
-                           <rs type="name" key="P10">Francisco
-                                        Sanches</rs>
+                           <rs type="name" key="P10">Francisco Sanches</rs>
                         </hi>
                      </expan>
                   </choice>
@@ -187,8 +183,7 @@
                </item>
                <item>
                   <hi rend="underline">
-                     <rs type="name" key="P1" style="b">Antonio
-                            Mora</rs>:</hi>
+                     <rs type="name" key="P1" style="b">Antonio Mora</rs>:</hi>
                   <rs type="title">Prolegomenos</rs>, etc...</item>
             </list>
             <gap reason="selection" unit="line" extent="22"/>

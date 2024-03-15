@@ -28,7 +28,7 @@
                <resp>Codificação</resp>
                <name>Sviatoslav Drach</name>
             </respStmt>
-         </titleStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
          <publicationStmt>
             <publisher/>
             <idno type="filename">BNP_E3_144Y-51v.xml</idno>
@@ -63,9 +63,6 @@
                <p> Lista manuscrita no caderno 144Y (cf. <ref target="http://purl.pt/13899">http://purl.pt/13899</ref>). </p>
             </msDesc>
          </sourceDesc>
-         <editionStmt>
-            <p>Corpus version C2.1.0</p>
-         </editionStmt>
       </fileDesc>
       <revisionDesc>
          <change when="2023-11-15" who="#FAF">

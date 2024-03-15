@@ -19,7 +19,7 @@
                <resp>Codificação</resp>
                <name/>
             </respStmt>
-         </titleStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
          <publicationStmt>
             <publisher/>
             <idno type="filename">CP210-211.xml</idno>
@@ -55,9 +55,6 @@
                <p> Lista manuscrita. </p>
             </msDesc>
          </sourceDesc>
-         <editionStmt>
-            <p>Corpus version C2.1.0</p>
-         </editionStmt>
       </fileDesc>
       <revisionDesc>
          <change when="2023-11-15" who="#FAF">

@@ -714,11 +714,13 @@
                                         editorial é da responsabilidade de Pedro Sepúlveda, a
                                         coordenação técnica está a cargo de Ulrike Henny-Krahmer, a
                                         edição é da responsabilidade de Pedro Sepúlveda, Ulrike
-                                        Henny-Krahmer e Jorge Uribe.</p>
+                                        Henny-Krahmer e Jorge Uribe. </p>
                                     <p>O portal apresenta uma edição das listas de projetos
                                         editoriais de Fernando Pessoa, que constituem uma parte
                                         nuclear do seu espólio, assim como das publicações do autor
-                                        em vida. Na sua versão atual, a edição contempla as listas
+                                        em vida. Na sua <ref type="internal"
+                                            target="http://www.pessoadigital.pt/pt/project/versions"
+                                            >versão atual</ref>, a edição contempla as listas
                                         elaboradas entre 1913 e o final da vida de Pessoa. No que
                                         diz respeito às publicações em vida, reunimos toda a poesia
                                         publicada pelo autor entre 1914 e 1935, em periódicos,
@@ -726,24 +728,30 @@
                                         de Campos, Alberto Caeiro e Ricardo Reis, assim como a
                                         totalidade da prosa publicada em vida, em jornais e
                                         revistas, sob os nomes de Fernando Pessoa, Álvaro de Campos
-                                        e Bernardo Soares, a partir de 1912.</p>
+                                        e Bernardo Soares, a partir de 1912 (ver a este respeito
+                                            <seg rend="bold"><ref type="external"
+                                                target="https://static1.squarespace.com/static/51d2b64ae4b0a433e9c0c726/t/5fd5f381491a58544a059185/1607857026300/Uribe_Em_vida_de_Fernando_Pessoa_EP_n7.pdf"
+                                                >Uribe, “Em vida de Fernando Pessoa — Lista de
+                                                publicações 1912-1935”</ref></seg>).</p>
                                     <p>Todos os documentos da Edição Digital são codificados
                                         seguindo a norma da <seg rend="italic">Text Encoding
                                             Initiative</seg> (TEI), que proporciona não só
                                         fundamentos para a representação das fontes escritas no
                                         suporte digital como também conceitos e técnicas que visam o
                                         registo de variantes e versões. O leitor encontra <ref
-                                            target="http://www.pessoadigital.pt/tei-odd">aqui</ref>
-                                        documentação detalhada sobre as ferramentas e os critérios
-                                        seguidos na codificação eletrónica do texto, explicitados
-                                        através de exemplos da edição. Esta edição é atualizada em
-                                        permanência, disponibilizando, ao longo do tempo, diferentes
-                                        versões, indicadas no rodapé da página de abertura.</p>
+                                            type="internal"
+                                            target="http://www.pessoadigital.pt/pt/project/documentation"
+                                            >aqui</ref> documentação detalhada sobre as ferramentas
+                                        e os critérios seguidos na codificação eletrónica do texto,
+                                        explicitados através de exemplos da edição. Esta edição é
+                                        atualizada em permanência, disponibilizando, ao longo do
+                                        tempo, diferentes versões, indicadas no rodapé da página de
+                                        abertura.</p>
                                 </div>
                                 <div>
                                     <head>2. Listas de projetos</head>
-                                    <p>As listas de projetos encontravam-se publicadas de forma
-                                        dispersa em diversas edições, encontrando-se ainda uma parte
+                                    <p>As listas de projetos foram publicadas de forma dispersa em
+                                        diversas edições, encontrando-se ainda uma parte
                                         significativa inédita, aqui publicada pela primeira vez.
                                         Trata-se de documentos decisivos para entender não só
                                         propósitos editoriais como poéticos, de elaboração, fixação
@@ -759,8 +767,8 @@
                                         de projetos como de publicações, assim como estabelecer
                                         relações entre estes.</p>
                                     <p>O <seg rend="italic">corpus</seg> constituído pelas listas de
-                                        projetos editoriais de Pessoa é delimitado por oposição face
-                                        a outro tipo de listas, igualmente presentes no seu espólio,
+                                        projetos editoriais de Pessoa é delimitado por oposição a
+                                        outro tipo de listas, igualmente presentes no seu espólio,
                                         como listas de leituras, de livros, outros objetos ou
                                         tarefas a realizar. No que diz respeito a listas de foro
                                         editorial, distingue-se ainda, para os propósitos desta
@@ -787,28 +795,54 @@
                                         enquanto peça bibliográfica. Preservando estas
                                         caraterísticas com vista a uma leitura adequada,
                                         republicações que integram certo texto num conjunto distinto
-                                        são editadas enquanto unidades autónomas, enquanto que
-                                        publicações de um mesmo texto que apresentam apenas
-                                        variações textuais entre si são confrontadas num texto
-                                        crítico. Esta atenção particular vai ao encontro das
-                                        considerações de Jerome McGann (1991, 13-16) a respeito da
-                                        importância do código bibliográfico do texto. Alargando as
-                                        suas considerações ao âmbito da edição digital, McGann
-                                        (2001, 11-12) sublinhou a necessidade de conciliar, através
-                                        do digital, os propósitos da edição crítica e da edição
-                                        facsimilada, dando a ver as particularidades bibliográficas
-                                        do suporte de cada texto, assim como o seu contexto
-                                        particular de publicação. A edição contempla essas
-                                        particularidades através da articulação entre o facsímile e
-                                        o texto editado, e da apresentação de cada texto enquanto
-                                        peça pertencente a um dado contexto e publicada num
-                                        determinado suporte, com caraterísticas visuais e
-                                        linguísticas próprias. Como o texto editado é apresentado de
-                                        um modo próximo ao facsímile, na sua fixação no novo suporte
-                                        prescinde-se de uma absoluta fidelidade tipo- e
-                                        quirográfica. Em vez disso, o texto apresenta-se como uma
-                                        versão estruturada, através de marcações específicas de cada
-                                        elemento.</p>
+                                        são editadas como unidades autónomas, enquanto publicações
+                                        de um mesmo texto que apresentam apenas variações textuais
+                                        entre si são confrontadas num texto crítico. Esta atenção
+                                        particular vai ao encontro das considerações de Jerome
+                                        McGann (1991, 13-16) a respeito da importância do código
+                                        bibliográfico do texto. Alargando as suas considerações ao
+                                        âmbito da edição digital, McGann (2001, 11-12) sublinhou a
+                                        necessidade de conciliar, através do digital, os propósitos
+                                        da edição crítica e da edição facsimilada, dando a ver as
+                                        particularidades bibliográficas do suporte de cada texto,
+                                        assim como o seu contexto particular de publicação. A edição
+                                        contempla essas particularidades através da articulação
+                                        entre o facsímile e o texto editado, e da apresentação de
+                                        cada texto enquanto peça pertencente a um dado contexto e
+                                        publicada num determinado suporte, com caraterísticas
+                                        visuais e linguísticas próprias. Como o texto editado é
+                                        apresentado de um modo próximo ao facsímile, na sua fixação
+                                        no novo suporte prescinde-se de uma absoluta fidelidade
+                                        tipo- e quirográfica. Em vez disso, o texto apresenta-se
+                                        como uma versão estruturada, através de marcações
+                                        específicas de cada elemento.</p>
+                                    <p>Na edição das publicações em vida, é conferida particular
+                                        atenção à forma específica como cada texto foi publicado
+                                        pelo autor, considerando as suas caraterísticas próprias
+                                        enquanto peça bibliográfica. Preservando estas
+                                        caraterísticas com vista a uma leitura adequada,
+                                        republicações que integram certo texto num conjunto distinto
+                                        são editadas como unidades autónomas, enquanto publicações
+                                        de um mesmo texto que apresentam apenas variações textuais
+                                        entre si são confrontadas num texto crítico. Esta atenção
+                                        particular vai ao encontro das considerações de Jerome
+                                        McGann (1991, 13-16) a respeito da importância do código
+                                        bibliográfico do texto. Alargando as suas considerações ao
+                                        âmbito da edição digital, McGann (2001, 11-12) sublinhou a
+                                        necessidade de conciliar, através do digital, os propósitos
+                                        da edição crítica e da edição facsimilada, dando a ver as
+                                        particularidades bibliográficas do suporte de cada texto,
+                                        assim como o seu contexto particular de publicação. A edição
+                                        contempla essas particularidades através da articulação
+                                        entre o facsímile e o texto editado, e da apresentação de
+                                        cada texto enquanto peça pertencente a um dado contexto e
+                                        publicada num determinado suporte, com caraterísticas
+                                        visuais e linguísticas próprias. Como o texto editado é
+                                        apresentado de um modo próximo ao facsímile, na sua fixação
+                                        no novo suporte prescinde-se de uma absoluta fidelidade
+                                        tipo- e quirográfica. Em vez disso, o texto apresenta-se
+                                        como uma versão estruturada, através de marcações
+                                        específicas de cada elemento.</p>
                                     <p>Enquanto as variações entre publicações distintas, a que
                                         correspondem diferentes entradas, são indicadas brevemente
                                         numa nota editorial, as variantes textuais entre publicações
@@ -865,24 +899,24 @@
                                         texto, procurando evitar algumas das anteriores oposições
                                         entre critérios editoriais e dando conta do dinamismo da
                                         escrita do autor e das suas diferentes etapas.</p>
-                                    <p>Esta apresentação editorial dos textos oferece novos modos de
-                                        acesso à obra de Pessoa, colocando o foco tanto numa parte
-                                        significativa do seu espólio literário, à guarda da
-                                        Biblioteca Nacional de Portugal (BNP) ou de particulares
-                                        (CP), como nas publicações realizadas em vida. A sigla BNP
-                                        nos documentos, seguida de uma quota, indica que estes se
-                                        encontram integrados no espólio da Biblioteca Nacional, no
-                                        seu envelope 3. Os documentos que integram coleções
-                                        particulares são referidos com a sigla CP, seguida de uma
-                                        numeração. Nas publicações em vida, os textos são indicados
-                                        através dos respetivos títulos da sua publicação,
-                                        respeitando-se os moldes particulares em que foram
-                                        publicados. Para uma uniformização mínima dos títulos, estes
-                                        seguem, nos menus de acesso, a ortografia moderna; títulos
-                                        de poemas são indicados utilizando sempre maiúsculas, salvo
-                                        artigos e preposições, na prosa apenas com maiúscula
-                                        inicial. Nos casos dos prefácios a livros, ao seu título
-                                        segue-se a indicação da obra prefaciada.</p>
+                                    <p>Esta combinação de diferentes modalidades de edição dos
+                                        textos oferece novos modos de acesso à obra de Pessoa,
+                                        colocando o foco tanto numa parte significativa do seu
+                                        espólio literário, à guarda da Biblioteca Nacional de
+                                        Portugal (BNP) ou de particulares (CP), como nas publicações
+                                        realizadas em vida. A sigla BNP nos documentos, seguida de
+                                        uma quota, indica que estes se encontram integrados no
+                                        espólio da Biblioteca Nacional, no seu envelope 3. Os
+                                        documentos que integram coleções particulares são referidos
+                                        com a sigla CP, seguida de uma numeração. Nas publicações em
+                                        vida, os textos são indicados através dos respetivos títulos
+                                        da sua publicação, respeitando-se os moldes particulares em
+                                        que foram publicados. Para uma uniformização mínima dos
+                                        títulos, estes seguem, nos menus de acesso, a ortografia
+                                        moderna; títulos de poemas são indicados utilizando sempre
+                                        maiúsculas, salvo artigos e preposições, na prosa apenas com
+                                        maiúscula inicial. Nos casos dos prefácios a livros, ao seu
+                                        título segue-se a indicação da obra prefaciada.</p>
                                     <p>A edição inclui uma bibliografia especializada, dedicada
                                         principalmente a reunir as referências às fontes que, ao
                                         longo dos anos, foram tornando acessíveis os diversos
@@ -916,7 +950,7 @@
                                         <item>
                                             <label>□</label> espaço deixado em branco pelo autor </item>
                                         <item>
-                                            <label>*</label> leitura conjecturada </item>
+                                            <label>*</label> leitura conjeturada </item>
                                         <item>
                                             <label>/ /</label> trecho dubitado pelo autor </item>
                                         <item>
@@ -925,7 +959,7 @@
                                             <label>[ ]</label> desenvolvimento de abreviaturas
                                         </item>
                                     </list>
-                                    <p>Em breve nota a cada documento do espólio referimos a sua
+                                    <p>EEm breve nota a cada documento do espólio referimos a sua
                                         anterior publicação, quando não se trata de um inédito. A
                                         referência recai sobre a sua publicação mais antiga, exceto
                                         nos casos em que uma publicação mais recente apresenta
@@ -936,21 +970,24 @@
                                         tipo de suporte. Neste âmbito são considerados timbres,
                                         muitos deles relativos a firmas em que Pessoa trabalhou em
                                         certos momentos, e marcas de água do papel.</p>
-                                    <p>A abreviatura <seg rend="italic">«c.»</seg> («circa») marca o
-                                        caráter conjetural da datação, que depende de uma
-                                        interpretação dos elementos e de uma compreensão da obra que
-                                        excede a da sua materialidade. Mesmo em casos em que surge
-                                        uma data autógrafa no documento, não podemos ter absoluta
-                                        certeza de que aquele documento foi redigido nessa mesma
-                                        data, pelo que em nenhum caso está ausente uma dimensão
-                                        conjetural. Nos casos de maior dúvida, indicamos um espaço
-                                        de tempo de dois ou mais anos («c. 1916-1917» ou «c.
-                                        1918-1920») ou indicamos que a lista pertence a determinado
-                                        período («1916-1919» ou «1920-1927»). As abreviaturas <seg
-                                            rend="italic">«ant.»</seg> («anterior») e <seg
-                                            rend="italic">«post.»</seg> («posterior») indicam que
-                                        determinado documento terá sido redigido num momento
-                                        próximo, anterior ou posterior a uma certa data.</p>
+                                    <p>A abreviatura «<seg rend="italic"
+                                            >c.</seg>» («<seg rend="italic"
+                                                >circa</seg>») marca o caráter conjetural da
+                                        datação, que depende de uma interpretação dos elementos e de
+                                        uma compreensão da obra que excede a da sua materialidade.
+                                        Mesmo em casos em que surge uma data autógrafa no documento,
+                                        não podemos ter absoluta certeza de que aquele documento foi
+                                        redigido nessa mesma data, pelo que em nenhum caso está
+                                        ausente uma dimensão conjetural. Nos casos de maior dúvida,
+                                        indicamos um espaço de tempo de dois ou mais anos («<seg rend="italic"
+                                            >c.</seg>
+                                        1916-1917» ou «<seg rend="italic"
+                                            >c.</seg> 1918-1920») ou indicamos que a lista
+                                        pertence a determinado período («1916-1919» ou «1920-1927»).
+                                        As abreviaturas «<seg rend="italic"
+                                                >ant.</seg>» («anterior») e «<seg rend="italic">post.</seg>» («posterior»)
+                                        indicam que determinado documento terá sido redigido num
+                                        momento próximo, anterior ou posterior a uma certa data.</p>
                                     <p>Um motor de busca facilita a pesquisa por conteúdos
                                         específicos e proporciona distintos modos de acesso à
                                         informação contida nos textos. O acesso aos textos pode ser
@@ -1011,213 +1048,223 @@
                                     <p>This digital edition of Fernando Pessoa's work was born out
                                         of a collaboration between the Estranhar Pessoa project,
                                         based at the IELT (Institute for the Study of Literature and
-                                        Tradition), at the Universidade Nova de Lisboa, and the CCeH
-                                        (Cologne Center for eHumanities), at the University of
+                                        Tradition), of the NOVA University of Lisbon, and the CCeH
+                                        (Cologne Centre for eHumanities), of the University of
                                         Cologne. Made available to readers in 2017, it currently
                                         includes researchers from the Estranhar Pessoa project
                                         (IELT, NOVA FCSH), the University of Rostock and the EAFIT
                                         University of Medellín, including consultancy from the IDE
-                                        (Institute of Documentology and Scholarly Editing) and
+                                        (Institute of Documentology and Scholarly Editing) and from
                                         specialists in the work of Fernando Pessoa (see <ref
                                             type="internal"
                                             target="http://www.pessoadigital.pt/en/project/team"
-                                            >here</ref> for the constitution of the team,
-                                        institutions involved and sources of funding). Editorial
-                                        coordination is the responsibility of Pedro Sepúlveda,
-                                        technical coordination is the responsibility of Ulrike
-                                        Henny-Krahmer, editing is the responsibility of Pedro
-                                        Sepúlveda, Ulrike Henny-Krahmer and Jorge Uribe.</p>
-                                    <p>The portal presents an edition of the lists of of Fernando
-                                        Pessoa's publishing projects, which form a part of his
-                                        estate, as well as the author's publications in his
-                                        lifetime. In its current version, the edition includes the
-                                        lists drawn up between 1913 and the end of Pessoa's life.
-                                        Regarding the publications during his lifetime, we have
-                                        collected all the poetry published by the author between
-                                        1914 and 1935, in periodicals, pamphlets and in book form,
-                                        under the names of Fernando Pessoa, Álvaro de Campos,
-                                        Alberto Caeiro and Ricardo Reis, as well as all the prose
-                                        published during his lifetime, in newspapers and magazines,
-                                        under the names of Fernando Pessoa, Álvaro de Campos and
-                                        Bernardo Soares, from 1912 onwards.</p>
+                                            >here</ref> the constitution of the team, institutions
+                                        involved and sources of funding). Pedro Sepúlveda is
+                                        responsible for the editorial coordination, Ulrike
+                                        Henny-Krahmer for the technical coordination; Pedro
+                                        Sepúlveda, Ulrike Henny-Krahmer and Jorge Uribe are
+                                        responsible for the edition.</p>
+                                    <p>The website presents an edition of Fernando Pessoa's lists of
+                                        editorial projects, which form a core part of his estate, as
+                                        well as of the author's publications during his lifetime. In
+                                        its <ref type="internal"
+                                            target="http://www.pessoadigital.pt/en/project/versions"
+                                            >current version</ref>, the edition includes the lists
+                                        drawn up between 1913 and the end of Pessoa's life. With
+                                        regard to the publications during his lifetime, we collected
+                                        all the poetry published by the author between 1914 and
+                                        1935, in periodicals, pamphlets and in book form, under the
+                                        names of Fernando Pessoa, Álvaro de Campos, Alberto Caeiro
+                                        and Ricardo Reis, as well as all the prose published in
+                                        lifetime, in newspapers and magazines, under the names of
+                                        Fernando Pessoa, Álvaro de Campos and Bernardo Soares, from
+                                        1912 onwards (see <ref type="internal"
+                                            target="https://static1.squarespace.com/static/51d2b64ae4b0a433e9c0c726/t/5fd5f381491a58544a059185/1607857026300/Uribe_Em_vida_de_Fernando_Pessoa_EP_n7.pdf"
+                                            >Uribe, "Em vida de Fernando Pessoa — Lista de
+                                            publicações 1912-1935"</ref>).</p>
                                     <p>All the documents in the Digital Edition are encoded
-                                        according to the <seg rend="italic">Text Encoding
-                                            Initiative</seg> (TEI) standard, which provides not only
-                                        the basis for representing written sources in a digital
-                                        environment, but also concepts and techniques for recording
-                                        variants and versions. The reader will find detailed
-                                        documentation on the tools and criteria used in the
-                                        electronic text encoding <ref
-                                            target="http://www.pessoadigital.pt/tei-odd">here</ref>,
+                                        according to criteria of the <seg rend="italic">Text
+                                            Encoding Initiative</seg> (TEI), which provide not only
+                                        a basis for representing written sources on digital media,
+                                        but also concepts and techniques for recording variants and
+                                        versions. The reader will find <seg rend="bold"><ref
+                                                type="internal"
+                                                target="http://www.pessoadigital.pt/en/project/documentation"
+                                                >here</ref></seg> detailed documentation on the
+                                        tools and criteria used in the electronic text encoding,
                                         explained through examples from the edition. This edition is
                                         constantly updated, making different versions available over
-                                        time, indicated at the bottom of the opening page.</p>
+                                        time, which are indicated at the bottom of the opening
+                                        page.</p>
                                 </div>
                                 <div>
                                     <head>2. Project lists</head>
                                     <p>The lists of projects were published in scattered form in
-                                        various editions, and a significant number of them are still
-                                        unpublished, published here for the first time. They are
-                                        decisive documents for understanding not only editorial but
-                                        also poetic purposes, the elaboration, fixation and systemic
-                                        organization of the work over time. Their already recognized
-                                        relevance (cf. Cunha 1987, Sepúlveda 2013, Sepúlveda and
-                                        Uribe 2016) finds expression in the establishment of a
-                                        reference edition of these documents. This edition places a
-                                        strong emphasis on the relationship between the potential
-                                        nature of the work and what was actually published. Indexes
-                                        of documents, publications and genres, as well as of
-                                        occurrences of names, titles and periodicals, make it
-                                        possible to precisely trace the chronology of both projects
+                                        various editions, and there was still a significant
+                                        unpublished corpus, published here for the first time. They
+                                        are decisive documents for understanding not only editorial
+                                        but also poetic purposes, regarding the elaboration,
+                                        fixation and systemic organisation of the work overtime.
+                                        Their recognised relevance (cf. Cunha 1987, Sepúlveda 2013,
+                                        Sepúlveda and Uribe 2016) finds expression in the
+                                        establishment of a reference edition of these documents.
+                                        This edition emphasises the relationship between the
+                                        potential nature of the work and what was actually
+                                        published. Indexes of documents, publications and genres, as
+                                        well as of occurrences of names, titles and periodicals,
+                                        make it possible to trace the chronology of both projects
                                         and publications, as well as to establish relationships
                                         between them.</p>
-                                    <p>The <seg rend="italic">corpus</seg> made up of Pessoa's lists
-                                        of editorial projects is delimited by opposition to other
-                                        types of lists, also present in his estate, such as lists of
-                                        readings, books, other objects or tasks to be carried out.
-                                        With regard to editorial lists, for the purposes of this
-                                        edition and in line with what has been argued, a distinction
-                                        is made between project lists and editorial plans. While a
-                                        plan is a list referring to a single work, which structures
-                                        the constituent parts of a single title, editorial project
-                                        lists bring together several titles, of a particular nature,
-                                        corresponding to different works. This edition only covers
-                                        lists of editorial projects, which may also contain plans
-                                        and editorial notes for the titles listed, in which case
-                                        they are also included in the edition. It is preferably
-                                        through the lists of editorial projects that it is possible
-                                        to trace the history of the development of each title,
-                                        project or work, as well as its organization, which is why
-                                        they are decisive for the study and analysis of the work as
-                                        a whole.</p>
+                                    <p>The corpus of Pessoa's lists of editorial projects is
+                                        delimited by opposition to other types of lists, also
+                                        present in his estate, such as lists of readings, books,
+                                        other objects or tasks to be carried out. With regard to
+                                        editorial lists, for the purposes of this edition and in
+                                        line with what has been argued, a distinction is made
+                                        between lists of projects and editorial plans. While a plan
+                                        is a list referring to a single work, which structures the
+                                        constituent parts of a single title, lists of editorial
+                                        projects bring together several titles of a particular
+                                        nature, corresponding to different works. This edition only
+                                        deals with lists of editorial projects, which may also
+                                        contain plans and editorial notes for the titles listed, in
+                                        which case they are also included in the edition. It is
+                                        mainly through the lists of projects that it is possible to
+                                        trace the history of the development of each title, project
+                                        or work, as well as of its organisation, which is why they
+                                        are decisive for the study and analysis of the work as a
+                                        whole.</p>
                                 </div>
                                 <div>
                                     <head>3. Publications in lifetime</head>
-                                    <p>When editing the publications in life, particular attention
-                                        is paid to the specific way in which each text was published
-                                        by the author, taking into account its own characteristics
-                                        as a bibliographic piece. Preserving these characteristics
-                                        for a proper reading, republications that integrate a
-                                        certain text into a distinct set are edited as autonomous
-                                        units, while publications of the same text that only present
-                                        textual variations between them are constituted in a
-                                        critical text. This particular attention is in line with
-                                        Jerome McGann's considerations (1991, 13-16) regarding the
-                                        importance of the text's bibliographic code. Extending his
-                                        considerations to the field of digital editing, McGann
-                                        (2001, 11-12) emphasized the need to reconcile, through
-                                        digital editing, the purposes of critical editing and
-                                        facsimile editions, showing the bibliographic
-                                        particularities of the support of each text, as well as its
-                                        particular context of publication. The edition contemplates
-                                        these particularities through the articulation between the
+                                    <p>When editing publications during the author’s lifetime,
+                                        particular attention is paid to the specific way in which
+                                        each text was published by Pessoa, taking into account its
+                                        own characteristics as a bibliographic piece. Preserving
+                                        these characteristics, to allow for a proper reading,
+                                        republications that integrate a certain text into a distinct
+                                        set are edited as autonomous units, while publications of
+                                        the same text that only present textual variations between
+                                        them are confronted in a critical text. This particular
+                                        attention is in line with Jerome McGann's considerations
+                                        (1991, 13-16) regarding the importance of the text's
+                                        bibliographic code. Extending his considerations to the
+                                        field of digital editing, McGann (2001, 11-12) emphasised
+                                        the need to reconcile, in a digital edition, the purposes of
+                                        a critical and a facsimile edition, emphasizing the
+                                        bibliographical elements of each text’s medium, as well as
+                                        its own context of publication. The edition considers these
+                                        particularities through the articulation between the
                                         facsimile and the edited text, and the presentation of each
                                         text as a piece belonging to a given context and published
-                                        on a given medium, with its own visual and linguistic
-                                        characteristics. As the edited text is presented in a way
-                                        that is close to the facsimile, its fixation on the new
-                                        medium does not require absolute type and chirographic
-                                        fidelity. Instead, the text is presented as a structured
-                                        version, with specific markings for each element.</p>
+                                        on a certain medium, with its own visual and linguistic
+                                        characteristics. As the edited text is presented next to the
+                                        facsimile, its fixation on the new medium doesn’t need to
+                                        provide an absolute typo- and chirographic correspondence.
+                                        Instead, the text is presented as a structured version, with
+                                        specific markings for each element.</p>
                                     <p>While the variations between different publications, which
-                                        correspond to different entries in the edition, are briefly
-                                        indicated in an editorial note, the textual variations
-                                        between publications in the same set or in a single text,
-                                        which include punctuation and the use of capital letters,
-                                        are presented in an immediately visible way in the body of
-                                        the text, using the “parallel segmentation” method. In
-                                        either case, a brief editorial note sets out the various
-                                        publications of the text and their fundamental differences.
-                                        The “parallel segmentation method” strategy is based on
-                                        encoding the variants precisely where they are found in the
-                                        text to be edited. Thus, the apparatus is not stored
-                                        separately, but directly integrated into the text. All the
-                                        variants are reproduced in the edition, privileging one of
-                                        them in the body of the text, according to textual coherence
-                                        and the circumstances of publication. This is particularly
-                                        important in the case of Pessoa's work, because it makes it
-                                        possible to choose a variant corresponding to one of the
-                                        versions of the text, always taking into account the wider
-                                        bibliographical context, and thus establishing a critical
-                                        text that is sensitive to the whole of Pessoa's work.</p>
+                                        correspond to different entries, are briefly indicated in an
+                                        editorial note, the textual variations between publications
+                                        of the same set or of an isolated text, which include
+                                        punctuation and the use of capitalisation, are presented in
+                                        an immediately visible way in the body of the text, using
+                                        the “parallel segmentation method”. In either case, a brief
+                                        editorial note identifies the various publications of the
+                                        text and their fundamental differences. The strategy of the
+                                        "parallel segmentation method" is based on encoding the
+                                        variants precisely where they are found in the text to be
+                                        edited. Thus, the apparatus is not stored separately, but
+                                        directly integrated into the text. All the variants are
+                                        reproduced in the edition, favouring one of them in the body
+                                        of the text, according to textual coherence and the
+                                        circumstances of publication. This is particularly important
+                                        in the case of Pessoa, allowing to choose a variant
+                                        corresponding to one of the versions of the text, always
+                                        taking into account the wider bibliographical context, and
+                                        thus establishing a critical text that is sensitive to the
+                                        whole of his work.</p>
                                 </div>
                                 <div>
                                     <head>4. Criteria and goals of the edition</head>
                                     <p>The edition benefits from the possibilities offered by the
-                                        digital format, offering the reader a combination of
-                                        different kinds of edited texts. In the case of estate
-                                        documents, three editing modes are presented: 1. diplomatic
-                                        transcription, including all variants, hesitations and
-                                        passages later rejected by the author; 2. first version of
-                                        the text, as established and not rejected by the author,
-                                        including the expansion of abbreviations; 3. last version of
-                                        the text not rejected by the author, also including expanded
-                                        abbreviations. In the case of the publications in lifetime,
-                                        two types of editing are offered: 1. conservative
-                                        transcription, with the original spelling, and keeping the
-                                        abbreviations introduced in the text; 2. transcription with
-                                        modernized spelling, following the 1990 Portuguese
-                                        Orthographic Agreement, in prose texts, including the
-                                        expansion of abbreviations. Any page breaks are indicated in
-                                        square brackets in the margin of the text.</p>
-                                    <p>Given the existence of textual variants in the documents in
-                                        the collection, previous editions in book format are defined
-                                        on the basis of the chosen reading and the established
+                                        digital medium, presenting to the reader a combination of
+                                        different modalities of editing the texts. Regarding the
+                                        documents of the estate, three editing modes are presented:
+                                        1. diplomatic transcription, including all variants,
+                                        hesitations and passages later rejected by the author; 2.
+                                        first version of the text, as established and not rejected
+                                        by the author, including the development of abbreviations;
+                                        3. last version of the text not rejected by the author, also
+                                        including developed abbreviations. In the case of the
+                                        publications during lifetime, two types of editing are
+                                        offered: 1. conservative transcription, preserving the
+                                        original spelling, and keeping the abbreviations introduced
+                                        in the text; 2. transcription with modernised spelling,
+                                        following the Portuguese 1990 Spelling Agreement, including
+                                        the development of abbreviations in the prose texts. Any
+                                        page breaks are indicated in square brackets in the margin
+                                        of the text.</p>
+                                    <p>Given the existence of textual variants in the documents of
+                                        the estate, previous editions in book format are defined on
+                                        the basis of the textual reading chosen and the established
                                         version of each text. As is widely known, some editions tend
                                         to follow the first reading of the text, others the last,
-                                        and there are also cases in which the choice between the
-                                        existing variants is made on the basis of a hermeneutical
-                                        criterion (cf. Duarte 1988, Lopes 1992, Galhoz 1993, Martins
-                                        2011 and Castro 2013). The current edition provides
-                                        different ways of accessing each text, trying to avoid some
-                                        of the previous oppositions between editorial criteria and
-                                        taking into account the dynamism of the author's writing and
-                                        its different stages.</p>
-                                    <p>This editorial presentation of the texts offers new ways of
-                                        accessing Pessoa's work, focusing both on a significant part
-                                        of his literary estate, held by the National Library of
-                                        Portugal (BNP) or by private individuals (CP), and on the
-                                        publications made during his lifetime. The acronym BNP on
-                                        the documents, followed by a quota, indicates that they are
-                                        part of the National Library's collection, in its envelope
-                                        3. Documents in private collections are referred to by the
-                                        acronym CP, followed by a number. For the publications in
-                                        lifetime, texts are indicated by their respective
-                                        publication titles, respecting the particular way in which
-                                        they were published. For a minimum of uniformity, titles in
-                                        the access menus follow modern spelling; titles of poems are
-                                        always indicated using capital letters, except for articles
-                                        and prepositions, and in prose only with initial capital
-                                        letters. In the case of book prefaces, the title is followed
-                                        by an indication of the work being prefaced.</p>
-                                    <p>The edition includes a specialized bibliography, mainly
-                                        dedicated to gathering references to the sources that, over
-                                        the years, have made the various documents in the collection
-                                        accessible, proposing a look at the potential of Pessoa's
+                                        and there are also cases in which the choice between
+                                        variants is made on the basis of a hermeneutical approach
+                                        (cf. Duarte 1988, Lopes 1992, Galhoz 1993, Martins 2011 and
+                                        Castro 2013). This edition provides different ways of
+                                        accessing each text, seeking to avoid some of the previous
+                                        oppositions between editorial criteria and taking into
+                                        account the dynamism of the author's writing and its
+                                        different stages.</p>
+                                    <p>This combination of different modalities of editing offers
+                                        new ways of accessing Pessoa's work, focussing both on a
+                                        significant part of his literary estate, held by the
+                                        National Library of Portugal (BNP) or by private individuals
+                                        (CP), and on the publications made during his lifetime. The
+                                        acronym BNP on the documents, followed by a signature,
+                                        indicates that they are part of the National Library's
+                                        collection, contained in its envelope 3. Documents in
+                                        private collections are referred to by the acronym CP,
+                                        followed by a number. In publications during lifetime, texts
+                                        are referred to by their publication titles, respecting the
+                                        way in which they were published. For a minimal
+                                        standardisation of titles, modern spelling is used in the
+                                        access menus; titles of poems are always indicated using
+                                        capital letters, except for articles and prepositions, in
+                                        prose only with initial capital letters. In the case of book
+                                        prefaces, the title is followed by an indication of the work
+                                        being prefaced.</p>
+                                    <p>The edition includes a specialised bibliography, mainly
+                                        gathering references to the sources that have made the
+                                        various documents of the estate accessible over the years,
+                                        offering a glimpse into the potential character of Pessoa's
                                         work as a set of projects. This bibliography also indicates
-                                        editions, essays, and academic or promotional articles
-                                        which, in recent decades, have contributed to the
-                                        rediscovery of elements of Pessoa's work published by the
-                                        author himself during his lifetime.</p>
-                                    <p>The textual variants, underlines and crossed-out passages are
-                                        presented in their entirety in the diplomatic transcription
-                                        of each document in the collection, in a graphically legible
-                                        way and without any additional symbolism. The diplomatic
-                                        transcription tries to maintain some fidelity to the graphic
-                                        layout of the original document, reproduced in a facsimile
-                                        that accompanies each text and complements its reading. In
-                                        this sense, we have kept all the variants and passages
-                                        crossed out in the diplomatic transcription, not referring
-                                        to these elements as notes. Not only does this make the
-                                        development of projects from one list to another visible,
-                                        but within the list itself it is often possible to see the
-                                        substitution of one project for another or the uncertainty
-                                        maintained in the face of different versions of a given
-                                        project. Hyperlinks are also included between projects
-                                        mentioned in lists and their publications in lifetime,
-                                        whenever there is a clearly identifiable correspondence
-                                        between a project and its realization in a publication. The
-                                        following symbology is used in the transcriptions:</p>
+                                        editions, essays, academic articles or works of scientific
+                                        dissemination that, in recent decades, have contributed to
+                                        the rediscovery of elements of the work published by the
+                                        author during his lifetime.</p>
+                                    <p>The textual variants, as well as the underlined or
+                                        crossed-out passages, are presented in their entirety in the
+                                        diplomatic transcription of each document, in a graphically
+                                        legible way and without any additional symbols. The
+                                        diplomatic transcription aims to maintain some
+                                        correspondence to the graphic layout of the original
+                                        document, reproduced in a facsimile that accompanies each
+                                        text and complements its reading. In this sense, we kept all
+                                        the variants and crossed out passages in the diplomatic
+                                        transcription, not including these elements in notes. Not
+                                        only does this make the development of projects from one
+                                        list to another visible, but within the list itself it is
+                                        often possible to see the substitution of one project for
+                                        another or the uncertainty maintained regarding different
+                                        versions of a given project. Hyperlinks are also included
+                                        between projects mentioned in lists and the author’s
+                                        publications, whenever there is a clearly identifiable
+                                        correspondence between a project and its materialisation in
+                                        a publication. The following symbols are used in the
+                                        transcriptions:</p>
                                     <list>
                                         <item>
                                             <label>□</label> blank space left by the author</item>
@@ -1231,61 +1278,59 @@
                                         <item>
                                             <label>[ ]</label> abbreviations expanded</item>
                                     </list>
-                                    <p>In a brief note to each document in the collection that has
-                                        been published before, we refer to its previous publication.
-                                        The reference is to its oldest publication, except in cases
-                                        where a more recent publication has significantly improved
-                                        readability. The notes also refer to elements of the
-                                        documents' material and content considered for their dating.
-                                        Material elements considered for dating are the type of font
-                                        used, handwritten or typed, and the type of support. This
-                                        includes letterheads, many of which relate to firms Pessoa
-                                        worked for at certain times, and watermarks on the
-                                        paper.</p>
-                                    <p>The abbreviation <seg rend="italic">"c."</seg> ("circa")
-                                        marks the conjectural nature of the dating, which depends on
-                                        an interpretation of the elements and an understanding of
-                                        the work that goes beyond its materiality. Even in cases
-                                        where an autograph date appears on the document, we cannot
-                                        be absolutely certain that the document was written on that
-                                        same date, so in no case is a conjectural dimension absent.
-                                        In cases of greater doubt, we indicate a time span of two or
-                                        more years ("c. 1916-1917" or "c. 1918-1920") or indicate
-                                        that the list belongs to a certain period ("1916-1919" or
-                                        "1920-1927"). The abbreviations <seg rend="italic"
-                                            >"ant."</seg> ("anterior") and <seg rend="italic"
-                                            >"post."</seg> ("posterior") indicate that a document
-                                        was written close to, before or after a certain date.</p>
+                                    <p>In a brief note to each document of the estate, we refer to
+                                        its previous publication, when it is not unpublished. The
+                                        reference is made to its earliest publication, except in
+                                        cases where a more recent publication has significantly
+                                        improved readability. The notes also refer to material and
+                                        content elements considered for their dating. Material
+                                        elements considered for dating are the type of font used,
+                                        handwritten or typed, and the type of medium. This includes
+                                        letterheads, many of which relate to firms Pessoa worked for
+                                        at certain times, and watermarks on the paper.</p>
+                                    <p>The abbreviation "<seg rend="italic">c.</seg>" ("<seg
+                                            rend="italic">circa</seg>") points out the conjectural
+                                        nature of dating, which depends on an interpretation of the
+                                        elements and an understanding of the work that goes beyond
+                                        its materiality. In cases of greater doubt, we indicate a
+                                        time span of two or more years ("<seg rend="italic">c.</seg>
+                                        1916-1917" or "<seg rend="italic">c.</seg> 1918-1920") or we
+                                        indicate that the list belongs to a certain period
+                                        ("1916-1919" or "1920-1927"). The abbreviations "<seg
+                                            rend="italic">ant.</seg>" ("before") and "<seg
+                                            rend="italic">post.</seg>" ("after") indicate that a
+                                        document was written close to, before or after a certain
+                                        date.</p>
                                     <p>A search engine makes it easier to search for specific
-                                        content and provides different ways of accessing the
+                                        contents and provides different ways of accessing the
                                         information contained in the texts. Texts can be accessed in
                                         different ways: by searching for an author, a document, a
                                         publication or a literary genre, or by exploring the indexes
-                                        of names, titles of works, and periodicals mentioned in the
+                                        of names, titles of works and periodicals mentioned in the
                                         texts.</p>
-                                    <p>The history of projects and publications is also that of a
+                                    <p>The history of projects and publications is also that of the
                                         dynamic development of writing and its fixation in a
-                                        publication or through a proposed editorial organization.
+                                        publication or through a proposed editorial organisation.
                                         These different fixations are, although they change over
-                                        time, punctually significant, contributing to a definition
+                                        time, occasionally significant, contributing to a definition
                                         of the work from a point of view that is not only editorial
                                         but also poetic and systemic. Tracing the history of
-                                        Pessoa's projects and publications thus means analyzing a
+                                        Pessoa's projects and publications thus means analysing a
                                         work under construction, but one that alludes to a greater
-                                        purpose, that of a projected establishment of its meaning as
-                                        a fully constituted whole.</p>
-                                    <p>The aim is to contribute, through an editorial work that does
-                                        not dispense with a hermeneutic approach, to clarifying
+                                        purpose, that of a projected formation of its meaning as a
+                                        fully established whole.</p>
+                                    <p>The aim is to contribute, through an editorial work that
+                                        includes a hermeneutic approach, to a clarification of
                                         fundamental critical issues in Pessoa Studies, such as the
                                         discussion around the fragmentary or unitary nature of the
                                         work (cf. Coelho 1949, Gusmão 2003, Martins 2003, Sepúlveda
-                                        2013, Feijó 2015). The material fragmentariness of some of
-                                        the texts does not negate the author's intention to go
-                                        beyond this through a systemic fixation of the work, which,
-                                        perhaps revealing his permanent dissatisfaction, did not
-                                        reach a definitive form. This edition shows that Pessoa
-                                        worked constantly on the organization of his work, as can be
-                                        seen in the lists of editorial projects gathered and
+                                        2013, Feijó 2015). The fragmentary nature of some of the
+                                        texts does not exclude the author's intention to go beyond
+                                        this, envisioning a systemic fixation of the work, which, in
+                                        line with his permanent dissatisfaction, never reached a
+                                        definitive form. This edition shows that Pessoa was
+                                        constantly working on the organisation of his work, as can
+                                        be seen in the lists of editorial projects gathered and
                                         analysed here, in contrast to or in accordance with the
                                         publications made during his lifetime. In both types of text
                                         we can see how the design of the work depended on the

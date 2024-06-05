@@ -61,8 +61,10 @@
                                     Tecnologia), no âmbito do projeto Estranhar Pessoa
                                     (PTDC/CPC-ELT/4587/2012), pelo IELT (financiado por Fundos
                                     Nacionais através da FCT, no âmbito dos projetos UIDB/00657/2020
-                                    e UIDP/00657/2020) e pelo CCeH. Desde 2019, está em curso uma
-                                    colaboração com a Universidad EAFIT e, desde 2021, com a
+                                    com o identificador DOI 10.54499/UIDB/00657/2020 e
+                                    UIDP/00657/2020 com o identificador DOI
+                                    10.54499/UIDP/00657/2020) e pelo CCeH. Desde 2019, está em curso
+                                    uma colaboração com a Universidad EAFIT e, desde 2021, com a
                                     Universidade de Rostock. Obteve-se financiamento do consórcio
                                     NFDI Text+ para 2023 (projecto de cooperação Text+ "Pessoa
                                     digital").</p>
@@ -158,11 +160,13 @@
                                 <p>This work was financed by FCT (Portuguese Foundation for Science
                                     and Technology), in the context of the Estranging Pessoa
                                     research project (PTDC/CPC-ELT/4587/2012), by IELT (financed by
-                                    National Funds through FCT, under projects UIDB/00657/2020 and
-                                    UIDP/00657/2020) and by the CCeH (2014-2016). Since 2019, there
-                                    is an ongoing collaboration with Universidad EAFIT and since
-                                    2021, with the University of Rostock. Funding has been obtained
-                                    for the year 2023 by the NFDI Text+ consortium (Text+
+                                    National Funds through FCT, under the projects UIDB/00657/2020
+                                    with the DOI identifier 10.54499/UIDB/00657/2020 and
+                                    UIDP/00657/2020 with the DOI identifier
+                                    10.54499/UIDP/00657/2020) and by the CCeH (2014-2016). Since
+                                    2019, there is an ongoing collaboration with Universidad EAFIT
+                                    and since 2021, with the University of Rostock. Funding has been
+                                    obtained for the year 2023 by the NFDI Text+ consortium (Text+
                                     cooperation project "Pessoa digital").</p>
                                 <p>
                                     <ref target="http://ielt.fcsh.unl.pt/" type="external"><graphic
@@ -970,24 +974,23 @@
                                         tipo de suporte. Neste âmbito são considerados timbres,
                                         muitos deles relativos a firmas em que Pessoa trabalhou em
                                         certos momentos, e marcas de água do papel.</p>
-                                    <p>A abreviatura «<seg rend="italic"
-                                            >c.</seg>» («<seg rend="italic"
-                                                >circa</seg>») marca o caráter conjetural da
-                                        datação, que depende de uma interpretação dos elementos e de
-                                        uma compreensão da obra que excede a da sua materialidade.
-                                        Mesmo em casos em que surge uma data autógrafa no documento,
-                                        não podemos ter absoluta certeza de que aquele documento foi
-                                        redigido nessa mesma data, pelo que em nenhum caso está
-                                        ausente uma dimensão conjetural. Nos casos de maior dúvida,
-                                        indicamos um espaço de tempo de dois ou mais anos («<seg rend="italic"
-                                            >c.</seg>
-                                        1916-1917» ou «<seg rend="italic"
-                                            >c.</seg> 1918-1920») ou indicamos que a lista
-                                        pertence a determinado período («1916-1919» ou «1920-1927»).
-                                        As abreviaturas «<seg rend="italic"
-                                                >ant.</seg>» («anterior») e «<seg rend="italic">post.</seg>» («posterior»)
-                                        indicam que determinado documento terá sido redigido num
-                                        momento próximo, anterior ou posterior a uma certa data.</p>
+                                    <p>A abreviatura «<seg rend="italic">c.</seg>» («<seg
+                                            rend="italic">circa</seg>») marca o caráter conjetural
+                                        da datação, que depende de uma interpretação dos elementos e
+                                        de uma compreensão da obra que excede a da sua
+                                        materialidade. Mesmo em casos em que surge uma data
+                                        autógrafa no documento, não podemos ter absoluta certeza de
+                                        que aquele documento foi redigido nessa mesma data, pelo que
+                                        em nenhum caso está ausente uma dimensão conjetural. Nos
+                                        casos de maior dúvida, indicamos um espaço de tempo de dois
+                                        ou mais anos («<seg rend="italic">c.</seg> 1916-1917» ou
+                                            «<seg rend="italic">c.</seg> 1918-1920») ou indicamos
+                                        que a lista pertence a determinado período («1916-1919» ou
+                                        «1920-1927»). As abreviaturas «<seg rend="italic"
+                                        >ant.</seg>» («anterior») e «<seg rend="italic">post.</seg>»
+                                        («posterior») indicam que determinado documento terá sido
+                                        redigido num momento próximo, anterior ou posterior a uma
+                                        certa data.</p>
                                     <p>Um motor de busca facilita a pesquisa por conteúdos
                                         específicos e proporciona distintos modos de acesso à
                                         informação contida nos textos. O acesso aos textos pode ser

@@ -86,7 +86,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Athena_Diario_de_Noticias.jpg"/>
    </facsimile>
    <text type="orig" corresp="#W276">

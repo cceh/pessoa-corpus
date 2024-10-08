@@ -78,7 +78,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Apontamentos_para_1.jpg"/>
       <graphic url="prosa/Apontamentos_para_2.jpg"/>
       <graphic url="prosa/Apontamentos_para_3.jpg"/>

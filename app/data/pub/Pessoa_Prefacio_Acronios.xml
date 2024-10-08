@@ -85,7 +85,7 @@
          <change when="2024-09-23" who="#IRC"> Corrected some typos and added notes. </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Pessoa_Prefacio_Acronios_1.jpg"/>
       <!-- UH: the image path "prosa/" was missing -->
       <graphic url="prosa/Pessoa_Prefacio_Acronios_2.jpg"/>

@@ -68,7 +68,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="Prosa/Aviso_por_causa_da_moral.jpg"/>
    </facsimile>
    <text type="orig" corresp="#W310">

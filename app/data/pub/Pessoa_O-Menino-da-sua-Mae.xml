@@ -129,15 +129,15 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
               corresp="#Contemporânea_1926">
       <graphic url="pub/178423_0860_47_t0.jpg"/>
    </facsimile>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
               corresp="#Notícias_1928">
       <graphic url="pub/o_menino_de_sua_mae.jpg"/>
    </facsimile>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
               corresp="#Cancioneiro_1930">
       <graphic url="pub/o_menino_de_sua_maeII.jpg"/>
    </facsimile>

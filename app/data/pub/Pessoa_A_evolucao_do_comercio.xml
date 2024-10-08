@@ -77,7 +77,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="prosa/A_evolucao_do_comercio_1.jpg"/>
       <graphic url="prosa/A_evolucao_do_comercio_2.jpg"/>
       <graphic url="prosa/A_evolucao_do_comercio_3.jpg"/>

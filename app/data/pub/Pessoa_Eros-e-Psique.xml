@@ -84,7 +84,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="pub/res-1900-a-1931-1936-n41-n42_0001_t0.jpg"/>
    </facsimile>
    <text corresp="#O1-14" type="orig">

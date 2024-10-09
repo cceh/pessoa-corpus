@@ -19,7 +19,7 @@
                <resp>Codificação</resp>
                <name>Sviatoslav Drach</name>
             </respStmt>
-         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.1</p></editionStmt>
          <publicationStmt>
             <publisher/>
             <idno type="filename">BNP_E3_48B-123.xml</idno>
@@ -57,7 +57,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0253_123_t24-C-R0150.jpg"/>
    </facsimile>
    <text xml:id="bnp-e3-48b-123">

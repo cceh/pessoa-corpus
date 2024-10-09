@@ -32,7 +32,7 @@
                <resp>Consultoria</resp>
                <name>Institut für Dokumentologie und Editorik (IDE)</name>
             </respStmt>
-         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.1</p></editionStmt>
          <publicationStmt>
             <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e
                     Tradição (IELT)</publisher>
@@ -107,12 +107,12 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
               corresp="#Solução_1929">
       <graphic url="pub/j-2855-3-b_0006_t0.jpg"/>
       <graphic url="pub/j-2855-3-b_0007_t0.jpg"/>
    </facsimile>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
               corresp="#Cancioneiro_1930">
       <graphic url="pub/addiamento.jpg"/>
       <graphic url="pub/addiamentoII.jpg"/>

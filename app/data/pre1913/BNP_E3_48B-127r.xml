@@ -25,7 +25,7 @@
                <resp>Codificação</resp>
                <name>Ana Leonor Branco</name>
             </respStmt>
-         </titleStmt><editionStmt><p>Corpus version C2.1.0</p></editionStmt>
+         </titleStmt><editionStmt><p>Corpus version C2.1.1</p></editionStmt>
          <publicationStmt>
             <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e Tradição (IELT)</publisher>
             <publisher>Cologne Center for eHumanities (CCeH)</publisher>
@@ -68,7 +68,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="bn-acpc-e-e3-48b-1-158_JPG_24-C-R0150/bn-acpc-e-e3-48b-1-158_0261_127_t24-C-R0150.jpg"/>
    </facsimile>
    <text>

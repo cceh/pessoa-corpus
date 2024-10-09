@@ -84,6 +84,8 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-09-21" who="#UHK">Corrected an error in the markup (a double
+         closing tag of an rs-element)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -257,7 +259,7 @@
                <item>
                   <label>10.</label>
                   <rs type="title">Ode ao <rs type="name" key="P21">Encoberto</rs>
-                  </rs>/rs&gt;.</item>
+                  </rs>.</item>
             </list>
             <metamark rend="line" function="distinct"/>
             <list>

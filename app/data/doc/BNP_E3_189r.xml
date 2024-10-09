@@ -87,6 +87,10 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2023-09-29" who="#UHK">
+            Encoded several references of periodicals, 
+            which had not been considered yet in this document.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -154,38 +158,38 @@
                            <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_O_Marinheiro">O Marinheiro</ref>
                         </rs>, 
                         Drama Statico em<lb/> um Quadro, In
-                        “Orpheu” 1 (1915,<lb/> Março) </item>
+                        “<rs type="periodical" key="J12">Orpheu</rs>” 1 (1915,<lb/> Março) </item>
                      <item rend="indent-2" xml:id="I3">
                         <rs type="title">
                            <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Chuva-Obliqua">Chuva Obliqua</ref>
-                        </rs>, Poemas-Intersecções<lb/> In “Orpheu” 2
+                        </rs>, Poemas-Intersecções<lb/> In “<rs type="periodical" key="J12">Orpheu</rs>” 2
                         (Junho, 1915) </item>
                      <item rend="indent-2">
                         <rs type="title">
                            <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_O_Banqueiro_Anarchista">
                            O Banqueiro Anarchista</ref>
-                        </rs>. (Contempo<pc>-</pc>
-                        <lb/>ranea
+                        </rs>. (<rs type="periodical" key="J11">Contempo<pc>-</pc>
+                        <lb/>ranea</rs>
                         1, 1922). </item>
                      <item rend="indent-2">
                         <rs type="title">
                            <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Antonio_Botto_e_o_ideal">Antonio Botto e o Ideal Esthetico<lb/> em <rs type="place">Portugal</rs>
                            </ref>
-                        </rs> (<choice>
+                        </rs> (<rs type="periodical" key="J11"><choice>
                            <abbr>C<hi rend="superscript">a</hi>
                            </abbr>
                            <expan>C<ex>ontemporanea</ex>
                            </expan>
-                        </choice>, 3, 1922). </item>
+                        </choice></rs>, 3, 1922). </item>
                      <item>
                         <rs type="title">
                            <ref target="http://www.pessoadigital.pt/pt/pub/Pessoa_Mar_Portuguez">Mar Portuguez</ref>
-                        </rs> (<choice>
+                        </rs> (<rs type="periodical" key="J11"><choice>
                            <abbr>C<hi rend="superscript">a</hi>
                            </abbr>
                            <expan>C<ex>ontemporanea</ex>
                            </expan>
-                        </choice> 4, 1922). </item>
+                        </choice></rs> 4, 1922). </item>
                   </list>
                   <addSpan n="2" spanTo="#A1"/>
                   <list>
@@ -206,12 +210,12 @@
                      </item>
                      <item>
                         <add n="2">
-                           <choice>
+                           <rs type="periodical" key="J101"><choice>
                               <abbr>Rev<am>.</am> de Com<am>.</am>
                               </abbr>
                               <expan>Rev<ex>ista</ex> de Com<ex>mercio</ex>
                               </expan>
-                           </choice> e Contabilidade</add>
+                           </choice> e Contabilidade</rs></add>
                      </item>
                      <item>
                         <rs type="periodical" key="J1">Presença</rs>

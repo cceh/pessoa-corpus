@@ -79,10 +79,13 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-10-09" who="#FAF">
+            Corrected image address of the facsimile
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
-      <graphic url="doc_BNP_E3_716r.jpg"/>
+      <graphic url="doc_BNP_E3_720r.jpg"/>
    </facsimile>
    <text>
       <body>

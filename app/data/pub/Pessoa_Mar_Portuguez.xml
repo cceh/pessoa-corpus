@@ -171,7 +171,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
               corresp="#Contemporânea_1922">
       <graphic url="pub/mar_portuguez.jpg"/>
       <graphic url="pub/mar_portuguezII.jpg"/>
@@ -180,7 +180,7 @@
       <graphic url="pub/mar_portuguezV.jpg"/>
       <graphic url="pub/mar_portuguezVI.jpg"/>
    </facsimile>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
               corresp="#Leitura_1926">
       <graphic url="pub/Mar_Portuguez-Leitura_para_todos_RJ.jpg"/>
       <graphic url="pub/Mar_Portuguez-Leitura_para_todos_RJ_2.jpg"/>

@@ -91,7 +91,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/" corresp="#Not_1929">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/" corresp="#Not_1929">
       <graphic url="pub/prece.jpg"/>
    </facsimile>
    <text type="orig">

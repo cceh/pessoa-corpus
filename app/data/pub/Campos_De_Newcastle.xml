@@ -78,7 +78,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="prosa/De_Newcastle_on_Tyne.jpg"/>
    </facsimile>
    <text corresp="#W203" type="orig">

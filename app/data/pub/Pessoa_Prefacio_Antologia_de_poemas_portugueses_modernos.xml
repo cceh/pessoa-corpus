@@ -81,15 +81,25 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-10-09" who="#FAF">
+            Added the facsimiles from 1944 (1-7)
+         </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Pessoa_Antologia_de_poemas_1929_1.jpg"/>
       <graphic url="prosa/Pessoa_Antologia_de_poemas_1929_2.jpg"/>
       <graphic url="prosa/Pessoa_Antologia_de_poemas_1929_3.jpg"/>
       <graphic url="prosa/Pessoa_Antologia_de_poemas_1929_4.jpg"/>
       <graphic url="prosa/Pessoa_Antologia_de_poemas_1929_5.jpg"/>
       <graphic url="prosa/Pessoa_Antologia_de_poemas_1929_6.jpg"/>
+      <graphic url="prosa/Pessoa_Antologia_de_poemas_1944_1.jpg"/>
+      <graphic url="prosa/Pessoa_Antologia_de_poemas_1944_2.jpg"/>
+      <graphic url="prosa/Pessoa_Antologia_de_poemas_1944_3.jpg"/>
+      <graphic url="prosa/Pessoa_Antologia_de_poemas_1944_4.jpg"/>
+      <graphic url="prosa/Pessoa_Antologia_de_poemas_1944_5.jpg"/>
+      <graphic url="prosa/Pessoa_Antologia_de_poemas_1944_6.jpg"/>
+      <graphic url="prosa/Pessoa_Antologia_de_poemas_1944_7.jpg"/>
    </facsimile>
    <text type="orig" corresp="#W366">
       <front>

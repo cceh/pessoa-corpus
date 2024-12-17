@@ -105,11 +105,11 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
               corresp="#Notícias_1928">
       <graphic url="pub/FP147_1928-10-28_0007_Gomes_Leal.jpg"/>
    </facsimile>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/"
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
               corresp="#Cancioneiro_1930">
       <graphic url="pub/gomes_leal.jpg"/>
    </facsimile>

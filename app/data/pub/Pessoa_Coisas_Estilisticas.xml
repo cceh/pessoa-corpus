@@ -81,7 +81,7 @@
                 </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
       <graphic url="prosa/Teatro_Coisas.jpg"/>
    </facsimile>
    <text type="orig" corresp="#W231">

@@ -177,6 +177,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2024-12-17" who="#IRC">
+            Fixed small typos.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="http://images.cceh.uni-koeln.de/pessoa/">
@@ -332,7 +335,7 @@
                      <l>Foi com desgraça e com vileza</l>
                      <l>Que <rs type="name" key="P573" style="a">Deus</rs> ao <rs type="name" key="P50">Christo</rs> definiu:</l>
                      <l>Assím o oppoz à Natureza</l>
-                     <l>E Filho o ungiu</l>
+                     <l>E Filho o ungiu.</l>
                   </lg>
                </div>
             </div>
@@ -432,7 +435,7 @@
                   <lg>
                      <l>As nações todas são mysterios.</l>
                      <l>Cada uma é todo o mundo a sós.</l>
-                     <l>Ó mãe de reis e avó de imperios.</l>
+                     <l>Ó mãe de reis e avó de imperios,</l>
                      <l>Vella por nós!</l>
                   </lg>
                   <lg>
@@ -581,7 +584,7 @@
                   <head>
                      <rs type="name" key="692">D. FERNANDO</rs>, INFANTE DE PORTUGAL</head>
                   <lg>
-                     <l>Deu-me <rs type="name" key="P573" style="a">Deus</rs> o seu gladio, porque
+                     <l>Deu-me <rs type="name" key="P573" style="a">Deus</rs> o seu gladio, por que
                         eu faça</l>
                      <l>A sua santa guerra.</l>
                      <l>Sagrou-me seu em honra e em desgraça,</l>
@@ -811,7 +814,7 @@
                <head>II.</head>
                <head>HORIZONTE</head>
                <lg>
-                  <l> O' mar anterior a nós, teus medos</l>
+                  <l>Ó mar anterior a nós, teus medos</l>
                   <l>Tinham coral e praias e arvoredos.</l>
                   <l>Desvendadas a noite e a cerração,</l>
                   <l>As tormentas passadas e o mysterio,</l>
@@ -822,7 +825,7 @@
                   <l>Linha severa da longinqua costa —</l>
                   <l>Quando a nau se approxima ergue-se a encosta</l>
                   <l>Em arvores onde o Longe nada tinha;</l>
-                  <l>Mais perto, abre-se a terra em sons e cores:</l>
+                  <l>Mais perto, abre-se a terra em sons e cores;</l>
                   <!--MJ: não tem ","  e "côres" em "Mar Portuguez"-->
                   <l>E, no desembarcar, ha aves, flores,</l>
                   <!-- não tem as primeiras duas vírgulas em "Mar Portuguez"-->
@@ -889,7 +892,7 @@
                   <l>E disse: «Quem é que ousou entrar</l>
                   <l>Nas minhas cavernas que não desvendo,</l>
                   <l>Meus tectos negros do fim do mundo?»</l>
-                  <l>E o homem do leme disse, tremendo:</l>
+                  <l>E o homem do leme disse, tremendo,</l>
                   <l>«El-Rei <rs type="name" key="P594">D. João Segundo</rs>!»</l>
                </lg>
                <lg>
@@ -912,7 +915,7 @@
                   <l>«El-Rei <rs type="name" key="P594">D. João Segundo</rs>!»</l>
                </lg>
                <lg>
-                  <l>Trez vezes do leme as mãos ergueu.</l>
+                  <l>Trez vezes do leme as mãos ergueu,</l>
                   <!--MJ: "tres em "Mar Prutugez" JU: cf. errata na edição impressa-->
                   <l>Trez vezes ao leme as reprendeu,</l>
                   <!--MJ: "tres em "Mar Prutugez"-->
@@ -1059,7 +1062,7 @@
                   <l>Primeiro um movimento e depois um assombro.</l>
                   <l>Ladeiam-o, ao durar, os medos, hombro a</l>
                   <l>hombro,</l>
-                  <l>E ao longe o rastro ruge em nuvens e clarões</l>
+                  <l>E ao longe o rastro ruge em nuvens e clarões.</l>
                </lg>
                <!--MJ: continua na mesma estrofa em "Mar Portuguez"-->
                <lg>
@@ -1183,7 +1186,7 @@
             <head>TERCEIRA PARTE</head>
             <head>O ENCOBERTO</head>
             <pb/>
-            <ab rend="right">PAX IN EXCELSIS.</ab>
+            <ab rend="right"><hi rend="italic">PAX IN EXCELSIS.</hi></ab>
             <pb/>
             <div>
                <head>I.</head>
@@ -1318,7 +1321,7 @@
                   <lg>
                      <l>Que symbolo fecundo</l>
                      <l>Vem na aurora anciosa?</l>
-                     <l>Na Cruz Morta do Mundo</l>
+                     <l>Na Cruz morta do Mundo</l>
                      <l>A Vida, que é a Rosa.</l>
                   </lg>
                   <lg>
@@ -1444,7 +1447,7 @@
                      <l>No mar indefinido.</l>
                      <l>O segundo pediu licença ao Rei</l>
                      <l>De, na fé e na lei</l>
-                     <l>Da descoberta, ir em procura</l>
+                     <l>Da descoberta ir em procura</l>
                      <l>Do irmão no mar sem fim e a nevoa escura.</l>
                   </lg>
                   <lg>
@@ -1556,7 +1559,7 @@
                   </lg>
                   <lg>
                      <l>E o som na treva de elle rodar</l>
-                     <l>Faz mau o somno, triste o sonhar,</l>
+                     <l>Faz mau o somno, triste o sonhar.</l>
                      <l>Rodou e foi-se o mostrengo servo</l>
                      <l>Que seu senhor veio aqui buscar.</l>
                      <l>Que veio aqui seu senhor chamar —</l>
@@ -1575,7 +1578,7 @@
                      <l>Define com perfil e ser</l>
                      <l>Este fulgor baço da terra</l>
                      <l>Que é Portugal a entristecer —</l>
-                     <l>Brilho sem luz e sem arder</l>
+                     <l>Brilho sem luz e sem arder,</l>
                      <l>Como o que o fogo-fatuo encerra.</l>
                   </lg>
                   <lg>
@@ -1674,7 +1677,7 @@
                   <l>Foi com desgraça e com vileza</l>
                   <l>Que Deus ao Cristo definiu:</l>
                   <l>Assim o opôs à Natureza</l>
-                  <l>E Filho o ungiu</l>
+                  <l>E Filho o ungiu.</l>
                </lg>
             </div>
             <div>
@@ -1764,7 +1767,7 @@
                <lg>
                   <l>As nações todas são mistérios.</l>
                   <l>Cada uma é todo o mundo a sós.</l>
-                  <l>Ó mãe de reis e avó de impérios.</l>
+                  <l>Ó mãe de reis e avó de impérios,</l>
                   <l>Vela por nós!</l>
                </lg>
                <lg>
@@ -1816,7 +1819,7 @@
                <lg>
                   <l>Na noite escreve um seu Cantar de Amigo</l>
                   <l>O plantador de naus a haver,</l>
-                  <l>E ouve um silêncio murmuro consigo:</l>
+                  <l>E ouve um silêncio múrmuro consigo:</l>
                   <l>É o rumor dos pinhais que, como um trigo</l>
                   <l>De Império, ondulam sem se poder ver.</l>
                </lg>
@@ -1900,7 +1903,7 @@
                </head>
                <head rend="indent">D. FERNANDO, INFANTE DE PORTUGAL</head>
                <lg>
-                  <l>Deu-me Deus o seu gládio porque eu faça</l>
+                  <l>Deu-me Deus o seu gládio, por que eu faça</l>
                   <l>A sua santa guerra.</l>
                   <l>Sagrou-me seu em honra e em desgraça,</l>
                   <l>Às horas em que um frio vento passa</l>
@@ -2113,7 +2116,7 @@
                <head rend="indent">II.</head>
                <head rend="indent">HORIZONTE</head>
                <lg>
-                  <l> O' mar anterior a nós, teus medos</l>
+                  <l>Ó mar anterior a nós, teus medos</l>
                   <l>Tinham coral e praias e arvoredos.</l>
                   <l>Desvendadas a noite e a cerração,</l>
                   <l>As tormentas passadas e o mistério,</l>
@@ -2124,7 +2127,7 @@
                   <l>Linha severa da longínqua costa —</l>
                   <l>Quando a nau se aproxima ergue-se a encosta</l>
                   <l>Em árvores onde o Longe nada tinha;</l>
-                  <l>Mais perto, abre-se a terra em sons e cores:</l>
+                  <l>Mais perto, abre-se a terra em sons e cores;</l>
                   <!--MJ: não tem ","  e "côres" em "Mar Portuguez"-->
                   <l>E, no desembarcar, há aves, flores,</l>
                   <!-- não tem as primeiras duas vírgulas em "Mar Portuguez"-->
@@ -2189,7 +2192,7 @@
                   <l>E disse: «Quem é que ousou entrar</l>
                   <l>Nas minhas cavernas que não desvendo,</l>
                   <l>Meus tetos negros do fim do mundo?»</l>
-                  <l>E o homem do leme disse, tremendo:</l>
+                  <l>E o homem do leme disse, tremendo,</l>
                   <l>«El-Rei D. João Segundo!»</l>
                </lg>
                <lg>
@@ -2200,10 +2203,8 @@
                   <!--MJ: "Morcego" e "tres" em "Mar Portuguez"-->
                   <l>Três vezes rodou imundo e grosso,</l>
                   <!--MJ: "tres em "Mar Prutugez"-->
-               </lg>
                <!--MJ: continua na mesma estrofa em "Mar Portuguez"-->
                <pb n="57"/>
-               <lg>
                   <l>«Quem vem poder o que só eu posso,</l>
                   <l>Que moro onde nunca ninguém me visse</l>
                   <!--MJ: "móro" em "Mar Portuguez"-->
@@ -2212,7 +2213,7 @@
                   <l>«El-Rei D. João Segundo!»</l>
                </lg>
                <lg>
-                  <l>Três vezes do leme as mãos ergueu.</l>
+                  <l>Três vezes do leme as mãos ergueu,</l>
                   <!--MJ: "tres em "Mar Prutugez" JU: cf. errata na edição impressa-->
                   <l>Três vezes ao leme as reprendeu,</l>
                   <!--MJ: "tres em "Mar Prutugez"-->
@@ -2353,7 +2354,7 @@
                   <l>Primeiro um movimento e depois um assombro.</l>
                   <l>Ladeiam-no, ao durar, os medos, ombro a</l>
                   <l>ombro,</l>
-                  <l>E ao longe o rastro ruge em nuvens e clarões</l>
+                  <l>E ao longe o rastro ruge em nuvens e clarões.</l>
                </lg>
                <!--MJ: continua na mesma estrofa em "Mar Portuguez"-->
                <lg>
@@ -2472,7 +2473,7 @@
                <head>O ENCOBERTO</head>
                <pb/>
                <ab>
-                  <hi rend="italic">PAX IN EXCELSIS</hi>
+                  <hi rend="italic">PAX IN EXCELSIS.</hi>
                </ab>
                <pb/>
                <div>
@@ -2605,7 +2606,7 @@
                   <lg>
                      <l>Que símbolo fecundo</l>
                      <l>Vem na aurora ansiosa?</l>
-                     <l>Na Cruz Morta do Mundo</l>
+                     <l>Na Cruz morta do Mundo</l>
                      <l>A Vida, que é a Rosa.</l>
                   </lg>
                   <lg>
@@ -2665,7 +2666,7 @@
                </lg>
                <lg>
                   <l>Mas não, não é luar: é luz do etéreo.</l>
-                  <l>E' um dia; e, no céu amplo de desejo,</l>
+                  <l>É um dia; e, no céu amplo de desejo,</l>
                   <l>A madrugada irreal do Quinto Império</l>
                   <l>Doira as margens do Tejo.</l>
                </lg>
@@ -2721,7 +2722,7 @@
                      <l>No mar indefinido.</l>
                      <l>O segundo pediu licença ao Rei</l>
                      <l>De, na fé e na lei</l>
-                     <l>Da descoberta, ir em procura</l>
+                     <l>Da descoberta ir em procura</l>
                      <l>Do irmão no mar sem fim e a névoa escura.</l>
                   </lg>
                   <lg>
@@ -2832,7 +2833,7 @@
                </lg>
                <lg>
                   <l>E o som na treva de ele rodar</l>
-                  <l>Faz mau o sono, triste o sonhar,</l>
+                  <l>Faz mau o sono, triste o sonhar.</l>
                   <l>Rodou e foi-se o mostrengo servo</l>
                   <l>Que seu senhor veio aqui buscar.</l>
                   <l>Que veio aqui seu senhor chamar —</l>
@@ -2851,7 +2852,7 @@
                   <l>Define com perfil e ser</l>
                   <l>Este fulgor baço da terra</l>
                   <l>Que é Portugal a entristecer —</l>
-                  <l>Brilho sem luz e sem arder</l>
+                  <l>Brilho sem luz e sem arder,</l>
                   <l>Como o que o fogo-fátuo encerra.</l>
                </lg>
                <lg>

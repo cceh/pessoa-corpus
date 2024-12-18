@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>As Rosas Amo dos Jardins de Adónis</title>
+            <author>
+               <rs type="name" key="RR">Ricardo Reis</rs>
+            </author>
+            <respStmt>
+               <resp>Edição, Transcrição</resp>
+               <name>Pedro Sepúlveda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Modelagem de dados, Codificação</resp>
+               <name>Ulrike Henny-Krahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcrição, Codificação, Atualização ortográfica</resp>
+               <name>Inês Filipa Rebelo do Carmo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Consultoria</resp>
+               <name>Institut für Dokumentologie und Editorik (IDE)</name>
+            </respStmt>
+         </titleStmt><editionStmt><p><!-- Confirmar -->Corpus version C2.1.1</p></editionStmt>
+         <publicationStmt>
+            <publisher>Universidade Nova de Lisboa, Instituto de Estudos de Literatura e
+               Tradição (IELT)</publisher>
+            <publisher>Cologne Center for eHumanities (CCeH)</publisher>
+            <date>2017<!-- Confirmar --></date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+            <idno type="filename">Reis_As_Rosas_Amo.xml</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="genre">
+               <rs type="genre" key="poesia">Poesia</rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <list type="work-index">
+               <item>
+                  <rs type="work" key="W429">As Rosas Amo dos Jardins de Adónis</rs>
+               </item>
+            </list>
+            <biblStruct>
+               <analytic>
+                  <title level="a">As Rosas Amo dos Jardins de Adónis</title>
+                  <author>
+                     <rs type="name" key="RR">Ricardo Reis</rs>
+                  </author>
+                  <textLang mainLang="pt"/>
+               </analytic>
+               <monogr>
+                  <title level="m">As Rosas Amo dos Jardins de Adónis</title>
+                  <author>
+                     <rs type="name" key="RR">Ricardo Reis</rs>
+                  </author>
+                  <textLang mainLang="pt"/>
+                  <imprint>
+                     <date when="1923">1923</date>
+                     <pubPlace><!-- Temos informação? --></pubPlace>
+                     <publisher><!-- Temos informação? --></publisher>
+                     <biblScope unit="page">162</biblScope>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title level="j">
+                     <rs type="periodical" key="J1">Athena</rs>
+                  </title>
+                  <imprint>
+                     <date when="1924">1924</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2023-11-15" who="#FAF">
+            Added edition statement to the teiHeader
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
+      <graphic url="<!-- Falta -->"/>
+   </facsimile>
+   <text corresp="#W429" type="orig">
+     <body>
+        <div>
+           <head>De Ricardo Reis:</head>
+           <lg>
+              <l>As rosas amo dos jardins de Adonis</l>
+              <l>Essas voluveis amo, Lydia, rosas,</l>
+              <l rend="indent">Que no dia em que nascem,</l>
+              <l rend="indent">No mesmo dia morrem.</l>
+           </lg>
+           <lg>
+              <l>A luz para ellas é eterna, porque</l>
+              <l>Nascem nascido já o sol, e acabam</l>
+              <l rend="indent">Antes que Apollo deixe</l>
+              <l rend="indent">O seu curso visivel.</l>
+           </lg>
+           <lg>
+              <l>Assim façamos nossa vida um dia,</l>
+              <l>Inscientes, Lydia, voluntariamente,</l>
+              <l rend="indent">Que ha noite antes e após</l>
+              <l rend="indent">O pouco que duramos.</l>
+           </lg>
+        </div>
+     </body>
+  </text>
+   <text type="reg">
+      <body>
+         <div>
+            <head>De Ricardo Reis:</head>
+            <lg>
+               <l>As rosas amo dos jardins de Adónis</l>
+               <l>Essas volúveis amo, Lídia, rosas,</l>
+               <l rend="indent">Que no dia em que nascem,</l>
+               <l rend="indent">No mesmo dia morrem.</l>
+            </lg>
+            <lg>
+               <l>A luz para elas é eterna, porque</l>
+               <l>Nascem nascido já o sol, e acabam</l>
+               <l rend="indent">Antes que Apolo deixe</l>
+               <l rend="indent">O seu curso visível.</l>
+            </lg>
+            <lg>
+               <l>Assim façamos nossa vida um dia,</l>
+               <l>Inscientes, Lídia, voluntariamente,</l>
+               <l rend="indent">Que há noite antes e após</l>
+               <l rend="indent">O pouco que duramos.</l>
+            </lg>
+         </div>
+      </body>
+  </text>
+</TEI>

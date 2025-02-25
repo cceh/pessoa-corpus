@@ -180,6 +180,9 @@
          <change when="2024-12-17" who="#IRC">
             Fixed small typos.
          </change>
+         <change when="2025-02-25" who="#IRC">
+            Fixed a couple of typos.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
@@ -333,7 +336,7 @@
                   </lg>
                   <lg>
                      <l>Foi com desgraça e com vileza</l>
-                     <l>Que <rs type="name" key="P573" style="a">Deus</rs> ao <rs type="name" key="P50">Christo</rs> definiu:</l>
+                     <l>Que <rs type="name" key="P573" style="a">Deus</rs> ao <rs type="name" key="P50" style="a">Christo</rs> definiu:</l>
                      <l>Assím o oppoz à Natureza</l>
                      <l>E Filho o ungiu.</l>
                   </lg>
@@ -1328,12 +1331,12 @@
                      <l>Que symbolo divino</l>
                      <l>Traz o dia já visto?</l>
                      <l>Na Cruz, que é o Destino,</l>
-                     <l>A Rosa, que é o <rs type="name" key="P50">Christo.</rs>
+                     <l>A Rosa, que é o <rs type="name" key="P50" style="a">Christo.</rs>
                      </l>
                   </lg>
                   <lg>
                      <l>Que symbolo final</l>
-                     <l>Mostra o sol já desperto?</l>
+                     <l>Mostra o sol já disperto?</l>
                      <l>Na Cruz morta e fatal</l>
                      <l>A Rosa do Encoberto.</l>
                   </lg>
@@ -1410,7 +1413,7 @@
                      <l>Quando é o Rei? Quando é a Hora?</l>
                   </lg>
                   <lg>
-                     <l>Quando virás a ser o <rs type="name" key="P50">Cristo</rs>
+                     <l>Quando virás a ser o <rs type="name" key="P50" style="a">Christo</rs>
                      </l>
                      <l>De a quem morreu o falso <rs type="name" key="P573" style="a">Deus</rs>,</l>
                      <l>E a dispertar do mal que existo</l>

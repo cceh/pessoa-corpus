@@ -104,6 +104,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2025-02-25" who="#IRC">
+            Fixed a typo.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
@@ -254,7 +257,7 @@
             <metamark function="distinct">*</metamark>
             <div type="poem">
                <lg>
-                  <l>Pobre velha música!</l>
+                  <l>Pobre velha musica!</l>
                   <l>Não sei porque agrado,</l>
                   <l>Enche-se de lagrimas</l>
                   <l>Meu olhar parado.</l>

@@ -77,6 +77,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2025-02-27" who="#FAF">
+            Added edition statement to the teiHeader
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
@@ -126,7 +129,7 @@
          <div>
             <head>Do "Livro do Desassossego"</head>
             <head type="sub">COMPOSTO POR BERNARDO
-                        SOARES, AJUDANTE DE GUARDA LIVROS NA CIDADE DE LISBOA</head>
+                        SOARES, AJUDANTE DE GUARDA-LIVROS NA CIDADE DE LISBOA</head>
             <p rend="indent-first">
                <hi rend="italic">Na perfeição nítida do dia estagna contudo
                         o ar cheio de sol. Não é a pressão presente da trovoada futura, mal-estar dos

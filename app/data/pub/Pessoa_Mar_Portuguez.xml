@@ -169,6 +169,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2025-02-25" who="#IRC">
+            Fixed a couple of typos.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/"
@@ -309,8 +312,8 @@
                   <l>Que móro onde nunca ninguem me visse</l>
                   <l>E escorro os medos do mar sem fundo?"</l>
                   <l>E o homem do leme tremeu, e disse:</l>
-                  <l rend="indent">«El-Rei <rs type="name" key="P594">Dom João
-                            Segundo</rs>!»</l>
+                  <l rend="indent">"El-Rei <rs type="name" key="P594">Dom João
+                     Segundo</rs>!"</l>
                </lg>
                <lg>
                   <l>Tres vezes do leme as mãos ergueu,</l>
@@ -669,7 +672,7 @@
                   <l>Que moro onde nunca ninguém me visse</l>
                   <l>E escorro os medos do mar sem fundo?ʺ</l>
                   <l>E o homem do leme tremeu, e disse:</l>
-                  <l rend="indent">«El-Rei Dom João Segundo!»</l>
+                  <l rend="indent">"El-Rei Dom João Segundo!"</l>
                </lg>
                <lg>
                   <l>Três vezes do leme as mãos ergueu,</l>
@@ -745,7 +748,7 @@
             </div>
             <div type="poem" corresp="#W219">
                <head rend="indent">VIII</head>
-               <head rend="indent">DANSA DOS TITÃS</head>
+               <head rend="indent">DANÇA DOS TITÃS</head>
                <lg>
                   <l>No vale clareia uma fogueira,</l>
                   <l>Uma dança sacode a terra inteira,</l>

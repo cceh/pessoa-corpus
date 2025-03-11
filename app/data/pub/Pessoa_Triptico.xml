@@ -89,6 +89,9 @@
          <change when="2024-01-18" who="#FAF">
             Acrescentei a Key no título.
          </change>
+         <change when="2025-02-25" who="#IRC">
+            Fixed a typo.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
@@ -108,7 +111,7 @@
                <lg>
                   <l>Em seu trono entre o brilho das esferas,</l>
                   <l>Com seu manto de noite e solidão,</l>
-                  <l>Tem aos pés o mar novo e as mortas eras —</l>
+                  <l>Fita aos pés o mar novo e as mortas eras —</l>
                   <l>O único imperador que tem, deveras,</l>
                   <l>O globo mundo em sua mão.</l>
                </lg>
@@ -176,7 +179,7 @@
                <lg>
                   <l>Em seu trono entre o brilho das esferas,</l>
                   <l>Com seu manto de noite e solidão,</l>
-                  <l>Tem aos pés o mar novo e as mortas eras —</l>
+                  <l>Fita aos pés o mar novo e as mortas eras —</l>
                   <l>O único imperador que tem, deveras,</l>
                   <l>O globo mundo em sua mão.</l>
                </lg>

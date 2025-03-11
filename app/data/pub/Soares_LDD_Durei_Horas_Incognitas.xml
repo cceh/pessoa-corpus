@@ -76,6 +76,9 @@
          <change when="2023-11-15" who="#FAF">
                     Added edition statement to the teiHeader
                 </change>
+         <change when="2025-02-27" who="#IRC">
+            Fixed a typo.
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
@@ -166,7 +169,7 @@
             <p rend="indent-first">Aquilo que se perdeu, aquilo que se deveria ter querido,
                     aquilo que se obteve e satisfez por erro, o que amámos e perdemos e, depois de
                     perder, vimos, amando-o por tê-lo perdido, que o não havíamos amado; o que
-                    julgávamos que pensávamos quando sentiamos; o que era uma memória e criamos que
+                    julgávamos que pensávamos quando sentíamos; o que era uma memória e criamos que
                     era uma emoção; e o mar todo, vindo lá, rumoroso e fresco, do grande fundo de
                     toda a noite, a estuar fino na praia, no decurso noturno do meu passeio à
                     beira-mar...</p>

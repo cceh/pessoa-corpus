@@ -18,10 +18,10 @@
         </fileDesc>
         <revisionDesc>
             <change when="2024-01-05" who="#FAF"> Added edition statement to the teiHeader </change>
-            <change when="2024-06-05" who="#IRC">Update of information about the financiation
-            of the project in the PT and EN versions.</change>
-            <change when="2024-06-27" who="#UHK">Update of information about the financiation
-                of the project in the DE version.</change>
+            <change when="2024-06-05" who="#IRC">Update of information about the financiation of the
+                project in the PT and EN versions.</change>
+            <change when="2024-06-27" who="#UHK">Update of information about the financiation of the
+                project in the DE version.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -274,12 +274,114 @@
                                     den Förderkennzeichen UID/ELT/00657/2013 und UIDP/00657/2020),
                                     vom IELT (finanziert durch <hi rend="italic">Fundos
                                         Nacionais</hi> über die FCT, im Rahmen der Projekte
-                                    UIDB/00657/2020 mit der DOI 10.54499/UIDB/00657/2020 
-                                    und UIDP/00657/2020 mit der DOI 10.54499/UIDP/00657/2020) und dem CCeH (2014-2016).
-                                    Seit 2019 besteht eine Kooperation mit der Universidad EAFIT und
-                                    seit 2021 mit der Universität Rostock. Für das Jahr 2023 wurde
-                                    eine Förderung durch das NFDI-Konsortium Text+ eingeworben
-                                    (Text+-Kooperationsrojekt "Pessoa digital").</p>
+                                    UIDB/00657/2020 mit der DOI 10.54499/UIDB/00657/2020 und
+                                    UIDP/00657/2020 mit der DOI 10.54499/UIDP/00657/2020) und dem
+                                    CCeH (2014-2016). Seit 2019 besteht eine Kooperation mit der
+                                    Universidad EAFIT und seit 2021 mit der Universität Rostock. Für
+                                    das Jahr 2023 wurde eine Förderung durch das NFDI-Konsortium
+                                    Text+ eingeworben (Text+-Kooperationsrojekt "Pessoa
+                                    digital").</p>
+                                <p>
+                                    <ref target="http://ielt.fcsh.unl.pt/" type="external"><graphic
+                                            url="/resources/images/logos/ielt3.png">
+                                            <desc>Instituto de Estudos de Literatura
+                                                Tradicional</desc>
+                                        </graphic></ref>
+                                    <ref target="http://www.fct.pt/" type="external"><graphic
+                                            url="/resources/images/logos/FCT_Logo.png">
+                                            <desc>Fundação para a Ciência e a Tecnologia</desc>
+                                        </graphic></ref>
+                                    <ref target="http://cceh.uni-koeln.de" type="external"><graphic
+                                            url="/resources/images/logos/cceh-logo-cyan.png">
+                                            <desc>Cologne Center for eHumanities</desc>
+                                        </graphic></ref>
+                                    <ref target="http://www.i-d-e.de/" type="external"><graphic
+                                            url="/resources/images/logos/ide.png">
+                                            <desc>Institut für Dokumentologie und Editorik</desc>
+                                        </graphic></ref>
+                                    <ref target="http://fcsh.unl.pt/" type="external"><graphic
+                                            url="/resources/images/logos/logo_fcsh.svg">
+                                            <desc>Faculdade de Ciências Sociais e Humanas,
+                                                Universidade Nova de Lisboa</desc>
+                                        </graphic>
+                                    </ref>
+                                    <ref target="https://www.text-plus.org/" type="external"
+                                            ><graphic
+                                            url="/resources/images/logos/textplus_logo.png">
+                                            <desc>NFDI Text+</desc>
+                                        </graphic>
+                                    </ref>
+                                    <ref target="http://www.bnportugal.pt/" type="external"><graphic
+                                            url="/resources/images/logos/BNP_Transparente_preto.png">
+                                            <desc>Biblioteca Nacional de Portugal</desc>
+                                        </graphic>
+                                    </ref>
+                                    <ref target="http://www.letras.ulisboa.pt/" type="external"
+                                            ><graphic
+                                            url="/resources/images/logos/FLUL_VERSAO_HORIZONTAL-SEM-FUNDO.png">
+                                            <desc>Faculdade de Letras, Universidade de Lisboa</desc>
+                                        </graphic>
+                                    </ref>
+                                    <ref target="http://www.eafit.edu.co/" type="external"><graphic
+                                            url="/resources/images/logos/EAFIT.jpg">
+                                            <desc>Universidad EAFIT</desc>
+                                        </graphic></ref>
+                                    <ref target="https://www.uni-rostock.de/" type="external">
+                                        <graphic url="/resources/images/logos/uni-rostock.png">
+                                            <desc>Universität Rostock</desc>
+                                        </graphic>
+                                    </ref>
+                                </p>
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <p>¡Bienvenido al portal de la edición digital de la obra de
+                                    Fernando Pessoa!</p>
+                                <p>Producto de una colaboración entre investigadores del proyecto
+                                        <ref target="http://estranharpessoa.com/" type="external"
+                                        >Estranhar Pessoa</ref>, con sede en el <ref
+                                        target="http://ielt.fcsh.unl.pt/" type="external">IELT</ref>
+                                    (Instituto de Estudios de Literatura y Tradición) de la
+                                    Universidade Nova de Lisboa y el <ref
+                                        target="http://cceh.uni-koeln.de/" type="external"
+                                        >CCeH</ref> (Cologne Center for eHumanities) de la
+                                    Universidad de Colonia, este portal ofrece un acceso
+                                    privilegiado a los documentos que componen la obra de
+                                    Pessoa.</p>
+                                <p>La edición está acompañada del acceso a las imágenes de los
+                                    originales. Este acceso es facilitado por un motor de búsqueda,
+                                    y la transcripción de cada documento, resultado de la
+                                    codificación electrónica, ofrece al lector la posibilidad de
+                                    definir el modo de edición en el que desea leer los textos.</p>
+                                <p>El portal presenta, en su versión actual, una edición de las
+                                    listas de proyectos editoriales de Fernando Pessoa, elaboradas
+                                    entre 1913 y 1935, así como el conjunto de la poesía publicada
+                                    en vida a partir de 1914, y de la prosa publicada por el autor
+                                    después de 1912, de manera avulsa y en libro. Se trata de un
+                                    conjunto de 248 documentos del archivo del autor, 78
+                                    publicaciones de poemas y 133 de prosa. Todos los textos
+                                    publicados en vida se presentan en dos versiones: con ortografía
+                                    original y actualizada. La edición se actualiza permanentemente
+                                    y nuevas versiones incluirán un conjunto más amplio de
+                                    textos.</p>
+                                <p>Esta edición permite comprender la relación entre el carácter
+                                    potencial de la obra y lo que efectivamente se publicó de ella.
+                                    Índices de documentos, publicaciones, géneros, nombres, títulos
+                                    y publicaciones periódicas permiten trazar su cronología.</p>
+                                <p>Este trabajo fue financiado por la FCT (Fundación para la Ciencia
+                                    y la Tecnología) en el marco del proyecto Estranhar Pessoa
+                                    (PTDC/CPC-ELT/4587/2012), por el IELT (financiado con Fondos
+                                    Nacionales a través de la FCT, en el marco de los proyectos
+                                    UIDB/00657/2020 con el identificador DOI
+                                    10.54499/UIDB/00657/2020 y UIDP/00657/2020 con el identificador
+                                    DOI 10.54499/UIDP/00657/2020), y por el CCeH. Desde 2019, está
+                                    en marcha una colaboración con la Universidad EAFIT y, desde
+                                    2021, con la Universidad de Rostock. Se ha obtenido financiación
+                                    del consorcio NFDI Text+ para 2023 (proyecto de cooperación
+                                    Text+ "Pessoa digital").</p>
                                 <p>
                                     <ref target="http://ielt.fcsh.unl.pt/" type="external"><graphic
                                             url="/resources/images/logos/ielt3.png">
@@ -695,6 +797,124 @@
                             </div>
                         </body>
                     </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <head>Equipo</head>
+                                <div>
+                                    <head type="sub">Edición y Gestión del Proyecto</head>
+                                    <list>
+                                        <item>Pedro Sepúlveda (2014-, Universidade Nova de Lisboa)<lb/>
+                                            <seg rend="smaller">Coordinación editorial, edición de
+                                                las publicaciones en vida, notas</seg>
+                                        </item>
+                                        <item>Ulrike Henny-Krahmer (2014-, Universidad de Rostock)<lb/>
+                                            <seg rend="smaller">Coordinación de HD, modelado de
+                                                datos, codificación en TEI, XSLT, XQuery</seg>
+                                        </item>
+                                        <item>Jorge Uribe (2014-, Universidad EAFIT)<lb/>
+                                            <seg rend="smaller">Edición de las publicaciones en
+                                                vida, datación y transcripción de listas de
+                                                proyectos, notas</seg>
+                                        </item>
+                                    </list>
+                                </div>
+                                <div>
+                                    <head type="sub">Miembros</head>
+                                    <list>
+                                        <item>Inês Rebelo do Carmo (2020-, Universidade Nova de Lisboa)<lb/>
+                                            <seg rend="smaller">Codificación en TEI, revisión de
+                                                transcripciones, actualización ortográfica</seg>
+                                        </item>
+                                        <item>Fernanda Alvares Freire (2023-, Universidad de Rostock)<lb/>
+                                            <seg rend="smaller">Desarrollo de la base de datos
+                                                (eXist &amp; XQuery), datos abiertos
+                                                conectados</seg>
+                                        </item>
+                                        <item>Erik Renz (2022-, Universidad de Rostock)<lb/>
+                                            <seg rend="smaller">Gestión de contenidos e imágenes,
+                                                documentación, datos abiertos conectados</seg>
+                                        </item>
+                                    </list>
+                                </div>
+                                <div>
+                                    <head type="sub">Antiguos Miembros</head>
+                                    <list>
+                                        <item>Ben Bigalke (2014-2019, Universidad de Colonia)<lb/>
+                                            <seg rend="smaller">Desarrollo de la base de datos
+                                                (eXist &amp; XQuery)</seg>
+                                        </item>
+                                        <item>Hanna Bott (2023, Universidad de Rostock)<lb/>
+                                            <seg rend="smaller">Datos abiertos conectados</seg>
+                                        </item>
+                                        <item>Ana Leonor Branco (2015, Universidade Nova de Lisboa)<lb/>
+                                            <seg rend="smaller">Codificación en TEI, revisión de
+                                                transcripciones</seg>
+                                        </item>
+                                        <item>Sviatoslav Drach (2014-2016, Universidad de Colonia)<lb/>
+                                            <seg rend="smaller">Conversión de datos, gestión de
+                                                imágenes, codificación en TEI, XSLT</seg>
+                                        </item>
+                                        <item>Isabel Figueiredo-Iken (2014-2015, Universidad de Colonia)<lb/>
+                                            <seg rend="smaller">Codificación en TEI</seg>
+                                        </item>
+                                        <item>Filipa Freitas (2014, Universidade Nova de Lisboa)<lb/>
+                                            <seg rend="smaller">Transcripción de listas de
+                                                proyectos</seg>
+                                        </item>
+                                        <item>Maria José Galeano (2020-2022, Universidad EAFIT)<lb/>
+                                            <seg rend="smaller">Codificación en TEI, revisión de
+                                                transcripciones</seg>
+                                        </item>
+                                        <item>Alena Geduldig (2014-2015, Universidad de Colonia)<lb/>
+                                            <seg rend="smaller">Programación (XQuery, XSLT)</seg>
+                                        </item>
+                                        <item>Marie Kisser (2023, Universidad de Rostock)<lb/>
+                                            <seg rend="smaller">Datos abiertos conectados</seg>
+                                        </item>
+                                        <item>Pablo Javier Pérez López (2014-2015, Universidade Nova
+                                            de Lisboa)<lb/>
+                                            <seg rend="smaller">Recolección y transcripción de
+                                                listas de proyectos y de poesía publicada en
+                                                vida</seg>
+                                        </item>
+                                        <item>Christian Theisen (2014-2015, Universidad de Colonia)<lb/>
+                                            <seg rend="smaller">Diseño del portal, HTML, CSS</seg>
+                                        </item>
+                                    </list>
+                                </div>
+                                <div>
+                                    <head type="sub">Consultores</head>
+                                    <list>
+                                        <item>António Feijó (Universidade de Lisboa)</item>
+                                        <item>Franz Fischer (Institut für Dokumentologie und
+                                            Editorik)</item>
+                                        <item>Fernando Cabral Martins (Universidade Nova de
+                                            Lisboa)</item>
+                                        <item>Patrick Sahle (Institut für Dokumentologie und
+                                            Editorik)</item>
+                                        <item>Richard Zenith</item>
+                                    </list>
+                                </div>
+                                <div>
+                                    <head type="sub">Apoyo y Financiación</head>
+                                    <list>
+                                        <item><ref target="http://www.fct.pt/" type="external"
+                                                >FCT</ref> (PTDC/CPC-ELT/4587/2012)</item>
+                                        <item><ref target="http://cceh.uni-koeln.de" type="external"
+                                                >CCeH/UoC</ref> (2014-2016)</item>
+                                        <item><ref target="http://ielt.fcsh.unl.pt/" type="external"
+                                                >IELT</ref> (financiado por Fondos Nacionales a
+                                            través de <ref target="http://www.fct.pt/"
+                                                type="external">FCT</ref>, UIDB/00657/2020 e
+                                            UIDP/00657/2020)</item>
+                                        <item><ref target="https://www.text-plus.org/"
+                                                type="external">NFDI Text+</ref> (2023)</item>
+                                    </list>
+                                </div>
+                            </div>
+                        </body>
+                    </text>
                 </group>
             </text>
             <text xml:id="about">
@@ -798,33 +1018,6 @@
                                 </div>
                                 <div>
                                     <head>3. Publicações em vida</head>
-                                    <p>Na edição das publicações em vida, é conferida particular
-                                        atenção à forma específica como cada texto foi publicado
-                                        pelo autor, considerando as suas caraterísticas próprias
-                                        enquanto peça bibliográfica. Preservando estas
-                                        caraterísticas com vista a uma leitura adequada,
-                                        republicações que integram certo texto num conjunto distinto
-                                        são editadas como unidades autónomas, enquanto publicações
-                                        de um mesmo texto que apresentam apenas variações textuais
-                                        entre si são confrontadas num texto crítico. Esta atenção
-                                        particular vai ao encontro das considerações de Jerome
-                                        McGann (1991, 13-16) a respeito da importância do código
-                                        bibliográfico do texto. Alargando as suas considerações ao
-                                        âmbito da edição digital, McGann (2001, 11-12) sublinhou a
-                                        necessidade de conciliar, através do digital, os propósitos
-                                        da edição crítica e da edição facsimilada, dando a ver as
-                                        particularidades bibliográficas do suporte de cada texto,
-                                        assim como o seu contexto particular de publicação. A edição
-                                        contempla essas particularidades através da articulação
-                                        entre o facsímile e o texto editado, e da apresentação de
-                                        cada texto enquanto peça pertencente a um dado contexto e
-                                        publicada num determinado suporte, com caraterísticas
-                                        visuais e linguísticas próprias. Como o texto editado é
-                                        apresentado de um modo próximo ao facsímile, na sua fixação
-                                        no novo suporte prescinde-se de uma absoluta fidelidade
-                                        tipo- e quirográfica. Em vez disso, o texto apresenta-se
-                                        como uma versão estruturada, através de marcações
-                                        específicas de cada elemento.</p>
                                     <p>Na edição das publicações em vida, é conferida particular
                                         atenção à forma específica como cada texto foi publicado
                                         pelo autor, considerando as suas caraterísticas próprias
@@ -968,7 +1161,7 @@
                                             <label>[ ]</label> desenvolvimento de abreviaturas
                                         </item>
                                     </list>
-                                    <p>EEm breve nota a cada documento do espólio referimos a sua
+                                    <p>Em breve nota a cada documento do espólio referimos a sua
                                         anterior publicação, quando não se trata de um inédito. A
                                         referência recai sobre a sua publicação mais antiga, exceto
                                         nos casos em que uma publicação mais recente apresenta
@@ -1704,6 +1897,334 @@
                             </div>
                         </body>
                     </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <head>Sobre el proyecto</head>
+                                <div>
+                                    <head>1. La Edición Digital</head>
+                                    <p>Esta edición digital de la obra de Fernando Pessoa nació de
+                                        un trabajo de colaboración entre el proyecto Estranhar
+                                        Pessoa, con sede en el IELT (Instituto de Estudos de
+                                        Literatura e Tradição), en la Universidade Nova de Lisboa, y
+                                        el CCeH (Cologne Center for eHumanities), de la Universidad
+                                        de Colonia. Disponible para los lectores desde 2017,
+                                        actualmente integra investigadores del proyecto Estranhar
+                                        Pessoa (IELT, NOVA FCSH), de la Universidad de Rostock y de
+                                        la Universidad EAFIT de Medellín, contando con consultoría
+                                        del IDE (Institute of Documentology and Scholarly Editing) y
+                                        de especialistas en la obra de Fernando Pessoa (ver <ref
+                                            type="internal"
+                                            target="http://www.pessoadigital.pt/es/project/team"
+                                            >aquí</ref> la constitución del equipo, instituciones
+                                        involucradas y fuentes de financiación). La coordinación
+                                        editorial está a cargo de Pedro Sepúlveda; la coordinación
+                                        técnica es responsabilidad de Ulrike Henny-Krahmer; y la
+                                        edición es responsabilidad de Pedro Sepúlveda, Ulrike
+                                        Henny-Krahmer y Jorge Uribe.</p>
+                                    <p>El portal presenta una edición de las listas de proyectos
+                                        editoriales de Fernando Pessoa, que constituyen una parte
+                                        fundamental de su legado, así como de las publicaciones del
+                                        autor durante su vida. En su <ref type="internal"
+                                            target="http://www.pessoadigital.pt/es/project/versions"
+                                            >versión actual</ref>, la edición contempla las listas
+                                        elaboradas entre 1913 y el final de la vida de Pessoa. En
+                                        cuanto a las publicaciones en vida, hemos reunido toda la
+                                        poesía publicada por el autor entre 1914 y 1935 en
+                                        publicaciones periódicas, folletos y libros, bajo los
+                                        nombres de Fernando Pessoa, Álvaro de Campos, Alberto Caeiro
+                                        y Ricardo Reis, así como toda la prosa publicada en vida en
+                                        periódicos y revistas bajo los nombres de Fernando Pessoa,
+                                        Álvaro de Campos y Bernardo Soares, a partir de 1912 (véase
+                                        al respecto <seg rend="bold"><ref type="external"
+                                                target="https://static1.squarespace.com/static/51d2b64ae4b0a433e9c0c726/t/5fd5f381491a58544a059185/1607857026300/Uribe_Em_vida_de_Fernando_Pessoa_EP_n7.pdf"
+                                                >Uribe, “Em vida de Fernando Pessoa — Lista de
+                                                publicações 1912-1935”</ref></seg>).</p>
+                                    <p>Todos los documentos de la Edición Digital están codificados
+                                        según la norma de la <seg rend="italic">Text Encoding
+                                            Initiative</seg> (TEI), que no solo proporciona una base
+                                        para la representación de las fuentes escritas en formato
+                                        digital, sino también conceptos y técnicas orientadas al
+                                        registro de variantes y versiones. El lector encontrará <ref
+                                            type="internal"
+                                            target="http://www.pessoadigital.pt/es/project/documentation"
+                                            >aquí</ref> documentación detallada sobre las
+                                        herramientas y criterios utilizados en la codificación
+                                        electrónica del texto, explicados mediante ejemplos de la
+                                        edición. Esta edición se actualiza permanentemente,
+                                        ofreciendo con el tiempo diferentes versiones, indicadas al
+                                        pie de la página de inicio.</p>
+                                </div>
+                                <div>
+                                    <head>2. Listas de proyectos</head>
+                                    <p>Las listas de proyectos se han publicado de manera dispersa
+                                        en diversas ediciones, y aún queda una parte significativa
+                                        inédita que se publica aquí por primera vez. Se trata de
+                                        documentos cruciales para comprender no solo los propósitos
+                                        editoriales, sino también los poéticos, en cuanto a la
+                                        elaboración, fijación y organización sistémica de la obra a
+                                        lo largo del tiempo. Su ya reconocida relevancia (cf. Cunha
+                                        1987, Sepúlveda 2013, Sepúlveda y Uribe 2016) se manifiesta
+                                        en el establecimiento de una edición de referencia de estos
+                                        documentos. Esta edición pone un fuerte énfasis en la
+                                        relación entre el carácter potencial de la obra y lo que
+                                        efectivamente se ha publicado de ella. Los índices de
+                                        documentos, publicaciones y géneros, así como de las
+                                        menciones de nombres, títulos y publicaciones periódicas,
+                                        permiten trazar con precisión la cronología tanto de los
+                                        proyectos como de las publicaciones, así como establecer
+                                        relaciones entre ellos.</p>
+                                    <p>El <seg rend="italic">corpus</seg> constituido por las listas
+                                        de proyectos editoriales de Pessoa está delimitado en
+                                        contraposición a otros tipos de listas igualmente presentes
+                                        en su legado, como listas de lecturas, de libros, de otros
+                                        objetos o de tareas por realizar. En lo que respecta a
+                                        listas de carácter editorial, se distingue, para los
+                                        propósitos de esta edición y siguiendo la línea argumental
+                                        establecida previamente, entre listas de proyectos y planes
+                                        editoriales. Mientras que un plan es una lista que se
+                                        refiere a una sola obra y estructura las partes que componen
+                                        un solo título, las listas de proyectos editoriales agrupan
+                                        varios títulos de carácter particular, que corresponden a
+                                        obras distintas. Esta edición abarca únicamente las listas
+                                        de proyectos editoriales, que pueden también contener en su
+                                        cuerpo planes y notas editoriales referentes a los títulos
+                                        enumerados, que en ese caso también están incluidos en la
+                                        edición. Es principalmente a través de las listas de
+                                        proyectos editoriales que es posible trazar la historia del
+                                        desarrollo de cada título, proyecto u obra, así como su
+                                        organización, por lo que resultan decisivas para el estudio
+                                        y análisis de la obra en su conjunto.</p>
+                                </div>
+                                <div>
+                                    <head>3. Publicaciones en vida</head>
+                                    <p>En la edición de las publicaciones en vida, se presta
+                                        especial atención a la forma específica en que cada texto
+                                        fue publicado por el autor, considerando sus características
+                                        propias como pieza bibliográfica. Preservando estas
+                                        características para una lectura adecuada, las
+                                        republicaciones que integran un texto en un conjunto
+                                        distinto se editan como unidades autónomas, mientras que las
+                                        publicaciones de un mismo texto que solo presentan
+                                        variaciones textuales entre sí se confrontan en un texto
+                                        crítico. Esta atención particular sigue las consideraciones
+                                        de Jerome McGann (1991, 13-16) sobre la importancia del
+                                        código bibliográfico del texto. Ampliando sus reflexiones al
+                                        ámbito de la edición digital, McGann (2001, 11-12) subrayó
+                                        la necesidad de conciliar, a través del formato digital, los
+                                        propósitos de una edición crítica y una edición facsimilar,
+                                        mostrando las particularidades bibliográficas del soporte de
+                                        cada texto, así como su contexto particular de publicación.
+                                        La edición aborda estas particularidades mediante la
+                                        articulación entre el facsímil y el texto editado,
+                                        presentando cada texto como una pieza perteneciente a un
+                                        contexto determinado y publicada en un soporte particular,
+                                        con sus propias características visuales y lingüísticas.
+                                        Como el texto editado se presenta de forma cercana al
+                                        facsímil, en su fijación en el nuevo soporte se prescinde de
+                                        una fidelidad absoluta en términos tipo- y quirográficos. En
+                                        su lugar, el texto se ofrece como una versión estructurada,
+                                        con marcas específicas para cada elemento.</p>
+                                    <p>Mientras que las variaciones entre publicaciones distintas, a
+                                        las que corresponden diferentes entradas, se indican
+                                        brevemente en una nota editorial, las variantes textuales
+                                        entre publicaciones de un mismo conjunto o de un texto
+                                        aislado, que incluyen la puntuación y el uso de mayúsculas,
+                                        se presentan de forma inmediatamente visible en el cuerpo
+                                        del texto, mediante el método de "segmentación paralela". En
+                                        cualquier caso, una breve nota editorial expone las diversas
+                                        publicaciones del texto y sus diferencias fundamentales. La
+                                        estrategia del método de "segmentación paralela" (<seg
+                                            rend="italic">parallel segmentation method</seg>) se
+                                        basa en codificar las variantes exactamente en el lugar
+                                        donde se encuentran en el texto a editar. Así, el aparato no
+                                        se guarda por separado, sino que se integra directamente en
+                                        el texto. Todas las variantes se reproducen en la edición,
+                                        privilegiando una de ellas en el cuerpo del texto, de
+                                        acuerdo con la coherencia textual y las circunstancias de
+                                        publicación. Esto es particularmente importante en el caso
+                                        de la obra de Pessoa, porque permite elegir una variante que
+                                        corresponda a una de las versiones del texto, siempre
+                                        teniendo en cuenta el contexto bibliográfico más amplio,
+                                        estableciendo así un texto crítico que sea sensible a la
+                                        totalidad de la obra de Pessoa.</p>
+                                </div>
+                                <div>
+                                    <head>4. Criterios y propósitos de la edición</head>
+                                    <p>La edición se beneficia de las posibilidades que ofrece el
+                                        formato digital, ofreciendo al lector una combinación de
+                                        diferentes modalidades de edición de los textos. En el caso
+                                        de los documentos del archivo, se presentan tres modos de
+                                        edición: 1. transcripción diplomática, que incluye todas las
+                                        variantes, dudas y pasajes posteriormente rechazados por el
+                                        autor; 2. primera versión del texto, tal como fue
+                                        establecida y no rechazada por el autor, desarrollando
+                                        abreviaturas; 3. última versión del texto no rechazada por
+                                        el autor, también con abreviaturas desarrolladas. En las
+                                        publicaciones en vida, se ofrecen dos modos de edición: 1.
+                                        transcripción conservadora, con ortografía original y
+                                        manteniendo las abreviaturas introducidas en el texto; 2.
+                                        transcripción con ortografía modernizada, siguiendo el
+                                        Acuerdo Ortográfico de 1990, en los textos en prosa,
+                                        incluyendo el desarrollo de abreviaturas. Cualquier ruptura
+                                        de página se indica entre corchetes en el margen del
+                                        texto.</p>
+                                    <p>Dada la existencia de variantes textuales en los documentos
+                                        del archivo, las ediciones anteriores en formato de libro se
+                                        definen en función de la lección elegida y de la versión
+                                        establecida de cada texto. Como es ampliamente conocido,
+                                        algunas ediciones tienden a seguir una primera versión del
+                                        texto, otras la última, y también existen casos en los que
+                                        la elección entre variantes se hace en base a un criterio
+                                        hermenéutico (cf. especialmente Duarte 1988, Lopes 1992,
+                                        Galhoz 1993, Martins 2011 y Castro 2013). Este trabajo
+                                        proporciona diversas formas de acceso a cada texto,
+                                        intentando evitar algunas de las oposiciones previas entre
+                                        criterios editoriales y dando cuenta del dinamismo de la
+                                        escritura del autor y de sus diferentes etapas.</p>
+                                    <p>Esta combinación de diferentes modalidades de edición de los
+                                        textos ofrece nuevas formas de acceso a la obra de Pessoa,
+                                        poniendo el foco tanto en una parte significativa de su
+                                        archivo literario, custodiado por la Biblioteca Nacional de
+                                        Portugal (BNP) o por particulares (CP), como en las
+                                        publicaciones realizadas en vida. La sigla BNP en los
+                                        documentos, seguida de una referencia, indica que forman
+                                        parte del archivo de la Biblioteca Nacional, en su sobre 3.
+                                        Los documentos que forman parte de colecciones particulares
+                                        se refieren con la sigla CP, seguida de una numeración. En
+                                        las publicaciones en vida, los textos se indican por los
+                                        títulos correspondientes a su publicación, respetando las
+                                        formas particulares en que fueron publicados. Para una
+                                        uniformidad mínima de los títulos, estos siguen, en los
+                                        menús de acceso, la ortografía moderna; los títulos de los
+                                        poemas se indican siempre en mayúsculas, salvo los artículos
+                                        y preposiciones, que en prosa solo llevan mayúscula inicial.
+                                        En el caso de prólogos a libros, al título le sigue la
+                                        indicación de la obra prologada.</p>
+                                    <p>La edición incluye una bibliografía especializada, dedicada
+                                        principalmente a recopilar las referencias a las fuentes
+                                        que, a lo largo de los años, han hecho accesibles los
+                                        diversos documentos del archivo, proponiendo una visión
+                                        sobre el carácter potencial de la obra de Pessoa como
+                                        conjunto de proyectos. Esta bibliografía también incluye
+                                        ediciones, ensayos y artículos académicos o de divulgación
+                                        que, en las últimas décadas, han contribuido al
+                                        redescubrimiento de los elementos de la obra de Pessoa
+                                        publicada por el propio autor en vida.</p>
+                                    <p>Las variantes textuales, los subrayados y los pasajes
+                                        tachados se presentan en su totalidad en la transcripción
+                                        diplomática de cada documento del archivo, de manera
+                                        gráficamente legible y sin emplear simbología adicional. La
+                                        transcripción diplomática busca mantener cierta fidelidad a
+                                        la disposición gráfica del documento original, reproducido
+                                        en facsímil que acompaña cada texto y complementa su
+                                        lectura. En este sentido, se mantienen todas las variantes y
+                                        pasajes tachados en la transcripción diplomática, sin
+                                        remitir estos elementos a notas. Así, se hace visible el
+                                        desarrollo de proyectos de una lista a otra, y en el
+                                        interior de una misma lista es frecuente ver la sustitución
+                                        de un proyecto por otro o la incertidumbre mantenida entre
+                                        diferentes versiones de un determinado proyecto. También se
+                                        incluyen hipervínculos entre proyectos mencionados en listas
+                                        y sus correspondientes publicaciones en vida, siempre que
+                                        exista una correspondencia claramente identificable entre un
+                                        proyecto y su materialización en una publicación. Se utiliza
+                                        en las transcripciones la siguiente simbología:</p>
+                                    <list>
+                                        <item>
+                                            <label>□</label> espacio dejado en blanco por el autor </item>
+                                        <item>
+                                            <label>*</label> lectura conjeturada </item>
+                                        <item>
+                                            <label>/ /</label> pasaje cuestionado por el autor </item>
+                                        <item>
+                                            <label>†</label> palabra ilegible </item>
+                                        <item>
+                                            <label>[ ]</label> desarrollo de abreviaturas </item>
+                                    </list>
+                                    <p>En una breve nota para cada documento del archivo, se hace
+                                        referencia a su publicación anterior, cuando no se trata de
+                                        un inédito. La referencia se basa en su publicación más
+                                        antigua, excepto en los casos en que una publicación más
+                                        reciente presenta mejoras significativas en su legibilidad.
+                                        Las notas también hacen referencia a elementos materiales y
+                                        de contenido considerados para su datación. Los elementos
+                                        materiales considerados para la datación incluyen el tipo de
+                                        letra utilizado, ya sea manuscrita o mecanografiada, y el
+                                        tipo de soporte. En este contexto, se consideran los
+                                        membretes, muchos de ellos relacionados con empresas en las
+                                        que Pessoa trabajó en ciertos momentos, así como las marcas
+                                        de agua del papel.</p>
+                                    <p>La abreviatura «<seg rend="italic">c.</seg>» («<seg
+                                            rend="italic">circa</seg>») indica el carácter
+                                        conjetural de la datación, que depende de la interpretación
+                                        de los elementos y de una comprensión de la obra que va más
+                                        allá de su materialidad. Incluso en los casos en que aparece
+                                        una fecha autógrafa en el documento, no podemos tener
+                                        certeza absoluta de que dicho documento fue redactado en esa
+                                        misma fecha, por lo que siempre existe una dimensión
+                                        conjetural. En los casos de mayor duda, indicamos un rango
+                                        de tiempo de dos o más años («<seg rend="italic">c.</seg>
+                                        1916-1917» o «<seg rend="italic">c.</seg> 1918-1920») o
+                                        indicamos que la lista pertenece a un período determinado
+                                        («1916-1919» o «1920-1927»). Las abreviaturas «<seg
+                                            rend="italic">ant.</seg>» («anterior») y «<seg
+                                            rend="italic">post.</seg>» («posterior») indican que un
+                                        determinado documento fue probablemente redactado en un
+                                        momento cercano, antes o después de una fecha
+                                        determinada.</p>
+                                    <p>Un motor de búsqueda facilita la búsqueda de contenidos
+                                        específicos y ofrece diferentes formas de acceso a la
+                                        información contenida en los textos. El acceso a los textos
+                                        puede realizarse de diversas maneras: buscando por un autor,
+                                        un documento, una publicación o un género literario, o
+                                        explorando los índices de nombres, títulos de obras y
+                                        publicaciones periódicas mencionados en los textos.</p>
+                                    <p>La historia de los proyectos y las publicaciones también es
+                                        la de un desarrollo dinámico de la escritura y su fijación
+                                        en una publicación o mediante una propuesta de organización
+                                        editorial. Estas fijaciones, aunque cambiantes a lo largo
+                                        del tiempo, son puntualmente significativas, contribuyendo a
+                                        la definición de la obra desde una perspectiva tanto
+                                        editorial como poética y sistémica. Rastrear la historia de
+                                        los proyectos y las publicaciones de Pessoa implica, por
+                                        tanto, analizar una obra en construcción que alude a un
+                                        propósito mayor: la proyección de su sentido como un todo
+                                        plenamente constituido.</p>
+                                    <p>Se pretende contribuir, a través de un trabajo editorial que
+                                        no prescinde de un enfoque hermenéutico, al esclarecimiento
+                                        de cuestiones críticas fundamentales en los Estudios
+                                        Pessoanos, tales como la discusión sobre el carácter
+                                        fragmentario o unitario de la obra (cf. Coelho 1949, Gusmão
+                                        2003, Martins 2003, Sepúlveda 2013, Feijó 2015). La
+                                        naturaleza fragmentaria de algunos de los textos no elimina
+                                        el propósito del autor de superar esta fragmentariedad
+                                        mediante una fijación sistémica de la obra, que, aunque
+                                        revela su permanente insatisfacción, no alcanzó una forma
+                                        definitiva. La presente edición muestra que Pessoa trabajó
+                                        constantemente en la organización de su obra, como se
+                                        evidencia en las listas de proyectos editoriales aquí
+                                        reunidas y analizadas, en contraste o en consonancia con las
+                                        publicaciones realizadas en vida. En ambos tipos de texto se
+                                        vislumbra cómo el diseño de la obra dependía de la
+                                        definición de sus contenidos, del establecimiento de
+                                        relaciones entre títulos y de la atribución de autoría,
+                                        expresada en la famosa creación de figuras autorales,
+                                        incluida aquella que firma con el nombre propio del
+                                        poeta.</p>
+                                </div>
+                                <!--<p>Neste momento, encontram-se disponíveis os seguintes textos:</p>
+                                <table type="doc-overview">
+                                    <row>
+                                        <cell><hi rend="bold">Documentos acessíveis:</hi></cell>
+                                        <cell><hi rend="bold">Documentos em preparação:</hi></cell>
+                                        <cell><hi rend="bold">Publicações acessíveis:</hi></cell>
+                                        <cell><hi rend="bold">Publicações em preparação:</hi></cell>
+                                    </row>
+                                </table>-->
+                            </div>
+                        </body>
+                    </text>
                 </group>
             </text>
             <text xml:id="documentation">
@@ -2000,6 +2521,108 @@
                                     Editionskorpus: <ref type="external"
                                         target="https://github.com/cceh/pessoa-corpus"
                                         >https://github.com/cceh/pessoa-corpus</ref></p>
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <head>Documentación</head>
+                                <p>Consideraciones sobre los aspectos editoriales de esta edición
+                                    digital se encuentran en la sección <ref
+                                        target="http://www.pessoadigital.pt/pt/project/about"
+                                        type="internal">Sobre el proyecto</ref>. Los detalles sobre
+                                    el modelo de datos, la codificación TEI y la infraestructura
+                                    técnica pueden encontrarse en esta página y en otras subpáginas
+                                    de la edición que están enlazadas aquí.</p>
+                            </div>
+                            <div>
+                                <head>Codificación TEI</head>
+                                <p>La realización de la edición digital se basa principalmente en
+                                    los estándares XML y tecnologías relacionadas.</p>
+                                <p>Las transcripciones de los documentos, las publicaciones y los
+                                    metadatos correspondientes están codificados según los
+                                    estándares de la Text Encoding Initiative (en la versión
+                                    TEI-P5).</p>
+                                <p>La adaptación de las normas TEI específicas del proyecto se
+                                    describe <ref target="http://www.pessoadigital.pt/tei-odd"
+                                        type="external">aquí</ref>.</p>
+                            </div>
+                            <div>
+                                <head>Configuración técnica y flujo de trabajo</head>
+                                <p>La configuración técnica y el flujo de trabajo se esquematizan en
+                                    la siguiente figura:</p>
+                                <figure>
+                                    <graphic url="/resources/images/content/workflow.png"
+                                        width="600px">
+                                        <desc>Configuración técnica y flujo de trabajo</desc>
+                                    </graphic>
+                                </figure>
+                                <p>El flujo de trabajo se divide en cuatro pasos principales: (1)
+                                    interpretación, (2) representación, (3) transformación y (4)
+                                    presentación.</p>
+                                <p>Primero, los documentos se transcriben y codifican según las
+                                    normas TEI.</p>
+                                <p>Los documentos TEI se gestionan en un repositorio de GitHub,
+                                    situado en <ref target="https://github.com/cceh/pessoa"
+                                        type="external">https://github.com/cceh/pessoa</ref>, de
+                                    modo que sus versiones puedan ser verificadas y para permitir
+                                    que los miembros del equipo trabajen colaborativamente en los
+                                    archivos TEI.</p>
+                                <p>Los facsímiles de los documentos se almacenan por separado en un
+                                    servidor de imágenes.</p>
+                                <p>Los archivos maestros del repositorio GitHub se guardan en una
+                                    base de datos XML (eXist-db), donde están insertados en una
+                                    aplicación que genera el portal de la edición. Los archivos de
+                                    imagen también están incluidos en esta aplicación a través de un
+                                    visualizador de imágenes (OpenSeadragon).</p>
+                                <p>La aplicación está basada principalmente en archivos XQuery y
+                                    XSLT, que producen las páginas del portal y que transforman los
+                                    documentos TEI en documentos HTML. Además, se utilizan hojas de
+                                    estilo CSS para dar formato al portal y a los documentos
+                                    editados digitalmente.</p>
+                                <p>Para la creación del portal se utilizaron algunos componentes
+                                    integrados en la base de datos eXist, como el framework CSS
+                                    Bootstrap, la biblioteca JavaScript JQuery y el Templating
+                                    Framework de eXist.</p>
+                            </div>
+                            <div>
+                                <head>Versiones</head>
+                                <p>Los datos del corpus de la edición y la aplicación web de la
+                                    edición digital se versionan de manera individual. El esquema
+                                    según el cual esto se lleva a cabo se explica en la página
+                                    siguiente: <ref type="internal"
+                                        target="http://www.pessoadigital.pt/es/project/versions"
+                                        >"Versiones"</ref>.</p>
+                            </div>
+                            <div>
+                                <head>Licencias</head>
+                                <p>La información sobre las licencias para los datos, las imágenes y
+                                    la aplicación web se puede encontrar en la página <ref
+                                        type="internal"
+                                        target="http://www.pessoadigital.pt/es/project/licenses"
+                                        >"Licencias"</ref> y en los respectivos repositorios de
+                                    GitHub: <list>
+                                        <item>Corpus: <ref type="external"
+                                                target="https://github.com/cceh/pessoa-corpus"
+                                                >https://github.com/cceh/pessoa-corpus</ref></item>
+                                        <item>Webapp: <ref type="external"
+                                                target="https://github.com/cceh/pessoa"
+                                                >https://github.com/cceh/pessoa</ref></item>
+                                    </list>
+                                </p>
+                            </div>
+                            <div>
+                                <head>Datos</head>
+                                <p>Los datos TEI de los documentos y publicaciones pueden
+                                    descargarse desde el propio sitio web de la edición (ver la
+                                    página <ref type="internal"
+                                        target="http://www.pessoadigital.pt/en/project/download"
+                                        >"Descargas"</ref>) o a través del repositorio de GitHub del
+                                    corpus de la edición: <ref type="external"
+                                        target="https://github.com/cceh/pessoa-corpus"
+                                        >https://github.com/cceh/pessoa-corpus</ref>
+                                </p>
                             </div>
                         </body>
                     </text>
@@ -2573,6 +3196,196 @@
                             </div>
                         </body>
                     </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <head>Disseminação</head>
+                                <p>Nota: Incluímos contribuições em conferências que foram revistas
+                                    por pares e publicadas sob a forma de resumos longos na secção
+                                    "Publicações".</p>
+                                <div>
+                                    <head>Publicações</head>
+                                    <list>
+                                        <item>Sepúlveda, Pedro, Ulrike Henny-Krahmer e Jorge Uribe.
+                                            “Versões e variantes das publicações e dos projetos de
+                                            Fernando Pessoa em pessoadigital.pt”. <seg rend="italic"
+                                                >Hispania</seg>. Volume 104, Number 4, John Hopkins
+                                            University Press: December 2021. (DOI: <ref
+                                                target="https://muse.jhu.edu/article/842245">
+                                                10.1353/hpn.2021.0122</ref>). </item>
+                                        <item>Sepúlveda, Pedro / Henny-Krahmer, Ulrike (2019).
+                                            "Titel- und Werkgenese in Pessoas Projekten und
+                                            Publikationen." ("A génese de títulos e obra nos
+                                            projetos e publicações de Fernando Pessoa.") <seg
+                                                rend="italic">Textgenese in der digitalen
+                                                Edition.</seg> Editado por Anke Bosse &amp; Walter
+                                            Fanta. Beihefte zu Editio. Berlim: Walter de Gruyter,
+                                            213-228. (<ref
+                                                target="https://www.degruyter.com/view/title/534793"
+                                                >https://www.degruyter.com/view/title/534793</ref>). </item>
+                                        <item>Bigalke, Ben / Drach, Sviatoslav / Henny-Krahmer,
+                                            Ulrike / Sepúlvedo, Pedro / Theisen, Christian (2018).
+                                            "Personen- und Figurennetzwerke in Fernando Pessoas
+                                            Publikationsplänen." <seg rend="italic">DHd 2018. Kritik
+                                                der digitalen Vernunft. Konferenzabstracts.</seg>
+                                            Universidade de Colónia, 26 de fevereiro - 2 de março
+                                            2018. Colónia: Universidade de Colónia, 448-453. (<ref
+                                                target="https://web.archive.org/web/20180828173558/http://dhd2018.uni-koeln.de/wp-content/uploads/boa-DHd2018-web-ISBN.pdf"
+                                                >livro de resumos</ref>). </item>
+                                        <item>Sepúlveda, Pedro (2017). “Pessoa Digital: Projetos e
+                                            Publicações”. <seg rend="italic">Atas do Congresso
+                                                Internacional Fernando Pessoa 2017.</seg> Lisboa:
+                                            Casa Fernando Pessoa, 332-346. (<ref
+                                                target="https://casafernandopessoa.pt/application/files/5315/1698/3454/CFP_ACTAS_2017.pdf"
+                                                >versão web</ref>). </item>
+                                        <item>Henny-Krahmer, Ulrike / Sepúlveda, Pedro (2017).
+                                            "Pessoa’s editorial projects and publications: the
+                                            digital edition as a multiple form of textual
+                                            criticism." <seg rend="italic">Advances in Scholarly
+                                                Editing. Papers presented at the DiXiT conferences
+                                                in The Hague, Cologne, and Antwerp.</seg> Editado
+                                            por Peter Boot, Anna Cappellotto, Wout Dillen, Franz
+                                            Fischer, Aodhán Kelly, Andreas Mertgens, Anna-Maria
+                                            Sichani, Elena Spadini &amp; Dirk van Hulle. Leiden:
+                                            Sidestone Press, 125-133. (<ref
+                                                target="https://www.sidestone.com/books/advances-in-digital-scholarly-editing"
+                                                >versão web</ref>).</item>
+                                        <item>Sepúlveda, Pedro / Henny, Ulrike (2016). "Tracing the
+                                            Genesis of Pessoa’s Envisioned Work: a Digital Edition
+                                            of his Editorial Projects and Publications." <seg
+                                                rend="italic">Digital Humanities Conference
+                                                2016.</seg> Kraków, Pedagogical University und
+                                            Jagiellonian University. (<ref
+                                                target="http://dh2016.adho.org/abstracts/388"
+                                                >resumo</ref>).</item>
+                                        <item>Sepúlveda, Pedro / Henny, Ulrike. "A obra potencial —
+                                            para uma edição digital dos projetos editoriais de
+                                            Fernando Pessoa." <seg rend="italic">E-book do Congresso
+                                                de Humanidades Digitais em Portugal 2015.</seg> (no
+                                            prelo)</item>
+                                    </list>
+                                </div>
+                                <div>
+                                    <head>Apresentações</head>
+                                    <list>
+                                        <item>Uribe, Jorge e Inês Rebelo do Carmo, Colóquio
+                                            Estranhar Pessoa, “Assuntos Narrativos”, realizado na
+                                            Faculdade de Letras da Universidade de Lisboa, 21-22 de
+                                            junho de 2022: “Apresentação da versão 2.0 da <seg
+                                                rend="italic">Edição Digital de Fernando Pessoa:
+                                                Projetos e Publicações</seg>
+                                            (pessoadigital.pt)”</item>
+                                        <item>Sepúlveda, Pedro, Ulrike Henny-Krahmer, Jorge Uribe e
+                                            Inês Rebelo do Carmo, 13.º Seminário Aberto do Projeto
+                                            Estranhar Pessoa, “Assuntos Vários”, realizado online,
+                                            22-23 de junho de 2021: “Apresentação da primeira versão
+                                            completa (1.0) da <seg rend="italic">Edição Digital de
+                                                Fernando Pessoa: Projetos e Publicações </seg>
+                                            (pessoadigital.pt)”</item>
+                                        <item>Uribe, Jorge, Ulrike Henny-Krahmer, Pedro Sepúlveda e
+                                            Inês Rebelo do Carmo, V. Congresso de Humanidades
+                                            Digitales Hispánicas, “Scire Vias: Humanidades Digitales
+                                            y Conocimiento”, realizado em Santiago de Compostela,
+                                            Espanha, 4-8 outubro de 2021: “La Edición Digital de
+                                            Fernando Pessoa: consideraciones sobre las ediciones
+                                            digitales como archivos abiertos” </item>
+                                        <item>Uribe, Jorge,“PORT 265 Guest Lecture-
+                                            pessoadigital.com or the methamorphoses of the archive”,
+                                            University of California - Santa Barbara, 21 de maio de
+                                            2021. </item>
+                                        <item>Uribe, Jorge, Ramón Valdés y Nicolás Vaughan,
+                                            “Monstruos de apariencia llenos” el teatro de Lope de
+                                            Vega, Taller en homenaje a Amalia Iriarte, Universidad
+                                            de los Andes, 30 de mayo a 3 de junio de 2022: “Edición
+                                            digital y humanidades digitales: proyectos y problemas”. </item>
+                                        <item>Uribe, Jorge “Seminario permanente de investigación”
+                                            Universidad EAFIT, “Leer a Pessoa híbrido”, Universidad
+                                            EAFIT, Medellín, mayo de 2019. </item>
+                                        <item>Sepúlveda, Pedro / Henny-Krahmer, Ulrike. “The genesis
+                                            of titles in Fernando Pessoa’s editorial projects.” No
+                                            Simpósio Internacional <seg rend="italic">Writing and
+                                                Revision Stages</seg>, organizado pelo Grupo de
+                                            Filologia do Centro de Linguística e pelo Programa em
+                                            Crítica Textual da Universidade de Lisboa, FLUL, 6-7 de
+                                            junho de 2019. </item>
+                                        <item>Sepúlveda, Pedro / Henny-Krahmer, Ulrike. “A
+                                            cronologia de figuras e títulos na Edição Digital de
+                                            Fernando Pessoa.” Comunicação no Encontro de Estudos
+                                            Pessoanos <seg rend="italic">Mediações e
+                                                Remediações</seg>, Faculdade de Letras da
+                                            Universidade do Porto, 22-23 de fevereiro 2018. </item>
+                                        <item>Sepúlveda, Pedro / Henny-Krahmer, Ulrike. “Edição
+                                            Digital de Fernando Pessoa: Projetos e Publicações.”
+                                            Apresentação do portal da Edição Digital de Fernando
+                                            Pessoa (pessoadigital.pt), na Biblioteca Nacional de
+                                            Portugal, 20 de fevereiro 2018. </item>
+                                        <item>Sepúlveda, Pedro / Uribe, Jorge. “Edição Digital de
+                                            Fernando Pessoa: Projetos e Publicações”. Comunicação na
+                                            Jornada <seg rend="italic">IELT Digital</seg>, FCSH da
+                                            Universidade Nova de Lisboa, Novembro de 2017. </item>
+                                        <item>Sepúlveda, Pedro. “Entre o real e o potencial: uma
+                                            edição digital de Fernando Pessoa.” <seg rend="italic"
+                                                >Congresso Internacional Luso-Brasileiro 100
+                                                Futurismo</seg>. Cátedra Jorge de Sena, Universidade
+                                            Federal do Rio de Janeiro, em parceria com o CLEPUL,
+                                            Universidade de Lisboa, Rio de Janeiro, 30 de maio a 2
+                                            de junho de 2017. (<ref
+                                                target="https://www.100futurismo.com/programa%C3%A7%C3%A3o/brasil/2-de-junho-uff/"
+                                                >programa</ref>, <ref
+                                                target="https://www.100futurismo.com/programa%C3%A7%C3%A3o/brasil/resumos/"
+                                                >resumos</ref>).</item>
+                                        <item>Sepúlveda, Pedro. “Titel- und Werkgenese in Fernando
+                                            Pessoas Projekten und Publikationen.” Colóquio
+                                            Internacional <seg rend="italic">Textgenese in der
+                                                digitalen Edition</seg>. Universidade de Klagenfurt
+                                            e Instituto Musil, Klagenfurt, Áustria, 20-22 de abril
+                                            de 2017. (<ref
+                                                target="https://networks.h-net.org/node/79435/discussions/171116/konf-textgenese-der-digitalen-edition-klagenfurt-2004-%E2%80%93-22042017"
+                                                >programa</ref>). </item>
+                                        <item>Sepúlveda, Pedro. “Pessoa Digital: Projetos e
+                                            Publicações” <seg rend="italic">Congresso Internacional
+                                                Fernando Pessoa.</seg> Casa Fernando Pessoa,
+                                            Fundação Calouste Gulbenkian, 9-11 de Fevereiro de 2017.
+                                                (<ref
+                                                target="http://casafernandopessoa.cm-lisboa.pt/fileadmin/CASA_FERNANDO_PESSOA/CFP_Congresso_Internacional_FP_2017-Programa_Web.pdf"
+                                                >programa</ref>). </item>
+                                        <item>Bigalke, Ben / Henny, Ulrike / Sepúlveda, Pedro.
+                                            "Pessoa’s Editorial Projects and Publications: The
+                                            Digital Edition as a New Form of Textual Criticism."
+                                                <seg rend="italic">DiXit Convention 2. Academia,
+                                                Cultural Heritage, Society.</seg> Poster. March 16,
+                                            2016. (<ref
+                                                target="http://dixit.uni-koeln.de/convention-2-abstracts/#bigalke-et-al"
+                                                >resumo</ref>, <ref
+                                                target="http://dixit.uni-koeln.de/wp-content/uploads/Poster_Pessoa.pdf"
+                                                >poster</ref>). </item>
+                                        <item>Sepúlveda, Pedro / Henny, Ulrike. "A obra potencial —
+                                            para uma edição digital dos projetos editoriais de
+                                            Fernando Pessoa". <seg rend="italic">Congresso de
+                                                Humanidades Digitais em Portugal.</seg> Lisboa,
+                                            October 8, 2015. (<ref
+                                                target="https://congressohdpt.wordpress.com/programa/"
+                                                >programa</ref>).</item>
+                                        <item>Sepúlveda, Pedro e Henny, Ulrike. “Orpheu 3: notas
+                                            para uma edição digital dos projetos editoriais.” <seg
+                                                rend="italic">10.º Seminário Aberto do Projeto
+                                                “Estranhar Pessoa”, Assuntos Órficos</seg>,
+                                            Biblioteca Nacional de Portugal, BNP, 5-6 de Março de
+                                            2015. (<ref
+                                                target="https://static1.squarespace.com/static/51d2b64ae4b0a433e9c0c726/t/54f44f00e4b0b0738be7fbbb/1425297152940/Assuntos+%C3%93rficos_cartaz.pdf"
+                                                >programa</ref>). </item>
+                                        <item>Henny, Ulrike / Fischer, Franz / Sepúlveda, Pedro.
+                                            "Estranhar Pessoa - Genese des Werks aus der Sicht
+                                            editorischer Pläne." <seg rend="italic">International
+                                                Workshop Digitale genetische Editionen (in der
+                                                Praxis).</seg> SLA, Bern, September 4, 2014. (<ref
+                                                target="http://www.lokalbericht.unibe.ch/hermann_burger/pdf/Programm_Abstracts.pdf"
+                                                >programa &amp; resumos</ref>).</item>
+                                    </list>
+                                </div>
+                            </div>
+                        </body>
+                    </text>
                 </group>
             </text>
             <text xml:id="download">
@@ -2621,6 +3434,23 @@
                                     >Publikationen</ref></p>
                                 <p>Das Editionskorpus ist außerdem über folgendes GitHub-Repository
                                     zugänglich: <ref type="external"
+                                        target="https://github.com/cceh/pessoa-corpus"
+                                        >https://github.com/cceh/pessoa-corpus</ref></p>
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <head>Downloads</head>
+                                <p>Aqui pode fazer o download de todos os arquivos TEI dos
+                                    documentos e publicações que fazem parte da edição:</p>
+                                <p><ref target="../data/doc.zip" type="internal"
+                                    >Documentos</ref></p>
+                                <p><ref target="../data/pub.zip" type="internal"
+                                    >Publicações</ref></p>
+                                <p>O corpus da edição também está acessível através do seguinte
+                                    repositório GitHub: <ref type="external"
                                         target="https://github.com/cceh/pessoa-corpus"
                                         >https://github.com/cceh/pessoa-corpus</ref></p>
                             </div>
@@ -2712,6 +3542,34 @@
                                         International” (CC BY 4.0)</ref> zur Verfügung und können
                                     entsprechend nachgenutzt werden. Alle Bilder können verwendet
                                     werden, solange immer ihre Quelle angegeben wird.</p>
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <head>Licenças</head>
+                                <p>As imagens dos documentos do espólio de Fernando Pessoa e das
+                                    publicações em vida do poeta foram disponibilizadas pela
+                                    Biblioteca Nacional de Portugal (BNP), a quem agradecemos a
+                                    disponibilização e a autorização para as publicar. Os documentos
+                                    da coleção particular à guarda de Manuela Nogueira (CP) foram
+                                    digitalizados em 2008 por um grupo de investigação coordenado
+                                    por Jerónimo Pizarro. Agradecemos a Manuela Nogueira e ao grupo
+                                    de investigação a autorização para publicar as imagens da
+                                    coleção. As imagens das publicações dos poemas "O Avô e o Neto"
+                                    e "Mar Portuguez" nos periódicos <seg rend="italic">Tico-tico:
+                                        Jornal das crianças</seg> e <seg rend="italic">Leitura para
+                                        todos – Revista mensal illustrada</seg> foram
+                                    disponibilizadas pela Biblioteca Nacional Digital do Brasil, a
+                                    quem agradecemos a disponibilização e a autorização para as
+                                    publicar.</p>
+                                <p>Todos os ficheiros TEI podem ser partilhados de acordo com a
+                                    licença Creative Commons <ref
+                                        target="http://creativecommons.org/licenses/by/4.0/"
+                                        type="external">“Attribution 4.0 International” (CC BY
+                                        4.0)</ref>. Todas as imagens podem ser partilhadas indicando
+                                    sempre a respetiva fonte.</p>
                             </div>
                         </body>
                     </text>
@@ -2847,6 +3705,49 @@
                             </div>
                         </body>
                     </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <head>Versões</head>
+                                <p>A aplicação web e o corpus da Edição Digital de Fernando Pessoa
+                                    são versionados separadamente. Ambas as partes da edição digital
+                                    estão organizadas em repositórios GitHub:</p>
+                                <list>
+                                    <item>Webapp: <ref target="https://github.com/cceh/pessoa"
+                                            >https://github.com/cceh/pessoa</ref></item>
+                                    <item>Corpus: <ref
+                                            target="https://github.com/cceh/pessoa-corpus"
+                                            >https://github.com/cceh/pessoa-corpus</ref></item>
+                                </list>
+                                <p>Para cada nova versão, novos releases desses repositórios são
+                                    criados e descritos no GitHub e arquivados via Zenodo. As
+                                    versões são numeradas de acordo com o seguinte esquema: [número
+                                    da versão principal (vp)], [número da versão secundária (vs)],
+                                    [número da revisão (rv)].</p>
+                                <p>Para a aplicação Web, este esquema é seguido de acordo com as
+                                    convenções para o controlo de versões de software: o número da
+                                    versão principal indica alterações significativas ao programa, o
+                                    número da versão secundária indica melhorias funcionais no
+                                    programa e o número da revisão indica alterações menores,
+                                    nomeadamente correcções de erros. No caso do repositório de
+                                    corpus, o número da versão principal indica uma expansão
+                                    substancial do conteúdo do corpus, o número da versão secundária
+                                    indica a adição de textos individuais ou certos tipos de dados
+                                    (por exemplo, formatos de exportação adicionais, dados de
+                                    registo ou tipos de codificação) e o número de revisão indica
+                                    alterações em passagens individuais dos textos/dados ou da
+                                    codificação, em especial para corrigir erros. A versão é,
+                                    portanto, definida de acordo com o seguinte modelo, em que A se
+                                    refere à a aplicação Web e C o corpus:
+                                    A[vp].[vs].[rv]-C[vp].[vs].[rv]..</p>
+                                <p>A versão atual é: <ref
+                                        target="https://github.com/cceh/pessoa/releases/tag/A3.0.0"
+                                        >A3.0.0</ref>-<ref
+                                        target="https://github.com/cceh/pessoa-corpus/releases/tag/C2.1.1"
+                                        >C2.1.1</ref></p>
+                            </div>
+                        </body>
+                    </text>
                 </group>
             </text>
             <text xml:id="titles">
@@ -2884,6 +3785,22 @@
                         </body>
                     </text>
                     <text xml:lang="pt">
+                        <body>
+                            <div>
+                                <p>Neste índice de títulos, os títulos das publicações de Fernando
+                                    Pessoa são listados juntamente com os mencionados nas suas
+                                    listas editoriais, notas e planos, assim como com os títulos
+                                    referidos nas publicações. Os títulos das próprias publicações
+                                    (poemas e textos em prosa) são apresentados com a ortografia
+                                    modernizada, enquanto que os mencionados nos projetos editoriais
+                                    e nas publicações são listados seguindo a ortografia original.
+                                    Abreviaturas que ocorrem nestes títulos são desenvolvidas e no
+                                    caso da ocorrência de variantes a última lição do autor é
+                                    apresentada no índice.</p>
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="es">
                         <body>
                             <div>
                                 <p>Neste índice de títulos, os títulos das publicações de Fernando
@@ -4277,6 +5194,461 @@
                             </div>
                         </body>
                     </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <head>Redes de Pessoas e Figuras nos Projetos Editoriais de Fernando
+                                    Pessoa</head>
+                                <div>
+                                    <head>Ajuda</head>
+                                    <div>
+                                        <head>A</head>
+                                        <list>
+                                            <item xml:id="Jahr-pt">
+                                                <label><seg rend="bold">Ano.</seg></label>
+                                                <p>A seleção do ano pode ser utilizada para limitar
+                                                  o conjunto de esferas (pessoas ou figuras) e
+                                                  arestas (relações) apresentados na rede. Por
+                                                  defeito, é apresentada a rede na sua totalidade,
+                                                  ou seja, todas as pessoas mencionadas nas listas
+                                                  de Pessoa entre 1913 e 1935, bem como as suas
+                                                  ligações, caso estas surjam indicadas em conjunto
+                                                  nas listas. Se for selecionado um único ano, a
+                                                  visualização é reduzida às ocorrências de figuras
+                                                  no respetivo ano. Em segundo plano, todas as
+                                                  figuras continuam a ser apresentadas, mas sem
+                                                  ligações e a cinzento. A opção "Ano" é uma das
+                                                  várias <ref target="#Auswahloptionen-pt">opções de
+                                                  seleção</ref> para a visualização da rede.</p>
+                                            </item>
+                                            <item xml:id="Kanten-pt">
+                                                <label><seg rend="bold">Arestas.</seg></label>
+                                                <p>As arestas da rede indicam que as pessoas foram
+                                                  mencionadas em conjunto nas listas de projetos
+                                                  editoriais de Pessoa. Para mais informações sobre
+                                                  a representação das arestas ver <ref
+                                                  target="#Kantendicke-pt" type="internal">Arestas,
+                                                  Espessura</ref>.</p>
+                                            </item>
+                                            <item xml:id="Kantendicke-pt">
+                                                <label><seg rend="bold">Arestas,
+                                                  Espessura.</seg></label>
+                                                <p>A espessura das arestas na rede mostra a
+                                                  frequência com que as pessoas foram mencionadas em
+                                                  conjunto nos documentos. A espessura mínima das
+                                                  arestas é de 1 pixel (para uma menção conjunta).
+                                                  Por cada menção conjunta adicional, a espessura da
+                                                  aresta aumenta 1 pixel.</p>
+                                            </item>
+                                        </list>
+                                    </div>
+                                    <div>
+                                        <head>E</head>
+                                        <list>
+                                            <item xml:id="Knoten-pt">
+                                                <label><seg rend="bold">Esferas.</seg></label>
+                                                <p>As esferas da rede representam pessoas
+                                                  identificadas pelos seus nomes. Todas as pessoas
+                                                  mencionadas numa lista editorial do espólio de
+                                                  Pessoa entre 1913 e 1935 fazem parte da rede. Para
+                                                  mais informações sobre a representação das esferas
+                                                  <ref target="#Knotengroesse-pt" type="internal"
+                                                  >Esferas, tamanho</ref> e <ref
+                                                  target="#Knotenfarbe-pt">Esferas, cor</ref>.</p>
+                                            </item>
+                                            <item xml:id="Knotenklick-pt">
+                                                <label><seg rend="bold">Esferas, clicar duas
+                                                  vezes.</seg></label>
+                                                <p>Clicar duas vezes numa das esferas reduz a
+                                                  visualização da rede à esfera selecionada e todas
+                                                  as ligações a esferas vizinhas. Clicando duas
+                                                  vezes novamente numa das esferas, regressa-se à
+                                                  visualização normal da rede. Para obter mais
+                                                  informações sobre as esferas consulte <ref
+                                                  target="#Knoten-pt" type="internal">Esferas</ref>,
+                                                  <ref target="#Knotengroesse-pt" type="internal"
+                                                  >Esferas, tamanho</ref>, <ref
+                                                  target="#Knotenfarbe-pt" type="internal">Esferas,
+                                                  cor</ref> e <ref target="#Knotenhover-pt"
+                                                  type="internal">Esferas, passar o
+                                                  cursor</ref>.</p>
+                                            </item>
+                                            <item xml:id="Knotenfarbe-pt">
+                                                <label><seg rend="bold">Esferas, cor.</seg></label>
+                                                <p>A cor das esferas na rede indica se uma pessoa é
+                                                  real (azul escuro) ou ficcional (azul turquesa).
+                                                  Ficcionais são, por um lado, figuras literárias
+                                                  como "Hamlet", mas também heterónimos de Pessoa,
+                                                  nomes que ele próprio inventou. O próprio
+                                                  "Fernando Pessoa" é aqui assinalado como real,
+                                                  embora também possa ser entendido como uma figura
+                                                  ficcional em partes da obra e da sua conceção. No
+                                                  âmbito desta rede, decidiu-se, em qualquer dos
+                                                  casos, por apenas um estatuto para cada nome,
+                                                  embora se possa analisar esta questão com maior
+                                                  detalhe.</p>
+                                            </item>
+                                            <item xml:id="Knotengroesse-pt">
+                                                <label><seg rend="bold">Esferas,
+                                                  tamanho.</seg></label>
+                                                <p>O tamanho das esferas da rede é de, pelo menos, 2
+                                                  pixéis, pelo que os nomes de figuras que não
+                                                  ocorrem num determinado ano ou período, mas que
+                                                  fazem parte da rede global, também são
+                                                  apresentados, mas em segundo plano. Para todos os
+                                                  nomes de figuras que ocorram pelo menos uma vez
+                                                  num documento aplica-se a seguinte fórmula: 2 +
+                                                  log2(tamanho). O "tamanho" indica a frequência de
+                                                  ocorrência: se uma figura é mencionada em 5
+                                                  documentos diferentes, o tamanho=5. log2 é o
+                                                  algoritmo de base 2. Este cálculo foi utilizado
+                                                  para que as esferas da rede não diferissem
+                                                  demasiado em tamanho entre si. Caso contrário, a
+                                                  rede seria de difícil leitura.</p>
+                                            </item>
+                                            <item xml:id="Knotenhover-pt">
+                                                <label><seg rend="bold">Esferas, passar o
+                                                  cursor.</seg></label>
+                                                <p>Se passar o cursor do rato sobre uma esfera da
+                                                  rede, a própria esfera e todas as arestas que
+                                                  partem diretamente dela são realçadas a vermelho.
+                                                  Isto destina-se a facilitar a visualização das
+                                                  outras figuras às quais a figura selecionada está
+                                                  diretamente ligada. Mais informações sobre as
+                                                  esferas podem ser encontradas em Esferas, Esferas,
+                                                  tamanho; Esferas, cor e Esferas, clicar duas
+                                                  vezes. <ref target="#Knoten-pt" type="internal"
+                                                  >Esferas</ref>, <ref target="#Knotengroesse-pt"
+                                                  type="internal">Esferas, tamanho</ref>, <ref
+                                                  target="#Knotenfarbe-pt" type="internal">Esferas,
+                                                  cor</ref> e <ref target="#Knotenklick-pt"
+                                                  type="internal">Esferas, clicar duas
+                                                  vezes</ref>.</p>
+                                            </item>
+                                        </list>
+                                    </div>
+                                    <div>
+                                        <head>M</head>
+                                        <list>
+                                            <item xml:id="Label-pt">
+                                                <label><seg rend="bold">Mostrar Nomes.</seg></label>
+                                                <p>Com o botão "Mostrar Nomes" pode definir se os
+                                                  nomes devem ser apresentados enquanto etiquetas
+                                                  das esferas ou não. Por defeito, os nomes são
+                                                  apresentados. A opção "Mostrar Nomes" é uma das
+                                                  várias <ref target="#Auswahloptionen-pt">opções de
+                                                  seleção</ref> para a visualização da rede.</p>
+                                            </item>
+                                            <item xml:id="Alle-Namen-pt">
+                                                <label><seg rend="bold">Mostrar Todos os
+                                                  Nomes.</seg></label>
+                                                <p>Com a opção "Mostrar Todos os Nomes" é possível
+                                                  definir se as figuras ou nomes mencionados apenas
+                                                  isoladamente numa lista – e que, portanto, surgem
+                                                  enquanto esferas na rede, mas sem ligações com
+                                                  outras figuras/nomes – devem ser apresentados. O
+                                                  facto de uma figura ocorrer isoladamente pode
+                                                  mudar consoante a seleção do período ou ano. Por
+                                                  defeito, todos os nomes são apresentados. A opção
+                                                  "Mostrar Todos os Nomes" é uma das várias <ref
+                                                  target="#Auswahloptionen-pt">opções de
+                                                  seleção</ref> para a visualização da rede.</p>
+                                            </item>
+                                            <item xml:id="Bewegen-pt">
+                                                <label><seg rend="bold">Movimentar-se na
+                                                  rede.</seg></label>
+                                                <p>Para alterar a área em que a rede é visível, pode
+                                                  movimentar-se na janela do browser. De momento,
+                                                  ainda não é possível deslocar toda a rede com o
+                                                  cursor.</p>
+                                            </item>
+                                        </list>
+                                    </div>
+                                    <div>
+                                        <head>O</head>
+                                        <list>
+                                            <item xml:id="Auswahloptionen-pt">
+                                                <label><seg rend="bold">Opções.</seg></label>
+                                                <p>Por defeito, é apresentada a rede na sua
+                                                  totalidade. A visualização pode ser alterada
+                                                  utilizando as opções de seleção na margem esquerda
+                                                  da janela. Estão disponíveis as seguintes opções:
+                                                  <ref target="#Jahr-pt" type="internal">Ano</ref> ,
+                                                  <ref target="#PeriodisierungA-pt" type="internal"
+                                                  >Periodização A</ref>, <ref
+                                                  target="#PeriodisierungB-pt" type="internal">
+                                                  Periodização B</ref>, <ref target="#Anzeige-pt"
+                                                  type="internal"> Visualização</ref>, <ref
+                                                  target="#Label-pt" type="internal">Mostrar
+                                                  Nomes</ref>, <ref target="#Alle-Namen"
+                                                  type="internal">Mostrar Todos os Nomes</ref>,
+                                                  Mostrar Lista de Nomes. A visualização da área com
+                                                  as várias opções de seleção pode ser ligada ou
+                                                  desligada através do ícone com três traços no
+                                                  canto superior esquerdo. Se movimentar o cursor
+                                                  para baixo, a área das opções de seleção acompanha
+                                                  esse movimento.</p>
+                                            </item>
+                                        </list>
+                                    </div>
+                                    <div>
+                                        <head>P</head>
+                                        <list>
+                                            <item xml:id="PeriodisierungA-pt">
+                                                <label><seg rend="bold">Periodização
+                                                  A.</seg></label>
+                                                <p>A opção "Periodização A" pode ser utilizada para
+                                                  limitar o conjunto de esferas (pessoas ou figuras)
+                                                  e arestas (relações) apresentados na rede. Por
+                                                  defeito, é apresentada a rede na sua totalidade,
+                                                  ou seja, todas as figuras mencionadas nas listas
+                                                  de Pessoa entre 1913 e 1935, bem como as suas
+                                                  ligações, caso ocorram em conjunto nas listas. Se
+                                                  for selecionado um único período, a visualização é
+                                                  reduzida às ocorrências de figuras no respetivo
+                                                  período. Em segundo plano, todas as figuras
+                                                  continuam a ser apresentadas, mas sem ligações e a
+                                                  cinzento. A opção "Periodização A" é uma das
+                                                  várias <ref target="#Auswahloptionen-pt">opções de
+                                                  seleção</ref> para a visualização da rede.</p>
+                                                <p>A periodização A contempla três períodos de tempo
+                                                  que, no seu conjunto, abrangem o período de 1913 a
+                                                  1935. Em 1913, Pessoa concretiza as primeiras
+                                                  publicações importantes da sua obra literária.
+                                                  1935 é o ano da sua morte.</p>
+                                                <p>1913-1918: entre 1913 e 1918 foram escritas e
+                                                  parcialmente publicadas obras decisivas da
+                                                  primeira geração do Modernismo Português,
+                                                  sobretudo em revistas como <seg rend="italic"
+                                                  >Orpheu</seg> (1915) ou <seg rend="italic"
+                                                  >Portugal Futurista</seg> (1917).</p>
+                                                <p>1919-1927: de 1919 a 1927, Pessoa dedicou-se a
+                                                  vários projetos de publicação individuais,
+                                                  nomeadamente através da editora que fundou, <seg
+                                                  rend="italic">Olisipo</seg> (1921-1923), ou da
+                                                  revista que editou, <seg rend="italic"
+                                                  >Athena</seg> (1924-1925).</p>
+                                                <p>1928-1935: 1928 é um ano de rotura na receção da
+                                                  sua obra, provocada por um forte interesse
+                                                  demonstrado pela segunda geração modernista, a dos
+                                                  editores da revista <seg rend="italic"
+                                                  >Presença</seg>. Entre 1928 e 1935, Pessoa
+                                                  trabalha mais intensamente que nos anos anteriores
+                                                  na sua obra poética e no <seg rend="italic">Livro
+                                                  do Desassossego</seg>, preparando estas obras para
+                                                  uma publicação em livro que nunca concretizou.</p>
+                                            </item>
+                                            <item xml:id="PeriodisierungB-pt">
+                                                <label><seg rend="bold">Periodização
+                                                  B.</seg></label>
+                                                <p>A opção "Periodização B" pode ser utilizada para
+                                                  limitar o conjunto de esferas (pessoas ou figuras)
+                                                  e arestas (relações) apresentados na rede. Por
+                                                  defeito, é apresentada a rede na sua totalidade,
+                                                  ou seja, todas as figuras mencionadas nas listas
+                                                  de Pessoa entre 1913 e 1935, bem como as suas
+                                                  ligações, caso ocorram em conjunto nas listas. Se
+                                                  for selecionado um único período, a visualização é
+                                                  reduzida às ocorrências de figuras no respetivo
+                                                  período. Em segundo plano, todas as figuras
+                                                  continuam a ser apresentadas, mas sem ligações e a
+                                                  cinzento. A opção "Periodização B" é uma das
+                                                  várias <ref target="#Auswahloptionen-pt">opções de
+                                                  seleção</ref> para a visualização da rede.</p>
+                                                <p>A periodização B contempla quatro períodos de
+                                                  tempo que, no seu conjunto, cobrem o período de
+                                                  1913 a 1935. Em 1913, Pessoa realiza as primeiras
+                                                  publicações importantes da sua obra literária.
+                                                  1935 é o ano da sua morte.</p>
+                                                <p>1913-1915: entre 1913 e 1915 foram escritas as
+                                                  primeiras obras da poesia heteronímica e
+                                                  publicadas obras decisivas da primeira geração do
+                                                  modernismo português, nomeadamente na revista
+                                                  literária <seg rend="italic">Orpheu</seg>
+                                                  (1915).</p>
+                                                <p>1916-1919: Os anos de 1916 a 1919 são marcados
+                                                  por um importante desenvolvimento e amadurecimento
+                                                  da obra poética e em prosa de Pessoa, ocupando
+                                                  novas revistas coletivas, como <seg rend="italic"
+                                                  >Portugal Futurista</seg> (1917), uma importância
+                                                  decisiva no campo das publicações.</p>
+                                                <p>1919-1927: de 1919 a 1927, Pessoa dedicou-se a
+                                                  vários projetos de publicação individuais,
+                                                  nomeadamente através da editora que fundou, <seg
+                                                  rend="italic">Olisipo</seg> (1921-1923), ou da
+                                                  revista que editou, <seg rend="italic"
+                                                  >Athena</seg> (1924-1925).</p>
+                                                <p>1928-1935: 1928 é um ano de rotura na receção da
+                                                  sua obra, provocada por um forte interesse
+                                                  demonstrado pela segunda geração modernista, a dos
+                                                  editores da revista <seg rend="italic"
+                                                  >Presença</seg>. Entre 1928 e 1935, Pessoa
+                                                  trabalha mais intensamente que nos anos anteriores
+                                                  na sua obra poética e no <seg rend="italic">Livro
+                                                  do Desassossego</seg>, preparando estas obras para
+                                                  uma publicação em livro que nunca concretizou.</p>
+                                            </item>
+                                        </list>
+                                    </div>
+                                    <div>
+                                        <head>V</head>
+                                        <list>
+                                            <item xml:id="Anzeige-pt">
+                                                <label><seg rend="bold">Visualização.</seg></label>
+                                                <p>A opção "Visualização" pode ser utilizada para
+                                                  definir a extensão da rede no ecrã. Selecionando a
+                                                  opção "muito próximo", a rede é apresentada numa
+                                                  área mais pequena, o que facilita a visualização
+                                                  global. No entanto, algumas das esferas e das
+                                                  ligações individuais não são, com esta opção,
+                                                  imediatamente reconhecíveis. Selecionando a opção
+                                                  "muito afastado", a rede é distribuída de tal
+                                                  forma que pode não ser visível na totalidade, mas
+                                                  diversos campos individuais podem ser visualizados
+                                                  mais detalhadamente. Entre estas duas opções
+                                                  encontram-se as opções intermédias "próximo" e
+                                                  "afastado". A opção "Visualização" é uma das
+                                                  várias <ref target="#Auswahloptionen-pt">opções de
+                                                  seleção</ref> para a apresentação da rede.</p>
+                                            </item>
+                                        </list>
+                                    </div>
+                                </div>
+                                <div>
+                                    <head>Documentação</head>
+                                    <div>
+                                        <head>Contexto</head>
+                                        <p>O espólio do poeta português Fernando Pessoa (1888-1935)
+                                            contém inúmeras listas de projetos editoriais. Estes
+                                            projetos contrastam com apenas algumas publicações
+                                            efetivamente concretizadas durante a sua vida. Daqui
+                                            resulta um contraste entre as dimensões potencial e real
+                                            na produção literária do autor. Esta tensão é ampliada
+                                            pelo facto de Pessoa ter escrito, ou planeado escrever,
+                                            sob vários nomes de autor, cerca de 120 no total. Os
+                                            nomes Alberto Caeiro, Álvaro de Campos e Ricardo Reis, a
+                                            que o autor chamou heterónimos, desempenham um papel
+                                            particularmente importante na obra de Pessoa e nos seus
+                                            projetos editoriais.</p>
+                                        <p>Os blocos de notas, páginas de cadernos e outros papéis
+                                            soltos do espólio de Pessoa, nos quais o poeta registava
+                                            os seus projetos, manuscritos ou datilografados, são
+                                            objeto de edição digital, desenvolvida inicialmente
+                                            através de uma cooperação entre o <ref
+                                                target="http://ielt.fcsh.unl.pt/">Instituto de
+                                                Estudos de Literatura e Tradição (IELT)</ref> da
+                                            Universidade Nova de Lisboa e o <ref
+                                                target="http://cceh.uni-koeln.de/">Cologne Center
+                                                for eHumanities (CCeH)</ref> da Universidade de
+                                            Colónia, e que se encontra disponível em
+                                            pessoadigital.pt.</p>
+                                        <p>Os documentos estão codificados em TEI, registando as
+                                            ocorrências de nomes e identificando as pessoas ou
+                                            figuras por detrás dos nomes. As imagens apresentadas em
+                                            seguida mostram um exemplo de fac-símile, bem como a
+                                            transcrição de uma lista de projetos editoriais de
+                                            Fernando Pessoa:</p>
+                                        <figure>
+                                            <graphic url="/resources/images/content/BNP-E3-8-3v.png"
+                                                width="300px">
+                                                <desc>Documento BNP/E3 8-3v do espólio de Fernando
+                                                  Pessoa</desc>
+                                            </graphic>
+                                        </figure>
+                                        <figure>
+                                            <graphic
+                                                url="/resources/images/content/BNP-E3-8-3v_transkribiert.png"
+                                                width="300px">
+                                                <desc>Transcrição do documento BNP/E3 8-3v, com o
+                                                  nome “Alberto Caeiro“ destacado</desc>
+                                            </graphic>
+                                        </figure>
+                                    </div>
+                                    <div>
+                                        <head>Visualização interativa de redes</head>
+                                        <div>
+                                            <head>Objetivos</head>
+                                            <p>As ocorrências de nomes nos projetos editoriais de
+                                                Pessoa são aqui analisadas com o apoio de uma
+                                                visualização interativa em rede, a fim de permitir
+                                                uma análise do modo como se desenvolve ao longo do
+                                                tempo o universo de pessoas e figuras que Pessoa
+                                                concebeu nos seus escritos. Para o efeito, foram
+                                                contemplados 247 documentos, 188 dos quais contêm
+                                                nomes. Nestes documentos são mencionadas 659 pessoas
+                                                diferentes, o que resulta em 21.880 menções
+                                                individuais de nomes. As visualizações individuais
+                                                mostram pessoas históricas e figuras ficcionais do
+                                                universo de trabalho de Pessoa. É analisada a
+                                                ocorrência dos nomes nos projetos editoriais do
+                                                poeta ao longo do tempo (de 1913 até à sua morte em
+                                                1935).</p>
+                                        </div>
+                                        <div>
+                                            <head>Implementação</head>
+                                            <p>Os dados da rede foram gerados a partir dos
+                                                documentos TEI, utilizando XSLT, e estão disponíveis
+                                                em <ref
+                                                  target="https://github.com/cceh/pessoa/tree/master/app/data/network"
+                                                  >formato JSON</ref>. Os dados JSON estão
+                                                disponíveis no repositório GitHub do projeto de
+                                                edição. A visualização interativa foi criada com a
+                                                biblioteca <ref target="https://d3js.org/">D3</ref>,
+                                                adaptando um esquema de rede de Mike Bostock e
+                                                acrescentando outras funcionalidades (Force Layout
+                                                with Mouseover Labels).</p>
+                                            <p>O tamanho das esferas indica a frequência com que os
+                                                nomes próprios são mencionados nos documentos. A
+                                                espessura das arestas da rede indica a frequência
+                                                com que os nomes ocorrem juntos nos documentos:
+                                                quanto mais frequente for a ocorrência conjunta mais
+                                                espessas serão as linhas na visualização. As
+                                                funcionalidades centrais da utilização da rede são
+                                                as opções de seleção que dizem respeito à cronologia
+                                                das ocorrências de nomes. Assim, além de uma
+                                                visualização global, a rede também pode ser
+                                                apresentada para ocorrências em anos específicos.
+                                                Além disso, é possível uma visualização por períodos
+                                                (por exemplo 1919-1927). Uma vez que existem
+                                                propostas concorrentes nos estudos sobre Pessoa para
+                                                uma periodização da obra, são oferecidas duas
+                                                divisões diferentes em períodos cronológicos. Desta
+                                                forma, torna-se possível examinar criticamente o
+                                                desenvolvimento do universo de pessoas e figuras do
+                                                poeta, tal como por este apresentado nos projetos
+                                                editoriais.</p>
+                                        </div>
+                                        <div>
+                                            <head>Créditos e responsabilidades</head>
+                                            <p>Pedro Sepúlveda e Jorge Uribe são responsáveis pela
+                                                transcrição e edição dos documentos do espólio de
+                                                Fernando Pessoa. Os dados JSON para a rede foram
+                                                gerados por Ulrike Henny-Krahmer a partir das
+                                                transcrições em TEI da edição digital. A
+                                                visualização D3 baseia-se no <ref
+                                                  target="https://bl.ocks.org/mbostock/1212215"
+                                                  >"Force Layout with Mouseover Labels"</ref>,
+                                                originalmente desenvolvido por Mike Bostock e
+                                                disponível ao abrigo da <ref
+                                                  target="https://opensource.org/licenses/GPL-3.0"
+                                                  >GNU General Public License, versão 3</ref>. O
+                                                layout foi adaptado por Sviatoslav Drach e Ben
+                                                Bigalke. Christian Theisen conduziu uma pesquisa
+                                                sobre a visualização de redes nas Humanidades
+                                                Digitais.</p>
+                                            <p>A conceção da rede e os detalhes da sua implementação
+                                                foram desenvolvidos em equipa.</p>
+                                        </div>
+                                        <trailer><seg rend="bold">Colónia, Lisboa e Würzburg,
+                                                2017.</seg>
+                                            <seg rend="bold">A rede foi actualizada em
+                                            2023.</seg></trailer>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </body>
+                    </text>
                 </group>
             </text>
             <text xml:id="lod">
@@ -4376,6 +5748,38 @@
                                         >Wikidata</ref>. Die verlinkten Daten werden in zwei
                                     Formaten angeboten, RDF und BEACON, und können hier in ihrer
                                     Gesamtheit eingesehen und heruntergeladen werden:</p>
+                                <p><ref target="../PD_RDF.txt" type="internal">RDF</ref></p>
+                                <p><ref target="../PD_BEACON.txt" type="internal">BEACON</ref></p>
+                            </div>
+                        </body>
+                    </text>
+                    <text xml:lang="es">
+                        <body>
+                            <div>
+                                <head>Linked Open Data (LOD)</head>
+                                <p>Nesta página pode encontrar ligações para ficheiros que oferecem
+                                    recursos da Edição Digital de Fernando Pessoa em formatos Linked
+                                    Open Data. Os seguintes tipos de recursos estão incluídos nos
+                                    ficheiros LOD:</p>
+                                <list>
+                                    <item>nomes de pessoas e figuras que ocorrem nos documentos e
+                                        publicações da edição digital</item>
+                                    <item>nomes de periódicos que ocorrem nos documentos e
+                                        publicações da edição digital</item>
+                                    <item>obras literárias que aparecem na edição digital sob a
+                                        forma de publicações</item>
+                                </list>
+                                <p>Atualmente, a ocorrência destas entidades é indicada de forma
+                                    geral, sem indicar a fonte específica em que ocorrem.</p>
+                                <p>Estes dados estão ligados a três controles de autoridades: o <ref
+                                        target="https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html"
+                                        >Arquivo Integrado de Autoridades da Biblioteca Nacional
+                                        Alemã (GND)</ref>, o <ref target="https://viaf.org/">Virtual
+                                        International Authority File (VIAF)</ref>, e <ref
+                                        target="https://www.wikidata.org/wiki/Wikidata:Main_Page"
+                                        >Wikidata</ref>. Os Linked Open Data são oferecidos em dois
+                                    formatos, RDF e BEACON, e podem ser acedidos e descarregados
+                                    aqui na sua totalidade:</p>
                                 <p><ref target="../PD_RDF.txt" type="internal">RDF</ref></p>
                                 <p><ref target="../PD_BEACON.txt" type="internal">BEACON</ref></p>
                             </div>

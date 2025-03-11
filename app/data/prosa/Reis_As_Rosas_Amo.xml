@@ -90,7 +90,7 @@
       </revisionDesc>
    </teiHeader>
    <facsimile xml:base="https://images.dh.uni-koeln.de/pessoa/">
-      <graphic url="<!-- Falta -->"/>
+      <graphic url="#"/>
    </facsimile>
    <text corresp="#W429" type="orig">
      <body>

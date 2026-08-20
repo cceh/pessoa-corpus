@@ -472,11 +472,7 @@
                                         <item>Fernanda Alvares Freire (2023-, Universidade de Rostock)<lb/>
                                             <seg rend="smaller">desenvolvimento da base de dados
                                                 (eXist &amp; XQuery), dados abertos conectados</seg>
-                                        </item>
-                                        <item>Erik Renz (2022-, Universidade de Rostock)<lb/>
-                                            <seg rend="smaller">gestão de conteúdos e imagens,
-                                                documentação, dados abertos conectados</seg>
-                                        </item>
+                                        </item>                                        
                                     </list>
                                 </div>
                                 <div>
@@ -518,6 +514,10 @@
                                             de Lisboa)<lb/>
                                             <seg rend="smaller">reunião e transcrição de listas de
                                                 projetos e de poesia publicada em vida</seg>
+                                        </item>
+                                        <item>Erik Renz (2022-2024, Universidade de Rostock)<lb/>
+                                            <seg rend="smaller">gestão de conteúdos e imagens,
+                                                documentação, dados abertos conectados</seg>
                                         </item>
                                         <item>Christian Theisen (2014-2015, Universidade de Colónia)<lb/>
                                             <seg rend="smaller">design do portal, HTML, CSS</seg>
@@ -590,11 +590,6 @@
                                             <seg rend="smaller">database development (eXist &amp;
                                                 XQuery), linked open data</seg>
                                         </item>
-                                        <item>Erik Renz (2022-, University of Rostock)<lb/>
-                                            <seg rend="smaller">content and image management,
-                                                documentation, authority data und linked open
-                                                data</seg>
-                                        </item>
                                     </list>
                                 </div>
                                 <div>
@@ -638,6 +633,11 @@
                                             <seg rend="smaller">collecting and transcription of
                                                 editorial lists and of poetry published in
                                                 lifetime</seg>
+                                        </item>
+                                        <item>Erik Renz (2022-2024, University of Rostock)<lb/>
+                                            <seg rend="smaller">content and image management,
+                                                documentation, authority data und linked open
+                                                data</seg>
                                         </item>
                                         <item>Christian Theisen (2014-2015, University of Cologne)<lb/>
                                             <seg rend="smaller">website design, HTML, CSS</seg>
@@ -712,11 +712,6 @@
                                             <seg rend="smaller">Datenbankentwicklung (eXist &amp;
                                                 XQuery), Linked Open Data</seg>
                                         </item>
-                                        <item>Erik Renz (2022-, Universität Rostock)<lb/>
-                                            <seg rend="smaller">Redaktion von Webseiteninhalten,
-                                                Bilderverwaltung, Dokumentation, Normdaten und
-                                                Linked Open Data</seg>
-                                        </item>
                                     </list>
                                 </div>
                                 <div>
@@ -759,6 +754,11 @@
                                             <seg rend="smaller">Sammlung und Transkription
                                                 editorischer Listen und der zu Lebzeiten
                                                 veröffentlichten Gedichte</seg>
+                                        </item>
+                                        <item>Erik Renz (2022-2024, Universität Rostock)<lb/>
+                                            <seg rend="smaller">Redaktion von Webseiteninhalten,
+                                                Bilderverwaltung, Dokumentation, Normdaten und
+                                                Linked Open Data</seg>
                                         </item>
                                         <item>Christian Theisen (2014-2015, Universität zu Köln)<lb/>
                                             <seg rend="smaller">Design, HTML &amp; CSS</seg>
@@ -831,10 +831,6 @@
                                                 (eXist &amp; XQuery), datos abiertos
                                                 conectados</seg>
                                         </item>
-                                        <item>Erik Renz (2022-, Universidad de Rostock)<lb/>
-                                            <seg rend="smaller">Gestión de contenidos e imágenes,
-                                                documentación, datos abiertos conectados</seg>
-                                        </item>
                                     </list>
                                 </div>
                                 <div>
@@ -877,6 +873,10 @@
                                             <seg rend="smaller">Recolección y transcripción de
                                                 listas de proyectos y de poesía publicada en
                                                 vida</seg>
+                                        </item>
+                                        <item>Erik Renz (2022-2024, Universidad de Rostock)<lb/>
+                                            <seg rend="smaller">Gestión de contenidos e imágenes,
+                                                documentación, datos abiertos conectados</seg>
                                         </item>
                                         <item>Christian Theisen (2014-2015, Universidad de Colonia)<lb/>
                                             <seg rend="smaller">Diseño del portal, HTML, CSS</seg>
